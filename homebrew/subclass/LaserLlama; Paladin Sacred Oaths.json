@@ -911,7 +911,8 @@
 							"name": "Mariner",
 							"page": 3,
 							"entries": [
-								"As long as you are not wearing medium or heavy armor or using a shield, you have a swimming speed equal to your movement speed, and you gain a +1 bonus to your Armor Class."
+						"When you are not wearing heavy armor or a shield, you have a swimming speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.",
+						"You also suffer none of the normal drawbacks of underwater combat."
 							]
 						}
 					]

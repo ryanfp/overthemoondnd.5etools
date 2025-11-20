@@ -17,9 +17,8 @@
 		],
 		"dependencies": {
 			"optionalfeature": [
-				"UALightDarkUnderdark",
-				"UAWaterborneAdventures"
-			]
+				"MATM"
+		]
 		},
 		"optionalFeatureTypes": {
 			"bhea": "Erudite Application"
@@ -1793,7 +1792,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
+							"optionalfeature": "Close Quarters Shooter|MATM"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1813,7 +1812,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Mariner|UAWaterborneAdventures"
+							"optionalfeature": "Mariner|LLExploits"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1829,7 +1828,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
+							"optionalfeature": "Tunnel Fighter|MATM"
 						},
 						{
 							"type": "refOptionalfeature",

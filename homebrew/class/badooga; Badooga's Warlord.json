@@ -28,8 +28,7 @@
 		],
 		"dependencies": {
 			"optionalfeature": [
-				"UALightDarkUnderdark",
-				"UAWaterborneAdventures",
+				"LLExploits",
 				"UAClassFeatureVariants"
 			]
 		},
