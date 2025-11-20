@@ -1,4 +1,11 @@
 ﻿{
+	"readme":  [
+			"NOTE: This feature is designed for use in user-hosted copies of the site, and not for integrating \"official\" 5etools content.",
+			"The \"production\" version of the site (i.e., not the development ZIP) has this feature disabled. You can re-enable it by replacing `IS_DEPLOYED = \"X.Y.Z\";` in the file `js/utils.js`, with `IS_DEPLOYED = undefined;`",
+			"This file contains as an index for other homebrew files, which should be placed in the same directory.",
+			"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory.",
+            "Auto-generated on 2025-11-19 22:09:14"
+               ],
     "toImport":  [
                      "adventure/Arcanum Worlds; Odyssey of the Dragonlords.json",
                      "adventure/Ghostfire Gaming; Dungeons of Drakkenheim In Search of the Smuggler’s Secrets.json",
@@ -302,10 +309,6 @@
                      "variantrule/Matthew Mercer; Corruption Rules.json",
                      "variantrule/Metabot; Stealth Rules.json",
                      "variantrule/Modnar; Modnars Mission Mandates.json",
-                     "variantrule/Pwines; Aerial Combat.json",
-                 ],
-    "readme":  [
-                   "This file contains an index for homebrew files in this directory.",
-                   "Auto-generated on 2025-11-19 22:09:14"
-               ]
+                     "variantrule/Pwines; Aerial Combat.json"
+                 ]
 }
