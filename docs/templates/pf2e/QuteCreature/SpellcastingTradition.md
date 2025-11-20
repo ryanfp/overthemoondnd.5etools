@@ -1,0 +1,4 @@
+# SpellcastingTradition
+
+
+## Attributes

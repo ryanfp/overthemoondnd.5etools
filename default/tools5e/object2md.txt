@@ -1,0 +1,49 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-object
+{#if resource.tags }
+tags:
+{#for tag in resource.tags}
+- {tag}
+{/for}{/if}
+aliases:
+- {resource.name}
+---
+# {resource.name}
+%%-- Embedded content starts on the next line. --%%
+*Source: {resource.source}*  
+
+{#if resource.text }
+{resource.text}
+
+{/if}{#if resource.hasSections }
+## Statblock
+
+{/if}
+```ad-statblock
+title: {resource.name}{#if resource.token}
+{resource.token.getEmbeddedLink("token")}{/if}
+*{resource.size} {resource.objectType}{#if resource.creatureType } ({resource.creatureType}){/if}*
+
+{resource.acHp}
+- **Speed** {resource.speed}
+
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|{resource.scores}|
+
+{#if resource.senses }
+- **Senses** {resource.senses}
+{/if}{#if resource.immuneResist && resource.immuneResist.present }
+{resource.immuneResist}
+{/if}{#if resource.action}
+
+## Actions
+{#for action in resource.action}
+
+{#if action.name }***{action.name}.*** {/if}{action.desc}
+{/for}{/if}
+```
+^statblock
+

@@ -1,0 +1,13 @@
+{#let r=resource}
+{#if r.multilineEffect}
+```ad-inline-attack
+title: {r.rangeType} {r.activity} {r.name.capitalized}{r.bonus.prefixSpace}{r.formattedTraits.prefixSpace}
+{#if r.damage}
+**Damage** {r.damage}  
+{/if}{#if r.multilineEffect}
+**Effect** {r.multilineEffect}  
+{/if}
+```
+{#else}
+- **{r.rangeType}** {r.activity} {r.name}{r.bonus.prefixSpace}{r.formattedTraits.prefixSpace}{#if r.damage}, **Damage** {r.damage}{/if}
+{/if}

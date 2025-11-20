@@ -1,0 +1,25 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-background
+{#if resource.tags }
+tags:
+{#for tag in resource.tags}
+- {tag}
+{/for}{/if}
+aliases:
+- {resource.name}
+---
+# {resource.name}
+*Source: {resource.source}*  
+{#if resource.hasImages }{resource.showPortraitImage}{/if}
+
+{#if resource.prerequisite}
+***Prerequisites*** {resource.prerequisite}
+
+{/if}
+{resource.text}
+{#if resource.hasMoreImages }
+
+{resource.showMoreImages}
+{/if}

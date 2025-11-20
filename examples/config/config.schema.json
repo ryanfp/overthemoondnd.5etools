@@ -1,0 +1,126 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "$defs" : {
+    "Map(String,String)" : {
+      "type" : "object"
+    }
+  },
+  "type" : "object",
+  "properties" : {
+    "exclude" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "excludePattern" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "from" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "images" : {
+      "type" : "object",
+      "properties" : {
+        "copyExternal" : {
+          "type" : "boolean"
+        },
+        "copyInternal" : {
+          "type" : "boolean"
+        },
+        "fallbackPaths" : {
+          "$ref" : "#/$defs/Map(String,String)"
+        },
+        "internalRoot" : {
+          "type" : "string"
+        }
+      }
+    },
+    "include" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "includeGroup" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "includePattern" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "paths" : {
+      "type" : "object",
+      "properties" : {
+        "compendium" : {
+          "type" : "string"
+        },
+        "rules" : {
+          "type" : "string"
+        }
+      }
+    },
+    "reprintBehavior" : {
+      "type" : "string",
+      "enum" : [ "newest", "edition", "all" ]
+    },
+    "sources" : {
+      "type" : "object",
+      "properties" : {
+        "adventure" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "book" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "defaultSource" : {
+          "$ref" : "#/$defs/Map(String,String)"
+        },
+        "homebrew" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "reference" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "toolsRoot" : {
+          "type" : "string"
+        }
+      }
+    },
+    "tagPrefix" : {
+      "type" : "string"
+    },
+    "template" : {
+      "$ref" : "#/$defs/Map(String,String)"
+    },
+    "useDiceRoller" : {
+      "type" : "boolean"
+    },
+    "yamlStatblocks" : {
+      "type" : "boolean"
+    }
+  }
+}

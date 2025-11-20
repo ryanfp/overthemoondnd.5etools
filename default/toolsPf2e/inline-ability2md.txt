@@ -1,0 +1,36 @@
+```ad-embed-ability
+{#if resource.hasDetails }
+title: **{#if resource.reference}{resource.reference}{#else}{resource.name}{/if}** {resource.activity}{resource.components.join(", ").prefixSpace}{#if resource.traits} ({resource.bareTraitList}){/if}
+{#if resource.note}
+> [!pf2-note] 
+> {resource.note}
+{/if}{#if resource.range}
+- **Range**: {resource.range}
+{/if}{#if resource.cost}
+- **Cost**: {resource.cost}
+{/if}{#if resource.frequency}
+- **Frequency**: {resource.frequency}
+{/if}{#if resource.trigger}
+- **Trigger**: {resource.trigger}
+{/if}{#if resource.requirements}
+- **Requirements**: {resource.requirements}
+{/if}{#if resource.prerequisites}
+- **Prerequisites**: {resource.prerequisites}
+{/if}{#if resource.hasAttributes}
+
+{/if}{#if resource.hasEffect}
+**Effect** {/if}{resource.text}  
+{#if resource.special}
+
+**Special**: {resource.special}  
+{/if}{#if resource.source || resource.tags}
+%%
+{#if resource.source}
+Source: {resource.source}*  
+{/if}
+{#each resource.tags} #{it} {/each}
+%%{/if}
+{#else}
+title: **{resource.name}** {resource.text}
+{/if}
+```

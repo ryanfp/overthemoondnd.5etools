@@ -1,0 +1,39 @@
+---
+obsidianUIMode: preview
+cssclasses: pf2e,pf2e-ability
+{#if resource.tags}
+tags:
+{#each resource.tags}
+- {it}
+{/each}{/if}
+aliases:
+- {resource.name}
+---
+# {resource.name} {resource.activity}
+{resource.traits join "  "}
+
+{#if resource.activity && resource.activity.text}
+- **Activate**: {resource.activity.text}{resource.components.join(", ").prefixSpace}
+{/if}{#if resource.range}
+- **Range**: {resource.range}
+{/if}{#if resource.cost}
+- **Cost**: {resource.cost}
+{/if}{#if resource.frequency}
+- **Frequency**: {resource.frequency}
+{/if}{#if resource.trigger}
+- **Trigger**: {resource.trigger}
+{/if}{#if resource.requirements}
+- **Requirements**: {resource.requirements}
+{/if}{#if resource.prerequisites}
+- **Prerequisites**: {resource.prerequisites}
+{/if}{#if resource.hasAttributes}
+
+{/if}{#if resource.hasEffect}
+**Effect** {/if}{resource.text}
+{#if resource.special}
+
+{resource.special}
+{/if}{#if resource.source}
+
+*Source: {resource.source}*
+{/if}

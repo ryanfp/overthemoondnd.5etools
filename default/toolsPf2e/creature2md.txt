@@ -1,0 +1,69 @@
+{#with resource}
+---
+obsidianUIMode: preview
+cssclasses: pf2e,pf2e-creature
+{#if tags}
+tags:
+{#each tags}
+- {it}
+{/each}
+{/if}
+{#if aliases}
+aliases:
+{#each aliases}
+- {it}
+{/each}
+{/if}
+---
+# {name} *Creature {level}*  
+{traits join " "}
+
+``````ad-statblock-pf2e
+{#if perception}
+- **Perception** {perception.asBonus}; {senses join ", "}
+{/if}{#if languages}
+- **Languages** {languages}
+{/if}{#if skills}
+- **Skills** {skills}
+{/if}{#if abilityMods}
+- {#each abilityMods.keys}**{it.capitalized}** {abilityMods.get(it).asBonus}{#if it_hasNext}, {/if}{/each}
+{/if}{#if items}
+- **Items** {items join ", "}
+{/if}{#each abilities.top}
+{it}
+{/each}
+---
+{#if defenses}
+{defenses}
+{/if}{#each abilities.middle}
+{it}
+{/each}
+---
+- **Speed** {speed}
+{#for spells in spellcasting}
+- **{spells.name}** {spells.formattedStats}{#if spells.notes}, {spells.notes join ", "}{/if}{!
+!}{#if spells.ranks}; {/if}{spells.ranks join "; "}{!
+!}{#if spells.constantRanks}; {/if}{#each spells.constantRanks}{!
+  !}**Constant ({it.rank})** {it.spells join ", "}{#if it_hasNext}; {/if}{!
+!}{/each}
+{/for}{#for rituals in ritualCasting}
+- **{rituals.name}** {#if rituals.dc}DC {rituals.dc}; {/if}{rituals.ranks join "; "}
+{/for}{#each attacks}
+{it}  
+{/each}{#each abilities.bottom}
+{it}
+{/each}
+
+``````
+^statblock
+
+{#if hasSections}
+## Summary
+{/if}{#if description}
+{description}
+{/if}{#if text}
+{it}
+{/if}
+
+*Source: {source}*
+{/with}

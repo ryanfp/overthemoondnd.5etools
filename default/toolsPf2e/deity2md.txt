@@ -1,0 +1,79 @@
+---
+obsidianUIMode: preview
+cssclasses: pf2e,pf2e-deity
+{#if resource.tags }
+tags:
+{#for tag in resource.tags}
+- {tag}
+{/for}{/if}
+aliases: 
+- {resource.name}
+{#if resource.aliases }{#each resource.aliases}
+- {it}
+{/each}{/if}
+---
+# {resource.name}{#if resource.aliases } ({#each resource.aliases}{it}{#if it_hasNext}, {/if}{/each}){/if} *({resource.alignment})*  
+*Source: {resource.source}*  
+{#if resource.text }
+
+{resource.text}
+{/if}
+
+- **Category**: {resource.category}
+{#if resource.pantheon }
+- **Pantheon Members**: {resource.pantheon}
+{/if}{#if resource.edicts }
+- **Edicts** {resource.edicts}
+{/if}{#if resource.anathema }
+- **Anathema**: {resource.anathema}
+{/if}{#if resource.areasOfConcern }
+- **Areas of Concern**: {resource.areasOfConcern}
+{/if}{#if resource.followerAlignment }
+- **Follower Alignments**: {resource.followerAlignment}
+{/if}
+{#if resource.cleric }
+
+## Devotee benefits
+
+{resource.cleric}
+{/if}
+{#if resource.avatar}{#let avatar=resource.avatar}
+{#if avatar.preface}
+{avatar.preface}
+
+{/if}
+```ad-embed-avatar
+title: {avatar.name}
+
+{#if avatar.speed or avatar.shield}
+- {#if avatar.speed}Speed {avatar.speed}{#if avatar.shield}; {/if}{/if}{avatar.shield or ''}
+{/if}
+{#each avatar.attacks}
+- {it}
+{/each}{#each avatar.ability}
+- {it}
+{/each}
+```
+{/if}{#if resource.intercession }
+
+## Divine intercession  
+*Source: {resource.intercession.source}*
+
+{resource.intercession.flavor}
+
+{#if resource.intercession.minorBoon }
+- **Minor Boon** {resource.intercession.minorBoon}
+{/if}{#if resource.intercession.moderateBoon }
+- **Moderate Boon**: {resource.intercession.moderateBoon}
+{/if}{#if resource.intercession.majorBoon }
+- **Major Boon**: {resource.intercession.majorBoon}
+{/if}
+
+{#if resource.intercession.minorCurse }
+- **Minor Curse**: {resource.intercession.minorCurse}
+{/if}{#if resource.intercession.moderateCurse }
+- **Moderate Curse** {resource.intercession.moderateCurse}
+{/if}{#if resource.intercession.majorCurse }
+- **Major Curse**: {resource.intercession.majorCurse}
+{/if}
+{/if}

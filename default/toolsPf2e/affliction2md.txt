@@ -1,0 +1,52 @@
+---
+obsidianUIMode: preview
+cssclasses: pf2e,pf2e-affliction
+{#if resource.tags }
+tags:
+{#for tag in resource.tags}
+- {tag}
+{/for}{/if}
+aliases: 
+- {resource.name}
+{#if resource.aliases }{#each resource.aliases}
+- {it}
+{/each}{/if}
+---
+# {resource.name}{#if resource.formattedLevel} *{resource.formattedLevel}*{/if}
+{#if resource.traits}{#each resource.traits}{it}  {/each}{/if}
+
+{#if resource.notes}
+{#each resource.notes}{it}{#if it_hasNext}, {/if}{/each}
+
+{/if}{#if resource.savingThrow}
+- **Saving Throws**: {resource.savingThrow}
+{/if}{#if resource.onset}
+- **Onset**: {resource.onset}
+{/if}{#if resource.maxDuration}
+- **Maximum Duration**: {resource.maxDuration}
+{/if}{#if resource.effect}
+
+**Effect** {resource.effect}
+{/if}{#if resource.text}
+
+{#if resource.hasSections}
+## Summary
+{/if}
+{resource.text}
+
+{/if}{#if resource.temptedCurse}
+
+## Tempting Curse
+
+{resource.temptedCurse}
+{/if}{#if resource.stages}
+
+## Stages
+
+{#each resource.stages}
+**{it.key}** {it.value.text}{#if it.value.duration } ({it.value.duration}){/if}  
+{/each}
+
+{/if}
+
+*Source: {resource.source}*

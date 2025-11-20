@@ -1,0 +1,87 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-monster
+{#if resource.tags }
+tags:
+{#for tag in resource.tags}
+- {tag}
+{/for}{/if}
+aliases:
+- {resource.name}
+---
+# {resource.name}
+*Source: {resource.source}*  
+
+{#if resource.description }
+{resource.description}
+
+{/if}{#if resource.hasSections }
+## Statblock
+
+{/if}
+```ad-statblock
+title: {resource.name}{#if resource.token}
+{resource.token.getEmbeddedLink("token")}{/if}
+*{resource.size} {resource.fullType}, {resource.alignment}*
+
+{resource.acHp}
+- **Speed** {resource.speed}
+
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|{resource.scores}|
+
+- **Proficiency Bonus** {resource.pb}
+- **Saving Throws** {#if resource.savingThrows }{resource.savingThrows}{#else}⏤{/if}
+- **Skills** {#if resource.skills }{resource.skills}{#else}⏤{/if}
+- **Senses** {#if resource.senses }{resource.senses}, {/if}passive Perception {resource.passive}
+{#if resource.immuneResist && resource.immuneResist.present }
+{resource.immuneResist}
+{/if}{#if resource.gear}
+- **Gear** {resource.gear.join(", ")}
+{/if}
+- **Languages** {#if resource.languages }{resource.languages}{#else}—{/if}
+- **Challenge** {resource.cr}
+{#if resource.trait}
+
+## Traits
+{#for trait in resource.trait}
+
+{#if trait.name }***{trait.name}.*** {/if}{trait.desc}
+{/for}{/if}{#if resource.action}
+
+## Actions
+{#for action in resource.action}
+
+{#if action.name }***{action.name}.*** {/if}{action.desc}
+{/for}{/if}{#if resource.bonusAction}
+
+## Bonus Actions
+{#for bonusAction in resource.bonusAction}
+
+{#if bonusAction.name }***{bonusAction.name}.*** {/if}{bonusAction.desc}
+{/for}{/if}{#if resource.reaction}
+
+## Reactions
+{#for reaction in resource.reaction}
+
+{#if reaction.name }***{reaction.name}.*** {/if}{reaction.desc}
+{/for}{/if}{#if resource.legendary}
+
+## Legendary Actions
+{#for legendary in resource.legendary}
+
+{#if legendary.name }***{legendary.name}.*** {/if}{legendary.desc}
+{/for}{/if}{#if resource.legendaryGroupLink}
+
+!{resource.legendaryGroupLink}
+{/if}
+```
+^statblock
+{#if resource.environment }
+
+## Environment
+
+{resource.environment}
+{/if}

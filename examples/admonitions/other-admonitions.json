@@ -1,0 +1,74 @@
+[
+  {
+    "type": "charm",
+    "icon": {
+      "name": "magic",
+      "type": "font-awesome"
+    },
+    "title": "Charm",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  },
+  {
+    "type": "letter",
+    "icon": {
+      "name": "envelope-open-text",
+      "type": "font-awesome"
+    },
+    "title": "Letter",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  },
+  {
+    "type": "npc",
+    "icon": {
+      "name": "address-card",
+      "type": "font-awesome"
+    },
+    "title": "NPC",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  },
+  {
+    "type": "scene",
+    "icon": {
+      "name": "archway",
+      "type": "font-awesome"
+    },
+    "title": "Scene",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  },
+  {
+    "type": "skill",
+    "icon": {
+      "name": "hand-sparkles",
+      "type": "font-awesome"
+    },
+    "title": "Skill Check",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  },
+  {
+    "type": "weather",
+    "icon": {
+      "name": "cloud-sun",
+      "type": "font-awesome"
+    },
+    "title": "Weather",
+    "command": false,
+    "injectColor": false,
+    "noTitle": false,
+    "copy": false
+  }
+]

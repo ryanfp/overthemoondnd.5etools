@@ -1,0 +1,11 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-note
+- json5e-index
+---
+# Index of {name}
+
+{#for mapping in resources}
+- [{mapping.title}]({mapping.relativePath})
+{/for}
