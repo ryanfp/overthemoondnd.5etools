@@ -1,0 +1,12 @@
+# Force correct MIME types for service worker files
+/sw-injector.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sw.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
+
+# All JavaScript files
+/*.js
+  Content-Type: application/javascript; charset=utf-8
