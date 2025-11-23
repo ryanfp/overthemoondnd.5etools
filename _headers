@@ -1,10 +1,5 @@
 /sw-injector.js
   Content-Type: application/javascript; charset=utf-8
-  Cache-Control: public, max-age=0, must-revalidate
 
 /sw.js
-  Content-Type: application/javascript; charset=utf-8
-  Cache-Control: public, max-age=0, must-revalidate
-
-/*.js
   Content-Type: application/javascript; charset=utf-8
