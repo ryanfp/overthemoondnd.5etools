@@ -1,5 +1,11 @@
 /sw-injector.js
-  Content-Type: application/javascript; charset=utf-8
+  Content-Type: application/javascript
+  X-Content-Type-Options: nosniff
 
 /sw.js
-  Content-Type: application/javascript; charset=utf-8
+  Content-Type: application/javascript
+  X-Content-Type-Options: nosniff
+
+# NO wildcards - list EVERY JS file if needed
+/js/utils.js
+  Content-Type: application/javascript
