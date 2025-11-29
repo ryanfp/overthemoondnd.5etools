@@ -1,0 +1,324 @@
+{
+	"siteVersion": "2.17.0",
+	"fileType": "content-blocklist",
+	"blocklist": [
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AI"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "RMR"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HftT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "LRDT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "WttHC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "RMBRE"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "OoW"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AWM"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "BQGT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HBTD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HAT-LMI"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HAT-TG"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "LK"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MisMV1"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MCV3MC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MGELFT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PiP"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ScoEE"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "UtHftLH"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AZfyT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AATM"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ALCurseOfStrahd"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ALElementalEvil"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ALRageOfDemons"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AL"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AitFR-AVT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AitFR-DN"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AitFR-FCD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AitFR-ISF"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AitFR-THP"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HFStCM"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MaBJoV"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MCV1SC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MFF"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-ASS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-AVitW"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-AWoL"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-AT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-CoI"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-TCMC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "NRH-TLT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSA"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSI"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSX"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSK"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "PSZ"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "RtG"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SADS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SjA"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "UATheMysticClass"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "VD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "XMtS"
+		}
+	]
+}

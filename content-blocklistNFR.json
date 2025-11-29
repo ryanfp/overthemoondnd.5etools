@@ -1,0 +1,132 @@
+{
+	"siteVersion": "2.17.0",
+	"fileType": "content-blocklist",
+	"blocklist": [
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SCC-ARiR"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "AZfyT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "BQGT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SCC-CK"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "FS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SCC-HfMT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "KKW"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "LK"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "MPP"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "LRDT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ScoEE"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SatO"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SjA"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "WttHC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "SCC-TMM"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ToR"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ToFW"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "UtHftLH"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "US"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "XMtS"
+		}
+	]
+}

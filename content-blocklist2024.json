@@ -1,0 +1,114 @@
+{
+	"siteVersion": "2.17.0",
+	"fileType": "content-blocklist",
+	"blocklist": [
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-ACfaS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-BD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-BtS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "BQGT"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-DaS"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-DotSC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "XScreen"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-FWtVC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HotB"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "HFDoMM"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "ScoEE"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-SD"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "WttHC"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-TDoN"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-TFV"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "DrDe-TWoO"
+		},
+		{
+			"displayName": "*",
+			"hash": "*",
+			"category": "*",
+			"source": "UtHftLH"
+		}
+	]
+}
