@@ -1,0 +1,126 @@
+{
+	"siteVersion": "2.19.0",
+	"fileType": "content-blocklist",
+	"blocklist": [
+		{
+			"displayName": "Acquisitions Incorporated",
+			"hash": "ai",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Adventure Atlas: The Mortuary",
+			"hash": "aatm",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Adventurers League",
+			"hash": "al",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeon Master's Screen",
+			"hash": "screen",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeon Master's Screen (2024)",
+			"hash": "xscreen",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeon Master's Screen: Dungeon Kit",
+			"hash": "screendungeonkit",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeon Master's Screen: Spelljammer",
+			"hash": "screenspelljammer",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeon Master's Screen: Wilderness Kit",
+			"hash": "screenwildernesskit",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Dungeons & Dragons vs. Rick and Morty: Basic Rules",
+			"hash": "rmr",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Morte's Planar Parade",
+			"hash": "mpp",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Amonkhet",
+			"hash": "ps-a",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Dominaria",
+			"hash": "ps-d",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Innistrad",
+			"hash": "ps-i",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Ixalan",
+			"hash": "ps-x",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Kaladesh",
+			"hash": "ps-k",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Plane Shift: Zendikar",
+			"hash": "ps-z",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Sigil and the Outlands",
+			"hash": "sato",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "The Deck of Many Things: Card Reference Guide",
+			"hash": "dmtcrg",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "The Lord of the Rings Roleplaying",
+			"hash": "tlotrr",
+			"category": "book",
+			"source": "*"
+		},
+		{
+			"displayName": "Unearthed Arcana: Waterborne Adventures",
+			"hash": "uawaterborneadventures",
+			"category": "book",
+			"source": "*"
+		}
+	]
+}
