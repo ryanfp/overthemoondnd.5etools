@@ -1,8 +1,8 @@
 ---
-name: Bug Report
+name: "\U0001F41B Bug Report"
 about: Document an issue
 title: "[BUG] *insert title*"
-labels: bug
+labels: bug, feature
 assignees: ryanfp
 
 ---

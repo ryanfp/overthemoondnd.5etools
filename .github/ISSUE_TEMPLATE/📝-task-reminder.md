@@ -1,5 +1,5 @@
 ---
-name: Task Reminder
+name: "\U0001F4DD Task Reminder"
 about: Goal or "To-Do" Documentation
 title: "[TO-DO] *insert title*"
 labels: to-do
