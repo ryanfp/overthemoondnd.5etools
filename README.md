@@ -1,3 +1,11 @@
+# Hello!
+
+This is my personal mirror of the [5e.tools](https://5e.tools/index.html) website. This branch is used to safely merge pull-requests and pull updates from the official repo. For the main branch I use for site deployments, please switch to `homebrew`.
+
+Original README:
+
+---
+
 # 5e.tools
 
 Visit the [main site](https://5e.tools/index.html) or go to the unofficial GitHub [mirror](index.html).
