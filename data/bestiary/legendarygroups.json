@@ -295,23 +295,6 @@
 			]
 		},
 		{
-			"name": "Ancient Deep Crow",
-			"source": "AI",
-			"page": 211,
-			"regionalEffects": [
-				"The region containing an ancient deep crow's lair is transformed by the creature's presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Supernatural shadow turns all bright light to dim light in underground regions within 6 miles of the lair.",
-						"Intermittent, echoing caws can be heard coming from all directions within 6 miles of the lair.",
-						"Subterranean beasts within 1 mile of the ancient deep crow's lair serve as the creature's eyes and ears, alerting it to the presence of intruders and making it all but impossible to surprise the ancient deep crow."
-					]
-				},
-				"If the ancient deep crow dies, these effects fade immediately."
-			]
-		},
-		{
 			"name": "Ancient Dragon Turtle",
 			"source": "FTD",
 			"page": 191,
@@ -364,44 +347,6 @@
 				},
 				"If the dragon turtle dies, these effects fade over the course of {@dice 1d10} days."
 			]
-		},
-		{
-			"name": "Annis Hag",
-			"source": "VGM",
-			"page": 159,
-			"_copy": {
-				"name": "Hag",
-				"source": "VGM",
-				"_mod": {
-					"lairActions": {
-						"mode": "appendArr",
-						"items": [
-							"A powerful annis hag might have the following additional lair action:",
-							{
-								"type": "list",
-								"items": [
-									"The hag creates a thick cloud of caustic black smoke that fills a 20-foot-radius sphere centered on a point she can see within 120 feet her. The cloud lasts until initiative count 20 on the next round. Creatures and objects in or behind the smoke are heavily obscured. A creature that enters the cloud for the first time on a turn or starts its turn there takes 10 ({@damage 3d6}) acid damage."
-								]
-							}
-						]
-					},
-					"regionalEffects": {
-						"mode": "appendArr",
-						"items": [
-							"A powerful annis hag creates one or more of the following additional regional effects within 1 mile of her lair:",
-							{
-								"type": "list",
-								"items": [
-									"The gravel stones on a safe-looking path, road, or trails occasionally become sharp for 100-foot intervals. Walking on these areas is like walking on caltrops.",
-									"Small avalanches of rock intermittently fall, blocking a path or burying intruders. A buried creature is {@condition restrained} and has to hold its breath until it is dug out.",
-									"Strange laughter, sounding like that of children or the hag herself, occasionally pierces the silence.",
-									"Small cairns appear along the route of travelers, containing anything from mysterious bones to nothing at all. These cairns might be haunted by skeletons, specters, or hostile fey."
-								]
-							}
-						]
-					}
-				}
-			}
 		},
 		{
 			"name": "Arasta",
@@ -586,49 +531,6 @@
 			]
 		},
 		{
-			"name": "Aurnozci",
-			"source": "BMT",
-			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Aurnozci can take one of the following lair actions; Aurnozci can't take the same lair action two rounds in a row:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Cocoon",
-							"entry": "Aurnozci targets one Medium or smaller creature it can see within 60 feet of itself and encases the creature in a constricting cocoon. The target must succeed on a {@dc 23} Strength saving throw or have the restrained condition for 1 minute. A target that starts its turn restrained in this way takes 9 ({@damage 2d8}) bludgeoning damage. A creature can use its action to try to tear apart the cocoon, ending the cocoon's effect with a successful {@dc 23} Strength (Athletics) check."
-						},
-						{
-							"type": "item",
-							"name": "Insect Swarm",
-							"entry": "Aurnozci creates a 30-foot-radius sphere of stinging wasps centered on a point within 300 feet of itself. The sphere spreads around corners. The sphere remains for 10 minutes or until Aurnozci uses this lair action again. The sphere's area is heavily obscured and is difficult terrain. When the sphere appears, each creature in it must make a {@dc 20} Constitution saving throw, taking 16 ({@damage 3d10}) piercing damage and 16 ({@damage 3d10}) poison damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the sphere's area for the first time on a turn or starts its turn there."
-						}
-					]
-				}
-			],
-			"regionalEffects": [
-				"Xulregg is an oppressively muggy realm known for the following regional effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Boiling Water",
-							"entry": "Bodies of water on Xulregg perpetually boil, and even bottled liquids steam when exposed to the layer's atmosphere. Being immersed in water there doesn't confer resistance to fire damage, and a creature that starts its turn in water takes 7 ({@damage 2d6}) fire damage. A creature that imbibes a liquid (such as a potion) takes 3 ({@damage 1d6}) fire damage."
-						},
-						{
-							"type": "item",
-							"name": "Fast Metamorphosis",
-							"entry": "On Xulregg, eggs, larvae, and pupae all develop and metamorphose at ten times their usual rate, regardless of sustenance or any other growing conditions."
-						}
-					]
-				},
-				"If Aurnozci dies, these effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
 			"name": "Baalzebul",
 			"source": "CoA",
 			"page": 218,
@@ -673,81 +575,6 @@
 					]
 				},
 				"If Baalzebul dies, the effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
-			"name": "Baalzebul",
-			"source": "MaBJoV",
-			"page": 91,
-			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Baalzebul can take one lair action to cause one of the following effects; Baalzebul can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"Baalzebul casts his innate hold monster.",
-						"Baalzebul emits slime in a 5-foot radius centered on him. Any creature that starts their turn standing in this slime is considered {@condition grappled} and must use their action to succeed on {@dc 17} Strength ({@skill Athletics}) check to break free.",
-						"Baalzebul uses half his burrow speed to dig into the ground. He gains half-cover when buried 10 feet and {@quickref Cover||3||three-quarters cover} when at 20 feet."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Baalzebul's lair is corrupted by his presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Within 1 mile of Baalzebul's lair, stinking piles of filth accumulate as if from nowhere. The entire area is covered with garbage and feces and is treated as {@quickref difficult terrain||3}.",
-						"Within 2 miles of the lair, the air is filled with buzzing flies. Any creature that finishes a short or long rest in this area must succeed on a {@dc 22} Wisdom saving throw or derive no benefit from the rest."
-					]
-				},
-				"If Baalzebul dies, the effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
-			"name": "Baernaloth",
-			"source": "MPP",
-			"lairActions": [
-				"On initiative count 20 (losing initiative ties), a baernaloth can take one of the following lair actions; the baernaloth can't take the same lair action two rounds in a row:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Consume Suffering.",
-							"entry": "Until initiative count 20 on the next round, when a creature in the baernaloth's lair other than the baernaloth takes necrotic or psychic damage or drops to 0 hit points, the baernaloth regains 10 ({@dice 3d6}) hit points."
-						},
-						{
-							"type": "item",
-							"name": "Discover Secrets.",
-							"entry": "The baernaloth uses Spellcasting to cast detect thoughts. A creature targeted by the spell cast in this way takes 13 ({@damage 3d8}) psychic damage."
-						},
-						{
-							"type": "item",
-							"name": "Recurring Wound.",
-							"entry": "A creature that doesn't have all its hit points and that the baernaloth can see in its lair must make a {@dc 19} Constitution saving throw, taking 22 ({@damage 4d10}) necrotic damage on a failed save, or half as much damage on a successful one."
-						}
-					]
-				}
-			],
-			"regionalEffects": [
-				"A region containing a baernaloth's lair becomes warped by the creature's unnatural presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Persistent Anguish.",
-							"entry": "Within 10 miles of a baernaloth's lair, when a creature casts a spell that either restores hit points or removes the charmed or frightened condition, the spell fails and is wasted unless the caster succeeds on a {@dc 19} saving throw using its spellcasting ability. Once a creature succeeds on the saving throw, it is immune to this regional effect for 24 hours."
-						},
-						{
-							"type": "item",
-							"name": "Slow Healing.",
-							"entry": "Within 10 miles of a baernaloth's lair, a creature other than the baernaloth regains only hit points equal to half its hit point maximum when it finishes a long rest, and it regains only half the usual number of hit points when it spends Hit Dice during a short rest."
-						}
-					]
-				},
-				"If the baernaloth dies, these effects end immediately."
 			]
 		},
 		{
@@ -804,33 +631,6 @@
 								"Creatures within 1 mile of the balhannoth's lair experience the sensation of being close to whatever they desire most. The sensation grows stronger the closer the creatures come to the balhannoth's lair."
 							]
 						}
-					]
-				},
-				"If the balhannoth dies, these effects end immediately."
-			]
-		},
-		{
-			"name": "Balhannoth",
-			"source": "MTF",
-			"page": 119,
-			"lairActions": [
-				"When fighting inside its lair, a balhannoth can use lair actions. On initiative count 20 (losing initiative ties), a balhannoth can take one lair action to cause one of the following effects; the balhannoth can't use the same lair action two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"The balhannoth warps reality around it in an area up to 500 feet square. After 10 minutes, the terrain in the area reshapes to assume the appearance of a location sought by one intelligent creature whose mind the balhannoth has read (see Regional Effects below). The transformation affects nonliving material only and can't create anything with moving parts or magical properties. Any object created in this area is, upon close inspection, revealed as a fake. Books are filled with empty pages, golden items are obvious counterfeits, and so on. The transformation lasts until the balhannoth dies or uses this lair action again.",
-						"The balhannoth targets one creature within 500 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or the target, along with whatever it is wearing and carrying, teleports to an unoccupied space of the balhannoth's choice within 60 feet of it.",
-						"The balhannoth targets one creature within 500 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or the balhannoth becomes {@condition invisible} to that creature for 1 minute. This effect ends if the balhannoth attacks the target."
-					]
-				}
-			],
-			"regionalEffects": [
-				"A region containing a balhannoth's lair becomes warped by the creature's unnatural presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Creatures within 1 mile of the balhannoth's lair experience a sensation of being close to whatever they desire most. The sensation grows stronger the closer the creatures come to the balhannoth's lair.",
-						"The balhannoth can sense the strongest desires of any humanoid within 1 mile of it and learns whether those desires involve a place: a safe location to rest, a temple, home, or somewhere else."
 					]
 				},
 				"If the balhannoth dies, these effects end immediately."
@@ -900,75 +700,6 @@
 					]
 				},
 				"If Baphomet dies, these effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
-			"name": "Baphomet",
-			"source": "MTF",
-			"page": 143,
-			"lairActions": [
-				"On initiative count 20 (losing initiative ties), Baphomet can take a lair action to cause one of the following magical effects; he can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"Baphomet seals one doorway or other entryway within the lair. The opening must be unoccupied. It is filled with solid stone for 1 minute or until Baphomet creates this effect again.",
-						"Baphomet chooses a room within the lair that is no larger in any dimension than 100 feet. Until the next initiative count 20, gravity is reversed within that room. Any creatures or objects in the room when this happens fall in the direction of the new pull of gravity, unless they have some means of remaining aloft. Baphomet can ignore the gravity reversal if he's in the room, although he likes to use this action to land on a ceiling to attack targets flying near it.",
-						"Baphomet casts {@spell mirage arcane}, affecting a room within the lair that is no larger in any dimension than 100 feet. The effect ends on the next initiative count 20."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Baphomet's lair is warped by his magic, creating one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Plant life within 1 mile of the lair grows thick and forms walls of trees, hedges, and other flora in the form of small mazes.",
-						"Beasts within 1 mile of the lair become {@condition frightened} and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby.",
-						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a {@dc 18} Wisdom saving throw or descend into a madness determined by the Madness of Baphomet table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
-					]
-				},
-				"If Baphomet dies, these effects fade over the course of {@dice 1d10} days.",
-				{
-					"type": "entries",
-					"name": "Madness of Baphomet",
-					"entries": [
-						"If a creature goes mad in Baphomet's lair or within line of sight of the demon lord, roll on the Madness of Baphomet table to determine the nature of the madness, which is a character flaw that lasts until cured. See the {@book Dungeon Master's Guide|dmg|8|madness} for more on madness.",
-						{
-							"type": "table",
-							"caption": "Madness of Baphomet",
-							"colLabels": [
-								"d100",
-								"Flaw (lasts until cured)"
-							],
-							"colStyles": [
-								"col-1",
-								"col-11"
-							],
-							"rows": [
-								[
-									"01\u201320",
-									"\"My anger consumes me. I can't be reasoned with when my rage has been stoked.\""
-								],
-								[
-									"21\u201340",
-									"\"I degenerate into beastly behavior, seeming more like a wild animal than a thinking being.\""
-								],
-								[
-									"41\u201360",
-									"\"The world is my hunting ground. Others are my prey.\""
-								],
-								[
-									"61\u201380",
-									"\"Hate comes easily to me and explodes into rage.\""
-								],
-								[
-									"81\u201300",
-									"\"I see those who oppose me not as people, but as beasts meant to be preyed upon.\""
-								]
-							]
-						}
-					]
-				}
 			]
 		},
 		{
@@ -1149,44 +880,6 @@
 				},
 				"If Belial dies, the effects fade over the course of {@dice 1d10} days."
 			]
-		},
-		{
-			"name": "Bheur Hag",
-			"source": "VGM",
-			"page": 160,
-			"_copy": {
-				"name": "Hag",
-				"source": "VGM",
-				"_mod": {
-					"lairActions": {
-						"mode": "appendArr",
-						"items": [
-							"A powerful bheur hag might have the following additional lair action:",
-							{
-								"type": "list",
-								"items": [
-									"The hag creates a blizzard in a 40-foot-high, 20-foot radius cylinder centered on a point she can see within 120 feet of her. The effect lasts until initiative count 20 on the next round. The blizzard lightly obscures every creature and object in the area for the duration. A creature that enters the blizzard for the first time on a turn or starts its turn there is {@condition blinded} until initiative count 20 on the next round."
-								]
-							}
-						]
-					},
-					"regionalEffects": {
-						"mode": "appendArr",
-						"items": [
-							"A powerful bheur hag creates one or more of the following additional regional effects within 1 mile of her lair:",
-							{
-								"type": "list",
-								"items": [
-									"Small avalanches of snow intermittently fall, blocking a path or burying intruders. A buried creature is {@condition restrained} and has to hold its breath until it is dug out.",
-									"Human-sized blocks of ice appear, containing frozen corpses. These corpses might break free and attack as zombies, or their spirits might attack as specters.",
-									"Blizzards come without warning. A blizzard occurs once every {@dice 2d12} hours and lasts {@dice 1d3} hours. During a storm, creatures moving overland travel at half normal speed, and normal visibility is reduced to 30 feet.",
-									"Roads, paths, and trails twist and turn back on themselves, making navigation in the area exceedingly difficult."
-								]
-							}
-						]
-					}
-				}
-			}
 		},
 		{
 			"name": "Black Dragon",
@@ -1657,21 +1350,6 @@
 			]
 		},
 		{
-			"name": "Captain N'ghathrod",
-			"source": "WDMM",
-			"page": 250,
-			"lairActions": [
-				"When fighting aboard the Scavenger, N'ghathrod can take lair actions. On initiative count 20 (losing initiative ties), N'ghathrod can take one lair action to cause one of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"N'ghathrod creates a magical duplicate of itself anywhere aboard the ship. Formed out of psionic energy, this duplicate lasts until it is reduced to 0 hit points, until it is dispelled ({@dc 15}), or until N'ghathrod takes another lair action. The duplicate has the statistics of a normal mind flayer and is friendly toward N'ghathrod, but not under its control. It cannot leave the Scavenger.",
-						"N'ghathrod fills all interior areas of the ship with mind-warping images and sounds of the Far Realm that last until initiative count 20 on the next round. Any creature that isn't an aberration that starts its turn inside the ship must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage."
-					]
-				}
-			]
-		},
-		{
 			"name": "Copper Dragon",
 			"source": "MM",
 			"page": 112,
@@ -1781,34 +1459,6 @@
 			]
 		},
 		{
-			"name": "Cryonax",
-			"source": "MaBJoV",
-			"page": 97,
-			"lairActions": [
-				"When Cryonax occupies Frostfell, or any area that he has corrupted by inhabiting it for at least a week, he can command the snow and ice around him to take lair actions. On initiative count 20 (losing initiative ties), Cryonax can take a lair action to cause one of the following effects; Cryonax can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"Ice and snow explode in radius of 60 feet around Cryonax. This creates a freezing mist full of hail and larger chunks of ice that will heavily obscure the area and last until initiative count 20 of the next round. All creatures within the area of effect take 13 ({@damage 3d8}) cold damage and must make a {@dc 20} Wisdom saving throw or be {@condition blinded} until initiative count 20 of the next round.",
-						"The air freezes in a 120 feet wide (and tall) hemisphere centered around Cryonax. This effect forms hundreds of sharp icicles. These immediately crash to the ground causing 14 ({@damage 4d6}) slashing damage to everyone in the area of effect (the damage is halved if a {@dc 22} Dexterity saving throw is successful). Afterwards the terrain becomes difficult and anyone falling {@condition prone} within it takes the damage again (no saving throw).",
-						"The frozen ground buckles, driving massive chunks of rock and ice into the air. {@dice 1d8} thirty-foot-tall stalagmites will rise into the air and all creatures in a 30-foot radius around Cryonax must make a {@dc 24} Dexterity saving throw or take 9 ({@damage 2d8}) bludgeoning damage and be knocked {@condition prone}."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Cryonax's lair is warped by his presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Within ten miles of the lair all water has frozen and any precipitation becomes thick snow and hail instead.",
-						"The ground beneath the lair is freezing, causing the earth to buckle and rise. Tremors become common within 5 miles of the lair. After five days any wooden structure or weaker has collapsed; within 10 days stone buildings are destroyed. For every hour in the area there is a 1 in 10 chance that a tremor strikes forcing everyone other than Cryonax to make a {@dc 22} Dexterity saving throw or be knocked {@condition prone} and suffer 9 ({@damage 2d8}) bludgeoning damage.",
-						"Within 1 mile of Cryonax's location inside the lair the air becomes bitterly cold and difficult to breath. Each hour while within this area every living creature must make a {@dc 15} Constitution saving throw or suffer a level of {@condition exhaustion}."
-					]
-				},
-				"If Cryonax is destroyed or banished back to his home plane, the regional effects fade over the next {@dice 1d10} weeks."
-			]
-		},
-		{
 			"name": "Crystal Dragon",
 			"source": "FTD",
 			"page": 171,
@@ -1870,34 +1520,6 @@
 					]
 				},
 				"If the dragon dies, the animal population near the lair returns to normal levels over the course of {@dice 1d10} days. The increased Hit Die recovery ends immediately. The existing abundance of quartz crystals remains, but new crystals form at a normal rate."
-			]
-		},
-		{
-			"name": "Darkweaver",
-			"source": "MPP",
-			"lairActions": [
-				"On initiative count 20 (losing initiative ties), a darkweaver can take one of the following lair actions; the darkweaver can't take the same lair action two rounds in a row:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Extinguish.",
-							"entry": "All nonmagical flames within 30 feet of the darkweaver are extinguished. In addition, if this area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
-						},
-						{
-							"type": "item",
-							"name": "Shadow Fears.",
-							"entry": "The darkweaver instills frightful magic into its webs. Each creature grappled by the darkweaver's Shadow Web must make a {@dc 15} Wisdom saving throw. On a failed save, the creature has the frightened condition until the end of its next turn."
-						},
-						{
-							"type": "item",
-							"name": "Shadow Step.",
-							"entry": "If the darkweaver is in dim light or darkness, it teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 60 feet of itself that is in dim light or darkness."
-						}
-					]
-				}
 			]
 		},
 		{
@@ -2163,74 +1785,6 @@
 			]
 		},
 		{
-			"name": "Demogorgon",
-			"source": "MTF",
-			"page": 144,
-			"lairActions": [
-				"On Initiative count 20 (losing initiative ties), Demogorgon can take a lair action to cause one of the following effects: Demogorgon can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"Demogorgon creates an illusory duplicate of himself, which appears in his own space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move the illusory duplicate a distance equal to his walking speed (no action required). The first time a creature or object interacts physically with Demogorgon (for example, hitting him with an attack), there is a {@chance 50} chance that it is the illusory duplicate that is being affected, not Demogorgon himself, in which case the illusion disappears.",
-						"Demogorgon casts the {@spell darkness} spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Demogorgon's lair is warped by his magic, creating one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"The area within 6 miles of the lair becomes overpopulated with lizards, poisonous snakes, and other venomous beasts.",
-						"Beasts within 1 mile of the lair become violent and crazed-even creatures that are normally docile.",
-						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a {@dc 23} Wisdom saving throw or descend into a madness determined by the Madness of Demogorgon table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
-					]
-				},
-				"If Demogorgon dies, these effects fade over the course of {@dice 1d10} days.",
-				{
-					"type": "entries",
-					"name": "Madness of Demogorgon",
-					"entries": [
-						"If a creature goes mad in Demogorgon's lair or within line of sight of the demon lord, roll on the Madness of Demogorgon table to determine the nature of the madness, which is a character flaw that lasts until cured. See the {@book Dungeon Master's Guide|dmg|8|madness} for more on madness.",
-						{
-							"type": "table",
-							"caption": "Madness of Demogorgon",
-							"colLabels": [
-								"d100",
-								"Flaw (lasts until cured)"
-							],
-							"colStyles": [
-								"col-1",
-								"col-11"
-							],
-							"rows": [
-								[
-									"01\u201320",
-									"\"Someone is plotting to kill me. I need to strike first to stop them!\""
-								],
-								[
-									"21\u201340",
-									"\"There is only one solution to my problems: kill them all!\""
-								],
-								[
-									"41\u201360",
-									"\"There is more than one mind inside my head.\""
-								],
-								[
-									"61\u201380",
-									"\"If you don't agree with me, I'll beat you into submission to get my way.\""
-								],
-								[
-									"81\u201300",
-									"\"I can't allow anyone to touch anything that belongs to me. They might try to take it away from me!\""
-								]
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Dispater",
 			"source": "CoA",
 			"page": 222,
@@ -2481,34 +2035,6 @@
 			]
 		},
 		{
-			"name": "Elder Brain",
-			"source": "VGM",
-			"page": 173,
-			"lairActions": [
-				"When fighting inside its lair, an elder brain can use lair actions. On initiative count 20 (losing initiative ties), an elder brain can take one lair action to cause one of the following effects; the elder brain can't use the same lair action two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"The elder brain casts {@spell wall of force}.",
-						"The elder brain targets one friendly creature it can sense within 120 feet of it. The target has a flash of inspiration and gains advantage on one attack roll, ability check, or saving throw it makes before the end of its next turn. If the target doesn't or can't use this benefit in that time, the inspiration is lost.",
-						"The elder brain targets one creature it can sense within 120 feet of it and anchors it by sheer force of will. The target must succeed on a {@dc 18} Charisma saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The territory within 5 miles of an elder brain is altered by the creature's psionic presence, which creates one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Creatures within 5 miles of an elder brain feel as if they are being followed, even when they are not.",
-						"The elder brain can overhear any telepathic conversation happening within 5 miles of it. The creature that initiated the telepathic conversation makes a {@dc 18} Wisdom ({@skill Insight}) check when telepathic contact is first established. If the check succeeds, the creature is aware that something is eavesdropping on the conversation. The nature of the eavesdropper isn't revealed, and the elder brain can't participate in the telepathic conversation unless it has formed a psychic link with the creature that initiated it.",
-						"Any creature with which the elder brain has formed a psychic link hears faint, incomprehensible whispers in the deepest recesses of its mind. This psychic detritus consists of the elder brain's stray thoughts commingled with those of other creatures to which it is linked."
-					]
-				},
-				"If the elder brain dies, these effects immediately end."
-			]
-		},
-		{
 			"name": "Emerald Dragon",
 			"source": "FTD",
 			"page": 196,
@@ -2614,22 +2140,6 @@
 					]
 				},
 				"If the faerie dragon dies, these effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
-			"name": "Fazrian",
-			"source": "WDMM",
-			"page": 275,
-			"lairActions": [
-				"Unless he is {@condition incapacitated}, Fazrian can take one of the following lair actions on initiative count 20 (losing initiative ties) while on the Terminus Level:",
-				{
-					"type": "list",
-					"items": [
-						"Blood flows from Fazrian's eyes until initiative count 20 on the next round. No creature within 120 feet of the planetar can regain hit points until the effect ends.",
-						"Fazrian's eyes become smoldering black voids until initiative count 20 on the next round. All other creatures within 120 feet of the planetar have disadvantage on saving throws until the effect ends.",
-						"Blinding magical light springs from Fazrian's eyes until initiative count 20 on the next round. If a creature starts its turn within 120 feet of the planetar and the two of them can see each other, Fazrian can force the creature to make a {@dc 20} Constitution saving throw. On a failed save, the creature is {@condition blinded}. The blindness lasts until the creature receives a {@spell lesser restoration} spell or similar magic."
-					]
-				}
 			]
 		},
 		{
@@ -2743,75 +2253,6 @@
 					]
 				},
 				"If Fraz-Urb'luu dies, these effects fade over the course of {@dice 1d10} days."
-			]
-		},
-		{
-			"name": "Fraz-Urb'luu",
-			"source": "MTF",
-			"page": 146,
-			"lairActions": [
-				"On Initiative count 20 (losing initiative ties), Fraz-Urb'luu can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"items": [
-						"Fraz-Urb'luu causes up to 5 doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
-						"Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
-						"Fraz-Urb'luu creates a {@item wave} of anguish. Each creature he can see within the lair must succeed on a {@dc 23} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage."
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Fraz-Urb'luu's lair is warped by his magic, creating one or more of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Intelligent creatures within 1 mile of the lair frequently see hallucinations of long-dead friends and comrades that vanish after only a brief glimpse.",
-						"Roads and paths within 6 miles of the lair twist and turn back on themselves, making navigation in the area exceedingly difficult.",
-						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a {@dc 23} Wisdom saving throw or descend into a madness determined by the Madness of Fraz-Urb'luu table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
-					]
-				},
-				"If Fraz-Urb'luu dies, these effects fade over the course of {@dice 1d10} days.",
-				{
-					"type": "entries",
-					"name": "Madness of Fraz-Urb'luu",
-					"entries": [
-						"If a creature goes mad in Fraz-Urb'luu's lair or within line of sight of the demon lord, roll on the Madness of Fraz-Urb'luu table to determine the nature of the madness, which is a character flaw that lasts until cured. See the {@book Dungeon Master's Guide|dmg|8|madness} for more on madness.",
-						{
-							"type": "table",
-							"caption": "Madness of Fraz-Urb'luu",
-							"colLabels": [
-								"d100",
-								"Flaw (lasts until cured)"
-							],
-							"colStyles": [
-								"col-1",
-								"col-11"
-							],
-							"rows": [
-								[
-									"01\u201320",
-									"\"I never let anyone know the truth about my actions or intentions, even if doing so would be beneficial to me.\""
-								],
-								[
-									"21\u201340",
-									"\"I have intermittent hallucinations and fits of catatonia.\""
-								],
-								[
-									"41\u201360",
-									"\"My mind wanders as I have elaborate fantasies that have no bearing on reality. When I return my focus to the world, I have a hard time remembering that it was just a daydream.\""
-								],
-								[
-									"61\u201380",
-									"\"I convince myself that things are true, even in the face of overwhelming evidence to the contrary.\""
-								],
-								[
-									"81\u201300",
-									"\"My perception of reality doesn't match anyone else's. It makes me prone to violent delusions that make no sense to anyone else.\""
-								]
-							]
-						}
-					]
-				}
 			]
 		},
 		{

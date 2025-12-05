@@ -64,7 +64,7 @@
 		"prettier": "^3.2.5",
 		"probe-image-size": "^7.2.3",
 		"readline-sync": "^1.4.10",
-		"sass": "^1.71.1",
+		"sass": "^1.94.2",
 		"sharp": "^0.33.2",
 		"simple-git": "^3.22.0",
 		"stylelint": "^16.2.1",

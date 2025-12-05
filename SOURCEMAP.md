@@ -131,6 +131,7 @@ _Support content creators. Only use or include sources that you own._
 | OGA | One Grung Above | book |
 | OoW | The Orrery of the Wanderer | adventure |
 | OotA | Out of the Abyss | adventure |
+| PaF | Puncheons and Flagons | book |
 | PHB | Player's Handbook | book |
 | PSA | Plane Shift: Amonkhet | reference |
 | PSD | Plane Shift: Dominaria | reference |
