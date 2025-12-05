@@ -1,7 +1,7 @@
 {
 	"name": "overthemoondnd-5etools",
 	"author": "ryanfp",
-	"version": "0.6.25-alpha",
+	"version": "0.6.25",
 	"license": "MIT",
 	"description": "A personal version of 5e.tools to create a fully integrated D&D compendium. This is 'A site dedicated to making playing games with your friends as easy as possible.'",
 	"type": "module",
