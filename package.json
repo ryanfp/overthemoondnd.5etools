@@ -1,9 +1,9 @@
 {
-	"name": "5etools",
-	"author": "TheGiddyLimit",
-	"version": "2.17.0",
+	"name": "overthemoondnd-5etools",
+	"author": "ryanfp",
+	"version": "0.6.25-alpha",
 	"license": "MIT",
-	"description": "A site dedicated to making playing games with your friends as easy as possible.",
+	"description": "A personal version of 5e.tools to create a fully integrated D&D compendium. This is 'A site dedicated to making playing games with your friends as easy as possible.'",
 	"type": "module",
 	"private": true,
 	"scripts": {
@@ -47,7 +47,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/5etools-mirror-3/5etools-src"
+		"url": "git+https://github.com/ryanfp/overthemoondnd.5etools"
 	},
 	"devDependencies": {
 		"5etools-utils": "^0.14.19",
@@ -72,9 +72,9 @@
 		"workbox-cli": "^7.1.0"
 	},
 	"bugs": {
-		"url": "https://github.com/5etools-mirror-3/5etools-src/issues"
+		"url": "https://github.com/ryanfp/overthemoondnd.5etools/issues"
 	},
-	"homepage": "https://github.com/5etools-mirror-3/5etools-src#readme",
+	"homepage": "https://5etools.overthemoondnd.com",
 	"directories": {
 		"lib": "lib",
 		"test": "test"
