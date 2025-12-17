@@ -1832,7 +1832,7 @@
 								],
 								[
 									"1/8",
-									"{@creature Bandit}, {@creature blood hawk}, {@creature boggle|vgm}, {@creature brigganock|WBtW}, {@creature camel}, {@creature displacer beast kitten|WBtW}, {@creature flying snake}, {@creature giant crab}, {@creature giant rat}, {@creature giant weasel}, {@creature guard}, {@creature harengon brigand|WBtW}, {@creature mastiff}, {@creature merfolk}, {@creature mule}, {@creature poisonous snake}, {@creature pony}, {@creature stirge}, {@creature twig blight}"
+									"{@creature Bandit}, {@creature blood hawk}, {@creature boggle|mpmm}, {@creature brigganock|WBtW}, {@creature camel}, {@creature displacer beast kitten|WBtW}, {@creature flying snake}, {@creature giant crab}, {@creature giant rat}, {@creature giant weasel}, {@creature guard}, {@creature harengon brigand|WBtW}, {@creature mastiff}, {@creature merfolk}, {@creature mule}, {@creature poisonous snake}, {@creature pony}, {@creature stirge}, {@creature twig blight}"
 								],
 								[
 									"1/4",
@@ -1840,19 +1840,19 @@
 								],
 								[
 									"1/2",
-									"{@creature Ape}, {@creature black bear}, {@creature cockatrice}, {@creature crocodile}, {@creature darkling|vgm}, {@creature giant dragonfly|WBtW}, {@creature giant goat}, {@creature giant sea horse}, {@creature giant wasp}, {@creature hobgoblin}, {@creature myconid adult}, {@creature satyr}, {@creature scout}, {@creature swarm of insects}, {@creature vine blight}, {@creature warhorse}, {@creature worg}"
+									"{@creature Ape}, {@creature black bear}, {@creature cockatrice}, {@creature crocodile}, {@creature darkling|mpmm}, {@creature giant dragonfly|WBtW}, {@creature giant goat}, {@creature giant sea horse}, {@creature giant wasp}, {@creature hobgoblin}, {@creature myconid adult}, {@creature satyr}, {@creature scout}, {@creature swarm of insects}, {@creature vine blight}, {@creature warhorse}, {@creature worg}"
 								],
 								[
 									"1",
-									"{@creature Animated armor}, {@creature brown bear}, {@creature bugbear}, {@creature dryad}, {@creature faerie dragon (red)||faerie dragon (young)}, {@creature giant eagle}, {@creature giant hyena}, {@creature giant octopus}, {@creature giant spider}, {@creature giant toad}, {@creature giant vulture}, {@creature goblin boss}, {@creature half-ogre (ogrillon)||half-ogre}, {@creature harpy}, {@creature hippogriff}, {@creature lion}, {@creature quickling|vgm}, {@creature scarecrow}, {@creature spy}, {@creature swarm of campestris|WBtW}, {@creature tiger}"
+									"{@creature Animated armor}, {@creature brown bear}, {@creature bugbear}, {@creature dryad}, {@creature faerie dragon (red)||faerie dragon (young)}, {@creature giant eagle}, {@creature giant hyena}, {@creature giant octopus}, {@creature giant spider}, {@creature giant toad}, {@creature giant vulture}, {@creature goblin boss}, {@creature half-ogre (ogrillon)||half-ogre}, {@creature harpy}, {@creature hippogriff}, {@creature lion}, {@creature quickling|mpmm}, {@creature scarecrow}, {@creature spy}, {@creature swarm of campestris|WBtW}, {@creature tiger}"
 								],
 								[
 									"2",
-									"{@creature Awakened tree}, {@creature bandit captain}, {@creature berserker}, {@creature centaur}, {@creature darkling elder|vgm}, {@creature druid}, {@creature ettercap}, {@creature faerie dragon (violet)||faerie dragon (old)}, {@creature giant boar}, {@creature giant constrictor snake}, {@creature giant elk}, {@creature griffon}, {@creature merrow}, {@creature myconid sovereign}, {@creature ogre}, {@creature peryton}, {@creature sea hag}, {@creature swarm of poisonous snakes}, {@creature treant sapling|WBtW}, {@creature will-o'-wisp}"
+									"{@creature Awakened tree}, {@creature bandit captain}, {@creature berserker}, {@creature centaur}, {@creature darkling elder|mpmm}, {@creature druid}, {@creature ettercap}, {@creature faerie dragon (violet)||faerie dragon (old)}, {@creature giant boar}, {@creature giant constrictor snake}, {@creature giant elk}, {@creature griffon}, {@creature merrow}, {@creature myconid sovereign}, {@creature ogre}, {@creature peryton}, {@creature sea hag}, {@creature swarm of poisonous snakes}, {@creature treant sapling|WBtW}, {@creature will-o'-wisp}"
 								],
 								[
 									"3",
-									"{@creature Basilisk}, {@creature bugbear chief}, {@creature bullywug knight|WBtW}, {@creature bullywug royal|GoS}, {@creature displacer beast}, {@creature giant scorpion}, {@creature green hag}, {@creature hobgoblin captain}, {@creature knight}, {@creature manticore}, {@creature minotaur}, {@creature owlbear}, {@creature phase spider}, {@creature redcap|vgm}, {@creature veteran}, {@creature water weird}, {@creature winter wolf}, {@creature yeti}"
+									"{@creature Basilisk}, {@creature bugbear chief}, {@creature bullywug knight|WBtW}, {@creature bullywug royal|GoS}, {@creature displacer beast}, {@creature giant scorpion}, {@creature green hag}, {@creature hobgoblin captain}, {@creature knight}, {@creature manticore}, {@creature minotaur}, {@creature owlbear}, {@creature phase spider}, {@creature redcap|mpmm}, {@creature veteran}, {@creature water weird}, {@creature winter wolf}, {@creature yeti}"
 								],
 								[
 									"4",
@@ -1868,7 +1868,7 @@
 								],
 								[
 									"7",
-									"{@creature Drow mage}, {@creature giant ape}, {@creature korred|vgm}, {@creature oni}, {@creature stone giant}, {@creature tree blight|cos}"
+									"{@creature Drow mage}, {@creature giant ape}, {@creature korred|mpmm}, {@creature oni}, {@creature stone giant}, {@creature tree blight|cos}"
 								],
 								[
 									"8",

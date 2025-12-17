@@ -1357,7 +1357,7 @@
 				"_templates": [
 					{
 						"name": "Goliath",
-						"source": "VGM"
+						"source": "MPMM"
 					}
 				],
 				"_mod": {
@@ -2729,7 +2729,7 @@
 				"_templates": [
 					{
 						"name": "Firbolg",
-						"source": "VGM"
+						"source": "MPMM"
 					}
 				],
 				"_mod": {
@@ -6126,7 +6126,7 @@
 				"_templates": [
 					{
 						"name": "Kenku",
-						"source": "VGM"
+						"source": "MPMM"
 					}
 				],
 				"_mod": {
@@ -6889,7 +6889,7 @@
 				"_templates": [
 					{
 						"name": "Goliath",
-						"source": "VGM"
+						"source": "MPMM"
 					}
 				],
 				"_mod": {

@@ -3,7 +3,7 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"VGM"
+				"MPMM"
 			]
 		},
 		"otherSources": {
@@ -314,7 +314,7 @@
 			"page": 14,
 			"_copy": {
 				"name": "Martial Arts Adept",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -963,7 +963,7 @@
 			"page": 14,
 			"_copy": {
 				"name": "Martial Arts Adept",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",

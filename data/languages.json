@@ -958,12 +958,12 @@
 		},
 		{
 			"name": "Grung",
-			"source": "VGM",
-			"page": 156,
+			"source": "MPMM",
+			"page": 149,
 			"typicalSpeakers": [
-				"{@creature Grung|VGM|grungs}",
-				"{@creature Grung Wildling|VGM|grung wildlings}",
-				"{@creature Grung Elite Warrior|VGM|grung elite warriors}"
+				"{@creature Grung|MPMM|grungs}",
+				"{@creature Grung Wildling|MPMM|grung wildlings}",
+				"{@creature Grung Elite Warrior|MPMM|grung elite warriors}"
 			]
 		},
 		{
@@ -1592,8 +1592,8 @@
 		},
 		{
 			"name": "Qualith",
-			"source": "VGM",
-			"page": 75,
+			"source": "MM",
+			"page": 222,
 			"typicalSpeakers": [
 				"{@creature Mind Flayer||Mind Flayers}"
 			],
@@ -1939,10 +1939,10 @@
 		},
 		{
 			"name": "Tlincalli",
-			"source": "VGM",
-			"page": 193,
+			"source": "MPMM",
+			"page": 242,
 			"typicalSpeakers": [
-				"{@creature tlincalli|VGM}"
+				"{@creature tlincalli|MPMM}"
 			]
 		},
 		{
@@ -2107,11 +2107,11 @@
 		},
 		{
 			"name": "Vegepygmy",
-			"source": "VGM",
-			"page": 196,
+			"source": "MPMM",
+			"page": 252,
 			"typicalSpeakers": [
-				"{@creature Vegepygmy|VGM|vegepygmies}",
-				"{@creature Vegepygmy Chief|VGM|vegepygmy chiefs}"
+				"{@creature Vegepygmy|MPMM|vegepygmies}",
+				"{@creature Vegepygmy Chief|MPMM|vegepygmy chiefs}"
 			]
 		},
 		{

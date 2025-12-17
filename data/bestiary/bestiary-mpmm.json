@@ -13,12 +13,7 @@
 			"name": "Abjurer Wizard",
 			"source": "MPMM",
 			"page": 260,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 209
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -603,10 +598,6 @@
 			"source": "MPMM",
 			"page": 43,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 172
-				},
 				{
 					"source": "CoA"
 				}
@@ -1516,12 +1507,7 @@
 			"name": "Annis Hag",
 			"source": "MPMM",
 			"page": 47,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 159
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -1661,10 +1647,6 @@
 			"page": 259,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 209
-				},
-				{
 					"source": "SjA"
 				}
 			],
@@ -1769,10 +1751,6 @@
 			"source": "MPMM",
 			"page": 48,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 210
-				},
 				{
 					"source": "WDMM",
 					"page": 311
@@ -1932,12 +1910,7 @@
 			"name": "Archer",
 			"source": "MPMM",
 			"page": 49,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 210
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -2382,12 +2355,7 @@
 			"name": "Aurochs",
 			"source": "MPMM",
 			"page": 71,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 207
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -2652,12 +2620,7 @@
 			"name": "Babau",
 			"source": "MPMM",
 			"page": 52,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 136
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -3213,12 +3176,7 @@
 			"name": "Banderhobb",
 			"source": "MPMM",
 			"page": 56,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 122
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -3584,10 +3542,6 @@
 			"page": 59,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 211
-				},
-				{
 					"source": "AATM"
 				}
 			],
@@ -3741,12 +3695,7 @@
 			"name": "Barghest",
 			"source": "MPMM",
 			"page": 60,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 123
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -4084,12 +4033,7 @@
 			"name": "Bheur Hag",
 			"source": "MPMM",
 			"page": 62,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 160
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -4458,12 +4402,7 @@
 			"name": "Blackguard",
 			"source": "MPMM",
 			"page": 63,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 211
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -4836,10 +4775,6 @@
 			"page": 64,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 127
-				},
-				{
 					"source": "SatO"
 				}
 			],
@@ -4994,12 +4929,7 @@
 			"name": "Boggle",
 			"source": "MPMM",
 			"page": 65,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 128
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -5307,12 +5237,7 @@
 			"name": "Brontosaurus",
 			"source": "MPMM",
 			"page": 95,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 139
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"G"
 			],
@@ -5842,12 +5767,7 @@
 			"name": "Catoblepas",
 			"source": "MPMM",
 			"page": 70,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 129
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -5939,12 +5859,7 @@
 			"name": "Cave Fisher",
 			"source": "MPMM",
 			"page": 73,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 130
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -6059,10 +5974,6 @@
 			"source": "MPMM",
 			"page": 74,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 212
-				},
 				{
 					"source": "WDMM",
 					"page": 312
@@ -6183,12 +6094,7 @@
 			"name": "Chitine",
 			"source": "MPMM",
 			"page": 75,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 131
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -6436,12 +6342,7 @@
 			"name": "Choldrith",
 			"source": "MPMM",
 			"page": 77,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 132
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -7168,12 +7069,7 @@
 			"name": "Cloud Giant Smiling One",
 			"source": "MPMM",
 			"page": 81,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 146
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -7339,12 +7235,7 @@
 			"name": "Conjurer Wizard",
 			"source": "MPMM",
 			"page": 260,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 212
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -7618,12 +7509,7 @@
 			"name": "Cranium Rat",
 			"source": "MPMM",
 			"page": 83,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 133
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"T"
 			],
@@ -7708,12 +7594,7 @@
 			"name": "Darkling",
 			"source": "MPMM",
 			"page": 84,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 134
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -7831,12 +7712,7 @@
 			"name": "Darkling Elder",
 			"source": "MPMM",
 			"page": 84,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 134
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -7972,12 +7848,7 @@
 			"name": "Death Kiss",
 			"source": "MPMM",
 			"page": 85,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 124
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -8656,12 +8527,7 @@
 			"name": "Deep Rothé",
 			"source": "MPMM",
 			"page": 71,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 208
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -8755,12 +8621,7 @@
 			"name": "Deep Scion",
 			"source": "MPMM",
 			"page": 88,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 135
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -8905,12 +8766,7 @@
 			"name": "Deinonychus",
 			"source": "MPMM",
 			"page": 95,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 139
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -9543,12 +9399,7 @@
 			"name": "Devourer",
 			"source": "MPMM",
 			"page": 93,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 138
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -9850,12 +9701,7 @@
 			"name": "Dimetrodon",
 			"source": "MPMM",
 			"page": 95,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 139
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -10068,12 +9914,7 @@
 			"name": "Diviner Wizard",
 			"source": "MPMM",
 			"page": 261,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 213
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -10220,12 +10061,7 @@
 			"name": "Dolphin",
 			"source": "MPMM",
 			"page": 97,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 208
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -10427,12 +10263,7 @@
 			"name": "Draegloth",
 			"source": "MPMM",
 			"page": 98,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 141
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -13608,10 +13439,6 @@
 			"page": 120,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 173
-				},
-				{
 					"source": "PaBTSO"
 				},
 				{
@@ -14225,12 +14052,7 @@
 			"name": "Enchanter Wizard",
 			"source": "MPMM",
 			"page": 261,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 213
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -14359,12 +14181,7 @@
 			"name": "Evoker Wizard",
 			"source": "MPMM",
 			"page": 262,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 214
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -14742,12 +14559,7 @@
 			"name": "Fire Giant Dreadnought",
 			"source": "MPMM",
 			"page": 124,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 147
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -14867,12 +14679,7 @@
 			"name": "Firenewt Warlock of Imix",
 			"source": "MPMM",
 			"page": 125,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 143
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -15011,12 +14818,7 @@
 			"name": "Firenewt Warrior",
 			"source": "MPMM",
 			"page": 125,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 142
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -15125,12 +14927,7 @@
 			"name": "Flail Snail",
 			"source": "MPMM",
 			"page": 126,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 144
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -15248,12 +15045,7 @@
 			"name": "Flind",
 			"source": "MPMM",
 			"page": 127,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 153
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -15642,10 +15434,6 @@
 			"page": 130,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 145
-				},
-				{
 					"source": "QftIS"
 				},
 				{
@@ -15784,12 +15572,7 @@
 			"name": "Frost Giant Everlasting One",
 			"source": "MPMM",
 			"page": 131,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 148
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -16061,12 +15844,7 @@
 			"name": "Gauth",
 			"source": "MPMM",
 			"page": 133,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 125
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -16251,10 +16029,6 @@
 			"source": "MPMM",
 			"page": 134,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 126
-				},
 				{
 					"source": "SjA"
 				}
@@ -16708,12 +16482,7 @@
 			"name": "Giant Strider",
 			"source": "MPMM",
 			"page": 137,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 143
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -16932,12 +16701,7 @@
 			"name": "Girallon",
 			"source": "MPMM",
 			"page": 139,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 152
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -17864,12 +17628,7 @@
 			"name": "Gnoll Flesh Gnawer",
 			"source": "MPMM",
 			"page": 144,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 154
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -17982,12 +17741,7 @@
 			"name": "Gnoll Hunter",
 			"source": "MPMM",
 			"page": 144,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 154
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -18104,12 +17858,7 @@
 			"name": "Gnoll Witherling",
 			"source": "MPMM",
 			"page": 145,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 155
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -18783,12 +18532,7 @@
 			"name": "Grung",
 			"source": "MPMM",
 			"page": 149,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 156
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -19064,12 +18808,7 @@
 			"name": "Grung Elite Warrior",
 			"source": "MPMM",
 			"page": 150,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 157
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -19361,12 +19100,7 @@
 			"name": "Grung Wildling",
 			"source": "MPMM",
 			"page": 150,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 157
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -19916,12 +19650,7 @@
 			"name": "Hadrosaurus",
 			"source": "MPMM",
 			"page": 96,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 140
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -20169,12 +19898,7 @@
 			"name": "Hobgoblin Devastator",
 			"source": "MPMM",
 			"page": 153,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 161
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -20326,12 +20050,7 @@
 			"name": "Hobgoblin Iron Shadow",
 			"source": "MPMM",
 			"page": 154,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 162
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -21226,12 +20945,7 @@
 			"name": "Illusionist Wizard",
 			"source": "MPMM",
 			"page": 263,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 214
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -21606,12 +21320,7 @@
 			"name": "Ki-rin",
 			"source": "MPMM",
 			"page": 162,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 163
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -21811,12 +21520,7 @@
 			"name": "Kobold Dragonshield",
 			"source": "MPMM",
 			"page": 163,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 165
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -21947,12 +21651,7 @@
 			"name": "Kobold Inventor",
 			"source": "MPMM",
 			"page": 164,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 166
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -22135,12 +21834,7 @@
 			"name": "Kobold Scale Sorcerer",
 			"source": "MPMM",
 			"page": 165,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 167
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -22293,12 +21987,7 @@
 			"name": "Korred",
 			"source": "MPMM",
 			"page": 166,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 168
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -22479,12 +22168,7 @@
 			"name": "Kraken Priest",
 			"source": "MPMM",
 			"page": 167,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 215
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -22767,12 +22451,7 @@
 			"name": "Leucrotta",
 			"source": "MPMM",
 			"page": 170,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 169
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -23443,12 +23122,7 @@
 			"name": "Martial Arts Adept",
 			"source": "MPMM",
 			"page": 172,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 216
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -23778,12 +23452,7 @@
 			"name": "Master Thief",
 			"source": "MPMM",
 			"page": 174,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 216
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -24071,10 +23740,6 @@
 			"page": 176,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 137
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -24299,12 +23964,7 @@
 			"name": "Meenlock",
 			"source": "MPMM",
 			"page": 178,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 170
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -24781,12 +24441,7 @@
 			"name": "Mindwitness",
 			"source": "MPMM",
 			"page": 181,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 176
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -25457,12 +25112,7 @@
 			"name": "Morkoth",
 			"source": "MPMM",
 			"page": 186,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 177
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -25649,12 +25299,7 @@
 			"name": "Mouth of Grolantor",
 			"source": "MPMM",
 			"page": 187,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 149
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -26307,10 +25952,6 @@
 			"page": 264,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 217
-				},
-				{
 					"source": "VEoR"
 				}
 			],
@@ -26460,10 +26101,6 @@
 			"page": 192,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 180
-				},
-				{
 					"source": "CoA"
 				}
 			],
@@ -26602,10 +26239,6 @@
 			"page": 191,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 179
-				},
-				{
 					"source": "SjA"
 				}
 			],
@@ -26698,10 +26331,6 @@
 			"source": "MPMM",
 			"page": 192,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 180
-				},
 				{
 					"source": "CoA"
 				}
@@ -26905,10 +26534,6 @@
 			"source": "MPMM",
 			"page": 193,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 181
-				},
 				{
 					"source": "WDMM",
 					"page": 315
@@ -27215,12 +26840,7 @@
 			"name": "Nilbog",
 			"source": "MPMM",
 			"page": 195,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 182
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -28681,12 +28301,7 @@
 			"name": "Ox",
 			"source": "MPMM",
 			"page": 72,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 208
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -28945,12 +28560,7 @@
 			"name": "Quetzalcoatlus",
 			"source": "MPMM",
 			"page": 96,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 140
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -29032,12 +28642,7 @@
 			"name": "Quickling",
 			"source": "MPMM",
 			"page": 207,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 187
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"T"
 			],
@@ -29330,12 +28935,7 @@
 			"name": "Redcap",
 			"source": "MPMM",
 			"page": 208,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 188
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -30016,12 +29616,7 @@
 			"name": "Sea Spawn",
 			"source": "MPMM",
 			"page": 211,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 189
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -30686,12 +30281,7 @@
 			"name": "Shadow Mastiff",
 			"source": "MPMM",
 			"page": 215,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 190
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -30799,12 +30389,7 @@
 			"name": "Shadow Mastiff Alpha",
 			"source": "MPMM",
 			"page": 215,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 190
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -30920,10 +30505,6 @@
 			"source": "MPMM",
 			"page": 216,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 137
-				},
 				{
 					"source": "BMT"
 				}
@@ -31761,12 +31342,7 @@
 			"name": "Slithering Tracker",
 			"source": "MPMM",
 			"page": 221,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 191
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -31916,10 +31492,6 @@
 			"source": "MPMM",
 			"page": 225,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 192
-				},
 				{
 					"source": "AATM"
 				}
@@ -33308,10 +32880,6 @@
 			"page": 96,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 140
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -33382,10 +32950,6 @@
 			"source": "MPMM",
 			"page": 72,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 208
-				},
 				{
 					"source": "AATM"
 				}
@@ -33593,12 +33157,7 @@
 			"name": "Stone Giant Dreamwalker",
 			"source": "MPMM",
 			"page": 234,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 150
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -33734,12 +33293,7 @@
 			"name": "Storm Giant Quintessent",
 			"source": "MPMM",
 			"page": 235,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 151
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -34075,12 +33629,7 @@
 			"name": "Swarm of Cranium Rats",
 			"source": "MPMM",
 			"page": 83,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 133
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -34226,10 +33775,6 @@
 			"page": 237,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 208
-				},
-				{
 					"source": "AATM"
 				}
 			],
@@ -34329,12 +33874,7 @@
 			"name": "Swashbuckler",
 			"source": "MPMM",
 			"page": 238,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 217
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -34741,12 +34281,7 @@
 			"name": "Tanarukk",
 			"source": "MPMM",
 			"page": 240,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 186
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -34886,12 +34421,7 @@
 			"name": "Thorny Vegepygmy",
 			"source": "MPMM",
 			"page": 253,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 197
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -35240,12 +34770,7 @@
 			"name": "Tlincalli",
 			"source": "MPMM",
 			"page": 242,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 193
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -35620,12 +35145,7 @@
 			"name": "Transmuter Wizard",
 			"source": "MPMM",
 			"page": 265,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 218
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -35791,12 +35311,7 @@
 			"name": "Trapper",
 			"source": "MPMM",
 			"page": 245,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 194
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"L"
 			],
@@ -35893,10 +35408,6 @@
 			"source": "MPMM",
 			"page": 249,
 			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 175
-				},
 				{
 					"source": "WDMM",
 					"page": 316
@@ -36255,10 +35766,6 @@
 			"page": 251,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 195
-				},
-				{
 					"source": "AATM"
 				}
 			],
@@ -36370,12 +35877,7 @@
 			"name": "Vegepygmy",
 			"source": "MPMM",
 			"page": 252,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 196
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -36486,12 +35988,7 @@
 			"name": "Vegepygmy Chief",
 			"source": "MPMM",
 			"page": 253,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 197
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -36627,12 +36124,7 @@
 			"name": "Velociraptor",
 			"source": "MPMM",
 			"page": 96,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 140
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"T"
 			],
@@ -36864,12 +36356,7 @@
 			"name": "War Priest",
 			"source": "MPMM",
 			"page": 254,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 218
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -37028,12 +36515,7 @@
 			"name": "Warlock of the Archfey",
 			"source": "MPMM",
 			"page": 255,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 219
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -37192,12 +36674,7 @@
 			"name": "Warlock of the Fiend",
 			"source": "MPMM",
 			"page": 255,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 219
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -37366,10 +36843,6 @@
 			"page": 256,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 220
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -37536,12 +37009,7 @@
 			"name": "Warlord",
 			"source": "MPMM",
 			"page": 257,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 220
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -38346,12 +37814,7 @@
 			"name": "Wood Woad",
 			"source": "MPMM",
 			"page": 266,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 198
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -38577,12 +38040,7 @@
 			"name": "Xvart",
 			"source": "MPMM",
 			"page": 267,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 200
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -38689,12 +38147,7 @@
 			"name": "Xvart Warlock of Raxivort",
 			"source": "MPMM",
 			"page": 267,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 200
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"S"
 			],
@@ -39325,10 +38778,6 @@
 			"page": 271,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 201
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -39565,12 +39014,7 @@
 			"name": "Yuan-ti Anathema",
 			"source": "MPMM",
 			"page": 272,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 202
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"H"
 			],
@@ -39770,12 +39214,7 @@
 			"name": "Yuan-ti Broodguard",
 			"source": "MPMM",
 			"page": 273,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 203
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -39898,12 +39337,7 @@
 			"name": "Yuan-ti Mind Whisperer",
 			"source": "MPMM",
 			"page": 274,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 204
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -40097,12 +39531,7 @@
 			"name": "Yuan-ti Nightmare Speaker",
 			"source": "MPMM",
 			"page": 275,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 205
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],
@@ -40307,12 +39736,7 @@
 			"name": "Yuan-ti Pit Master",
 			"source": "MPMM",
 			"page": 276,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 206
-				}
-			],
+			"otherSources": [],
 			"size": [
 				"M"
 			],

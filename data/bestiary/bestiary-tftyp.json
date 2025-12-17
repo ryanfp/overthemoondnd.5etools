@@ -3,7 +3,6 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"VGM",
 				"MTF"
 			]
 		},
@@ -13,7 +12,6 @@
 		"otherSources": {
 			"monster": {
 				"MM": "TftYP",
-				"VGM": "TftYP",
 				"MTF": "TftYP"
 			}
 		}
@@ -3509,8 +3507,8 @@
 			"source": "TftYP",
 			"page": 131,
 			"_copy": {
-				"name": "Evoker",
-				"source": "VGM",
+				"name": "Evoker Wizard",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -3734,8 +3732,8 @@
 			"source": "TftYP",
 			"page": 157,
 			"_copy": {
-				"name": "Enchanter",
-				"source": "VGM",
+				"name": "Enchanter Wizard",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -4426,8 +4424,8 @@
 			"source": "TftYP",
 			"page": 132,
 			"_copy": {
-				"name": "Necromancer",
-				"source": "VGM",
+				"name": "Necromancer Wizard",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -4950,124 +4948,6 @@
 				"swim": 30
 			},
 			"hasToken": true
-		},
-		{
-			"name": "Sea Lion",
-			"source": "TftYP",
-			"page": 242,
-			"otherSources": [
-				{
-					"source": "LR"
-				},
-				{
-					"source": "GoS",
-					"page": 252
-				}
-			],
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 90,
-				"formula": "12d10 + 24"
-			},
-			"speed": {
-				"walk": 10,
-				"swim": 40
-			},
-			"str": 17,
-			"dex": 15,
-			"con": 15,
-			"int": 3,
-			"wis": 12,
-			"cha": 8,
-			"skill": {
-				"perception": "+4",
-				"stealth": "+5"
-			},
-			"passive": 14,
-			"cr": "5",
-			"trait": [
-				{
-					"name": "Amphibious",
-					"entries": [
-						"The sea lion can breathe air and water."
-					]
-				},
-				{
-					"name": "Keen Smell",
-					"entries": [
-						"The sea lion has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
-					]
-				},
-				{
-					"name": "Pack Tactics",
-					"entries": [
-						"The sea lion has advantage on an attack roll against a creature if at least one of the sea lion's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-					]
-				},
-				{
-					"name": "Swimming Leap",
-					"entries": [
-						"With a 10-foot swimming start, the sea lion can long jump out of or across the water up to 25 feet."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The sea lion makes three attacks: one bite attack and two claw attacks."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
-					]
-				},
-				{
-					"name": "Claw",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
-					]
-				}
-			],
-			"altArt": [
-				{
-					"name": "Sea Lion",
-					"source": "GoS"
-				}
-			],
-			"traitTags": [
-				"Amphibious",
-				"Keen Senses",
-				"Pack Tactics"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"hasToken": true,
-			"hasFluff": true,
-			"hasFluffImages": true
 		},
 		{
 			"name": "Sentient Gray Ooze",

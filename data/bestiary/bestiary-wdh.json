@@ -3,7 +3,7 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"VGM"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -12,7 +12,7 @@
 		"otherSources": {
 			"monster": {
 				"MM": "WDH",
-				"VGM": "WDH"
+				"MPMM": "WDH"
 			}
 		}
 	},
@@ -5118,7 +5118,7 @@
 			"page": 20,
 			"_copy": {
 				"name": "Bard",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",

@@ -547,13 +547,7 @@
 					"source": "JttRC"
 				},
 				{
-					"source": "SjA"
-				},
-				{
 					"source": "DSotDQ"
-				},
-				{
-					"source": "PSI"
 				},
 				{
 					"source": "PaBTSO"
@@ -9873,9 +9867,6 @@
 					"source": "JttRC"
 				},
 				{
-					"source": "SjA"
-				},
-				{
 					"source": "LoX"
 				},
 				{
@@ -11626,84 +11617,7 @@
 				"name": "Beholder",
 				"source": "MM"
 			},
-			"variant": [
-				{
-					"type": "inset",
-					"name": "Variant Abilities",
-					"entries": [
-						"When a beholder's dream-imagination runs wild, the result can be an offspring that has an unusual or unique set of abilities. Rather than the standard powers of a beholder's central eye and eyestalks, the creature has one or more variant abilities\u2014guaranteed to surprise any enemies who thought they knew what they were getting themselves into.",
-						"This section provides several alternative spell effects for a beholder's eye. Each of these effects is designed to be of the same power level as the one it replaces, enabling you to create a custom beholder without altering the monster's challenge rating. As another option, you can switch any of the damaging eye rays in the {@book Monster Manual|MM} to an effect with a different damage type, such as replacing the enervation ray with a combustion ray that deals fire damage instead of necrotic damage.",
-						"Unless otherwise indicated, an alternative ability has the same range as the eye ray it is replacing, and it affects only one creature per use (even if the ability is based on a spell that normally affects an area or multiple targets). The saving throw for an alternative ability uses the same DC and the same ability score as the spell the eye ray is based on.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Antimagic Cone:",
-									"entry": "{@spell mirage arcane}, {@spell power word stun} (affecting the weakest non-{@condition stunned} target in the cone each round)"
-								},
-								{
-									"type": "item",
-									"name": "Charm Ray:",
-									"entry": "{@spell banishment} (1 minute), {@spell confusion} (1 minute)"
-								},
-								{
-									"type": "item",
-									"name": "Death Ray:",
-									"entry": "{@spell circle of death} (10-foot-radius sphere; 4d6 necrotic damage to all creatures in the area), {@spell feeblemind}"
-								},
-								{
-									"type": "item",
-									"name": "Disintegration Ray:",
-									"entry": "{@spell chain lightning} (primary target takes 6d8 lightning damage; two secondary targets within 30 feet of the primary target take 3d8 lightning damage each), {@spell eyebite} (sickened effect; 1 minute)"
-								},
-								{
-									"type": "item",
-									"name": "Enervation Ray:",
-									"entry": "{@spell create undead} (usable regardless of the time of day), {@spell polymorph} (1 minute)"
-								},
-								{
-									"type": "item",
-									"name": "Fear Ray:",
-									"entry": "{@spell gaseous form} (self or willing creature only), {@spell moonbeam}"
-								},
-								{
-									"type": "item",
-									"name": "Paralyzing Ray:",
-									"entry": "{@spell modify memory}, {@spell silence} (1 minute)"
-								},
-								{
-									"type": "item",
-									"name": "Petrification Ray:",
-									"entry": "{@spell Otto's irresistible dance} (1 minute), {@spell wall of ice} (1 minute; one 10-foot-square panel)"
-								},
-								{
-									"type": "item",
-									"name": "Sleep Ray:",
-									"entry": "{@spell blindness/deafness}, {@spell misty step} (self or willing creature only)"
-								},
-								{
-									"type": "item",
-									"name": "Slowing Ray:",
-									"entry": "{@spell bestow curse} (1 minute), {@spell sleet storm} (one 10-foot-cube)"
-								},
-								{
-									"type": "item",
-									"name": "Telekinesis Ray:",
-									"entry": "{@spell geas} (1 hour), {@spell wall of force} (1 minute; one 10-foot-square panel)"
-								}
-							]
-						}
-					],
-					"source": "VGM",
-					"page": 12,
-					"_version": {
-						"name": "Beholder (Variant Abilities)",
-						"addAs": "trait"
-					}
-				}
-			],
+			"variant": [],
 			"environment": [
 				"underdark"
 			],
@@ -17184,9 +17098,6 @@
 					"source": "HotDQ"
 				},
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -17226,9 +17137,6 @@
 					"source": "ERLW"
 				},
 				{
-					"source": "RMBRE"
-				},
-				{
 					"source": "EGW"
 				},
 				{
@@ -17266,9 +17174,6 @@
 				},
 				{
 					"source": "PaBTSO"
-				},
-				{
-					"source": "AATM"
 				},
 				{
 					"source": "SatO"
@@ -29357,9 +29262,6 @@
 					"source": "PaBTSO"
 				},
 				{
-					"source": "AATM"
-				},
-				{
 					"source": "SatO"
 				},
 				{
@@ -32148,9 +32050,6 @@
 					"source": "SDW"
 				},
 				{
-					"source": "LR"
-				},
-				{
 					"source": "IDRotF"
 				},
 				{
@@ -32266,9 +32165,6 @@
 					"source": "HotDQ"
 				},
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "RoT"
 				},
 				{
@@ -32315,9 +32211,6 @@
 				},
 				{
 					"source": "DSotDQ"
-				},
-				{
-					"source": "PSX"
 				},
 				{
 					"source": "HftT"
@@ -34694,9 +34587,6 @@
 			"basicRules": true,
 			"otherSources": [
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -34719,12 +34609,6 @@
 				},
 				{
 					"source": "BGDIA"
-				},
-				{
-					"source": "ERLW"
-				},
-				{
-					"source": "RMBRE"
 				},
 				{
 					"source": "EGW"
@@ -34839,12 +34723,7 @@
 				"type": "internal",
 				"path": "bestiary/goblin.mp3"
 			},
-			"altArt": [
-				{
-					"name": "Goblin",
-					"source": "RMBRE"
-				}
-			],
+			"altArt": [],
 			"attachedItems": [
 				"scimitar|phb",
 				"shortbow|phb"
@@ -45369,13 +45248,7 @@
 					"source": "KftGV"
 				},
 				{
-					"source": "PSI"
-				},
-				{
 					"source": "PaBTSO"
-				},
-				{
-					"source": "AATM"
 				},
 				{
 					"source": "SatO"
@@ -47745,9 +47618,6 @@
 				},
 				{
 					"source": "TCE"
-				},
-				{
-					"source": "SjA"
 				},
 				{
 					"source": "LoX"
@@ -51224,9 +51094,6 @@
 			"basicRules": true,
 			"otherSources": [
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -51246,9 +51113,6 @@
 				},
 				{
 					"source": "ERLW"
-				},
-				{
-					"source": "RMBRE"
 				},
 				{
 					"source": "CRCotN"
@@ -51504,9 +51368,6 @@
 					"source": "HotDQ"
 				},
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -51534,9 +51395,6 @@
 					"source": "ERLW"
 				},
 				{
-					"source": "RMBRE"
-				},
-				{
 					"source": "EGW"
 				},
 				{
@@ -51549,16 +51407,10 @@
 					"source": "CRCotN"
 				},
 				{
-					"source": "SjA"
-				},
-				{
 					"source": "DSotDQ"
 				},
 				{
 					"source": "KftGV"
-				},
-				{
-					"source": "PSZ"
 				},
 				{
 					"source": "HftT"
@@ -51834,9 +51686,6 @@
 					"source": "KftGV"
 				},
 				{
-					"source": "PSZ"
-				},
-				{
 					"source": "ToFW"
 				}
 			],
@@ -52014,9 +51863,6 @@
 					"source": "HotDQ"
 				},
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -52036,9 +51882,6 @@
 				},
 				{
 					"source": "ERLW"
-				},
-				{
-					"source": "RMBRE"
 				},
 				{
 					"source": "EGW"
@@ -55082,9 +54925,6 @@
 				},
 				{
 					"source": "DSotDQ"
-				},
-				{
-					"source": "PSI"
 				},
 				{
 					"source": "SatO"
@@ -65014,9 +64854,6 @@
 				},
 				{
 					"source": "SDW"
-				},
-				{
-					"source": "LR"
 				},
 				{
 					"source": "WBtW"
@@ -77812,9 +77649,6 @@
 					"source": "CoS"
 				},
 				{
-					"source": "LMoP"
-				},
-				{
 					"source": "PotA"
 				},
 				{
@@ -77851,9 +77685,6 @@
 					"source": "ERLW"
 				},
 				{
-					"source": "RMBRE"
-				},
-				{
 					"source": "EGW"
 				},
 				{
@@ -77873,9 +77704,6 @@
 				},
 				{
 					"source": "KftGV"
-				},
-				{
-					"source": "PSI"
 				},
 				{
 					"source": "HftT"

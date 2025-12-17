@@ -4838,25 +4838,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Mind Blade",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"sword": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "Mind Blade ",
-				"source": "VGM",
-				"page": 81,
-				"rarity": "rare",
-				"reqAttune": "by a specific individual",
-				"entries": [
-					"Mind flayers can turn any nonmagical sword into a mind blade. Only one creature can attune to it: either a specific mind flayer or one of its thralls. In the hands of any other creature, the mind blade functions as a normal sword of its kind. In the hands of its intended wielder, the mind blade is a magic weapon that deals an extra {@damage 2d6} psychic damage to any target it hits."
-				]
-			}
-		},
-		{
 			"name": "Mind Carapace Armor",
 			"type": "GV|DMG",
 			"requires": [
@@ -4869,7 +4850,7 @@
 			],
 			"inherits": {
 				"namePrefix": "Mind Carapace ",
-				"source": "VGM",
+				"source": "MPMM",
 				"page": 81,
 				"rarity": "uncommon",
 				"reqAttune": "by a specific individual",
@@ -5743,7 +5724,7 @@
 							],
 							[
 								"13",
-								"{@creature Ox|VGM}"
+								"{@creature Ox|MPMM}"
 							],
 							[
 								"14",

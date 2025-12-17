@@ -3,7 +3,7 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"VGM"
+				"MPMM"
 			]
 		},
 		"otherSources": {
@@ -1651,14 +1651,14 @@
 			],
 			"_copy": {
 				"name": "Martial Arts Adept",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"trait": {
 						"mode": "prependArr",
 						"items": {
 							"name": "5etools Note",
 							"entries": [
-								"Leosin Erlanthar is presented in {@adventure Hoard of the Dragon Queen|HotDQ} as a half-elf monk. The {@creature martial arts adept|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
+								"Leosin Erlanthar is presented in {@adventure Hoard of the Dragon Queen|HotDQ} as a half-elf monk. The {@creature martial arts adept|mpmm} stat block from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} has been provided here for ease of use."
 							]
 						}
 					}
@@ -1730,14 +1730,14 @@
 			],
 			"_copy": {
 				"name": "War Priest",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"trait": {
 						"mode": "prependArr",
 						"items": {
 							"name": "5etools Note",
 							"entries": [
-								"Ontharr Frume is presented in {@adventure Hoard of the Dragon Queen|HotDQ} and The {@adventure Rise of Tiamat|RoT} as a lawful good, human paladin of Torm. The {@creature war priest|vgm} stat block from {@book Volo's Guide to Monsters|VGM} has been provided here for ease of use."
+								"Ontharr Frume is presented in {@adventure Hoard of the Dragon Queen|HotDQ} and The {@adventure Rise of Tiamat|RoT} as a lawful good, human paladin of Torm. The {@creature war priest|mpmm} stat block from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} has been provided here for ease of use."
 							]
 						}
 					}

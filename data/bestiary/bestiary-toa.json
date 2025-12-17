@@ -3,7 +3,7 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"VGM"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -2180,7 +2180,7 @@
 			"page": 113,
 			"_copy": {
 				"name": "Yuan-ti Nightmare Speaker",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -3193,7 +3193,7 @@
 			"page": 35,
 			"_copy": {
 				"name": "Vegepygmy",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -4285,11 +4285,11 @@
 			"page": 120,
 			"_copy": {
 				"name": "Champion",
-				"source": "VGM",
+				"source": "MPMM",
 				"_templates": [
 					{
 						"name": "Yuan-ti Pureblood",
-						"source": "VGM"
+						"source": "MM"
 					}
 				],
 				"_mod": {
@@ -6563,7 +6563,7 @@
 			"page": 108,
 			"_copy": {
 				"name": "Grung Elite Warrior",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",

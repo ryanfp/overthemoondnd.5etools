@@ -472,9 +472,9 @@
 		},
 		{
 			"name": "Firbolg",
-			"source": "VGM",
-			"page": 107,
-			"ref": "{@race Firbolg|VGM}",
+			"source": "MPMM",
+			"page": 15,
+			"ref": "{@race Firbolg|MPMM}",
 			"apply": {
 				"_root": {
 					"size": [
@@ -1022,9 +1022,9 @@
 		},
 		{
 			"name": "Goliath",
-			"source": "VGM",
-			"page": 108,
-			"ref": "{@race Goliath|VGM}",
+			"source": "XPHB",
+			"page": 192,
+			"ref": "{@race Goliath|XPHB}",
 			"apply": {
 				"_root": {
 					"size": [
@@ -1727,9 +1727,9 @@
 		},
 		{
 			"name": "Kenku",
-			"source": "VGM",
-			"page": 109,
-			"ref": "{@race Kenku|VGM}",
+			"source": "MPMM",
+			"page": 24,
+			"ref": "{@race Kenku|MPMM}",
 			"apply": {
 				"_root": {
 					"size": [
@@ -2798,9 +2798,9 @@
 		},
 		{
 			"name": "Tabaxi",
-			"source": "VGM",
-			"page": 113,
-			"ref": "{@race Tabaxi|VGM}",
+			"source": "MPMM",
+			"page": 33,
+			"ref": "{@race Tabaxi|MPMM}",
 			"apply": {
 				"_root": {
 					"size": [
@@ -3059,9 +3059,9 @@
 		},
 		{
 			"name": "Yuan-ti Pureblood",
-			"source": "VGM",
-			"page": 120,
-			"ref": "{@race Yuan-ti Pureblood|VGM}",
+			"source": "MPMM",
+			"page": 36,
+			"ref": "{@race Yuan-ti Pureblood|MPMM}",
 			"apply": {
 				"_root": {
 					"size": [

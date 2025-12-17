@@ -2941,7 +2941,7 @@
 			"page": 177,
 			"_copy": {
 				"name": "Hag",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"lairActions": {
 						"mode": "appendArr",
@@ -2974,7 +2974,7 @@
 		},
 		{
 			"name": "Hag",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 159,
 			"lairActions": [
 				"The following lair actions are options for grandmothers and powerful aunties. Grandmothers usually have three to five lair actions, aunties usually only one (if they have any at all). Unless otherwise noted, any lair action that requires a creature to make a saving throw uses the save DC of the hag's most powerful ability.",
@@ -3114,7 +3114,7 @@
 		},
 		{
 			"name": "Illithilich",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 172,
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the illithilich can take a lair action to cause one of the following magical effects; the illithilich can't use the same effect two rounds in a row:",
@@ -3340,7 +3340,7 @@
 		{
 			"name": "Ki-rin",
 			"source": "MPMM",
-			"page": 162,
+			"page": 163,
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), a kirin can take one of the following lair actions, and it must finish a long rest before taking the chosen lair action again:",
 				{
@@ -3419,7 +3419,7 @@
 		},
 		{
 			"name": "Ki-rin",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 163,
 			"lairActions": [
 				"Inside its lair, a ki-rin has the power to conjure objects up to three times per day, using each of the following versions of the power once. One version permanently creates enough objects made of soft, plant-based material - including manufactured objects such as cloth, pillows, rope, blankets, and clothing - to fill a cube 20 feet on a side. The second version permanently creates enough objects made of wood, or similarly hard plant-based material, to fill a cube 10 feet on a side. The third version creates enough objects made of stone or metal to fill a cube 2 feet on a side, but any materials created in this way last for only 1 hour."
@@ -4052,8 +4052,8 @@
 		},
 		{
 			"name": "Morkoth",
-			"source": "VGM",
-			"page": 177,
+			"source": "MPMM",
+			"page": 186,
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), the morkoth takes a lair action to cause one of the effects described below:",
 				{
@@ -4228,7 +4228,7 @@
 			"page": 178,
 			"_copy": {
 				"name": "Hag",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"lairActions": {
 						"mode": "appendArr",
@@ -4990,7 +4990,7 @@
 			"page": 179,
 			"_copy": {
 				"name": "Hag",
-				"source": "VGM",
+				"source": "MPMM",
 				"_mod": {
 					"lairActions": {
 						"mode": "appendArr",
@@ -5372,8 +5372,8 @@
 		},
 		{
 			"name": "Storm Giant Quintessent",
-			"source": "VGM",
-			"page": 151,
+			"source": "MPMM",
+			"page": 235,
 			"lairActions": [
 				"A storm giant quintessent can use lair actions in giant form and while transformed into a storm. On initiative count 20 (losing initiative ties), the giant can take a lair action to cause one of the following effects; the giant can't use the same effect two rounds in a row:",
 				{

@@ -25844,58 +25844,6 @@
 			]
 		},
 		{
-			"name": "Flensing Claws (Huge)",
-			"source": "VGM",
-			"page": 81,
-			"type": "OTH",
-			"rarity": "unknown",
-			"dmg1": "2d8",
-			"dmgType": "S",
-			"entries": [
-				"Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
-				"Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
-			]
-		},
-		{
-			"name": "Flensing Claws (Large)",
-			"source": "VGM",
-			"page": 81,
-			"type": "OTH",
-			"rarity": "unknown",
-			"dmg1": "1d12",
-			"dmgType": "S",
-			"entries": [
-				"Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
-				"Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
-			]
-		},
-		{
-			"name": "Flensing Claws (Medium)",
-			"source": "VGM",
-			"page": 81,
-			"type": "OTH",
-			"rarity": "unknown",
-			"dmg1": "1d10",
-			"dmgType": "S",
-			"entries": [
-				"Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
-				"Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
-			]
-		},
-		{
-			"name": "Flensing Claws (Small)",
-			"source": "VGM",
-			"page": 81,
-			"type": "OTH",
-			"rarity": "unknown",
-			"dmg1": "1d8",
-			"dmgType": "S",
-			"entries": [
-				"Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
-				"Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
-			]
-		},
-		{
 			"name": "Flour",
 			"source": "PHB",
 			"page": 157,
@@ -40029,7 +39977,7 @@
 		},
 		{
 			"name": "Mind Lash",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 81,
 			"type": "M",
 			"rarity": "rare",
@@ -56959,7 +56907,7 @@
 		},
 		{
 			"name": "Shield of Far Sight",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 81,
 			"type": "S",
 			"rarity": "rare",
@@ -64746,7 +64694,7 @@
 		},
 		{
 			"name": "Survival Mantle",
-			"source": "VGM",
+			"source": "MPMM",
 			"page": 81,
 			"type": "MA",
 			"rarity": "unknown",
@@ -67112,7 +67060,7 @@
 						],
 						[
 							"73",
-							"You summon a {@creature slithering tracker|VGM} that obeys your commands.",
+							"You summon a {@creature slithering tracker|MPMM} that obeys your commands.",
 							"You take on the appearance of having translucent skin, with your bones and organs slightly visible within."
 						],
 						[
@@ -77742,24 +77690,6 @@
 				"Figurine of Wondrous Power, Onyx Dog|XDMG",
 				"Figurine of Wondrous Power, Serpentine Owl|XDMG",
 				"Figurine of Wondrous Power, Silver Raven|XDMG"
-			]
-		},
-		{
-			"name": "Flensing Claws",
-			"source": "VGM",
-			"page": 81,
-			"type": "OTH",
-			"rarity": "unknown",
-			"dmgType": "S",
-			"entries": [
-				"{@creature mind flayer||Illithids} don't always provide their thralls with normal weapons, such as swords and axes. Sometimes they improve the natural capabilities of thralls by giving them new anatomy. Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
-				"Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The claws deal slashing damage based on the creature's size. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws. Tiny and Gargantuan creatures can't be fitted with flensing claws."
-			],
-			"items": [
-				"Flensing Claws (Small)|VGM",
-				"Flensing Claws (Medium)|VGM",
-				"Flensing Claws (Large)|VGM",
-				"Flensing Claws (Huge)|VGM"
 			]
 		},
 		{
