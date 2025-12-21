@@ -1580,26 +1580,10 @@
 					"baseSource": "PSZ"
 				},
 				{
-					"name": "Siren",
-					"source": "PSX"
-				},
-				{
-					"name": "Merfolk (Zendikar; Cosi Creed)",
-					"source": "PSZ",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
-				},
-				{
-					"name": "Merfolk (Zendikar; Ula Creed)",
-					"source": "PSZ",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
-				},
-				{
-					"name": "Tiefling (Fierna)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -3866,10 +3850,10 @@
 					"baseSource": "MPMM"
 				},
 				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				},
 				{
 					"name": "Tiefling (Variant; Hellfire)",
@@ -4975,9 +4959,9 @@
 			"races": [
 				{
 					"name": "Gith (Githzerai)",
-					"source": "MTF",
+					"source": "MPMM",
 					"baseName": "Gith",
-					"baseSource": "MTF"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Githzerai",
@@ -6062,12 +6046,6 @@
 					"baseName": "Dwarf",
 					"baseSource": "PHB"
 				},
-				{
-					"name": "Tiefling (Levistus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				}
 			],
 			"feats": [
 				{
@@ -7633,10 +7611,10 @@
 					"baseSource": "MPMM"
 				},
 				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"damageInflict": [
@@ -11717,10 +11695,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Zariel)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"damageInflict": [
@@ -13331,10 +13309,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Baalzebul)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -19982,10 +19960,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Baalzebul)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -20228,10 +20206,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Baalzebul)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [

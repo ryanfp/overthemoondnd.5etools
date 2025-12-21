@@ -4192,19 +4192,6 @@
 			]
 		},
 		{
-			"name": "Greater Silver Sword",
-			"source": "MTF",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "items/MTF/Greater Silver Sword.webp"
-					}
-				}
-			]
-		},
-		{
 			"name": "Greatsword",
 			"source": "XPHB",
 			"images": [

@@ -3424,7 +3424,7 @@
 							"name": "Monster Stat Blocks",
 							"page": 81,
 							"entries": [
-								"This section contains stat blocks for monsters appearing exclusively in this adventure, in {@i Tomb of Annihilation}, and in {@i Volo's Guide to Monsters}. All other monsters can be found in the Monster Manual.",
+								"This section contains stat blocks for monsters appearing exclusively in this adventure, in {@i Tomb of Annihilation}, and in {@i Mordenkainen Presents: Monsters of the Multiverse}. All other monsters can be found in the Monster Manual.",
 								{
 									"type": "list",
 									"columns": 3,

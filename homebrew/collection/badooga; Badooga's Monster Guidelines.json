@@ -4922,11 +4922,6 @@
 			},
 			"altArt": [
 				{
-					"name": "Diabolical Bandit",
-					"source": "MTF",
-					"page": 18
-				},
-				{
 					"name": "Vistana Bandit",
 					"source": "CoS"
 				},
@@ -7214,7 +7209,7 @@
 									"type": "entries",
 									"name": "OCR and DCR by Monster Role",
 									"entries": [
-										"Most official monsters, especially the ones found in supplements beyond the {@book Monster Manual|mm} (e.g. {@book Mordenkainen's Tome of Foes|mtf}), have at least a little more offensive power than defensive power. This makes sense: too much defense makes a fight too sluggish and boring, and too little offense makes a monster not feel threatening to the party.",
+										"Most official monsters, especially the ones found in supplements beyond the {@book Monster Manual|mm} (e.g. {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}), have at least a little more offensive power than defensive power. This makes sense: too much defense makes a fight too sluggish and boring, and too little offense makes a monster not feel threatening to the party.",
 										"In particular, many of the monsters in the {@i Monster Manual} have an OCR that is 6 more than its DCR (before traits come into play). Based on some existing statistical analyses and my own personal investigations, this seems to be an intentional choice.",
 										"With this in mind, below is a table listing a recommended range of numeric differences between a monster's OCR and DCR, depending on its role.",
 										{
@@ -8502,7 +8497,7 @@
 									"entries": [
 										"To make certain fights more epic and cool, you can give your monsters access to lair actions. Lair actions are special powers that certain monsters can use to manipulate the lair they reside in. For example, an ancient red dragon can cause magma and volcanic gases to erupt within its lair, while Orcus can cause corpses within the lair to animate as undead. Not only do these powers add to the presentation of the fight, but they also influence the action economy by allowing a monster that has them to do more from round to round.",
 										"That said, just like legendary actions (see below), lair actions needn't be restricted to boss fights, high CR monsters, or even to lairs in general. For example, the lair action system can be used to quantify the spread of fire due to a rampaging squad of rogue fire elementals, which lacks all three of these qualities. In other cases, you can even just have environmental shifts (e.g. the effects of a natural earthquake) occur on initiative count 20 of each round, which is the equivalent of a lair action that isn't even taken by a monster at all.",
-										"The \"lair actions without a lair\" concept might sound strange at first, but can actually be used quite well in boss fights and other climactic scenarios. Many official monsters have lair actions that don't necessarily manipulate their lair itself; for example, both of {@creature Zariel|mtf}'s lair actions boil down to her casting some sort of spell. While the lack of a lair dependency is arguably a form of bad design (an argument I won't disagree with), this independence also allows you to use these lair actions even when it is outside of its lair or it doesn't have a lair in the first place. Remember that while this might work for some monsters, it might not work with the ones that directly manipulate their lair via their lair actions.",
+										"The \"lair actions without a lair\" concept might sound strange at first, but can actually be used quite well in boss fights and other climactic scenarios. Many official monsters have lair actions that don't necessarily manipulate their lair itself; for example, both of {@creature Zariel|MPMM}'s lair actions boil down to her casting some sort of spell. While the lack of a lair dependency is arguably a form of bad design (an argument I won't disagree with), this independence also allows you to use these lair actions even when it is outside of its lair or it doesn't have a lair in the first place. Remember that while this might work for some monsters, it might not work with the ones that directly manipulate their lair via their lair actions.",
 										"In general, whenever a monster uses a lair action, one or more of the following effects can occur:",
 										{
 											"type": "list",
@@ -10130,7 +10125,7 @@
 											"name": "Warlock",
 											"entries": [
 												"While warlocks certainly make good enemies due to their story potential, the nature of their spell slots makes it much harder to balance them sometimes. I would personally suggest simply ditching pact slots for your warlock enemies and making them only use Innate Spellcasting (or regular slots, if you think that would be better), especially as invocation spells are already treated as innate spells. Otherwise, it is fairly easy to give a monster an invocation of your choice, whether it is an existing invocation or a new invocation of your own design.",
-												"Beyond that, I recommend using cult features (such as the ones found in {@book Mordenkainen's Tome of Foes|mtf}) to make your warlock monsters unique when you can help it.",
+												"Beyond that, I recommend using cult features (such as the ones found in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) to make your warlock monsters unique when you can help it.",
 												{
 													"type": "entries",
 													"name": "Beseech Patron {@recharge 5}",
@@ -14809,7 +14804,7 @@
 					"entries": [
 						"To make certain fights more epic and cool, you can give your monsters access to lair actions. Lair actions are special powers that certain monsters can use to manipulate the lair they reside in. For example, an ancient red dragon can cause magma and volcanic gases to erupt within its lair, while Orcus can cause corpses within the lair to animate as undead. Not only do these powers add to the presentation of the fight, but they also influence the action economy by allowing a monster that has them to do more from round to round.",
 						"That said, just like legendary actions (see below), lair actions needn't be restricted to boss fights, high CR monsters, or even to lairs in general. For example, the lair action system can be used to quantify the spread of fire due to a rampaging squad of rogue fire elementals, which lacks all three of these qualities. In other cases, you can even just have environmental shifts (e.g. the effects of a natural earthquake) occur on initiative count 20 of each round, which is the equivalent of a lair action that isn't even taken by a monster at all.",
-						"The \"lair actions without a lair\" concept might sound strange at first, but can actually be used quite well in boss fights and other climactic scenarios. Many official monsters have lair actions that don't necessarily manipulate their lair itself; for example, both of {@creature Zariel|mtf}'s lair actions boil down to her casting some sort of spell. While the lack of a lair dependency is arguably a form of bad design (an argument I won't disagree with), this independence also allows you to use these lair actions even when it is outside of its lair or it doesn't have a lair in the first place. Remember that while this might work for some monsters, it might not work with the ones that directly manipulate their lair via their lair actions.",
+						"The \"lair actions without a lair\" concept might sound strange at first, but can actually be used quite well in boss fights and other climactic scenarios. Many official monsters have lair actions that don't necessarily manipulate their lair itself; for example, both of {@creature Zariel|MPMM}'s lair actions boil down to her casting some sort of spell. While the lack of a lair dependency is arguably a form of bad design (an argument I won't disagree with), this independence also allows you to use these lair actions even when it is outside of its lair or it doesn't have a lair in the first place. Remember that while this might work for some monsters, it might not work with the ones that directly manipulate their lair via their lair actions.",
 						"In general, whenever a monster uses a lair action, one or more of the following effects can occur:",
 						{
 							"type": "list",
@@ -16446,7 +16441,7 @@
 							"name": "Warlock",
 							"entries": [
 								"While warlocks certainly make good enemies due to their story potential, the nature of their spell slots makes it much harder to balance them sometimes. I would personally suggest simply ditching pact slots for your warlock enemies and making them only use Innate Spellcasting (or regular slots, if you think that would be better), especially as invocation spells are already treated as innate spells. Otherwise, it is fairly easy to give a monster an invocation of your choice, whether it is an existing invocation or a new invocation of your own design.",
-								"Beyond that, I recommend using cult features (such as the ones found in {@book Mordenkainen's Tome of Foes|mtf}) to make your warlock monsters unique when you can help it.",
+								"Beyond that, I recommend using cult features (such as the ones found in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) to make your warlock monsters unique when you can help it.",
 								{
 									"type": "entries",
 									"name": "Beseech Patron {@recharge 5}",

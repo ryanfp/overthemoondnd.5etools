@@ -73,9 +73,46 @@ class BackgroundPage extends ListPage {
 				pageTitle: "Backgrounds Book View",
 			},
 
+			tableViewOptions: {
+				title: "Backgrounds",
+				colTransforms: {
+					name: UtilsTableview. COL_TRANSFORM_NAME,
+					source: UtilsTableview.COL_TRANSFORM_SOURCE,
+					page: UtilsTableview.COL_TRANSFORM_PAGE,
+					_slAbility: {name: "Ability Scores", transform: (bg) => bg._slAbility},
+					_fFeats: {
+						name: "Feat",
+						transform: (bg) => (bg._fFeats || []).join(", ") || "\u2014",
+					},
+					_skillDisplay: {name: "Skill Proficiencies", transform: (bg) => bg._skillDisplay},
+					_fTools: {
+						name: "Tool Proficiencies",
+						transform:  (bg) => (bg._fTools || []).join(", ") || "\u2014",
+					},
+					_fOtherBenefits: {
+						name: "Other Benefit",
+						transform: (bg) => (bg._fOtherBenefits || []).join(", ") || "\u2014",
+					},
+					startingEquipment: {
+						name:  "Equipment",
+						transform: (bg) => {
+							if (! bg.startingEquipment) return "\u2014";
+							return Renderer.get().render({type: "entries", entries: bg.startingEquipment}, 1);
+						},
+					},
+					entries: {
+						name: "Text",
+						transform: (bg) => Renderer.get().render({type: "entries", entries: bg.entries}, 1),
+						flex: 3,
+					},
+				},
+			},
+
 			dataProps: ["background"],
 		});
 	}
+
+
 
 	getListItem (bg, bgI, isExcluded) {
 		this._pageFilter.mutateAndAddToFilters(bg, isExcluded);

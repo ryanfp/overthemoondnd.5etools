@@ -22511,63 +22511,6 @@
 			]
 		},
 		{
-			"name": "Elven Trinket",
-			"source": "MTF",
-			"page": 64,
-			"type": "G",
-			"rarity": "none",
-			"entries": [
-				{
-					"type": "table",
-					"colLabels": [
-						"d8",
-						"Trinket"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"A small notebook that causes anything written in it to disappear after 1 hour"
-						],
-						[
-							"2",
-							"A crystal lens made of ivory and gold that causes anything observed through it to appear to be surrounded by motes of multicolored light"
-						],
-						[
-							"3",
-							"A small golden pyramid inscribed with elven symbols and about the size of a walnut"
-						],
-						[
-							"4",
-							"A cloak pin made from enamel in the shape of a butterfly; when you take the pin off, it turns into a real butterfly, and returns when you are ready to put your cloak back on again"
-						],
-						[
-							"5",
-							"A golden compass that points toward the nearest portal to the Feywild within 10 miles"
-						],
-						[
-							"6",
-							"A small silver spinning top that, when spun, endlessly spins until interrupted"
-						],
-						[
-							"7",
-							"A small songbird made of enamel, gold wire, and precious stone; uttering the songbird's name in Elvish causes the trinket to emit that bird's birdsong"
-						],
-						[
-							"8",
-							"A small enamel flower that, when put in one's hair, animates, tying back the wearer's hair with a living vine with flowers; plucking a single flower from this vine returns it to its inanimate form"
-						]
-					]
-				}
-			],
-			"miscTags": [
-				"TT"
-			]
-		},
-		{
 			"name": "Emblem",
 			"group": [
 				"Holy Symbol"
@@ -23641,7 +23584,7 @@
 			"charges": 8,
 			"entries": [
 				"Seldom is the name of Vecna spoken except in a hushed voice. Vecna was, in his time, one of the mightiest of all wizards. Through dark magic and conquest, he forged a terrible empire. For all his power, Vecna couldn't escape his own mortality. He began to fear death and take steps to prevent his end from ever coming about.",
-				"{@creature Orcus|MTF}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
+				"{@creature Orcus|MPMM}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
 				"Some say that Vecna's lieutenant Kas coveted the Spider Throne for himself, or that the sword his lord made for him seduced him into rebellion. Whatever the reason, Kas brought the Undying King's rule to an end in a terrible battle that left Vecna's tower a heap of ash. Of Vecna, all that remained were one hand and one eye, grisly artifacts that still seek to work the Whispered One's will in the world.",
 				"The Eye of Vecna and the {@item Hand of Vecna} might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.",
 				"To attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.",
@@ -28061,36 +28004,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Greater Silver Sword",
-			"source": "MTF",
-			"page": 89,
-			"baseItem": "greatsword|phb",
-			"type": "M",
-			"resist": [
-				"psychic"
-			],
-			"rarity": "legendary",
-			"reqAttune": "by a creature that has psionic ability",
-			"reqAttuneTags": [
-				{
-					"psionics": true
-				}
-			],
-			"weight": 6,
-			"weaponCategory": "martial",
-			"property": [
-				"H",
-				"2H"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"bonusWeapon": "+3",
-			"entries": [
-				"This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being {@condition charmed}, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Green Chromatic Rose",
 			"source": "WBtW",
 			"page": 208,
@@ -28908,7 +28821,7 @@
 			"charges": 8,
 			"entries": [
 				"Seldom is the name of Vecna spoken except in a hushed voice. Vecna was, in his time, one of the mightiest of all wizards. Through dark magic and conquest, he forged a terrible empire. For all his power, Vecna couldn't escape his own mortality. He began to fear death and take steps to prevent his end from ever coming about.",
-				"{@creature Orcus|MTF}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
+				"{@creature Orcus|MPMM}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
 				"Some say that Vecna's lieutenant Kas coveted the Spider Throne for himself, or that the sword his lord made for him seduced him into rebellion. Whatever the reason, Kas brought the Undying King's rule to an end in a terrible battle that left Vecna's tower a heap of ash. Of Vecna, all that remained were one hand and one eye, grisly artifacts that still seek to work the Whispered One's will in the world.",
 				"The {@item Eye of Vecna} and the Hand of Vecna might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.",
 				"To attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.",
@@ -30001,7 +29914,7 @@
 				"This bulky, eyeless helmet is made for a {@creature pit fiend} but magically resizes to fit the heads of other wearers.",
 				"While wearing the helm, you can see out of it as though you weren't wearing it. In addition, you know the exact location and type of all devils within 1,000 feet of you. You can telepathically communicate with a devil within range, or you can broadcast your thoughts to all devils within range. The devils receiving your broadcasted thoughts have no special means of replying to them.",
 				"The helm has 3 charges. As an action, you can expend 1 charge to cast {@spell dominate monster} (save {@dc 21}), which affects devils only. (The spell fails and the charge is wasted if you target any creature that's not a devil.) If a devil can see you when you cast this spell on it, the devil knows you tried to charm it. The helm regains all its charges 24 hours after its last charge is expended.",
-				"If you are not a devil, using the helm's {@spell dominate monster} property in the Nine Hells has a {@chance 20} chance of attracting a {@creature narzugon|MTF}, which arrives on the back of a {@creature nightmare} mount in {@dice 1d4} hours. The narzugon tries to recover the helm, killing you if necessary to obtain it. If it gets the helm, the narzugon tries to deliver it to its infernal master."
+				"If you are not a devil, using the helm's {@spell dominate monster} property in the Nine Hells has a {@chance 20} chance of attracting a {@creature narzugon|MPMM}, which arrives on the back of a {@creature nightmare} mount in {@dice 1d4} hours. The narzugon tries to recover the helm, killing you if necessary to obtain it. If it gets the helm, the narzugon tries to deliver it to its infernal master."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -32654,17 +32567,13 @@
 		},
 		{
 			"name": "Infernal Tack",
-			"source": "MTF",
-			"page": 167,
+			"source": "MPMM",
+			"page": 190,
 			"otherSources": [
 				{
 					"source": "BGDIA",
 					"page": 224
 				},
-				{
-					"source": "MPMM",
-					"page": 190
-				}
 			],
 			"rarity": "legendary",
 			"reqAttune": "by a creature of evil alignment.",
@@ -57786,32 +57695,6 @@
 			"value": 75000
 		},
 		{
-			"name": "Silver Sword",
-			"source": "MTF",
-			"page": 89,
-			"type": "M",
-			"tier": "major",
-			"rarity": "unknown (magic)",
-			"reqAttune": "by a creature that has psionic ability",
-			"reqAttuneTags": [
-				{
-					"psionics": true
-				}
-			],
-			"weight": 6,
-			"weaponCategory": "martial",
-			"property": [
-				"H",
-				"2H"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"bonusWeapon": "+3",
-			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this magic weapon. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
-			]
-		},
-		{
 			"name": "Silver-plated steel longsword with jet set in hilt",
 			"source": "DMG",
 			"page": 135,
@@ -72128,9 +72011,9 @@
 			"rechargeAmount": "{@dice 1d4 + 3}",
 			"charges": 7,
 			"entries": [
-				"The ghastly Wand of Orcus rarely leaves {@creature Orcus|MTF|Orcus's} side. The device, as evil as its creator, shares the demon lord's aims to snuff out the lives of all living things and bind the Material Plane in the stasis of undeath. {@creature Orcus|MTF} allows the wand to slip from his grasp from time to time. When it does, it magically appears wherever its master senses an opportunity to achieve some fell goal.",
-				"Made from bones as hard as iron, the wand is topped with a magically enlarged skull that once belonged to a human hero slain by {@creature Orcus|MTF}. The wand can magically change in size to better conform to the grip of its user. Plants wither, drinks spoil, flesh rots, and vermin thrive in the wand's presence.",
-				"Any creature besides {@creature Orcus|MTF} that tries to attune to the wand must make a {@dc 17} Constitution saving throw. On a successful save, the creature takes {@damage 10d6} necrotic damage. On a failed save, the creature dies and rises as a {@creature zombie}.",
+				"The ghastly Wand of Orcus rarely leaves {@creature Orcus|MPMM|Orcus's} side. The device, as evil as its creator, shares the demon lord's aims to snuff out the lives of all living things and bind the Material Plane in the stasis of undeath. {@creature Orcus|MPMM} allows the wand to slip from his grasp from time to time. When it does, it magically appears wherever its master senses an opportunity to achieve some fell goal.",
+				"Made from bones as hard as iron, the wand is topped with a magically enlarged skull that once belonged to a human hero slain by {@creature Orcus|MPMM}. The wand can magically change in size to better conform to the grip of its user. Plants wither, drinks spoil, flesh rots, and vermin thrive in the wand's presence.",
+				"Any creature besides {@creature Orcus|MPMM} that tries to attune to the wand must make a {@dc 17} Constitution saving throw. On a successful save, the creature takes {@damage 10d6} necrotic damage. On a failed save, the creature dies and rises as a {@creature zombie}.",
 				"In the hands of one who is attuned to it, the wand can be wielded as a magic {@item mace|phb} that grants a +3 bonus to attack and damage rolls made with it. The wand deals an extra {@damage 2d12} necrotic damage on a hit.",
 				{
 					"name": "Random Properties",
@@ -72146,7 +72029,7 @@
 								"1 {@table Artifact Properties; Major Detrimental Properties|dmg|major detrimental property}"
 							]
 						},
-						"The detrimental properties of the Wand of Orcus are suppressed while the wand is attuned to {@creature Orcus|MTF} himself."
+						"The detrimental properties of the Wand of Orcus are suppressed while the wand is attuned to {@creature Orcus|MPMM} himself."
 					]
 				},
 				{
@@ -72161,7 +72044,7 @@
 					"type": "entries",
 					"entries": [
 						"The wand has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save {@dc 18}) from it: {@spell animate dead} (1 charge), {@spell blight} (2 charges), {@spell circle of death} (3 charges), {@spell finger of death} (3 charges), {@spell power word kill} (4 charges), or {@spell speak with dead} (1 charge). The wand regains {@dice 1d4 + 3} expended charges daily at dawn.",
-						"While attuned to the wand, {@creature Orcus|MTF} or a follower blessed by him can cast each of the wand's spells using 2 fewer charges (minimum of 0)."
+						"While attuned to the wand, {@creature Orcus|MPMM} or a follower blessed by him can cast each of the wand's spells using 2 fewer charges (minimum of 0)."
 					]
 				},
 				{
@@ -72169,7 +72052,7 @@
 					"type": "entries",
 					"entries": [
 						"While you are holding the wand, you can use an action to conjure {@creature skeleton||skeletons} and {@creature zombie||zombies}, calling forth as many of them as you can divide 500 hit points among, each undead having average hit points. The undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of you and obey your commands until they are destroyed or until dawn of the next day, when they collapse into inanimate piles of bones and rotting corpses. Once you use this property of the wand, you can't use it again until the next dawn.",
-						"While attuned to the wand, {@creature Orcus|MTF} can summon any kind of undead, not just skeletons and zombies. The undead don't perish or disappear at dawn the following day, remaining until {@creature Orcus|MTF} dismisses them."
+						"While attuned to the wand, {@creature Orcus|MPMM} can summon any kind of undead, not just skeletons and zombies. The undead don't perish or disappear at dawn the following day, remaining until {@creature Orcus|MPMM} dismisses them."
 					]
 				},
 				{
@@ -72184,15 +72067,15 @@
 					"name": "Personality",
 					"type": "entries",
 					"entries": [
-						"The wand's purpose is to help satisfy {@creature Orcus|MTF|Orcus's} desire to slay everything in the multiverse. The wand is cold, cruel, nihilistic, and bereft of humor. In order to further its master's goals, the wand feigns devotion to its current user and makes grandiose promises that it has no intention of fulfilling, such as vowing to help its user overthrow {@creature Orcus|MTF}."
+						"The wand's purpose is to help satisfy {@creature Orcus|MPMM|Orcus's} desire to slay everything in the multiverse. The wand is cold, cruel, nihilistic, and bereft of humor. In order to further its master's goals, the wand feigns devotion to its current user and makes grandiose promises that it has no intention of fulfilling, such as vowing to help its user overthrow {@creature Orcus|MPMM}."
 					]
 				},
 				{
 					"name": "Destroying the Wand",
 					"type": "entries",
 					"entries": [
-						"Destroying the Wand of Orcus requires that it be taken to the Positive Energy Plane by the ancient hero whose skull surmounts it. For this to happen, the long-lost hero must first be restored to life\u2014no easy task, given the fact that {@creature Orcus|MTF} has imprisoned the hero's soul and keeps it hidden and well guarded.",
-						"Bathing the wand in positive energy causes it to crack and explode, but unless the above conditions are met, the wand instantly reforms on {@creature Orcus|MTF|Orcus's} layer of the Abyss."
+						"Destroying the Wand of Orcus requires that it be taken to the Positive Energy Plane by the ancient hero whose skull surmounts it. For this to happen, the long-lost hero must first be restored to life\u2014no easy task, given the fact that {@creature Orcus|MPMM} has imprisoned the hero's soul and keeps it hidden and well guarded.",
+						"Bathing the wand in positive energy causes it to crack and explode, but unless the above conditions are met, the wand instantly reforms on {@creature Orcus|MPMM|Orcus's} layer of the Abyss."
 					]
 				}
 			],
@@ -77245,7 +77128,7 @@
 			},
 			"entries": [
 				"Seldom is the name of Vecna spoken except in a hushed voice. Vecna was, in his time, one of the mightiest of all wizards. Through dark magic and conquest, he forged a terrible empire. For all his power, Vecna couldn't escape his own mortality. He began to fear death and take steps to prevent his end from ever coming about.",
-				"{@creature Orcus|MTF}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
+				"{@creature Orcus|MPMM}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
 				"Some say that Vecna's lieutenant Kas coveted the Spider Throne for himself, or that the sword his lord made for him seduced him into rebellion. Whatever the reason, Kas brought the Undying King's rule to an end in a terrible battle that left Vecna's tower a heap of ash. Of Vecna, all that remained were one hand and one eye, grisly artifacts that still seek to work the Whispered One's will in the world.",
 				"The {@item Eye of Vecna} and the {@item Hand of Vecna} might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.",
 				"To attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.",

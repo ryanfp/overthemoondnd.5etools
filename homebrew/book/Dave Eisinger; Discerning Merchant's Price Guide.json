@@ -353,10 +353,6 @@
 													"LMoP"
 												],
 												[
-													"Mordenkainen's Tome of Foes",
-													"MTF"
-												],
-												[
 													"Mythic Odysseys of Theros",
 													"MOT"
 												],
@@ -1942,15 +1938,6 @@
 											"Very Rare",
 											"7,500 gp",
 											"DMG 199"
-										],
-										[
-											"17-19",
-											"71-76",
-											"{@item Silver Sword|MTF|Silver Sword (greatsword)}",
-											"No",
-											"Very Rare",
-											"16,000 gp",
-											"MTF 89"
 										],
 										[
 											"17-19",
@@ -7700,11 +7687,11 @@
 												[
 													"20",
 													"50-52",
-													"{@item Infernal Tack|MTF}",
+													"{@item Infernal Tack|MPMM}",
 													"Yes (evil)",
 													"Legendary",
 													"8,000 gp*",
-													"BGDIA 224; MTF 167"
+													"BGDIA 224; MPMM 190"
 												],
 												[
 													"20",
@@ -10471,14 +10458,6 @@
 					"Very Rare",
 					"7,500 gp",
 					"DMG 199"
-				],
-				[
-					"271-276",
-					"{@item Silver Sword|MTF|Silver Sword (greatsword)}",
-					"No",
-					"Very Rare",
-					"16,000 gp",
-					"MTF 89"
 				],
 				[
 					"277-282",
@@ -15883,11 +15862,11 @@
 				],
 				[
 					"550-552",
-					"{@item Infernal Tack|MTF}",
+					"{@item Infernal Tack|MPMM}",
 					"Yes (evil)",
 					"Legendary",
 					"8,000 gp*",
-					"BGDIA 224; MTF 167"
+					"BGDIA 224; MPMM 190"
 				],
 				[
 					"553-557",

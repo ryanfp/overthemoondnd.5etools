@@ -3552,7 +3552,7 @@
 									"name": "Tortle Seed Spreader",
 									"page": 217,
 									"entries": [
-										"{@note For {@creature Tortle Druid|MTF}, Mordenkainen's Tome page 242}",
+										"{@note For {@creature Tortle Druid|MPMM}, Mordenkainen Presents: Monsters of the Multiverse page 244}",
 										{
 											"type": "spellcasting",
 											"name": "",
@@ -7948,7 +7948,7 @@
 							"name": "New Environment Lists",
 							"page": 242,
 							"entries": [
-								"The following lists show creatures and monsters that can be found in three new environments, jungles, the sky, and molten or volcanic lands. These lists contain monsters from the {@i Monster Manual}, {@i Volo's Guide to Monsters}, and {@i Mordenkainen's Tome of Foes}. Monsters marked with an asterisk are found in this compendium.",
+								"The following lists show creatures and monsters that can be found in three new environments, jungles, the sky, and molten or volcanic lands. These lists contain monsters from the {@i Monster Manual} and {@i Mordenkainen Presents: Monsters of the Multiverse}. Monsters marked with an asterisk are found in this compendium.",
 								{
 									"type": "table",
 									"caption": "Jungle Creatures",
@@ -8002,15 +8002,15 @@
 											"6 (2,300 XP)"
 										],
 										[
-											"{@creature Giant ape}, {@creature thornfoul|TEB},* {@creature venom troll|MTF}, {@creature yuan-ti abomination}",
+											"{@creature Giant ape}, {@creature thornfoul|TEB},* {@creature venom troll|MPMM}, {@creature yuan-ti abomination}",
 											"7 (2,900 XP)"
 										],
 										[
-											"{@creature Corpse flower|MTF}, {@creature hydra}, {@creature young green dragon}",
+											"{@creature Corpse flower|MPMM}, {@creature hydra}, {@creature young green dragon}",
 											"8 (3,900 XP)"
 										],
 										[
-											"{@creature Treant}, {@creature rot troll|MTF}",
+											"{@creature Treant}, {@creature rot troll|MPMM}",
 											"9 (5,000 XP)"
 										],
 										[
@@ -8018,7 +8018,7 @@
 											"10 (5,900) XP)"
 										],
 										[
-											"{@creature Green giant warden|TEB},* {@creature spirit troll|MTF}",
+											"{@creature Green giant warden|TEB},* {@creature spirit troll|MPMM}",
 											"11 (7,200 XP)"
 										],
 										[
@@ -8026,7 +8026,7 @@
 											"12 (8,400 XP)"
 										],
 										[
-											"{@creature Dire troll|MTF}",
+											"{@creature Dire troll|MPMM}",
 											"13 (10,000 XP)"
 										],
 										[
@@ -8084,7 +8084,7 @@
 											"2 (450 xp)"
 										],
 										[
-											"{@creature Blue dragon wyrmling}, {@creature manticore}, {@creature nightmare}, {@creature vampiric mist|MTF}",
+											"{@creature Blue dragon wyrmling}, {@creature manticore}, {@creature nightmare}, {@creature vampiric mist|MPMM}",
 											"3 (700 XP)"
 										],
 										[
@@ -8100,7 +8100,7 @@
 											"6 (2,300 XP)"
 										],
 										[
-											"{@creature Air elemental myrmidon|MTF}, {@creature bheur hag|MPMM}",
+											"{@creature Air elemental myrmidon|MPMM}, {@creature bheur hag|MPMM}",
 											"7 (2,900 XP)"
 										],
 										[
@@ -8128,7 +8128,7 @@
 											"16 (15,000 XP)"
 										],
 										[
-											"{@creature Ancient blue dragon}, {@creature ancient silver dragon}, {@creature elder tempest|MTF}",
+											"{@creature Ancient blue dragon}, {@creature ancient silver dragon}, {@creature elder tempest|MPMM}",
 											"23 (50,000 XP)"
 										]
 									]
@@ -8186,7 +8186,7 @@
 											"6 (2,300 XP)"
 										],
 										[
-											"{@creature Fire elemental myrmidon|MTF}, {@creature molten ooze|TEB},* {@creature warlock of the fiend|MPMM}",
+											"{@creature Fire elemental myrmidon|MPMM}, {@creature molten ooze|TEB},* {@creature warlock of the fiend|MPMM}",
 											"7 (2,900 XP)"
 										],
 										[
@@ -8222,7 +8222,7 @@
 											"15 (13,000 XP)"
 										],
 										[
-											"{@creature Iron golem}, {@creature phoenix|MTF}",
+											"{@creature Iron golem}, {@creature phoenix|MPMM}",
 											"16 (15,000 XP)"
 										],
 										[
@@ -8234,7 +8234,7 @@
 											"20 (25,000 XP)"
 										],
 										[
-											"{@creature Zaratan|MTF}",
+											"{@creature Zaratan|MPMM}",
 											"22 (41,000 XP)"
 										],
 										[
@@ -10681,7 +10681,7 @@
 						},
 						"Elves as a fantasy race are known for a great diversity of subraces and variants. Besides wood elves, high elves, and draw (which each often have their own subdivisions in a setting) elves in many worlds also take more magical forms, and some worlds have variants of elves that seem to number by the dozens.",
 						"Some worlds feature elves connected to the blazing sun, the shadowy moon, or the cosmic song of creation. Others include elven races that have gained bestial or plantlike features from their connection to those primal forces. While the existing options for elves fill many of these archetypes, these new subraces help to fill out the remaining elven concepts common to fantasy.",
-						"When you choose the subrace of your elf character, you can choose one of the following options, in addition to those in the {@i Player's Handbook} and other sources, such as {@i Mordenkainen's Tome of Foes} or {@i Unearthed Arcana: Elf Subraces}."
+						"When you choose the subrace of your elf character, you can choose one of the following options, in addition to those in the {@i Player's Handbook} and other sources, such as {@i Mordenkainen Presents: Monsters of the Multiverse}."
 					]
 				}
 			]
@@ -36173,16 +36173,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -36643,14 +36637,7 @@
 					"source": "EEPC",
 					"baseName": "Genasi",
 					"baseSource": "EEPC"
-				},
-				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
+				},				{
 					"name": "Half-Elf (Mark of Storm)",
 					"source": "ERLW",
 					"baseName": "Half-Elf",
@@ -51275,16 +51262,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Levistus)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Levistus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			]
 		},
@@ -52356,16 +52337,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Levistus)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Levistus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				},
 				{
 					"name": "Dwarf (Mark of Warding)",
@@ -52483,16 +52458,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Levistus)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Levistus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				},
 				{
 					"name": "Dwarf (Mark of Warding)",
@@ -52681,16 +52650,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -52879,16 +52842,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -53106,16 +53063,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Tiefling (Asmodeus)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Asmodeus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -53211,16 +53162,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Tiefling (Asmodeus)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Asmodeus)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -53830,16 +53775,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Zariel)",
-					"source": "UAFiendishOptions",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Zariel)",
-					"source": "MTF",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			]
 		},
@@ -54117,10 +54056,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"backgrounds": [
@@ -54790,10 +54729,10 @@
 			},
 			"races": [
 				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "MTF",
+					"name": "Tiefling",
+					"source": "XPHB",
 					"baseName": "Tiefling",
-					"baseSource": "PHB"
+					"baseSource": "XPHB"
 				}
 			],
 			"miscTags": [
@@ -68684,7 +68623,7 @@
 											"type": "inset",
 											"name": "Summoning Eladrin as Primal Spirits",
 											"entries": [
-												"The Seasonal Eladrin described in {@i Mordenkainen's Tome of Foes} are excellent choices from a lore and flavor perspective to be summoned as avatars by the new spell {@spell summon primal spirit|TEB}, but as CR l 0 creatures they can feel slightly lacking when compared to the full power of a CR 12 creature, and they already have Magic Resistance. If a DM wishes, they can use a modified form of those Eladrin as an avatar for summon primal spirit, adding the Magic Weapons trait and one usage of Legendary Resistance to bring each modified Eladrin to CR 12:",
+												"The Seasonal Eladrin described in {@i Mordenkainen Presents: Monsters of the Multiverse} are excellent choices from a lore and flavor perspective to be summoned as avatars by the new spell {@spell summon primal spirit|TEB}, but as CR l 0 creatures they can feel slightly lacking when compared to the full power of a CR 12 creature, and they already have Magic Resistance. If a DM wishes, they can use a modified form of those Eladrin as an avatar for summon primal spirit, adding the Magic Weapons trait and one usage of Legendary Resistance to bring each modified Eladrin to CR 12:",
 												{
 													"type": "entries",
 													"name": "Legendary Resistance (1/day)",

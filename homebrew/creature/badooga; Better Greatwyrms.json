@@ -1925,7 +1925,7 @@
 				{
 					"name": "Infernal Dealings (Mythic Trait; Once Per Rest)",
 					"entries": [
-						"If Tiamat would be reduced to 0 hit points, she instead resets to maximum hit points, and she can end any spells of her choice on herself. She then regurgitates ten {@creature Merregon|mtf|merregons} who land in unoccupied spaces within 30 feet of her. The merregons act at the end of the initiative order and defend Tiamat to the best of their ability."
+						"If Tiamat would be reduced to 0 hit points, she instead resets to maximum hit points, and she can end any spells of her choice on herself. She then regurgitates ten {@creature Merregon|mpmm|merregons} who land in unoccupied spaces within 30 feet of her. The merregons act at the end of the initiative order and defend Tiamat to the best of their ability."
 					]
 				},
 				{

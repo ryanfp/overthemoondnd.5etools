@@ -80,6 +80,29 @@ class FeatsPage extends ListPage {
 				pageTitle: "Feats Book View",
 			},
 
+			tableViewOptions: {
+				title: "Feats",
+				colTransforms: {
+					name: UtilsTableview.COL_TRANSFORM_NAME,
+					source: UtilsTableview.COL_TRANSFORM_SOURCE,
+					page:  UtilsTableview.COL_TRANSFORM_PAGE,
+					category: {
+						name: "Type",
+						transform: (feat) => feat.category ?  Parser.featCategoryToFull(feat. category) : "Other",
+					},
+					_slAbility: {name: "Ability Score", transform: (feat) => feat._slAbility},
+					_slPrereq: {name: "Prerequisite", transform: (feat) => feat._slPrereq},
+					entries: {
+						name: "Text",
+						transform: (feat) => {
+							Renderer.feat.initFullEntries(feat);
+							return Renderer.get().render({type: "entries", entries: feat._fullEntries || feat.entries}, 1);
+						},
+						flex: 3,
+					},
+				},
+			},		
+			
 			isPreviewable: true,
 		});
 	}

@@ -75,6 +75,73 @@ class RacesPage extends ListPage {
 				pageTitle: "Species Book View",
 			},
 
+			tableViewOptions: {
+				title: "Species",
+				colTransforms: {
+					name: UtilsTableview.COL_TRANSFORM_NAME,
+					source: UtilsTableview.COL_TRANSFORM_SOURCE,
+					page: UtilsTableview.COL_TRANSFORM_PAGE,
+					_hasSubrace: {
+						name: "Subrace",
+						transform: (race) => {
+							if (race._isBaseRace) return "Yes";
+							if (race._baseName) return `Info: ${race._baseName}`;
+							return "No";
+						},
+					},
+					_slAbility: {name: "Ability Score", transform: (race) => race._slAbility},
+					size: {
+						name: "Size",
+						transform: (race) => (race. size || [Parser.SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/"),
+					},
+					speed:  {
+						name: "Speed",
+						transform: (race) => Parser.getSpeedString(race),
+					},
+					_fLangs: {
+						name: "Languages",
+						transform: (race) => (race._fLangs || []).join(", ") || "\u2014",
+					},
+					age: {
+						name: "Age",
+						transform: (race) => {
+							if (! race.age) return "\u2014";
+							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
+						},
+					},
+					traitTags: {
+						name: "Traits",
+						transform: (race) => (race. traitTags || [])
+							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
+							.join(", ") || "\u2014",
+					},
+					_fVuln: {
+						name: "Damage Vulnerability",
+						transform: (race) => (race._fVuln || []).join(", ") || "\u2014",
+					},
+					_fRes: {
+						name: "Damage Resistance",
+						transform: (race) => (race._fRes || []).join(", ") || "\u2014",
+					},
+					_fImm: {
+						name: "Damage Immunity",
+						transform: (race) => (race._fImm || []).join(", ") || "\u2014",
+					},
+					entries: {
+						name: "Text",
+						transform: (race) => {
+							const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
+							const renderer = Renderer.get();
+							const stack = [];
+							if (entriesMeta.entryAttributes) renderer.recursiveRender(entriesMeta.entryAttributes, stack, {depth: 1});
+							renderer.recursiveRender(entriesMeta.entryMain, stack, {depth: 1});
+							return stack.join("");
+						},
+						flex: 3,
+					},
+				},
+			},
+			
 			hasAudio: true,
 		});
 	}

@@ -1204,53 +1204,53 @@
 					"15",
 					"{@creature horned devil}",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (< 1 min)"
+					"{@creature amnizu|MPMM} (< 1 min)"
 				],
 				[
 					"16",
 					"{@creature horned devil}",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (1 min)"
+					"{@creature amnizu|MPMM} (1 min)"
 				],
 				[
 					"17",
 					"{@creature horned devil}",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (6 min)"
+					"{@creature amnizu|MPMM} (6 min)"
 				],
 				[
 					"18",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend} (< 1 min)"
 				],
 				[
 					"19",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend} (1 min)"
 				],
 				[
 					"20",
 					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend} (6 min)"
 				],
 				[
 					"21",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend}",
 					"archdevil (< 1 min)"
 				],
 				[
 					"22",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend}",
 					"archdevil (1 min)"
 				],
 				[
 					"23",
-					"{@creature amnizu|MTF}",
+					"{@creature amnizu|MPMM}",
 					"{@creature pit fiend}",
 					"archdevil (6 min)"
 				]
@@ -1337,7 +1337,7 @@
 					"name": "Preface",
 					"page": 3,
 					"entries": [
-						"Devils have a long-running history in {@i Dungeons & Dragons}. They first appeared alongside their demonic counterparts in the original {@i Monster Manual} in 1977, possibly fueling the religious objections to D&D during the 1980s. Nevertheless, the world's greatest roleplaying game survived this moral panic, and fiends have been an important part of the hobby ever since. Just last year, {@book Mordenkainen's Tome of Foes|MTF} delved into the eternal struggle between devils and demons known as the Blood War, and this September will see the release of a hellscape-themed adventure, {@adventure Baldur's Gate: Descent into Avernus|BGDiA}.",
+						"Devils have a long-running history in {@i Dungeons & Dragons}. They first appeared alongside their demonic counterparts in the original {@i Monster Manual} in 1977, possibly fueling the religious objections to D&D during the 1980s. Nevertheless, the world's greatest roleplaying game survived this moral panic, and fiends have been an important part of the hobby ever since. Just last year, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} delved into the eternal struggle between devils and demons known as the Blood War, and this September will see the release of a hellscape-themed adventure, {@adventure Baldur's Gate: Descent into Avernus|BGDiA}.",
 						"Despite the pervasive history of devils in D&D, there is little in the way of official resources on the details of infernal contracts. There is a wealth of reference material surrounding the lore, hierarchy, and nature of devils, but there's not much information for DMs and players to create infernal contracts of their own. I wrote {@i Devil's Advocate: A Guide to Infernal Contracts} to remedy this discrepancy. I hope that once you've finished reading this document, you'll:",
 						{
 							"type": "list",
@@ -2332,7 +2332,7 @@
 									"name": "Collection Agents: The Enforcers",
 									"page": 14,
 									"entries": [
-										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen's Tome of Foes}, but most collection efforts include {@creature bagger|DA:GIC|baggers}, {@creature bloodhound|DA:GIC|bloodhounds}, and {@creature handler|DA:GIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
+										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen Presents: Monsters of the Multiverse}, but most collection efforts include {@creature bagger|DA:GIC|baggers}, {@creature bloodhound|DA:GIC|bloodhounds}, and {@creature handler|DA:GIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
 										{
 											"type": "entries",
 											"name": "Baggers",

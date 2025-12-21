@@ -664,7 +664,7 @@
 										"type": "entries",
 										"name": "Consummate Diggers",
 										"entries": [
-											"Abbanith giants dwell almost exclusively underground and are adept at using their incredibly hard thumb claws to dig massive tunnels through the earth. Druids and wizards studying the giants' unique biology have deduced that mineral-based materials actually soften when struck by their claws. This feature has also made them the target of {@creature derro|mtf} and {@creature duergar} slavers wishing to use their skills to mine precious gems or build their fortifications, something the giants violently oppose despite their normally peaceable nature."
+											"Abbanith giants dwell almost exclusively underground and are adept at using their incredibly hard thumb claws to dig massive tunnels through the earth. Druids and wizards studying the giants' unique biology have deduced that mineral-based materials actually soften when struck by their claws. This feature has also made them the target of {@creature derro|mpmm} and {@creature duergar} slavers wishing to use their skills to mine precious gems or build their fortifications, something the giants violently oppose despite their normally peaceable nature."
 										]
 									},
 									{
@@ -71750,7 +71750,7 @@
 										"type": "entries",
 										"name": "Lesser Leviathan",
 										"entries": [
-											"The timingila is one of the largest creatures in the seas. Some scholarly tomes suggest a connection between the timingila and rarer {@creature leviathan|mtf|leviathans} but no definitive proof has yet been found."
+											"The timingila is one of the largest creatures in the seas. Some scholarly tomes suggest a connection between the timingila and rarer {@creature leviathan|mpmm|leviathans} but no definitive proof has yet been found."
 										]
 									},
 									{
