@@ -36637,7 +36637,8 @@
 					"source": "EEPC",
 					"baseName": "Genasi",
 					"baseSource": "EEPC"
-				},				{
+				},
+				{
 					"name": "Half-Elf (Mark of Storm)",
 					"source": "ERLW",
 					"baseName": "Half-Elf",
