@@ -5562,10 +5562,10 @@
 			],
 			"rows": [
 				[
-					"{@creature Archer|vgm}",
+					"{@creature Archer|mpmm}",
 					"10 gp",
 					"3",
-					"{@i VGM 209}"
+					"{@i MPMM 49}"
 				],
 				[
 					"{@creature Bandit}",
@@ -5610,16 +5610,16 @@
 					"{@i MM 347}"
 				],
 				[
-					"{@creature Martial arts adept|vgm}",
+					"{@creature Martial arts adept|mpmm}",
 					"10 gp",
 					"3",
-					"{@i VGM 216}"
+					"{@i MPMM 172}"
 				],
 				[
-					"{@creature Master thief|vgm}",
+					"{@creature Master thief|mpmm}",
 					"25 gp",
 					"5",
-					"{@i VGM 216}"
+					"{@i MPMM 174}"
 				],
 				[
 					"{@creature Pirate bosun|GoS}",
@@ -5652,10 +5652,10 @@
 					"{@i MM 349}"
 				],
 				[
-					"{@creature Swashbuckler|vgm}",
+					"{@creature Swashbuckler|mpmm}",
 					"10 gp",
 					"3",
-					"{@i VGM 217}"
+					"{@i MPMM 238}"
 				],
 				[
 					"{@creature Thug}",
@@ -5706,16 +5706,16 @@
 					"{@i MM 342}"
 				],
 				[
-					"{@creature Apprentice wizard|vgm}",
+					"{@creature Apprentice wizard|mpmm}",
 					"6 gp",
 					"1/4",
-					"{@i VGM 209}"
+					"{@i MPMM 259}"
 				],
 				[
-					"{@creature Bard|vgm}",
+					"{@creature Bard|mpmm}",
 					"14 gp",
 					"2",
-					"{@i VGM 211}"
+					"{@i MPMM 59}"
 				],
 				[
 					"{@creature Barovian witch|CoS}",
@@ -5748,10 +5748,10 @@
 					"{@i GGR 253}"
 				],
 				[
-					"{@creature Illusionist|vgm}",
+					"{@creature Illusionist|mpmm}",
 					"20 gp",
 					"3",
-					"{@i VGM 214}"
+					"{@i MPMM 263}"
 				],
 				[
 					"{@creature Magewright|ERLW}",

@@ -10619,7 +10619,7 @@
 					"type": "entries",
 					"name": "Weapons of Choice",
 					"entries": [
-						"When dealing slashing or piercing damage, you gain +1 to the damage total. This bonus rises to +2 if you are shapechanged into a beast (e.g. via {@spell polymorph} or {@classFeature wild shape|druid||2||wild shape}), or if you possess teeth or claws that act as weapons (such as the {@race tabaxi|vgm|tabaxi's} {@i Cat's Claws} feature or the effects of {@spell alter self})."
+						"When dealing slashing or piercing damage, you gain +1 to the damage total. This bonus rises to +2 if you are shapechanged into a beast (e.g. via {@spell polymorph} or {@classFeature wild shape|druid||2||wild shape}), or if you possess teeth or claws that act as weapons (such as the {@race tabaxi|mpmm|tabaxi's} {@i Cat's Claws} feature or the effects of {@spell alter self})."
 					]
 				}
 			],

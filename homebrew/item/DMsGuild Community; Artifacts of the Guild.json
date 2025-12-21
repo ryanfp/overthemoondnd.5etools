@@ -2748,7 +2748,7 @@
 			"entries": [
 				"As an action you may break the egg, destroying it and summoning a monstrous creature.",
 				"For the period of one day, the summoned creature will obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. After 24 hours the monstrous creature dissolves into mist.",
-				"This egg summons a {@creature Banderhobb|VGM}"
+				"This egg summons a {@creature Banderhobb|MPMM}"
 			],
 			"fluff": {
 				"images": [
@@ -8680,7 +8680,7 @@
 							"very rare (red)"
 						],
 						[
-							"{@creature Banderhobb|VGM} (CR 5)",
+							"{@creature Banderhobb|MPMM} (CR 5)",
 							"legendary (orange)"
 						]
 					]
@@ -8706,7 +8706,7 @@
 				"Fey-TouChed summoning egg (Grick)|artifactsoftheGuild",
 				"Fey-TouChed summoning egg (Shadow Mastiff)|artifactsoftheGuild",
 				"Fey-TouChed summoning egg (Manticore)|artifactsoftheGuild",
-				"Fey-TouChed summoning egg (Banderhobb|VGM)|artifactsoftheGuild"
+				"Fey-TouChed summoning egg (Banderhobb|MPMM)|artifactsoftheGuild"
 			]
 		}
 	],

@@ -2706,7 +2706,7 @@
 						"When humans first set foot on Khorvaire, they thanked Kol Korran for seeing them safely across the water. King Galifar I believed that it was Dol Arrah who guided him to victory and looked to Aureon to inspire his rule. But the humans didn't invent the Sovereign Host. Explorers in Xen'drik have uncovered a vast temple dedicated to Ouralon Lawbringer--a clear parallel to the Sovereign of Law and Lore, worshiped by the giants tens of thousands of years before human civilization existed.",
 						"For many hundreds of years, the Sovereign Host stood as the bedrock faith of Galifar and the Five Nations. But over centuries, cracks began to form. In Thrane, a young paladin delivered the nation from fiendish domination, crediting her victory to an ancient force of light. The people she saved were quick to embrace the faith of the Silver Flame, and it gradually spread across Galifar. Meanwhile, in the far northeast, a small but devoted following held to the teachings of the Blood of Vol.",
 						"Some scholars say that the growing power of industry and arcane science weakened faith. Why should a blacksmith make an offering to Onatar when he could use his copper to take Cannith courses and learn {@spell magecraft|ExploringEberron}? Others say that the Last War is to blame. Whatever the cause, there are certainly many in Khorvaire who have no deep devotion to any religion. None would deny that divine power exists, but in a world with sorcerers and dragonmarks, the ability to perform magic is no assurance of the existence of gods. But many faithful see no conflict between the wonders of the modern age and their devotions. Even House Cannith has always claimed to prosper through the blessing of Onatar, and there have always been those within the house who have asked the Traveler for dangerous inspiration. While the Mourning caused some people to question their beliefs, for others, their faith was the source of stability and comfort in a bleak world: {@i Whatever horrors we face, surely there is a reason for our suffering... a divine purpose we can't yet understand.}",
-						"This chapter examines the role of divine power in daily life and explores the differences between arcane and divine magic. It examines the three major religions of Khorvaire and delves into the occult mysteries of the cults of the Dragon Below. It concludes with revelations about the {@race aasimar|VGM} and their place in the world of Eberron.",
+						"This chapter examines the role of divine power in daily life and explores the differences between arcane and divine magic. It examines the three major religions of Khorvaire and delves into the occult mysteries of the cults of the Dragon Below. It concludes with revelations about the {@race aasimar|MPMM} and their place in the world of Eberron.",
 						{
 							"type": "section",
 							"name": "The Role of the Divine",
@@ -4323,7 +4323,7 @@
 										"Nara smiled as she faced the assembled fiends. \"You're the ones who are outnumbered.\" Her spectral wings unfolded from beneath her cloak, rainbow feathers casting light across the chamber. \"All of the champions of the Silver Flame are with me, and no evil can stand against our power.\""
 									]
 								},
-								"Divine magic is usually the product of deep faith and unyielding conviction, but an {@race aasimar|VGM} has a direct tie to a source of divine power and receives guidance from a celestial entity. Usually, these gifts aren't hereditary, and you can't necessarily identify an aasimar in Eberron by their appearance; there is no single recognized trait that defines an aasimar, and no reliable way of producing one. While the existence of aasimar may seem to fly in the face of Eberron's distant gods, it's important to remember that an aasimar needs no direct connection to a deity. An aasimar draws power from a divine energy source, and their spiritual guide is a celestial being--an angel, a couatl, or similar spirit. The aasimar may be marked as a champion of the faith, but even they can't prove the existence of the Sovereigns.",
+								"Divine magic is usually the product of deep faith and unyielding conviction, but an {@race aasimar|MPMM} has a direct tie to a source of divine power and receives guidance from a celestial entity. Usually, these gifts aren't hereditary, and you can't necessarily identify an aasimar in Eberron by their appearance; there is no single recognized trait that defines an aasimar, and no reliable way of producing one. While the existence of aasimar may seem to fly in the face of Eberron's distant gods, it's important to remember that an aasimar needs no direct connection to a deity. An aasimar draws power from a divine energy source, and their spiritual guide is a celestial being--an angel, a couatl, or similar spirit. The aasimar may be marked as a champion of the faith, but even they can't prove the existence of the Sovereigns.",
 								"Chapter 6 presents racial traits for aasimar of many faiths. As you create an aasimar character, consider these questions:",
 								{
 									"type": "list",
@@ -4416,7 +4416,7 @@
 													"type": "entries",
 													"name": "Daanvi",
 													"entries": [
-														"You're tied to an angel that embodies the concept of law in the service of justice. Your skin and hair have a metallic sheen, often copper or bronze, and your wings have the appearance of clever clockwork. Daanvi aasimar typically use the {@race aasimar (protector)|VGM|protector} subrace. Your instincts drive you to fight for the greater good, but within the structure of the law; you're more likely to have the {@background variant noble (knight)||knight}, {@background soldier}, or {@background city watch|scag} background than to be a vigilante folk hero. Your guide could be a planetar--a judge on an inevitable tribunal, who urges you to enforce the law. Or you could be bound to one of the solars of the Panopticon, each bound to enforce justice within a particular plane. Hazariel, the Solar of Syrania, has exiled radiant idols to the Material Plane; perhaps it's concerned about the damage these fallen angels are doing on Eberron and is grooming you to deal with them."
+														"You're tied to an angel that embodies the concept of law in the service of justice. Your skin and hair have a metallic sheen, often copper or bronze, and your wings have the appearance of clever clockwork. Daanvi aasimar typically choose the 'Radiant Soul' racial feature. Your instincts drive you to fight for the greater good, but within the structure of the law; you're more likely to have the {@background variant noble (knight)||knight}, {@background soldier}, or {@background city watch|scag} background than to be a vigilante folk hero. Your guide could be a planetar--a judge on an inevitable tribunal, who urges you to enforce the law. Or you could be bound to one of the solars of the Panopticon, each bound to enforce justice within a particular plane. Hazariel, the Solar of Syrania, has exiled radiant idols to the Material Plane; perhaps it's concerned about the damage these fallen angels are doing on Eberron and is grooming you to deal with them."
 													]
 												},
 												{
@@ -4430,7 +4430,7 @@
 													"type": "entries",
 													"name": "Irian",
 													"entries": [
-														"You're bound to an angel of light, a spirit that inspires hope and life. Your skin and hair have a luminous appearance and your wings are formed from pure light; when you cast the {@spell light} cantrip, you can describe it as your body itself radiating light. Most Irian aasimar use the {@race aasimar (protector)|VGM|protector} subrace. Your guide could be a lesser angel, or more unusually, you might be tied to one of the Architects of Irian. Araam, the Architect of the Refuge, would urge you to provide hope to the hopeless. The Gardener would inspire you to heal the injured and fight for life. The Dawn Empress would charge you to achieve your full potential and help others do the same. Any of these could also direct you to battle the forces of Mabar--life-draining undead and other dark forces. As a champion of hope, you might be a {@background folk hero} or a {@background hermit}. Prince Lorrister of the Lhazaar Principalities is an Irian aasimar who has risen to rule the principality he calls the Heavenly Fleet; if you're tied to Lorrister, you might be a {@background sailor} or a {@background noble}."
+														"You're bound to an angel of light, a spirit that inspires hope and life. Your skin and hair have a luminous appearance and your wings are formed from pure light; when you cast the {@spell light} cantrip, you can describe it as your body itself radiating light. Most Irian aasimar typically choose the 'Radiant Soul' racial feature. Your guide could be a lesser angel, or more unusually, you might be tied to one of the Architects of Irian. Araam, the Architect of the Refuge, would urge you to provide hope to the hopeless. The Gardener would inspire you to heal the injured and fight for life. The Dawn Empress would charge you to achieve your full potential and help others do the same. Any of these could also direct you to battle the forces of Mabar--life-draining undead and other dark forces. As a champion of hope, you might be a {@background folk hero} or a {@background hermit}. Prince Lorrister of the Lhazaar Principalities is an Irian aasimar who has risen to rule the principality he calls the Heavenly Fleet; if you're tied to Lorrister, you might be a {@background sailor} or a {@background noble}."
 													]
 												},
 												{
@@ -4444,7 +4444,7 @@
 													"type": "entries",
 													"name": "Shavarath",
 													"entries": [
-														"The angels of Shavarath are martial champions. Your skin and hair have the appearance of iron or steel. Shavaran aasimar generally use the {@race aasimar (protector)|VGM|protector} subrace, and your wings are formed from knives. If your guide is from the Legion of Justice, it urges you to fight for a just cause; you might be a {@background variant noble (knight)||knight} or a {@background soldier}. If your guide is tied to the Legion of Freedom, it urges you to battle all forms of tyranny and oppression, perhaps leading you to be a {@background folk hero}. This can be an interesting option for a {@class warlock||Hexblade|hexblade|XGE} warlock; your guide has given you their celestial weapon, and it urges you into battle."
+														"The angels of Shavarath are martial champions. Your skin and hair have the appearance of iron or steel. Shavaran aasimar typically choose the 'Radiant Soul' racial feature, and your wings are formed from knives. If your guide is from the Legion of Justice, it urges you to fight for a just cause; you might be a {@background variant noble (knight)||knight} or a {@background soldier}. If your guide is tied to the Legion of Freedom, it urges you to battle all forms of tyranny and oppression, perhaps leading you to be a {@background folk hero}. This can be an interesting option for a {@class warlock||Hexblade|hexblade|XGE} warlock; your guide has given you their celestial weapon, and it urges you into battle."
 													]
 												},
 												{
@@ -4459,7 +4459,7 @@
 													"type": "entries",
 													"name": "Syrania",
 													"entries": [
-														"You are tied to a dominion of Syrania. Each dominion has a particular domain, reflecting its area of influence and interest; is your dominion an angel of war? Of nature? Of commerce? What's its specialty within that broad domain? Syranian aasimar typically use the {@race aasimar (protector)|VGM|protector} subrace, and have classic feathered wings; however, your appearance might reflect the domain of your guide in some way. Your guide will urge you to exemplify its domain--if it's the Angel of Swords, it will want you to master the sword! It also observes the world through your eyes, and it might send you to observe events or take actions tied to its domain."
+														"You are tied to a dominion of Syrania. Each dominion has a particular domain, reflecting its area of influence and interest; is your dominion an angel of war? Of nature? Of commerce? What's its specialty within that broad domain? Syranian aasimar typically choose the 'Radiant Soul' racial feature, and have classic feathered wings; however, your appearance might reflect the domain of your guide in some way. Your guide will urge you to exemplify its domain--if it's the Angel of Swords, it will want you to master the sword! It also observes the world through your eyes, and it might send you to observe events or take actions tied to its domain."
 													]
 												}
 											]
@@ -4469,7 +4469,7 @@
 											"name": "Aasimar, Genasi, and Tieflings",
 											"entries": [
 												"What's the difference between a Fernian aasimar, tiefling, and genasi? They're all exotic humanoids touched by fire.",
-												"{@race Aasimar|VGM} are touched by the positive aspect of a plane, and have a direct connection to a celestial from that plane. A Fernian aasimar embodies the benevolent role of fire, the force that preserves life and holds darkness at bay. People who recognize such aasimar see them as blessed, and typically assume they will be benevolent beings.",
+												"{@race Aasimar|MPMM} are touched by the positive aspect of a plane, and have a direct connection to a celestial from that plane. A Fernian aasimar embodies the benevolent role of fire, the force that preserves life and holds darkness at bay. People who recognize such aasimar see them as blessed, and typically assume they will be benevolent beings.",
 												"{@race tiefling||Tieflings} are touched by the malevolent aspects of a plane. The Fernian tiefling reflects the destructive and chaotic aspects of fire, and it's widely believed that fires can spontaneously start in their presence. When recognized, tieflings are seen as being cursed and dangerous.",
 												"{@race Genasi|EEPC} aren't innately fiendish or celestial; they're purely elemental. While quite rare, when recognized, a genasi is generally understood to be neutral in nature--a remarkable mutation, but not something to be feared or celebrated."
 											]
@@ -4505,7 +4505,7 @@
 													"type": "entries",
 													"name": "Subrace",
 													"entries": [
-														"Flame aasimar use the {@race aasimar (protector)|VGM|protector} aasimar subrace, manifesting rainbow-feathered wings reminiscent of the couatl. An aasimar corrupted by the Shadow in the Flame could shift to the {@race aasimar|VGM|fallen} aasimar subrace."
+														"Flame aasimar typically choose the 'Radiant Soul' racial feature, manifesting rainbow-feathered wings reminiscent of the couatl. An aasimar corrupted by the Shadow in the Flame could switch to using the 'Necrotic Shroud' racial feature."
 													]
 												}
 											]
@@ -4541,7 +4541,7 @@
 													"type": "entries",
 													"name": "Subrace",
 													"entries": [
-														"A Host aasimar might use a variety of subraces. {@race aasimar (protector)|VGM|Protector} aasimar is a common option, but {@race aasimar (scourge)|VGM|scourge} aasimar is valid as well. An elf aasimar devoted to the Host could use the {@race aasimar (court)|ExploringEberron|Court aasimar} subrace provided in chapter 6, while an aasimar tied to Onatar could even use the {@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} variant."
+														"A Host aasimar typically choose the 'Radiant Soul' racial feature, but the 'Radiant Consumption' feature is valid as well. An elf aasimar devoted to the Host could use the {@race aasimar (court)|ExploringEberron|Court aasimar} subrace provided in chapter 6, while an aasimar tied to Onatar could even use the {@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} variant."
 													]
 												}
 											]
@@ -8234,7 +8234,7 @@
 											"type": "inset",
 											"name": "Variant Rule: Kalamer Triton",
 											"entries": [
-												"Kalamer tritons use the {@race triton|VGM} racial traits provided in {@book Volo's Guide to Monsters|VGM}, with two changes. These replace the Languages trait of the standard triton:",
+												"Kalamer tritons use the {@race triton|MPMM} racial traits provided in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, with two changes. These replace the Languages trait of the standard triton:",
 												{
 													"type": "entries",
 													"name": "Kalamer Transformation",
@@ -9939,7 +9939,7 @@
 											"page": 166,
 											"entries": [
 												"When a mortal dies and their soul goes to Dolurrh, the thread connecting them to Irian is severed. Any ember fueled by their spark dissolves and the spark--the essence of the hopes and brightest moments of the mortal's life--begins to fade. But the sparks of the dead can merge together before they're lost completely, creating a new, unique entity--a lumi, formed from the same positive energy as the embers, but possessing true consciousness and life. Unlike the embers, who aren't fully conscious or aware of the memories they hold, lumi are sentient creatures, each with a unique identity, though their sparks give them fragments of many mortal lives. So adventurers may meet a lumi who recognizes them, and who has a few memories and traits of a fallen friend.",
-												"Lumi appear to be formed from solidified light, and generally take a body shape similar to the strongest of the sparks that formed them--usually those of sentient creatures. Their most distinctive feature is their head--a sphere of light suspended a few inches above their torso. Normally this is pure light, but with conscious effort, a lumi can sculpt and maintain a face. Their statistics can be represented by the {@creature priest} in the {@book Monster Manual|mm} (or an exceptionally powerful one might use the statistics of the {@creature war priest|VGM} in {@book Volo's Guide to Monsters|VGM}), but they don't need to eat, drink, breathe, or sleep, they don't age, and they're immune to poison and disease. When a lumi reaches 0 hit points, its body dissolves and its sparks fade. If an angel of Irian is nearby, it can consume these sparks; this won't save the lumi, but at least those memories are preserved. While most lumi are humanoids, there may be lumi formed from the sparks of other creatures, like giants or dragons, that dwell in layers of their own kind.",
+												"Lumi appear to be formed from solidified light, and generally take a body shape similar to the strongest of the sparks that formed them--usually those of sentient creatures. Their most distinctive feature is their head--a sphere of light suspended a few inches above their torso. Normally this is pure light, but with conscious effort, a lumi can sculpt and maintain a face. Their statistics can be represented by the {@creature priest} in the {@book Monster Manual|mm} (or an exceptionally powerful one might use the statistics of the {@creature war priest|MPMM} in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}), but they don't need to eat, drink, breathe, or sleep, they don't age, and they're immune to poison and disease. When a lumi reaches 0 hit points, its body dissolves and its sparks fade. If an angel of Irian is nearby, it can consume these sparks; this won't save the lumi, but at least those memories are preserved. While most lumi are humanoids, there may be lumi formed from the sparks of other creatures, like giants or dragons, that dwell in layers of their own kind.",
 												"Lumi serve as the caretakers of the embers, and believe that by helping the embers play their roles, they're strengthening the light in the mortals the embers are connected to. Lumi help develop and maintain the planar seeds, and some even surrender their identity in order to become new creatures within that seed; they believe that in doing this, they're sowing the new layer with light. On rare occasions, lumi travel to other planes in service of the Architects. They are brave and compassionate, seeking always to spread hope, and ever prepared to lay down their lives for the greater good. Lumi can defend themselves, but they prefer to inspire others when possible, rather than resort to violence."
 											]
 										},
@@ -9986,7 +9986,7 @@
 											"entries": [
 												"The Garden lives up to its name; it's a vast zoological garden filled with foliage. It contains every plant that can be found in the Material Plane, along with many that can't. There are winding paths, peaceful pools, wondrous topiaries, and complicated hedge mazes. In contrast to the wilds of Lamannia, this is very carefully cultivated. The Garden is suffused with a sense of peace, beauty, and the wondrous things life can create.",
 												"The Garden is the realm of the Gardener, an Architect whose principle is life. He's a blend of angel and plant--more humanoid than treant, but with skin of bark, a beard of leaves, and a crown of flowers. Like all of the Architects, he's devoted to his planar seeds, but he also spends time wandering the garden, both tending it and appreciating its wonders. He apprecates those who nurture and heal others, and this is the behavior he expects of any mortals he associates with.",
-												"The many layers of the Garden realm showcase various elements of fertility and the triumph of life. There are a few layers that are slightly darker than the rest of Irian, though still suffused with dim light in their darkest corners--these reflect the principle that life overcomes hardship. The message of the ruined castle isn't to dwell on the destruction, but to see the flowers blooming on the walls. Most of the embers in the region take animal form, and {@creature ki-rin|VGM} are the most comon celestials."
+												"The many layers of the Garden realm showcase various elements of fertility and the triumph of life. There are a few layers that are slightly darker than the rest of Irian, though still suffused with dim light in their darkest corners--these reflect the principle that life overcomes hardship. The message of the ruined castle isn't to dwell on the destruction, but to see the flowers blooming on the walls. Most of the embers in the region take animal form, and {@creature ki-rin|MPMM} are the most comon celestials."
 											]
 										},
 										{
@@ -17064,7 +17064,7 @@
 				"radiant"
 			],
 			"raceName": "Aasimar",
-			"raceSource": "VGM"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Seeker",
@@ -17096,7 +17096,7 @@
 				"radiant"
 			],
 			"raceName": "Aasimar",
-			"raceSource": "VGM"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Scourge Variant; Fernian",
@@ -17149,7 +17149,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"If your aasimar's powers flow from Fernia, you can use the the {@race aasimar (scourge)|VGM|scourge aasimar} subrace, but replace the Celestial Resistance, Radiant Consumption, and Light Bearer traits.",
+					"If your aasimar's powers flow from Fernia, you can use the 'Necrotic Shroud' racial feature, but replace the Healing Hands and Light Bearer traits.",
 					"These rare humanoids aren't a race of their own. Rather, aasimar are individuals shaped by exposure to divine forces or the energies of the planes, as discussed in {@book chapter 3|ExploringEberron|3}."
 				]
 			},
@@ -17162,7 +17162,7 @@
 				"necrotic"
 			],
 			"raceName": "Aasimar",
-			"raceSource": "VGM"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Fallen Variant; Mabaran",
@@ -17206,7 +17206,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"If your aasimar's powers flow from Mabar, you can use the the {@race aasimar (fallen)|VGM|fallen aasimar} subrace, but replace the Healing Hands and Light Bearer traits.",
+					"If your aasimar's powers flow from Mabar, you can use the 'Necrotic Shroud' racial feature, but replace the Healing Hands and Light Bearer traits.",
 					"These rare humanoids aren't a race of their own. Rather, aasimar are individuals shaped by exposure to divine forces or the energies of the planes, as discussed in {@book chapter 3|ExploringEberron|3}."
 				]
 			},
@@ -17218,7 +17218,7 @@
 				"radiant"
 			],
 			"raceName": "Aasimar",
-			"raceSource": "VGM"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Aereni",
@@ -17614,7 +17614,7 @@
 				]
 			},
 			"raceName": "Bugbear",
-			"raceSource": "VGM"
+			"raceSource": "MPMM"
 		}
 	],
 	"race": [

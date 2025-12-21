@@ -19,7 +19,7 @@
 		"dependencies": {
 			"monsterFluff": [
 				"MM",
-				"VGM"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -4145,7 +4145,7 @@
 			},
 			"token": {
 				"name": "Blackguard",
-				"source": "vgm"
+				"source": "mpmm"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -4586,7 +4586,7 @@
 			},
 			"token": {
 				"name": "Archer",
-				"source": "VGM"
+				"source": "MPMM"
 			},
 			"soundClip": {
 				"type": "external",
@@ -6924,7 +6924,7 @@
 			"source": "BMG",
 			"_copy": {
 				"name": "Archer",
-				"source": "VGM"
+				"source": "MPMM"
 			}
 		},
 		{
@@ -7156,7 +7156,7 @@
 										"{@b Brutes} hit hard and get hit hard. They deal a lot of damage in melee, and while they might be easy to hit, they have a lot of hit points to compensate. Having loads of HP isn't enough: if a brute can't deal damage or otherwise attract the attention of the enemy, they can simply be ignored, and they will fail at tanking. {@creature ogre zombie|mm|Ogre zombies} (and other types of {@creature zombie|mm|zombies}), {@creature hill giant|mm|hill giants}, and {@creature purple worm|mm|purple worms} are all examples of brutes.",
 										"{@b Controllers} use their abilities for utility, rather than just damage. Some controllers manipulate the battlefield by negating vision or creating difficult terrain. Others inflict \"debuffs\" upon their foes that lessen their offensive or defensive power, such as by imposing disadvantage on their attack rolls or saving throws. Many controllers even use their powers to directly disable their opponents by charming, incapacitating, or restraining them. Such powers can take the form of magical or psionic abilities activated from a distance, or they can be delivered in melee via auras or on top of melee attacks. {@creature harpy|mm|Harpies}, {@creature mind flayer|mm|mind flayers}, and {@creature rakshasa|mm|rakshasas} are all examples of controllers.",
 										"{@b Skirmishers} weave in and out of combat, using their mobility and slipperiness to avoid the exposure of their fragile defenses. They wait for a good opportunity to strike, typically aiming at the weakest or otherwise easiest opponent to attack without taking damage themselves. Often times, they have traits such as Nimble Escape or Flyby that allow them to move in and out without being punished as other creatures would. {@creature assassin|mm|Assassins}, {@creature bugbear|mm|bugbears}, and {@creature goblin|mm|goblins} are all examples of skirmishers.",
-										"{@b Snipers} are those that choose to deal damage from a distance. They have weak defensive capabilities, which they compensate for using good positioning that prevents them from easily being engaged in melee. They needn't hide like skirmishers, nor must they deal as much damage as a striker, although they are allowed to if appropriate. {@creature archer|vgm|Archers}, {@creature beholder|mm|beholders}, and {@creature scout|mm|scouts} are all examples of snipers.",
+										"{@b Snipers} are those that choose to deal damage from a distance. They have weak defensive capabilities, which they compensate for using good positioning that prevents them from easily being engaged in melee. They needn't hide like skirmishers, nor must they deal as much damage as a striker, although they are allowed to if appropriate. {@creature archer|mpmm|Archers}, {@creature beholder|mm|beholders}, and {@creature scout|mm|scouts} are all examples of snipers.",
 										"{@b Soldiers} are generalists who can both take damage and deal damage as needed. While most soldiers are melee-centric, some also have access to ranged options, but do not focus on them to the point of being full on snipers. {@creature veteran|mm|Veterans}, {@creature hezrou|mm|hezrous}, and {@creature erinyes} are all examples of soldiers. Many basic enemies that serve as minions (see below), such as {@creature bandit|mm|bandits}, {@creature orc|mm|orcs}, and {@creature skeleton|mm|skeletons}, also act as soldiers by default.",
 										"{@b Strikers} are the major damage dealers in a given encounter. A striker's offensive power tends to be notably stronger than its defense. Despite this, strikers are not exclusively ranged attackers; it is possible for a striker to be a melee combatant. With this in mind, many spellcasters lend themselves to be excellent strikers. {@creature archmage|mm|Archmages}, dragons, and {@creature lich|mm|liches} are all examples of strikers.",
 										{
@@ -7736,7 +7736,7 @@
 												],
 												[
 													"Indomitable",
-													"{@creature Champion|vgm}",
+													"{@creature Champion|mpmm}",
 													"DCR +1/2 per available use"
 												],
 												[
@@ -7816,7 +7816,7 @@
 												],
 												[
 													"Uncanny Dodge",
-													"{@creature Master thief|vgm}",
+													"{@creature Master thief|mpmm}",
 													"DCR +1/2"
 												],
 												[
@@ -9571,9 +9571,9 @@
 											"type": "list",
 											"items": [
 												"Not all members of a class gain a subclass. For example, {@creature mage|mm|mages} don't have an Arcane Tradition.",
-												"Some members of a class gain new abilities that players can't access. For example, {@creature bard|vgm|bards} have a Taunt ability that normal bards can't normally get.",
+												"Some members of a class gain new abilities that players can't access. For example, {@creature bard|mpmm|bards} have a Taunt ability that normal bards can't normally get.",
 												"Not all members of a class gain certain class features. For example, some druids might not have Wild Shape, while others might not even have spellcasting.",
-												"Some members of a class can further develop their abilities or can reduce their restrictions. For example, {@creature diviner|vgm|diviners} have a modified version of Portent that is rolled during combat rather than after a long rest, and it recharges whenever the diviner casts a divination spell of 1st level or higher, rather than being limited to two uses per day."
+												"Some members of a class can further develop their abilities or can reduce their restrictions. For example, {@creature diviner wizard|mpmm|diviners} have a modified version of Portent that is rolled during combat rather than after a long rest, and it recharges whenever the diviner casts a divination spell of 1st level or higher, rather than being limited to two uses per day."
 											]
 										},
 										"This understanding can be used to justify monsters that are associated with certain classes having features that players don't have access to. For example, you can give the Martial Advantage feature to fighter-like warriors, and you can give resistance to damage from spells to archmages and other powerful wizards. This is elaborated on in the Example Monster Class Features section below. For now, let's discuss how to use existing class features on your monsters."
@@ -14494,7 +14494,7 @@
 								],
 								[
 									"Indomitable",
-									"{@creature Champion|vgm}",
+									"{@creature Champion|mpmm}",
 									"DCR +1/2 per available use"
 								],
 								[
@@ -14574,7 +14574,7 @@
 								],
 								[
 									"Uncanny Dodge",
-									"{@creature Master thief|vgm}",
+									"{@creature Master thief|mpmm}",
 									"DCR +1/2"
 								],
 								[
@@ -15887,9 +15887,9 @@
 							"type": "list",
 							"items": [
 								"Not all members of a class gain a subclass. For example, {@creature mage|mm|mages} don't have an Arcane Tradition.",
-								"Some members of a class gain new abilities that players can't access. For example, {@creature bard|vgm|bards} have a Taunt ability that normal bards can't normally get.",
+								"Some members of a class gain new abilities that players can't access. For example, {@creature bard|mpmm|bards} have a Taunt ability that normal bards can't normally get.",
 								"Not all members of a class gain certain class features. For example, some druids might not have Wild Shape, while others might not even have spellcasting.",
-								"Some members of a class can further develop their abilities or can reduce their restrictions. For example, {@creature diviner|vgm|diviners} have a modified version of Portent that is rolled during combat rather than after a long rest, and it recharges whenever the diviner casts a divination spell of 1st level or higher, rather than being limited to two uses per day."
+								"Some members of a class can further develop their abilities or can reduce their restrictions. For example, {@creature diviner wizard|mpmm|diviners} have a modified version of Portent that is rolled during combat rather than after a long rest, and it recharges whenever the diviner casts a divination spell of 1st level or higher, rather than being limited to two uses per day."
 							]
 						},
 						"This understanding can be used to justify monsters that are associated with certain classes having features that players don't have access to. For example, you can give the Martial Advantage feature to fighter-like warriors, and you can give resistance to damage from spells to archmages and other powerful wizards. This is elaborated on in the Example Monster Class Features section below. For now, let's discuss how to use existing class features on your monsters."
@@ -17107,7 +17107,7 @@
 				],
 				[
 					"Indomitable",
-					"{@creature Champion|vgm}",
+					"{@creature Champion|mpmm}",
 					"DCR +1/2 per available use"
 				],
 				[
@@ -17187,7 +17187,7 @@
 				],
 				[
 					"Uncanny Dodge",
-					"{@creature Master thief|vgm}",
+					"{@creature Master thief|mpmm}",
 					"DCR +1/2"
 				],
 				[

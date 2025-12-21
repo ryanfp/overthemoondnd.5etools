@@ -1196,7 +1196,7 @@
 				],
 				[
 					"2",
-					"A piece of parchment is tacked onto the wall near the entrance reading \"Toll Road. 2 Copper\". An empty clay pot sits under the sign. A {@creature Master Thief|vgm|thief} hides nearby and tries to pickpocket those not paying."
+					"A piece of parchment is tacked onto the wall near the entrance reading \"Toll Road. 2 Copper\". An empty clay pot sits under the sign. A {@creature Master Thief|mpmm|thief} hides nearby and tries to pickpocket those not paying."
 				],
 				[
 					"3",
@@ -1252,7 +1252,7 @@
 				],
 				[
 					"16",
-					"A {@creature Master Thief|vgm|rogue} tries to sell a bejeweled dagger to the PCs. The dagger is very distinctive and its previous owner wants it back."
+					"A {@creature Master Thief|mpmm|rogue} tries to sell a bejeweled dagger to the PCs. The dagger is very distinctive and its previous owner wants it back."
 				],
 				[
 					"17",
@@ -1311,7 +1311,7 @@
 				],
 				[
 					"5",
-					"A {@creature Master Thief|vgm|freelance thief} looks to make money fencing magic items to adventurers. He is desperate for a sale and if the PCs seem wealthy, he sells their details onto his fellow thieves."
+					"A {@creature Master Thief|mpmm|freelance thief} looks to make money fencing magic items to adventurers. He is desperate for a sale and if the PCs seem wealthy, he sells their details onto his fellow thieves."
 				],
 				[
 					"6",
@@ -2445,7 +2445,7 @@
 				],
 				[
 					"11",
-					"A {@creature necromancer|vgm} has set up shop, selling his services to provide mourners a day with an undead loved one. Many of the populace disapprove of his actions, but a few recently bereaved townsfolk have hired his services."
+					"A {@creature necromancer wizard|mpmm} has set up shop, selling his services to provide mourners a day with an undead loved one. Many of the populace disapprove of his actions, but a few recently bereaved townsfolk have hired his services."
 				],
 				[
 					"12",

@@ -480,7 +480,7 @@
 										"If the adventurers deactivate the barriers several things will happen. First of all, the party themselves will be able to use teleportation spells in and around the temple. Secondly, the area will start to be invaded by Mindflayers and their allies.",
 										"This will not happen right away as the creatures do not know that the barrier is down, but after a few minutes they will start a full-scale assault. This attack may come shortly after the party make their way onto the Observation Deck, or it may already be underway if the adventurers took their time exploring the area. Naturally, this will dramatically change the description of the area.",
 										"Should the party be accompanied by Klath, or tell him that the wards have been lowered, he will be able to psychically contact his colony and coordinate an attack alongside the party - assuming they're willing to work with the Mindflayers.",
-										"The Mind Flayer attack force consists of 25 {@creature Mind Flayer} and 30 enthralled {@creature Quaggoth}. The Mindflayers will emerge from portals in mid-air, while the ground troops will appear on the decking. If you have access to Volo's Guide to Monsters, replace two of the Mind Flayers with {@creature Ulitharid|VGM}."
+										"The Mind Flayer attack force consists of 25 {@creature Mind Flayer} and 30 enthralled {@creature Quaggoth}. The Mindflayers will emerge from portals in mid-air, while the ground troops will appear on the decking. If you have access to Volo's Guide to Monsters, replace two of the Mind Flayers with {@creature Ulitharid|MPMM}."
 									]
 								}
 							]

@@ -3246,7 +3246,7 @@
 												"In the center of this high-ceilinged kitchen is an oven that crackles with flames. Five stumpy, fiery creatures with skin like solid magma dance about the oven. A dwarf in red robes sits on the foot of a staircase, scribbling in a spellbook."
 											]
 										},
-										"These five {@creature magmin|MM|magmins} were summoned by the dwarf {@creature apprentice wizard|VGM}. If he is killed, the {@creature magmin|MM|magmins} run wild and set as much of the house on fire as they can.",
+										"These five {@creature magmin|MM|magmins} were summoned by the dwarf {@creature apprentice wizard|MPMM}. If he is killed, the {@creature magmin|MM|magmins} run wild and set as much of the house on fire as they can.",
 										{
 											"type": "entries",
 											"name": "Red-Eye's Patience",
@@ -3429,10 +3429,10 @@
 									"type": "list",
 									"columns": 3,
 									"items": [
-										"{@creature Apprentice Wizard|VGM}",
+										"{@creature Apprentice Wizard|MPMM}",
 										"{@creature Florina DuRaal|XLNEE}",
 										"{@creature Flying Monkey|ToA}",
-										"{@creature Gazer|VGM}",
+										"{@creature Gazer|MPMM}",
 										"{@creature Jaculi|ToA}",
 										"{@creature Red-Eye|XLNEE}"
 									]

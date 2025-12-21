@@ -340,7 +340,7 @@
 									"page": 28,
 									"entries": [
 										"You grew up within a community that took special effort to keep itself isolated and hidden from the outside world, so that even the most accurate of maps don't mark its location, and the most learned of scholars have never heard of it. You learned from a young age that you must keep your home a secret, which involves not only camouflaging the village itself, but also watching for intruders nearby and concealing your movements when you travel outside your home.",
-										"The {@background hidden villager|TEB} background is common among {@race fairy|TEB|fairies}, {@race elf (green)|TEB|green elves}, {@race elf (thimble)|TEB|thimble elves}, {@race dwarf (stone)|TEB|stone dwarves}, and {@race halfling (jungle)|TEB|jungle halflings}, along with other races such as {@race firbolg|vgm|firbolgs} and {@race triton|vgm|tritons}."
+										"The {@background hidden villager|TEB} background is common among {@race fairy|TEB|fairies}, {@race elf (green)|TEB|green elves}, {@race elf (thimble)|TEB|thimble elves}, {@race dwarf (stone)|TEB|stone dwarves}, and {@race halfling (jungle)|TEB|jungle halflings}, along with other races such as {@race firbolg|mpmm|firbolgs} and {@race triton|mpmm|tritons}."
 									]
 								},
 								{
@@ -3422,7 +3422,7 @@
 									"name": "Cloud Giant Windling",
 									"page": 217,
 									"entries": [
-										"{@note For {@creature Cloud Giant Smiling One|VGM}, Volo's Guide page 146}",
+										"{@note For {@creature Cloud Giant Smiling One|MPMM}, Mordenkainen Presents: Monsters of the Multiverse page 81}",
 										{
 											"type": "spellcasting",
 											"name": "",
@@ -3466,7 +3466,7 @@
 									"name": "Grung Rain Dancer",
 									"page": 217,
 									"entries": [
-										"{@note For {@creature Grung Wildling|VGM} Volo's Guide page 157}",
+										"{@note For {@creature Grung Wildling|MPMM} Mordenkainen Presents: Monsters of the Multiverse page 150}",
 										{
 											"type": "spellcasting",
 											"name": "",
@@ -3500,7 +3500,7 @@
 									"name": "Hobgoblin Illuminator",
 									"page": 217,
 									"entries": [
-										"{@note For {@creature Hobgoblin Devastator|VGM}, Volo's Guide page 161}",
+										"{@note For {@creature Hobgoblin Devastator|MPMM}, Mordenkainen Presents: Monsters of the Multiverse page 153}",
 										{
 											"type": "spellcasting",
 											"name": "",
@@ -7970,7 +7970,7 @@
 											"1/8 (25 XP)"
 										],
 										[
-											"{@creature Awakened grass|TEB},* {@creature awakened thornbush|TEB},* {@creature boar}, {@creature constrictor snake}, {@creature giant centipede}, {@creature giant frog}, {@creature giant lizard}, {@creature giant poisonous snake}, {@creature giant wolf spider}, {@creature goblin}, {@creature grung|VGM}, {@creature kenku}, {@creature kobold inventor|VGM}, {@creature needle blight}, {@creature panther}, {@creature swarm of bats}, {@creature swarm of ravens}, {@creature tortle|VGM}, {@creature vegepygmy|VGM}, {@creature velociraptor|VGM}, {@creature violet fungus}, {@creature winged kobold}",
+											"{@creature Awakened grass|TEB},* {@creature awakened thornbush|TEB},* {@creature boar}, {@creature constrictor snake}, {@creature giant centipede}, {@creature giant frog}, {@creature giant lizard}, {@creature giant poisonous snake}, {@creature giant wolf spider}, {@creature goblin}, {@creature grung|MPMM}, {@creature kenku}, {@creature kobold inventor|MPMM}, {@creature needle blight}, {@creature panther}, {@creature swarm of bats}, {@creature swarm of ravens}, {@creature tortle|MPMM}, {@creature vegepygmy|MPMM}, {@creature velociraptor|MPMM}, {@creature violet fungus}, {@creature winged kobold}",
 											"1/4 (50 XP)"
 										],
 										[
@@ -7978,11 +7978,11 @@
 											"1/2 (100 XP)"
 										],
 										[
-											"{@creature Bathing spirit|TEB}, {@creature dryad}, {@creature giant spider}, {@creature giant toad}, {@creature goblin boss}, {@creature goblin wind rouser|TEB}, {@creature grung wildling|VGM}, {@creature half-ogre (ogrillon)|mm|half-ogre}, {@creature kobold dragonshield|VGM}, {@creature kobold scale sorcerer|VGM}, {@creature nilbog|VGM}, {@creature lion}, {@creature thorny|VGM}, {@creature tiger}, {@creature yuan-ti pureblood}",
+											"{@creature Bathing spirit|TEB}, {@creature dryad}, {@creature giant spider}, {@creature giant toad}, {@creature goblin boss}, {@creature goblin wind rouser|TEB}, {@creature grung wildling|MPMM}, {@creature half-ogre (ogrillon)|mm|half-ogre}, {@creature kobold dragonshield|MPMM}, {@creature kobold scale sorcerer|MPMM}, {@creature nilbog|MPMM}, {@creature lion}, {@creature thorny vegepygmy|MPMM}, {@creature tiger}, {@creature yuan-ti pureblood}",
 											"1 (200XP)"
 										],
 										[
-											"{@creature Bandit captain}, {@creature awakened tree}, {@creature druid}, {@creature giant boar}, {@creature giant constrictor snake}, {@creature green dragon wyrmling}, {@creature grung elite warrior|VGM}, {@creature kobold dirtclaw|TEB},* {@creature lizardfolk shaman}, {@creature ogre}, {@creature rhinoceros}, {@creature saber-toothed tiger}, {@creature swarm of poisonous snakes}, {@creature tortle druid|VGM}, {@creature vegepygmy chief|VGM}, {@creature yuan-ti broodguard}",
+											"{@creature Bandit captain}, {@creature awakened tree}, {@creature druid}, {@creature giant boar}, {@creature giant constrictor snake}, {@creature green dragon wyrmling}, {@creature grung elite warrior|MPMM}, {@creature kobold dirtclaw|TEB},* {@creature lizardfolk shaman}, {@creature ogre}, {@creature rhinoceros}, {@creature saber-toothed tiger}, {@creature swarm of poisonous snakes}, {@creature tortle druid|MPMM}, {@creature vegepygmy chief|MPMM}, {@creature yuan-ti broodguard}",
 											"2 (450 XP)"
 										],
 										[
@@ -7990,11 +7990,11 @@
 											"3 (700 XP)"
 										],
 										[
-											"{@creature Couatl}, {@creature elephant}, {@creature lizard king}/{@creature lizard queen|MM|queen}, {@creature wereboar}, {@creature weretiger}, {@creature yuan-ti mind whisperer|VGM}, {@creature yuan-ti nightmare speaker|VGM}",
+											"{@creature Couatl}, {@creature elephant}, {@creature lizard king}/{@creature lizard queen|MM|queen}, {@creature wereboar}, {@creature weretiger}, {@creature yuan-ti mind whisperer|MPMM}, {@creature yuan-ti nightmare speaker|MPMM}",
 											"4 (1,100 XP)"
 										],
 										[
-											"{@creature Giant crocodile}, {@creature shambling mound}, {@creature troll}, {@creature water elemental}, {@creature wood woad|VGM}, {@creature yuan-ti pit master|VGM}",
+											"{@creature Giant crocodile}, {@creature shambling mound}, {@creature troll}, {@creature water elemental}, {@creature wood woad|MPMM}, {@creature yuan-ti pit master|MPMM}",
 											"5 (1,800 XP)"
 										],
 										[
@@ -8022,7 +8022,7 @@
 											"11 (7,200 XP)"
 										],
 										[
-											"{@creature Archdruid}, {@creature astral panther|VGM},* {@creature dragon of the swamp|VGM},* {@creature geyser elemental|VGM},* {@creature Greatmother Oak|VGM},* {@creature walking mountain|VGM},* {@creature wildfire boar|VGM},* {@creature yuan-ti anathema|VGM}",
+											"{@creature Archdruid}, {@creature astral panther|MPMM},* {@creature dragon of the swamp|MPMM},* {@creature geyser elemental|MPMM},* {@creature Greatmother Oak|MPMM},* {@creature walking mountain|MPMM},* {@creature wildfire boar|MPMM},* {@creature yuan-ti anathema|MPMM}",
 											"12 (8,400 XP)"
 										],
 										[
@@ -8080,7 +8080,7 @@
 											"1 (200 XP)"
 										],
 										[
-											"{@creature Griffon}, {@creature pegasus}, {@creature peryton}, {@creature silver dragon wyrmling}, {@creature quetzalcoatlus|VGM}",
+											"{@creature Griffon}, {@creature pegasus}, {@creature peryton}, {@creature silver dragon wyrmling}, {@creature quetzalcoatlus|MPMM}",
 											"2 (450 xp)"
 										],
 										[
@@ -8100,7 +8100,7 @@
 											"6 (2,300 XP)"
 										],
 										[
-											"{@creature Air elemental myrmidon|MTF}, {@creature bheur hag|VGM}",
+											"{@creature Air elemental myrmidon|MTF}, {@creature bheur hag|MPMM}",
 											"7 (2,900 XP)"
 										],
 										[
@@ -8112,11 +8112,11 @@
 											"10 (5,900 XP)"
 										],
 										[
-											"{@creature Cloud giant smiling one|VGM}, {@creature djinni}, {@creature roc}",
+											"{@creature Cloud giant smiling one|MPMM}, {@creature djinni}, {@creature roc}",
 											"11 (7,200 XP)"
 										],
 										[
-											"{@creature Bat of the below|TEB},* {@creature cloudweb tarantula|TEB},* {@creature eagle of the sun|TEB},* {@creature ki-rin|VGM}, {@creature storm elemental|TEB}*",
+											"{@creature Bat of the below|TEB},* {@creature cloudweb tarantula|TEB},* {@creature eagle of the sun|TEB},* {@creature ki-rin|MPMM}, {@creature storm elemental|TEB}*",
 											"12 (8,400 XP)"
 										],
 										[
@@ -8124,7 +8124,7 @@
 											"13 (10,000 XP)"
 										],
 										[
-											"{@creature Adult blue dragon}, {@creature adult silver dragon}, {@creature storm giant quintessent|VGM}",
+											"{@creature Adult blue dragon}, {@creature adult silver dragon}, {@creature storm giant quintessent|MPMM}",
 											"16 (15,000 XP)"
 										],
 										[
@@ -8154,15 +8154,15 @@
 											"1/8 (25 XP)"
 										],
 										[
-											"{@creature Giant bat}, {@creature giant centipede}, {@creature giant lizard}, {@creature kobold inventor|VGM}, {@creature swarm of bats}, {@creature winged kobold}",
+											"{@creature Giant bat}, {@creature giant centipede}, {@creature giant lizard}, {@creature kobold inventor|MPMM}, {@creature swarm of bats}, {@creature winged kobold}",
 											"1/4 (50 XP)"
 										],
 										[
-											"{@creature Cockatrice}, {@creature firenewt warrior|VGM}, {@creature magma mephit}, {@creature magmin}, {@creature slag spirit|TEB},* {@creature worg}",
+											"{@creature Cockatrice}, {@creature firenewt warrior|MPMM}, {@creature magma mephit}, {@creature magmin}, {@creature slag spirit|TEB},* {@creature worg}",
 											"1/2 (100 XP)"
 										],
 										[
-											"{@creature Burning spirit|TEB},* {@creature death dog}, {@creature firenewt warlock of Imix|VGM}, {@creature fire snake}, {@creature giant eagle}, {@creature giant hyena}, {@creature giant strider|VGM}, {@creature giant vulture}, {@creature kobold dragonshield|VGM}, {@creature kobold scale sorcerer|VGM}",
+											"{@creature Burning spirit|TEB},* {@creature death dog}, {@creature firenewt warlock of Imix|MPMM}, {@creature fire snake}, {@creature giant eagle}, {@creature giant hyena}, {@creature giant strider|MPMM}, {@creature giant vulture}, {@creature kobold dragonshield|MPMM}, {@creature kobold scale sorcerer|MPMM}",
 											"1 (200 XP)"
 										],
 										[
@@ -8170,7 +8170,7 @@
 											"2 (450 xp)"
 										],
 										[
-											"{@creature Flail snail|VGM}, {@creature giant scorpion}, {@creature hell hound}, {@creature magmin tunneler|TEB}*",
+											"{@creature Flail snail|MPMM}, {@creature giant scorpion}, {@creature hell hound}, {@creature magmin tunneler|TEB}*",
 											"3 (700 XP)"
 										],
 										[
@@ -8186,7 +8186,7 @@
 											"6 (2,300 XP)"
 										],
 										[
-											"{@creature Fire elemental myrmidon|MTF}, {@creature molten ooze|TEB},* {@creature warlock of the fiend|VGM}",
+											"{@creature Fire elemental myrmidon|MTF}, {@creature molten ooze|TEB},* {@creature warlock of the fiend|MPMM}",
 											"7 (2,900 XP)"
 										],
 										[
@@ -8214,7 +8214,7 @@
 											"13 (10,000 XP)"
 										],
 										[
-											"{@creature Fire giant dreadnought|VGM}",
+											"{@creature Fire giant dreadnought|MPMM}",
 											"14 (11,500 XP)"
 										],
 										[
@@ -11944,7 +11944,7 @@
 			"level": 3,
 			"entries": [
 				"To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.",
-				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|vgm}, or {@race firbolg|VGM|firbolgs}. {@race Genasi (Earth)|EEPC|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
+				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|mpmm}, or {@race firbolg|MPMM|firbolgs}. {@race Genasi (Earth)|EEPC|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Stone Rage|Barbarian|PHB|Quake Bringer|TEB|3|TEB"
@@ -50795,7 +50795,7 @@
 			"races": [
 				{
 					"name": "Yuan-ti Pureblood",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			]
 		},
@@ -50886,7 +50886,7 @@
 			"races": [
 				{
 					"name": "Yuan-ti Pureblood",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			]
 		},
@@ -50977,7 +50977,7 @@
 			"races": [
 				{
 					"name": "Yuan-ti Pureblood",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			]
 		},

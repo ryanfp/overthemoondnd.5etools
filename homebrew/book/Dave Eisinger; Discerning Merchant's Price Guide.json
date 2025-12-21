@@ -397,10 +397,6 @@
 													"WDH"
 												],
 												[
-													"Volo's Guide to Monsters",
-													"VGM"
-												],
-												[
 													"Waterdeep: Dragon Heist",
 													"WDH"
 												],
@@ -1742,24 +1738,6 @@
 										],
 										[
 											"13-16",
-											"65",
-											"{@item Mind Blade|VGM|Mind Blade (any sword)}",
-											"Yes (special) ",
-											"Rare",
-											"2,000 gp",
-											"VGM 81"
-										],
-										[
-											"13-16",
-											"66",
-											"{@item Mind Lash|VGM|Mind Lash (whip)}",
-											"Yes (mind flayer)",
-											"Rare",
-											"750 gp",
-											"VGM 81"
-										],
-										[
-											"13-16",
 											"67",
 											"{@item Needle of Mending|EGW|Needle of Mending (dagger)**}",
 											"Yes",
@@ -2587,14 +2565,6 @@
 											"DMG 181"
 										],
 										[
-											"32-36",
-											"{@item Mind Carapace Armor|VGM|Mind Carapace Armor (any heavy armor)}",
-											"Yes (special)",
-											"Uncommon",
-											"+500 gp",
-											"VGM 81"
-										],
-										[
 											"37-41",
 											"{@item Mithral Armor|DMG|Mithral Armor (medium or heavy, but not hide)}",
 											"No",
@@ -2884,14 +2854,6 @@
 											"Rare",
 											"1,500 gp",
 											"GGR 180"
-										],
-										[
-											"54-59",
-											"{@item Shield of Far Sight|VGM}",
-											"No",
-											"Rare",
-											"750 gp",
-											"VGM 81"
 										],
 										[
 											"60-65",
@@ -10327,22 +10289,6 @@
 					"DMG 180"
 				],
 				[
-					"165",
-					"{@item Mind Blade|VGM|Mind Blade (any sword)}",
-					"Yes (special) ",
-					"Rare",
-					"2,000 gp",
-					"VGM 81"
-				],
-				[
-					"166",
-					"{@item Mind Lash|VGM|Mind Lash (whip)}",
-					"Yes (mind flayer)",
-					"Rare",
-					"750 gp",
-					"VGM 81"
-				],
-				[
 					"167",
 					"{@item Needle of Mending|EGW|Needle of Mending (dagger)**}",
 					"Yes",
@@ -11108,14 +11054,6 @@
 					"DMG 181"
 				],
 				[
-					"32-36",
-					"{@item Mind Carapace Armor|VGM|Mind Carapace Armor (any heavy armor)}",
-					"Yes (special)",
-					"Uncommon",
-					"+500 gp",
-					"VGM 81"
-				],
-				[
 					"37-41",
 					"{@item Mithral Armor|DMG|Mithral Armor (medium or heavy, but not hide)}",
 					"No",
@@ -11401,14 +11339,6 @@
 					"Rare",
 					"1,500 gp",
 					"GGR 180"
-				],
-				[
-					"54-59",
-					"{@item Shield of Far Sight|VGM}",
-					"No",
-					"Rare",
-					"750 gp",
-					"VGM 81"
 				],
 				[
 					"60-65",

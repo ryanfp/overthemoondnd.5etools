@@ -216,7 +216,7 @@
 									"name": "Bestial Rend",
 									"page": 2,
 									"entries": [
-										"This discipline is often adopted by creatures with natural claws; {@race aarakocra|EEPC}, {@race tabaxi|VGM}, the {@race leonin|MOT} of Theros, and the {@race shifter|ERLW|shifters} peoples of Eberron. Your unarmed strikes deal slashing damage and inflict deep wounds in your target. Each time you hit a creature with an unarmed strike, its movement speed is reduced by 5 feet until the start of your next turn. If you reduce a creature's speed to 0, they are {@condition restrained} until the beginning of your next turn."
+										"This discipline is often adopted by creatures with natural claws; {@race aarakocra|EEPC}, {@race tabaxi|MPMM}, the {@race leonin|MOT} of Theros, and the {@race shifter|ERLW|shifters} peoples of Eberron. Your unarmed strikes deal slashing damage and inflict deep wounds in your target. Each time you hit a creature with an unarmed strike, its movement speed is reduced by 5 feet until the start of your next turn. If you reduce a creature's speed to 0, they are {@condition restrained} until the beginning of your next turn."
 									]
 								},
 								{
@@ -232,7 +232,7 @@
 									"name": "Reptilian Defense",
 									"page": 2,
 									"entries": [
-										"This discipline is often adopted by creatures with natural defenses, like the scaled {@race lizardfolk|VGM} or {@race tortle|TTP|tortles} with their protective shell. When fighting you position yourself to more easily defend against your foes. The last creature you hit with an unarmed strike on your turn has disadvantage on any attack rolls they make against you until the start of your next turn."
+										"This discipline is often adopted by creatures with natural defenses, like the scaled {@race lizardfolk|MPMM} or {@race tortle|TTP|tortles} with their protective shell. When fighting you position yourself to more easily defend against your foes. The last creature you hit with an unarmed strike on your turn has disadvantage on any attack rolls they make against you until the start of your next turn."
 									]
 								}
 							]

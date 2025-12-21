@@ -1740,7 +1740,7 @@
 				},
 				{
 					"name": "Yuan-ti Pureblood",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			],
 			"backgrounds": [
@@ -14953,7 +14953,7 @@
 				},
 				{
 					"name": "Yuan-ti Pureblood",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			],
 			"optionalfeatures": [
@@ -20862,7 +20862,7 @@
 				},
 				{
 					"name": "Triton",
-					"source": "VGM"
+					"source": "MPMM"
 				}
 			],
 			"damageInflict": [
