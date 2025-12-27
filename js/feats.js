@@ -86,7 +86,7 @@ class FeatsPage extends ListPage {
 					name: UtilsTableview.COL_TRANSFORM_NAME,
 					source: UtilsTableview.COL_TRANSFORM_SOURCE,
 					page:  UtilsTableview.COL_TRANSFORM_PAGE,
-					category: {
+					_category: {
 						name: "Type",
 						transform: (feat) => feat.category ?  Parser.featCategoryToFull(feat. category) : "Other",
 					},

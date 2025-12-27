@@ -90,11 +90,11 @@ class RacesPage extends ListPage {
 						},
 					},
 					_slAbility: {name: "Ability Score", transform: (race) => race._slAbility},
-					size: {
+					_size: {
 						name: "Size",
 						transform: (race) => (race. size || [Parser.SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/"),
 					},
-					speed:  {
+					_speed:  {
 						name: "Speed",
 						transform: (race) => Parser.getSpeedString(race),
 					},
@@ -102,14 +102,14 @@ class RacesPage extends ListPage {
 						name: "Languages",
 						transform: (race) => (race._fLangs || []).join(", ") || "\u2014",
 					},
-					age: {
+					_age: {
 						name: "Age",
 						transform: (race) => {
 							if (! race.age) return "\u2014";
 							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
 						},
 					},
-					traitTags: {
+					_traitTags: {
 						name: "Traits",
 						transform: (race) => (race. traitTags || [])
 							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
