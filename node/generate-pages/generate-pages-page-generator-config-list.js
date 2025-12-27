@@ -28,7 +28,7 @@ class _PageGeneratorListBackgrounds extends PageGeneratorListBase {
 	_isModule = true;
 
 	_scriptsUtilsAdditional = [
-		"utils-tableview. js",
+		"utils-tableview.js",
 	]; 
 
 	_btnsList = [
@@ -246,7 +246,7 @@ class _PageGeneratorListFeats extends PageGeneratorListBase {
 	_isModule = true;
 
 	_scriptsUtilsAdditional = [
-		"utils-tableview. js",
+		"utils-tableview.js",
 	]; 
 
 	_btnsList = [
@@ -484,7 +484,7 @@ class _PageGeneratorListRaces extends PageGeneratorListBase {
 	_isModule = true;
 
 	_scriptsUtilsAdditional = [
-		"utils-tableview. js",
+		"utils-tableview.js",
 	]; 
 
 	_btnsList = [
