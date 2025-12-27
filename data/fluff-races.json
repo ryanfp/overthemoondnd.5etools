@@ -413,6 +413,22 @@
 		},
 		{
 			"name": "Bugbear",
+			"source": "ERLW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/ERLW/Goblinoids.webp"
+					},
+					"credit": "Cory Trego-Erdner",
+					"width": 1000,
+					"height": 647
+				}
+			]
+		},
+		{
+			"name": "Bugbear",
 			"source": "MPMM",
 			"entries": [
 				"Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god's influence.",
@@ -2552,12 +2568,9 @@
 		},
 		{
 			"name": "Goblin",
-			"source": "ERLW",
-			"_copy": {
-				"name": "Bugbear",
-				"source": "ERLW"
-			},
+			"source": "MPMM",
 			"entries": [
+				"A subterranean folk, goblins can be found in every corner of the multiverse, often beside their bugbear and hobgoblin kin.",
 				{
 					"type": "entries",
 					"entries": [
@@ -2578,13 +2591,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "Goblin",
-			"source": "MPMM",
-			"entries": [
-				"A subterranean folk, goblins can be found in every corner of the multiverse, often beside their bugbear and hobgoblin kin. Long before the god Maglubiyet conquered them, early goblins served in the court of the Queen of Air and Darkness, one of the Feywild's archfey. Goblins thrived in her dangerous domain thanks to a special boon from her\u2014a supernatural knack for finding the weak spots in foes larger than themselves and for getting out of trouble. Goblins brought this fey boon with them to worlds across the Material Plane, even if they don't remember the fey realm they inhabited before Maglubiyet's rise. Now many goblins pursue their own destinies, escaping the plots of both archfey and gods."
 			],
 			"images": [
 				{
@@ -3242,14 +3248,6 @@
 		},
 		{
 			"name": "Hobgoblin",
-			"source": "ERLW",
-			"_copy": {
-				"name": "Bugbear",
-				"source": "ERLW"
-			}
-		},
-		{
-			"name": "Hobgoblin",
 			"source": "MPMM",
 			"entries": [
 				"Hobgoblins trace their origins to the ancient courts of the Feywild, where they first appeared with their goblin and bugbear kin. Many of them were driven from the Feywild by the conquering god Maglubiyet, who marshaled them as soldiers, but the fey realm left its mark; wherever they are in the multiverse, they continue to channel an aspect of the Feywild's rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.",
@@ -3258,7 +3256,7 @@
 				{
 					"type": "entries",
 					"entries": [
-						"The goblinoid species\u2014goblins, hobgoblins, and bugbears\u2014were once the dominant civilization in Khorvaire, with the goblinoid Empire of Dhakaan ruling the continent for thousands of years. It was crippled by a long conflict with the daelkyr and their aberrant armies; even though the daelkyr were defeated, the seeds of madness took root in the empire and tore it apart. Today there are four primary goblinoid cultures in Khorvaire. Goblins are the smallest and most numerous of the goblinoids. They are clever and resourceful, thriving in a variety of environments.",
+						"The goblinoid species\u2014goblins, hobgoblins, and bugbears\u2014were once the dominant civilization in Khorvaire, with the goblinoid Empire of Dhakaan ruling the continent for thousands of years. It was crippled by a long conflict with the daelkyr and their aberrant armies; even though the daelkyr were defeated, the seeds of madness took root in the empire and tore it apart. Today there are four primary goblinoid cultures in Khorvaire.",
 						{
 							"type": "entries",
 							"name": "The Ghaal'Dar",
