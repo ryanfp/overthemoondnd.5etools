@@ -93,7 +93,7 @@ class BackgroundPage extends ListPage {
 						name: "Other Benefit",
 						transform: (bg) => (bg._fOtherBenefits || []).join(", ") || "\u2014",
 					},
-					startingEquipment: {
+					_startingEquipment: {
 						name:  "Equipment",
 						transform: (bg) => {
 							if (! bg.startingEquipment) return "\u2014";
