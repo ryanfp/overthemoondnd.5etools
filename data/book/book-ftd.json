@@ -5505,7 +5505,7 @@
 												],
 												[
 													"2",
-													"An illithid community has spent nearly a millennium raising and preparing a black dragon to become an {@creature elder brain dragon|FTD} (described in {@book chapter 6|FTD|6|Elder Brain Dragon}), so the {@creature elder brain|VGM} can wreak ruin upon its rivals."
+													"An illithid community has spent nearly a millennium raising and preparing a black dragon to become an {@creature elder brain dragon|FTD} (described in {@book chapter 6|FTD|6|Elder Brain Dragon}), so the {@creature elder brain|MPMM} can wreak ruin upon its rivals."
 												],
 												[
 													"3",
@@ -5513,7 +5513,7 @@
 												],
 												[
 													"4",
-													"An {@creature ancient black dragon} rules a vast, decadent city built on artificial islands within a polluted lake. The site is threatened with destruction by an enraged {@creature archdruid|VGM}\u2014but destroying the city means thousands of innocents will die."
+													"An {@creature ancient black dragon} rules a vast, decadent city built on artificial islands within a polluted lake. The site is threatened with destruction by an enraged {@creature archdruid|MPMM}\u2014but destroying the city means thousands of innocents will die."
 												]
 											]
 										}
@@ -11897,7 +11897,7 @@
 												],
 												[
 													"6",
-													"A {@creature moonstone dragon wyrmling|FTD} has volunteered to be a spy in a conflict between a group of {@creature Pixie||pixies} and a group of {@creature Quickling|VGM|quicklings}. Both sides believe the wyrmling is working exclusively for them."
+													"A {@creature moonstone dragon wyrmling|FTD} has volunteered to be a spy in a conflict between a group of {@creature Pixie||pixies} and a group of {@creature Quickling|MPMM|quicklings}. Both sides believe the wyrmling is working exclusively for them."
 												]
 											]
 										},
@@ -13346,7 +13346,7 @@
 											"rows": [
 												[
 													"1",
-													"A {@creature bard|VGM} befriends a shadow dragon wyrmling and teaches the dragon about the Shadowfell."
+													"A {@creature bard|MPMM} befriends a shadow dragon wyrmling and teaches the dragon about the Shadowfell."
 												],
 												[
 													"2",
@@ -15327,7 +15327,7 @@
 						"{@creature Egg Hunter Hatchling|FTD}",
 						"{@creature Egg Hunter Adult|FTD}",
 						"{@creature Mind Flayer}",
-						"{@creature Elder Brain|VGM}",
+						"{@creature Elder Brain|MPMM}",
 						"{@creature Elder Brain Dragon|FTD}",
 						"{@creature Ancient Emerald Dragon|FTD}",
 						"{@creature Adult Emerald Dragon|FTD}",

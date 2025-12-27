@@ -4,7 +4,7 @@
 			"monster": [
 				"MM",
 				"SKT",
-				"MTF"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -14,8 +14,7 @@
 			"monster": {
 				"MM": "BGDIA",
 				"ToA": "BGDIA",
-				"MTF": "BGDIA",
-				"VGM": "BGDIA",
+				"MPMM": "BGDIA",
 				"RoT": "BGDIA",
 				"DMG": "BGDIA"
 			}
@@ -247,7 +246,7 @@
 			"page": 243,
 			"_copy": {
 				"name": "Zariel",
-				"source": "MTF",
+				"source": "MPMM",
 				"_mod": {
 					"action": [
 						{

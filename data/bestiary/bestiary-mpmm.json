@@ -2,8 +2,6 @@
 	"_meta": {
 		"otherSources": {
 			"monster": {
-				"VGM": "MPMM",
-				"MTF": "MPMM",
 				"HotDQ": "MPMM"
 			}
 		}
@@ -160,12 +158,6 @@
 			"name": "Adult Kruthik",
 			"source": "MPMM",
 			"page": 169,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 212
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -280,12 +272,6 @@
 			"name": "Adult Oblex",
 			"source": "MPMM",
 			"page": 198,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 218
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -468,12 +454,6 @@
 			"name": "Air Elemental Myrmidon",
 			"source": "MPMM",
 			"page": 122,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 202
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -815,12 +795,6 @@
 			"name": "Alkilith",
 			"source": "MPMM",
 			"page": 44,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 130
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -998,12 +972,6 @@
 			"name": "Allip",
 			"source": "MPMM",
 			"page": 45,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 116
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -1155,10 +1123,6 @@
 			"source": "MPMM",
 			"page": 46,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 164
-				},
 				{
 					"source": "CoA"
 				}
@@ -1388,12 +1352,6 @@
 			"name": "Angry Sorrowsworn",
 			"source": "MPMM",
 			"page": 222,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 231
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -2012,12 +1970,6 @@
 			"name": "Armanite",
 			"source": "MPMM",
 			"page": 50,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 131
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -2159,10 +2111,6 @@
 			"source": "MPMM",
 			"page": 51,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 117
-				},
 				{
 					"source": "VEoR"
 				}
@@ -2428,12 +2376,6 @@
 			"name": "Autumn Eladrin",
 			"source": "MPMM",
 			"page": 115,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 195
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -2775,12 +2717,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 54,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 170
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -3016,10 +2952,6 @@
 			"source": "MPMM",
 			"page": 55,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 119
-				},
 				{
 					"source": "RtG",
 					"page": 31
@@ -3315,10 +3247,6 @@
 			"source": "MPMM",
 			"page": 58,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 143
-				},
 				{
 					"source": "CoA"
 				}
@@ -3890,12 +3818,6 @@
 			"name": "Berbalang",
 			"source": "MPMM",
 			"page": 61,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 120
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -4217,10 +4139,6 @@
 			"source": "MPMM",
 			"page": 38,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 160
-				},
 				{
 					"source": "CoA"
 				}
@@ -4574,10 +4492,6 @@
 			"source": "MPMM",
 			"page": 39,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 161
-				},
 				{
 					"source": "VEoR"
 				},
@@ -5078,12 +4992,6 @@
 			"name": "Boneclaw",
 			"source": "MPMM",
 			"page": 66,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 121
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -5318,12 +5226,6 @@
 			"name": "Bulezau",
 			"source": "MPMM",
 			"page": 67,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 131
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -5444,10 +5346,6 @@
 			"source": "MPMM",
 			"page": 68,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 122
-				},
 				{
 					"source": "AATM"
 				},
@@ -5601,12 +5499,6 @@
 			"name": "Canoloth",
 			"source": "MPMM",
 			"page": 69,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 247
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -6220,12 +6112,6 @@
 			"name": "Choker",
 			"source": "MPMM",
 			"page": 76,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 123
-				}
-			],
 			"size": [
 				"S"
 			],
@@ -6525,10 +6411,6 @@
 			"page": 79,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 125
-				},
-				{
 					"source": "RtG",
 					"page": 32
 				}
@@ -6652,12 +6534,6 @@
 			"name": "Clockwork Iron Cobra",
 			"source": "MPMM",
 			"page": 79,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 125
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -6794,10 +6670,6 @@
 			"source": "MPMM",
 			"page": 80,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 126
-				},
 				{
 					"source": "RtG",
 					"page": 33
@@ -6946,10 +6818,6 @@
 			"source": "MPMM",
 			"page": 80,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 126
-				},
 				{
 					"source": "RtG",
 					"page": 35
@@ -7372,12 +7240,6 @@
 			"name": "Corpse Flower",
 			"source": "MPMM",
 			"page": 82,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 127
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -7982,10 +7844,6 @@
 			"page": 86,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 128
-				},
-				{
 					"source": "AATM"
 				},
 				{
@@ -8165,10 +8023,6 @@
 			"source": "MPMM",
 			"page": 87,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 129
-				},
 				{
 					"source": "AATM"
 				}
@@ -8355,12 +8209,6 @@
 			"name": "Deathlock Wight",
 			"source": "MPMM",
 			"page": 87,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 129
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -8869,12 +8717,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 90,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 144
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -9129,10 +8971,6 @@
 			"page": 91,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 158
-				},
-				{
 					"source": "QftIS"
 				}
 			],
@@ -9248,12 +9086,6 @@
 			"name": "Derro Savant",
 			"source": "MPMM",
 			"page": 92,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 159
-				}
-			],
 			"size": [
 				"S"
 			],
@@ -9526,12 +9358,6 @@
 			"name": "Dhergoloth",
 			"source": "MPMM",
 			"page": 94,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 248
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -9770,12 +9596,6 @@
 			"name": "Dire Troll",
 			"source": "MPMM",
 			"page": 246,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 243
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -10417,12 +10237,6 @@
 			"name": "Drow Arachnomancer",
 			"source": "MPMM",
 			"page": 99,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 182
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -10633,12 +10447,6 @@
 			"name": "Drow Favored Consort",
 			"source": "MPMM",
 			"page": 100,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 183
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -10814,12 +10622,6 @@
 			"name": "Drow House Captain",
 			"source": "MPMM",
 			"page": 101,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 184
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11009,12 +10811,6 @@
 			"name": "Drow Inquisitor",
 			"source": "MPMM",
 			"page": 102,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 184
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11211,12 +11007,6 @@
 			"name": "Drow Matron Mother",
 			"source": "MPMM",
 			"page": 104,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 186
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11472,12 +11262,6 @@
 			"name": "Drow Shadowblade",
 			"source": "MPMM",
 			"page": 105,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 187
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11668,12 +11452,6 @@
 			"name": "Duergar Despot",
 			"source": "MPMM",
 			"page": 107,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 188
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11847,12 +11625,6 @@
 			"name": "Duergar Hammerer",
 			"source": "MPMM",
 			"page": 112,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 188
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -11977,12 +11749,6 @@
 			"name": "Duergar Kavalrachni",
 			"source": "MPMM",
 			"page": 107,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 189
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12120,12 +11886,6 @@
 			"name": "Duergar Mind Master",
 			"source": "MPMM",
 			"page": 108,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 189
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12271,12 +12031,6 @@
 			"name": "Duergar Screamer",
 			"source": "MPMM",
 			"page": 111,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 190
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12396,12 +12150,6 @@
 			"name": "Duergar Soulblade",
 			"source": "MPMM",
 			"page": 109,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 190
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12515,12 +12263,6 @@
 			"name": "Duergar Stone Guard",
 			"source": "MPMM",
 			"page": 110,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 191
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12666,12 +12408,6 @@
 			"name": "Duergar Warlord",
 			"source": "MPMM",
 			"page": 111,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 192
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12826,12 +12562,6 @@
 			"name": "Duergar Xarrorn",
 			"source": "MPMM",
 			"page": 111,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 193
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -12962,10 +12692,6 @@
 			"source": "MPMM",
 			"page": 113,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 132
-				},
 				{
 					"source": "AATM"
 				}
@@ -13158,12 +12884,6 @@
 			"name": "Earth Elemental Myrmidon",
 			"source": "MPMM",
 			"page": 122,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 202
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -13280,12 +13000,6 @@
 			"name": "Eidolon",
 			"source": "MPMM",
 			"page": 114,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 194
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -13671,12 +13385,6 @@
 			"name": "Elder Oblex",
 			"source": "MPMM",
 			"page": 199,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 219
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -13863,12 +13571,6 @@
 			"name": "Elder Tempest",
 			"source": "MPMM",
 			"page": 121,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 200
-				}
-			],
 			"size": [
 				"G"
 			],
@@ -14317,12 +14019,6 @@
 			"name": "Female Steeder",
 			"source": "MPMM",
 			"page": 231,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 238
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -14421,10 +14117,6 @@
 			"source": "MPMM",
 			"page": 123,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 203
-				},
 				{
 					"source": "BMT"
 				}
@@ -15189,12 +14881,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 129,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 146
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -15713,12 +15399,6 @@
 			"name": "Frost Salamander",
 			"source": "MPMM",
 			"page": 132,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 223
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -16205,12 +15885,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 136,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 173
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -16571,10 +16245,6 @@
 			"page": 138,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 204
-				},
-				{
 					"source": "SjA"
 				}
 			],
@@ -16794,10 +16464,6 @@
 			"page": 140,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 205
-				},
-				{
 					"source": "WDMM",
 					"page": 312
 				},
@@ -16960,12 +16626,6 @@
 			"name": "Githyanki Kith'rak",
 			"source": "MPMM",
 			"page": 140,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 205
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -17117,12 +16777,6 @@
 			"name": "Githyanki Supreme Commander",
 			"source": "MPMM",
 			"page": 141,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 206
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -17298,12 +16952,6 @@
 			"name": "Githzerai Anarch",
 			"source": "MPMM",
 			"page": 142,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 207
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -17475,12 +17123,6 @@
 			"name": "Githzerai Enlightened",
 			"source": "MPMM",
 			"page": 143,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 208
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -17989,10 +17631,6 @@
 			"page": 146,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 209
-				},
-				{
 					"source": "CoA"
 				}
 			],
@@ -18104,12 +17742,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 148,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 149
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -18333,10 +17965,6 @@
 			"source": "MPMM",
 			"page": 40,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 162
-				},
 				{
 					"source": "VEoR"
 				},
@@ -19718,12 +19346,6 @@
 			"name": "Hellfire Engine",
 			"source": "MPMM",
 			"page": 152,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 165
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -20203,12 +19825,6 @@
 			"name": "Howler",
 			"source": "MPMM",
 			"page": 155,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 210
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -20340,12 +19956,6 @@
 			"name": "Hungry Sorrowsworn",
 			"source": "MPMM",
 			"page": 223,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 232
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -20462,12 +20072,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 157,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 175
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -20732,12 +20336,6 @@
 			"name": "Hydroloth",
 			"source": "MPMM",
 			"page": 158,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 249
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -21074,12 +20672,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 160,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 151
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -22319,12 +21911,6 @@
 			"name": "Kruthik Hive Lord",
 			"source": "MPMM",
 			"page": 169,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 212
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -22579,12 +22165,6 @@
 			"name": "Leviathan",
 			"source": "MPMM",
 			"page": 171,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 198
-				}
-			],
 			"size": [
 				"G"
 			],
@@ -22753,10 +22333,6 @@
 			"page": 223,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 232
-				},
-				{
 					"source": "VEoR"
 				}
 			],
@@ -22888,10 +22464,6 @@
 			"page": 224,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 233
-				},
-				{
 					"source": "AATM"
 				},
 				{
@@ -23020,12 +22592,6 @@
 			"name": "Male Steeder",
 			"source": "MPMM",
 			"page": 231,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 238
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -23255,10 +22821,6 @@
 			"source": "MPMM",
 			"page": 173,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 213
-				},
 				{
 					"source": "SatO"
 				}
@@ -23578,12 +23140,6 @@
 			"name": "Maurezhi",
 			"source": "MPMM",
 			"page": 175,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 133
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -23849,12 +23405,6 @@
 			"name": "Meazel",
 			"source": "MPMM",
 			"page": 177,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 214
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -24083,10 +23633,6 @@
 			"page": 179,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 166
-				},
-				{
 					"source": "CoA"
 				}
 			],
@@ -24238,12 +23784,6 @@
 			"name": "Merrenoloth",
 			"source": "MPMM",
 			"page": 180,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 250
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -24630,12 +24170,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 183,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 177
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -24874,12 +24408,6 @@
 			"name": "Molydeus",
 			"source": "MPMM",
 			"page": 184,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 134
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -25422,12 +24950,6 @@
 			"name": "Nabassu",
 			"source": "MPMM",
 			"page": 188,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 135
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -25588,12 +25110,6 @@
 			"name": "Nagpa",
 			"source": "MPMM",
 			"page": 189,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 215
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -25779,10 +25295,6 @@
 			"page": 190,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 167
-				},
-				{
 					"source": "AATM"
 				}
 			],
@@ -25866,7 +25378,7 @@
 				{
 					"name": "Infernal Tack",
 					"entries": [
-						"The narzugon wears spurs that are part of {@item infernal tack|MTF}, which allow it to summon its {@creature nightmare} companion as an action."
+						"The narzugon wears spurs that are part of {@item infernal tack|MPMM}, which allow it to summon its {@creature nightmare} companion as an action."
 					]
 				},
 				{
@@ -26687,12 +26199,6 @@
 			"name": "Nightwalker",
 			"source": "MPMM",
 			"page": 194,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 216
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -26992,10 +26498,6 @@
 			"page": 196,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 168
-				},
-				{
 					"source": "CoA"
 				}
 			],
@@ -27110,12 +26612,6 @@
 			"name": "Oblex Spawn",
 			"source": "MPMM",
 			"page": 197,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 217
-				}
-			],
 			"size": [
 				"T"
 			],
@@ -27212,12 +26708,6 @@
 			"name": "Ogre Battering Ram",
 			"source": "MPMM",
 			"page": 200,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 220
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -27323,12 +26813,6 @@
 			"name": "Ogre Bolt Launcher",
 			"source": "MPMM",
 			"page": 200,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 220
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -27413,12 +26897,6 @@
 			"name": "Ogre Chain Brute",
 			"source": "MPMM",
 			"page": 201,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 221
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -27516,12 +26994,6 @@
 			"name": "Ogre Howdah",
 			"source": "MPMM",
 			"page": 201,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 221
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -27611,12 +27083,6 @@
 			"name": "Oinoloth",
 			"source": "MPMM",
 			"page": 202,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 251
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -27824,12 +27290,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 204,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 153
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -28087,10 +27547,6 @@
 			"source": "MPMM",
 			"page": 205,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 169
-				},
 				{
 					"source": "CoA"
 				}
@@ -28373,10 +27829,6 @@
 			"source": "MPMM",
 			"page": 206,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 199
-				},
 				{
 					"source": "CoA"
 				}
@@ -28750,10 +28202,6 @@
 			"page": 40,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 160
-				},
-				{
 					"source": "VEoR"
 				},
 				{
@@ -29054,12 +28502,6 @@
 			"name": "Retriever",
 			"source": "MPMM",
 			"page": 209,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 222
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -29242,12 +28684,6 @@
 			"name": "Rot Troll",
 			"source": "MPMM",
 			"page": 247,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 244
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -29356,12 +28792,6 @@
 			"name": "Rutterkin",
 			"source": "MPMM",
 			"page": 210,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 136
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -29464,12 +28894,6 @@
 			"name": "Sacred Statue",
 			"source": "MPMM",
 			"page": 114,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 194
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -29754,12 +29178,6 @@
 			"name": "Shadar-kai Gloom Weaver",
 			"source": "MPMM",
 			"page": 213,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 224
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -29924,12 +29342,6 @@
 			"name": "Shadar-kai Shadow Dancer",
 			"source": "MPMM",
 			"page": 213,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 225
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -30090,12 +29502,6 @@
 			"name": "Shadar-kai Soul Monger",
 			"source": "MPMM",
 			"page": 214,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 226
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -30643,12 +30049,6 @@
 			"name": "Sibriex",
 			"source": "MPMM",
 			"page": 217,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 137
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -30982,12 +30382,6 @@
 			"name": "Skulk",
 			"source": "MPMM",
 			"page": 219,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 227
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -31116,10 +30510,6 @@
 			"source": "MPMM",
 			"page": 220,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 230
-				},
 				{
 					"source": "AATM"
 				}
@@ -31621,12 +31011,6 @@
 			"name": "Spirit Troll",
 			"source": "MPMM",
 			"page": 247,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 244
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -31771,12 +31155,6 @@
 			"name": "Spring Eladrin",
 			"source": "MPMM",
 			"page": 116,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 196
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -31955,10 +31333,6 @@
 			"page": 227,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 234
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -32046,10 +31420,6 @@
 			"source": "MPMM",
 			"page": 227,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 234
-				},
 				{
 					"source": "BMT"
 				}
@@ -32181,10 +31551,6 @@
 			"source": "MPMM",
 			"page": 228,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 235
-				},
 				{
 					"source": "BMT"
 				}
@@ -32394,10 +31760,6 @@
 			"page": 229,
 			"otherSources": [
 				{
-					"source": "MTF",
-					"page": 236
-				},
-				{
 					"source": "BMT"
 				}
 			],
@@ -32525,10 +31887,6 @@
 			"source": "MPMM",
 			"page": 230,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 236
-				},
 				{
 					"source": "BMT"
 				}
@@ -32689,12 +32047,6 @@
 			"name": "Steel Predator",
 			"source": "MPMM",
 			"page": 232,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 239
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -33038,12 +32390,6 @@
 			"name": "Stone Cursed",
 			"source": "MPMM",
 			"page": 233,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 240
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -33469,12 +32815,6 @@
 			"name": "Summer Eladrin",
 			"source": "MPMM",
 			"page": 116,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 196
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -33986,12 +33326,6 @@
 			"name": "Sword Wraith Commander",
 			"source": "MPMM",
 			"page": 239,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 241
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -34146,12 +33480,6 @@
 			"name": "Sword Wraith Warrior",
 			"source": "MPMM",
 			"page": 239,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 241
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -34522,12 +33850,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 242,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 179
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -34885,12 +34207,6 @@
 			"name": "Tortle",
 			"source": "MPMM",
 			"page": 244,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 242
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -35000,12 +34316,6 @@
 			"name": "Tortle Druid",
 			"source": "MPMM",
 			"page": 244,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 242
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -35601,10 +34911,6 @@
 			"source": "MPMM",
 			"page": 250,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 246
-				},
 				{
 					"source": "AATM"
 				},
@@ -36219,12 +35525,6 @@
 			"name": "Venom Troll",
 			"source": "MPMM",
 			"page": 248,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 245
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -37151,12 +36451,6 @@
 			"name": "Wastrilith",
 			"source": "MPMM",
 			"page": 258,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 139
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -37331,12 +36625,6 @@
 			"name": "Water Elemental Myrmidon",
 			"source": "MPMM",
 			"page": 123,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 203
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -37452,10 +36740,6 @@
 			"source": "MPMM",
 			"page": 41,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 163
-				},
 				{
 					"source": "CoA"
 				}
@@ -37628,10 +36912,6 @@
 			"source": "MPMM",
 			"page": 117,
 			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 197
-				},
 				{
 					"source": "FRAiF"
 				}
@@ -37944,12 +37224,6 @@
 			"name": "Wretched Sorrowsworn",
 			"source": "MPMM",
 			"page": 224,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 233
-				}
-			],
 			"size": [
 				"S"
 			],
@@ -38297,12 +37571,6 @@
 			"name": "Yagnoloth",
 			"source": "MPMM",
 			"page": 268,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 252
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -38512,12 +37780,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 270,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 155
-				}
-			],
 			"size": [
 				"H"
 			],
@@ -38910,12 +38172,6 @@
 			"name": "Young Kruthik",
 			"source": "MPMM",
 			"page": 168,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 211
-				}
-			],
 			"size": [
 				"S"
 			],
@@ -39927,12 +39183,6 @@
 			"name": "Zaratan",
 			"source": "MPMM",
 			"page": 278,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 201
-				}
-			],
 			"size": [
 				"G"
 			],
@@ -40140,12 +39390,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 280,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 180
-				}
-			],
 			"size": [
 				"L"
 			],
@@ -40403,12 +39647,6 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 281,
-			"otherSources": [
-				{
-					"source": "MTF",
-					"page": 157
-				}
-			],
 			"size": [
 				"L"
 			],

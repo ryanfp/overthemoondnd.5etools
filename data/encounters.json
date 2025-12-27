@@ -7318,7 +7318,7 @@
 						{
 							"min": 9,
 							"max": 12,
-							"result": "{@dice 3d10} {@creature Dolphin|VGM|dolphins}"
+							"result": "{@dice 3d10} {@creature Dolphin|MPMM|dolphins}"
 						},
 						{
 							"min": 13,

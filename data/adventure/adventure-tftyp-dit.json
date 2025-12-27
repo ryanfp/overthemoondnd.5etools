@@ -15261,15 +15261,15 @@
 											"rows": [
 												[
 													"2",
-													"1 {@creature deathlock wight|MTF}, {@dice 2d4} {@creature Thayan Warrior|TftYP|Thayan warriors}, and {@dice 2d4} prisoners ({@creature Commoner||commoners})"
+													"1 {@creature deathlock wight|MPMM}, {@dice 2d4} {@creature Thayan Warrior|TftYP|Thayan warriors}, and {@dice 2d4} prisoners ({@creature Commoner||commoners})"
 												],
 												[
 													"3\u20134",
-													"1 {@creature deathlock wight|MTF}, {@dice 1d3} {@creature Thayan Apprentice|TftYP|Thayan apprentices}, and {@dice 2d4} {@creature Thayan Warrior|TftYP|Thayan warriors}"
+													"1 {@creature deathlock wight|MPMM}, {@dice 1d3} {@creature Thayan Apprentice|TftYP|Thayan apprentices}, and {@dice 2d4} {@creature Thayan Warrior|TftYP|Thayan warriors}"
 												],
 												[
 													"5\u20136",
-													"1 Red Wizard {@creature evoker|VGM}, 1 {@creature Thayan apprentice|TftYP}, and {@dice 1d4} {@creature Dread Warrior|TftYP|dread warriors}"
+													"1 Red Wizard {@creature evoker wizard|MPMM}, 1 {@creature Thayan apprentice|TftYP}, and {@dice 1d4} {@creature Dread Warrior|TftYP|dread warriors}"
 												],
 												[
 													"7\u20138",
@@ -17050,7 +17050,7 @@
 											"name": "Creatures",
 											"page": 124,
 											"entries": [
-												"One Red Wizard {@creature conjurer|VGM} oversees one {@creature deathlock wight|MTF} and one {@creature Thayan apprentice|TftYP}. The conjurer knows the pass phrase for the maze of undoing ({@adventure area 15|TftYP-DiT|1|15. Maze of Undoing}) and might provide it to the characters in exchange for mercy, knowing that freed demons will attack their \"rescuers.\""
+												"One Red Wizard {@creature conjurer wizard|MPMM} oversees one {@creature deathlock wight|MPMM} and one {@creature Thayan apprentice|TftYP}. The conjurer knows the pass phrase for the maze of undoing ({@adventure area 15|TftYP-DiT|1|15. Maze of Undoing}) and might provide it to the characters in exchange for mercy, knowing that freed demons will attack their \"rescuers.\""
 											],
 											"id": "0ec"
 										},
@@ -17621,7 +17621,7 @@
 											"name": "Creatures",
 											"page": 126,
 											"entries": [
-												"Three {@creature Deathlock Wight|MTF|deathlock wights} oversee six {@creature Skeleton||skeletons}. They attack intruders."
+												"Three {@creature Deathlock Wight|MPMM|deathlock wights} oversee six {@creature Skeleton||skeletons}. They attack intruders."
 											],
 											"id": "112"
 										},
@@ -17676,7 +17676,7 @@
 											"name": "Drevin",
 											"page": 126,
 											"entries": [
-												"One pig is much smaller than the others, and looks especially malnourished. A {@spell detect magic} spell reveals that the creature radiates transmutation magic. The pig is in fact a lightfoot halfling named {@creature Drevin|TftYP}. He was a minstrel (use the {@creature spy} statistics) who ran afoul of a Red Wizard {@creature transmuter|VGM}. If freed of the {@spell true polymorph} spell he is under, {@creature Drevin|TftYP} accompanies the characters until he is permitted to escape the Doomvault, at which point he departs amid promises to write great ballads about the characters' exploits."
+												"One pig is much smaller than the others, and looks especially malnourished. A {@spell detect magic} spell reveals that the creature radiates transmutation magic. The pig is in fact a lightfoot halfling named {@creature Drevin|TftYP}. He was a minstrel (use the {@creature spy} statistics) who ran afoul of a Red Wizard {@creature transmuter wizard|MPMM}. If freed of the {@spell true polymorph} spell he is under, {@creature Drevin|TftYP} accompanies the characters until he is permitted to escape the Doomvault, at which point he departs amid promises to write great ballads about the characters' exploits."
 											],
 											"id": "118"
 										},
@@ -17720,7 +17720,7 @@
 											"name": "Creatures",
 											"page": 126,
 											"entries": [
-												"Twelve {@creature Skeleton||skeletons} are here, with a {@creature wight} and a {@creature deathlock wight|MTF} overseeing them. Eight work to the east, stacking butchered pigs along the wall. To the west, four more work at a sluice that carries offal to the black gate, where it disappears (transported to {@adventure area 41|TftYP-DiT|1|41. Garbage Transfer}). Occasionally they toss some of the foul slop toward an {@creature otyugh} chained to the floor.",
+												"Twelve {@creature Skeleton||skeletons} are here, with a {@creature wight} and a {@creature deathlock wight|MPMM} overseeing them. Eight work to the east, stacking butchered pigs along the wall. To the west, four more work at a sluice that carries offal to the black gate, where it disappears (transported to {@adventure area 41|TftYP-DiT|1|41. Garbage Transfer}). Occasionally they toss some of the foul slop toward an {@creature otyugh} chained to the floor.",
 												"The otyugh can move 40 feet from the northeast corner, anywhere within the area described by the dashed line on the map. It attacks any creature it can reach. If it can't attack, the otyugh uses its turn to attempt a {@dc 20} Strength check to break its chain while its captors are distracted.",
 												"With its childlike intellect and telepathy, the otyugh broadcasts its desire for more food. The characters are able to communicate with the creature, and if they offer to feed it, the otyugh ceases attacking for 1 round. Then the characters must periodically placate it with successful {@dc 10} Charisma ({@skill Persuasion}) checks. A character who frees the otyugh learns that more of its kind are in the dungeon and receives a general impression of {@adventure area 42|TftYP-DiT|1|42. Otyugh Lair}, where more otyughs live. All these otyughs hate the Thayans."
 											],
@@ -17792,7 +17792,7 @@
 											"name": "Creatures",
 											"page": 127,
 											"entries": [
-												"A Red Wizard {@creature enchanter|VGM}, one {@creature dread warrior|TftYP}, and six {@creature Skeleton||skeletons} oversee the eggs. If combat breaks out, the wizard sends the undead forward as a screen and uses targeted spells that won't harm the eggs."
+												"A Red Wizard {@creature enchanter wizard|MPMM}, one {@creature dread warrior|TftYP}, and six {@creature Skeleton||skeletons} oversee the eggs. If combat breaks out, the wizard sends the undead forward as a screen and uses targeted spells that won't harm the eggs."
 											],
 											"id": "125"
 										},
@@ -17872,7 +17872,7 @@
 											"name": "Creatures",
 											"page": 127,
 											"entries": [
-												"A Red Wizard {@creature transmuter|VGM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} in caring for the imprisoned hatchlings, while four {@creature Thayan Warrior|TftYP|Thayan warriors} stand guard. They attack intruders. In a desperate battle, the Red Wizard might take the time to release hatchlings to add to the characters' opposition.",
+												"A Red Wizard {@creature transmuter wizard|MPMM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} in caring for the imprisoned hatchlings, while four {@creature Thayan Warrior|TftYP|Thayan warriors} stand guard. They attack intruders. In a desperate battle, the Red Wizard might take the time to release hatchlings to add to the characters' opposition.",
 												"If the battle goes badly for the Thayans, the Red Wizard surrenders. Her name is Myrja, and her allegiance to Szass Tam is less than resolute. If the characters spare her, she offers the pass phrase to get by the trap and creatures in {@adventure area 23|TftYP-DiT|1|23. Dead Garden} (\"That which is dead, stay so\") and one piece of lore."
 											],
 											"id": "12e"
@@ -18072,7 +18072,7 @@
 											"name": "Creatures",
 											"page": 128,
 											"entries": [
-												"Thuria, a Red Wizard {@creature enchanter|VGM}, lives here and oversees the Blood Pens. Two {@creature Dread Warrior|TftYP|dread warriors} and eight robed {@creature Zombie||zombies} guard him, and a {@creature black dragon wyrmling} is his personal pet. When the characters first arrive, the dragon has just killed a commoner.",
+												"Thuria, a Red Wizard {@creature enchanter wizard|MPMM}, lives here and oversees the Blood Pens. Two {@creature Dread Warrior|TftYP|dread warriors} and eight robed {@creature Zombie||zombies} guard him, and a {@creature black dragon wyrmling} is his personal pet. When the characters first arrive, the dragon has just killed a commoner.",
 												"Thuria spends much of his time in seclusion, and relishes the opportunity to fight intruders. If reduced to 20 hit points or fewer, he surrenders and offers two pieces of lore in exchange for his life. He is also willing to give up his treasure and share the attunements of his glyph key, turning over the actual key only under severe threat."
 											],
 											"id": "143"
@@ -19613,7 +19613,7 @@
 											"name": "Creatures",
 											"page": 130,
 											"entries": [
-												"The vapor swirling around two of the pillars coalesces into a pair of {@creature Vampiric Mist|MTF|vampiric mists} after a door other than a secret door is opened in this area. Another vampiric mist appears whenever another such door is opened. This process continues until eight of the creatures have manifested."
+												"The vapor swirling around two of the pillars coalesces into a pair of {@creature Vampiric Mist|MPMM|vampiric mists} after a door other than a secret door is opened in this area. Another vampiric mist appears whenever another such door is opened. This process continues until eight of the creatures have manifested."
 											],
 											"id": "164"
 										},
@@ -19677,7 +19677,7 @@
 												"Several of the cells are quarters for Thayans who train and work here. Unless otherwise noted, each cell contains rough cots and footlockers that hold worthless personal possessions.",
 												"Any commotion in the area, or the sounding of the gong, alerts those in the cells. The Red Wizard emerges 1 round later, and the {@creature Thayan apprentice|TftYP} comes out during the following round. The residents of the other cells take {@dice 1d4 + 1} rounds to respond (roll separately for each).",
 												"The occupants of the cells are as follows:",
-												"{@b Cell A}. A Red Wizard {@creature illusionist|VGM} dwells in this fine chamber with one {@creature Thayan apprentice|TftYP}. The wizard is half asleep. Both have glyph keys attuned to the zone, as well as keys to the C cells. In combat, the apprentice uses an action to open the occupied C cell if able to do so without significant risk.",
+												"{@b Cell A}. A Red Wizard {@creature illusionist wizard|MPMM} dwells in this fine chamber with one {@creature Thayan apprentice|TftYP}. The wizard is half asleep. Both have glyph keys attuned to the zone, as well as keys to the C cells. In combat, the apprentice uses an action to open the occupied C cell if able to do so without significant risk.",
 												"{@b Cell B}. Two {@creature Thayan Warrior|TftYP|Thayan warriors} sleep in each of four small rooms. The B cells marked with an asterisk are empty.",
 												"{@b Cell C}. The doors to these two cells are locked. Four {@creature Thayan Warrior|TftYP|Thayan warriors} are held in one of them when it's not their turn to be shackled to the silver pillars. The other C cell is empty.",
 												"{@b Cell D}. This cell contains bunks but is empty."
@@ -19731,7 +19731,7 @@
 											"name": "Creatures",
 											"page": 131,
 											"entries": [
-												"{@creature Lahnis|TftYP}, a Red Wizard {@creature evoker|VGM}, directs the brutal combat training here. Six {@creature Thayan Warrior|TftYP|Thayan warriors} engage a {@creature dread warrior|TftYP} and seven {@creature Skeleton||skeletons}. {@creature Lahnis|TftYP} orders the whole lot to attack intruders. Because they have been engaged in combat, each creature aside from {@creature Lahnis|TftYP} starts with current hit points equal to half its hit point maximum.",
+												"{@creature Lahnis|TftYP}, a Red Wizard {@creature evoker wizard|MPMM}, directs the brutal combat training here. Six {@creature Thayan Warrior|TftYP|Thayan warriors} engage a {@creature dread warrior|TftYP} and seven {@creature Skeleton||skeletons}. {@creature Lahnis|TftYP} orders the whole lot to attack intruders. Because they have been engaged in combat, each creature aside from {@creature Lahnis|TftYP} starts with current hit points equal to half its hit point maximum.",
 												"{@creature Lahnis|TftYP} initially stays back in combat, using lower-level spells and trying to assess the characters' motivations. His allegiance to Szass Tam has been flagging. He leans toward supporting the Thayan rebels, but he has not formally joined their ranks. He worries that some of his peers who are loyal to Szass Tam might suspect him.",
 												"Aware of Szass Tam's cunning, {@creature Lahnis|TftYP} first assumes the characters are testing his allegiance. Around the second round of combat, or if reduced to half his hit points or fewer, {@creature Lahnis|TftYP} directly asks the characters their purpose and admits a willingness to join the rebels. The characters can sway him with convincing talk and proof that they have overcome other parts of the dungeon. If the characters earn his trust, {@creature Lahnis|TftYP} turns against Szass Tam, having become convinced that the regent's plots will be the undoing of Thay.",
 												"He then turns on the Thayans here, whom he knows won't stand down, and helps the characters fight. Afterward, {@creature Lahnis|TftYP} provides two pieces of lore and the attunements on his glyph key, as well as his physical keys. He goes to the gatehouse through the black gate in {@adventure area 29|TftYP-DiT|1|29. Conditioning Court}."
@@ -19805,8 +19805,8 @@
 											"name": "Creatures",
 											"page": 132,
 											"entries": [
-												"{@creature Phaia|TftYP}, a Red Wizard {@creature necromancer|VGM}, is drawing the soul from {@creature Kelson Darktreader|TftYP}, a male half-elf lying on a stone table farthest from the door the characters use to enter. Kelson is {@condition unconscious} and stable at 0 hit points. {@creature Phaia|TftYP}'s magic is drawing forth from his body a wispy shape that resembles him, and this shape screams in an echoing voice. Strands of energy flow from the shape into the table and from there into other forms in the room.",
-												"A {@creature deathlock wight|MTF} on a nearby table is a Red Wizard in the process of being raised as undead. Also nearby, two {@creature Reduced-Threat Wight|TftYP|wights} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) are being raised as warrior undead. These wights are only partially animated, so they respond only to {@creature Phaia|TftYP} when she orders an attack. One of them tries to throw an urn at a character each round (+4 to hit, range 10 feet/20 feet; one creature). A hit deals 3 ({@dice 1d6}) bludgeoning damage, and the target must make saving throws as noted in the \"Urns\" section. {@creature Phaia|TftYP} stays for a round or two to assess the party's capabilities and then moves to {@adventure area 32|TftYP-DiT|1|32. Wizards' Court} or uses the black gate in the room.",
+												"{@creature Phaia|TftYP}, a Red Wizard {@creature necromancer wizard|MPMM}, is drawing the soul from {@creature Kelson Darktreader|TftYP}, a male half-elf lying on a stone table farthest from the door the characters use to enter. Kelson is {@condition unconscious} and stable at 0 hit points. {@creature Phaia|TftYP}'s magic is drawing forth from his body a wispy shape that resembles him, and this shape screams in an echoing voice. Strands of energy flow from the shape into the table and from there into other forms in the room.",
+												"A {@creature deathlock wight|MPMM} on a nearby table is a Red Wizard in the process of being raised as undead. Also nearby, two {@creature Reduced-Threat Wight|TftYP|wights} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) are being raised as warrior undead. These wights are only partially animated, so they respond only to {@creature Phaia|TftYP} when she orders an attack. One of them tries to throw an urn at a character each round (+4 to hit, range 10 feet/20 feet; one creature). A hit deals 3 ({@dice 1d6}) bludgeoning damage, and the target must make saving throws as noted in the \"Urns\" section. {@creature Phaia|TftYP} stays for a round or two to assess the party's capabilities and then moves to {@adventure area 32|TftYP-DiT|1|32. Wizards' Court} or uses the black gate in the room.",
 												"As a faithful servant of Szass Tam, {@creature Phaia|TftYP} follows the lich lord's philosophy that no magic is too dangerous and no experiment too dark if it promises power. Lawful evil, {@creature Phaia|TftYP} is as opportunistic as she is wicked.",
 												"She does anything she can to save herself from death, including using Szass Tam's secrets. She can reveal two pieces of lore and is willing to share her glyph key's attunements. Further, she can teach the characters the ritual that uses this area's magic to return soul-bound undead characters to life.",
 												"If she is allowed to do so, {@creature Phaia|TftYP} flees the Doomvault."
@@ -19928,7 +19928,7 @@
 												"The cells around the perimeter of the court (rooms labeled A through D on the map) are quarters for Thayans who train and work here. Unless otherwise noted, each cell contains rough cots and footlockers holding worthless personal possessions. Cells marked with an asterisk on the map are empty.",
 												"Combat in the courtyard alerts the inhabitants of the cells. They take {@dice 1d4 + 1} rounds to respond (roll for each one):",
 												"{@b Cell A}. {@creature Lahnis|TftYP} (see {@adventure area 30|TftYP-DiT|1|30. Training Floor}) uses these quarters, which contain a fine bed, a footlocker, and a desk. Searching the area uncovers one written piece of lore, as well as a {@item tome of the stilled tongue} and six {@item Spell Scroll||spell scrolls} (two each of {@spell detect magic}, {@spell identify}, and {@spell remove curse}). {@creature Lahnis|TftYP} also has a scroll describing the ritual used to turn soul-bound undead back into non-undead creatures in {@adventure area 31|TftYP-DiT|1|31. Undying Laboratory}.",
-												"{@b Cell B}. One Red Wizard {@creature evoker|VGM} sleeps here.",
+												"{@b Cell B}. One Red Wizard {@creature evoker wizard|MPMM} sleeps here.",
 												"{@b Cell C}. One {@creature Thayan apprentice|TftYP} sleeps here.",
 												"{@b Cell D}. Each of these two rooms is a library. An hour spent examining a library's contents turns up two pieces of lore."
 											],
@@ -27373,7 +27373,7 @@
 											"name": "Creatures",
 											"page": 139,
 											"entries": [
-												"Two {@creature Barghest|VGM|barghests} lurk in the tall grass. A character who succeeds on a {@dc 20} Wisdom ({@skill Perception}) check spots one or more of them. These creatures hesitate to attack only if the characters seem to be Thayans.",
+												"Two {@creature Barghest|MPMM|barghests} lurk in the tall grass. A character who succeeds on a {@dc 20} Wisdom ({@skill Perception}) check spots one or more of them. These creatures hesitate to attack only if the characters seem to be Thayans.",
 												"The barghests want to take revenge on the Red Wizards and then escape the Doomvault. If the characters offer to free them and succeed on a {@dc 20} Charisma check (any appropriate Charisma skill can apply), the fiends stand down. They want any glyph keys the characters have. If they are defied, the barghests are likely to renew their attacks."
 											],
 											"id": "201"
@@ -27637,7 +27637,7 @@
 											"name": "Creatures",
 											"page": 141,
 											"entries": [
-												"Four {@creature Leucrotta|VGM|leucrottas} lurk here among the trees. They make noises that sound like the calls of pained humans, which their handlers normally ignore. The creatures gleefully attack anyone they succeed in tricking."
+												"Four {@creature Leucrotta|MPMM|leucrottas} lurk here among the trees. They make noises that sound like the calls of pained humans, which their handlers normally ignore. The creatures gleefully attack anyone they succeed in tricking."
 											],
 											"id": "220"
 										},
@@ -27703,7 +27703,7 @@
 											"name": "Creatures",
 											"page": 141,
 											"entries": [
-												"Six {@creature Choker|MTF|chokers} live here, two lurking in each of the two treed areas near the pool and two on the walls near the pool. They wait and watch, attacking when the characters move within reach, which their handlers rarely do. The chokers in the trees try to pull victims into the treed areas."
+												"Six {@creature Choker|MPMM|chokers} live here, two lurking in each of the two treed areas near the pool and two on the walls near the pool. They wait and watch, attacking when the characters move within reach, which their handlers rarely do. The chokers in the trees try to pull victims into the treed areas."
 											],
 											"id": "228"
 										}
@@ -30730,7 +30730,7 @@
 											"name": "Creatures",
 											"page": 142,
 											"entries": [
-												"Two {@creature Deathlock Wight|MTF|deathlock wights} with buckets and stone boots move among dozens of skeletons. They pour steaming ooze over the bones. Two {@creature Sentient Ochre Jelly|TftYP|sentient ochre jellies} and two {@creature Sentient Gray Ooze|TftYP|sentient gray oozes} are pooled near the benches."
+												"Two {@creature Deathlock Wight|MPMM|deathlock wights} with buckets and stone boots move among dozens of skeletons. They pour steaming ooze over the bones. Two {@creature Sentient Ochre Jelly|TftYP|sentient ochre jellies} and two {@creature Sentient Gray Ooze|TftYP|sentient gray oozes} are pooled near the benches."
 											],
 											"id": "239"
 										},
@@ -30782,8 +30782,8 @@
 											"name": "Creatures",
 											"page": 142,
 											"entries": [
-												"Two {@creature Deathlock Wight|MTF|deathlock wights} and four {@creature Skeleton||skeletons} move among the vats, using {@i ooze prods} to poke the mixtures. They challenge any intruders. If the undead become distracted, oozes might attack (see \"Vat System\" below).",
-												"Sarkalla, a Red Wizard {@creature transmuter|VGM}, is working behind the black curtain, but she peeks out in response to the wights' challenge. She whispers to order the lead wight to attack. A character who succeeds on a {@dc 20} Wisdom ({@skill Perception}) check notices Sarkalla while she does so.",
+												"Two {@creature Deathlock Wight|MPMM|deathlock wights} and four {@creature Skeleton||skeletons} move among the vats, using {@i ooze prods} to poke the mixtures. They challenge any intruders. If the undead become distracted, oozes might attack (see \"Vat System\" below).",
+												"Sarkalla, a Red Wizard {@creature transmuter wizard|MPMM}, is working behind the black curtain, but she peeks out in response to the wights' challenge. She whispers to order the lead wight to attack. A character who succeeds on a {@dc 20} Wisdom ({@skill Perception}) check notices Sarkalla while she does so.",
 												"Quite mad, Sarkalla cares only for her experiments and her \"precious children\"\u2014the oozes that she is working to imbue with intelligence in order to create \"the perfect assassins.\" If she and her wights have the upper hand in combat, or if all the wights are destroyed, she calls for a break in hostilities. She proudly talks of the sentient oozes that will wreak havoc for Thay. She promises the characters positions as assistants and bodyguards to the {@creature Ooze Master|TftYP} (see {@adventure area 65|TftYP-DiT|1|65. Red Master}). If the characters accept, they are allowed to leave and go to {@adventure area 64|TftYP-DiT|1|64. White Maw}. Sarkalla otherwise attacks again and fights until killed."
 											],
 											"id": "23f"
@@ -31090,7 +31090,7 @@
 											"name": "Creatures",
 											"page": 144,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} and three {@creature Thayan Apprentice|TftYP|Thayan apprentices} sleep here. When roused, they tip the cots over and cast their spells from behind cover. They try to force or draw the characters close to the walls and the magic mirrors, hoping to summon the deadly defenders of this area."
+												"One Red Wizard {@creature transmuter wizard|MPMM} and three {@creature Thayan Apprentice|TftYP|Thayan apprentices} sleep here. When roused, they tip the cots over and cast their spells from behind cover. They try to force or draw the characters close to the walls and the magic mirrors, hoping to summon the deadly defenders of this area."
 											],
 											"id": "25f"
 										},
@@ -31133,7 +31133,7 @@
 											"name": "Creatures",
 											"page": 144,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} and six {@creature Skeleton||skeletons} here. Four skeletons drag pig carcasses toward the arch and heave them through, while blades scythe across the opening and reduce each body to a heap of blood, flesh, and bone that collects on the far side. Two skeletons then pick up shovels and collect the gore in buckets, making the flesh easier to transport.",
+												"One Red Wizard {@creature transmuter wizard|MPMM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} and six {@creature Skeleton||skeletons} here. Four skeletons drag pig carcasses toward the arch and heave them through, while blades scythe across the opening and reduce each body to a heap of blood, flesh, and bone that collects on the far side. Two skeletons then pick up shovels and collect the gore in buckets, making the flesh easier to transport.",
 												"If the characters watch long enough, the apprentices eventually carry full buckets toward the southern entrance and retrieve empty buckets stacked there."
 											],
 											"id": "264"
@@ -31178,7 +31178,7 @@
 											"name": "Creatures",
 											"page": 144,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} in this cavern. They walk a circuit around the pools, carefully jabbing down into them with the {@i ooze prods} they carry."
+												"One Red Wizard {@creature transmuter wizard|MPMM} oversees two {@creature Thayan Apprentice|TftYP|Thayan apprentices} in this cavern. They walk a circuit around the pools, carefully jabbing down into them with the {@i ooze prods} they carry."
 											],
 											"id": "269"
 										},
@@ -31231,7 +31231,7 @@
 											"name": "Creatures",
 											"page": 145,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are focused on the black pool with their {@i ooze prods}. When the Thayans turn away to deal with the characters, a Medium {@creature reduced-threat black pudding|TftYP} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) emerges from the ooze pool at the start of the second round. Another such pudding emerges at the start of the fourth round, and another at the start of the sixth round. The Thayans try to keep the characters between themselves and the pool, since the oozes see all other creatures as prey."
+												"One Red Wizard {@creature transmuter wizard|MPMM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are focused on the black pool with their {@i ooze prods}. When the Thayans turn away to deal with the characters, a Medium {@creature reduced-threat black pudding|TftYP} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) emerges from the ooze pool at the start of the second round. Another such pudding emerges at the start of the fourth round, and another at the start of the sixth round. The Thayans try to keep the characters between themselves and the pool, since the oozes see all other creatures as prey."
 											],
 											"id": "26f"
 										},
@@ -31343,7 +31343,7 @@
 											"name": "Creatures",
 											"page": 145,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} and two {@creature Dread Warrior|TftYP|dread warriors} watch from near the eastern wall as four {@creature Thayan Warrior|TftYP|Thayan warriors} battle a {@creature gelatinous cube}. Two of the four warriors have been engulfed, and all are at half hit points (as is the ooze). If the wizard notices the characters aren't Thayan, he orders the others to attack them instead. The cube views everyone in the area as a foe."
+												"One Red Wizard {@creature transmuter wizard|MPMM} and two {@creature Dread Warrior|TftYP|dread warriors} watch from near the eastern wall as four {@creature Thayan Warrior|TftYP|Thayan warriors} battle a {@creature gelatinous cube}. Two of the four warriors have been engulfed, and all are at half hit points (as is the ooze). If the wizard notices the characters aren't Thayan, he orders the others to attack them instead. The cube views everyone in the area as a foe."
 											],
 											"id": "27c"
 										}
@@ -31367,7 +31367,7 @@
 											"name": "Creatures",
 											"page": 145,
 											"entries": [
-												"One Red Wizard {@creature transmuter|VGM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} use {@i ooze prods} to keep three Medium {@creature Reduced-Threat Ochre Jelly|TftYP|ochre jellies} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) in the pit and fighting. When the Thayans start combat with the characters, each of the three oozes emerges from the pit {@dice 1d4} rounds later (roll for each). The oozes see all other creatures as prey."
+												"One Red Wizard {@creature transmuter wizard|MPMM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} use {@i ooze prods} to keep three Medium {@creature Reduced-Threat Ochre Jelly|TftYP|ochre jellies} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above) in the pit and fighting. When the Thayans start combat with the characters, each of the three oozes emerges from the pit {@dice 1d4} rounds later (roll for each). The oozes see all other creatures as prey."
 											],
 											"id": "27f"
 										},
@@ -34674,7 +34674,7 @@
 											"name": "Creatures",
 											"page": 150,
 											"entries": [
-												"A Red Wizard {@creature necromancer|VGM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are in this area, moving among the tables working or selecting parts. Four {@creature Skeleton||skeletons} keep watch from the corners, while a {@creature ghoul} mops gore from the floors. Golems in this area can't be activated and are no threat."
+												"A Red Wizard {@creature necromancer wizard|MPMM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are in this area, moving among the tables working or selecting parts. Four {@creature Skeleton||skeletons} keep watch from the corners, while a {@creature ghoul} mops gore from the floors. Golems in this area can't be activated and are no threat."
 											],
 											"id": "2f2"
 										},
@@ -34725,7 +34725,7 @@
 											"name": "Creatures",
 											"page": 150,
 											"entries": [
-												"A {@creature wight} commands eight {@creature Zombie||zombies} who guard this chamber while some members of their squad recover in the cages. One {@creature deathlock wight|MTF} and two wights rest in the cages."
+												"A {@creature wight} commands eight {@creature Zombie||zombies} who guard this chamber while some members of their squad recover in the cages. One {@creature deathlock wight|MPMM} and two wights rest in the cages."
 											],
 											"id": "2f8"
 										},
@@ -34795,7 +34795,7 @@
 											"name": "Creatures",
 											"page": 151,
 											"entries": [
-												"A Red Wizard {@creature transmuter|VGM} works here with a dwarf cleric of Grumbar, a deity associated with caverns and earth. The dwarf assists in the creation of clay golems, which require divine spellcasting. The dwarf {@creature priest}, whose name is {@creature Gorvan Ironheart|TftYP}, was recruited by the Red Wizards and offered a substantial sum of money for assistance in crafting the golems. If he is questioned, he lies, claiming to be a prisoner of the Red Wizards. If the characters spare him, he accompanies the party until he sees an opportunity to escape.",
+												"A Red Wizard {@creature transmuter wizard|MPMM} works here with a dwarf cleric of Grumbar, a deity associated with caverns and earth. The dwarf assists in the creation of clay golems, which require divine spellcasting. The dwarf {@creature priest}, whose name is {@creature Gorvan Ironheart|TftYP}, was recruited by the Red Wizards and offered a substantial sum of money for assistance in crafting the golems. If he is questioned, he lies, claiming to be a prisoner of the Red Wizards. If the characters spare him, he accompanies the party until he sees an opportunity to escape.",
 												"Also present is a {@creature reduced-threat clay golem|TftYP} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above). The wizard or the cleric can activate the golem by using an action and succeeding on a {@dc 15} Intelligence check."
 											],
 											"id": "300"
@@ -35166,7 +35166,7 @@
 											"name": "Creatures",
 											"page": 154,
 											"entries": [
-												"A Red Wizard {@creature transmuter|VGM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are distracted by their work here shaping a {@creature reduced-threat stone golem|TftYP} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above), but they do notice if anyone is hurled into the room. These apprentices are armed with light hammers instead of daggers. The wizard can activate the golem by succeeding on a {@dc 15} Intelligence ({@skill Arcana}) check made as an action."
+												"A Red Wizard {@creature transmuter wizard|MPMM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} are distracted by their work here shaping a {@creature reduced-threat stone golem|TftYP} (see \"{@adventure Reduced-Threat Monsters|TftYP-DiT|1|Reduced-Threat Monsters}\" above), but they do notice if anyone is hurled into the room. These apprentices are armed with light hammers instead of daggers. The wizard can activate the golem by succeeding on a {@dc 15} Intelligence ({@skill Arcana}) check made as an action."
 											],
 											"id": "323"
 										},
@@ -35367,7 +35367,7 @@
 											"name": "Creatures",
 											"page": 155,
 											"entries": [
-												"A Red Wizard {@creature conjurer|VGM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} work on an inactive iron golem in this area.",
+												"A Red Wizard {@creature conjurer wizard|MPMM} and two {@creature Thayan Apprentice|TftYP|Thayan apprentices} work on an inactive iron golem in this area.",
 												"A {@condition charmed} {@creature efreeti} (see {@adventure area 95|TftYP-DiT|1|95. Efreet Prison}) is at work boiling metal in the crucible. The efreeti fights for its Thayan friends. If freed of the {@condition charmed} condition, it snatches up a falchion intended for the golem and attacks the Thayans. If the efreeti is alive when the other foes in the area are slain, it rampages like its kin in {@adventure area 95|TftYP-DiT|1|95. Efreet Prison}."
 											],
 											"id": "33a"
@@ -36418,7 +36418,7 @@
 											"name": "Creatures",
 											"page": 156,
 											"entries": [
-												"A Red Wizard {@creature necromancer|VGM} works here, guarded by a {@creature helmed horror}. They are immune to the Dark Mist, and the Red Wizard has the Venomous Touch trait (see below)."
+												"A Red Wizard {@creature necromancer wizard|MPMM} works here, guarded by a {@creature helmed horror}. They are immune to the Dark Mist, and the Red Wizard has the Venomous Touch trait (see below)."
 											],
 											"id": "354"
 										},
@@ -36479,7 +36479,7 @@
 											"name": "Creatures",
 											"page": 157,
 											"entries": [
-												"A Red Wizard {@creature enchanter|VGM} and a {@creature Thayan apprentice|TftYP} work here, guarded by two {@creature Dread Warrior|TftYP|dread warriors}.",
+												"A Red Wizard {@creature enchanter wizard|MPMM} and a {@creature Thayan apprentice|TftYP} work here, guarded by two {@creature Dread Warrior|TftYP|dread warriors}.",
 												"The Red Wizard here is {@creature Mennek Ariz|TftYP}, the rebel wizard who helped assault the Bloodgate. He was captured during the assault and brainwashed. A character who succeeds on a {@dc 15} Wisdom ({@skill Insight}) check can discern that he isn't acting of his own volition. Only magic, such as {@spell dispel magic} or {@spell charm person}, can break the effect. If he is freed of the brainwashing, Mennek can reveal two pieces of lore."
 											],
 											"id": "35a"
@@ -36549,7 +36549,7 @@
 											"name": "Creatures",
 											"page": 157,
 											"entries": [
-												"A {@creature deathlock wight|MTF} keeps watch here. One {@creature wraith} and four {@creature Shadow||shadows} circle around the shrine, streaks of crimson trailing from their spectral forms."
+												"A {@creature deathlock wight|MPMM} keeps watch here. One {@creature wraith} and four {@creature Shadow||shadows} circle around the shrine, streaks of crimson trailing from their spectral forms."
 											],
 											"id": "362"
 										},
@@ -36600,7 +36600,7 @@
 											"name": "Creatures",
 											"page": 158,
 											"entries": [
-												"A Red Wizard {@creature transmuter|VGM} works here, with a {@creature wight} leading two {@creature Sentient Gray Ooze|TftYP|sentient gray oozes} and two {@creature Sentient Ochre Jelly|TftYP|sentient ochre jellies} to guard her. Sentient oozes are the same as normal versions of such monsters, except that they have Intelligence 5, can understand basic communication in Common, and are no longer immune to being {@condition charmed}. Myrra, the Red Wizard, is especially cruel and likely to toy with the characters even when she is losing."
+												"A Red Wizard {@creature transmuter wizard|MPMM} works here, with a {@creature wight} leading two {@creature Sentient Gray Ooze|TftYP|sentient gray oozes} and two {@creature Sentient Ochre Jelly|TftYP|sentient ochre jellies} to guard her. Sentient oozes are the same as normal versions of such monsters, except that they have Intelligence 5, can understand basic communication in Common, and are no longer immune to being {@condition charmed}. Myrra, the Red Wizard, is especially cruel and likely to toy with the characters even when she is losing."
 											],
 											"id": "368"
 										},
@@ -36730,7 +36730,7 @@
 											"name": "Creatures",
 											"page": 158,
 											"entries": [
-												"A Red Wizard {@creature necromancer|VGM} works here, guarded by a {@creature flesh golem}. Shalok, the Red Wizard, is a coward. If the fight goes badly for him, he surrenders. He offers his skeleton key and one piece of lore if he's allowed to flee to the gatehouse."
+												"A Red Wizard {@creature necromancer wizard|MPMM} works here, guarded by a {@creature flesh golem}. Shalok, the Red Wizard, is a coward. If the fight goes badly for him, he surrenders. He offers his skeleton key and one piece of lore if he's allowed to flee to the gatehouse."
 											],
 											"id": "377"
 										},
@@ -36794,7 +36794,7 @@
 											"name": "Creatures",
 											"page": 159,
 											"entries": [
-												"A Red Wizard {@creature evoker|VGM} has command over two {@creature Dread Warrior|TftYP|dread warriors} here. A {@creature shadow} lurks at each pillar on the shrine of binding, for a total of four."
+												"A Red Wizard {@creature evoker wizard|MPMM} has command over two {@creature Dread Warrior|TftYP|dread warriors} here. A {@creature shadow} lurks at each pillar on the shrine of binding, for a total of four."
 											],
 											"id": "37d"
 										},
@@ -36864,7 +36864,7 @@
 											"name": "Creatures",
 											"page": 159,
 											"entries": [
-												"A Red Wizard {@creature necromancer|VGM} and a {@creature deathlock wight|MTF} work here, guarded by a {@creature dread warrior|TftYP} and four {@creature Zombie||zombies}. Thutai, the Red Wizard, is the overseer of this sector. He cares little for his underlings, including them in area effects if it means harming more characters. If the fight goes badly, he uses the black gate to flee."
+												"A Red Wizard {@creature necromancer wizard|MPMM} and a {@creature deathlock wight|MPMM} work here, guarded by a {@creature dread warrior|TftYP} and four {@creature Zombie||zombies}. Thutai, the Red Wizard, is the overseer of this sector. He cares little for his underlings, including them in area effects if it means harming more characters. If the fight goes badly, he uses the black gate to flee."
 											],
 											"id": "385"
 										},
@@ -36986,7 +36986,7 @@
 											"name": "Creatures",
 											"page": 160,
 											"entries": [
-												"A Red Wizard {@creature evoker|VGM} and a {@creature Thayan apprentice|TftYP} work here, with three trained {@creature Yeti||yetis} as bodyguards. Aduna, the Red Wizard, and her apprentice prefer to stand near the braziers."
+												"A Red Wizard {@creature evoker wizard|MPMM} and a {@creature Thayan apprentice|TftYP} work here, with three trained {@creature Yeti||yetis} as bodyguards. Aduna, the Red Wizard, and her apprentice prefer to stand near the braziers."
 											],
 											"id": "393"
 										},
@@ -37014,7 +37014,7 @@
 											"page": 160,
 											"entries": [
 												"The Chosen of Auril is a chaotic evil female human named {@creature Hedrun Arnsfirth|TftYP}. Auril is a callous and cold-hearted bringer of winter. Most humans propitiate Auril with offerings or prayers when the first frosts come and curse her name during blizzards.",
-												"Hedrun is now a {@creature deathlock wight|MTF}. If freed, she screams an oath to Auril and attacks the characters."
+												"Hedrun is now a {@creature deathlock wight|MPMM}. If freed, she screams an oath to Auril and attacks the characters."
 											],
 											"id": "396"
 										},
@@ -37343,37 +37343,37 @@
 			"page": 230,
 			"entries": [
 				"This appendix details creatures and nonplayer characters that are mentioned in this book and that don't appear in the {@book Monster Manual|MM}. That book's introduction explains how to interpret a stat block.",
-				"Some of these creatures are available in {@book Volo's Guide to Monsters|VGM} but are reproduced here for your convenience.",
+				"Some of these creatures are available in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} but are reproduced here for your convenience.",
 				"The creatures are presented in alphabetical order.",
 				{
 					"type": "list",
 					"columns": 4,
 					"items": [
 						"{@creature Animated Table|TftYP}",
-						"{@creature Barghest|VGM}",
+						"{@creature Barghest|MPMM}",
 						"{@creature Centaur Mummy|TftYP}",
-						"{@creature Champion|VGM}",
-						"{@creature Choker|MTF}",
-						"{@creature Conjurer|VGM}",
-						"{@creature Deathlock Wight|MTF}",
+						"{@creature Champion|MPMM}",
+						"{@creature Choker|MPMM}",
+						"{@creature Conjurer Wizard|MPMM}",
+						"{@creature Deathlock Wight|MPMM}",
 						"{@creature Dread Warrior|TftYP}",
 						"{@creature Duergar Spy|TftYP}",
-						"{@creature Enchanter|VGM}",
-						"{@creature Evoker|VGM}",
+						"{@creature Enchanter Wizard|MPMM}",
+						"{@creature Evoker Wizard|MPMM}",
 						"{@creature Giant Crayfish|TftYP}",
 						"{@creature Giant Ice toad|TftYP}",
 						"{@creature Giant Lightning eel|TftYP}",
 						"{@creature Giant Skeleton|TftYP}",
 						"{@creature Giant Subterranean lizard|TftYP}",
 						"{@creature Greater Zombie|TftYP}",
-						"{@creature Illusionist|VGM}",
+						"{@creature Illusionist Wizard|MPMM}",
 						"{@creature Kalka-Kylla|TftYP}",
 						"{@creature Kelpie|TftYP}",
-						"{@creature Leucrotta|VGM}",
+						"{@creature Leucrotta|MPMM}",
 						"{@creature Malformed Kraken|TftYP}",
-						"{@creature Martial Arts Adept|VGM}",
+						"{@creature Martial Arts Adept|MPMM}",
 						"{@creature Nereid|TftYP}",
-						"{@creature Necromancer|VGM}",
+						"{@creature Necromancer Wizard|MPMM}",
 						"{@creature Ooze master|TftYP}",
 						"{@creature Sea Lion|TftYP}",
 						"{@creature Sharwyn Hucrele|TftYP}",
@@ -37384,8 +37384,8 @@
 						"{@creature Thayan Apprentice|TftYP}",
 						"{@creature Thayan Warrior|TftYP}",
 						"{@creature Thorn Slinger|TftYP}",
-						"{@creature Transmuter|VGM}",
-						"{@creature Vampiric Mist|MTF}",
+						"{@creature Transmuter Wizard|MPMM}",
+						"{@creature Vampiric Mist|MPMM}",
 						"{@creature White Maw|TftYP}",
 						"{@creature Yusdrayl|TftYP}"
 					]

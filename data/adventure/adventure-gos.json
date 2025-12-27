@@ -7559,7 +7559,7 @@
 											"id": "10b",
 											"entries": [
 												"The remains are those of an adventurer who set out to explore the house several weeks ago. The smugglers slew the heavily armored intruder and left the remains in place to scare off other visitors.",
-												"The corpse is infested with two {@creature Swarm of Rot Grubs|VGM|swarms of rot grubs} (see {@adventure appendix C|GoS|10}). Any creature that touches the body comes under attack by the swarms as they spill out of gaps in the armor. At a glance, the grubs' appearance looks unnervingly similar to curdled milk being squeezed from a bladder."
+												"The corpse is infested with two {@creature Swarm of Rot Grubs|MPMM|swarms of rot grubs} (see {@adventure appendix C|GoS|10}). Any creature that touches the body comes under attack by the swarms as they spill out of gaps in the armor. At a glance, the grubs' appearance looks unnervingly similar to curdled milk being squeezed from a bladder."
 											]
 										},
 										{
@@ -10581,7 +10581,7 @@
 											]
 										},
 										"A number of {@creature Rat||rats} eke out a precarious existence here, but they are of the normal variety and harmless. The bilge offers only 4 feet of headroom.",
-										"Two {@creature Swarm of Rot Grubs|VGM|swarms of rot grubs} (see {@adventure appendix C|GoS|10}) live in the garbage island around the mast. A gold coin among the trash is the source of the reflection. The rot grubs attack anyone who comes near.",
+										"Two {@creature Swarm of Rot Grubs|MPMM|swarms of rot grubs} (see {@adventure appendix C|GoS|10}) live in the garbage island around the mast. A gold coin among the trash is the source of the reflection. The rot grubs attack anyone who comes near.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -16716,7 +16716,7 @@
 												"Thick webbing chokes this room, partially covering strung-up bones, shriveled limbs of humanoids and animals, and other gruesome remains. Four human-sized bundles hang within the mass of webbing, a little less than ten feet into the room, while small spiders scurry everywhere."
 											]
 										},
-										"A character who watches the webbed bundles for a few moments and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check notices that they occasionally shudder and twitch in a way not caused by the motion of the {@i Emperor}. Within are four {@creature Maw Demon|VGM|maw demons} (see {@adventure appendix C|GoS|10}), servitors drawn from the Abyss by the fiendish magic coursing through the webs here. Krell and the other cultists spent many hours here sanctifying the webs and offering rites to Lolth, and the goddess has rewarded them with these servitors. Krell has yet to free them, because he worries he is not currently strong enough to command them.",
+										"A character who watches the webbed bundles for a few moments and succeeds on a {@dc 10} Wisdom ({@skill Perception}) check notices that they occasionally shudder and twitch in a way not caused by the motion of the {@i Emperor}. Within are four {@creature Maw Demon|MPMM|maw demons} (see {@adventure appendix C|GoS|10}), servitors drawn from the Abyss by the fiendish magic coursing through the webs here. Krell and the other cultists spent many hours here sanctifying the webs and offering rites to Lolth, and the goddess has rewarded them with these servitors. Krell has yet to free them, because he worries he is not currently strong enough to command them.",
 										"Each cocoon can be torn open with a successful {@dc 12} Strength ({@skill Athletics}) check, or it can be attacked (AC 10; 10 hit points; immunity to bludgeoning, poison, and psychic damage). When the first demon is set loose, the others become agitated and can use an action to tear their way out of the webbing.",
 										{
 											"type": "entries",
@@ -17660,7 +17660,7 @@
 									"page": 102,
 									"id": "2b3",
 									"entries": [
-										"Bayleaf (LE male elf {@creature bard|VGM}; see {@adventure appendix C|GoS|10}) is a mercenary who works for the highest bidder. He was hired by the abbey as a training instructor for the guards. If the party does not attack him immediately, negotiation is possible. Bayleaf can be bought off for 500 gp and safe passage off the island. He does not draw a map for the party or help them attack his former employers, but he does tell them there are treasure-filled tunnels beneath the abbey. If pressed, Bayleaf admits that the treasure is guarded (true) and claims it is worth 10,000 gp (false).",
+										"Bayleaf (LE male elf {@creature bard|MPMM}; see {@adventure appendix C|GoS|10}) is a mercenary who works for the highest bidder. He was hired by the abbey as a training instructor for the guards. If the party does not attack him immediately, negotiation is possible. Bayleaf can be bought off for 500 gp and safe passage off the island. He does not draw a map for the party or help them attack his former employers, but he does tell them there are treasure-filled tunnels beneath the abbey. If pressed, Bayleaf admits that the treasure is guarded (true) and claims it is worth 10,000 gp (false).",
 										"Bayleaf is an excellent swordsman and an above-average tactician in small skirmishes. Ozymandias placed him in charge of defending the cellars. If Bayleaf is captured, killed, or bribed, defense of the cellars becomes a hectic, haphazard affair."
 									]
 								},
@@ -18734,7 +18734,7 @@
 												"Empty weapon racks and several empty bins and shelves line the walls of this room. On the floor is a bedroll of three blankets next to a pair of shiny leather boots."
 											]
 										},
-										"Bayleaf ({@creature bard|VGM}) is in this room exchanging war stories with one of the guards ({@creature veteran}) unless they hear a disturbance outside. This former armory of the clerics and the abbey guards is now devoid of such contents.",
+										"Bayleaf ({@creature bard|MPMM}) is in this room exchanging war stories with one of the guards ({@creature veteran}) unless they hear a disturbance outside. This former armory of the clerics and the abbey guards is now devoid of such contents.",
 										"Bayleaf has hidden his personal wealth and collection of scrolls under a loose stone in the floor. A character who makes a successful {@dc 14} Wisdom ({@skill Perception}) check while searching the room spots the loose stone.",
 										{
 											"type": "entries",
@@ -18900,7 +18900,7 @@
 											]
 										},
 										"Unless a character in the party is prominently wearing the special golden medallion (see the sidebar), all the creatures in this area attack the party.",
-										"Two {@creature Minotaur Skeleton||minotaur skeletons}, two {@creature Specter||specters}, and a {@creature bodak|VGM} (see {@adventure appendix C|GoS|10}) guard this area. The undead attack until they are destroyed or the intruders have been driven away. They pursue intruders throughout the tunnels but do not leave the Winding Way. Once any intruders have been killed or driven back through the door of the room, the undead return to their original positions.",
+										"Two {@creature Minotaur Skeleton||minotaur skeletons}, two {@creature Specter||specters}, and a {@creature bodak|MPMM} (see {@adventure appendix C|GoS|10}) guard this area. The undead attack until they are destroyed or the intruders have been driven away. They pursue intruders throughout the tunnels but do not leave the Winding Way. Once any intruders have been killed or driven back through the door of the room, the undead return to their original positions.",
 										"The specters hang back from the fight, and if the characters appear on the verge of victory, they move through the door to the east. They use hit-and-run tactics to harass the characters and try to lure them into triggering the traps in the Winding Way."
 									]
 								},
@@ -22085,7 +22085,7 @@
 											]
 										},
 										"The sahuagin are socializing and celebrating the forthcoming completion of the fortress.",
-										"Two {@b {@creature sahuagin} {@creature Champion|VGM|champions}} (see {@adventure appendix C|GoS|10}) and two {@creature Sahuagin Priestess||sahuagin priestesses} occupy this room. Their revelry grants them disadvantage on {@skill Perception} checks to detect the characters as they approach the chamber.",
+										"Two {@b {@creature sahuagin} {@creature Champion|MPMM|champions}} (see {@adventure appendix C|GoS|10}) and two {@creature Sahuagin Priestess||sahuagin priestesses} occupy this room. Their revelry grants them disadvantage on {@skill Perception} checks to detect the characters as they approach the chamber.",
 										{
 											"type": "entries",
 											"name": "Coffer",
@@ -32652,7 +32652,7 @@
 											"name": "Altar",
 											"page": 219,
 											"entries": [
-												"A {@spell detect magic} spell or similar effect reveals an aura of divination magic radiating from the altar. A character who examines the altar and succeeds on a {@dc 15} Intelligence ({@skill Investigation}) check finds a hidden lid that allows the altar to open. The inside of the lid is mirrored. The altar's inner compartment holds a carved indentation of a holy symbol of St. Cuthbert and a coiled {@creature iron cobra|MTF} that attacks any creature not wearing a symbol of St. Cuthbert.",
+												"A {@spell detect magic} spell or similar effect reveals an aura of divination magic radiating from the altar. A character who examines the altar and succeeds on a {@dc 15} Intelligence ({@skill Investigation}) check finds a hidden lid that allows the altar to open. The inside of the lid is mirrored. The altar's inner compartment holds a carved indentation of a holy symbol of St. Cuthbert and a coiled {@creature clockwork iron cobra|MPMM} that attacks any creature not wearing a symbol of St. Cuthbert.",
 												"When a creature places the {@i symbol of St. Cuthbert's knowledge} (see {@area area M8|583|x}) in the indentation, that creature can touch the mirrored lid and cast a {@spell scrying} spell ({@dc 17}) with the altar. The altar can be used to cast this spell only once every 24 hours."
 											],
 											"id": "57d"
@@ -34448,7 +34448,7 @@
 											"name": "Saltmarsh Story Hook",
 											"page": 228,
 											"entries": [
-												"Calduran Bravewater, a {@creature deep scion|VGM} (see {@adventure appendix C|GoS|10}), approaches the characters posing as a rich noble and asks for their help in diving into the ruins of Warthalkeel to find lost treasure. He offers to give the characters whatever it takes to persuade them to go to the ruins (since he has no intention of paying)."
+												"Calduran Bravewater, a {@creature deep scion|MPMM} (see {@adventure appendix C|GoS|10}), approaches the characters posing as a rich noble and asks for their help in diving into the ruins of Warthalkeel to find lost treasure. He offers to give the characters whatever it takes to persuade them to go to the ruins (since he has no intention of paying)."
 											],
 											"id": "5c3"
 										},
@@ -34457,7 +34457,7 @@
 											"name": "Society of Tentacles",
 											"page": 228,
 											"entries": [
-												"Two {@creature Kraken Priest|VGM|kraken priests} (see {@adventure appendix C|GoS|10}) and a {@creature deep scion|VGM} (see {@adventure appendix C|GoS|10}) desecrate {@area area W6f|5ab|x} of the House of Procan while another four {@creature Kraken Priest|VGM|kraken priests}, including Elagoth Rinecot, hold hands in a circle and chant to perform the ritual in {@area area W7h|5b4|x} of the Temple of Vaalastroth. The cultists attack the characters with the intention of subduing them.",
+												"Two {@creature Kraken Priest|MPMM|kraken priests} (see {@adventure appendix C|GoS|10}) and a {@creature deep scion|MPMM} (see {@adventure appendix C|GoS|10}) desecrate {@area area W6f|5ab|x} of the House of Procan while another four {@creature Kraken Priest|MPMM|kraken priests}, including Elagoth Rinecot, hold hands in a circle and chant to perform the ritual in {@area area W7h|5b4|x} of the Temple of Vaalastroth. The cultists attack the characters with the intention of subduing them.",
 												"{@creature Yalaga Maladwyn|GoS} (in {@area area W7c|5ac|x}) knows of the cultists and allows them to perform the ritual, though she suspects that waking the kraken could anger it, so she avoids participating.",
 												"Calduran tries to steer the characters toward {@area area W6f|5ab|x} but turns on the characters when they find either group of cultists."
 											],
@@ -34496,7 +34496,7 @@
 											"name": "Calming a Storm",
 											"page": 228,
 											"entries": [
-												"Brinecane Ulganoth has transformed himself into a {@creature storm giant quintessent|VGM} (see {@adventure appendix C|GoS|10}), and the ruins of Warthalkeel are his lair. The giant spends his days in {@area area W7h|5b4|x} making music with his harp\u2014the calm in the eye of the storm.",
+												"Brinecane Ulganoth has transformed himself into a {@creature storm giant quintessent|MPMM} (see {@adventure appendix C|GoS|10}), and the ruins of Warthalkeel are his lair. The giant spends his days in {@area area W7h|5b4|x} making music with his harp\u2014the calm in the eye of the storm.",
 												"{@creature Yalaga Maladwyn|GoS} (in {@area area W7c|5ac|x}) knows she can't kill the giant, so she allows him to do whatever he wants. She would agree to ally with the characters in a plan to evict Brinecane.",
 												"When the characters find Brinecane, the giant tells them of his plight. He is scared to die, but he knows that without the magic of Warthalkeel he would succumb to old age.",
 												"If the characters offer to help Brinecane, he tells them he would agree to move to a new location touched with magic that would allow him to continue to extend his life. One such location that would put the storm far from Saltmarsh is Granny Nightshade's fortress, Castle Spiral, in the Dreadwood. Of course, Brinecane requires that Granny Nightshade and her minions be removed before he takes possession of the castle.",
@@ -34554,7 +34554,7 @@
 			"id": "510",
 			"entries": [
 				"This appendix details creatures and nonplayer characters that are mentioned in this book and that don't appear in the {@book Monster Manual|MM}. That book's introduction explains how to interpret a stat block.",
-				"Some of these creatures are also described in {@adventure Tomb of Annihilation|ToA}, {@book Volo's Guide to Monsters|VGM}, and {@adventure Princes of the Apocalypse|PotA} but are reproduced here for your convenience.",
+				"Some of these creatures are also described in {@adventure Tomb of Annihilation|ToA}, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, and {@adventure Princes of the Apocalypse|PotA} but are reproduced here for your convenience.",
 				"The creatures are presented in alphabetical order.",
 				{
 					"type": "entries",
@@ -34591,7 +34591,7 @@
 					"page": 231,
 					"id": "513",
 					"entries": [
-						"{@creature bard|vgm|Bards} are gifted poets, storytellers, and entertainers who travel far and wide, but are commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.",
+						"{@creature bard|mpmm|Bards} are gifted poets, storytellers, and entertainers who travel far and wide, but are commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.",
 						{
 							"type": "image",
 							"href": {
@@ -34610,7 +34610,7 @@
 					"page": 231,
 					"id": "514",
 					"entries": [
-						"A {@creature bodak|vgm} numbers among the numerous undead guardians in {@adventure Isle of the Abbey|GoS|4}. These soulless terrors, each one risen from the remains of someone who revered Orcus, Lord of the Undead, exist only to spread further suffering and death.",
+						"A {@creature bodak|mpmm} numbers among the numerous undead guardians in {@adventure Isle of the Abbey|GoS|4}. These soulless terrors, each one risen from the remains of someone who revered Orcus, Lord of the Undead, exist only to spread further suffering and death.",
 						{
 							"type": "image",
 							"href": {
@@ -34647,7 +34647,7 @@
 					"page": 233,
 					"id": "517",
 					"entries": [
-						"{@creature Deep scion|VGM|Deep scions} began life as people who were stolen from shore or saved from sinking ships and offered a terrible bargain by an undersea power: surrender, body and soul, or drown. Those who submit are subjected to an ancient ritual widespread among evil aquatic creatures. Its methods are painful and the result never certain, but when it works, the magic transforms an air-breathing person into a shapechanger that can take a form that is fully at home beneath the waves."
+						"{@creature Deep scion|MPMM|Deep scions} began life as people who were stolen from shore or saved from sinking ships and offered a terrible bargain by an undersea power: surrender, body and soul, or drown. Those who submit are subjected to an ancient ritual widespread among evil aquatic creatures. Its methods are painful and the result never certain, but when it works, the magic transforms an air-breathing person into a shapechanger that can take a form that is fully at home beneath the waves."
 					]
 				},
 				{
@@ -34816,7 +34816,7 @@
 					"page": 240,
 					"id": "524",
 					"entries": [
-						"A kraken can seem godlike to folk who have witnessed its fury. Those who believe that its might comes from being a divine entity and those who seek to appease the monster through its veneration sometimes find themselves infused with special abilities, to serve thereafter as {@creature kraken priest|VGM|kraken priests}."
+						"A kraken can seem godlike to folk who have witnessed its fury. Those who believe that its might comes from being a divine entity and those who seek to appease the monster through its veneration sometimes find themselves infused with special abilities, to serve thereafter as {@creature kraken priest|MPMM|kraken priests}."
 					]
 				},
 				{
@@ -34917,7 +34917,7 @@
 					"page": 243,
 					"id": "52d",
 					"entries": [
-						"A quartet of squat fiends\u2014all mouth and malice\u2014turn their bottomless hunger to Lolth's servants in {@adventure Salvage Operation|GoS|3}. Infamous for their ceaseless hunger for carnage and mortal flesh, these fiends devour all in their paths. After a {@creature maw demon|vgm} rests for 8 hours, anything it has devoured is transported to the Abyss for further digestion of a different sort."
+						"A quartet of squat fiends\u2014all mouth and malice\u2014turn their bottomless hunger to Lolth's servants in {@adventure Salvage Operation|GoS|3}. Infamous for their ceaseless hunger for carnage and mortal flesh, these fiends devour all in their paths. After a {@creature maw demon|mpmm} rests for 8 hours, anything it has devoured is transported to the Abyss for further digestion of a different sort."
 					]
 				},
 				{
@@ -35231,7 +35231,7 @@
 					"page": 255,
 					"id": "547",
 					"entries": [
-						"Some {@creature Storm Giant Quintessent|VGM|storm giants} approaching the end of their natural life spans seek an escape from death. They plumb the depths of their powerful connection to the elements and disperse themselves into nature, literally transforming into semiconscious storms."
+						"Some {@creature Storm Giant Quintessent|MPMM|storm giants} approaching the end of their natural life spans seek an escape from death. They plumb the depths of their powerful connection to the elements and disperse themselves into nature, literally transforming into semiconscious storms."
 					]
 				},
 				{
@@ -35240,7 +35240,7 @@
 					"page": 255,
 					"id": "548",
 					"entries": [
-						"{@creature Swarm of Rot Grubs|VGM|Rot grubs} are finger-sized maggots that eat living or dead flesh, although they can subsist on plant matter. They infest corpses and piles of decaying matter and attack living creatures that disturb them. After burrowing into the flesh of a living creature, a rot grub instinctively chews its way toward the heart in order to kill its host.",
+						"{@creature Swarm of Rot Grubs|MPMM|Rot grubs} are finger-sized maggots that eat living or dead flesh, although they can subsist on plant matter. They infest corpses and piles of decaying matter and attack living creatures that disturb them. After burrowing into the flesh of a living creature, a rot grub instinctively chews its way toward the heart in order to kill its host.",
 						"Rot grubs pose a threat both singly and as a swarm. See the accompanying stat block for the mechanics of a swarm of rot grubs.",
 						"A single rot grub has no stat block. Any creature that comes into contact with one must make a {@dc 10} Dexterity saving throw. On a failed save, the rot grub burrows into the creature's flesh and deals 3 ({@dice 1d6}) piercing damage at the start of each of the host creature's turns. Applying fire to the wound before the end of the host creature's next turn deals 1 fire damage to the host and kills the infesting rot grub. After this time, the rot grub is too far under the host creature's skin to be burned. If a creature infested by one or more rot grubs ends its turn with 0 hit points, it dies as the grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target. Burning a body kills any rot grubs infesting it."
 					]

@@ -5251,7 +5251,7 @@
 									"page": 16,
 									"id": "078",
 									"entries": [
-										"Between Conyberry and the ranch, the characters spot Petunia the {@creature cow|VGM} in a field a few hundred feet off the Triboar Trail. Petunia wears a cowbell around her neck. Characters who approach her spot a brand on her hindquarters: the letters BAK. Petunia has a calm, unflappable demeanor. If treated well, she follows her new benefactors everywhere."
+										"Between Conyberry and the ranch, the characters spot Petunia the {@creature cow|MPMM} in a field a few hundred feet off the Triboar Trail. Petunia wears a cowbell around her neck. Characters who approach her spot a brand on her hindquarters: the letters BAK. Petunia has a calm, unflappable demeanor. If treated well, she follows her new benefactors everywhere."
 									]
 								}
 							]
@@ -16857,7 +16857,7 @@
 								"Barthen tells you that his clerks have filled two crates with supplies as he hands you a sheet of parchment, upon which is written an inventory of the crates' contents: foodstuffs such as dried meat, blocks of cheese, and loaves of bread, as well as casks of ale and flasks of oil. The two heavy crates are loaded onto a two-wheeled cart pulled by an ox. \"The ox's name is Vincent,\" says Barthen. \"I'll expect to see him and the cart returned, thanks.\""
 							]
 						},
-						"The ox (use the {@creature cow|VGM} stat block) is a reliable beast. Each full crate holds enough provisions to sustain twelve people for a month, as long as the supplies are supplemented with fish and fresh water from the camp.",
+						"The ox (use the {@creature cow|MPMM} stat block) is a reliable beast. Each full crate holds enough provisions to sustain twelve people for a month, as long as the supplies are supplemented with fish and fresh water from the camp.",
 						"If the characters tell Barthen that they intend to visit {@adventure Falcon's Hunting Lodge|DIP|6} on the way, Barthen suggests they buy a bottle of fine wine (10 gp) and give it to Falcon as a gift."
 					]
 				},
@@ -25300,7 +25300,7 @@
 							"page": 55,
 							"id": "212",
 							"entries": [
-								"Use the {@creature cow|VGM} stat block to represent common varieties of cattle, including oxen."
+								"Use the {@creature cow|MPMM} stat block to represent common varieties of cattle, including oxen."
 							]
 						},
 						{

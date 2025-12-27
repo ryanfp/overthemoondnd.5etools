@@ -12736,7 +12736,7 @@
 									"type": "list",
 									"items": [
 										"{@race Elf (Pallid)|EGW}",
-										"{@race Elf (Sea)|MTF}"
+										"{@race Sea Elf|MPMM}"
 									]
 								}
 							]
@@ -12909,9 +12909,7 @@
 								{
 									"type": "list",
 									"items": [
-										"{@race Aasimar (Protector)|VGM}",
-										"{@race Aasimar (Scourge)|VGM}",
-										"{@race Aasimar (Fallen)|VGM}"
+										"{@race Aasimar|MPMM}"
 									]
 								}
 							]
@@ -12979,7 +12977,7 @@
 					"page": 169,
 					"id": "5ac",
 					"entries": [
-						"{@race Firbolg|vgm|Firbolgs} are a forest-dwelling race native to the Greying Wildlands, particularly the mysterious Savalirwood. Their bodies are covered with thick fur ranging from tones of earthen brown and ruddy red to cool grays and blues, and even to wild hues of pink and green. Their bodies are bovine or camelid in appearance, with floppy, pointed ears and broad, pink noses, but they are bipedal and have hands that can manipulate weapons and objects.",
+						"{@race Firbolg|MPMM|Firbolgs} are a forest-dwelling race native to the Greying Wildlands, particularly the mysterious Savalirwood. Their bodies are covered with thick fur ranging from tones of earthen brown and ruddy red to cool grays and blues, and even to wild hues of pink and green. Their bodies are bovine or camelid in appearance, with floppy, pointed ears and broad, pink noses, but they are bipedal and have hands that can manipulate weapons and objects.",
 						"Most firbolgs live in extended family units, and it is unusual to find one living alone. However, they are introverted to the point where they seldom engage with other firbolgs outside the family unit, and firbolgs rarely form their own cities, villages, or even large tribes. Despite this, many firbolgs enjoy visiting other nations' settlements for a short time for trade, sightseeing, and to visit friends.",
 						{
 							"type": "entries",
@@ -13175,7 +13173,7 @@
 							"page": 174,
 							"id": "5e9",
 							"entries": [
-								"{@race Bugbear|VGM}"
+								"{@race Bugbear|MPMM}"
 							]
 						},
 						{
@@ -13184,7 +13182,7 @@
 							"page": 174,
 							"id": "5f6",
 							"entries": [
-								"{@race Goblin|VGM}"
+								"{@race Goblin|MPMM}"
 							]
 						},
 						{
@@ -13193,7 +13191,7 @@
 							"page": 175,
 							"id": "601",
 							"entries": [
-								"{@race Hobgoblin|VGM}",
+								"{@race Hobgoblin|MPMM}",
 								"A hobgoblin character has the following racial traits."
 							]
 						}
@@ -13205,7 +13203,7 @@
 					"page": 175,
 					"id": "60c",
 					"entries": [
-						"The {@race goliath|vgm|goliaths} of Exandria are a mighty people with stone giant blood running in their veins. Most stand well over seven feet tall and are blessed with a naturally powerful physique. Like their stone giant progenitors, goliaths are a rare sight in Wildemount. Most live on isolated peaks in the Cyrios Mountains, the Penumbra Range, and on the isolated land of Eiselcross. Those few goliaths who are exiled from their herds and wander into more densely peopled lands are uniformly greeted with fear and confusion.",
+						"The {@race goliath|MPMM|goliaths} of Exandria are a mighty people with stone giant blood running in their veins. Most stand well over seven feet tall and are blessed with a naturally powerful physique. Like their stone giant progenitors, goliaths are a rare sight in Wildemount. Most live on isolated peaks in the Cyrios Mountains, the Penumbra Range, and on the isolated land of Eiselcross. Those few goliaths who are exiled from their herds and wander into more densely peopled lands are uniformly greeted with fear and confusion.",
 						"Goliaths have a compulsion to compete and keep score, counting their deeds and tallying their accomplishments to compare to others. Goliaths love to win, but they see defeat as a prod to improve their skills. Above all else, they are driven to outdo their past efforts. Few goliaths reach old age, as most die attempting to surpass their past achievements.",
 						"Among goliaths, any adult who can't or won't contribute to the herd is expelled. A lone goliath has little chance of survival, especially an older or weaker one. Goliaths have little pity for adults who can't take care of themselves, though a sick or injured individual is treated, as a result of the goliath concept of fair play.",
 						{
@@ -13263,7 +13261,7 @@
 					"page": 176,
 					"id": "622",
 					"entries": [
-						"In ancient times, {@race kenku|vgm} were black-winged angels\u2014ambassadors who served the Raven Queen as her emissaries of death. Their voices were once heard across entire planes, calling the dead to the Raven Queen's embrace. The kenku likewise served as her loyal warriors in the Calamity, and even saved her from a near-fatal encounter with the Betrayer God known as Tharizdun.",
+						"In ancient times, {@race kenku|MPMM} were black-winged angels\u2014ambassadors who served the Raven Queen as her emissaries of death. Their voices were once heard across entire planes, calling the dead to the Raven Queen's embrace. The kenku likewise served as her loyal warriors in the Calamity, and even saved her from a near-fatal encounter with the Betrayer God known as Tharizdun.",
 						"Though the kenku saved the Raven Queen from oblivion, all of her black-winged emissaries were consumed by Tharizdun's infinite void. For long years, the kenku were thought to have been annihilated, and it was only when Tharizdun was defeated and chained by the god Ioun near the Calamity's end that they were freed.",
 						"When the gods sealed themselves behind the Divine Gate, the Raven Queen realized what her emissaries had sacrificed to save her. Though the kenku survived oblivion, they returned as mortals, stripped of all the divine gifts their god had bestowed on them: their voices, their wings, and all memories of their past existence. Bearing Tharizdun's curse of oblivion, the kenku were reduced to squat beings that could speak only by mimicking the words of others.",
 						"Kenku exist across Wildemount in small numbers. Considered by most to be monsters, they keep to themselves as a result, always longing for something they can neither ask for nor explain. Something in a kenku's mind stirs when it looks to the sky and see birds flying freely\u2014an ancient longing, and a memory trapped within oblivion."
@@ -13325,7 +13323,7 @@
 					"page": 178,
 					"id": "640",
 					"entries": [
-						"The catlike {@race tabaxi|vgm} are an agile, witty, and playful folk who have long lived among the indigenous Ki'Nau people of the Menagerie Coast and in the cold northern forests of the Greying Wildlands. Said to have been born from the dreams of Melora within the jungles of Wildemount's more temperate regions, they are natural hunters with keen senses and predatory instincts. The tabaxi of Exandria are also well known for their social guile. Many are taken with a love of wordplay and debate, often engaging travelers in philosophical conversations meant to challenge the intellect and to subtly gauge the disposition of strangers.",
+						"The catlike {@race tabaxi|MPMM} are an agile, witty, and playful folk who have long lived among the indigenous Ki'Nau people of the Menagerie Coast and in the cold northern forests of the Greying Wildlands. Said to have been born from the dreams of Melora within the jungles of Wildemount's more temperate regions, they are natural hunters with keen senses and predatory instincts. The tabaxi of Exandria are also well known for their social guile. Many are taken with a love of wordplay and debate, often engaging travelers in philosophical conversations meant to challenge the intellect and to subtly gauge the disposition of strangers.",
 						"Tabaxi can be found in small numbers throughout Wildemount and are generally well thought of. Some make up small clans in the wilderness beyond the boundaries of Wildemount's major societies. Others are content to stand out among the other folk of those larger nations. Deft at crafts, hunting, and commercial enterprises, many tabaxi find themselves drawn toward an entrepreneurial existence, while some fall naturally into the more dangerous pursuits of an adventurer's lifestyle.",
 						"Politics hold a conversational curiosity for some, but only a few tabaxi are driven enough to ascend to positions of political power, most commonly along the Menagerie Coast. Even so, most catfolk are happier away from the limelight, slyly convincing others to visibly take the risks for them.",
 						{

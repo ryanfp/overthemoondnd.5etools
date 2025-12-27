@@ -86,7 +86,7 @@
 					"id": "006",
 					"entries": [
 						"To run this adventure, you need the D&D fifth edition core rulebooks\u2014the {@book Player's Handbook|PHB}, the {@book Dungeon Master's Guide|DMG}, and the {@book Monster Manual|MM}.",
-						"Most of the monsters that appear in the adventure are from the {@book Monster Manual|MM}, along with a number of creatures from other books (including {@book Volo's Guide to Monsters|VGM} and {@book Mordenkainen's Tome of Foes|MTF}) plus a number of new creatures and NPCs. For easy reference, all the stat blocks for the creatures in the adventure can be found in appendix B. When a creature's name appears in bold type, that's a visual cue pointing you to its stat block in that appendix. Full information on creatures from the {@book Monster Manual|MM}, {@book Volo's Guide to Monsters|VGM}, and {@book Mordenkainen's Tome of Foes|MTF} can be found in those books.",
+						"Most of the monsters that appear in the adventure are from the {@book Monster Manual|MM}, along with a number of creatures from other books (including {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) plus a number of new creatures and NPCs. For easy reference, all the stat blocks for the creatures in the adventure can be found in appendix B. When a creature's name appears in bold type, that's a visual cue pointing you to its stat block in that appendix. Full information on creatures from the {@book Monster Manual|MM}, and {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} can be found in those books.",
 						"Spells and equipment mentioned in the adventure are described in the {@book Player's Handbook|PHB}. Magic items are described in the {@book Dungeon Master's Guide|DMG}. Where new spells and magic items appear in the adventure, the text directs you to their descriptions in appendix C.",
 						{
 							"type": "insetReadaloud",
@@ -223,7 +223,7 @@
 					"entries": [
 						"The three {@creature Green Hag||green hags} are intent on capturing the unicorn, {@creature Banrion|IMR}, and corrupting the entirety of the woods. Over time, they have taken on characteristics of certain animals. Mother Stag, their leader, has enormous antlers growing from her head, on which she hangs herb pouches, charms, and dozens of lit candles. Mother Skunk has wide, white streaks in her long black hair. Mother Mole can hardly see, and constantly sniffs the air to find her way about.",
 						"Whenever they are encountered, the hags disguise themselves with illusions, making them resemble kindly dryads with their featured animal characteristics.",
-						"The trio's hag eye is carried by a {@creature redcap|VGM} named Olitor, who uses it to spy on their behalf. Olitor is likewise disguised as a small, disheveled satyr.",
+						"The trio's hag eye is carried by a {@creature redcap|MPMM} named Olitor, who uses it to spy on their behalf. Olitor is likewise disguised as a small, disheveled satyr.",
 						{
 							"type": "inset",
 							"name": "Hag Coven",
@@ -231,7 +231,7 @@
 							"id": "010",
 							"entries": [
 								"Three hags form a coven, which results in heightened power. For higher-level characters, run the hags with their coven benefits to make a hard encounter. For lower-level parties, consider removing the coven's Shared Spellcasting. This feature is something the hags gain only after capturing {@creature Banrion|IMR}.",
-								"If {@creature Banrion|IMR} joins the fight against the hags, consider providing them a few additional allies to help balance things out. Such allies might include an additional {@creature redcap|VGM} alongside Olitor, or a {@creature myconid sovereign} from the hags' garden."
+								"If {@creature Banrion|IMR} joins the fight against the hags, consider providing them a few additional allies to help balance things out. Such allies might include an additional {@creature redcap|MPMM} alongside Olitor, or a {@creature myconid sovereign} from the hags' garden."
 							]
 						}
 					]
@@ -334,7 +334,7 @@
 											"page": 5,
 											"id": "01a",
 											"entries": [
-												"Olitor the {@creature redcap|VGM} (wrapped in the illusion of a diminutive satyr) appears, and warns the characters about the dangers of the sunbeams. He asks them to wait for Mother Stag, who arrives shortly thereafter.",
+												"Olitor the {@creature redcap|MPMM} (wrapped in the illusion of a diminutive satyr) appears, and warns the characters about the dangers of the sunbeams. He asks them to wait for Mother Stag, who arrives shortly thereafter.",
 												"The shifty Olitor tries to engage the characters in conversation, wanting to learn as much about them as possible. Any character who touches Olitor, or who succeeds on a {@dc 16} Intelligence ({@skill Investigation}) check while watching him carefully, notices details that give the illusion away. If detected in this way, Olitor claims to have pressing business and departs.",
 												{
 													"type": "inset",
@@ -930,7 +930,7 @@
 							"page": 14,
 							"id": "04e",
 							"entries": [
-								"Fated to one day become a spellcaster of great renown, Nolzur (a neutral male human {@creature master thief|vgm}) has not yet begun to hone his magical art in this time, but has already started a specialization in alchemy that will one day lead to the crafting of such items as his famed {@item Nolzur's marvelous pigments}. In this age, Nolzur most recently studied with {@creature Thessalar|IMR}, learning secrets of alchemy and infusing his own blood with strange and dangerous properties. {@creature Moghadam|IMR} learned of all this and captured Nolzur. He is now held in the tomb, with his blood used as a base material for magic pigments.",
+								"Fated to one day become a spellcaster of great renown, Nolzur (a neutral male human {@creature master thief|mpmm}) has not yet begun to hone his magical art in this time, but has already started a specialization in alchemy that will one day lead to the crafting of such items as his famed {@item Nolzur's marvelous pigments}. In this age, Nolzur most recently studied with {@creature Thessalar|IMR}, learning secrets of alchemy and infusing his own blood with strange and dangerous properties. {@creature Moghadam|IMR} learned of all this and captured Nolzur. He is now held in the tomb, with his blood used as a base material for magic pigments.",
 								{
 									"type": "inset",
 									"name": "Who's Who",
@@ -1764,7 +1764,7 @@
 							"page": 19,
 							"id": "076",
 							"entries": [
-								"A narrow crawl space leads here from the southernmost pit in the entrance hall ({@area area 3|065|x}). At the bottom of a 10-foot drop at the end of the crawl space, a miserable cell holds a solitary prisoner. The artisan Nolzur (a neutral male human {@creature master thief|vgm}, but he is reduced to 1 hit point) has been captured and held here, his alchemical blood continually drained to create the magic pigments used to paint the tomb's murals. The muralists drain him with tools crafted from the beaks of stirges, keeping him barely alive with healing magic.",
+								"A narrow crawl space leads here from the southernmost pit in the entrance hall ({@area area 3|065|x}). At the bottom of a 10-foot drop at the end of the crawl space, a miserable cell holds a solitary prisoner. The artisan Nolzur (a neutral male human {@creature master thief|mpmm}, but he is reduced to 1 hit point) has been captured and held here, his alchemical blood continually drained to create the magic pigments used to paint the tomb's murals. The muralists drain him with tools crafted from the beaks of stirges, keeping him barely alive with healing magic.",
 								"Nolzur is too weak to escape on his own, but if rescued and provided healing and nourishment, he gladly aids the characters in any way. This includes telling the characters the general layout of the Temple of Moloch, and revealing {@creature Thessalar|IMR}'s vulnerability to magic potions and salves that restore hit points (see \"{@area Who Dwells Here?|0b4|x}\" in {@adventure chapter 4|IMR|4}).",
 								{
 									"type": "entries",
@@ -1783,7 +1783,7 @@
 							"page": 19,
 							"id": "078",
 							"entries": [
-								"This workspace is used by a number of neutral human sculptors creating objects for use in the tomb. Five are present when the characters first enter this area, watched over and assisted by a {@creature girallon|VGM}. The sculptors (use the {@creature cultist} stat block) traveled here from the Temple of Moloch under the false promise of fabulous payment for helping construct the tomb. They have since found themselves unable to leave.",
+								"This workspace is used by a number of neutral human sculptors creating objects for use in the tomb. Five are present when the characters first enter this area, watched over and assisted by a {@creature girallon|MPMM}. The sculptors (use the {@creature cultist} stat block) traveled here from the Temple of Moloch under the false promise of fabulous payment for helping construct the tomb. They have since found themselves unable to leave.",
 								"The sculptors seek assistance to escape the tomb, and provide whatever information they know in exchange for aid. They can relate how the rest of the sculptors (in {@area area 10|081|x}) are devising a means of escape using a set of superior {@item mason's tools|PHB} hidden there, and that these tools can also weaken the eidolon in the Temple of Moloch (see {@area area 25|13a|x} in {@adventure chapter 4|IMR|4}). They also know that the muralists are loyal to {@creature Moghadam|IMR} and cannot be trusted.",
 								"The rhythmic chanting magically carried into {@area area 3|065|x} grows louder in this area.",
 								{
@@ -1801,7 +1801,7 @@
 									"page": 20,
 									"id": "07a",
 									"entries": [
-										"Under the command of Phenex ({@area area 14|093|x}), the {@creature girallon|VGM} has been ordered to obey the sculptors as they work, but to not allow them to leave the tomb. The creature carries torches in two hands to provide light for the sculptors. With the other two, it hands out hammers, chisels, and other tools as needed.",
+										"Under the command of Phenex ({@area area 14|093|x}), the {@creature girallon|MPMM} has been ordered to obey the sculptors as they work, but to not allow them to leave the tomb. The creature carries torches in two hands to provide light for the sculptors. With the other two, it hands out hammers, chisels, and other tools as needed.",
 										"The girallon challenges the characters unless they bear one of {@creature Moghadam|IMR}'s magical passes. In combat, it uses the implements it holds as weapons. Use the statistics for the girallon's claw attack, but a hammer attack deals bludgeoning damage and a chisel attack deals piercing damage. A torch attack deals bludgeoning damage plus 2 ({@dice 1d4}) fire damage."
 									]
 								},
@@ -1882,7 +1882,7 @@
 									"entries": [
 										"Five neutral human sculptors (use the {@creature cultist} stat block) originally from the Temple of Moloch are here creating stonework for the tomb. Desperate to escape, they are working on a secret plan.",
 										"Eight neutral tiefling muralists are plastering and painting, as well as covering the floor with inlaid tiles. They use the same statistics and respond to questions in the same way as the muralists in {@area area 3|065|x}.",
-										"The {@creature girallon|VGM} is under orders to obey the workers but not to allow them to leave the tomb. It challenges the characters unless they bear one of {@creature Moghadam|IMR}'s magical passes, using the torches as weapons. Use the statistics for the girallon's claw attack, but a torch attack deals bludgeoning damage plus 2 ({@dice 1d4}) fire damage."
+										"The {@creature girallon|MPMM} is under orders to obey the workers but not to allow them to leave the tomb. It challenges the characters unless they bear one of {@creature Moghadam|IMR}'s magical passes, using the torches as weapons. Use the statistics for the girallon's claw attack, but a torch attack deals bludgeoning damage plus 2 ({@dice 1d4}) fire damage."
 									]
 								},
 								{
@@ -2090,7 +2090,7 @@
 											"page": 22,
 											"id": "098",
 											"entries": [
-												"The two girallons that protect Phenex have each had a left hand and eye removed. They use the {@creature girallon|VGM} stat block but can make only three claw attacks as part of their multiattack action."
+												"The two girallons that protect Phenex have each had a left hand and eye removed. They use the {@creature girallon|MPMM} stat block but can make only three claw attacks as part of their multiattack action."
 											]
 										}
 									]
@@ -2285,7 +2285,7 @@
 									"page": 23,
 									"id": "0ac",
 									"entries": [
-										"The first three curtains are sheets of thick webbing that function as the product of the {@spell web} spell. The fourth is a disguised {@creature trapper|VGM} kept by {@creature Seodra|IMR} as a pet, and which attacks anyone who passes by it except {@creature Seodra|IMR} and {@creature Moghadam|IMR}.",
+										"The first three curtains are sheets of thick webbing that function as the product of the {@spell web} spell. The fourth is a disguised {@creature trapper|MPMM} kept by {@creature Seodra|IMR} as a pet, and which attacks anyone who passes by it except {@creature Seodra|IMR} and {@creature Moghadam|IMR}.",
 										"Once the characters move beyond the curtains, read:",
 										{
 											"type": "insetReadaloud",
@@ -2401,7 +2401,7 @@
 							"page": 25,
 							"id": "0b8",
 							"entries": [
-								"Under {@creature Thessalar|IMR}, the high priests of the temple are chosen from sculptors who craft such perfect statues that the temple's resident eidolon (containing the spirit of the first high priest) selects them for its use. As the temple's current high priest, Ard-Sagart (a lawful evil male human {@creature warlock of the fiend|VGM}) believes that the wayward sculptors who left for the Tomb of Horrors have caused the temple to lose favor with Moloch. He is eager to rectify this situation by recovering as many gemstones as possible from the temple's waters as tribute."
+								"Under {@creature Thessalar|IMR}, the high priests of the temple are chosen from sculptors who craft such perfect statues that the temple's resident eidolon (containing the spirit of the first high priest) selects them for its use. As the temple's current high priest, Ard-Sagart (a lawful evil male human {@creature warlock of the fiend|MPMM}) believes that the wayward sculptors who left for the Tomb of Horrors have caused the temple to lose favor with Moloch. He is eager to rectify this situation by recovering as many gemstones as possible from the temple's waters as tribute."
 							]
 						},
 						{
@@ -3981,7 +3981,7 @@
 												],
 												[
 													"36\u201345",
-													"A small barrel holds a live {@creature boggle|VGM}, bound, gagged, and marinating in their own excreted oil. This is the former partner of the boggle steward in areas 36 and 37, who betrayed and left this boggle here in order to pose as both stewards and reap twice the salary. You decide whether this boggle bolts and flees the dungeon if rescued, or whether they accompany the characters to seek vengeance."
+													"A small barrel holds a live {@creature boggle|MPMM}, bound, gagged, and marinating in their own excreted oil. This is the former partner of the boggle steward in areas 36 and 37, who betrayed and left this boggle here in order to pose as both stewards and reap twice the salary. You decide whether this boggle bolts and flees the dungeon if rescued, or whether they accompany the characters to seek vengeance."
 												],
 												[
 													"46\u201355",
@@ -4219,7 +4219,7 @@
 											"page": 32,
 											"id": "0fb",
 											"entries": [
-												"This cell is sealed off behind a padlocked sheet of transparent glassteel\u2014a resilient magical material as strong as metal\u2014to prevent the escape of the {@creature adult oblex|MTF} inside. The oblex can still use its Eat Memories action and Sulfurous Impersonation trait to create copies of anyone approaching too closely."
+												"This cell is sealed off behind a padlocked sheet of transparent glassteel\u2014a resilient magical material as strong as metal\u2014to prevent the escape of the {@creature adult oblex|MPMM} inside. The oblex can still use its Eat Memories action and Sulfurous Impersonation trait to create copies of anyone approaching too closely."
 											]
 										}
 									]
@@ -4258,7 +4258,7 @@
 										"The result of the same experiment that produced {@creature Andras|IMR} ({@area area 9|0eb|x}), {@creature Stolos|IMR} has the head of a male human atop the body of a giant snowy owl. He readily converses with the characters even if their initial appearance is suspicious, asking them friendly questions with the aim of discovering if {@creature Moghadam|IMR} sent them.",
 										"If asked about his unusual appearance, {@creature Stolos|IMR} angrily admits that he and {@creature Andras|IMR} derived from a singular human subject and his giant snowy owl companion years before. The two hybrid creatures now have an intense hatred for one another, owing to a mutual disgust for their split nature.",
 										"{@creature Stolos|IMR} offers to work with the characters if they harm or impede {@creature Andras|IMR} (most easily by freeing the prisoners being tortured in {@area area 9|0eb|x}). His only real aim is for the characters to sow chaos before the temple's guards invariably deliver them back into his custody.",
-										"{@creature Stolos|IMR} uses the {@creature warlock of the Great Old One|VGM} stat block with the following changes:",
+										"{@creature Stolos|IMR} uses the {@creature Warlock of the Great Old One|MPMM} stat block with the following changes:",
 										{
 											"type": "list",
 											"items": [
@@ -4851,7 +4851,7 @@
 									"page": 38,
 									"id": "137",
 									"entries": [
-										"Ten of the statues in this area are large enough to serve as {@creature Sacred Statue|MTF|sacred statues}. The {@creature eidolon|MTF} in area 25 can enter and animate those statues as needed (see {@adventure appendix B|IMR|7}).",
+										"Ten of the statues in this area are large enough to serve as {@creature Sacred Statue|MPMM|sacred statues}. The {@creature eidolon|MPMM} in area 25 can enter and animate those statues as needed (see {@adventure appendix B|IMR|7}).",
 										"The sacred statues can be attacked to destroy them, preventing the eidolon from animating them. When not occupied by the eidolon, each statue has AC 17, 50 hit points, resistance to piercing and slashing damage, and immunity to poison and psychic damage. A sacred statue is also vulnerable to the set of superior mason's tools found in {@area area 11|08a|x} of {@adventure chapter 3|IMR|3}. A character proficient with mason's tools can use the superior set to destroy a sacred statue with a successful {@dc 13} Dexterity check."
 									]
 								},
@@ -4895,7 +4895,7 @@
 									"entries": [
 										"The eyes of the statue are the largest rubies ever recovered from the underground lake, and were cut and faceted by the temple's first priests. With a successful {@dc 12} Intelligence ({@skill Arcana}) check or a {@spell detect magic} spell, a character discerns that the gem eyes are a focal point for the magic of the temple, and are magically connected to the various control panels making use of the missing components from the {@i Infernal Machine of Lum the Mad}. A successful {@dc 12} Wisdom ({@skill Perception}) check made to examine the gems reveals that they are connected to the statue with silver wires similar to those seen in {@creature Thessalar|IMR}'s labs.",
 										"The gems can be removed with a successful {@dc 20} Dexterity check using thieves' tools. However, doing so deactivates any control panel still utilizing components from the {@i Infernal Machine} in the temple (in areas 9, 14, 15, 16, and 22). This disrupts the experiments and frees the bound creatures in all those areas.",
-										"The {@creature eidolon|MTF} in this area (see below) can enter the statue to transform it into a {@creature sacred statue|MTF}. The statue can be attacked to destroy it, preventing the eidolon from animating it. When not occupied by the eidolon, the statue has AC 17, 50 hit points, resistance to piercing and slashing damage, and immunity to poison and psychic damage. The statue is also vulnerable to the set of superior mason's tools found in {@area area 11|08a|x} of {@adventure chapter 3|IMR|3}. A character proficient with mason's tools can use the superior set to destroy the statue with a successful {@dc 13} Dexterity check.",
+										"The {@creature eidolon|MPMM} in this area (see below) can enter the statue to transform it into a {@creature sacred statue|MPMM}. The statue can be attacked to destroy it, preventing the eidolon from animating it. When not occupied by the eidolon, the statue has AC 17, 50 hit points, resistance to piercing and slashing damage, and immunity to poison and psychic damage. The statue is also vulnerable to the set of superior mason's tools found in {@area area 11|08a|x} of {@adventure chapter 3|IMR|3}. A character proficient with mason's tools can use the superior set to destroy the statue with a successful {@dc 13} Dexterity check.",
 										"If the sacred statue is destroyed, the eidolon can enter one of the other appropriate statues in area 24."
 									]
 								},
@@ -4905,7 +4905,7 @@
 									"page": 38,
 									"id": "13d",
 									"entries": [
-										"In the east wall, a narrow corridor leads to a tiny chapel room where the temple's first high priest communed with Moloch. After the priest's death, Moloch rewarded their faithful service by transforming him them into the {@creature eidolon|MTF} that still resides here.",
+										"In the east wall, a narrow corridor leads to a tiny chapel room where the temple's first high priest communed with Moloch. After the priest's death, Moloch rewarded their faithful service by transforming him them into the {@creature eidolon|MPMM} that still resides here.",
 										"If the characters desecrate any part of the temple, including tampering with or examining the statue's gemstone eyes, the eidolon enters the sacred statue of Moloch and attacks."
 									]
 								},
@@ -5025,7 +5025,7 @@
 									"page": 40,
 									"id": "149",
 									"entries": [
-										"Ard-Sagart (a lawful evil male human {@creature warlock of the fiend|VGM}) is here when the characters arrive, praying before the fireplace. With the loss of the sculptors in {@creature Thessalar|IMR}'s service, he believes the temple has lost favor with Moloch. To remedy this, he has requested more lizardfolk to brave the underwater lake and collect gemstones as tribute. He is preparing to bless the next volunteers."
+										"Ard-Sagart (a lawful evil male human {@creature warlock of the fiend|MPMM}) is here when the characters arrive, praying before the fireplace. With the loss of the sculptors in {@creature Thessalar|IMR}'s service, he believes the temple has lost favor with Moloch. To remedy this, he has requested more lizardfolk to brave the underwater lake and collect gemstones as tribute. He is preparing to bless the next volunteers."
 									]
 								},
 								{
@@ -5313,7 +5313,7 @@
 									"id": "166",
 									"entries": [
 										"If not already met when summoned to area 35, there is a {@chance 50} chance that the steward to the ettin is found in this area. If not in this area, the boggle is in area 37.",
-										"This {@creature boggle|VGM} was one of two caught trying to use their Dimensional Rift traits to reach into the temple's treasure vault ({@area area 38|16b|x}). As punishment, they were assigned to provide care and grooming to the ettin's left and right heads, as well as relaying messages on the giant's behalf. When the ettin wants to talk to himself, one head gives the message to his steward, who runs off to deliver it to the other steward, who runs back to deliver it to the other head, and back down the line.",
+										"This {@creature boggle|MPMM} was one of two caught trying to use their Dimensional Rift traits to reach into the temple's treasure vault ({@area area 38|16b|x}). As punishment, they were assigned to provide care and grooming to the ettin's left and right heads, as well as relaying messages on the giant's behalf. When the ettin wants to talk to himself, one head gives the message to his steward, who runs off to deliver it to the other steward, who runs back to deliver it to the other head, and back down the line.",
 										"The two stewards are identical except for an epaulet worn on the left or right shoulder of their livery, but they have of late never been seen together. This is because only one boggle remains, the companion boggle having been disposed of in {@area area 7|0e5|x}. Both stewards are thus now the same creature, who works hard to make sure this is never discovered. The boggle intuits (correctly) that if the ettin were to uncover this secret, he would rip the boggle in half as a furious means of getting the proper number of stewards once more."
 									]
 								},
@@ -5342,7 +5342,7 @@
 									"page": 43,
 									"id": "169",
 									"entries": [
-										"If not already met when summoned to {@area area 35|15f|x}, there is a {@chance 50} chance that the steward to the ettin is found in this area. If not in this area, the {@creature boggle|VGM} is in area 36. See area 36 for details on the identity of Sticky and Slippy."
+										"If not already met when summoned to {@area area 35|15f|x}, there is a {@chance 50} chance that the steward to the ettin is found in this area. If not in this area, the {@creature boggle|MPMM} is in area 36. See area 36 for details on the identity of Sticky and Slippy."
 									]
 								},
 								{
@@ -5522,7 +5522,7 @@
 							"id": "17b",
 							"entries": [
 								"In response to any reaction or questions, the agent proudly explains how the partially functioning {@i Infernal Machine} was used to find and capture Lum the Mad, so that he could assist in restoring the machine to its primal state.",
-								"Lum uses the {@creature warlord|VGM} stat block, but is unarmed and has no attacks while under guard. He possesses sufficient knowledge to program the {@i Infernal Machine}, allowing it to fully function according to its description now that the missing components have been restored. In his state of low-grade madness, Lum has no reason to not follow the agent's orders and help bring the machine online. However, he is also able to deactivate the machine, or even cause it to self-destruct\u2014if the characters can convince him to do so with appropriate roleplaying or Charisma checks of your determination."
+								"Lum uses the {@creature warlord|MPMM} stat block, but is unarmed and has no attacks while under guard. He possesses sufficient knowledge to program the {@i Infernal Machine}, allowing it to fully function according to its description now that the missing components have been restored. In his state of low-grade madness, Lum has no reason to not follow the agent's orders and help bring the machine online. However, he is also able to deactivate the machine, or even cause it to self-destruct\u2014if the characters can convince him to do so with appropriate roleplaying or Charisma checks of your determination."
 							]
 						},
 						{
@@ -6088,7 +6088,7 @@
 			"page": 51,
 			"id": "1af",
 			"entries": [
-				"This section presents new monsters and nonplayer characters introduced in {@i Infernal Machine Rebuild}, as well as stat blocks from the {@book Monster Manual|MM}, {@book Volo's Guide to Monsters|VGM}, {@book Mordenkainen's Tome of Foes|MTF}, and other books.",
+				"This section presents new monsters and nonplayer characters introduced in {@i Infernal Machine Rebuild}, as well as stat blocks from the {@book Monster Manual|MM}, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, and other books.",
 				{
 					"type": "list",
 					"columns": 4,
@@ -6097,7 +6097,7 @@
 						"{@creature \"The Demogorgon\"|IMR}",
 						"{@creature Lynx Creatlach|IMR}",
 						"{@creature Sir Ursas|IMR}",
-						"{@creature Master Thief|vgm}",
+						"{@creature Master Thief|mpmm}",
 						"{@creature Moghadam|IMR}",
 						"{@creature Sir Ursas|IMR}",
 						"{@creature Thessalar|IMR}",

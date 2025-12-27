@@ -1494,7 +1494,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@creature Bavlorna Blightstraw|WBtW}'s thief is one of her lornlings\u2014a miniature version of herself. Use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8} to represent this toad-like creature.",
+												"{@creature Bavlorna Blightstraw|WBtW}'s thief is one of her lornlings\u2014a miniature version of herself. Use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8} to represent this toad-like creature.",
 												"{@creature Skabatha Nightshade|WBtW}'s thief is Sowpig, a Small {@creature ghoul} with 17 ({@dice 5d6}) hit points. She appears as a little, gray-skinned girl wearing a pig mask and holding an oversized lollipop.",
 												"{@creature Endelyn Moongrave|WBtW}'s thief is the {@creature detached shadow|WBtW} of Gleam, a high elf acrobat who wears a crescent moon mask. (Gleam herself has vanished from the carnival. The characters won't meet her until {@adventure chapter 4|WBtW|4}.) Gleam's {@creature detached shadow|WBtW} uses the {@creature shadow} stat block, except it is a Fey instead of an Undead. A creature whose Strength is reduced to 0 by the shadow's Strength Drain attack does not die but falls {@condition unconscious} instead. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
 											]
@@ -6557,7 +6557,7 @@
 												"The balloon is not made of fabric, but rather appears to be a roiling, dark rain cloud that has been contained somehow with lines and netting."
 											]
 										},
-										"Two {@creature Darkling|VGM|darklings} (see {@adventure appendix C|WBtW|8}) named Trinket and Bauble look after the balloon and lurk inside the cramped merchant's stall, which is open for business. Their boss, Charm, is a {@creature darkling elder|VGM} (see appendix C) who is presently visiting {@creature Bavlorna Blightstraw|WBtW} in her cottage.",
+										"Two {@creature Darkling|MPMM|darklings} (see {@adventure appendix C|WBtW|8}) named Trinket and Bauble look after the balloon and lurk inside the cramped merchant's stall, which is open for business. Their boss, Charm, is a {@creature darkling elder|MPMM} (see appendix C) who is presently visiting {@creature Bavlorna Blightstraw|WBtW} in her cottage.",
 										"Charm travels around Prismeer in her \"rain cloud balloon\" while posing as a merchant. She is actually a burglar working for Bavlorna's sister, {@creature Endelyn Moongrave|WBtW}. Charm has come to Downfall to steal treasure from under Bavlorna's nose. Trinket and Bauble guard the stall while Charm sees to the real business of carrying out her heist (described later in the chapter).",
 										"Trinket and Bauble greet their customers with plenty of sass. Since their business is a front, they don't care whether they sell anything or not.",
 										{
@@ -7034,7 +7034,7 @@
 									"page": 87,
 									"id": "1a4",
 									"entries": [
-										"Bavlorna's paranoia leads her to rely primarily on servants that she creates herself. The most common among them are her lornlings (use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8}). These tiny creatures look like miniature versions of Bavlorna. They are quick and flit about the cottage at her bidding."
+										"Bavlorna's paranoia leads her to rely primarily on servants that she creates herself. The most common among them are her lornlings (use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8}). These tiny creatures look like miniature versions of Bavlorna. They are quick and flit about the cottage at her bidding."
 									]
 								},
 								{
@@ -7904,7 +7904,7 @@
 													]
 												},
 												"If anyone steps onto the balcony, the hundreds of harmless {@creature Frog||frogs} on the balcony croak in unison, alerting Bavlorna wherever she happens to be in the cottage. If one or more of the frogs are killed, the rest leap into the lake below.",
-												"If she hears the croaking frogs, Bavlorna sends three of her lornlings (use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8}) to investigate and report back to her. They avoid combat."
+												"If she hears the croaking frogs, Bavlorna sends three of her lornlings (use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8}) to investigate and report back to her. They avoid combat."
 											]
 										},
 										{
@@ -8003,7 +8003,7 @@
 														"The room is filthy. Dirty dishes and bits of discarded food lie everywhere. The furniture was perhaps once of fine quality, but now stains of mysterious origin mottle every surface, and the upholstery has been patched numerous times. Set with its back to the wall in one corner is a hulking wooden cabinet. Sturdy legs support the bottom of the cabinet six inches above the floor. A decrepit wooden staircase climbs up the wall in another corner."
 													]
 												},
-												"The toad-like creature is {@creature Bavlorna Blightstraw|WBtW} (see {@area appendix B|450|x}), and she is joined by two of her lornlings (use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8}). Bavlorna has not submerged herself in her preservation pool in some time, and her skin is brittle and cracked. If she has been warned about intruders, Bavlorna fixes her bulging eyes on the characters as they come into view:",
+												"The toad-like creature is {@creature Bavlorna Blightstraw|WBtW} (see {@area appendix B|450|x}), and she is joined by two of her lornlings (use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8}). Bavlorna has not submerged herself in her preservation pool in some time, and her skin is brittle and cracked. If she has been warned about intruders, Bavlorna fixes her bulging eyes on the characters as they come into view:",
 												{
 													"type": "insetReadaloud",
 													"id": "1c5",
@@ -8013,7 +8013,7 @@
 												},
 												"See \"Dealing with Bavlorna\" below for advice on how to run an encounter with the hag, keeping in mind the rules of hospitality, ownership, and reciprocity to which she adheres (see \"{@area Rules of Conduct|105|x}\" earlier in the chapter).",
 												"Bavlorna has an iron key tucked in one of the pockets of her garment; this key unlocks the door to {@area area B19|1df|x}.",
-												"The tall, slender figure in black is Charm, a {@creature darkling elder|VGM} (see appendix C) who works for {@creature Endelyn Moongrave|WBtW} as a thief but poses as a traveling merchant. When the characters arrive, Charm is gossiping with Bavlorna about the hag's sisters, Endelyn and Skabatha. The conversation is a distraction, buying time for Charm's shadow to perpetrate a heist in area B19. Characters who have a passive Wisdom ({@skill Perception}) score of 13 or higher notice that the black-clad figure doesn't cast a shadow. This is not a trait that darklings possess, but rather the result of Endelyn's using her {@item scissors of shadow snipping|WBtW} (see {@adventure appendix A|WBtW|6}) to cut loose Charm's shadow and transform it into a separate creature. See {@adventure chapter 4|WBtW|4} for more information on Endelyn and her magic scissors.",
+												"The tall, slender figure in black is Charm, a {@creature darkling elder|MPMM} (see appendix C) who works for {@creature Endelyn Moongrave|WBtW} as a thief but poses as a traveling merchant. When the characters arrive, Charm is gossiping with Bavlorna about the hag's sisters, Endelyn and Skabatha. The conversation is a distraction, buying time for Charm's shadow to perpetrate a heist in area B19. Characters who have a passive Wisdom ({@skill Perception}) score of 13 or higher notice that the black-clad figure doesn't cast a shadow. This is not a trait that darklings possess, but rather the result of Endelyn's using her {@item scissors of shadow snipping|WBtW} (see {@adventure appendix A|WBtW|6}) to cut loose Charm's shadow and transform it into a separate creature. See {@adventure chapter 4|WBtW|4} for more information on Endelyn and her magic scissors.",
 												{
 													"type": "image",
 													"href": {
@@ -8159,7 +8159,7 @@
 													]
 												},
 												"The butcher's block is a slab of blood-encrusted wood that occupies the middle of the kitchen. Dirty cutlery and mismatched plates and pots balance in precarious piles in and around a wooden wash basin.",
-												"The small figure is a female {@creature redcap|VGM} (see {@adventure appendix C|WBtW|8}) named Bloody Toes. She was carving up some meat when two {@creature Vulture||vultures} flew in through the door to the balcony (area B14). The characters' presence doesn't alarm or bother her. In fact, she asks the characters for help in getting rid of the vultures.",
+												"The small figure is a female {@creature redcap|MPMM} (see {@adventure appendix C|WBtW|8}) named Bloody Toes. She was carving up some meat when two {@creature Vulture||vultures} flew in through the door to the balcony (area B14). The characters' presence doesn't alarm or bother her. In fact, she asks the characters for help in getting rid of the vultures.",
 												"Bloody Toes serves Bavlorna as a chef and butcher. The hag has forbidden the redcap from attacking or murdering guests, so Bloody Toes fights only in self-defense. The redcap despises everyone and everything, but she hates Bavlorna most of all. If the characters claim to be at odds with Bavlorna, the redcap reveals that Bavlorna has a weakness: she is allergic to seeing anyone run widdershins (in tight counterclockwise circles) near her. Such a sight causes the hag to sneeze uncontrollably."
 											]
 										},
@@ -8212,7 +8212,7 @@
 														"This room has two exits. Above each door, mounted on a wooden plaque, is a severed goblin head with its mouth agape. Other furnishings include a sideboard, two cupboards with doors made of wood-framed glass, and a large banquet table covered with plates of half-eaten food and a swarm of feasting flies. A chandelier hangs above the table, its tallow candles filling the room with dim, flickering light. Six mismatched chairs flank the table\u2014three chairs per side."
 													]
 												},
-												"Two of Bavlorna's lornlings (use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8}) hide in the mouths of the severed goblin heads mounted above the doors. Any character who peers into one of these gaping mouths spots the lornling hidden in it. The lornling stares back at the character but doesn't attack.",
+												"Two of Bavlorna's lornlings (use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8}) hide in the mouths of the severed goblin heads mounted above the doors. Any character who peers into one of these gaping mouths spots the lornling hidden in it. The lornling stares back at the character but doesn't attack.",
 												"These lornlings know that Bavlorna has a magic mirror (in {@area area B1|1a6|x}) that can transport creatures to the Witchlight Carnival, and they trade this information in exchange for their lives. Each of them has overheard Bavlorna speak the mirror's command word (\"bandersnatch\"), but they can't remember or pronounce the word accurately. Instead, they say phrases such as, \"blunder scratch,\" \"bangle stash,\" \"banter catch,\" \"bandy crasher,\" \"bumble snatch,\" and \"babble scrabble.\""
 											]
 										},
@@ -8796,7 +8796,7 @@
 												"Eight tiny houses made of woven twigs are nestled among the boughs of the tree. Squirrels dart nervously around these wee domiciles."
 											]
 										},
-										"The tree is dying due to the presence of the evil hag: it has simply given up the will to live. The tree is home to twenty-four {@creature Pixie||pixies}, all of which are {@condition invisible} when the characters first arrive. The pixies share their twig houses with three families of squirrels. Less than an hour ago, three {@creature Redcap|VGM|redcaps} emerged from the woods and started throwing rocks at the pixie houses, trying to destroy them out of spite. The pixies retaliated by polymorphing the redcaps into {@creature Goat||goats}. When the {@spell polymorph} spells wear off in about 10 minutes, the pixies plan to polymorph the redcaps again unless they leave immediately. The pixies are unaccustomed to dealing with redcaps and don't know what else to do.",
+										"The tree is dying due to the presence of the evil hag: it has simply given up the will to live. The tree is home to twenty-four {@creature Pixie||pixies}, all of which are {@condition invisible} when the characters first arrive. The pixies share their twig houses with three families of squirrels. Less than an hour ago, three {@creature Redcap|MPMM|redcaps} emerged from the woods and started throwing rocks at the pixie houses, trying to destroy them out of spite. The pixies retaliated by polymorphing the redcaps into {@creature Goat||goats}. When the {@spell polymorph} spells wear off in about 10 minutes, the pixies plan to polymorph the redcaps again unless they leave immediately. The pixies are unaccustomed to dealing with redcaps and don't know what else to do.",
 										"If the characters approach the tree and do not appear threatening, three pixies named Amaryllis, Calluna, and Zinnia become visible and warn the characters not to slay the goats, lest they transform back into redcaps. The pixies are nonviolent and would appreciate the characters' help. One thing the characters can do is gather up the redcaps' sickles (which they dropped when they started throwing rocks at the tree). The seizure of these weapons causes the goats to attack.",
 										"If they are deprived of their weapons and returned to their normal forms, the redcaps stomp their iron boots and demand that their sickles be returned to them. If the characters refuse to do so, the redcaps scream in fury and swear profusely before stomping away. Without their sickles, these redcaps are all bluster. If their weapons are returned to them, the redcaps attack the characters, hoping to soak their hats in the characters' blood. If the characters seem unable to deal with the redcaps on their own, the pixies use their magic to assist.",
 										"Once the redcaps are no longer a threat, the pixies share the following information with the characters:",
@@ -9487,7 +9487,7 @@
 									"page": 114,
 									"id": "22a",
 									"entries": [
-										"The despair of Loomlurch's children has given rise to six {@creature Boggle|VGM|boggles} (see {@adventure appendix C|WBtW|8}), three in area L4 and three in {@area area L12|26b|x}. These cowardly creatures aren't loyal to the hag, yet she tolerates them for the distress they cause the children."
+										"The despair of Loomlurch's children has given rise to six {@creature Boggle|MPMM|boggles} (see {@adventure appendix C|WBtW|8}), three in area L4 and three in {@area area L12|26b|x}. These cowardly creatures aren't loyal to the hag, yet she tolerates them for the distress they cause the children."
 									]
 								},
 								{
@@ -9516,7 +9516,7 @@
 									"page": 115,
 									"id": "22c",
 									"entries": [
-										"Whenever Skabatha's windup key runs down, her anger boils over, causing {@dice 1d3} murderous {@creature Redcap|VGM|redcaps} (see {@adventure appendix C|WBtW|8}) to sprout in {@area area L15|282|x}. These redcaps are too hateful to serve as guards, so Skabatha sends them scuttling off into Thither to wreak havoc. Until she does so, the redcaps remain in area L15 and attack other creatures on sight."
+										"Whenever Skabatha's windup key runs down, her anger boils over, causing {@dice 1d3} murderous {@creature Redcap|MPMM|redcaps} (see {@adventure appendix C|WBtW|8}) to sprout in {@area area L15|282|x}. These redcaps are too hateful to serve as guards, so Skabatha sends them scuttling off into Thither to wreak havoc. Until she does so, the redcaps remain in area L15 and attack other creatures on sight."
 									]
 								},
 								{
@@ -11813,7 +11813,7 @@
 													"page": 119,
 													"id": "242",
 													"entries": [
-														"Three {@creature Boggle|VGM|boggles} (see {@adventure appendix C|WBtW|8}) lurk in the shadows, intending to play pranks on the visitors. Characters who spend a minute or so inside the workshop notice unsettling changes; dolls' heads turn to face them when they're not looking, balls bounce suddenly out of dark corners, or molten tin from the smelting pot splashes on the floor nearby. A character can use an action to try to detect hidden creatures, spotting all three boggles with a successful {@dc 16} Wisdom ({@skill Perception}) check. If they are spotted, the boggles flee to the box in {@area area L7|253|x} and turn its crank, hoping Cradlefall will pop out of the box and defend them. The boggles avoid combat themselves.",
+														"Three {@creature Boggle|MPMM|boggles} (see {@adventure appendix C|WBtW|8}) lurk in the shadows, intending to play pranks on the visitors. Characters who spend a minute or so inside the workshop notice unsettling changes; dolls' heads turn to face them when they're not looking, balls bounce suddenly out of dark corners, or molten tin from the smelting pot splashes on the floor nearby. A character can use an action to try to detect hidden creatures, spotting all three boggles with a successful {@dc 16} Wisdom ({@skill Perception}) check. If they are spotted, the boggles flee to the box in {@area area L7|253|x} and turn its crank, hoping Cradlefall will pop out of the box and defend them. The boggles avoid combat themselves.",
 														"If Squirt is with the party, it encourages the characters to acquire as much boggle oil as they can. Only slippery boggle oil will do (see the \"Boggle Oil\" sidebar). Captured boggles provide the oil freely, hoping to earn their freedom."
 													]
 												},
@@ -11838,7 +11838,7 @@
 															"page": 119,
 															"id": "244",
 															"entries": [
-																"A {@creature boggle|VGM} excretes oil from its pores and can make the oil slippery or sticky. {@creature Squirt the oilcan|WBtW} needs slippery boggle oil to use its Boggle Oil action, and it can hold up to three applications of the oil. Boggle oil normally evaporates after 1 hour, but the oil is preserved indefinitely inside Squirt.",
+																"A {@creature boggle|MPMM} excretes oil from its pores and can make the oil slippery or sticky. {@creature Squirt the oilcan|WBtW} needs slippery boggle oil to use its Boggle Oil action, and it can hold up to three applications of the oil. Boggle oil normally evaporates after 1 hour, but the oil is preserved indefinitely inside Squirt.",
 																"When a boggle creates a puddle of slippery oil on the ground, a character can scoop up {@dice 1d3} applications of the oil from the puddle (a process that takes 1 minute) before the oil disappears.",
 																"A friendly boggle will create three applications of boggle oil in exchange for a gift of equal perceived value, such as a trinket. An indifferent boggle expects a better gift for the same amount of oil, such as a bag of candy, a gemstone, or a magnifying glass. An unfriendly or hostile boggle won't cooperate unless it is captured and forced to create oil to avoid punishment."
 															]
@@ -12323,7 +12323,7 @@
 													"page": 125,
 													"id": "26e",
 													"entries": [
-														"Three {@creature Boggle|VGM|boggles} (see {@adventure appendix C|WBtW|8}) play tricks on the child workers when no one else is around. The boggles are hidden in the corners of the room when the characters arrive, though the children shoot fearful glances at the boggles in the hope that the characters will notice what's going on. A character can use an action to try to spot the hidden boggles, doing so with a successful {@dc 16} Wisdom ({@skill Perception}) check. Because of the children's fearful glances, the characters have advantage on this check. The boggles avoid combat, surrendering if they face certain harm.",
+														"Three {@creature Boggle|MPMM|boggles} (see {@adventure appendix C|WBtW|8}) play tricks on the child workers when no one else is around. The boggles are hidden in the corners of the room when the characters arrive, though the children shoot fearful glances at the boggles in the hope that the characters will notice what's going on. A character can use an action to try to spot the hidden boggles, doing so with a successful {@dc 16} Wisdom ({@skill Perception}) check. Because of the children's fearful glances, the characters have advantage on this check. The boggles avoid combat, surrendering if they face certain harm.",
 														"If Squirt is with the party, it encourages the characters to acquire as much slippery boggle oil as they can (see the \"{@area Boggle Oil|244|x}\" sidebar earlier in the chapter). Captured boggles provide the oil freely, hoping to earn their freedom."
 													]
 												},
@@ -12562,7 +12562,7 @@
 												"To one side of the giant, toppled tree is a grove of bearded willows on the bank of a murky woodland pond. A patch of tilled earth spreads beneath their boughs. The caps of several red toadstools are just beginning to emerge from the loam."
 											]
 										},
-										"The toadstools are the tips of the hats worn by six {@creature Redcap|VGM|redcaps} (see {@adventure appendix C|WBtW|8}) that are forming under the earth. Any creature that tries to pick a toadstool causes its redcap to rise up out of the earth, outraged at being awakened early. This redcap is not fully formed and has half its normal hit points.",
+										"The toadstools are the tips of the hats worn by six {@creature Redcap|MPMM|redcaps} (see {@adventure appendix C|WBtW|8}) that are forming under the earth. Any creature that tries to pick a toadstool causes its redcap to rise up out of the earth, outraged at being awakened early. This redcap is not fully formed and has half its normal hit points.",
 										"Whenever Granny Nightshade's key stops turning, {@dice 1d3} redcaps emerge fully grown from this patch, leaving any remaining redcaps under the soil, still not fully formed. The risen redcaps loiter here until they see something they can kill or until Granny Nightshade gives them a mission.",
 										"The redcaps are hostile toward creatures other than Granny Nightshade. However, if a redcap is offered a gift, it accepts the gift and becomes so angry at the thought of having to reciprocate (see \"{@area Rules of Conduct|105|x}\" in {@adventure chapter 2|WBtW|2}) that it clutches its chest and keels over dead at the start of its next turn."
 									]
@@ -12786,7 +12786,7 @@
 								{
 									"type": "list",
 									"items": [
-										"Lockbury Henge, a meeting place for {@creature Korred|VGM|korreds} (see {@adventure appendix C|WBtW|8}) who can give directions to Brigganock Mine",
+										"Lockbury Henge, a meeting place for {@creature Korred|MPMM|korreds} (see {@adventure appendix C|WBtW|8}) who can give directions to Brigganock Mine",
 										"Brigganock Mine, where wish stones are unearthed by tiny creatures called {@creature Brigganock|WBtW|brigganocks} (see {@adventure appendix C|WBtW|8})",
 										"Pillars of rock called the Fey Beacons, which are clearly visible from Lockbury Henge"
 									]
@@ -13171,7 +13171,7 @@
 									"id": "2ab",
 									"entries": [
 										"Eight {@creature Goblin||goblins} (neutral) shuffle into view, solemnly ringing handbells. They wear headdresses made from animal skulls (badgers, wolves, and rams) and are further adorned with necklaces of dangling bones. Known as the Dead Ringers, they sound their bells to comfort the dead, whom they believe lie in the rock beneath their feet.",
-										"The goblins are interested in talking to strangers and are willing to trade their services for a trinket. They have the power to commune with the dead by forming a circle and ringing their bells. (A minimum of three goblins are needed to perform the ritual.) After 1 minute of this clamor, the ephemeral spirit of a {@creature korred|VGM} (see {@adventure appendix C|WBtW|8}) or some other departed Fey creature rises from the ground between the goblins. The spirit answers three questions put to it, as though it was targeted by a {@spell speak with dead} spell. Use the spirit to communicate as much useful information as you want; ideally, the characters should learn at least one fact that might help them in a future encounter.",
+										"The goblins are interested in talking to strangers and are willing to trade their services for a trinket. They have the power to commune with the dead by forming a circle and ringing their bells. (A minimum of three goblins are needed to perform the ritual.) After 1 minute of this clamor, the ephemeral spirit of a {@creature korred|MPMM} (see {@adventure appendix C|WBtW|8}) or some other departed Fey creature rises from the ground between the goblins. The spirit answers three questions put to it, as though it was targeted by a {@spell speak with dead} spell. Use the spirit to communicate as much useful information as you want; ideally, the characters should learn at least one fact that might help them in a future encounter.",
 										"The goblins require one trinket as payment each time they commune with a spirit. After performing this ritual three times, the goblins must finish a long rest to regain their spirit-summoning power."
 									]
 								},
@@ -13274,7 +13274,7 @@
 							"page": 141,
 							"id": "2b0",
 							"entries": [
-								"Yon is home to eight clans of {@creature Korred|VGM|korreds}. Queen Argantle, elected to rule over all eight clans, protects this sacred site. Lockbury Henge is meant to be a place where korreds can enjoy each other's company while singing, dancing, and playing games.",
+								"Yon is home to eight clans of {@creature Korred|MPMM|korreds}. Queen Argantle, elected to rule over all eight clans, protects this sacred site. Lockbury Henge is meant to be a place where korreds can enjoy each other's company while singing, dancing, and playing games.",
 								"Argantle is playing a chess-like game called Crowns with her cousin, Jagu, when a howling wind warns her of the party's approach, giving her and Jagu enough time to stamp out the flame of their campfire and make themselves scarce before the characters arrive.",
 								{
 									"type": "insetReadaloud",
@@ -13283,19 +13283,19 @@
 										"Atop a boulder-strewn plateau stands a circle of eight megaliths. In the center of this henge, a small, checkered game board with stone playing pieces rests on the ground near the dying embers of a campfire."
 									]
 								},
-								"Each of the eight standing stones is about 20 feet tall and hewn from a different kind of rock: shale, chalk, flint, granite, slate, basalt, obsidian, and marble. Two {@creature Korred|VGM|korreds} (see {@adventure appendix C|WBtW|8}) are using {@spell meld into stone} spells to hide in two of the megaliths: Argantle of Shale in the one made of shale, and Jagu of Chalk (leader of the Chalk Clan korreds) in the one made of chalk. While hidden in this way, the korreds can see their surroundings as though the standing stones were transparent instead of opaque. Characters who examine the campfire and succeed on a {@dc 12} Wisdom ({@skill Survival}) check notice two sets of small, sooty hoofprints leading up to the stones where the korreds are hiding.",
+								"Each of the eight standing stones is about 20 feet tall and hewn from a different kind of rock: shale, chalk, flint, granite, slate, basalt, obsidian, and marble. Two {@creature Korred|MPMM|korreds} (see {@adventure appendix C|WBtW|8}) are using {@spell meld into stone} spells to hide in two of the megaliths: Argantle of Shale in the one made of shale, and Jagu of Chalk (leader of the Chalk Clan korreds) in the one made of chalk. While hidden in this way, the korreds can see their surroundings as though the standing stones were transparent instead of opaque. Characters who examine the campfire and succeed on a {@dc 12} Wisdom ({@skill Survival}) check notice two sets of small, sooty hoofprints leading up to the stones where the korreds are hiding.",
 								{
 									"type": "inset",
 									"name": "Brigganocks and Korreds",
 									"page": 141,
 									"id": "2b2",
 									"entries": [
-										"The {@creature Brigganock|WBtW|brigganocks} who live under the mountains of Yon are at odds with the {@creature Korred|VGM|korreds} who live on the slopes and peaks. Each group believes that the other is in league with {@creature Endelyn Moongrave|WBtW}, not realizing that the hag is a menace to both. The characters encounter the korreds at Lockbury Henge and the brigganocks at Brigganock Mine. For more information about these Fey creatures, see {@adventure appendix C|WBtW|8}.",
+										"The {@creature Brigganock|WBtW|brigganocks} who live under the mountains of Yon are at odds with the {@creature Korred|MPMM|korreds} who live on the slopes and peaks. Each group believes that the other is in league with {@creature Endelyn Moongrave|WBtW}, not realizing that the hag is a menace to both. The characters encounter the korreds at Lockbury Henge and the brigganocks at Brigganock Mine. For more information about these Fey creatures, see {@adventure appendix C|WBtW|8}.",
 										"If the characters discover that the brigganocks are not allied with Endelyn and convey this information to the korreds, Queen Argantle of the korreds promptly arranges a meeting with the brigganocks to sort out their differences. Similarly, if the characters convince the brigganocks that the korreds don't work for Endelyn, the brigganocks agree to meet the korreds outside the mine. After this meeting, the korreds and the brigganocks unite to aid the characters in Motherhorn (as described in the \"{@area Fey to the Rescue!|2d9|x}\" sidebar later in the chapter)."
 									]
 								},
 								"Argantle and Jagu emerge from their megaliths if the characters properly finish the korreds' game of Crowns (see \"Game Board\" below). If the characters ruin the game, deface the standing stones, or otherwise irritate the korreds, Argantle and Jagu emerge from their megaliths and attack the characters for their insolence. Otherwise, the rule of hospitality (see \"{@area Rules of Conduct|105|x}\" in {@adventure chapter 2|WBtW|2}) prevents the korreds from harming the characters. {@adventure Appendix D|WBtW|9} has additional roleplaying notes for Argantle.",
-								"As an action, Argantle can call forth the remaining six leaders of the korred clans of Yon, each one emerging from its corresponding megalith. If combat breaks out, these six {@creature Korred|VGM|korreds} help Argantle capture the characters for questioning. The other korred clan leaders are Budoc of Flint, Azil of Granite, Myzelda of Slate, Yanna of Basalt, Noll of Obsidian, and Malo of Marble.",
+								"As an action, Argantle can call forth the remaining six leaders of the korred clans of Yon, each one emerging from its corresponding megalith. If combat breaks out, these six {@creature Korred|MPMM|korreds} help Argantle capture the characters for questioning. The other korred clan leaders are Budoc of Flint, Azil of Granite, Myzelda of Slate, Yanna of Basalt, Noll of Obsidian, and Malo of Marble.",
 								"The korreds of Yon despise {@creature Endelyn Moongrave|WBtW}, whom they commonly refer to as Bitter End. If the characters convince Argantle that they also consider the hag an enemy, she reveals the following:",
 								{
 									"type": "list",
@@ -13793,11 +13793,11 @@
 											"page": 150,
 											"id": "2d9",
 											"entries": [
-												"If the characters helped the korreds and brigganocks settle their differences earlier in the chapter, they offer to help the characters in return. Twelve {@creature Brigganock|WBtW|brigganocks} hanging from the beards of three {@creature Korred|VGM|korreds} arrive on the outskirts of Motherhorn at an agreed-upon time, ready to spring into action if the characters call for aid (see {@adventure appendix C|WBtW|8} for their stat blocks).",
+												"If the characters helped the korreds and brigganocks settle their differences earlier in the chapter, they offer to help the characters in return. Twelve {@creature Brigganock|WBtW|brigganocks} hanging from the beards of three {@creature Korred|MPMM|korreds} arrive on the outskirts of Motherhorn at an agreed-upon time, ready to spring into action if the characters call for aid (see {@adventure appendix C|WBtW|8} for their stat blocks).",
 												"If one or more characters cry out for assistance in Motherhorn, the brigganocks and korreds hear the call for help and react quickly. The korreds barrel out of the secret tunnel in {@area area M12|31c|x} or scale the theater's walls using ropes made of korred hair, and the brigganocks use their {@spell darkness}, {@spell faerie fire}, {@spell silence}, and {@spell sleep} spells to confound and neutralize Endelyn's minions. The Fey try not to steal the show; their goal is to distract Endelyn's minions so the characters can wriggle out of a tight spot or confront the hag without her lackeys."
 											]
 										},
-										"If the characters decline to perform a play for her, Endelyn demands that they leave at once, ordering her {@creature Darkling|VGM|darklings} to attack characters who refuse to do so. In the ensuing fracas, characters who are reduced to 0 hit points are knocked {@condition unconscious}, stripped of their gear, and locked in the prison ({@area area M17|32f|x}) until Endelyn decides what to do with them. (Stagefright leads the way to the prison, since his fool's scepter is needed to open the prison's front door.) If Endelyn finds no other use for imprisoned characters, she turns them into masks using the arcane device in {@area area M8|309|x}.",
+										"If the characters decline to perform a play for her, Endelyn demands that they leave at once, ordering her {@creature Darkling|MPMM|darklings} to attack characters who refuse to do so. In the ensuing fracas, characters who are reduced to 0 hit points are knocked {@condition unconscious}, stripped of their gear, and locked in the prison ({@area area M17|32f|x}) until Endelyn decides what to do with them. (Stagefright leads the way to the prison, since his fool's scepter is needed to open the prison's front door.) If Endelyn finds no other use for imprisoned characters, she turns them into masks using the arcane device in {@area area M8|309|x}.",
 										"Characters who come to Motherhorn bearing invitations from a pageant wagon (see \"{@area Random Encounters in Yon|2ad|x}\" earlier in the chapter) can skip the performance and jump straight to the private audience.",
 										"Assuming that the characters' performance or the presentation of their invitations puts Endelyn in a bargaining mood, she agrees to part with one creature or object in her possession, but only if the characters give her one of the following items in exchange:",
 										{
@@ -16453,7 +16453,7 @@
 													"page": 155,
 													"id": "2ec",
 													"entries": [
-														"Seated on the stone benches and facing the stage are twenty-five {@creature Darkling|VGM|darklings} (see {@adventure appendix C|WBtW|8}) wearing cloaks and hoods. Endelyn forces them to watch rehearsals as well as performances, not only to torment the darklings but also to make sure the actors and the goblin stagehands behave themselves. Despite the poor treatment they receive from her, the darklings defend Endelyn and obey her commands without question."
+														"Seated on the stone benches and facing the stage are twenty-five {@creature Darkling|MPMM|darklings} (see {@adventure appendix C|WBtW|8}) wearing cloaks and hoods. Endelyn forces them to watch rehearsals as well as performances, not only to torment the darklings but also to make sure the actors and the goblin stagehands behave themselves. Despite the poor treatment they receive from her, the darklings defend Endelyn and obey her commands without question."
 													]
 												},
 												{
@@ -16676,7 +16676,7 @@
 												"This magnificent hall is lined with stone bookshelves housing a library of leather-bound tomes. Three elderly, bespectacled goblins climb ladders to fetch books for three slender, cloaked figures who are reading while seated in overstuffed armchairs."
 											]
 										},
-										"The three goblins (neutral) are unarmed noncombatants who keep this library clean and organized. The cloaked figures seated in the armchairs are three {@creature Darkling Elder|VGM|darkling elders} (see {@adventure appendix C|WBtW|8}) who read to pass the time. Endelyn recently informed them that she's expecting visitors, so the elders aren't surprised to see the characters and are initially indifferent toward them. That indifference turns to hostility if the characters attack the elders.",
+										"The three goblins (neutral) are unarmed noncombatants who keep this library clean and organized. The cloaked figures seated in the armchairs are three {@creature Darkling Elder|MPMM|darkling elders} (see {@adventure appendix C|WBtW|8}) who read to pass the time. Endelyn recently informed them that she's expecting visitors, so the elders aren't surprised to see the characters and are initially indifferent toward them. That indifference turns to hostility if the characters attack the elders.",
 										{
 											"type": "entries",
 											"id": "301",
@@ -16774,7 +16774,7 @@
 										},
 										"Endelyn uses the lightning-powered arcane device in this room to punish those who irritate her. The device has 3 charges and regains all expended charges after 8 hours. Pulling the lever expends 1 charge and causes a line of golden lightning, 10 feet long and 5 feet wide, to flash between the two copper spheres. Any creature in this line must succeed on a {@dc 16} Wisdom saving throw or be magically transformed into an inanimate wooden mask, along with whatever it is wearing or carrying. The mask bears a striking resemblance to the creature's visage, and the transformation lasts until the mask is targeted by a successful {@spell dispel magic} spell ({@dc 19}). Every mask created in this fashion is a Tiny wooden object with AC 15, 5 hit points, and immunity to poison and psychic damage. A mask that is reduced to 0 hit points is destroyed and can't be transformed back into the creature it once was.",
 										"Each copper rod is a Medium object with AC 15, 18 hit points, and immunity to lightning, poison, and psychic damage. The lever is a Small object with AC 15, 10 hit points, and immunity to poison and psychic damage. Destroying the lever or either rod renders the device inoperable until it is repaired.",
-										"The creature holding the lever is a {@creature darkling elder|VGM} (see {@adventure appendix C|WBtW|8}) who takes sadistic pleasure in turning other creatures into masks. A female {@creature goblin} (neutral) named Vig is locked in one of the cages and is doomed to suffer the same fate as her friend, Binky, unless the characters intervene on her behalf. Both goblins worked the cranes in {@area area M2|2e8|x} until they accidentally dropped a backdrop in the middle of a performance, ruining the show and angering Endelyn. If the characters attack the darkling elder, it fights back. At the same time, Vig shouts in Common, \"Leave me to my fate! Bitter End can do worse than turn me into a mask!\"",
+										"The creature holding the lever is a {@creature darkling elder|MPMM} (see {@adventure appendix C|WBtW|8}) who takes sadistic pleasure in turning other creatures into masks. A female {@creature goblin} (neutral) named Vig is locked in one of the cages and is doomed to suffer the same fate as her friend, Binky, unless the characters intervene on her behalf. Both goblins worked the cranes in {@area area M2|2e8|x} until they accidentally dropped a backdrop in the middle of a performance, ruining the show and angering Endelyn. If the characters attack the darkling elder, it fights back. At the same time, Vig shouts in Common, \"Leave me to my fate! Bitter End can do worse than turn me into a mask!\"",
 										"As an action, a character using thieves' tools can try to pick the lock on either cage or the shackles on the chair, doing so with a successful {@dc 12} Dexterity check. The darkling carries a ring of three keys, two of which open the padlocks on the cages; the third key unlocks the chair's shackles.",
 										"Endelyn's poor treatment of her notwithstanding, Vig wants to please the hag. The goblin enjoys working at Motherhorn, though she dislikes Stagefright, the goblin master of ceremonies. Vig knows her way around Motherhorn and shares the following information with her rescuers:",
 										{
@@ -17150,7 +17150,7 @@
 												"An enormous flying balloon made from a bulging rain cloud is tethered to the balcony's battlements."
 											]
 										},
-										"If Charm the {@creature darkling elder|VGM} and her two cohorts, the {@creature Darkling|VGM|darklings} Trinket and Bauble, fled Hither in their rain cloud balloon, all three are lurking in the guest room (see {@adventure appendix C|WBtW|8} for their stat blocks). Charm's {@creature detached shadow|WBtW} is also present unless the characters destroyed it earlier in the adventure. Like other detached shadows found in Motherhorn, Charm's shadow is a Fey, not an Undead. A creature whose Strength is reduced to 0 by the shadow's Strength Drain attack does not die but falls {@condition unconscious} instead. The creature regains consciousness, and the reduction to its Strength score disappears, after it finishes a short or long rest.",
+										"If Charm the {@creature darkling elder|MPMM} and her two cohorts, the {@creature Darkling|MPMM|darklings} Trinket and Bauble, fled Hither in their rain cloud balloon, all three are lurking in the guest room (see {@adventure appendix C|WBtW|8} for their stat blocks). Charm's {@creature detached shadow|WBtW} is also present unless the characters destroyed it earlier in the adventure. Like other detached shadows found in Motherhorn, Charm's shadow is a Fey, not an Undead. A creature whose Strength is reduced to 0 by the shadow's Strength Drain attack does not die but falls {@condition unconscious} instead. The creature regains consciousness, and the reduction to its Strength score disappears, after it finishes a short or long rest.",
 										"If Charm's shadow stole the magic spool of thread from Bavlorna's cottage in {@area chapter 2|1a3|x}, it gave the item to Charm at the earliest opportunity. The darkling elder is patiently awaiting an audience with Endelyn and plans to offer up the spool of thread as a gift to gain the hag's favor. Charm won't give up the spool of thread without a fight.",
 										"The darklings are merchants and thieves, not cold-blooded killers. They take no offense at the characters' intrusion and are willing to do business, provided the characters do not threaten them.",
 										"If the darklings are not here, the room is unoccupied, and no treasure can be found among the tower's furnishings.",
@@ -21260,7 +21260,7 @@
 														"Two {@creature Drow Mage||drow mages} (chaotic good) named Kelchrin and Valtis, who counsel Zybilna on matters concerning demons and the Abyss",
 														"Snitcher, a {@creature goblin boss} (neutral) with dragonfly wings that grant a flying speed of 40 feet and the ability to hover, who brings news from other fey courts and is attended by four similarly winged {@creature Goblin||goblins} (neutral bodyguards)",
 														"Seven {@creature Pixie||pixies} named Bix, Henny, Honeybright, Nightglitter, Starpetal, Trick, and Winterflake",
-														"Two {@creature Quickling|VGM|quicklings} (see {@adventure appendix C|WBtW|8}) who serve Zybilna as messengers and spies"
+														"Two {@creature Quickling|MPMM|quicklings} (see {@adventure appendix C|WBtW|8}) who serve Zybilna as messengers and spies"
 													]
 												}
 											]
@@ -24055,11 +24055,11 @@
 													"rows": [
 														[
 															"Black",
-															"Spymaster Hushknife, a {@creature darkling elder|VGM} (see {@adventure appendix C|WBtW|8})"
+															"Spymaster Hushknife, a {@creature darkling elder|MPMM} (see {@adventure appendix C|WBtW|8})"
 														],
 														[
 															"Blue",
-															"Allegra, a {@creature quickling|VGM} (see {@adventure appendix C|WBtW|8})"
+															"Allegra, a {@creature quickling|MPMM} (see {@adventure appendix C|WBtW|8})"
 														],
 														[
 															"Green",
@@ -24067,7 +24067,7 @@
 														],
 														[
 															"Red",
-															"Sinch the Ruthless, a {@creature redcap|VGM} (see {@adventure appendix C|WBtW|8})"
+															"Sinch the Ruthless, a {@creature redcap|MPMM} (see {@adventure appendix C|WBtW|8})"
 														],
 														[
 															"White",
@@ -24543,7 +24543,7 @@
 									"id": "457",
 									"entries": [
 										"Bavlorna has a toad-like face with a mouth that magically widens and elongates, enabling her to swallow creatures whole. Her bulging eyes move independently, constantly scanning her surroundings. Stained and moldering patchwork garments hide much of the leathery, mummified flesh that stretches over Bavlorna's compact frame and extraordinarily long, spindly limbs. She must submerge herself in a briny concoction for an hour each day, or her body will dry out until it locks up in a kind of living rictus, and she remains that way until submerged. As the hours pass between each immersion, her movements become more ponderous and her skin audibly cracks as she moves.",
-										"Bavlorna lives like a hermit. She is frazzled, impatient, paranoid, and vindictive, lashing out at anyone she thinks is trying to deprive her of the treasures she has tucked away in her cottage. She trusts no one, so she creates tiny duplicates of herself, called lornlings, to serve as her attendants. When she travels away from her lair, she does so on her {@item bobbing lily pad|WBtW} (see {@adventure appendix A|WBtW|6}), accompanied by lornlings, which use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8}."
+										"Bavlorna lives like a hermit. She is frazzled, impatient, paranoid, and vindictive, lashing out at anyone she thinks is trying to deprive her of the treasures she has tucked away in her cottage. She trusts no one, so she creates tiny duplicates of herself, called lornlings, to serve as her attendants. When she travels away from her lair, she does so on her {@item bobbing lily pad|WBtW} (see {@adventure appendix A|WBtW|6}), accompanied by lornlings, which use the {@creature quickling|MPMM} stat block in {@adventure appendix C|WBtW|8}."
 									]
 								},
 								{
@@ -25590,15 +25590,15 @@
 					"type": "list",
 					"columns": 4,
 					"items": [
-						"{@creature Boggle|VGM}",
+						"{@creature Boggle|MPMM}",
 						"{@creature Brigganock|WBtW}",
 						"{@creature Bullywug Knight|WBtW}",
 						"{@creature Bullywug Royal|GoS}",
 						"{@creature Bullywug}",
 						"{@creature Campestri|WBtW}",
 						"{@creature Swarm of Campestris|WBtW}",
-						"{@creature Darkling Elder|VGM}",
-						"{@creature Darkling|VGM}",
+						"{@creature Darkling Elder|MPMM}",
+						"{@creature Darkling|MPMM}",
 						"{@creature Galeb Duhr}",
 						"{@creature Giant Dragonfly|WBtW}",
 						"{@creature Giant Snail|WBtW}",
@@ -25606,10 +25606,10 @@
 						"{@creature Harengon Brigand|WBtW}",
 						"{@creature Harengon Sniper|WBtW}",
 						"{@creature Jabberwock|WBtW}",
-						"{@creature Korred|VGM}",
+						"{@creature Korred|MPMM}",
 						"{@creature Living Doll|WBtW}",
-						"{@creature Quickling|VGM}",
-						"{@creature Redcap|VGM}",
+						"{@creature Quickling|MPMM}",
+						"{@creature Redcap|MPMM}",
 						"{@creature Selenelion Twin|WBtW}"
 					]
 				}

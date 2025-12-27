@@ -2392,8 +2392,8 @@
 		},
 		{
 			"name": "Geryon",
-			"source": "MTF",
-			"page": 173,
+			"source": "MPMM",
+			"page": 136,
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), Geryon can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				{
@@ -2479,8 +2479,8 @@
 		},
 		{
 			"name": "Githzerai Anarch",
-			"source": "MTF",
-			"page": 207,
+			"source": "MPMM",
+			"page": 142,
 			"lairActions": [
 				"An anarch can use lair actions. On initiative count 20 (losing initiative ties), the anarch can take a lair action to cause one of the following effects; the anarch can't use the same effect two rounds in a row:",
 				{
@@ -2721,8 +2721,8 @@
 		},
 		{
 			"name": "Graz'zt",
-			"source": "MTF",
-			"page": 149,
+			"source": "MPMM",
+			"page": 148,
 			"lairActions": [
 				"On Initiative count 20 (losing initiative ties), Graz'zt can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				{
@@ -3227,8 +3227,8 @@
 		},
 		{
 			"name": "Juiblex",
-			"source": "MTF",
-			"page": 151,
+			"source": "MPMM",
+			"page": 160,
 			"lairActions": [
 				"On Initiative count 20 (losing initiative ties), Juiblex can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				{
@@ -3909,8 +3909,8 @@
 		},
 		{
 			"name": "Merrenoloth",
-			"source": "MTF",
-			"page": 250,
+			"source": "MPMM",
+			"page": 180,
 			"lairActions": [
 				"Any ship a merrenoloth is contracted to captain becomes the creature's lair. When fighting on the ship, the merrenoloth can invoke its ability to take lair actions. On initiative count 20 (losing initiative ties), the merrenoloth can take one lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
 				{
@@ -4394,8 +4394,8 @@
 		},
 		{
 			"name": "Orcus",
-			"source": "MTF",
-			"page": 153,
+			"source": "MPMM",
+			"page": 204,
 			"lairActions": [
 				"On Initiative count 20 (losing initiative ties), Orcus can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				{
@@ -6039,8 +6039,8 @@
 		},
 		{
 			"name": "Yeenoghu",
-			"source": "MTF",
-			"page": 155,
+			"source": "MPMM",
+			"page": 270,
 			"lairActions": [
 				"On Initiative count 20 (losing initiative ties), Yeenoghu can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
 				{
@@ -6267,8 +6267,8 @@
 		},
 		{
 			"name": "Zariel",
-			"source": "MTF",
-			"page": 180,
+			"source": "MPMM",
+			"page": 280,
 			"lairActions": [
 				"On initiative count 20 (losing initiative ties), Zariel can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:",
 				{
@@ -6376,8 +6376,8 @@
 		},
 		{
 			"name": "Zuggtmoy",
-			"source": "MTF",
-			"page": 157,
+			"source": "MPMM",
+			"page": 281,
 			"lairActions": [
 				"On Initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:",
 				{

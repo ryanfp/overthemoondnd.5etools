@@ -3584,31 +3584,6 @@
 		},
 		{
 			"name": "Healing Hands",
-			"source": "VGM",
-			"raceName": "Aasimar",
-			"raceSource": "VGM",
-			"activities": [
-				{
-					"type": "damage",
-					"damage": {
-						"parts": [
-							{
-								"custom": {
-									"enabled": true,
-									"formula": "@details.level"
-								},
-								"types": [
-									"healing"
-								]
-							}
-						]
-					}
-				}
-			],
-			"migrationVersion": 3
-		},
-		{
-			"name": "Healing Hands",
 			"source": "XPHB",
 			"raceName": "Aasimar",
 			"raceSource": "XPHB",
@@ -3882,9 +3857,9 @@
 		},
 		{
 			"name": "Natural Armor",
-			"source": "VGM",
+			"source": "MPMM",
 			"raceName": "Lizardfolk",
-			"raceSource": "VGM",
+			"raceSource": "MPMM",
 			"effects": [
 				{
 					"name": "Natural Armor",
@@ -3926,9 +3901,9 @@
 		},
 		{
 			"name": "Radiant Soul",
-			"source": "VGM",
+			"source": "MPMM",
 			"raceName": "Aasimar (Protector)",
-			"raceSource": "VGM",
+			"raceSource": "MPMM",
 			"activities": [
 				{
 					"type": "utility",

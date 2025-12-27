@@ -806,7 +806,7 @@
 					"width": 738,
 					"height": 850
 				},
-				"This book is a revision of content that originally appeared in the books {@book Volo's Guide to Monsters|VGM} (2016) and {@book Mordenkainen's Tome of Foes|MTF} (2018). It also includes revised options from {@adventure Princes of the Apocalypse|PotA} (2015), {@book Eberron: Rising from the Last War|ERLW} (2019), and {@book Mythic Odysseys of Theros|MOT} (2020).",
+				"This book is a revision of content that originally appeared in the books {@i Volo's Guide to Monsters} (2016) and {@i Mordenkainen's Tome of Foes} (2018). It also includes revised options from {@adventure Princes of the Apocalypse|PotA} (2015), {@book Eberron: Rising from the Last War|ERLW} (2019), and {@book Mythic Odysseys of Theros|MOT} (2020).",
 				{
 					"type": "gallery",
 					"images": [

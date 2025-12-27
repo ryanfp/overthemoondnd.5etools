@@ -11251,7 +11251,7 @@
 					"page": 183,
 					"entries": [
 						"This section is a list of creatures in this chapter and in the {@book Monster Manual|MM} that are associated with each guild. Each guild's entry includes a brief discussion of the monsters from the {@book Monster Manual|MM} that could be found among the guild's members, and it includes a table showing monsters sorted by challenge rating.",
-						"Most of these monsters are in this source ({@i GGR}) or the {@book Monster Manual|MM} ({@i MM}), but some of the monsters from {@book Volo's Guide to Monsters|VGM} ({@i VGM}) and {@book Mordenkainen's Tome of Foes|MTF} ({@i MTF}) are also mentioned.",
+						"Most of these monsters are in this source ({@i GGR}) or the {@book Monster Manual|MM} ({@i MM}), but some of the monsters from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} ({@i MPMM}) are mentioned.",
 						{
 							"type": "entries",
 							"name": "Azorius Creatures",
@@ -11555,8 +11555,8 @@
 										],
 										[
 											"5",
-											"{@creature Allip|MTF}",
-											"{@i MTF}"
+											"{@creature Allip|MPMM}",
+											"{@i MPMM}"
 										],
 										[
 											"5",
@@ -11686,8 +11686,8 @@
 												],
 												[
 													"1/4",
-													"{@creature Vegepygmy|VGM}",
-													"{@i VGM}"
+													"{@creature Vegepygmy|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"1/4",
@@ -11716,8 +11716,8 @@
 												],
 												[
 													"1",
-													"{@creature Thorny|VGM}",
-													"{@i VGM}"
+													"{@creature Thorny|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"2",
@@ -11731,8 +11731,8 @@
 												],
 												[
 													"2",
-													"{@creature Vegepygmy chief|VGM}",
-													"{@i VGM}"
+													"{@creature Vegepygmy chief|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"3",
@@ -11781,8 +11781,8 @@
 												],
 												[
 													"8",
-													"{@creature Corpse flower|MTF}",
-													"{@i MTF}"
+													"{@creature Corpse flower|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"14",
@@ -12018,8 +12018,8 @@
 										],
 										[
 											"1/4",
-											"{@creature Apprentice wizard|VGM}",
-											"{@i VGM}"
+											"{@creature Apprentice wizard|MPMM}",
+											"{@i MPMM}"
 										],
 										[
 											"1/4",
@@ -12338,8 +12338,8 @@
 										],
 										[
 											"3",
-											"{@creature Ogre chain brute|MTF}",
-											"{@i MTF}"
+											"{@creature Ogre chain brute|MPMM}",
+											"{@i MPMM}"
 										],
 										[
 											"5",
@@ -12517,8 +12517,8 @@
 												],
 												[
 													"3",
-													"{@creature Archer|VGM}",
-													"{@i VGM}"
+													"{@creature Archer|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"3",
@@ -12542,8 +12542,8 @@
 												],
 												[
 													"5",
-													"{@creature Wood woad|VGM}",
-													"{@i VGM}"
+													"{@creature Wood woad|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"9",
@@ -12557,8 +12557,8 @@
 												],
 												[
 													"12",
-													"{@creature Archdruid|VGM}",
-													"{@i VGM}"
+													"{@creature Archdruid|MPMM}",
+													"{@i MPMM}"
 												],
 												[
 													"12",

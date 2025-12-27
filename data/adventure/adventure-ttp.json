@@ -8,7 +8,7 @@
 			"entries": [
 				"The Snout of Omgar is a geographical region {@adventure described briefly|ToA|2|Snout of Omgar} in {@adventure Tomb of Annihilation|ToA}. Not much is revealed about the location or its inhabitants in that adventure, however. The Tortle Package is written for Dungeon Masters who want to know more about the Snout of Omgar. This supplement also introduces a new playable character race, the {@race tortle|ttp}, and a new adventure location: {@adventure Dangwaru, the Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}.",
 				"Tortles are intelligent, turtle-like humanoids that have a knack for wilderness survival. The race first appeared in early editions of the D&D game, nowhere more prominently than in module X9, The Savage Coast, which was set in the world of Mystara. Tortles, like most other adventurous races, can appear on any D&D world. In the Forgotten Realms, the {@adventure peninsula of Chult|ToA|2} and the Snout of Omgar make good homes for them.",
-				"This supplement assumes that you have the D&D fifth edition core rulebooks ({@book Player's Handbook|phb}, {@book Dungeon Master's Guide|dmg}, and {@book Monster Manual|mm}) as well as {@book Volo's Guide to Monsters|vgm} and {@adventure Tomb of Annihilation|ToA}.",
+				"This supplement assumes that you have the D&D fifth edition core rulebooks ({@book Player's Handbook|phb}, {@book Dungeon Master's Guide|dmg}, and {@book Monster Manual|mm}) as well as {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} and {@adventure Tomb of Annihilation|ToA}.",
 				{
 					"type": "insetReadaloud",
 					"entries": [
@@ -16,7 +16,7 @@
 					],
 					"id": "070"
 				},
-				"The {@book Monster Manual|mm}, {@book Volo's Guide to Monsters|vgm}, and {@adventure Tomb of Annihilation|ToA} contain stat blocks for most of the creatures found herein, and a handful of new monsters appear at the end of this supplement. When a creature's name appears in {@bold bold} type, that's a visual cue pointing you to its stat block in the {@book Monster Manual|mm}. If a stat block appears elsewhere, the text tells you so.",
+				"The {@book Monster Manual|mm}, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, and {@adventure Tomb of Annihilation|ToA} contain stat blocks for most of the creatures found herein, and a handful of new monsters appear at the end of this supplement. When a creature's name appears in {@bold bold} type, that's a visual cue pointing you to its stat block in the {@book Monster Manual|mm}. If a stat block appears elsewhere, the text tells you so.",
 				"Spells and equipment mentioned in the adventure are described in the {@book Player's Handbook|phb}. Magic items are described in the {@book Dungeon Master's Guide|dmg}.",
 				{
 					"type": "section",
@@ -382,7 +382,7 @@
 							"entries": [
 								"{@i tortle guide (Fort Beluarian)}",
 								"When the characters meet Eeyal, give them {@adventure handout A|ttp|4|Handout A: Eeyal}.",
-								"Eeyal is a {@creature tortle|mtf} who wears goggles that she crafted for herself to protect her eyes against volcanic ash. It took her almost a year, but she traveled from the Snout of Omgar to {@adventure Fort Beluarian|ToA|2|Fort Beluarian} on foot, crossing Chult through rough mountains, dense jungles, and undead-infested territory. She's seen {@adventure Lake Luo|ToA|2|Lake luo}, the garden palace of {@adventure Nangalore|ToA|2|Nangalore}, the gorge of {@adventure Ataaz Muhahah|ToA|2|Ataaz Muhahah}, and the ruins of {@adventure Mezro|ToA|2|Mezro}. She even found a shipwreck in the jungle ({@adventure the Wreck of the Narwhal|ToA|2|Wreck of the Narwhal}) and befriended a {@creature weretiger} that lives there.",
+								"Eeyal is a {@creature tortle|MPMM} who wears goggles that she crafted for herself to protect her eyes against volcanic ash. It took her almost a year, but she traveled from the Snout of Omgar to {@adventure Fort Beluarian|ToA|2|Fort Beluarian} on foot, crossing Chult through rough mountains, dense jungles, and undead-infested territory. She's seen {@adventure Lake Luo|ToA|2|Lake luo}, the garden palace of {@adventure Nangalore|ToA|2|Nangalore}, the gorge of {@adventure Ataaz Muhahah|ToA|2|Ataaz Muhahah}, and the ruins of {@adventure Mezro|ToA|2|Mezro}. She even found a shipwreck in the jungle ({@adventure the Wreck of the Narwhal|ToA|2|Wreck of the Narwhal}) and befriended a {@creature weretiger} that lives there.",
 								"A skilled artisan, Eeyal carries a set of {@item smith's tools|phb} and a set of {@item tinker's tools|phb}. She also owns a {@item climber's kit|phb}, a {@item healer's kit|phb}, and a {@item dungeoneer's pack|phb}. This equipment is hooked to a specially crafted leather harness attached to Eeyal's shell. Eeyal claims to have the right tool for every contingency and is so protective of her gear that she insists on carrying it all herself.",
 								"Eeyal is 5 feet, 8 inches tall and weighs 420 pounds.",
 								"Although she's only 17 years old, her demeanor is comparable to that of a much older, much wiser tortle. She chooses her words carefully and doesn't take unnecessary risks. As she walks through the jungle, she uses her {@item quarterstaff|phb} to poke and prod ahead of her, fully aware that traps and snares come in many forms.",
@@ -398,7 +398,7 @@
 							"entries": [
 								"{@i Prerequisite tortle guide (Port Nyanzaru)}",
 								"When the characters meet Kwilgok, give them {@adventure handout B|ttp|4|Handout B: Kwilgok}.",
-								"Three years ago, a trade ship visited the tortle fort of {@adventure Ahoyhoy|ttp|3|Ahoyhoy}, and Kwilgok was able to book passage on it. In {@adventure Port Nyanzaru|ToA|1}, he discovered a world like no other. He found work repairing docks and, within a year, had enough coin to buy a used {@creature ankylosaurus}, which he rode in several high-stakes {@adventure dinosaur races|ToA|1|Dinosaur Racing}. He lost more than he won but caught the eye of the {@adventure Merchant Prince Jobal|ToA|1|Jobal}, who convinced him there was more profit in wilderness exploration. Kwilgok the {@creature tortle|mtf} became a guide and, like all legitimate guides in {@adventure Port Nyanzaru|ToA|1}, gives a slice of his earnings to {@adventure Jobal|ToA|1|Jobal}.",
+								"Three years ago, a trade ship visited the tortle fort of {@adventure Ahoyhoy|ttp|3|Ahoyhoy}, and Kwilgok was able to book passage on it. In {@adventure Port Nyanzaru|ToA|1}, he discovered a world like no other. He found work repairing docks and, within a year, had enough coin to buy a used {@creature ankylosaurus}, which he rode in several high-stakes {@adventure dinosaur races|ToA|1|Dinosaur Racing}. He lost more than he won but caught the eye of the {@adventure Merchant Prince Jobal|ToA|1|Jobal}, who convinced him there was more profit in wilderness exploration. Kwilgok the {@creature tortle|MPMM} became a guide and, like all legitimate guides in {@adventure Port Nyanzaru|ToA|1}, gives a slice of his earnings to {@adventure Jobal|ToA|1|Jobal}.",
 								"Kwilgok travels with a cantankerous {@creature ankylosaurus} named Deadly Treasure. The tortle rides in a howdah on the ankylosaurus's back and guides the beast using a {@item Pole (10-foot)|phb|10-foot pole}) with succulent leaves tied to one end. Although he doesn't allow others to ride the beast, many would-be explorers are so impressed by the dinosaur that they're happy to pay Kwilgok's fee of 6 gp per day, with payment for 30 days up front.",
 								"Although he's an able and honest guide, Kwilgok won't stick his neck out for his employers. He gets steady work because of his easy-going demeanor and his willingness to lead an expedition to any corner of Chult. He has traveled up the {@adventure River Soshenstar|ToA|2|River Soshenstar} many times and knows the {@adventure Aldani Basin|ToA|2|Aldani Basin} and the surrounding region quite well. He's also led expeditions to {@adventure Orolunga|ToA|2|Orolunga}, though he's never encountered the elusive oracle rumored to dwell there. One place he'd rather not revisit is {@adventure Dangwaru, the Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}. When he was young, Kwilgok decided on a lark to explore the ruins and encountered evil shadows there. The shadows nearly spelled his doom, but he managed to flee the palace in a weakened state. The shadows still haunt Kwilgok's dreams, and he has no wish to face them again.",
 								"Kwilgok is 26 years old, stands just shy of 6 feet tall, and weighs 450 pounds."
@@ -410,7 +410,7 @@
 							"name": "Mudgraw",
 							"entries": [
 								"{@i Prerequisite tortle druid guide (Ahoyhoy)}",
-								"When the characters meet Mudgraw, give them {@adventure handout C|ttp|4|Handout C: Mudgraw}. Characters who visit the tortle fort of {@adventure Ahoyhoy|ttp|3|Ahoyhoy} can secure Mudgraw as a guide. Convinced that he is a natural leader, Mudgraw likes to bellow and be heard, and he never admits to being wrong, even when he doesn't know what he's talking about. The {@creature tortle druid|mtf} can't pass up a good adventure and is willing to travel off the island. He has previously led expeditions to {@adventure Omu|ToA|3|Omu}, {@adventure Shilku|ToA|2|Shilku}, and the {@adventure Heart of Ubtao|ToA|2|Heart of Ubtao}. It's been five years since he last visited the Heart; consequently, he knows nothing about its current inhabitants.",
+								"When the characters meet Mudgraw, give them {@adventure handout C|ttp|4|Handout C: Mudgraw}. Characters who visit the tortle fort of {@adventure Ahoyhoy|ttp|3|Ahoyhoy} can secure Mudgraw as a guide. Convinced that he is a natural leader, Mudgraw likes to bellow and be heard, and he never admits to being wrong, even when he doesn't know what he's talking about. The {@creature tortle druid|MPMM} can't pass up a good adventure and is willing to travel off the island. He has previously led expeditions to {@adventure Omu|ToA|3|Omu}, {@adventure Shilku|ToA|2|Shilku}, and the {@adventure Heart of Ubtao|ToA|2|Heart of Ubtao}. It's been five years since he last visited the Heart; consequently, he knows nothing about its current inhabitants.",
 								"Mudgraw's only visit to {@adventure Omu|ToA|3|Omu}, three years ago, ended in disaster. He and a company of human treasure-hunters from the city of Athkatla were ambushed by {@filter yuan-ti|bestiary|tag=yuan-ti}, and Mudgraw was forced to abandon his companions. He hid in a ruin that was once a shrine to the god Ubtao, was transfixed by the maze-like imagery on the walls, and found a wooden {@item holy symbol|phb} left behind by the shrine's previous inhabitants. He believes that Ubtao helped him escape the city and now wears the {@item holy symbol|phb} around his neck. He regrets abandoning the expedition and prefers not to speak of it. One of his favorite new sayings is, \"Life is a maze.\" Mudgraw uses it whenever he's vexed or when he has information he'd rather not divulge.",
 								"Mudgraw is 44 years old, stands 6 feet tall, and weighs 480 pounds. He charges 5 gp per day but will waive his fee if he is given the chance to lead another expedition to {@adventure Omu|ToA|3|Omu}. Mudgraw sees any such expedition as an opportunity for atonement."
 							],
@@ -627,7 +627,7 @@
 							"id": "00e",
 							"page": 6,
 							"entries": [
-								"If the characters are traveling near the shore, they see {@dice 1d4} {@creature dimetrodon|vgm|dimetrodons} (see {@adventure Tomb of Annihilation|ToA} or {@book Volo's Guide to Monsters|vgm}) wallowing in shallow pools of water. These creatures turn hostile if disturbed. If the characters are nowhere near water or camped for the night, the dimetrodons are on the move and attack anything in their path."
+								"If the characters are traveling near the shore, they see {@dice 1d4} {@creature dimetrodon|MPMM|dimetrodons} (see {@adventure Tomb of Annihilation|ToA} or {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) wallowing in shallow pools of water. These creatures turn hostile if disturbed. If the characters are nowhere near water or camped for the night, the dimetrodons are on the move and attack anything in their path."
 							]
 						},
 						{
@@ -636,7 +636,7 @@
 							"id": "00f",
 							"page": 6,
 							"entries": [
-								"The party encounters {@dice 2d4} {@creature dolphin|vgm|dolphins} (see {@book Volo's Guide to Monsters|vgm}) or 1 {@creature killer whale} if you prefer. If the characters use magic to speak with the creatures, they can receive directions to the nearest coastal settlement."
+								"The party encounters {@dice 2d4} {@creature dolphin|MPMM|dolphins} (see {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) or 1 {@creature killer whale}, if you prefer. If the characters use magic to speak with the creatures, they can receive directions to the nearest coastal settlement."
 							]
 						},
 						{
@@ -654,7 +654,7 @@
 							"id": "011",
 							"page": 6,
 							"entries": [
-								"Characters spot the slimy trail of a {@creature flail snail|vgm} (see {@adventure Tomb of Annihilation|ToA} or {@book Volo's Guide to Monsters|vgm}). If they decide to follow it, a successful {@dc 10} Wisdom ({@skill Survival}) check correctly deduces which direction the snail was traveling. The snail wants to be left alone and attacks only those who antagonize it."
+								"Characters spot the slimy trail of a {@creature flail snail|MPMM} (see {@adventure Tomb of Annihilation|ToA} or {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}). If they decide to follow it, a successful {@dc 10} Wisdom ({@skill Survival}) check correctly deduces which direction the snail was traveling. The snail wants to be left alone and attacks only those who antagonize it."
 							]
 						},
 						{
@@ -762,7 +762,7 @@
 							"id": "01d",
 							"page": 8,
 							"entries": [
-								"The characters encounter a {@creature tortle|mtf} (see \"{@race tortle|ttp|Tortles}\"). For suggested tortle names, see \"{@race tortle|ttp|Tortle Names}\". If this encounter occurs near the coast, the tortle is a fisher with a {@item fishing tackle|phb|fishing pole}, a {@item net|phb}, and a fish basket. If the encounter occurs inland, the tortle is hunting snakes, {@creature lizard|MM|lizards}, {@creature axe beak||axe beaks}, or {@creature blood hawk||blood hawks}. The tortle tries to be helpful. If the characters are looking for a settlement where they can rest and trade, the tortle points them in the direction of {@adventure Ahoyhoy|ttp|3|Ahoyhoy}. If they're looking for adventure, it points them in the direction of the {@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}. If a mystery is what they seek, it points them in the direction of the {@adventure Shrine of Fangs|ttp|3|Shrine of Fangs}. If they're looking for shipwrecks to plunder, it directs them toward {@adventure High Horn|ttp|3|High Horn}. If they're looking for a good time, the tortle gives them directions to the {@adventure Mud Pits of Florrb|ttp|3|Mud Pits of Florrb}."
+								"The characters encounter a {@creature tortle|MPMM} (see \"{@race tortle|ttp|Tortles}\"). For suggested tortle names, see \"{@race tortle|ttp|Tortle Names}\". If this encounter occurs near the coast, the tortle is a fisher with a {@item fishing tackle|phb|fishing pole}, a {@item net|phb}, and a fish basket. If the encounter occurs inland, the tortle is hunting snakes, {@creature lizard|MM|lizards}, {@creature axe beak||axe beaks}, or {@creature blood hawk||blood hawks}. The tortle tries to be helpful. If the characters are looking for a settlement where they can rest and trade, the tortle points them in the direction of {@adventure Ahoyhoy|ttp|3|Ahoyhoy}. If they're looking for adventure, it points them in the direction of the {@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}. If a mystery is what they seek, it points them in the direction of the {@adventure Shrine of Fangs|ttp|3|Shrine of Fangs}. If they're looking for shipwrecks to plunder, it directs them toward {@adventure High Horn|ttp|3|High Horn}. If they're looking for a good time, the tortle gives them directions to the {@adventure Mud Pits of Florrb|ttp|3|Mud Pits of Florrb}."
 							]
 						}
 					]
@@ -1195,7 +1195,7 @@
 							}
 						},
 						"The tortle fort of Ahoyhoy (see {@area map 2|01f|x}) is situated on the northwest coast of the island. Tortles come here to socialize, lay eggs, and meet with traders. The place has no government. Tortles and guests are expected to be on their best behavior, and those who become a nuisance are asked to leave\u2014or forced out, if necessary.",
-						"At any given time, Ahoyhoy is home to {@dice 4d6} adult {@creature tortle|mtf|tortles} (see \"Tortles,\"), {@dice 2d6} young tortles (noncombatants with AC 14 and 2 hit points each), and an old {@creature tortle druid|mtf} named Mudgraw (for roleplaying notes, see \"{@area Tortle Guides,|005|x}\"; for statistics, see \"{@filter Tortles,|bestiary|tag=tortle}\"). Four of the adult tortles stand watch on the ramparts (two in {@area 3|022} and two in {@area 9|028}). The remainder sleep on woven mats or busy themselves with crafts and projects (making {@item crossbow bolt|phb|crossbow bolts}, gutting fish, repairing weather damage to the fort, and so forth). The tortles prefer to sleep without roofs over their heads. They lay their eggs in special areas covered with rope nets to protect the eggs from large flying predators.",
+						"At any given time, Ahoyhoy is home to {@dice 4d6} adult {@creature tortle|MPMM|tortles} (see \"Tortles,\"), {@dice 2d6} young tortles (noncombatants with AC 14 and 2 hit points each), and an old {@creature tortle druid|MPMM} named Mudgraw (for roleplaying notes, see \"{@area Tortle Guides,|005|x}\"; for statistics, see \"{@filter Tortles,|bestiary|tag=tortle}\"). Four of the adult tortles stand watch on the ramparts (two in {@area 3|022} and two in {@area 9|028}). The remainder sleep on woven mats or busy themselves with crafts and projects (making {@item crossbow bolt|phb|crossbow bolts}, gutting fish, repairing weather damage to the fort, and so forth). The tortles prefer to sleep without roofs over their heads. They lay their eggs in special areas covered with rope nets to protect the eggs from large flying predators.",
 						"If the characters prod the tortles of Ahoyhoy for lore about the island and its inhabitants, each tortle they talk to shares one piece of useful information. Roll a {@dice d8} and consult the Ahoyhoy Lore table to determine what information is shared.",
 						{
 							"type": "table",
@@ -1279,7 +1279,7 @@
 									],
 									"id": "072"
 								},
-								"The gate doors are identical to those found in {@area 1|020}. Two {@creature tortle|mtf|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") stand guard on 10-foot-high wooden ramparts that hug the inside of the wall. Ladders in the courtyard provide easy access to the ramparts.",
+								"The gate doors are identical to those found in {@area 1|020}. Two {@creature tortle|MPMM|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") stand guard on 10-foot-high wooden ramparts that hug the inside of the wall. Ladders in the courtyard provide easy access to the ramparts.",
 								"Tortles often repair fishing nets in the courtyard, which is covered with a thin layer of sand. Short flights of stone steps ascend to adjoining areas. A roofed stable contains {@dice 1d4} {@creature boar||boars} and {@dice 1d4} {@creature mule||mules} in pens, plus {@dice 2d8} {@item chicken|phb|chickens} in coops. Food for the animals is stored in a loft. These animals are not indigenous to the Snout of Omgar; the tortles procured them from visiting traders."
 							]
 						},
@@ -1317,7 +1317,7 @@
 							"page": 9,
 							"entries": [
 								"Ahoyhoy has two large, sand-filled areas set aside as tortle hatcheries. Ropes are strung across these areas from the tops of the walls, forming nets that prevent {@creature pteranodon||pteranodons} and similar flying predators from stealing the eggs.",
-								"There's a {@chance 20} chance that a hatchery contains {@dice 1d12} tortle eggs. If eggs are present, {@dice 1d2} elderly {@creature tortle|mtf|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") watch over them. Each tortle egg weighs 5 pounds. A newborn tortle is usually confined to its hatchery for a few months, until it learns to walk on two legs."
+								"There's a {@chance 20} chance that a hatchery contains {@dice 1d12} tortle eggs. If eggs are present, {@dice 1d2} elderly {@creature tortle|MPMM|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") watch over them. Each tortle egg weighs 5 pounds. A newborn tortle is usually confined to its hatchery for a few months, until it learns to walk on two legs."
 							]
 						},
 						{
@@ -1360,7 +1360,7 @@
 									],
 									"id": "073"
 								},
-								"Tortles gather here to trade with friendly visitors. Two {@creature tortle|mtf|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") stand guard on the ramparts, keeping an eye out for visitors or trouble approaching from the south.",
+								"Tortles gather here to trade with friendly visitors. Two {@creature tortle|MPMM|tortles} (see \"{@filter Tortles,|bestiary|tag=tortle}\") stand guard on the ramparts, keeping an eye out for visitors or trouble approaching from the south.",
 								"The tortles often acquire things they don't need from visitors so they can sell them to other visitors. If a character is looking to buy an item on the {@table weapons|phb|Weapons table}, the {@table adventuring gear|phb|Adventuring Gear table}, the {@table tools|phb|Tools table}, or the {@table trade goods|phb|Trade Goods table} (all in {@book chapter 5 of the Player's Handbook|phb|5}), there's a {@chance 25} chance that the tortles have such an item to sell, or to trade for something of equal value. The tortles buy and sell {@item shield|phb|shields}, but not {@table Armor and Shields; Armor|phb|armor}.",
 								"The Ahoyhoy Goods table contains unusual creatures and items that can be procured in the tortle settlement. If the characters want to obtain more than one of a particular creature or item, roll a {@dice d4} to determine how many the tortles have to sell or trade.",
 								{
@@ -1402,7 +1402,7 @@
 										],
 										[
 											"25 gp",
-											"{@creature Dimetrodon|vgm} egg or {@creature pteranodon} egg"
+											"{@creature Dimetrodon|MPMM} egg or {@creature pteranodon} egg"
 										],
 										[
 											"50 gp",
@@ -1418,7 +1418,7 @@
 										],
 										[
 											"500 gp",
-											"25 lb. stack of {@creature flail snail|vgm} shell fragments"
+											"25 lb. stack of {@creature flail snail|MPMM} shell fragments"
 										],
 										[
 											"1,000 gp",
@@ -1426,7 +1426,7 @@
 										],
 										[
 											"5,000 gp",
-											"250 lb. {@creature flail snail|vgm} shell (intact)"
+											"250 lb. {@creature flail snail|MPMM} shell (intact)"
 										]
 									]
 								}
@@ -2879,7 +2879,7 @@
 					"page": 18,
 					"entries": [
 						"The mountains are riddled with natural caves that have been taken over and expanded by {@creature geonid|ttp|geonids}. Each lair is a small labyrinth of twisting tunnels and chambers inhabited by {@dice 2d6} {@creature geonid|ttp|geonids} (see \"{@creature Geonid|ttp}\").",
-						"Each cave system is strewn with the bones of the {@creature geonid|ttp|geonids'} past meals ({@creature bat|mm|bats}, {@creature rat|mm|rats}, and {@creature lizard|MM|lizards}, mostly). There is a {@chance 30} chance that the {@creature geonid|ttp|geonids} share their lair either with a {@creature Flail Snail|vgm} (see {@adventure Tomb of Annihilation|ToA} or {@book Volo's Guide to Monsters|vgm}) that doesn't react kindly to intruders or a gluttonous {@creature xorn} that demands gemstones for safe passage.",
+						"Each cave system is strewn with the bones of the {@creature geonid|ttp|geonids'} past meals ({@creature bat|mm|bats}, {@creature rat|mm|rats}, and {@creature lizard|MM|lizards}, mostly). There is a {@chance 30} chance that the {@creature geonid|ttp|geonids} share their lair either with a {@creature Flail Snail|MPMM} (see {@adventure Tomb of Annihilation|ToA} or {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) that doesn't react kindly to intruders or a gluttonous {@creature xorn} that demands gemstones for safe passage.",
 						{
 							"type": "entries",
 							"name": "Treasure",
@@ -3084,8 +3084,8 @@
 						"{@creature Geonid|ttp}",
 						"{@creature Giant Slug|ttp}",
 						"{@creature Topi|ttp}",
-						"{@creature Tortle|mtf}",
-						"{@creature Tortle Druid|mtf}",
+						"{@creature Tortle|MPMM}",
+						"{@creature Tortle Druid|MPMM}",
 						"{@creature Two-Headed Plesiosaurus|ttp}"
 					]
 				}

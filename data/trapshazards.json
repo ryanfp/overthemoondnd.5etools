@@ -2598,14 +2598,8 @@
 		},
 		{
 			"name": "Rot Grub",
-			"source": "VGM",
-			"page": 208,
-			"otherSources": [
-				{
-					"source": "MPMM",
-					"page": 237
-				}
-			],
+			"source": "MPMM",
+			"page": 237,
 			"entries": [
 				"Rot grubs are finger-sized maggots that eat living and dead creatures, although they can survive on vegetation. They infest corpses and piles of decaying matter and attack anyone that disturbs them. After burrowing into a creature, rot grubs instinctively chew their way toward vital parts.",
 				"Rot grubs recoil from flames, and fire is the main weapon against rot grubs once they're inside a body. Magic that neutralizes poison can also stop them before they kill their host.",
@@ -2622,14 +2616,8 @@
 		},
 		{
 			"name": "Russet Mold",
-			"source": "VGM",
-			"page": 196,
-			"otherSources": [
-				{
-					"source": "MPMM",
-					"page": 252
-				}
-			],
+			"source": "MPMM",
+			"page": 252,
 			"entries": [
 				"Few know for sure where russet mold came from. One historical account tells of adventurers in a mountain range discovering russet mold and {@filter vegepygmies|bestiary|search=vegepygmy} in a peculiar metal dungeon full of strange life. Another story says that explorers found russet mold in a crater left by a falling star, with {@creature Vegepygmy|MPMM|vegepygmies} infesting the forest nearby.",
 				"The mold is found only in places that are dark, warm, and wet. Russet mold that spreads out across a metal object can be mistaken for rust, and a successful {@dc 15} Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check is required to identify it.",

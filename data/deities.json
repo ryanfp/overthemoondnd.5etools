@@ -7,8 +7,8 @@
 	"deity": [
 		{
 			"name": "Abbathor",
-			"source": "MTF",
-			"page": 73,
+			"source": "SCAG",
+			"page": 22,
 			"pantheon": "Dwarven",
 			"alignment": [
 				"N",
@@ -27,21 +27,6 @@
 			]
 		},
 		{
-			"name": "Abbathor",
-			"source": "SCAG",
-			"page": 22,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"title": "God of greed",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Jeweled dagger, point-down"
-		},
-		{
 			"name": "Aegir",
 			"source": "PHB",
 			"page": 299,
@@ -58,8 +43,8 @@
 		},
 		{
 			"name": "Aerdrie Faenya",
-			"source": "MTF",
-			"page": 43,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Elven",
 			"alignment": [
 				"C",
@@ -75,22 +60,6 @@
 			"symbol": "Bird silhouetted against a cloud"
 		},
 		{
-			"name": "Aerdrie Faenya",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "Goddess of the sky",
-			"domains": [
-				"Tempest",
-				"Trickery"
-			],
-			"symbol": "Bird silhouetted against a cloud"
-		},
-		{
 			"name": "Akadi",
 			"source": "SCAG",
 			"page": 21,
@@ -103,39 +72,6 @@
 				"Tempest"
 			],
 			"symbol": "Cloud"
-		},
-		{
-			"name": "Alathrien Druanna",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Arcana",
-				"Knowledge"
-			],
-			"province": "Runes, writing, spellcasting",
-			"symbol": "A quill or glyph"
-		},
-		{
-			"name": "Alobal Lorfiril",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Life",
-				"Trickery"
-			],
-			"province": "Revelry, mirth",
-			"symbol": "Wine glass"
 		},
 		{
 			"name": "Amaunator",
@@ -203,8 +139,8 @@
 		},
 		{
 			"name": "Angharradh",
-			"source": "MTF",
-			"page": 43,
+			"source": "SCAG",
+			"page": 23,
 			"additionalSources": [
 				{
 					"source": "TCE",
@@ -225,29 +161,6 @@
 			],
 			"province": "Wisdom, growth, protection",
 			"symbol": "Three interlocking circles"
-		},
-		{
-			"name": "Angharradh",
-			"source": "SCAG",
-			"page": 23,
-			"additionalSources": [
-				{
-					"source": "TCE",
-					"page": 33
-				}
-			],
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "Triple goddess of wisdom and protection",
-			"domains": [
-				"Knowledge",
-				"Life",
-				"Peace"
-			],
-			"symbol": "Triangle with three interlocking circles within"
 		},
 		{
 			"name": "Anubis",
@@ -322,23 +235,6 @@
 				"Light"
 			],
 			"symbol": "Lyre"
-		},
-		{
-			"name": "Araleth Letheranil",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Knowledge",
-				"Light"
-			],
-			"province": "Light, stars, revelations",
-			"symbol": "Shaft of light"
 		},
 		{
 			"name": "Arawai",
@@ -463,8 +359,8 @@
 		},
 		{
 			"name": "Arvoreen",
-			"source": "MTF",
-			"page": 103,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Halfling",
 			"alignment": [
 				"L",
@@ -510,21 +406,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Arvoreen",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Halfling",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "God of vigilance and war",
-			"domains": [
-				"War"
-			],
-			"symbol": "Crossed short swords"
 		},
 		{
 			"name": "Asmodeus",
@@ -1276,8 +1157,8 @@
 		},
 		{
 			"name": "Baervan Wildwanderer",
-			"source": "MTF",
-			"page": 111,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"N",
@@ -1292,21 +1173,6 @@
 				"Baervan Wildwanderer is the god of the forests and of those who travel, a peaceful soul whose explorations often turn into exciting adventures. Baervan's constant companion is Chiktikka Fastpaws, a mischievous giant raccoon who often gets the duo into trouble. Although Baervan isn't as much of a prankster as some of the other gods, she is often held responsible when Chiktikka does something outrageous, such as stealing Gruumsh's breakfast or peeing on Rillifane Rallathil's shoes.",
 				"Baervan can sing every bird's song, knows every type of plant that has ever grown, never gets lost, and can befriend anyone under the sun (as long as Chiktikka chooses to act pleasant rather than annoying). Forest gnomes believe that they can speak to the animals of the woods and on the wing because Baervan teaches their souls how to do so before they are born."
 			]
-		},
-		{
-			"name": "Baervan Wildwanderer",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"title": "God of woodlands",
-			"domains": [
-				"Nature"
-			],
-			"symbol": "Face of a raccoon"
 		},
 		{
 			"name": "Bahamut",
@@ -1414,24 +1280,11 @@
 				"L",
 				"E"
 			],
-			"title": "God of strength",
+			"title": "the Leg Breaker",
 			"domains": [
 				"War"
 			],
-			"symbol": "Broken thigh bone"
-		},
-		{
-			"name": "Bahgtru",
-			"source": "VGM",
-			"page": 83,
-			"_copy": {
-				"name": "Bahgtru",
-				"source": "SCAG",
-				"pantheon": "Orc"
-			},
-			"pantheon": "Orc",
-			"customExtensionOf": "Bahgtru|Orc|SCAG",
-			"title": "the Leg Breaker",
+			"symbol": "Broken thigh bone",
 			"entries": [
 				"Despite the influence of Ilneval, orcs are and will forever be brutal and feral in how they wage war. Bahgtru is the deity who epitomizes the physical might and ruthlessness that orcs use to overwhelm their foes. He is the one who drives every thrust of an orc's weapon, so that it does as much harm as possible.",
 				{
@@ -1452,7 +1305,7 @@
 					"type": "entries",
 					"name": "The Sacred Bull",
 					"entries": [
-						"Orcs of Bahgtru sometimes enter battle astride {@creature aurochs|vgm}, large creatures that resemble oxen or cattle but are much more ferocious. By doing so they honor the creatures as well as their deity, because legends tell that Bahgtru also rode a great bull into battle. No orc will eat or harm one of these sacred beasts, which are believed to be imbued with Bahgtru's spirit."
+						"Orcs of Bahgtru sometimes enter battle astride {@creature aurochs|mpmm}, large creatures that resemble oxen or cattle but are much more ferocious. By doing so they honor the creatures as well as their deity, because legends tell that Bahgtru also rode a great bull into battle. No orc will eat or harm one of these sacred beasts, which are believed to be imbued with Bahgtru's spirit."
 					]
 				}
 			]
@@ -1685,8 +1538,8 @@
 		},
 		{
 			"name": "Baravar Cloakshadow",
-			"source": "MTF",
-			"page": 111,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"N",
@@ -1702,22 +1555,6 @@
 				"When gnomes arrived in the world, Baravar protected them by teaching them how to hide, use magic, and deceive their foes. She was once entrapped by the goblin god Khurgorbaeyag, and after escaping and gaining her revenge, she began the practice of never wearing the same face twice, and she follows a different routine every day so no one can predict what she might do. When gnomes tell stories of their gods' adventures, Baravar is always the last to be found when the group forms, but she nevertheless swiftly agrees to support Garl's plans.",
 				"Forest gnomes and deep gnomes owe their innate magical abilities to Baravar, and all gnomes get their natural defense against magic from her shrewdness."
 			]
-		},
-		{
-			"name": "Baravar Cloakshadow",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"title": "God of illusion and deception",
-			"domains": [
-				"Arcana",
-				"Trickery"
-			],
-			"symbol": "Dagger against a hooded cloak"
 		},
 		{
 			"name": "Bast",
@@ -1787,8 +1624,8 @@
 		},
 		{
 			"name": "Berronar Truesilver",
-			"source": "MTF",
-			"page": 73,
+			"source": "SCAG",
+			"page": 22,
 			"additionalSources": [
 				{
 					"source": "TCE",
@@ -1813,29 +1650,6 @@
 				"Berronar's code establishes the laws of the dwarves, including contracts, trade agreements, and every other kind of bond forged through words and deeds. As Moradin provides the example that dwarves strive to match, Berronar provides the bonds that create dwarven society and culture.",
 				"Berronar's priests arrange marriages, using a process that finds the best matches and is designed to ensure that each generation of a clan is stronger and more talented than the last. Their dictates in this respect are sacrosanct, and a dwarf designated for an arranged marriage must obey the priests or risk exile."
 			]
-		},
-		{
-			"name": "Berronar Truesilver",
-			"source": "SCAG",
-			"page": 22,
-			"additionalSources": [
-				{
-					"source": "TCE",
-					"page": 33
-				}
-			],
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "Goddess of hearth and home",
-			"domains": [
-				"Life",
-				"Light",
-				"Peace"
-			],
-			"symbol": "Intertwined silver rings"
 		},
 		{
 			"name": "Bes",
@@ -2010,21 +1824,6 @@
 			]
 		},
 		{
-			"name": "Bleredd",
-			"source": "MTF",
-			"page": 110,
-			"pantheon": "Gnome",
-			"alignment": [
-				"N"
-			],
-			"domains": [
-				"Forge",
-				"Light"
-			],
-			"province": "Labor, craft",
-			"symbol": "Iron mule"
-		},
-		{
 			"name": "Blibdoolpoolp",
 			"source": "PHB",
 			"page": 296,
@@ -2176,8 +1975,8 @@
 		},
 		{
 			"name": "Brandobaris",
-			"source": "MTF",
-			"page": 104,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Halfling",
 			"alignment": [
 				"N"
@@ -2192,20 +1991,6 @@
 				"Brandobaris continues to wander in search of excitement, and now, as an ascended being, his travels span the planes of existence. His curiosity takes him to all corners of the multiverse in search of magical curios, rare treasures, and mystical puzzles. When Brandobaris moves stealthily, no mortal or god can hear his footfalls-an ability he uses not only for defense, but also to bestow unlooked-for treats upon those he favors.",
 				"Although he never seems to rest in his travels, Brandobaris always has time to reward halflings who dare to take risks and explore the world to make their own mark on it. He has been known to give a bit of aid to halflings in dire straits, turning them invisible for a time or intervening so that they can't be heard or tracked."
 			]
-		},
-		{
-			"name": "Brandobaris",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Halfling",
-			"alignment": [
-				"N"
-			],
-			"title": "God of thievery and adventure",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Halfling footprint"
 		},
 		{
 			"name": "Brigantia",
@@ -2225,8 +2010,8 @@
 		},
 		{
 			"name": "Callarduran Smoothhands",
-			"source": "MTF",
-			"page": 111,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"N"
@@ -2241,21 +2026,6 @@
 				"Callarduran became the patron of the deep gnomes when he led them into the Underdark and taught them how to survive, but all gnomes see him as the embodiment of the drive to know more, to examine everything more minutely-and thereby make great discoveries.",
 				"Callarduran earned his moniker when, after stealing the heart of Ogrémoch, he rubbed his hands smooth as he polished the heart and turned it into a magical stone. The theft caused Ogrémoch to turn to evil, but it gave Callarduran the power to control earth elementals-which, it is said, he can confer to deep gnomes by rubbing the stone and saying their names."
 			]
-		},
-		{
-			"name": "Callarduran Smoothhands",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"N"
-			],
-			"title": "God of mining and carving stone",
-			"domains": [
-				"Knowledge",
-				"Nature"
-			],
-			"symbol": "Golden signet ring with six-pointed star"
 		},
 		{
 			"name": "Celestian",
@@ -2319,24 +2089,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "Charmalaine",
-			"source": "MTF",
-			"page": 103,
-			"pantheon": "Halfling",
-			"alignment": [
-				"N"
-			],
-			"domains": [
-				"Trickery"
-			],
-			"province": "Keen senses, luck",
-			"symbol": "Burning boot print",
-			"entries": [
-				"Charmalaine is an energetic and spontaneous deity, unafraid of danger, for she expects to be able to detect it as it approaches and evade it before it brings her harm. The stories of her accomplishments read like an adventurer's wildest dreams: she escaped from an army of sahuagin, solved the Chamber of a Thousand Traps, and took treasure from the lair of Tiamat. Halflings envision her as a young adult who moves so fast that her boots smoke and sometimes even catch fire. She carries a mace that has a head that shouts out warnings, and she is accompanied by her ferret friend, Xaphan.",
-				"Halflings sometimes call Charmalaine the Lucky Ghost because she can send her spirit out of her body to scout ahead, and thus she is able to warn halfling adventurers of danger while in her incorporeal form. Halflings who favor Charmalaine are usually adventurers or those who pursue other risky professions such as hunting, beast training, scouting, and guarding public officials."
 			]
 		},
 		{
@@ -2515,8 +2267,8 @@
 		},
 		{
 			"name": "Clangeddin Silverbeard",
-			"source": "MTF",
-			"page": 73,
+			"source": "SCAG",
+			"page": 22,
 			"pantheon": "Dwarven",
 			"alignment": [
 				"L",
@@ -2534,21 +2286,6 @@
 				"Clangeddin's faithful are mainly full-time warriors assigned to weapon training from an early age and expected to take the fight to the enemy. The two axes he wields embody his attitude, since he forsakes the added protection of a shield for the chance to deal more damage to his enemies.",
 				"Clangeddin's priests are warriors who lead from the front. When defending a stronghold, they guard the walls and lead sorties against enemy positions. When an external threat is near, the priests plan guerrilla raids to disrupt invaders before they can besiege the stronghold."
 			]
-		},
-		{
-			"name": "Clangeddin Silverbeard",
-			"source": "SCAG",
-			"page": 22,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "God of war",
-			"domains": [
-				"War"
-			],
-			"symbol": "Crossed silver battleaxes"
 		},
 		{
 			"name": "Corellon",
@@ -2632,8 +2369,8 @@
 		},
 		{
 			"name": "Corellon Larethian",
-			"source": "MTF",
-			"page": 43,
+			"source": "SCAG",
+			"page": 23,
 			"additionalSources": [
 				{
 					"source": "SCAG",
@@ -2848,8 +2585,8 @@
 		},
 		{
 			"name": "Cyrrollalee",
-			"source": "MTF",
-			"page": 104,
+			"source": "SCAG",
+			"page": 23,
 			"additionalSources": [
 				{
 					"source": "TCE",
@@ -2875,85 +2612,9 @@
 			]
 		},
 		{
-			"name": "Cyrrollalee",
-			"source": "SCAG",
-			"page": 23,
-			"additionalSources": [
-				{
-					"source": "TCE",
-					"page": 33
-				}
-			],
-			"pantheon": "Halfling",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "Goddess of hearth and home",
-			"domains": [
-				"Life",
-				"Peace"
-			],
-			"symbol": "An open door"
-		},
-		{
-			"name": "Darahl Tilvenar",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Forge",
-				"Light"
-			],
-			"province": "Fire, earth, metalwork",
-			"symbol": "Flame between hands"
-		},
-		{
-			"name": "Deep Duerra",
-			"source": "MTF",
-			"page": 79,
-			"pantheon": "Duergar",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"domains": [
-				"Knowledge",
-				"War"
-			],
-			"province": "Conquest, psionics",
-			"symbol": "Mind flayer skull",
-			"entries": [
-				"According to legend, Deep Duerra stole the power of psionics from the mind flayers and gifted it to her people. Her command of it was so great that she dominated a mind flayer colony and turned the illithids into her slaves.",
-				"Deep Duerra's followers stand at the forefront of the duergar's attacks on their most hated enemies. Inspired by her mythic deeds, her priests are especially eager to find and annihilate dwarf communities and mind flayer colonies.",
-				"The priests of Deep Duerra maintain a training ground and armory inside each duergar stronghold. All duergar are required to learn the basic skills of combat, and the nobles are obliged to contribute weapons, armor, and followers to the stronghold's defensive force. The priests honor their deity by planning, equipping, and launching holy crusades against their enemies."
-			]
-		},
-		{
-			"name": "Deep Duerra",
+			"name": "Deep Sashelas",
 			"source": "SCAG",
 			"page": 22,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"title": "Duergar goddess of conquest and psionics",
-			"domains": [
-				"Arcana",
-				"War"
-			],
-			"symbol": "Mind flayer skull"
-		},
-		{
-			"name": "Deep Sashelas",
-			"source": "MTF",
-			"page": 48,
 			"pantheon": "Elven",
 			"alignment": [
 				"C",
@@ -3027,16 +2688,6 @@
 				"Life"
 			],
 			"symbol": "Mare's head"
-		},
-		{
-			"name": "Dendar",
-			"source": "VGM",
-			"page": 93,
-			"pantheon": "Yuan-ti",
-			"entries": [
-				"The Night Serpent came into being before recorded history, spawned from the feverish dreams of the first intelligent creatures. She subsists and grows stronger by feeding on the fears that plague the folk of the world. Her followers believe that Dendar is a harbinger of the end of things, which will come when she amasses enough power to consume the world. Another legend concerning her speaks of an iron door to the underworld behind which she lurks; when the time is right, she will tear it down, then eat the sun, plunging the world into darkness before she finally devours it.",
-				"Yuan-ti worshipers of Dendar are led by nightmare speakers, malison warlocks that honor their deity through acts of terror and receive magical power in return. Rather than killing enemies, these followers of the Night Serpent prefer to threaten and torture them, the better to feed and strengthen the goddess."
-			]
 		},
 		{
 			"name": "Deneir",
@@ -3280,22 +2931,6 @@
 		},
 		{
 			"name": "Dugmaren Brightmantle",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Knowledge"
-			],
-			"province": "Discovery",
-			"symbol": "Open book"
-		},
-		{
-			"name": "Dugmaren Brightmantle",
 			"source": "SCAG",
 			"page": 22,
 			"pantheon": "Dwarven",
@@ -3308,22 +2943,6 @@
 				"Knowledge"
 			],
 			"symbol": "Open book"
-		},
-		{
-			"name": "Dumathoin",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Grave",
-				"Knowledge"
-			],
-			"province": "Buried secrets",
-			"symbol": "Gemstone in a mountain"
 		},
 		{
 			"name": "Dumathoin",
@@ -3428,8 +3047,8 @@
 		},
 		{
 			"name": "Eilistraee",
-			"source": "MTF",
-			"page": 56,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Drow",
 			"alignment": [
 				"C",
@@ -3449,22 +3068,6 @@
 				"Eilistraee is a god of moonlight, song, dance, and, most important, the rejection of the evil ways of Lolth. Drow who feel like outsiders in their society, who react with disgust to the evils perpetrated by their kind, who come to the surface and fall in love with the stars-these are the ones who might be pleased to hear Eilistraee's call. If they respond to it by going to the surface and staying there, Eilistraee offers no guarantee of their safety and no promise of acceptance in the world above. But she opens her followers' hearts to the wonder of the nature in the night, and her songs and signs can show a drow how to persevere in that alien environment.",
 				"The scrolls that the matron mothers guard so closely attest that Eilistraee turned against Lolth but knew better than to seek solace among the Seldarine. Her position among the other drow gods remains uncertain, as is the fate of the souls of those who turn to her worship. Drow who are beloved by Eilistraee sometimes appear to vanish when they die, as the body dissolves into pale light and leaves no clue to where the soul has gone."
 			]
-		},
-		{
-			"name": "Eilistraee",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "Goddess of song and moonlight",
-			"domains": [
-				"Light",
-				"Nature"
-			],
-			"symbol": "Sword-wielding dancing drow female silhouetted against the full moon"
 		},
 		{
 			"name": "Eldath",
@@ -3558,23 +3161,6 @@
 				"Most rural places have a pond or a glade that locals ascribe to Eldath. Tradition dictates that it be a place of quiet reflection where others are left to their thoughts. A body of water such as a pond or a spring typically serves as a repository of offerings. If the holy site is a glade, a stream one crosses along the way might serve as the repository, or a prominent bush or tree in the glade might be the place where people tie offerings. Typical offerings are broken weapons or items that are remembrances of arguments, which the faithful discard while making a wish for peace in the future. Many of those who favor Eldath are pacifists or people who are troubled by violence they have witnessed or experienced.",
 				"Eldath's priests don't organize into large sects. Indeed, many are itinerant, wandering between various holy sites and shrines, seeing that the locations are cared for and that they remain places of sweet serenity. The faithful of Eldath are usually close to nature, and allied to druids, who count Eldath among the First Circle. It is taboo to strike a priest of Eldath, and killing one is said to bring great misfortune. Despite the measure of protection that this belief affords them, most priests of Eldath avoid conflicts rather than attempting to quell them. Those who serve Eldath are happy to preside over peaceful negotiations and to certify treaties, but they can't force others to engage in harmony."
 			]
-		},
-		{
-			"name": "Elebrin Liothiel",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Life",
-				"Nature"
-			],
-			"province": "Abundance, gardens, the harvest",
-			"symbol": "Acorn"
 		},
 		{
 			"name": "Ephara",
@@ -4223,22 +3809,6 @@
 		},
 		{
 			"name": "Erevan Ilesere",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Trickery"
-			],
-			"province": "Mischief, change",
-			"symbol": "Asymmetrical starburst"
-		},
-		{
-			"name": "Erevan Ilesere",
 			"source": "SCAG",
 			"page": 23,
 			"pantheon": "Elven",
@@ -4294,23 +3864,6 @@
 		},
 		{
 			"name": "Fenmarel Mestarine",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Nature",
-				"Trickery"
-			],
-			"province": "Solitude, outcasts",
-			"symbol": "Two peering elven eyes"
-		},
-		{
-			"name": "Fenmarel Mestarine",
 			"source": "SCAG",
 			"page": 23,
 			"pantheon": "Elven",
@@ -4352,8 +3905,8 @@
 		},
 		{
 			"name": "Flandal Steelskin",
-			"source": "MTF",
-			"page": 111,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"N",
@@ -4369,21 +3922,6 @@
 				"The stories that gnomes tell of Flandal Steelskin typically feature some perfect item that he crafted or a misadventure that results from following his enormous nose, which can smell ore more easily than a wolf can scent a skunk. The most often told legend of Flandal includes both elements. Before creating Garl's marvelous axe, Arumdina, Flandal sniffed out the purest source of mithral: the heart of Imix. With the aid of the other gnome gods, he stole the heart and turned it into a mithral forge that now burns with an eternal furious flame.",
 				"The legends of Flandal portray him not only as the god of metalcraft, but also of fire and glass-work and alchemy. Rock gnomes attribute their knack for crafting devices and alchemical objects to Flandal's superlative skills in those areas."
 			]
-		},
-		{
-			"name": "Flandal Steelskin",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"title": "God of metalwork",
-			"domains": [
-				"Knowledge"
-			],
-			"symbol": "Flaming hammer"
 		},
 		{
 			"name": "Forseti",
@@ -4447,26 +3985,9 @@
 			"symbol": "Cat"
 		},
 		{
-			"name": "Gadhelyn",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Nature",
-				"Trickery"
-			],
-			"province": "Independence, outlawry",
-			"symbol": "Leaf-shaped arrowhead"
-		},
-		{
 			"name": "Gaerdal Ironhand",
-			"source": "MTF",
-			"page": 112,
+			"source": "SCAG",
+			"page": 24,
 			"additionalSources": [
 				{
 					"source": "TCE",
@@ -4491,28 +4012,6 @@
 			]
 		},
 		{
-			"name": "Gaerdal Ironhand",
-			"source": "SCAG",
-			"page": 24,
-			"additionalSources": [
-				{
-					"source": "TCE",
-					"page": 33
-				}
-			],
-			"pantheon": "Gnomish",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "God of protection",
-			"domains": [
-				"War",
-				"Peace"
-			],
-			"symbol": "Iron band"
-		},
-		{
 			"name": "Galdric",
 			"source": "TDCSR",
 			"page": 40,
@@ -4531,13 +4030,20 @@
 		},
 		{
 			"name": "Garl Glittergold",
-			"source": "MTF",
-			"page": 111,
+			"source": "SCAG",
+			"page": 24,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				}
+			],
 			"pantheon": "Gnome",
 			"alignment": [
 				"L",
 				"G"
 			],
+			"title": "God of trickery, gems, and wiles",
 			"domains": [
 				"Trickery"
 			],
@@ -4560,72 +4066,6 @@
 						"Garl favors trickery and illusion over direct combat, preferring to use his mind to overcome a problem rather than his steel. For gnomes to thrive, they must use their intellect and ingenuity. But when push comes to shove, Garl uses Arumdina, his intelligent two-headed battle axe-capable of cleaving through any substance-to escape a perilous situation."
 					]
 				}
-			]
-		},
-		{
-			"name": "Garl Glittergold",
-			"source": "PHB",
-			"page": 296,
-			"pantheon": "Nonhuman",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "Gnome god of trickery and wiles",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Gold nugget"
-		},
-		{
-			"name": "Garl Glittergold",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "God of trickery and gems",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Gold nugget"
-		},
-		{
-			"name": "Gelf Darkhearth",
-			"source": "MTF",
-			"page": 110,
-			"pantheon": "Gnome",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"War"
-			],
-			"province": "Frustration, destruction",
-			"symbol": "Broken anvil"
-		},
-		{
-			"name": "Ghaunadaur",
-			"source": "MTF",
-			"page": 53,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": "The Dark Seldarine",
-			"domains": [
-				"War"
-			],
-			"province": "Oozes, slimes, outcasts",
-			"symbol": "Purple eye with black sclera",
-			"entries": [
-				"This entity is most often referred to as That Which Lurks, because uttering its real name risks attracting its attention. Its actual form, if it even has one, is unknown; it's most often represented as an ooze-like creature with many tentacles or a purple pupil surrounded by black instead of white. The liquid nature of Ghaunadaur is symbolic of its unpredictable nature, which is what makes attracting its attention so risky. It occasionally rewards its followers with supernatural powers or wealth, but it's equally likely to curse its faithful with hideous torments and afflictions. A subterranean hunter who whispers Ghaunadaur's name might stumble into a forgotten treasure trove, while a devoted priestess who offers long prayers and valuable sacrifices is consumed by a gelatinous cube. The entity's random behavior can be an attraction to drow who lack status and are desperate to achieve it. A small sacrifice and a prayer to That Which Lurks might simply go unnoticed by Ghaunadaur, or it might punish the petitioner, but there is also a chance of receiving a great reward.",
-				"Worship of That Which Lurks is widespread in the Underdark. Not just drow pay respect to it. Even creatures that are considered to be mindless, such as oozes and jellies, sometimes behave in ways that seem consistent with reverence for That Which Lurks.",
-				"Those who are faithful to Lolth often oppose Ghaunadaur's cultists, driving them into hiding or forcing them into open conflict. Some priestesses and scholars believe that this enmity exists because Ghaunadaur betrayed Lolth shortly after she betrayed Corellon. In these legends, Ghaunadaur tried to curry favor with Corellon and recapture his earlier formless nature by turning on Lolth. Ghaunadaur's double act of betrayal brought retribution from both gods, and he was cast down into the world as a skinless, boneless mass. Other stories portray Ghaunadaur as an incredibly ancient and ineffable deity, one of the so-called Great Old Ones. Both claims might have merit, because the truth about the time of the birth of gods can never be known for certain."
 			]
 		},
 		{
@@ -4792,22 +4232,6 @@
 				"Most who favor Gond practice time-honored crafting professions: they are smiths and engineers, architects and weavers, leatherworkers and jewelers. Even so, this faith has a well-earned reputation as a haven for crackpot inventors and visionaries.",
 				"The center of Gond's worship on the Sword Coast lies in Baldur's Gate, where the faithful have erected two huge structures in honor of the Wonderbringer: a temple called the High House of Wonders and a museum of craft and design called the Hall of Wonders. Lantan had been the preeminent place of Gond's worship in the world until a century ago, when the island nation disappeared, and since its return the few Lantanese merchants seen in Sword Coast ports have said little about the present state of their homeland."
 			]
-		},
-		{
-			"name": "Gorm Gulthyn",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"War"
-			],
-			"province": "Vigilance",
-			"symbol": "Bronze half-mask"
 		},
 		{
 			"name": "Gorm Gulthyn",
@@ -4986,8 +4410,8 @@
 		},
 		{
 			"name": "Gruumsh",
-			"source": "VGM",
-			"page": 82,
+			"source": "EGW",
+			"page": 27,
 			"_copy": {
 				"name": "Gruumsh",
 				"source": "SCAG",
@@ -5118,22 +4542,6 @@
 		},
 		{
 			"name": "Haela Brightaxe",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"War"
-			],
-			"province": "Combat prowess, luck in battle",
-			"symbol": "Upright sword with blade sheathed in flame"
-		},
-		{
-			"name": "Haela Brightaxe",
 			"source": "SCAG",
 			"page": 22,
 			"pantheon": "Dwarven",
@@ -5149,14 +4557,15 @@
 		},
 		{
 			"name": "Hanali Celanil",
-			"source": "MTF",
-			"page": 45,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Elven",
 			"alignment": [
 				"C",
 				"G"
 			],
 			"category": "The Seldarine",
+			"title": "Goddess of love and beauty",
 			"domains": [
 				"Life"
 			],
@@ -5176,38 +4585,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Hanali Celanil",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "Goddess of love and beauty",
-			"domains": [
-				"Life"
-			],
-			"symbol": "Golden heart"
-		},
-		{
-			"name": "Hanseath",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Trickery",
-				"War"
-			],
-			"province": "Festivity, brewing, song",
-			"symbol": "Beer stein"
 		},
 		{
 			"name": "Hathor",
@@ -6032,24 +5409,11 @@
 				"L",
 				"E"
 			],
-			"title": "God of strategy and hordes",
+			"title": "the War Maker",
 			"domains": [
 				"War"
 			],
-			"symbol": "Upright blood-spattered sword"
-		},
-		{
-			"name": "Ilneval",
-			"source": "VGM",
-			"page": 83,
-			"_copy": {
-				"name": "Ilneval",
-				"source": "SCAG",
-				"pantheon": "Orc"
-			},
-			"pantheon": "Orc",
-			"customExtensionOf": "Ilneval|Orc|SCAG",
-			"title": "the War Maker",
+			"symbol": "Upright blood-spattered sword",
 			"entries": [
 				"Ilneval is the loyal right hand of Gruumsh. He is the god who plans the attacks and devises the strategies that allow the forces of Gruumsh to dominate the battle and fill their war wagons with plunder and severed heads. Ilneval stands with his bloody sword, calling to those who understand the ebb and flow of combat to sit around his council fire and learn the ways of warfare.",
 				{
@@ -6983,34 +6347,6 @@
 			]
 		},
 		{
-			"name": "Keptolo",
-			"source": "MTF",
-			"page": 54,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": "The Dark Seldarine",
-			"domains": [
-				"Nature",
-				"Trickery"
-			],
-			"province": "Beauty, hedonism, fertility",
-			"symbol": "Mushroom",
-			"entries": [
-				{
-					"type": "quote",
-					"entries": [
-						"Keptolo shows the way. Feed the vanity of your mistress, and all her treasures shall be yours. Be careful whom you offend, and keep an expendable companion nearby to hold culpable for your crimes. Gossip can be as deadly as the venom on an assassin's blade. Use the poison of words to destroy your rivals, that you may claim for yourself all they once presumed was theirs."
-					],
-					"by": "Tezzeryn, Head Consort of House Bhaerynden, instructing his son"
-				},
-				"The ideal of what a male drow can become, Keptolo is handsome, stylish, witty, hedonistic, an outrageous flatterer, and sought after as a lover. He is also dangerous in his aspects as a subtle assassin and a whisperer of rumors. For those attributes, he is worshiped by ambitious males who hope to emulate him. Some succeed admirably and achieve great things beyond the reach of most males, but many more succumb to excesses of the flesh, dissipation, and disease, or they are ruined or murdered by a rival-who is also a true disciple of Keptolo.",
-				"In most myths, Keptolo resides in the Demonweb Pits alongside Lolth, whom he serves as consort, more than a plaything but much less than an equal. Keptolo is a bitter enemy of Zinzerena, who deceives and uses him as a tool in many of the stories about the Dark Seldarine."
-			]
-		},
-		{
 			"name": "Keranos",
 			"source": "MOT",
 			"page": 55,
@@ -7315,14 +6651,15 @@
 		},
 		{
 			"name": "Kiaransalee",
-			"source": "MTF",
-			"page": 54,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Drow",
 			"alignment": [
 				"C",
 				"E"
 			],
 			"category": "The Dark Seldarine",
+			"title": "Goddess of necromancy",
 			"domains": [
 				"Arcana",
 				"Death"
@@ -7336,21 +6673,6 @@
 				"Some of her most fervent followers seek out the secret of attaining undeath for themselves. Kiaransalee favors them by bringing them back as undead, but unlike other gods of similar sort, Kiaransalee doesn't offer the undeath of lichdom but a lowly existence as a banshee, a revenant, or a wight.",
 				"Drow believe that Kiaransalee was driven mad by returning from death as a god so many times, but her followers aren't discouraged by this assessment. Despite her madness, her actions are guided by a deep and devious cunning-a trait that drow attach more importance to than they do to sanity."
 			]
-		},
-		{
-			"name": "Kiaransalee",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"title": "Goddess of necromancy",
-			"domains": [
-				"Arcana"
-			],
-			"symbol": "Female drow hand wearing many silver rings"
 		},
 		{
 			"name": "Kiri-Jolith",
@@ -7392,23 +6714,6 @@
 				"War"
 			],
 			"symbol": "Bison's horns"
-		},
-		{
-			"name": "Kirith Sotheril",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Knowledge",
-				"Trickery"
-			],
-			"province": "Divination, illusion",
-			"symbol": "Rainbow sphere"
 		},
 		{
 			"name": "Klothys",
@@ -8143,14 +7448,15 @@
 		},
 		{
 			"name": "Labelas Enoreth",
-			"source": "MTF",
-			"page": 45,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Elven",
 			"alignment": [
 				"C",
 				"G"
 			],
 			"category": "The Seldarine",
+			"title": "God of time, history, and philosophy",
 			"domains": [
 				"Arcana",
 				"Knowledge",
@@ -8176,30 +7482,15 @@
 			]
 		},
 		{
-			"name": "Labelas Enoreth",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "God of time, history, and philosophy",
-			"domains": [
-				"Arcana",
-				"Knowledge"
-			],
-			"symbol": "Setting sun"
-		},
-		{
 			"name": "Laduguer",
-			"source": "MTF",
-			"page": 79,
+			"source": "SCAG",
+			"page": 22,
 			"pantheon": "Duergar",
 			"alignment": [
 				"L",
 				"E"
 			],
+			"title": "God of magic and slavery",
 			"domains": [
 				"Death",
 				"Forge"
@@ -8211,22 +7502,6 @@
 				"Laduguer's teachings stand in direct opposition to everything Moradin represents. He is the dwarf god's dark opposite, a shadow that seeks to rise up and consume its original creator.",
 				"Duergar don't worship Laduguer in any traditional way; their communities include no temples or formal services. They honor their deity by acquiring more power and wealth through any means possible. Priests of Laduguer maintain the internal functions of duergar society but have no role that is expressly religious."
 			]
-		},
-		{
-			"name": "Laduguer",
-			"source": "SCAG",
-			"page": 22,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"title": "Duergar god of magic and slavery",
-			"domains": [
-				"Arcana",
-				"Death"
-			],
-			"symbol": "Broken arrow"
 		},
 		{
 			"name": "Laogzed",
@@ -8620,30 +7895,11 @@
 						"Certain disciples of Lolth don't always kill their victims, instead putting them to sleep with Lolth's Sting (see {@book chapter 3|XDMG|2} of the {@book Dungeon Master's Guide|XDMG}). The victim awakes cocooned in sticky webs, suspended from the ceiling of a dark temple or underground room. In a matter of hours, a swarm of tiny creatures begins to wriggle in the victim's chest. The last feeling the victim experiences is a hair-raising, tickling sensation that quickly turns to agony as baby spiders chew their way out of the ribcage, killing the host.",
 						"Lolth's worshipers who practice this method of spider-egg incubation call themselves the Silken Stewards. The practice was pioneered by House Auvryndar, one of {@area Menzoberranzan's|1f1|x} ruling noble houses. The drow of this house found that implanting spider eggs into Humanoid hosts and performing a ritual to Lolth over the body caused the eggs to hatch in mere hours, rather than weeks. A {@spell Lesser Restoration|XPHB} spell cast on the host kills the spider eggs, ending the threat.",
 						"Silken Stewards provide other disciples of Lolth with a steady supply of spiders used as mounts, trackers, sentries, and front-line forces in service to the Spider Queen. The Stewards raise all sorts of arachnids: {@creature Spider|XMM|Spiders}, {@creature Giant Spider|XMM|Giant Spiders}, and even {@creature Phase Spider|XMM|Phase Spiders}. Silken Stewards wear gloves made of the finest spider silk, and their clothes bear brooches depicting the stylized image of a curled-up spider inside a white spider egg. High-ranking members oversee the implantation of eggs and the accompanying rituals. Middle-ranking members capture Humanoids to use as hosts. Lesser-ranking members rear the hatched spiders and train them.",
-						"Followers of Eilistraee are among the Stewards' greatest foes, particularly Eilistraee's militant orders. They lead raids into the Stewards' hatcheries, killing spiders, freeing captives, and curing infested hosts. Silken Stewards are ever vigilant for Eilistraee's adherents infiltrating their ranks. Underdark-dwelling followers of Silvanus also oppose the Stewards, viewing the Stewards' methods of spider incubation and domestication as a blasphemous affront to the creatures' natural life cycles."
+						"Followers of Eilistraee are among the Stewards' greatest foes, particularly Eilistraee's militant orders. They lead raids into the Stewards' hatcheries, killing spiders, freeing captives, and curing infested hosts. Silken Stewards are ever vigilant for Eilistraee's adherents infiltrating their ranks. Underdark-dwelling followers of Silvanus also oppose the Stewards, viewing the Stewards' methods of spider incubation and domestication as a blasphemous affront to the creatures' natural life cycles.",
+						"Unlike Corellon, who asks very little of his followers, Lolth is a demanding mistress. What she demands most of all are sacrifices of treasure and blood. Time and time again, the screams of sacrificial victims echo through Lolth's lightless temples as they fall under the knives of her priestesses. Her altars are piled with skulls picked clean of flesh by the giant spiders that lurk in the web-draped stalactites overhead.",
+						"In return for victims and adoration, Lolth grants signs of her favor, such as great success during a slave raid on the surface, the matron of a rival house being struck down by an inexplicable illness, or an heiress to the house being born under propitious omens."
 					]
-				}
-			]
-		},
-		{
-			"name": "Lolth",
-			"source": "MTF",
-			"page": 53,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": "The Dark Seldarine",
-			"domains": [
-				"Trickery",
-				"War"
-			],
-			"province": "Primary god of drow, spiders",
-			"symbol": "Spider",
-			"entries": [
-				"Unlike Corellon, who asks very little of his followers, Lolth is a demanding mistress. What she demands most of all are sacrifices of treasure and blood. Time and time again, the screams of sacrificial victims echo through Lolth's lightless temples as they fall under the knives of her priestesses. Her altars are piled with skulls picked clean of flesh by the giant spiders that lurk in the web-draped stalactites overhead.",
-				"In return for victims and adoration, Lolth grants signs of her favor, such as great success during a slave raid on the surface, the matron of a rival house being struck down by an inexplicable illness, or an heiress to the house being born under propitious omens.",
+				},
 				{
 					"type": "inset",
 					"name": "Holes in Lolth's Web",
@@ -8672,21 +7928,6 @@
 				"E"
 			],
 			"title": "Drow goddess of spiders",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Spider"
-		},
-		{
-			"name": "Lolth",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"title": "Goddess of spiders",
 			"domains": [
 				"Trickery"
 			],
@@ -8843,25 +8084,12 @@
 				"L",
 				"E"
 			],
-			"title": "Mother-goddess of fertility and healing",
+			"title": "the Cave Mother",
 			"domains": [
 				"Life",
 				"Nature"
 			],
-			"symbol": "Orcish rune meaning \"cave entrance\""
-		},
-		{
-			"name": "Luthic",
-			"source": "VGM",
-			"page": 84,
-			"_copy": {
-				"name": "Luthic",
-				"source": "SCAG",
-				"pantheon": "Orc"
-			},
-			"pantheon": "Orc",
-			"customExtensionOf": "Luthic|Orc|SCAG",
-			"title": "the Cave Mother",
+			"symbol": "Orcish rune meaning \"cave entrance\"",
 			"entries": [
 				"While Gruumsh is the external force that pushes the orcs to victory over their enemies, it is the influence of Luthic, his wife, that binds them together and makes the orcs internally cohesive. She is the force that keeps the explosive rage of Gruumsh from bursting the orcs apart. If it was not for the followers of Luthic, it is possible that the race of orcs would be no more than small bands of warrior-nomads, scratching out a meager existence, rather than a force capable of great destruction.",
 				"Far from the den's war hearth, within the protective depths of the caves, the followers of Luthic tend the orc brood, raising them to be strong and cruel like their progenitors. By invoking the power of superstitions, omens, and traditions, these claws of Luthic hold the tribe together through ritual, fear and, if necessary, force.",
@@ -9016,27 +8244,6 @@
 			]
 		},
 		{
-			"name": "Malyk",
-			"source": "MTF",
-			"page": 54,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"category": "The Dark Seldarine",
-			"domains": [
-				"Tempest",
-				"Trickery"
-			],
-			"province": "Chaos, rebellion, wild magic",
-			"symbol": "A flame in a tear or a multihued vortex",
-			"entries": [
-				"Malyk embodies rebellion and chaos. Drow know of his influence from the appearance of wild mages among their number. Such an individual, possessed of sorcerous powers seemingly bestowed at random, is often seen as a threat to the established order. Many drow, especially males and even females of low station, try to attract Malyk's attention by secretly making sacrifices to him. Meanwhile, house matrons and others steeped in the faith of Lolth attempt to purge Malyk's worship from drow society-at the same time that some of them pray to him for power.",
-				"Malyk is associated with rebellion because when a wild mage's true nature is revealed, the individual often has no recourse but to openly attack others and create chaos. Most other drow vie to receive Lolth's blessing by being the one to bring such a blasphemer to justice. In order to survive, a wild mage must defeat or elude all attackers and forge an alliance with those who can be threatened or bribed to provide a safe haven. Most wild mages who are discovered are put to death, some survive as outcasts, and a rare few rise to positions of status, declaring their allegiance to Lolth-or at least pretending to."
-			]
-		},
-		{
 			"name": "Manannan mac Lir",
 			"source": "PHB",
 			"page": 298,
@@ -9052,23 +8259,6 @@
 				"Tempest"
 			],
 			"symbol": "Wave of white water on green"
-		},
-		{
-			"name": "Marthammor Duin",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Nature",
-				"Trickery"
-			],
-			"province": "Explorers, wanderers, the lost",
-			"symbol": "Upright mace in front of a tall boot"
 		},
 		{
 			"name": "Marthammor Duin",
@@ -9187,24 +8377,6 @@
 			"symbol": "Staff"
 		},
 		{
-			"name": "Melira Taralen",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Knowledge",
-				"Life",
-				"Trickery"
-			],
-			"province": "Poetry, songs",
-			"symbol": "Lute"
-		},
-		{
 			"name": "Melora",
 			"source": "DMG",
 			"page": 10,
@@ -9282,16 +8454,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "Merrshaulk",
-			"source": "VGM",
-			"page": 94,
-			"pantheon": "Yuan-ti",
-			"entries": [
-				"Though the Master of the Pit is not conscious, neither is he entirely dormant. Mirroring the fate of yuan-ti in the world, Merrshaulk entered a deep slumber when the serpent folk left the surface and went into hiding in ages past. It is unclear if declining worship caused him to fall asleep, or if his prolonged torpor caused his worshipers to abandon him. Even in his compromised state, Merrshaulk grants spells to his clergy in response to their invocations. Rousing him for advice or direct intervention is possible, but requires many ritual murders to be performed in his name, and his return to consciousness lasts only a short time.",
-				"The leaders of Merrshaulk's worshipers, called pit masters, are malison warlocks that uphold and advance the age-old yuan-ti traditions. They sense that it has become easier to wake him in recent decades, and believe this to be a sign that he will soon fully awaken, shed his skin, and-renewed by transformation-restore the yuan-ti to their rightful place as masters of the mortal world."
 			]
 		},
 		{
@@ -9865,35 +9027,6 @@
 		},
 		{
 			"name": "Moradin",
-			"source": "MTF",
-			"page": 72,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 18
-				}
-			],
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Forge",
-				"Knowledge"
-			],
-			"province": "Primary deity of dwarves",
-			"symbol": "Hammer and anvil",
-			"entries": [
-				"The father of the dwarves crafted his children from metal and gems and imbued them with souls as he cooled them with his breath.",
-				"Moradin is the master of every craft practiced by the dwarves and the patron of artisans. He expects his children to follow in his footsteps, studying his techniques and aspiring to one day match his expertise.",
-				"Priests of Moradin are responsible for judging and assessing the work of a stronghold's artisans. They keep great volumes that describe various crafting techniques in detail, and use the guidelines in them to judge the quality of individual works.",
-				"The priests also evaluate young dwarves to determine the youths' vocations. The decisions of the priests are accepted without question."
-			]
-		},
-		{
-			"name": "Moradin",
 			"source": "PHB",
 			"page": 296,
 			"additionalSources": [
@@ -9992,39 +9125,6 @@
 				"War"
 			],
 			"symbol": "Two crossed spears"
-		},
-		{
-			"name": "Muamman Duathal",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Tempest"
-			],
-			"province": "Storms, travel",
-			"symbol": "Mace held in gauntlets"
-		},
-		{
-			"name": "Mya",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Knowledge",
-				"Life"
-			],
-			"province": "Clan, family, wisdom",
-			"symbol": "A faceless mother figure"
 		},
 		{
 			"name": "Myrkul",
@@ -10206,41 +9306,6 @@
 			]
 		},
 		{
-			"name": "Mythrien Sarath",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Arcana",
-				"Forge",
-				"Knowledge"
-			],
-			"province": "Abjuration, mythals",
-			"symbol": "Row of three intertwined rings"
-		},
-		{
-			"name": "Naralis Analor",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Life",
-				"Grave"
-			],
-			"province": "Healing, suffering, death",
-			"symbol": "White dove"
-		},
-		{
 			"name": "Naviask",
 			"source": "EGW",
 			"page": 32,
@@ -10275,13 +9340,14 @@
 		},
 		{
 			"name": "Nebelun",
-			"source": "MTF",
-			"page": 112,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"C",
 				"G"
 			],
+			"title": "God of invention and luck",
 			"domains": [
 				"Forge",
 				"Knowledge",
@@ -10293,22 +9359,6 @@
 				"Nebelun, also known as the Meddler, is fearless, perhaps foolishly so. Every invention of Nebelun's starts with a wild idea, nothing goes entirely according to plan, and her greatest exploits often spring from mistakes. Who else would stroll in and steal Semuanya's tail as the lizardfolk god splashed in his favorite pool? Who else would use Thor's hammer to pound a nail and thus be inspired to invent the lightning rod? Garl never needs to persuade Nebelun to join an excursion, but he and the rest of the pantheon do have to focus her attention on the task at hand, so that her madcap inventiveness doesn't derail the effort.",
 				"All gnomes see Nebelun as the delightful spirit of invention and discovery, even those whose livelihoods have nothing to do with the construction of odd devices. Any accident that fortuitously results in a new discovery might be credited to Nebelun's benevolent meddling in the affairs of mortal gnomes."
 			]
-		},
-		{
-			"name": "Nebelun",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "God of invention and luck",
-			"domains": [
-				"Knowledge",
-				"Trickery"
-			],
-			"symbol": "Bellows and a lizard tail"
 		},
 		{
 			"name": "Nephthys",
@@ -10536,7 +9586,7 @@
 											"type": "entries",
 											"name": "Origin of the Catoblepas, Another Perspective",
 											"entries": [
-												"When a herder boasted that his cattle were Theros's finest because Heliod and Nylea had created them, Heliod persuaded Mogis to curse the cattle, transforming them into the first {@creature Catoblepas|VGM|catoblepases}. Heliod had hoped to win Nylea's favor by defending her honor in this way, but she was outraged to be associated with the creation of these abominations. To this day, Nylea offers a boon to anyone who hunts down a catoblepas and brings its head to her sacred grove.",
+												"When a herder boasted that his cattle were Theros's finest because Heliod and Nylea had created them, Heliod persuaded Mogis to curse the cattle, transforming them into the first {@creature Catoblepas|MPMM|catoblepases}. Heliod had hoped to win Nylea's favor by defending her honor in this way, but she was outraged to be associated with the creation of these abominations. To this day, Nylea offers a boon to anyone who hunts down a catoblepas and brings its head to her sacred grove.",
 												{
 													"type": "list",
 													"style": "list-hang-notitle",
@@ -12301,22 +11351,6 @@
 			"symbol": "Solar disk encircled by serpent"
 		},
 		{
-			"name": "Rellavar Danuvien",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Tempest"
-			],
-			"province": "Winter, harsh weather",
-			"symbol": "Spear between two circles"
-		},
-		{
 			"name": "Reorx",
 			"source": "DSotDQ",
 			"page": 16,
@@ -12363,30 +11397,16 @@
 			"symbol": "Forging hammer"
 		},
 		{
-			"name": "Rill Cleverthrush",
-			"source": "MTF",
-			"page": 110,
-			"pantheon": "Gnome",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Knowledge"
-			],
-			"province": "Law, thought",
-			"symbol": "Interlocking gears"
-		},
-		{
 			"name": "Rillifane Rallathil",
-			"source": "MTF",
-			"page": 46,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Elven",
 			"alignment": [
 				"C",
 				"G"
 			],
 			"category": "The Seldarine",
+			"title": "God of nature",
 			"domains": [
 				"Nature"
 			],
@@ -12422,37 +11442,6 @@
 				"Nature"
 			],
 			"symbol": "Oak"
-		},
-		{
-			"name": "Rillifane Rallathil",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "God of nature",
-			"domains": [
-				"Nature"
-			],
-			"symbol": "Oak"
-		},
-		{
-			"name": "Roknar",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Trickery"
-			],
-			"province": "Lies, intrigue",
-			"symbol": "Hands filled with coins"
 		},
 		{
 			"name": "Sargonnas",
@@ -12494,23 +11483,6 @@
 				"War"
 			],
 			"symbol": "Stylized red condor"
-		},
-		{
-			"name": "Sarula Iliene",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Tempest",
-				"Trickery"
-			],
-			"province": "Lakes, streams",
-			"symbol": "Three lines symbolizing waves"
 		},
 		{
 			"name": "Savras",
@@ -12562,13 +11534,14 @@
 		},
 		{
 			"name": "Segojan Earthcaller",
-			"source": "MTF",
-			"page": 112,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"N",
 				"G"
 			],
+			"title": "God of earth and the dead",
 			"domains": [
 				"Grave",
 				"Light"
@@ -12579,21 +11552,6 @@
 				"The gnomes know Segojan Earthcaller as a kind, modest hero. He is said to be the best cook among the gnome gods and to have the power to heal any sickness, because he knows the medicinal and culinary uses of every creature and plant that lives underground. During the misadventures of the gnome pantheon, Segojan contributes to the group through his healing abilities and the restorative power of his meals, and on many occasions the other gnome gods call upon him to use his ability to burrow through any substance.",
 				"Forest gnomes believe that their ability to speak with burrowing animals comes from Segojan. All gnomes see Segojan as a healer of the sick and a protector of the hearth. He is also revered in his role as a guide for gnomish souls after death, as long as the body is buried before worms claim it. If a gnome's body isn't entrusted to Segojan by interring it, the soul is forced to find its own way to the afterlife."
 			]
-		},
-		{
-			"name": "Segojan Earthcaller",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"title": "God of earth and the dead",
-			"domains": [
-				"Light"
-			],
-			"symbol": "Glowing gemstone"
 		},
 		{
 			"name": "Sehanine",
@@ -12621,7 +11579,7 @@
 				"C",
 				"G"
 			],
-			"title": "the Moon Weaver",
+			"title": "Goddess of divination, dreams, travel, and death, The Moon Weaver",
 			"category": "Prime Deities",
 			"domains": [
 				"Arcana",
@@ -12640,7 +11598,9 @@
 			},
 			"entries": [
 				"Sehanine is the god of moonlight and the autumn season, as well as the patron of illusions and misdirection. Widely worshiped in halfling and elven cultures, she is considered to be the deity of love, protecting the trysts of lovers with shadows of her own making. Those who work in darkness and trickery often ask for her blessing.",
+				"Sehanine is Corellon's beloved; Corellon is Sehanine's creator. Sehanine is Corellon's shadow; Corellon is Sehanine's reflection. Sehanine is the moon; Corellon is the moon's crescent. Sehanine is the night sky; Corellon is the sun and all the stars.",
 				"Sehanine is found among the verdant tangles of the realm of Arborea, watching over the elven courts, or wandering among the colorful fields of the Feywild.",
+				"No god of the Seldarine is as intertwined with Corellon or presents so many paradoxes for worshipers to unravel, but this role befits Sehanine, for she is a god of mysteries as much as anything else. Many non-elves find it easiest to think of Sehanine as the companion of Corellon and the god of the moon, but to elves she is much more than that. The moon passes from one phase to the next, and Sehanine watches over all such cycles, be it from season to season or cradle to grave. She is midwife to elf mothers, ushering souls into the world. She is also thought to stand beside dying elves, to greet their departing spirits and set them on the path to Arvandor. Sehanine serves as patron of the lost and any who travel, as well as those who seek meaning. Elves beseech her to provide relief from madness, and they mark her symbol on graves and tombs to invoke her protection of the dead. In these comforting aspects, Sehanine is often imagined as a willowy, gentle male elf with shining eyes that reveal both melancholy and tenderness in their gaze when depicted alongside his beloved Corellon.",
 				{
 					"type": "entries",
 					"entries": [
@@ -12648,14 +11608,24 @@
 							"type": "entries",
 							"name": "Depiction",
 							"entries": [
-								"The Moon Weaver's depictions are as numerous as the myths and stories of her meddling with the unions of mortals. She is most often painted as a young girl with light-blue skin and white hair, her body and limbs merely wavy silk strands of silver moonlight that caress and create the edges of the shadows around her."
+								"The Moon Weaver's depictions are as numerous as the myths and stories of her meddling with the unions of mortals. She is most often painted as a young girl with light-blue skin and white hair, her body and limbs merely wavy silk strands of silver moonlight that caress and create the edges of the shadows around her.",
+								"In stories of the Seldarine, Sehanine is Corellon's steadfast companion, the one being who can persuade Corellon to pause and reflect rather than allow his emotions to rule him. Corellon can be resplendent with joy or shaking with anger, but a word or a look from Sehanine is enough to check or subtly alter Corellon's mood and behavior, redirecting the god to a less extreme course of action. Some elven legends treat Sehanine as Corellon's spouse or as a favored child, but other stories hint at a deeper truth. They say Sehanine was formed from the first drop of blood spilled from Corellon's body, and so she reminds Corellon that even as a divine being, he can be harmed."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Holy Day",
 							"entries": [
-								"Sehanine has no holy day but is celebrated by the elves on the night of the decade's largest full moon. Elven astronomers track the moon's phases and how it grows closer and farther to Exandria to predict these days with great accuracy. Many haughty elves use this festival as an excuse to be sly and mischievous, while younger elves use costumes and illusions to prank their peers. Some elves of Bysaes Tyl hold a secret festival in the Pearlbow Wilderness during the full moon, since the Dwendalian Empire doesn't allow worship of the Moon Weaver."
+								"Sehanine has no holy day but is celebrated by the elves on the night of the decade's largest full moon. Elven astronomers track the moon's phases and how it grows closer and farther to Exandria to predict these days with great accuracy. Many haughty elves use this festival as an excuse to be sly and mischievous, while younger elves use costumes and illusions to prank their peers. Some elves of Bysaes Tyl hold a secret festival in the Pearlbow Wilderness during the full moon, since the Dwendalian Empire doesn't allow worship of the Moon Weaver.",
+								"Sehanine's priests often seek her guidance by entering into a state of true sleep and sifting through their dreams for signs. But Sehanine has another way of sending messages to the elves of the world. The crescent-shaped cataracts that appear in the eyes of an elderly elf at Transcendence are symbolic of the moonbow, an astronomical phenomenon with which she is associated. It appears in the night sky above the moon as a luminous arc of refracted light, no brighter than the moon itself. Only elves and some half-elves can perceive this sign, for it is meant only for Corellon's people. What it signifies depends on the phase of the moon. Above a full moon, when it is most often detected, it means that an elf of great importance and advanced age will soon journey to Arvandor. Elves who see the sign might be compelled to seek out this individual to commune with and learn from before the elder departs the world. The moonbow appearing above the moon during its other phases can be interpreted in many ways, depending on the season and the timing of its appearance. A moonbow appearing above a new moon is the most dreaded sign, for it is said to signal a coming period of great upheaval and many deaths."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lunar Worship",
+							"entries": [
+								"Temples to Sehanine Moonbow are almost always aligned with the heavens to enable the priests to track the motion and phases of the moon. The sleeping quarters of the priests are positioned such that a shaft of light from the full moon falls on them while they are sleeping, and this silver light of Sehanine can influence their dreams and impart messages to them.",
+								"Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon. Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively. The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it-a warning to the elves' enemies that Sehanine's gaze has fallen upon them."
 							]
 						}
 					]
@@ -12678,38 +11648,6 @@
 		},
 		{
 			"name": "Sehanine Moonbow",
-			"source": "MTF",
-			"page": 46,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Grave",
-				"Knowledge",
-				"Light"
-			],
-			"province": "Dreams, death, travel",
-			"symbol": "Full moon under a moonbow",
-			"entries": [
-				"Sehanine is Corellon's beloved; Corellon is Sehanine's creator. Sehanine is Corellon's shadow; Corellon is Sehanine's reflection. Sehanine is the moon; Corellon is the moon's crescent. Sehanine is the night sky; Corellon is the sun and all the stars.",
-				"No god of the Seldarine is as intertwined with Corellon or presents so many paradoxes for worshipers to unravel, but this role befits Sehanine, for she is a god of mysteries as much as anything else. Many non-elves find it easiest to think of Sehanine as the companion of Corellon and the god of the moon, but to elves she is much more than that. The moon passes from one phase to the next, and Sehanine watches over all such cycles, be it from season to season or cradle to grave. She is midwife to elf mothers, ushering souls into the world. She is also thought to stand beside dying elves, to greet their departing spirits and set them on the path to Arvandor. Sehanine serves as patron of the lost and any who travel, as well as those who seek meaning. Elves beseech her to provide relief from madness, and they mark her symbol on graves and tombs to invoke her protection of the dead. In these comforting aspects, Sehanine is often imagined as a willowy, gentle male elf with shining eyes that reveal both melancholy and tenderness in their gaze when depicted alongside his beloved Corellon.",
-				"In stories of the Seldarine, Sehanine is Corellon's steadfast companion, the one being who can persuade Corellon to pause and reflect rather than allow his emotions to rule him. Corellon can be resplendent with joy or shaking with anger, but a word or a look from Sehanine is enough to check or subtly alter Corellon's mood and behavior, redirecting the god to a less extreme course of action. Some elven legends treat Sehanine as Corellon's spouse or as a favored child, but other stories hint at a deeper truth. They say Sehanine was formed from the first drop of blood spilled from Corellon's body, and so she reminds Corellon that even as a divine being, he can be harmed.",
-				"Sehanine's priests often seek her guidance by entering into a state of true sleep and sifting through their dreams for signs. But Sehanine has another way of sending messages to the elves of the world. The crescent-shaped cataracts that appear in the eyes of an elderly elf at Transcendence are symbolic of the moonbow, an astronomical phenomenon with which she is associated. It appears in the night sky above the moon as a luminous arc of refracted light, no brighter than the moon itself. Only elves and some half-elves can perceive this sign, for it is meant only for Corellon's people. What it signifies depends on the phase of the moon. Above a full moon, when it is most often detected, it means that an elf of great importance and advanced age will soon journey to Arvandor. Elves who see the sign might be compelled to seek out this individual to commune with and learn from before the elder departs the world. The moonbow appearing above the moon during its other phases can be interpreted in many ways, depending on the season and the timing of its appearance. A moonbow appearing above a new moon is the most dreaded sign, for it is said to signal a coming period of great upheaval and many deaths.",
-				{
-					"type": "entries",
-					"name": "Lunar Worship",
-					"entries": [
-						"Temples to Sehanine Moonbow are almost always aligned with the heavens to enable the priests to track the motion and phases of the moon. The sleeping quarters of the priests are positioned such that a shaft of light from the full moon falls on them while they are sleeping, and this silver light of Sehanine can influence their dreams and impart messages to them.",
-						"Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon. Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively. The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it-a warning to the elves' enemies that Sehanine's gaze has fallen upon them."
-					]
-				}
-			]
-		},
-		{
-			"name": "Sehanine Moonbow",
 			"source": "PHB",
 			"page": 296,
 			"pantheon": "Nonhuman",
@@ -12722,21 +11660,6 @@
 				"Knowledge"
 			],
 			"symbol": "Crescent moon"
-		},
-		{
-			"name": "Sehanine Moonbow",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"title": "Goddess of divination, dreams, travel, and death",
-			"domains": [
-				"Knowledge"
-			],
-			"symbol": "Full moon under a moonbow"
 		},
 		{
 			"name": "Sekolah",
@@ -12756,14 +11679,15 @@
 		},
 		{
 			"name": "Selvetarm",
-			"source": "MTF",
-			"page": 54,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Drow",
 			"alignment": [
 				"C",
 				"E"
 			],
 			"category": "The Dark Seldarine",
+			"title": "God of warriors",
 			"domains": [
 				"War"
 			],
@@ -12776,21 +11700,6 @@
 				"Enraged by Lolth's duplicity, Selvetarm is an engine of destruction, an eight-limbed maestro of slaughter. If allowed to operate unchecked, he could rend his way through an entire drow city in a berserk rage. Keeping him restrained is one of the few acts of Lolth that can be described as merciful.",
 				"Because of his status as a captive, Selvetarm draws little attention from drow of high status. Low-caste drow warriors who are themselves slaves or indentured servants, or who have no chance to rise in rank, can beseech Selvetarm for prowess in battle without suffering any shame. Anyone of high standing or who hopes to attain high standing shies away from openly expressing reverence for Selvetarm, though such an individual might still beg his aid privately."
 			]
-		},
-		{
-			"name": "Selvetarm",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"title": "God of warriors",
-			"domains": [
-				"War"
-			],
-			"symbol": "Spider over crossed sword-and-mace"
 		},
 		{
 			"name": "Selûne",
@@ -13022,24 +11931,11 @@
 				"N",
 				"E"
 			],
-			"title": "God of stealth and darkness",
+			"title": "the Night Lord",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "Red crescent moon with a skull between the moon's horns"
-		},
-		{
-			"name": "Shargaas",
-			"source": "VGM",
-			"page": 84,
-			"_copy": {
-				"name": "Shargaas",
-				"source": "SCAG",
-				"pantheon": "Orc"
-			},
-			"pantheon": "Orc",
-			"customExtensionOf": "Shargaas|Orc|SCAG",
-			"title": "the Night Lord",
+			"symbol": "Red crescent moon with a skull between the moon's horns",
 			"entries": [
 				"Shargaas is a god of darkness and the unknown. He is a secretive and murderous deity, dangerous to all except Gruumsh. His realm is the darkness that no creatures but those devoted to him can see through.",
 				"To other orcs, the followers of Shargaas are depraved and twisted creatures that have no honor and skulk in the shadows. Rejected by Yurtrus as too unsuitable to serve as custodians of the dead, these orcs live even deeper inside the lair, close to where the entrance to Shargaas's realm is located. There in the darkness, orcs exiled to meet their fate are either brought into the fold as members of the tribe's Shargaas cult, or are torn to pieces and devoured as sacrificial tributes by the worshipers  of the Night Lord.",
@@ -13060,22 +11956,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Sharindlar",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Life"
-			],
-			"province": "Healing, love",
-			"symbol": "Burning needle"
 		},
 		{
 			"name": "Sharindlar",
@@ -13123,13 +12003,14 @@
 		},
 		{
 			"name": "Sheela Peryroyl",
-			"source": "MTF",
-			"page": 103,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Halfling",
 			"alignment": [
 				"N",
 				"G"
 			],
+			"title": "Goddess of agriculture and weather",
 			"domains": [
 				"Nature",
 				"Tempest"
@@ -13140,37 +12021,6 @@
 				"Every halfling village sets aside a place for paying respects to Sheela Peryroyl. In a grove of trees, a raspberry patch, or a swath of wildflowers, villagers leave a small offering whenever they walk by, or tip their caps, or whisper a blessing in her honor. A village counts itself lucky if this place is cared for by a druid. Creatures that attack a village under the protection of the god's druids soon learn the error of their ways when all manner of plants lash out to grapple and sting the intruders, as though nature herself were aiding the halflings' cause.",
 				"On nights when the moon is full, especially during the planting and harvesting seasons, the elders tell stories about Sheela Peryroyl. After becoming a hero though her glorious adventures, Sheela joined with the earth, fusing her spirit with the flowers, plants, and trees so she could better provide for her kin. A halfling who accidentally steps on a flower often says, \"Begging your pardon, Sheela.\" Before halflings cut down a tree to use its wood for a new house, it is customary for them to stand before the tree with their caps doffed, humbly asking permission from Sheela to continue."
 			]
-		},
-		{
-			"name": "Sheela Peryroyl",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Halfling",
-			"alignment": [
-				"N"
-			],
-			"title": "Goddess of agriculture and weather",
-			"domains": [
-				"Nature",
-				"Tempest"
-			],
-			"symbol": "Flower"
-		},
-		{
-			"name": "Shevarash",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"War"
-			],
-			"province": "Vengeance, loss, hatred",
-			"symbol": "Broken arrow over a tear"
 		},
 		{
 			"name": "Shevarash",
@@ -13186,21 +12036,6 @@
 				"War"
 			],
 			"symbol": "Broken arrow over a tear"
-		},
-		{
-			"name": "Sheyanna Flaxenstrand",
-			"source": "MTF",
-			"page": 110,
-			"pantheon": "Gnome",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Light"
-			],
-			"province": "love, beauty, passion",
-			"symbol": "Two silver goblets"
 		},
 		{
 			"name": "Shinare",
@@ -13498,23 +12333,6 @@
 		},
 		{
 			"name": "Solonor Thelandira",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Nature",
-				"War"
-			],
-			"province": "Archery, hunting, survival",
-			"symbol": "Silver arrow with green fletching"
-		},
-		{
-			"name": "Solonor Thelandira",
 			"source": "SCAG",
 			"page": 23,
 			"pantheon": "Elven",
@@ -13527,16 +12345,6 @@
 				"War"
 			],
 			"symbol": "Silver arrow with green fletching"
-		},
-		{
-			"name": "Sseth",
-			"source": "VGM",
-			"page": 94,
-			"pantheon": "Yuan-ti",
-			"entries": [
-				"In the last years before the yuan-ti empire collapsed, Sseth appeared to the serpent folk in the form of a winged yuan-ti. He promised to lead the yuan-ti away from the brink of defeat and back to the pinnacle of world domination in return for their veneration. Many of Merrshaulk's devout turned to the worship of the Sibilant Death, believing him to be an avatar of their deity. They granted him enough power to mount a brief recovery, but those actions were too little and too late to prevent the collapse of the empire. Sseth chose to rest and gather strength during the years of decline, as more and more of the yuan-ti adopted his worship.",
-				"His most devout followers, known as mind whisperers, use their god-given magic to emulate Sseth's tactics and principles. They strive to succeed by offering an alternative choice to contesting viewpoints or plans, and in so doing they exude an air of self-importance that gives them a less than savory reputation among yuan-ti that follow other gods."
-			]
 		},
 		{
 			"name": "St. Cuthbert",
@@ -13885,23 +12693,6 @@
 			]
 		},
 		{
-			"name": "Tarsellis Meunniduin",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Nature",
-				"Tempest"
-			],
-			"province": "Mountains, rivers, wild places",
-			"symbol": "Mountain with a river"
-		},
-		{
 			"name": "Tempus",
 			"altNames": [
 				"The Foehammer",
@@ -13987,38 +12778,6 @@
 				"Tempus's favor might be randomly distributed, but over the centuries his priests have made an effort to spread and enforce a common code of warfare - to make war a thing of rules, respect for reputations, and professional behavior. This code, called Tempus's Honor, has the purpose of making conflicts brief, decisive, and as safe as possible for those not directly involved. The rules in the code include the following: arm anyone who has need of a weapon; disparage no foe; acquit oneself with bravery; train all for battle; and don't engage in feuds. Those who poison wells, taint fields, kill noncombatants, or engage in torture in the name of war are all considered sinners.",
 				"Worshipers of Tempus are legion, and his name is often on the lips of soldiers. His priests are tacticians, often skilled in the art of war. Many of his ordained don't serve in temples, but as battlefield chaplains with armies and mercenary companies, encouraging their fellow soldiers with both word and blade. Priests of Tempus teach that war conducted properly is fair in that it oppresses all sides equally, and that in any given battle, a mortal might be slain or might become a great leader among his or her companions. Mortals shouldn't fear war but should see it as a natural force, the storm that civilization brings about by its very existence."
 			]
-		},
-		{
-			"name": "Tethrin Veraldé",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"War"
-			],
-			"province": "Battle, sword fighting",
-			"symbol": "Crossed swords beneath a quarter moon and above a full moon"
-		},
-		{
-			"name": "Thard Harr",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Nature"
-			],
-			"province": "Wilderness, hunting",
-			"symbol": "Two clawed gauntlets"
 		},
 		{
 			"name": "Tharizdun",
@@ -14125,22 +12884,6 @@
 			"worshipers": "Nihilistic cultists",
 			"plane": "Imprisoned in a demiplane",
 			"symbol": "Spiral rune"
-		},
-		{
-			"name": "Tharmekhûl",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Forge",
-				"Light"
-			],
-			"province": "Fire, forges, molten rock",
-			"symbol": "Fiery axe"
 		},
 		{
 			"name": "Thassa",
@@ -14423,22 +13166,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Thautam",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Knowledge",
-				"Trickery"
-			],
-			"province": "Mysteries, darkness, lost treasures",
-			"symbol": "Blindfold"
 		},
 		{
 			"name": "The All-Hammer",
@@ -17308,22 +16035,6 @@
 		},
 		{
 			"name": "Ulaa",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Forge"
-			],
-			"province": "Mining, quarrying",
-			"symbol": "A miner's pick"
-		},
-		{
-			"name": "Ulaa",
 			"source": "PHB",
 			"page": 295,
 			"pantheon": "Greyhawk",
@@ -17442,13 +16153,14 @@
 		},
 		{
 			"name": "Urdlen",
-			"source": "MTF",
-			"page": 112,
+			"source": "SCAG",
+			"page": 24,
 			"pantheon": "Gnome",
 			"alignment": [
 				"C",
 				"E"
 			],
+			"title": "God of greed and murder",
 			"domains": [
 				"Death",
 				"War"
@@ -17459,45 +16171,6 @@
 				"Many pantheons include in their number a miscreant or an outlier-someone not to be emulated in the customary way, and often an entity whose existence serves as an object lesson and an example of what befalls mortals who conduct themselves the same way. For the gnomes, this niche is filled by Urdlen, also known as the Glutton for its selfish and cruel behavior.",
 				"Though the details differ from telling to telling, all gnomes know the story of how Garl banished Urdlen from the Golden Hills because Urdlen refused to go on an important quest. Despite Garl's efforts and the pleas of the rest of the pantheon, Urdlen selfishly refused to set his own interests aside and contribute to the group. Every version of this story ends in some sort of tragedy-perhaps the loss of Gaerdal's hand, the affliction that caused Flandal to need new skin, or the disappearance of Baravar's shadow-and each one concludes with \"And that is why Garl sent Urdlen into exile.\" In tales of his later life, Urdlen is no longer a gnome but has become a greedy and destructive monster, a great blind and hairless mole with iron claws and teeth.",
 				"Gnomes believe that Urdlen exerts influence on their lives when they experience jealousy, greed, petulance, or envy. Individuals are more likely to fall prey to these feelings when they don't spend enough time in activities with others, and so tales of Urdlen serve as a somber reminder of the importance of participating in society."
-			]
-		},
-		{
-			"name": "Urdlen",
-			"source": "SCAG",
-			"page": 24,
-			"pantheon": "Gnomish",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"title": "God of greed and murder",
-			"domains": [
-				"Death",
-				"War"
-			],
-			"symbol": "White clawed mole emerging from ground"
-		},
-		{
-			"name": "Urogalan",
-			"source": "MTF",
-			"page": 104,
-			"pantheon": "Halfling",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Death",
-				"Grave",
-				"Knowledge"
-			],
-			"province": "Earth, death",
-			"symbol": "Silhouette of a dog's head",
-			"entries": [
-				"In ancient times the halfling hero Urogalan left his village with his faithful hound to venture into the afterlife-and then, much to the villagers' amazement, he returned. They could see that Urogalan had been deeply affected by his experiences, since he didn't speak for a long time. He merely sat in a white robe with his hound by his side, watching the world go by. When he did speak at last, he told of a place he called the Green Fields, where the halflings' god-heroes live alongside mortals who have passed on, enjoying lush farmland, bright sunshine, and all the comforts of home.",
-				"Urogalan declared that all who have gone before still watch over their loved ones from this place of eternal peace, sending messages to the material world. In acknowledgement of this assertion, halflings look for signs from their departed loved ones. One might be thinking about catching butterflies with his grandmother long ago, when suddenly a butterfly lands on his hand-clear evidence that, as Urogalan promised, she is still looking out for her grandson from beyond the veil of death.",
-				"As a divine being, Urogalan can move freely through the earth and across the planes of existence. He holds aloft a magic lantern that protects him on his journeys. With his black hound leading the way, Urogalan scours the multiverse and shepherds deceased halflings to their eternal home in the Green Fields.",
-				"Unlike other halfling deities, Urogalan is surrounded by a cloud of melancholy. He is gaunt, with his dusky skin covered by white robes. Priests who venerate Urogalan emulate this practice of dress and demeanor."
 			]
 		},
 		{
@@ -17512,26 +16185,17 @@
 			"title": "God of earth and death",
 			"domains": [
 				"Death",
+				"Grave",
 				"Knowledge"
 			],
-			"symbol": "Silhouette of a dog's head"
-		},
-		{
-			"name": "Valkauna",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Grave",
-				"Life"
-			],
-			"province": "Oaths, birth, aging, death",
-			"symbol": "A silver ewer"
+			"province": "Earth, death",
+			"symbol": "Silhouette of a dog's head",
+			"entries": [
+				"In ancient times the halfling hero Urogalan left his village with his faithful hound to venture into the afterlife-and then, much to the villagers' amazement, he returned. They could see that Urogalan had been deeply affected by his experiences, since he didn't speak for a long time. He merely sat in a white robe with his hound by his side, watching the world go by. When he did speak at last, he told of a place he called the Green Fields, where the halflings' god-heroes live alongside mortals who have passed on, enjoying lush farmland, bright sunshine, and all the comforts of home.",
+				"Urogalan declared that all who have gone before still watch over their loved ones from this place of eternal peace, sending messages to the material world. In acknowledgement of this assertion, halflings look for signs from their departed loved ones. One might be thinking about catching butterflies with his grandmother long ago, when suddenly a butterfly lands on his hand-clear evidence that, as Urogalan promised, she is still looking out for her grandson from beyond the veil of death.",
+				"As a divine being, Urogalan can move freely through the earth and across the planes of existence. He holds aloft a magic lantern that protects him on his journeys. With his black hound leading the way, Urogalan scours the multiverse and shepherds deceased halflings to their eternal home in the Green Fields.",
+				"Unlike other halfling deities, Urogalan is surrounded by a cloud of melancholy. He is gaunt, with his dusky skin covered by white robes. Priests who venerate Urogalan emulate this practice of dress and demeanor."
+			]
 		},
 		{
 			"name": "Valkur",
@@ -17548,23 +16212,6 @@
 				"War"
 			],
 			"symbol": "A cloud and three lightning bolts"
-		},
-		{
-			"name": "Vandria Gilmadrith",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Grave",
-				"War"
-			],
-			"province": "War, grief, justice, vigilance",
-			"symbol": "Weeping eye"
 		},
 		{
 			"name": "Vecna",
@@ -17695,21 +16342,6 @@
 		},
 		{
 			"name": "Vergadain",
-			"source": "MTF",
-			"page": 73,
-			"pantheon": "Dwarven",
-			"alignment": [
-				"N"
-			],
-			"category": "The Mordinsamman",
-			"domains": [
-				"Trickery"
-			],
-			"province": "Luck, wealth",
-			"symbol": "Gold coin bearing a dwarf's face"
-		},
-		{
-			"name": "Vergadain",
 			"source": "SCAG",
 			"page": 22,
 			"pantheon": "Dwarven",
@@ -17775,14 +16407,15 @@
 		},
 		{
 			"name": "Vhaeraun",
-			"source": "MTF",
-			"page": 55,
+			"source": "SCAG",
+			"page": 23,
 			"pantheon": "Drow",
 			"alignment": [
 				"C",
 				"E"
 			],
 			"category": "The Dark Seldarine",
+			"title": "God of thieves",
 			"domains": [
 				"Trickery",
 				"War"
@@ -17795,21 +16428,6 @@
 				"Due to his high status in the Dark Seldarine (for a male) and because of his arrogance, a few of his worshipers look on him as an advocate of equality between male and female drow. That heresy, when it is expressed openly, is liable to be savagely crushed by the priestesses of Lolth. So most of Vhaeraun's male followers honor him simply by trying to carve out better lives for themselves, and that activity is tolerated. Even so, adherents of Vhaeraun don't appear in public without wearing masks. This practice exists in part because Vhaeraun is never portrayed unmasked, and partly because anonymity is a wise precaution when one challenges the social structure of the drow in even a small way.",
 				"To quash any challenge to the matriarchy that Vhaeraun might inspire in his followers, some drow communities preach that he wears a mask to hide the terrible scars from the wounds inflicted on him by Lolth as punishment for his arrogance. His silence, too, is part of his punishment, for his tongue was removed for questioning Lolth's orders. Worshipers of Vhaeraun who believe this dogma sometimes ritually scar and silence themselves as signs of their devotion, and then serve as voiceless, masked bodyguards for the matrons of their house."
 			]
-		},
-		{
-			"name": "Vhaeraun",
-			"source": "SCAG",
-			"page": 23,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"title": "God of thieves",
-			"domains": [
-				"Trickery"
-			],
-			"symbol": "Black mask with blue glass lenses inset over eyes"
 		},
 		{
 			"name": "Waukeen",
@@ -17965,26 +16583,9 @@
 			]
 		},
 		{
-			"name": "Ye'Cind",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Life",
-				"Trickery"
-			],
-			"province": "Music, enchantment",
-			"symbol": "Recorder"
-		},
-		{
 			"name": "Yondalla",
-			"source": "MTF",
-			"page": 102,
+			"source": "SCAG",
+			"page": 23,
 			"additionalSources": [
 				{
 					"source": "TCE",
@@ -17996,6 +16597,7 @@
 				"L",
 				"G"
 			],
+			"title": "Goddess of fertility and protection",
 			"domains": [
 				"Life",
 				"Twilight"
@@ -18031,28 +16633,6 @@
 			"symbol": "Shield"
 		},
 		{
-			"name": "Yondalla",
-			"source": "SCAG",
-			"page": 23,
-			"additionalSources": [
-				{
-					"source": "TCE",
-					"page": 34
-				}
-			],
-			"pantheon": "Halfling",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"title": "Goddess of fertility and protection",
-			"domains": [
-				"Life",
-				"Twilight"
-			],
-			"symbol": "Cornucopia on a shield"
-		},
-		{
 			"name": "Yurtrus",
 			"source": "SCAG",
 			"page": 24,
@@ -18061,24 +16641,11 @@
 				"N",
 				"E"
 			],
-			"title": "God of death and disease",
+			"title": "the White Hand",
 			"domains": [
 				"Death"
 			],
-			"symbol": "White hand, palm outward"
-		},
-		{
-			"name": "Yurtrus",
-			"source": "VGM",
-			"page": 84,
-			"_copy": {
-				"name": "Yurtrus",
-				"source": "SCAG",
-				"pantheon": "Orc"
-			},
-			"pantheon": "Orc",
-			"customExtensionOf": "Yurtrus|Orc|SCAG",
-			"title": "the White Hand",
+			"symbol": "White hand, palm outward",
 			"entries": [
 				"Yurtrus is often depicted as consumed by rot and covered in oozing pustules, utterly repulsive except for his hands, which are pure white and free of any blemish. Yurtrus has no mouth and never utters a sound, so that he may come in absolute silence for his chosen.",
 				"The followers of Yurtrus are allowed to dwell on the fringes of the tribe, but are looked upon with distaste and unease. They interact with the tribe mostly on occasions of death, claiming the bones of fallen warriors to add to the ossuary shrines of Yurtrus, and sometimes during shamanic rites when contact with spirits occurs.",
@@ -18104,22 +16671,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Zandilar",
-			"source": "MTF",
-			"page": 43,
-			"pantheon": "Elven",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Seldarine",
-			"domains": [
-				"Life"
-			],
-			"province": "Romance, lust, dance",
-			"symbol": "Lips"
 		},
 		{
 			"name": "Zeboim",
@@ -18256,28 +16807,6 @@
 				"Tempest"
 			],
 			"symbol": "Fist full of lightning bolts"
-		},
-		{
-			"name": "Zinzerena",
-			"source": "MTF",
-			"page": 56,
-			"pantheon": "Drow",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"category": "The Dark Seldarine",
-			"domains": [
-				"Trickery"
-			],
-			"province": "Assassination, illusion, lies",
-			"symbol": "Shortsword draped with cloth",
-			"entries": [
-				"As the patron of assassination, illusions, and lies, Zinzerena personifies cruelty, stealth, misdirection, and survival by any means necessary. In some ways, Malyk is her reflection, and in many interpretations of the age-old stories, the two gods are siblings or lovers. But Zinzerena is more palatable to female drow than Malyk, and she condones the study of arcane magic.",
-				"The liturgy of Zinzerena is passed on in the form of folk tales, for her faith has no place among the leadership of drow society. Her tales usually describe her hiding and waiting until her foes are weakened or lax in their attention before she attacks. Those who respect or revere Zinzerena are almost always of modest social status, or worse. Even the most prestigious of noble estates, where a high priestess reigns supreme, might have a number of her followers among the commoners who work as servants and staff. Only the most capricious of nobles would enter her priesthood, though some have done so. Inevitably, when such traitors are discovered, they are cast out from their houses. Ironically, these maverick nobles often become leading figures in Zinzerena's cult, for they are the best educated and most politically experienced of her followers. Her adherents come from a wide range of occupations, including common thieves, laborers, guides, physicians, poets, and nearly any other profession. What they all share is a rebellious spirit and a desire for change.",
-				"In some stories, Zinzerena is Lolth's daughter, who was spirited away and hidden from her by illusions. In other tales, she begins life as a mortal elf who uses glamors to trick her way into the company of the gods. Regardless, Zinzerena always has some element of illusion magic about her, and she uses it and other deceptions to get the better of more powerful opponents. Deceit and taking advantage of others' weaknesses are recurring themes in the tales of her exploits. The only figure in the Dark Seldarine immune to Zinzerena's deceptions is Lolth, although even the Queen of Spiders is sometimes tricked when Zinzerena shifts blame for her actions onto others.",
-				"Not many female drow devote their lives to the study of magic, because it's held to be a low-status avocation more suited to males. Most females who pursue it seriously do so in secret. Even rumors that a drow matron practices arcane magic, if they aren't quashed, can sabotage her standing in society. Yet there's no denying that knowledge of arcane magic could be a great boon to an ambitious female. Zinzerena's worshipers encourage this pursuit and offer tutelage and tools in exchange for a candidate's alliance with Zinzerena's secret cult."
-			]
 		},
 		{
 			"name": "Zivilyn",

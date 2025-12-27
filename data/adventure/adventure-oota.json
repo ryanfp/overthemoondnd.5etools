@@ -202,7 +202,7 @@
 									"page": 6,
 									"id": "00a",
 									"entries": [
-										"A male {@creature derro|MTF}, {@creature Buppido|OotA} is surprisingly gregarious and talkative, demonstrating a keen mind and a disarming manner. This pleasant facade conceals the soul of an insane killer. {@creature Buppido|OotA} secretly believes he is the living incarnation of the derro god Diinkarazan\u2014an avatar of murder offering bloody sacrifices to create a path of carnage through the Underdark for his people to follow to glory. He rationalizes any setbacks (including his capture and imprisonment) as part of his \"divine plan.\" His killings are carefully ritualized, following an exacting process of cutting open the victims and arranging their organs.",
+										"A male {@creature derro|MPMM}, {@creature Buppido|OotA} is surprisingly gregarious and talkative, demonstrating a keen mind and a disarming manner. This pleasant facade conceals the soul of an insane killer. {@creature Buppido|OotA} secretly believes he is the living incarnation of the derro god Diinkarazan\u2014an avatar of murder offering bloody sacrifices to create a path of carnage through the Underdark for his people to follow to glory. He rationalizes any setbacks (including his capture and imprisonment) as part of his \"divine plan.\" His killings are carefully ritualized, following an exacting process of cutting open the victims and arranging their organs.",
 										"Although mad, {@creature Buppido|OotA} is cunning and capable of hiding his true nature to serve his own ends. Because he believes he is a god, he is convinced that he can't be killed (or at least that the death of his mortal form means nothing to him), so he is completely fearless. He assumes everything is part of his divine plan, and enthusiastically participates in any plot to escape from the drow so he can continue his holy work. {@creature Buppido|OotA} is happy to consider his fellow prisoners allies until such time as he no longer needs them, or becomes convinced that the omens point toward the need for one or more of them to be sacrificed to his greater glory."
 									]
 								},
@@ -3607,7 +3607,7 @@
 											"rows": [
 												[
 													"1\u20132",
-													"{@creature Y|OotA} the {@creature derro savant|MTF} (see {@adventure appendix C|OotA|19})"
+													"{@creature Y|OotA} the {@creature derro savant|MPMM} (see {@adventure appendix C|OotA|19})"
 												],
 												[
 													"3\u20134",
@@ -3715,7 +3715,7 @@
 												]
 											]
 										},
-										"Deep gnome and drow traders have a 50 percent chance of having half their number in {@creature Giant Lizard||giant lizards} as mounts and pack animals. Duergar traders have a 50 percent chance of having half their number in {@creature Male Steeder|MTF|male steeders} (see {@adventure appendix C|OotA|19}) as pack animals. If there are male steeders present, there is a 50 percent chance that the traders are escorted by a {@creature duergar kavalrachni|MTF} astride a {@creature female steeder|MTF} (see {@adventure appendix C|OotA|19} for both).",
+										"Deep gnome and drow traders have a 50 percent chance of having half their number in {@creature Giant Lizard||giant lizards} as mounts and pack animals. Duergar traders have a 50 percent chance of having half their number in {@creature Male Steeder|MPMM|male steeders} (see {@adventure appendix C|OotA|19}) as pack animals. If there are male steeders present, there is a 50 percent chance that the traders are escorted by a {@creature duergar kavalrachni|MPMM} astride a {@creature female steeder|MPMM} (see {@adventure appendix C|OotA|19} for both).",
 										"The traders carry goods worth {@dice 5d4 × 10} gp plus ten days of provisions per member of their party; they are willing to sell up to 20 percent of either. If drow traders see the adventurers and have the opportunity to report it, increase the drow pursuit level by 1."
 									]
 								}
@@ -6971,7 +6971,7 @@
 								"Another sound rises above the burbling cries of the kuo-toa. The dark surface of the water farther out bubbles and begins to foam. A thick, oily tentacle bursts forth, followed by another. Then two monstrous heads break the surface, both resembling hideous, angry baboons with wickedly curved tusks. Both heads are attached to a single torso, and the monster's red eyes burn with bloodlust and madness. The creature rising from the Darklake must stand thirty feet tall or more, with water cascading down its back and shoulders. Upon reaching its full height, the great demon throws back both its heads and roars!"
 							]
 						},
-						"The kuo-toa offerings and the fervor of his worshipers in the Darklake have drawn the attention of {@creature Demogorgon|MTF} (see {@adventure appendix D|OotA|20}). Upon witnessing the rise of the Prince of Demons, each party member must succeed on a {@dc 13} Charisma saving throw or gain a level of madness (see \"{@area Madness|063|x}\" in chapter 2). The kuo-toa become {@condition incapacitated} for {@dice 1d10} minutes, crying out \"Leemooggoogoon!\" over and over again.",
+						"The kuo-toa offerings and the fervor of his worshipers in the Darklake have drawn the attention of {@creature Demogorgon|MPMM} (see {@adventure appendix D|OotA|20}). Upon witnessing the rise of the Prince of Demons, each party member must succeed on a {@dc 13} Charisma saving throw or gain a level of madness (see \"{@area Madness|063|x}\" in chapter 2). The kuo-toa become {@condition incapacitated} for {@dice 1d10} minutes, crying out \"Leemooggoogoon!\" over and over again.",
 						"Demogorgon wades toward Sloobludop, heads roaring and gibbering, tentacles flailing and smashing the water. In 4 rounds, he comes within reach of the shoreline and lashes out, smashing docks and sending bodies flying with each sweep of his tentacles. When the demon lord attacks, some kuo-toa recover their wits enough to flee, while others cower, {@condition paralyzed} with fear.",
 						{
 							"type": "entries",
@@ -7151,7 +7151,7 @@
 												],
 												[
 													"5\u20137",
-													"{@creature derro|MTF} rioters*"
+													"{@creature derro|MPMM} rioters*"
 												],
 												[
 													"8\u20139",
@@ -7212,7 +7212,7 @@
 									"page": 52,
 									"id": "140",
 									"entries": [
-										"A mob of {@creature derro|MTF} (see {@adventure appendix C|OotA|19}) rampages through the streets. Five of them detach from the mob to attack the characters. Four duergar patrols (see \"Duergar Patrol\") arrive when the characters kill the last derro, but they simply nod at the characters before repressing the rest of the mob. Word quickly spreads that the characters helped the city guard control the unruly derro scum. At your discretion, give the characters advantage on checks made to interact with any duergar in the city until such time as the benefit no longer seems appropriate."
+										"A mob of {@creature derro|MPMM} (see {@adventure appendix C|OotA|19}) rampages through the streets. Five of them detach from the mob to attack the characters. Four duergar patrols (see \"Duergar Patrol\") arrive when the characters kill the last derro, but they simply nod at the characters before repressing the rest of the mob. Word quickly spreads that the characters helped the city guard control the unruly derro scum. At your discretion, give the characters advantage on checks made to interact with any duergar in the city until such time as the benefit no longer seems appropriate."
 									]
 								},
 								{
@@ -7391,7 +7391,7 @@
 									"page": 53,
 									"id": "149",
 									"entries": [
-										"A group of {@dice 1d4 + 1} {@creature duergar} teamsters herd a clutch of {@dice 2d6} {@creature Male Steeder|MTF|male steeders} (see {@adventure appendix C|OotA|19}). There is a 50 percent chance that {@dice 1d4} of the steeders attack nearby characters or bystanders. The duergar keep the rest of the clutch in check, but they clamor for the characters' arrest if even one of the arachnids is killed. A nearby patrol (see \"Duergar Patrol\") hears the teamsters' clamor and arrives {@dice 1d6} rounds later."
+										"A group of {@dice 1d4 + 1} {@creature duergar} teamsters herd a clutch of {@dice 2d6} {@creature Male Steeder|MPMM|male steeders} (see {@adventure appendix C|OotA|19}). There is a 50 percent chance that {@dice 1d4} of the steeders attack nearby characters or bystanders. The duergar keep the rest of the clutch in check, but they clamor for the characters' arrest if even one of the arachnids is killed. A nearby patrol (see \"Duergar Patrol\") hears the teamsters' clamor and arrives {@dice 1d6} rounds later."
 									]
 								},
 								{
@@ -7696,7 +7696,7 @@
 									"id": "161",
 									"entries": [
 										"The {@i Forak-Erach-Naek} (\"Empty-Scabbard Killers\" in Common) are a folktale in Gracklstugh, their name derived from an ancient, obscure Dwarvish dialect. They are an order of psionic assassins practicing disciplines unknown to even the savviest derro or the wisest priest. More than a myth, these killers have been plying their trade for centuries, their motives unknown and their methods inscrutable.",
-										"The Empty-Scabbard Killers are {@creature Duergar Soulblade|MTF|duergar soulblades} (see {@adventure appendix C|OotA|19}) who roam the streets of Gracklstugh searching for psionically gifted children to abduct and train. They also keep an eye out for worthy {@i calassabrak} (see below), offering them a chance to join a new community from which they can strike back at those who cast them out."
+										"The Empty-Scabbard Killers are {@creature Duergar Soulblade|MPMM|duergar soulblades} (see {@adventure appendix C|OotA|19}) who roam the streets of Gracklstugh searching for psionically gifted children to abduct and train. They also keep an eye out for worthy {@i calassabrak} (see below), offering them a chance to join a new community from which they can strike back at those who cast them out."
 									]
 								}
 							]
@@ -7870,7 +7870,7 @@
 								"When the characters first reached the road, six {@creature duergar} watching invisibly started following them at a safe distance. Twelve more {@creature duergar} soldiers are stationed in guardhouses concealed within the rocky walls of the cavern, all of them aiming heavy crossbows at the party.",
 								"The duergar are hostile, and the guard who spoke follows up on every answer the characters give. One character can take the lead in the interrogation by speaking for the party and making a {@dc 15} Charisma check ({@skill Deception} and {@skill Persuasion} apply; {@skill Intimidation} or {@skill Performance} are met with scorn). Depending on how believable the party's story is and how the other adventurers behave during the questioning, you might allow the character to make the check with advantage or impose disadvantage.",
 								"The guard grudgingly lets the characters pass if the check succeeds, and refuses them entrance if it fails. If the check fails by 5 or more, the guard gives the order to arrest the characters, announcing that they are now slaves of the duergar (see \"Getting Captured\" below).",
-								"The first time the characters are allowed inside the city or turned away from a gate, a secret door on the wall opens, revealing Gorglak, a {@creature duergar Stone Guard|MTF} (see {@adventure appendix C|OotA|19}).",
+								"The first time the characters are allowed inside the city or turned away from a gate, a secret door on the wall opens, revealing Gorglak, a {@creature duergar Stone Guard|MPMM} (see {@adventure appendix C|OotA|19}).",
 								{
 									"type": "insetReadaloud",
 									"id": "172",
@@ -8316,7 +8316,7 @@
 									]
 								},
 								"The rampage happens in a broad plaza, so there is plenty of space for the different combatants to maneuver.",
-								"The giant moves in the characters' direction and lashes out. Two {@creature duergar} guards and two {@creature duergar xarrorn|MTF} (see {@adventure appendix C|OotA|19}) respond to the giant's roaring, racing in to join the fight in the second round. They are well trained and do their best to help, but to avoid additional complexity during the encounter, assume that the duergar act at the end of the initiative order and deal a flat total of 10 damage to the giant each round.",
+								"The giant moves in the characters' direction and lashes out. Two {@creature duergar} guards and two {@creature duergar xarrorn|MPMM} (see {@adventure appendix C|OotA|19}) respond to the giant's roaring, racing in to join the fight in the second round. They are well trained and do their best to help, but to avoid additional complexity during the encounter, assume that the duergar act at the end of the initiative order and deal a flat total of 10 damage to the giant each round.",
 								"Bystanders take cover at once, but {@creature duergar} citizens are ready to jump in if the guards fail to contain the threat. The giant ignores characters attacking from range and attacks opponents in melee at random, including the duergar. Both the giant and the guards fight until they drop to 0 hit points.",
 								{
 									"type": "entries",
@@ -8325,7 +8325,7 @@
 									"id": "17b",
 									"entries": [
 										"Without the characters' help, the guards and assisting citizens bring down the stone giant with few casualties. If the characters are prisoners under escort when the giant attacks, the guards who engage the giant are their escort. The characters can use this chance to escape, or they can help, albeit with disadvantage on attack rolls if they are shackled. The duergar are pragmatists and release characters who help them deal with the giant's threat, but they attempt to arrest them again after the combat is over.",
-										"Once the crazed giant is put down, another stone giant comes through the shattered gate, but this one looks perfectly sane. He reaches the fallen giant at the same time as a squad of three {@creature Duergar Stone Guard|MTF|duergar stone guards} (see {@adventure appendix C|OotA|19}).",
+										"Once the crazed giant is put down, another stone giant comes through the shattered gate, but this one looks perfectly sane. He reaches the fallen giant at the same time as a squad of three {@creature Duergar Stone Guard|MPMM|duergar stone guards} (see {@adventure appendix C|OotA|19}).",
 										"The guards who fought alongside the characters explain the situation, neither downplaying nor exalting the characters' actions. The characters can speak to the newly arrived giant while the duergar confer. The giant introduces himself as Dorhun, apprentice to Stonespeaker Hgraam. He reveals that the fallen giant's name is Rihuud, and that he was another of the Stonespeaker's apprentices. Rihuud was \"communing with the stone\" in Cairngorm Cavern when he went mad, sprouted a second head, and stormed out.",
 										"If the party was not previously arrested and didn't participate in the fight, the Stone Guards start questioning bystanders, who eventually point out the characters as new arrivals to the city.",
 										"If the characters knocked Rihuud {@condition unconscious} instead of dealing a lethal blow, a grateful Dorhun asks them to visit Cairngorm Cavern before they leave the city, informing the Stone Guards of this. The importance of the Stonespeaker means that the Stone Guards will escort the party across the city to meet with him, though they don't hide their displeasure at doing so.",
@@ -8366,7 +8366,7 @@
 										"The characters can continue to Overlake Hold and meet with Captain Errde Blackskull (see \"Overlake Hold\").",
 										"The {@creature drow scout|OotA} Xalith approaches the Stone Guards, claiming the characters as escaped property of her mistress, Ilvara (see \"Signs of Pursuit\" in the \"Blade Bazaar\" section). The Stone Guards arrest the characters and take them to Overlake Hold, pending negotiations with the drow. At this point, they also meet Captain Errde Blackskull.",
 										"{@creature Droki|OotA} (see \"{@creature Droki|OotA}\" in the \"Blade Bazaar\" section) accidentally bumps into the patrol, creating a distraction that allows the characters to escape.",
-										"A successful {@dc 15} Charisma ({@skill Persuasion}) check convinces the Stone Guards not to arrest the characters, provided the characters agree to visit Overlake Hold once their business in Gracklstugh is concluded. The party remains under watch at all times by an {@condition invisible} {@creature duergar Stone Guard|MTF}(see {@adventure appendix C|OotA|19}). If it seems like the characters have done what they came to do, the {@condition invisible} duergar reminds them to make good on their promise to visit Overlake Hold."
+										"A successful {@dc 15} Charisma ({@skill Persuasion}) check convinces the Stone Guards not to arrest the characters, provided the characters agree to visit Overlake Hold once their business in Gracklstugh is concluded. The party remains under watch at all times by an {@condition invisible} {@creature Duergar Stone Guard|MPMM}(see {@adventure appendix C|OotA|19}). If it seems like the characters have done what they came to do, the {@condition invisible} duergar reminds them to make good on their promise to visit Overlake Hold."
 									]
 								}
 							]
@@ -8447,7 +8447,7 @@
 										"If the characters arrive in Gracklstugh with a drow pursuit level of 3 or higher (see \"{@area Drow Pursuit|078|x}\" in chapter 2), Ilvara has already sent a party ahead of them, guessing correctly that the escaped prisoners might seek refuge with the duergar.",
 										"Characters with a passive Wisdom ({@skill Perception}) score of 15 or higher spot six {@creature drow} watching them in the Blade Bazaar. One of them is Xalith Masq'il'yr, a female drow allied with House Mizzrym. Any of the party's NPC companions who know the duergar well can guess that these drow won't want to attract the duergar's attention to their \"lost property.\" Doing so would likely involve having to pay the gray dwarves a reward for the adventurers' capture. This gives the characters a chance to evade their pursuers, but they need to stay out of sight.",
 										"Xalith speaks to the duergar only if the characters are arrested. Otherwise, she sends a messenger to Ilvara and makes sure the characters don't go anywhere without her knowing. If the characters fail to lose themselves in the city (see \"{@area Gracklstugh and Drow Pursuit|136|x}\" earlier in this chapter), their pursuit level increases by 1 every {@dice 1d4} days until Ilvara arrives.",
-										"Alternatively, the adventurers might decide to turn the tables on the drow. Characters might figure out a way to quietly neutralize Xalith and her squad, perhaps tricking them into damaging a duergar merchant's property or forcing them outside Darklake District, where even drow are forbidden to go. Doing so decreases the pursuit level by 2. However, if combat ever breaks out between the characters and the drow, a squad of five {@creature Duergar Stone Guard|MTF|duergar stone guards} (see {@adventure appendix C|OotA|19}) and five {@creature duergar} warriors arrive within {@dice 1d4} rounds and arrest the lot of them (see \"Getting Captured\")."
+										"Alternatively, the adventurers might decide to turn the tables on the drow. Characters might figure out a way to quietly neutralize Xalith and her squad, perhaps tricking them into damaging a duergar merchant's property or forcing them outside Darklake District, where even drow are forbidden to go. Doing so decreases the pursuit level by 2. However, if combat ever breaks out between the characters and the drow, a squad of five {@creature Duergar Stone Guard|MPMM|duergar stone guards} (see {@adventure appendix C|OotA|19}) and five {@creature duergar} warriors arrive within {@dice 1d4} rounds and arrest the lot of them (see \"Getting Captured\")."
 									]
 								}
 							]
@@ -8475,7 +8475,7 @@
 									"page": 62,
 									"id": "187",
 									"entries": [
-										"The characters spot a male duergar merchant at the end of a pier. Suddenly, two {@condition invisible} duergar appear next to him and stab him viciously with glowing swords. The assassins' faces are masked and hooded. The characters have 2 rounds to distract the two {@creature Duergar Soulblade|MTF|duergar soulblades} (see {@adventure appendix C|OotA|19}) before they finish off the merchant.",
+										"The characters spot a male duergar merchant at the end of a pier. Suddenly, two {@condition invisible} duergar appear next to him and stab him viciously with glowing swords. The assassins' faces are masked and hooded. The characters have 2 rounds to distract the two {@creature Duergar Soulblade|MPMM|duergar soulblades} (see {@adventure appendix C|OotA|19}) before they finish off the merchant.",
 										"The merchant is Werz Saltbaron. If the characters save him, he is grudgingly grateful and says he has no idea why the assassins targeted him. A successful {@dc 12} Wisdom ({@skill Insight}) check suggests he's lying. He flees the scene, but not before telling the characters to meet him at the Shattered Spire the following day so he can reward them properly.",
 										"The characters have 1 minute to search the assassins before a patrol of four {@creature duergar} arrives. The glowing weapons wielded by the assassins are nowhere to be found, but one of the assassins has a piece of fish-skin parchment bearing Werz's likeness drawn in charcoal."
 									]
@@ -8647,7 +8647,7 @@
 										"As you pass through the gates, the stench in the air changes from acrid and metallic to fetid and repugnant, the fires of industry replaced by squalor. The homes in this part of Gracklstugh are crudely carved from the rock or are just holes in the walls, arranged in no apparent order. The chatter in the air is unnerving, with hundreds of derro muttering, screaming at each other, and otherwise reveling in their insanity. Those who spot you look at you with a burning hatred."
 									]
 								},
-								"At the end of each hour the adventurers stay inside either derro area, there is a 25 percent chance that {@dice 2d4} {@creature derro|MTF} (see {@adventure appendix C|OotA|19}) attack without warning. If the characters kill any derro, the chance of another attack becomes 50 percent every half hour.",
+								"At the end of each hour the adventurers stay inside either derro area, there is a 25 percent chance that {@dice 2d4} {@creature derro|MPMM} (see {@adventure appendix C|OotA|19}) attack without warning. If the characters kill any derro, the chance of another attack becomes 50 percent every half hour.",
 								"Sneaking through the senseless arrangement of the burrows is relatively easy, as the derro are normally too preoccupied with their own mad scheming to notice a group trying not to attract attention. The characters can attempt a {@dc 10} group Dexterity ({@skill Stealth}) check, with success negating the need to roll for a possible attack at the end of each hour or half hour.",
 								"Other means of subterfuge such as illusions, climbing along the walls, or using flying or levitation magic automatically avoid detection, but invisibility of any kind activates magical wards placed by derro savants to guard against duergar intrusion. When a ward activates in response to the presence of an {@condition invisible} creature, nearby derro fly into a frenzy, creating a chaotic mob meant to drive away {@condition invisible} duergar patrols. Derro make active Wisdom ({@skill Perception}) checks contested by the characters' Dexterity ({@skill Stealth}) checks if a ward is activated. Characters using {@spell detect magic} actively can spot the {@condition invisible} sensor of a ward before it activates. Otherwise, {@condition invisible} characters encounter a ward every 15 minutes they move through derro territory.",
 								{
@@ -8950,7 +8950,7 @@
 									"page": 68,
 									"id": "1b2",
 									"entries": [
-										"This pack consists of a {@creature quasit} leading {@dice 1d4 + 2} {@creature Dretch||dretches}. The quasit turns {@condition invisible} and tries to escape when only two dretches remain; if it succeeds, the cultists in area 14 are alerted. Replace any subsequent demon pack random encounter with {@dice 1d4} {@creature derro|MTF} (see {@adventure appendix C|OotA|19})."
+										"This pack consists of a {@creature quasit} leading {@dice 1d4 + 2} {@creature Dretch||dretches}. The quasit turns {@condition invisible} and tries to escape when only two dretches remain; if it succeeds, the cultists in area 14 are alerted. Replace any subsequent demon pack random encounter with {@dice 1d4} {@creature derro|MPMM} (see {@adventure appendix C|OotA|19})."
 									]
 								},
 								{
@@ -11916,7 +11916,7 @@
 									]
 								},
 								"The humanoid remains on the floor make the entire cavern {@quickref difficult terrain||3}. Characters can identify the remains as belonging to several derro, deep gnomes, and goblins, as well as a couple grimlocks.",
-								"{@creature Buppido|OotA} is a typical {@creature derro|MTF} and attacks the characters regardless of their intentions. On his first turn, he uses a bonus action to channel the power of this \"shrine,\" raising six {@creature Skeleton||skeletons} to aid him. The undead assemble from the remains on the floor to form shambling, mismatched bodies. Each skeleton has two skulls, although this has no effect on its abilities.",
+								"{@creature Buppido|OotA} is a typical {@creature derro|MPMM} and attacks the characters regardless of their intentions. On his first turn, he uses a bonus action to channel the power of this \"shrine,\" raising six {@creature Skeleton||skeletons} to aid him. The undead assemble from the remains on the floor to form shambling, mismatched bodies. Each skeleton has two skulls, although this has no effect on its abilities.",
 								"{@creature Buppido|OotA} fights with insane confidence and seems surprised if the party defeats him, screaming incoherent last words about the end of the world. The skeletons fight until destroyed even if {@creature Buppido|OotA} is defeated first.",
 								"If {@creature Buppido|OotA} was killed in Velkynvelve or at some point in the characters' travels through the Underdark, replace him with a {@creature carrion crawler} feeding on the dead remains.",
 								{
@@ -12452,7 +12452,7 @@
 										"Two derro stand by a large cauldron in front of a tent near the cave's center. Both are talking while apparently ignoring each other. In the cages, three hulking brown bears appear to be resting."
 									]
 								},
-								"The two {@creature derro|MTF} (see {@adventure appendix C|OotA|19}) are cultists. One of them is complaining about \"the master\" while the other talks about something he once fished out of the Darklake.",
+								"The two {@creature derro|MPMM} (see {@adventure appendix C|OotA|19}) are cultists. One of them is complaining about \"the master\" while the other talks about something he once fished out of the Darklake.",
 								{
 									"type": "image",
 									"href": {
@@ -12620,7 +12620,7 @@
 									"id": "5d6"
 								},
 								"{@creature Narrak|OotA}, a {@creature derro savant|OotA}, belongs to a fringe group within the Council of Savants using demonology as a path to power. Since the arrival of the demon lords, he has gathered and bullied several apprentices to participate in rituals aimed to sow chaos in Gracklstugh. {@creature Narrak|OotA} knows the stone giants are a pillar of the Deepking's power, and that cursing them with Demogorgon's madness will be an appropriate first step toward delivering the entire city to the demon lord.",
-								"The cage by the tunnel holds a {@creature death dog}, watched over by a nervous {@creature derro|MTF} cultist. Atop the platform, {@creature Narrak|OotA} and four more {@creature derro|MTF} cultists are performing a ritual around the statue at its center. (Statistics for {@creature Narrak|OotA} and the derro can be found in {@adventure appendix C|OotA|19}.) The cultists' chanting is punctuated with {@creature Narrak|OotA} calling out the name \"Demogorgon!\" Also atop the platform, resting comfortably in an fungi-filled alcove (and initially out of the party's view), is {@creature Narrak|OotA}'s bodyguard\u2014a female {@creature ettin} named Grula-Munga.",
+								"The cage by the tunnel holds a {@creature death dog}, watched over by a nervous {@creature derro|MPMM} cultist. Atop the platform, {@creature Narrak|OotA} and four more {@creature derro|MPMM} cultists are performing a ritual around the statue at its center. (Statistics for {@creature Narrak|OotA} and the derro can be found in {@adventure appendix C|OotA|19}.) The cultists' chanting is punctuated with {@creature Narrak|OotA} calling out the name \"Demogorgon!\" Also atop the platform, resting comfortably in an fungi-filled alcove (and initially out of the party's view), is {@creature Narrak|OotA}'s bodyguard\u2014a female {@creature ettin} named Grula-Munga.",
 								"When intruders appear, the cultists cease their chanting and take up positions along the edge of the platform as Grula-Munga rises to her feet and picks up her weapons. At the same time, the cultist standing next to the cage releases the death dog. {@creature Narrak|OotA} continues his part in the ritual until the characters kill the death dog or one of the cultists, at which point he joins the battle. The door to the death dog's cage is held shut with a simple clasp and requires an action to open.",
 								"If any of the quasits escaped from area 11, they warn the cultists that intruders are near. Otherwise, the characters might catch the cultists by surprise. The quasits remain {@condition invisible} and stay close to {@creature Narrak|OotA}.",
 								{
@@ -12701,7 +12701,7 @@
 									]
 								},
 								"The pit is 15 feet deep, and the ledge that overlooks it is lined with pointy bits of scrap metal to make any climbing attempt perilous. A creature trying to reach the top of the ledge must succeed on a {@dc 12} Strength ({@skill Athletics}) check. On a failed check, a creature takes 3 ({@dice 1d6}) slashing damage and remains in the pit. The pit's floor is {@quickref difficult terrain||3} due to the many corpses and body parts strewn around.",
-								"A single {@creature derro|MTF} stands on the ledge overlooking the pit, which contains seven shambling {@creature Zombie||zombies}\u2014three duergar and four grimlocks. The grimlock zombies are drawn to noise, while the duergar zombies attack any living creatures they see in the pit. Meanwhile, the derro uses its crossbow to take shots at any living creatures it sees.",
+								"A single {@creature derro|MPMM} stands on the ledge overlooking the pit, which contains seven shambling {@creature Zombie||zombies}\u2014three duergar and four grimlocks. The grimlock zombies are drawn to noise, while the duergar zombies attack any living creatures they see in the pit. Meanwhile, the derro uses its crossbow to take shots at any living creatures it sees.",
 								"A {@creature crawling claw} wearing an obsidian ring on one stubby finger (see \"Treasure\") lurks amid the offal mounds. These mounds are {@quickref difficult terrain||3} to Small and Medium creatures, and the fungi growing atop them provide cover to Tiny creatures. The shriveled gray hand once belonged to Pelek the svirfneblin (see \"Development\").",
 								"The crack in the southeast wall between the mounds leads to a narrow, meandering tunnel, the floor of which is sunk below a foot of foul water. See the \"Whorlstone Tunnels: General Features\" sidebar for rules on narrow tunnels and foul water.",
 								{
@@ -12787,7 +12787,7 @@
 									},
 									"id": "5d7"
 								},
-								"The different levels of the mesa are separated by 10-foot-high cliffs. Climbing a cliff requires a successful {@dc 12} Strength ({@skill Athletics}) check. Pliinki, a mad {@creature derro savant|MTF} (see {@adventure appendix C|OotA|19}), stands atop of the mesa. Hidden on a shelf above the cavern's entrance, a {@creature spectator} tasked with guarding this area sees the characters as soon as they walk 15 feet into the cavern. The spectator screeches an alarm and attacks, killing non-derro with glee. As it fights, it projects telepathic ramblings into the characters' minds, mostly dealing with how exciting it is to have intruders to kill and how even more exciting things will be when the obelisk is complete.",
+								"The different levels of the mesa are separated by 10-foot-high cliffs. Climbing a cliff requires a successful {@dc 12} Strength ({@skill Athletics}) check. Pliinki, a mad {@creature derro savant|MPMM} (see {@adventure appendix C|OotA|19}), stands atop of the mesa. Hidden on a shelf above the cavern's entrance, a {@creature spectator} tasked with guarding this area sees the characters as soon as they walk 15 feet into the cavern. The spectator screeches an alarm and attacks, killing non-derro with glee. As it fights, it projects telepathic ramblings into the characters' minds, mostly dealing with how exciting it is to have intruders to kill and how even more exciting things will be when the obelisk is complete.",
 								"Pliinki shouts crass obscenities at the characters in a raspy voice while commanding the spectator to dispose of them. Both she and the spectator fight to the death.",
 								{
 									"type": "entries",
@@ -12879,7 +12879,7 @@
 							]
 						},
 						"There appears to be no one guarding the palace, but this is an illusion. All of the palace guards are {@condition invisible}, and characters who observe the palace for some time can hear duergar guards in heavy armor marching to and fro.",
-						"Two hundred {@condition invisible} {@creature Duergar Stone Guard|MTF|duergar stone guards} (see {@adventure appendix C|OotA|19}) protect the palace and its king. Fifty stand at attention in perfect rows before the palace, ready to cut down anyone who approaches the palace gates unescorted. Another fifty watch from the turrets and battlements. One hundred more stand guard in the palace and comprise the Deepking's honor guard.",
+						"Two hundred {@condition invisible} {@creature Duergar Stone Guard|MPMM|duergar stone guards} (see {@adventure appendix C|OotA|19}) protect the palace and its king. Fifty stand at attention in perfect rows before the palace, ready to cut down anyone who approaches the palace gates unescorted. Another fifty watch from the turrets and battlements. One hundred more stand guard in the palace and comprise the Deepking's honor guard.",
 						{
 							"type": "entries",
 							"name": "Audience with the Deepking",
@@ -14742,7 +14742,7 @@
 									"id": "25d",
 									"entries": [
 										"Yggmorgus is the home that Zuggtmoy, the Demon Queen of Fungi, has carved for herself inside the great mushroom. The general layout is simple enough, with the hollowed stalk of the mushroom making a towering central hall in which Zuggtmoy floats, surrounded by spiraling balconies where her growing number of bridesmaids attend her, singing as they weave her bridal gown to prepare for the fateful wedding day.",
-										"If the adventurers enter Yggmorgus, they come face to face with {@creature Zuggtmoy|MTF} (see {@adventure appendix D|OotA|20}), attended by twelve {@creature Bridesmaid of Zuggtmoy|OotA|bridesmaids of Zuggtmoy} (see {@adventure appendix C|OotA|19}). Fortunately for them, Zuggtmoy is deep in meditation as her gown and veil are being prepared. She doesn't move, although she can speak and use her other abilities. Her bridesmaids attempt to chase off intruders, wailing and scolding them about how it is unlucky for them to see the bride before it is time. If the characters don't withdraw immediately, Zuggtmoy awakens and uses her Mind Control Spores ability to send them away, using her Infestation Spores only if the characters insist on engaging the demon lord here and now.",
+										"If the adventurers enter Yggmorgus, they come face to face with {@creature Zuggtmoy|MPMM} (see {@adventure appendix D|OotA|20}), attended by twelve {@creature Bridesmaid of Zuggtmoy|OotA|bridesmaids of Zuggtmoy} (see {@adventure appendix C|OotA|19}). Fortunately for them, Zuggtmoy is deep in meditation as her gown and veil are being prepared. She doesn't move, although she can speak and use her other abilities. Her bridesmaids attempt to chase off intruders, wailing and scolding them about how it is unlucky for them to see the bride before it is time. If the characters don't withdraw immediately, Zuggtmoy awakens and uses her Mind Control Spores ability to send them away, using her Infestation Spores only if the characters insist on engaging the demon lord here and now.",
 										"Dozens of spore servants and myconids respond to Zuggtmoy's telepathic call if their mistress is in danger, attacking the characters heedless of their own safety. Any attack that successfully deals damage to Zuggtmoy damages her gown, driving the demon queen into a rage to attack the intruders."
 									]
 								}
@@ -25198,7 +25198,7 @@
 						"Having previously been imprisoned for many mortal lifetimes on the Material Plane, Fraz-Urb'luu had taken steps to bind himself to his layer of the Abyss. As soon as he felt the tug of Gromph's spell, Fraz-Urb'luu transferred his evil life force to a specially crafted, magically protected receptacle\u2014a black jewel. However, the spell proved irresistible, and the precious receptacle was cast into the Underdark. As a further indignity, Fraz-Urb'luu found himself trapped within the gem, unable to escape while on the Material Plane.",
 						"Anyone who touches the gem risks falling prey to delusional madness. A duergar ale merchant named Krimgol Muzgardt found the gem and took it to Mantol-Derith. By the time he arrived, Krimgol had succumbed to the delusion that he was a {@i calassabrak}\u2014a duergar without honor. He paid Yantha Coaxrock, an honest svirfneblin mage, to appraise the jewel, hoping that he could use it to buy back the goodwill of his clan. Touched by the gem's madness, Yantha lied to Krimgol and told him the gem was worthless. She offered a lump of gold in exchange, whereupon Krimgol suspected treachery and demanded the gem's immediate return. While Krimgol and Yantha argued, one of Yantha's apprentices tried to hide the gem for his mistress but succumbed to its evil power. The apprentice, Flink, took the gem to the drow enclave, hoping to trade it for some rare spell components that he imagined Yantha needing to make Krimgol go away. A gargoyle assigned to watch for thieves spotted the gem and wrested it from Flink, who hid for fear of incurring Yantha's wrath. Soon thereafter, the delusional gargoyle laid eyes on a drow assassin named {@creature Kinyel Druu'giir|OotA} and was instantly smitten by her. The gargoyle gave her the black gem as a token of its devotion, which she, in her madness, mistook as a payment from the drow enclave to assassinate {@creature Lorthuun|OotA}, a maimed beholder allied with the Zhentarim.",
 						"Yantha's theft of the gem led Krimgol to leave and return with duergar reinforcements. They attacked the svirfneblin enclave and captured Yantha, triggering open conflict between the two enclaves. With the fragile truce in Mantol-Derith finally broken, the drow are preparing to take out the weakened duergar and svirfneblin forces. Meanwhile, Druu'giir has infiltrated a drow delegation sent to meet with representatives of the Zhentarim enclave to discuss how best to divvy up Mantol-Derith between them.",
-						"Finding and destroying the gem prevents others from falling prey to Fraz-Urb'luu's madness. While imprisoned inside the gem, {@creature Fraz-Urb'luu|MTF} retains his alignment and senses (see {@adventure appendix D|OotA|20}), but loses all of his other attributes and can't take actions. The gem is as big as a human fist and has AC 10, 1 hit point, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage from nonmagical weapons. It is also immune to any spell effect that requires a saving throw. While inside the gem, the demon lord can't be attacked, harmed, coerced, or heard. He can be contacted via telepathy, however. Shattering the gem releases Fraz-Urb'luu's life force, which instantly returns to the demon lord's body in the Abyss.",
+						"Finding and destroying the gem prevents others from falling prey to Fraz-Urb'luu's madness. While imprisoned inside the gem, {@creature Fraz-Urb'luu|MPMM} retains his alignment and senses (see {@adventure appendix D|OotA|20}), but loses all of his other attributes and can't take actions. The gem is as big as a human fist and has AC 10, 1 hit point, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage from nonmagical weapons. It is also immune to any spell effect that requires a saving throw. While inside the gem, the demon lord can't be attacked, harmed, coerced, or heard. He can be contacted via telepathy, however. Shattering the gem releases Fraz-Urb'luu's life force, which instantly returns to the demon lord's body in the Abyss.",
 						"Any creature that touches the gem must succeed on a {@dc 23} Charisma saving throw or succumb to a form of indefinite madness, as determined by rolling on the Indefinite Madness of Fraz-Urb'luu table in {@adventure appendix D|OotA|20}. A creature that succeeds on the saving throw is immune to the madness-inducing effect of the gem for the next 24 hours. The madness lasts until cured.",
 						"If the characters destroy Fraz-Urb'luu's gem, award each of them 1,000 XP.",
 						{
@@ -28408,7 +28408,7 @@
 							"page": 138,
 							"id": "376",
 							"entries": [
-								"The stone double doors to the warehouse are unlocked and open to reveal a 40-foot-high, rough-hewn chamber containing thirty {@creature duergar} merchants and twelve {@creature Male Steeder|MTF|male steeders} (see {@adventure appendix C|OotA|19}) used as pack animals. These duergar aren't spoiling for a fight and parley with intruders, sharing the following information:",
+								"The stone double doors to the warehouse are unlocked and open to reveal a 40-foot-high, rough-hewn chamber containing thirty {@creature duergar} merchants and twelve {@creature Male Steeder|MPMM|male steeders} (see {@adventure appendix C|OotA|19}) used as pack animals. These duergar aren't spoiling for a fight and parley with intruders, sharing the following information:",
 								{
 									"type": "list",
 									"items": [
@@ -29167,7 +29167,7 @@
 														],
 														[
 															"19\u201320",
-															"{@creature Juiblex|MTF} (see {@adventure appendix D|OotA|20})"
+															"{@creature Juiblex|MPMM} (see {@adventure appendix D|OotA|20})"
 														]
 													]
 												}
@@ -38623,7 +38623,7 @@
 							]
 						},
 						"Any adventurer witnessing this horrible tableau must succeed on a {@dc 12} Wisdom saving throw or gain one level of madness (see \"{@area Madness|063|x}\" in chapter 2). If this causes the character to suffer a bout of indefinite madness, determine the nature of the madness using the Madness of Yeenoghu table in {@adventure appendix D|OotA|20}.",
-						"{@creature Yeenoghu|MTF} (see {@adventure appendix D|OotA|20}) has been wandering the Underdark since he was first summoned, and the adventurers have run across him and his pack. The characters' only advantage at this moment is that they haven't yet been detected. Considering their level at this stage of the adventure, the players might be creating new characters quite soon if they dare confront the demon lord.",
+						"{@creature Yeenoghu|MPMM} (see {@adventure appendix D|OotA|20}) has been wandering the Underdark since he was first summoned, and the adventurers have run across him and his pack. The characters' only advantage at this moment is that they haven't yet been detected. Considering their level at this stage of the adventure, the players might be creating new characters quite soon if they dare confront the demon lord.",
 						"If the characters stay hidden and observe, Yeenoghu leaves in short order. He is restless and eager for new prey. Yeenoghu gathers up most of the gnolls and hyenas and leads them down a tunnel on the right side of the cavern. Eight {@creature Gnoll||gnolls} led by a {@creature gnoll pack lord} remain in the cavern, feasting on the goristro's corpse.",
 						"If the characters want to continue forward, the gnolls and hyenas need to be dealt with. Alternatively, if the characters are indecisive or spend too long debating the best course of action, the gnoll pack lord sniffs out the intruders. When it realizes that enemies are present, the pack lord howls to draw the attention of its followers.",
 						{
@@ -39167,7 +39167,7 @@
 											"rows": [
 												[
 													"1\u20132",
-													"{@dice 3d6} {@creature derro|MTF} (see {@adventure appendix C|OotA|19})"
+													"{@dice 3d6} {@creature derro|MPMM} (see {@adventure appendix C|OotA|19})"
 												],
 												[
 													"3\u20134",
@@ -41910,7 +41910,7 @@
 					"page": 214,
 					"id": "59f",
 					"entries": [
-						"Under normal circumstances, {@creature Juiblex|MTF} (see {@adventure appendix D|OotA|20}) would be an overwhelming foe. Fortunately for the adventurers, the Faceless Lord's battle with Zuggtmoy has weakened it. The characters might also have aid from allies, the newly freed myconids, and Araumycos in overcoming the demon lord.",
+						"Under normal circumstances, {@creature Juiblex|MPMM} (see {@adventure appendix D|OotA|20}) would be an overwhelming foe. Fortunately for the adventurers, the Faceless Lord's battle with Zuggtmoy has weakened it. The characters might also have aid from allies, the newly freed myconids, and Araumycos in overcoming the demon lord.",
 						"Apply the following penalties to Juiblex:",
 						{
 							"type": "list",
@@ -42350,7 +42350,7 @@
 							]
 						},
 						"Determine the characters' starting positions based on their actions during the battle. Demogorgon should be at least 80 feet away from them initially, unless the players specifically stated they were remaining close to the demon lord.",
-						"Demogorgon has been wounded during the fight, giving the characters an edge in the battle to come. Apply the following penalties to the {@creature Demogorgon|MTF} stat block in {@adventure appendix D|OotA|20}:",
+						"Demogorgon has been wounded during the fight, giving the characters an edge in the battle to come. Apply the following penalties to the {@creature Demogorgon|MPMM} stat block in {@adventure appendix D|OotA|20}:",
 						{
 							"type": "list",
 							"items": [
@@ -42659,7 +42659,7 @@
 									"1/4"
 								],
 								[
-									"{@creature Male steeder|MTF}",
+									"{@creature Male steeder|MPMM}",
 									"1/4"
 								],
 								[
@@ -42667,11 +42667,11 @@
 									"1/2"
 								],
 								[
-									"{@creature Duergar soulblade|MTF}",
+									"{@creature Duergar soulblade|MPMM}",
 									"1"
 								],
 								[
-									"{@creature Female steeder|MTF}",
+									"{@creature Female steeder|MPMM}",
 									"1"
 								],
 								[
@@ -42691,7 +42691,7 @@
 									"2"
 								],
 								[
-									"{@creature Duergar kavalrachni|MTF}",
+									"{@creature Duergar kavalrachni|MPMM}",
 									"2"
 								],
 								[
@@ -42699,11 +42699,11 @@
 									"2"
 								],
 								[
-									"{@creature Duergar Stone Guard|MTF}",
+									"{@creature Duergar Stone Guard|MPMM}",
 									"2"
 								],
 								[
-									"{@creature Duergar xarrorn|MTF}",
+									"{@creature Duergar xarrorn|MPMM}",
 									"2"
 								],
 								[
@@ -42759,14 +42759,14 @@
 					"type": "list",
 					"columns": 3,
 					"items": [
-						"{@creature Baphomet|MTF}",
-						"{@creature Demogorgon|MTF}",
-						"{@creature Fraz-Urb'luu|MTF}",
-						"{@creature Graz'zt|MTF}",
-						"{@creature Juiblex|MTF}",
-						"{@creature Orcus|MTF}",
-						"{@creature Yeenoghu|MTF}",
-						"{@creature Zuggtmoy|MTF}"
+						"{@creature Baphomet|MPMM}",
+						"{@creature Demogorgon|MPMM}",
+						"{@creature Fraz-Urb'luu|MPMM}",
+						"{@creature Graz'zt|MPMM}",
+						"{@creature Juiblex|MPMM}",
+						"{@creature Orcus|MPMM}",
+						"{@creature Yeenoghu|MPMM}",
+						"{@creature Zuggtmoy|MPMM}"
 					]
 				}
 			]

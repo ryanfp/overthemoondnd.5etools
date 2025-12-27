@@ -7,11 +7,9 @@
 		},
 		"otherSources": {
 			"monster": {
-				"VGM": "GoS",
 				"TftYP": "GoS",
 				"PotA": "GoS",
 				"ToA": "GoS",
-				"MTF": "GoS",
 				"MM": "GoS"
 			}
 		}

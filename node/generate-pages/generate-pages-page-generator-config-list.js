@@ -27,6 +27,10 @@ class _PageGeneratorListBackgrounds extends PageGeneratorListBase {
 
 	_isModule = true;
 
+	_scriptsUtilsAdditional = [
+		"utils-tableview. js",
+	]; 
+
 	_btnsList = [
 		HtmlGeneratorListButtons.getBtn({width: "2-5", sortIdent: "name", text: "Name"}),
 		HtmlGeneratorListButtons.getBtn({width: "3-5", sortIdent: "ability", text: "Ability"}),
@@ -41,7 +45,25 @@ class _PageGeneratorListBackgrounds extends PageGeneratorListBase {
 	];
 
 	_isPrinterView = true;
+	_isTableView = true;
+
+	_registerPartials () {
+		super._registerPartials();
+
+		this._registerPartial({
+			ident: "listContentwrapperBackgrounds",
+			filename: "list/template-list-contentwrapper--backgrounds.hbs",
+		});
+	}
+
+	_getData () {
+		return {
+			... super._getData(),
+			identPartialListContentwrapper: "listContentwrapperBackgrounds",
+		};
+	}
 }
+
 
 class _PageGeneratorListBestiary extends PageGeneratorListBase {
 	_page = UrlUtil.PG_BESTIARY;
@@ -223,6 +245,10 @@ class _PageGeneratorListFeats extends PageGeneratorListBase {
 
 	_isModule = true;
 
+	_scriptsUtilsAdditional = [
+		"utils-tableview. js",
+	]; 
+
 	_btnsList = [
 		HtmlGeneratorListButtons.getBtnPreviewToggle(),
 		HtmlGeneratorListButtons.getBtn({width: "3-2", sortIdent: "name", text: "Name"}),
@@ -240,6 +266,23 @@ class _PageGeneratorListFeats extends PageGeneratorListBase {
 	];
 
 	_isPrinterView = true;
+	_isTableView = true;
+
+	_registerPartials () {
+		super._registerPartials();
+
+		this._registerPartial({
+			ident: "listContentwrapperFeats",
+			filename: "list/template-list-contentwrapper--feats.hbs",
+		});
+	}
+
+	_getData () {
+		return {
+			... super._getData(),
+			identPartialListContentwrapper: "listContentwrapperFeats",
+		};
+	}
 }
 
 class _PageGeneratorListItems extends PageGeneratorListBase {
@@ -440,6 +483,10 @@ class _PageGeneratorListRaces extends PageGeneratorListBase {
 
 	_isModule = true;
 
+	_scriptsUtilsAdditional = [
+		"utils-tableview. js",
+	]; 
+
 	_btnsList = [
 		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "name", text: "Name"}),
 		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "ability", text: "Ability"}),
@@ -454,6 +501,23 @@ class _PageGeneratorListRaces extends PageGeneratorListBase {
 	];
 
 	_isPrinterView = true;
+	_isTableView = true;
+
+	_registerPartials () {
+		super._registerPartials();
+
+		this._registerPartial({
+			ident: "listContentwrapperRaces",
+			filename: "list/template-list-contentwrapper--races.hbs",
+		});
+	}
+
+	_getData () {
+		return {
+			... super._getData(),
+			identPartialListContentwrapper: "listContentwrapperRaces",
+		};
+	}
 }
 
 class _PageGeneratorListRecipes extends PageGeneratorListBase {

@@ -7,9 +7,7 @@
 		},
 		"otherSources": {
 			"monster": {
-				"MM": "DIP",
-				"MTF": "DIP",
-				"VGM": "DIP"
+				"MM": "DIP"
 			}
 		}
 	},

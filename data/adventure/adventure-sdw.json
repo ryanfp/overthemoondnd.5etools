@@ -1821,7 +1821,7 @@
 											"id": "03e",
 											"entries": [
 												"Members of the Scaly Eye in the shrine are loyal to and worried for {@creature Lhammaruntosz|SDW}, or Mother Wyrm, as they call her. Most of the dragon's followers have left the shrine or died of old age, leaving only a few guardians, mostly older humans and a few dwarves and elves. Members of the Scaly Eye wear faded blue tabards displaying a single staring eye weeping a spreading fan of tears, above which arches an eyebrow.",
-												"Scaly Eye members are {@creature Swashbuckler|VGM|swashbucklers} who may attack the characters when they notice them, but a successful {@dc 15} Charisma ({@skill Intimidation} or {@skill Persuasion}) check convinces a Scaly Eye member to stand down. If the characters can then convince a Scaly Eye member they mean no harm, the member shares all of the information in the \"{@area Location Overview|030|x}\" section except for the details about the alkilith (because they wouldn't know about the demon, only that {@creature Lhammaruntosz|SDW} has been acting strange for several years, which is cause enough for concern). That member then offers to escort them through the complex, convincing other members of the Scaly Eye to not attack the characters and pointing out other hazards.",
+												"Scaly Eye members are {@creature Swashbuckler|MPMM|swashbucklers} who may attack the characters when they notice them, but a successful {@dc 15} Charisma ({@skill Intimidation} or {@skill Persuasion}) check convinces a Scaly Eye member to stand down. If the characters can then convince a Scaly Eye member they mean no harm, the member shares all of the information in the \"{@area Location Overview|030|x}\" section except for the details about the alkilith (because they wouldn't know about the demon, only that {@creature Lhammaruntosz|SDW} has been acting strange for several years, which is cause enough for concern). That member then offers to escort them through the complex, convincing other members of the Scaly Eye to not attack the characters and pointing out other hazards.",
 												{
 													"type": "entries",
 													"name": "Scaly Eye Names",
@@ -1840,7 +1840,7 @@
 									"id": "040",
 									"entries": [
 										"If the characters enter or exit this area from area B1, they might trigger the molten bronze trap (see below).",
-										"Members of the Scaly Eye play three-dragon ante at a stone table in the center of the chamber. There is one {@creature swashbuckler|VGM} (see {@adventure appendix A|SDW|8}) plus one additional swashbuckler for each member of the party, not including sidekicks. See the \"Scaly Eye Members\" sidebar for more information.",
+										"Members of the Scaly Eye play three-dragon ante at a stone table in the center of the chamber. There is one {@creature swashbuckler|MPMM} (see {@adventure appendix A|SDW|8}) plus one additional swashbuckler for each member of the party, not including sidekicks. See the \"Scaly Eye Members\" sidebar for more information.",
 										{
 											"type": "entries",
 											"name": "Molten Bronze Trap",
@@ -1868,7 +1868,7 @@
 									"id": "043",
 									"entries": [
 										"Scaly Eye members eat, train, and rest in this area when they are not on guard duty. Twenty sleeping mats are stacked neatly in the northeast corner of the room. A roasting spit skewering seven quippers stands over a burning brazier at the center of the room.",
-										"Scaly Eye members spar with each other around the brazier. There is one {@creature swashbuckler|VGM} plus one additional swashbuckler for each member of the party, not including sidekicks. See the \"{@area Scaly Eye Members|03e|x}\" sidebar for more information."
+										"Scaly Eye members spar with each other around the brazier. There is one {@creature swashbuckler|MPMM} plus one additional swashbuckler for each member of the party, not including sidekicks. See the \"{@area Scaly Eye Members|03e|x}\" sidebar for more information."
 									]
 								},
 								{
@@ -1877,7 +1877,7 @@
 									"id": "044",
 									"entries": [
 										"A bronze gate locked from the inside with a heavy bar blocks this entrance tunnel. A creature inside the Bronze Shrine that can reach the bar, which is 4 feet off the ground, can unlock it as an action.",
-										"Characters hoping to get through the barred gates from the outside must break the gates down, which takes a single character 1 hour. Multiple characters working together can reduce the time proportionately. The noise created by smashing down the doors is loud enough to alert all the Scaly Eye members, who gather behind the gate. There are two {@creature Swashbuckler|VGM|swashbucklers} plus two additional swashbucklers for each member of the party, not including sidekicks. See the \"{@area Scaly Eye Members|03e|x}\" sidebar for more information."
+										"Characters hoping to get through the barred gates from the outside must break the gates down, which takes a single character 1 hour. Multiple characters working together can reduce the time proportionately. The noise created by smashing down the doors is loud enough to alert all the Scaly Eye members, who gather behind the gate. There are two {@creature Swashbuckler|MPMM|swashbucklers} plus two additional swashbucklers for each member of the party, not including sidekicks. See the \"{@area Scaly Eye Members|03e|x}\" sidebar for more information."
 									]
 								},
 								{
@@ -1926,7 +1926,7 @@
 												"Two great circular windows in this chamber look out on the ocean, the sea air causing a crust of green barnacles to grow around the glass of the southernmost pane. Before that window sits a great dragon, her scales a deep bronze. Her eyes are wide and wild as she stares at the ocean."
 											]
 										},
-										"The barnacles on the window are actually a disguised {@creature alkilith|MTF} whose False Appearance feature makes it appear to be barnacles instead of a fungus (see {@adventure appendix A|SDW|8}). {@creature Lhammaruntosz|SDW} has been in the presence of the alkilith for so long that her madness does not wane if she leaves the creature's presence. When she looks out the alkilith's window, she experiences hallucinations of her friends dying, her enemies triumphing, and other unspeakable horrors.",
+										"The barnacles on the window are actually a disguised {@creature alkilith|MPMM} whose False Appearance feature makes it appear to be barnacles instead of a fungus (see {@adventure appendix A|SDW|8}). {@creature Lhammaruntosz|SDW} has been in the presence of the alkilith for so long that her madness does not wane if she leaves the creature's presence. When she looks out the alkilith's window, she experiences hallucinations of her friends dying, her enemies triumphing, and other unspeakable horrors.",
 										"{@creature Lhammaruntosz|SDW} is an {@creature adult bronze dragon}, with the following additional features that increase her challenge rating to 16 (15,000 XP):",
 										{
 											"type": "entries",
@@ -2129,7 +2129,7 @@
 								"Ten pikes set with skulls and rotting heads stand in a line before the cliff."
 							]
 						},
-						"{@creature Wood Woad|VGM|Wood woads} (see {@adventure appendix A|SDW|8}), plant guardians created from humanoid remains by Claugiyliamatar, hide behind vines and watch the nearby forest from {@area area C1|061|x}. If the wood woads notice the characters attempting to enter the cave, they climb down and attack. There is one wood woad plus one additional wood woad per two members of the party (rounded down), not including sidekicks.",
+						"{@creature Wood Woad|MPMM|Wood woads} (see {@adventure appendix A|SDW|8}), plant guardians created from humanoid remains by Claugiyliamatar, hide behind vines and watch the nearby forest from {@area area C1|061|x}. If the wood woads notice the characters attempting to enter the cave, they climb down and attack. There is one wood woad plus one additional wood woad per two members of the party (rounded down), not including sidekicks.",
 						"The cave entrance that leads to area C1 is 40 feet high. The cave entrance that leads to {@area area C4|06b|x} is 20 feet high. Climbing the walls of the cliff to reach either entrance requires a successful {@dc 11} Strength ({@skill Athletics}) check.",
 						"Each pike bears the head of a ghoul, skeleton, wight, or zombie. Claugiyliamatar's servants placed these trophies as a warning, but the grisly display has done nothing to deter the undead attacks.",
 						{
@@ -8167,7 +8167,7 @@
 										"A strange, mystical chanting in a dry, crackling voice and a rank smell come from a small clearing ahead. At the center of this area, a robed woman with gray, cracked skin and red points of light where her eyes should be waves a wand made of bone in the air."
 									]
 								},
-								"Viantha Cruelhex is a {@creature deathlock mastermind|MTF} (see {@adventure appendix A|SDW|8}) in the process of summoning more undead to harass Claugiyliamatar with a magical ritual. Before the characters can attack, Viantha summons {@b specters} to her side. There is one {@creature specter} for every member of the party, not including sidekicks. Viantha and the specters fight until captured or destroyed.",
+								"Viantha Cruelhex is a {@creature deathlock mastermind|MPMM} (see {@adventure appendix A|SDW|8}) in the process of summoning more undead to harass Claugiyliamatar with a magical ritual. Before the characters can attack, Viantha summons {@b specters} to her side. There is one {@creature specter} for every member of the party, not including sidekicks. Viantha and the specters fight until captured or destroyed.",
 								{
 									"type": "entries",
 									"id": "087",
@@ -8199,7 +8199,7 @@
 									]
 								},
 								"After Chardansearavitriol possesses Claugiyliamatar's body, the dragon has some initial disorientation while getting used to the new form. Rather than fight in such a state, Chardansearavitriol flees the lair, returning to Ularan Mortus in the Mere of Dead Men.",
-								"As the dragon leaves, a {@creature sword wraith commander|MTF} (see {@adventure appendix A|SDW|8}) plus one {@creature sword wraith warrior|MTF} (see {@adventure appendix A|SDW|8}) per two members of the party (rounded down), not including sidekicks, invade the lair. The sword wraiths are loyal to Ularan Mortus and attack the characters, fighting to the death."
+								"As the dragon leaves, a {@creature sword wraith commander|MPMM} (see {@adventure appendix A|SDW|8}) plus one {@creature sword wraith warrior|MPMM} (see {@adventure appendix A|SDW|8}) per two members of the party (rounded down), not including sidekicks, invade the lair. The sword wraiths are loyal to Ularan Mortus and attack the characters, fighting to the death."
 							]
 						}
 					]
@@ -8273,7 +8273,7 @@
 										"\"This is my ship now,\" she snarls. \"And I mean to keep it!\""
 									]
 								},
-								"Fheralai is a fanatical young half-orc {@creature war priest|VGM} (see {@adventure appendix A|SDW|8}). She is one of the main villains of the story and is destined to return in {@adventure Divine Contention|DC}, the conclusion of this adventure trilogy. If an attack drops Fheralai to fewer than half her maximum hit points or she feels outmatched, she tries to abandon the vessel and flee to safety. Don't worry if Fheralai dies or is captured here, as her cultists use divine intervention to bring her back later in the campaign!"
+								"Fheralai is a fanatical young half-orc {@creature war priest|MPMM} (see {@adventure appendix A|SDW|8}). She is one of the main villains of the story and is destined to return in {@adventure Divine Contention|DC}, the conclusion of this adventure trilogy. If an attack drops Fheralai to fewer than half her maximum hit points or she feels outmatched, she tries to abandon the vessel and flee to safety. Don't worry if Fheralai dies or is captured here, as her cultists use divine intervention to bring her back later in the campaign!"
 							]
 						},
 						{
@@ -9917,7 +9917,7 @@
 									"name": "D12. Badwind's Cabin",
 									"id": "0a9",
 									"entries": [
-										"This cabin is occupied by Fheralai's second-in-command, Gol Badwind, a grossly fat, grumpy half-orc male {@creature blackguard|VGM}. Badwind is the cultists' quartermaster.If the characters slay him, all anchorites left onboard become {@condition frightened} of them.",
+										"This cabin is occupied by Fheralai's second-in-command, Gol Badwind, a grossly fat, grumpy half-orc male {@creature blackguard|MPMM}. Badwind is the cultists' quartermaster.If the characters slay him, all anchorites left onboard become {@condition frightened} of them.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -9982,7 +9982,7 @@
 											"name": "The Bard",
 											"id": "0b1",
 											"entries": [
-												"Tarbin Tul, a kidnapped male human {@creature bard|VGM} (see {@adventure appendix A|SDW|8}) spends his waking hours singing songs of old Anauria to the death knight to keep it appeased. Tarbin wears an ankle manacle that is chained to a heavy iron ball weighing 50 pounds. He is desperate to escape but terrified of defying Fheralai Stormsworn. If Tarbin is taken from the dreadnaught, the soul of the death knight becomes enraged and it steers the vessel out to sea (see \"{@area Death Knight's Soul|094|x}\")."
+												"Tarbin Tul, a kidnapped male human {@creature bard|MPMM} (see {@adventure appendix A|SDW|8}) spends his waking hours singing songs of old Anauria to the death knight to keep it appeased. Tarbin wears an ankle manacle that is chained to a heavy iron ball weighing 50 pounds. He is desperate to escape but terrified of defying Fheralai Stormsworn. If Tarbin is taken from the dreadnaught, the soul of the death knight becomes enraged and it steers the vessel out to sea (see \"{@area Death Knight's Soul|094|x}\")."
 											]
 										}
 									]
@@ -10759,7 +10759,7 @@
 									"name": "I7. North Guard Tower First Floor",
 									"id": "0d2",
 									"entries": [
-										"The first floor of the north guard tower has a 30-foot-high ceiling. The floor is covered in straw, which services as a bed for Ashbreath, a {@creature chimera}. Rega Swarn, a chaotic evil human {@creature master thief|VGM} (see {@adventure appendix A|SDW|8}) is feeding the chimera chunks of humanoid flesh, unless they joined a fight in {@area areas I1|0c7|x} or {@area I4|0cd|x}. See the \"{@area Chimera Crew|0b9|x}\" sidebar for more information about Rega and Ashbreath.",
+										"The first floor of the north guard tower has a 30-foot-high ceiling. The floor is covered in straw, which services as a bed for Ashbreath, a {@creature chimera}. Rega Swarn, a chaotic evil human {@creature master thief|MPMM} (see {@adventure appendix A|SDW|8}) is feeding the chimera chunks of humanoid flesh, unless they joined a fight in {@area areas I1|0c7|x} or {@area I4|0cd|x}. See the \"{@area Chimera Crew|0b9|x}\" sidebar for more information about Rega and Ashbreath.",
 										"If the characters approach Rega in a nonthreatening manner, she asks why they have come to Iniarv's Tower. If a character claims to be an ally willing to help the Chimera Crew and succeeds on a {@dc 15} Charisma ({@skill Deception}) check, Rega asks the characters to stick around and help raid the next caravan that passes. Otherwise she attacks with Ashbreath, fighting to the death. If a fight breaks out here, members of the Chimera Crew in {@area areas I1|0c7|x} and {@area I4|0cd|x} join the fray.",
 										{
 											"type": "entries",
@@ -12208,22 +12208,22 @@
 				{
 					"type": "list",
 					"items": [
-						"{@creature Alkilith|MTF}",
+						"{@creature Alkilith|MPMM}",
 						"{@creature Anchorite of Talos|DIP}",
 						"{@creature Assassin Vine|ToA}",
-						"{@creature Bard|VGM}",
+						"{@creature Bard|MPMM}",
 						"{@creature Claugiyliamatar|SKT}",
-						"{@creature Deathlock Mastermind|MTF}",
+						"{@creature Deathlock Mastermind|MPMM}",
 						"{@creature Giant Skeleton|TftYP}",
 						"{@creature Greater Zombie|TftYP}",
-						"{@creature Master Thief|VGM}",
+						"{@creature Master Thief|MPMM}",
 						"{@creature Sahuagin Blademaster|GoS}",
 						"{@creature Sahuagin High Priestess|GoS}",
-						"{@creature Swashbuckler|VGM}",
-						"{@creature Sword Wraith Commander|MTF}",
-						"{@creature Sword Wraith Warrior|MTF}",
-						"{@creature War Priest|VGM}",
-						"{@creature Wood Woad|VGM}"
+						"{@creature Swashbuckler|MPMM}",
+						"{@creature Sword Wraith Commander|MPMM}",
+						"{@creature Sword Wraith Warrior|MPMM}",
+						"{@creature War Priest|MPMM}",
+						"{@creature Wood Woad|MPMM}"
 					],
 					"columns": 4
 				}

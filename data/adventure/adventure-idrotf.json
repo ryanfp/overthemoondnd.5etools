@@ -8538,7 +8538,7 @@
 										"Easthaven's ferry, a keelboat, is trapped in the ice at the end of a wooden dock. A small cabin is situated toward the aft end of the hull."
 									]
 								},
-								"When the lake isn't frozen, this keelboat transports people and cargo to the towns of Caer-Dineval and Caer-Konig for a modest fee. But the boat and much of Easthaven's harbor is trapped in ice, and Speaker Waylen has declared that ferry service must cease until the ice thaws\u2014which, given Auril's temperament, seems unlikely to happen soon. The ferry's tiefling owner and operator, Scython, spends his idle time at the Wet Trout (described below). In Scython's absence, the ferry has become a base of operations for a {@creature duergar mind master|MTF} (see {@adventure appendix C|IDRotF|21}) named Durth Sunblight. He and three other {@creature duergar} named Klaska, Ossyl, and Zublorr are using the ferry's aft cabin as a lair, but only Durth is present when the characters first arrive at the ferry. The other duergar are searching Easthaven for chardalyn.",
+								"When the lake isn't frozen, this keelboat transports people and cargo to the towns of Caer-Dineval and Caer-Konig for a modest fee. But the boat and much of Easthaven's harbor is trapped in ice, and Speaker Waylen has declared that ferry service must cease until the ice thaws\u2014which, given Auril's temperament, seems unlikely to happen soon. The ferry's tiefling owner and operator, Scython, spends his idle time at the Wet Trout (described below). In Scython's absence, the ferry has become a base of operations for a {@creature duergar mind master|MPMM} (see {@adventure appendix C|IDRotF|21}) named Durth Sunblight. He and three other {@creature duergar} named Klaska, Ossyl, and Zublorr are using the ferry's aft cabin as a lair, but only Durth is present when the characters first arrive at the ferry. The other duergar are searching Easthaven for chardalyn.",
 								"The duergar are cautious enough to turn {@condition invisible} while moving through town and on the docks, but not smart enough to cover the tracks they make in the snow. Characters who search for tracks on the snow-covered dock and succeed on a {@dc 10} Wisdom ({@skill Survival}) check can discern {@dice 1d4} distinct sets of dwarven boot prints leading to and from the ferry. These tracks were made within the past 24 hours.",
 								{
 									"type": "image",
@@ -12043,7 +12043,7 @@
 									"page": 68,
 									"id": "18d",
 									"entries": [
-										"If he's still alive, Durth Sunblight, a {@creature duergar mind master|MTF} (see {@adventure appendix C|IDRotF|21}), leads three {@creature duergar} named Klaska, Ossyl, and Zublorr to the Town Hall under the cover of night, making their way inside through the north entrance. Barring the characters' intervention, the duergar use their weapons to shatter the chardalyn figurehead in {@area area T6|197|x}. The guards in {@area area T17|1a9|x} interrupt the duergar but are no match for them. After killing the guards with their war picks, the duergar finish breaking apart the figurehead.",
+										"If he's still alive, Durth Sunblight, a {@creature duergar mind master|MPMM} (see {@adventure appendix C|IDRotF|21}), leads three {@creature duergar} named Klaska, Ossyl, and Zublorr to the Town Hall under the cover of night, making their way inside through the north entrance. Barring the characters' intervention, the duergar use their weapons to shatter the chardalyn figurehead in {@area area T6|197|x}. The guards in {@area area T17|1a9|x} interrupt the duergar but are no match for them. After killing the guards with their war picks, the duergar finish breaking apart the figurehead.",
 										"Each duergar carries one sack that can hold up to five 20-pound fragments of chardalyn. After filling their sacks, the duergar exit the Town Hall and travel to their hidden fortress in the mountains (described in {@adventure chapter 3|IDRotF|13}). Any tracks left by the duergar are obliterated after {@dice 1d4} hours by blowing wind.",
 										"If too much time has passed to track the duergar, the characters have no way to know where they went\u2014just as well, given the perils of the duergar fortress. A search of the Easthaven ferry yields no clues, as the duergar took all their belongings (including Durth's map) with them."
 									]
@@ -43060,7 +43060,7 @@
 												"This dark chamber contains a plain stone bed, a stone trunk, and four unlit braziers."
 											]
 										},
-										"This room belongs to Xardorok's eldest son and heir, Durth Sunblight. Durth is here only if he was forced to abandon his hideout in chapter 1 (see \"{@area Easthaven Ferry|162|x}\") or if he managed to steal a trove of chardalyn from the Easthaven town hall (see \"{@area The Chardalyn Caper|18c|x}\"). Durth is a {@creature duergar mind master|MTF} (see {@adventure appendix C|IDRotF|21}). If he hears suspicious activity outside his room, he shrinks to Tiny size and hides under the bed.",
+										"This room belongs to Xardorok's eldest son and heir, Durth Sunblight. Durth is here only if he was forced to abandon his hideout in chapter 1 (see \"{@area Easthaven Ferry|162|x}\") or if he managed to steal a trove of chardalyn from the Easthaven town hall (see \"{@area The Chardalyn Caper|18c|x}\"). Durth is a {@creature duergar mind master|MPMM} (see {@adventure appendix C|IDRotF|21}). If he hears suspicious activity outside his room, he shrinks to Tiny size and hides under the bed.",
 										"The trunk is Durth's longtime companion, an intelligent {@creature mimic} that speaks Undercommon. It attacks anyone else who disturbs it. If he is present when the mimic attacks, Durth rolls initiative and joins the battle on the second round of combat."
 									]
 								},
@@ -43149,7 +43149,7 @@
 												"A duergar stands in front of a double door in the north wall, and another is in the southeast corner next to a lever that juts out of the east wall. Braziers heaped with hot coals do little to offset the cold air that blows through the arrow slits in the south wall."
 											]
 										},
-										"The two {@creature duergar} are hostile toward non-duergar. On their first turn in combat, the duergar grow to Large size; on subsequent turns, they attack intruders. Meanwhile, two {@creature Duergar Hammerer|MTF|duergar hammerers} (see {@adventure appendix C|IDRotF|21}) lurk in the small chambers to the west. After all other creatures in the room have taken an action, roll initiative for the hammerers; on their first turn, the hammerers emerge from their rooms and join the fray on the side of the duergar.",
+										"The two {@creature duergar} are hostile toward non-duergar. On their first turn in combat, the duergar grow to Large size; on subsequent turns, they attack intruders. Meanwhile, two {@creature Duergar Hammerer|MPMM|duergar hammerers} (see {@adventure appendix C|IDRotF|21}) lurk in the small chambers to the west. After all other creatures in the room have taken an action, roll initiative for the hammerers; on their first turn, the hammerers emerge from their rooms and join the fray on the side of the duergar.",
 										{
 											"type": "entries",
 											"name": "Elevator Shaft",
@@ -43436,7 +43436,7 @@
 										"If {@creature Xardorok Sunblight|IDRotF} (see {@adventure appendix C|IDRotF|21}) is here, he is standing atop the assembly platform (area X25), barking orders at the clean-up crew. Describe Xardorok as a soot-stained, gray-bearded duergar with a jagged black crown on his brow and a spiky black gauntlet on one hand. His crown and gauntlet are made of chardalyn.",
 										"The clean-up crew consists of the {@creature duergar} forewoman, Thontara, and six {@creature Quaggoth||quaggoths}. Thontara carries a horn that she uses as a loudspeaker; the iron key that unlocks the outer gate (area X23) is hidden inside a compartment in the heel of her left boot.",
 										"Three guards are stationed atop each tower\u2014twelve {@creature duergar} in total. One guard on each tower is secretly loyal to {@creature Grandolpha Muzgardt|IDRotF} (see \"{@area The Muzgardt Conspiracy|45e|x}\"). If the characters engage in battle with Xardorok and appear to be winning, these duergar help by attacking the other duergar on their respective platforms; if Xardorok appears to be winning, these duergar stay out of the fight. The remaining duergar hurl javelins at foes from atop the towers, growing to Large size and switching to their war picks if forced into melee combat.",
-										"A fight here brings reinforcements from {@area area X28|4bc|x}: three {@creature Duergar Hammerer|MTF|duergar hammerers} (see {@adventure appendix C|IDRotF|21}).",
+										"A fight here brings reinforcements from {@area area X28|4bc|x}: three {@creature Duergar Hammerer|MPMM|duergar hammerers} (see {@adventure appendix C|IDRotF|21}).",
 										"If defeat seems likely, Xardorok retreats and makes his final stand in Deep Duerra's temple ({@area area X29|4bf|x}).",
 										{
 											"type": "entries",
@@ -43498,7 +43498,7 @@
 									"page": 182,
 									"id": "4bc",
 									"entries": [
-										"Unless they are drawn to the forge by sounds of combat there, three {@creature Duergar Hammerer|MTF|duergar hammerers} (see {@adventure appendix C|IDRotF|21}) are spaced equidistantly along this corridor. Their job is to prevent prisoners from escaping, but they attack anyone outside the cells whom they don't recognize.",
+										"Unless they are drawn to the forge by sounds of combat there, three {@creature Duergar Hammerer|MPMM|duergar hammerers} (see {@adventure appendix C|IDRotF|21}) are spaced equidistantly along this corridor. Their job is to prevent prisoners from escaping, but they attack anyone outside the cells whom they don't recognize.",
 										{
 											"type": "insetReadaloud",
 											"id": "4bd",
@@ -43602,7 +43602,7 @@
 												"The elevator shaft terminates in this room. A large stone wheel next to the iron cage turns constantly. West of the wheel is a duergar encased in a cruel-looking exoskeletal construct, his face a mask of pain."
 											]
 										},
-										"The construct is a {@creature duergar hammerer|MTF} (see {@adventure appendix C|IDRotF|21}). It guards this room and attacks intruders on sight.",
+										"The construct is a {@creature duergar hammerer|MPMM} (see {@adventure appendix C|IDRotF|21}). It guards this room and attacks intruders on sight.",
 										{
 											"type": "entries",
 											"name": "Elevator Shaft",
@@ -43725,7 +43725,7 @@
 												"Braziers of glowing-hot coals heat and light this room, the walls of which are lined with closed iron sarcophagi standing on end. In the middle of the room, a duergar has been shackled to a chair. Her flesh is covered with blisters. A pair of hooded duergar prod her with hot iron rods, searing her flesh and causing her to bellow in agony."
 											]
 										},
-										"The unarmed and unarmored {@creature duergar} shackled to the chair is Nefrun, the former captain of the guard. She has 7 hit points remaining. Her torturers are two {@creature Duergar Mind Master|MTF|duergar mind masters} (see {@adventure appendix C|IDRotF|21}) wearing black hoods.",
+										"The unarmed and unarmored {@creature duergar} shackled to the chair is Nefrun, the former captain of the guard. She has 7 hit points remaining. Her torturers are two {@creature Duergar Mind Master|MPMM|duergar mind masters} (see {@adventure appendix C|IDRotF|21}) wearing black hoods.",
 										"If {@creature Xardorok Sunblight|IDRotF} (see {@adventure appendix C|IDRotF|21}) is encountered here, he's overseeing the torture of Nefrun, who has been implicated in a plot to assassinate him. Describe Xardorok as a soot-stained, gray-bearded duergar with a jagged black crown on his brow and a spiky black gauntlet on one hand. His crown and gauntlet are made of chardalyn.",
 										"The mind masters want their prisoner to identify others involved in the coup against Xardorok. Nefrun is refusing to cooperate and is not guilty of the crimes leveled against her. She suspects Klondorn, the high priest of Deep Duerra (see {@area area X31|4c8|x}), has turned Xardorok against her. If she is released, Nefrun intends to demonstrate her loyalty to Xardorok. If that means betraying her liberators, Nefrun does so without question. Nefrun's gear, including her armors and weapons, is on the floor next to the chair.",
 										"Xardorok won't fight to the death in this area. Instead, he uses the secret door (see below) to retreat to {@area area X30|4c5|x} and uses the elevator there to make his way toward {@area area X8|488|x}, where he plans to join forces with {@creature Grandolpha Muzgardt|IDRotF}. Grandolpha goes along with Xardorok but won't aid him in a fight, allowing the characters to kill him. If Xardorok is gravely wounded and Grandolpha can kill him without putting herself in harm's way, she seizes the opportunity.",
@@ -43788,7 +43788,7 @@
 												"A stone lever juts out of the back wall of an alcove to the south."
 											]
 										},
-										"The two {@creature Duergar Hammerer|MTF|duergar hammerers} ({@adventure appendix C|IDRotF|21}) attack anyone they don't recognize.",
+										"The two {@creature Duergar Hammerer|MPMM|duergar hammerers} ({@adventure appendix C|IDRotF|21}) attack anyone they don't recognize.",
 										{
 											"type": "entries",
 											"name": "Iron Portcullis",
@@ -59480,8 +59480,8 @@
 						"{@creature Chwinga|IDRotF}",
 						"{@creature Coldlight Walker|IDRotF}",
 						"{@creature Crag Cat|SKT}",
-						"{@creature Duergar Hammerer|MTF}",
-						"{@creature Duergar Mind Master|MTF}",
+						"{@creature Duergar Hammerer|MPMM}",
+						"{@creature Duergar Mind Master|MPMM}",
 						"{@creature Xardorok Sunblight|IDRotF}",
 						"{@creature Fox|IDRotF}",
 						"{@creature Frost Druid|IDRotF}",
@@ -59590,7 +59590,7 @@
 							"page": 291,
 							"id": "742",
 							"entries": [
-								"With your consent, any player in your game can play a {@race goliath|VGM} character. A goliath native to Icewind Dale can be a member of the Skytower (Akannathi) clan, the Wyrmdoom (Thuunlakalaga) clan, or another goliath clan that you and the player create together."
+								"With your consent, any player in your game can play a {@race goliath|MPMM} character. A goliath native to Icewind Dale can be a member of the Skytower (Akannathi) clan, the Wyrmdoom (Thuunlakalaga) clan, or another goliath clan that you and the player create together."
 							]
 						},
 						{

@@ -793,12 +793,6 @@
 			],
 			"source": "MM",
 			"page": 160,
-			"additionalSources": [
-				{
-					"source": "MTF",
-					"page": 90
-				}
-			],
 			"typicalSpeakers": [
 				"{@creature Githzerai Monk||githzerai monks}",
 				"{@creature Githyanki Warrior||githyanki warriors}",
@@ -1237,16 +1231,6 @@
 				"{@creature Devkarin Lich|GGR|devkarin liches}"
 			],
 			"script": "Kraul"
-		},
-		{
-			"name": "Kruthik",
-			"source": "MTF",
-			"page": 211,
-			"typicalSpeakers": [
-				"{@creature Young Kruthik|MTF|young kruthiks}",
-				"{@creature Adult Kruthik|MTF|adult kruthiks}",
-				"{@creature Kruthik Hive Lord|MTF|kruthik hive lords}"
-			]
 		},
 		{
 			"name": "Lantanese",

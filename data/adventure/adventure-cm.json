@@ -5624,7 +5624,7 @@
 							"page": 51,
 							"id": "134",
 							"entries": [
-								"A nest of meenlocks lives in the mine outside the village. Though most of the creatures returned to the Feywild once the village was empty, six {@creature Meenlock|VGM|meenlocks} (see {@area the end of the adventure|177|x} for their stat block) remained to prey on lost travelers. When the characters arrive in the village, these meenlocks become aware of their presence and stalk them from a distance, staying hidden in the shadows.",
+								"A nest of meenlocks lives in the mine outside the village. Though most of the creatures returned to the Feywild once the village was empty, six {@creature Meenlock|MPMM|meenlocks} (see {@area the end of the adventure|177|x} for their stat block) remained to prey on lost travelers. When the characters arrive in the village, these meenlocks become aware of their presence and stalk them from a distance, staying hidden in the shadows.",
 								"The meenlocks of Vermeillon include three that spawned after the disaster in the mine, two that were once villagers, and one that was a traveling merchant who thought he'd found a shortcut through the peaks. The three original meenlocks stay within the nest, while the other three venture into the village to torment the characters, either individually or as a group. You can change the number of meenlocks in in the village, depending on the number of characters and their abilities.",
 								"As the party makes its way through the village, the meenlocks try to remain unseen as they begin to psychically haunt the characters, causing hallucinations. Pick one character to target, or spread the hallucinations between multiple party members. A few suggestions:",
 								{
@@ -5644,7 +5644,7 @@
 									"page": 51,
 									"id": "135",
 									"entries": [
-										"The {@creature Meenlock|VGM|meenlocks} haunting Vermeillon avoid bright light. They prefer to stay in their nest until nightfall, though they sometimes hunt on overcast days.",
+										"The {@creature Meenlock|MPMM|meenlocks} haunting Vermeillon avoid bright light. They prefer to stay in their nest until nightfall, though they sometimes hunt on overcast days.",
 										"The meenlocks avoid combat with a well-armed group of foes. If the characters don't split up on their own, the meenlocks try to divide the party using their ability to create hallucinations. Their aim is to isolate and paralyze one character, then drag that character back to their nest to be tortured and transformed into a meenlock. If given the opportunity, meenlocks psychically torment their prey for hours or days, breaking down their mental and emotional state to make the eventual transformation easier.",
 										"Be devious and tricksy with these foes\u2014they're intelligent creatures, not mindless monsters driven by bloodlust. Hide them from the characters for as long as possible to heighten the mystery and suspense."
 									]
@@ -6083,7 +6083,7 @@
 											"page": 54,
 											"id": "146",
 											"entries": [
-												"Mayor Lei Duvezin was taken in the night and transformed into a meenlock. The {@creature meenlock|VGM} that was once Mayor Duvezin now lurks around the mayor's mansion, drawn there by lingering memories, and it takes any opportunity to attack characters in the house.",
+												"Mayor Lei Duvezin was taken in the night and transformed into a meenlock. The {@creature meenlock|MPMM} that was once Mayor Duvezin now lurks around the mayor's mansion, drawn there by lingering memories, and it takes any opportunity to attack characters in the house.",
 												"The meenlock shed its clothing and other trappings of its former life once the transformation was complete, but it still wears the mayor's ring of office: an ornate platinum signet ring embossed with a snowdrop blossom (75 gp). The characters can recover the ring upon the meenlock's death or notice it during combat with a successful {@dc 18} Wisdom ({@skill Perception}) check. The ring offers a hint to the fate of the mayor, and also serves as a potential plot hook if the characters decide to track down the mayor's children to return the item and give them closure on their mother's fate."
 											]
 										},
@@ -8281,7 +8281,7 @@
 											"page": 58,
 											"id": "16c",
 											"entries": [
-												"A character who wanders into this cave alone and is {@condition grappled} by the mossy tentacles might have to deal with one or more {@creature Meenlock|VGM|meenlocks} that creep into the room, hoping to take advantage of the character's unfortunate predicament."
+												"A character who wanders into this cave alone and is {@condition grappled} by the mossy tentacles might have to deal with one or more {@creature Meenlock|MPMM|meenlocks} that creep into the room, hoping to take advantage of the character's unfortunate predicament."
 											]
 										}
 									]
@@ -8325,7 +8325,7 @@
 												"New scents greet you here: the musty funk of decaying fabric and old furs, and the smell of rot lingering in the stagnant air. Thick pillars of moss-covered stone support the twenty-foot-high ceiling, and waist-high stone slabs dot the cavern."
 											]
 										},
-										"The meenlocks bring their victims here to be tormented and transformed. The stone slabs are coated with blood and filth\u2014the result of mortals being laid out for days of torture. Any party members taken by the meenlocks are here, {@condition paralyzed} on one of the slabs if they haven't already been transformed (see the \"{@area Telepathic Torment|17d|x}\" sidebar at the end of the adventure). Any remaining {@creature Meenlock|VGM|meenlocks} attack when the party reaches the center of this room.",
+										"The meenlocks bring their victims here to be tormented and transformed. The stone slabs are coated with blood and filth\u2014the result of mortals being laid out for days of torture. Any party members taken by the meenlocks are here, {@condition paralyzed} on one of the slabs if they haven't already been transformed (see the \"{@area Telepathic Torment|17d|x}\" sidebar at the end of the adventure). Any remaining {@creature Meenlock|MPMM|meenlocks} attack when the party reaches the center of this room.",
 										{
 											"type": "entries",
 											"name": "Dynamite Trap",
@@ -8392,7 +8392,7 @@
 								"type": "internal",
 								"path": "adventure/CM/040-636463380268253619.webp"
 							},
-							"title": "{@creature Meenlock|VGM}",
+							"title": "{@creature Meenlock|MPMM}",
 							"width": 399,
 							"height": 408,
 							"credit": "Filip Burburan"

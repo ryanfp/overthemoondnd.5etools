@@ -9736,16 +9736,12 @@
 		},
 		{
 			"name": "Svirfneblin Magic",
-			"source": "MTF",
-			"page": 114,
+			"source": "SCAG",
+			"page": 115,
 			"additionalSources": [
 				{
 					"source": "EEPC",
 					"page": 7
-				},
-				{
-					"source": "SCAG",
-					"page": 115
 				}
 			],
 			"prerequisite": [

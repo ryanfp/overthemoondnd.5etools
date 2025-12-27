@@ -2149,7 +2149,7 @@
 			"name": "Drow Arachnomancer",
 			"source": "MPMM",
 			"entries": [
-				"Drow spellcasters who seek to devote themselves wholly to {@deity Lolth|Drow|MTF}, the Spider Queen, sometimes walk the sinister path of the arachnomancer. By offering up body and soul to Lolth, they gain tremendous power and a supernatural connection to the ancient spiders of the Demonweb Pits, channeling magic from that dread place."
+				"Drow spellcasters who seek to devote themselves wholly to {@deity Lolth|Drow|EGW}, the Spider Queen, sometimes walk the sinister path of the arachnomancer. By offering up body and soul to Lolth, they gain tremendous power and a supernatural connection to the ancient spiders of the Demonweb Pits, channeling magic from that dread place."
 			],
 			"images": [
 				{
@@ -2166,7 +2166,7 @@
 			"name": "Drow Favored Consort",
 			"source": "MPMM",
 			"entries": [
-				"Nearly every priestess of {@deity Lolth|Drow|MTF}, including the powerful {@creature drow matron mother|MPMM} in this book, takes an attractive drow as consort. Chosen as much for beauty as for magical might, a drow favored consort can hold their own in both conversation and combat. Combining the roles of advisor, protector, and beloved, some favored consorts are content with a supporting role, while more ambitious consorts aspire to be the power behind the throne\u2014or even to claim the throne themselves.",
+				"Nearly every priestess of {@deity Lolth|Drow|EGW}, including the powerful {@creature drow matron mother|MPMM} in this book, takes an attractive drow as consort. Chosen as much for beauty as for magical might, a drow favored consort can hold their own in both conversation and combat. Combining the roles of advisor, protector, and beloved, some favored consorts are content with a supporting role, while more ambitious consorts aspire to be the power behind the throne\u2014or even to claim the throne themselves.",
 				"Those favored consorts who prove their cunning gain the ear, and perhaps even the heart, of their priestess and are relied on to provide useful advice. No position of consort is assured for long, though; Lolth's priestesses are notoriously fickle, and a consort must often contend with rivals.",
 				"Some favored consorts work behind the scenes to undermine the evils encouraged by Lolth. Others can be found in Underdark cities free of Lolth's influence, where these powerful spellcasters apply their might toward ending her tyranny."
 			],
@@ -2227,14 +2227,14 @@
 			"name": "Drow Matron Mother",
 			"source": "MPMM",
 			"entries": [
-				"Among drow followers of {@deity Lolth|Drow|MTF}, each noble house is led by a matron mother, an influential priestess of Lolth charged with carrying out the god's will while also advancing the interests of the family. Matron mothers embody the scheming and treachery associated with the Queen of Spiders. Each stands at the center of a vast conspiratorial web, with demons, spiders, and conscripted soldiers positioned between them and their enemies. Although matron mothers command great power, that power depends on maintaining the Spider Queen's favor, and the goddess sometimes capriciously takes back what she has given. The stat block here represents a matron mother at the height of her power.",
+				"Among drow followers of {@deity Lolth|Drow|EGW}, each noble house is led by a matron mother, an influential priestess of Lolth charged with carrying out the god's will while also advancing the interests of the family. Matron mothers embody the scheming and treachery associated with the Queen of Spiders. Each stands at the center of a vast conspiratorial web, with demons, spiders, and conscripted soldiers positioned between them and their enemies. Although matron mothers command great power, that power depends on maintaining the Spider Queen's favor, and the goddess sometimes capriciously takes back what she has given. The stat block here represents a matron mother at the height of her power.",
 				"A matron mother is almost never encountered alone. She is typically accompanied by a {@creature drow favored consort|MPMM} and a {@creature drow house captain|MPMM}, each of whom appears in this book. Other Underdark creatures might also be in the priestess's presence, providing protection or advice.",
 				{
 					"type": "entries",
 					"name": "Mothers of Rebellion",
 					"page": 103,
 					"entries": [
-						"Some matron mothers renounce {@deity Lolth|Drow|MTF} and join the war against their former goddess. Such drow could be of any alignment, and they lose the following abilities in the stat block: Lolth's Fickle Favor, Summon Servant, and Compel Demon. Even without these abilities, drow matron mothers are formidable opponents, and several of them hold positions of great influence in the Underdark armies arrayed against the followers of Lolth."
+						"Some matron mothers renounce {@deity Lolth|Drow|EGW} and join the war against their former goddess. Such drow could be of any alignment, and they lose the following abilities in the stat block: Lolth's Fickle Favor, Summon Servant, and Compel Demon. Even without these abilities, drow matron mothers are formidable opponents, and several of them hold positions of great influence in the Underdark armies arrayed against the followers of Lolth."
 					]
 				},
 				{
@@ -2243,7 +2243,7 @@
 					"page": 103,
 					"entries": [
 						"The palace of a drow matron mother is her home and fortress. Sigils throughout the building allow the matron mother to use the following lair actions while within it.",
-						"Any temple of {@deity Lolth|Drow|MTF} also functions as a matron mother's lair while she is inside it, unless she has renounced Lolth or another matron mother is present. When two or more matron mothers gather within a temple of their goddess, none of them can use it as their lair."
+						"Any temple of {@deity Lolth|Drow|EGW} also functions as a matron mother's lair while she is inside it, unless she has renounced Lolth or another matron mother is present. When two or more matron mothers gather within a temple of their goddess, none of them can use it as their lair."
 					]
 				}
 			],
@@ -4727,7 +4727,7 @@
 			"entries": [
 				"Paladins who make deals with devils and carry their twisted sense of honor into the afterlife are especially valuable to the archdukes of the Nine Hells. These narzugons act as horrific perversions of knights errant, carrying out their masters' will.",
 				"Narzugons wield hell-forged lances that shunt the souls of any they killed to the River Styx for rebirth as {@creature lemure||lemures}. Every lance bears the marks of both a narzugon and its master.",
-				"Each narzugon claims a {@creature nightmare} as its mount. These steeds are bound by {@item infernal tack|MTF} and must respond to the summons and commands of the spurs' wearer."
+				"Each narzugon claims a {@creature nightmare} as its mount. These steeds are bound by {@item infernal tack|MPMM} and must respond to the summons and commands of the spurs' wearer."
 			],
 			"images": [
 				{
@@ -5837,11 +5837,11 @@
 									"type": "list",
 									"columns": 3,
 									"items": [
-										"{@cult Cult of Atropus, the World Born Dead|MTF}",
-										"{@cult Cult of Borem, of the Lake of Boiling Mud|MTF}",
-										"{@cult Cult of Haask, the Voice of Hargut|MTF}",
-										"{@cult Cult of Tharizdun, the Chained God|MTF}",
-										"{@cult Cult of Tyranthraxus, the Flamed One|MTF}"
+										"{@cult Cult of Atropus, the World Born Dead|MPMM}",
+										"{@cult Cult of Borem, of the Lake of Boiling Mud|MPMM}",
+										"{@cult Cult of Haask, the Voice of Hargut|MPMM}",
+										"{@cult Cult of Tharizdun, the Chained God|MPMM}",
+										"{@cult Cult of Tyranthraxus, the Flamed One|MPMM}"
 									]
 								}
 							]
@@ -6393,7 +6393,7 @@
 						"items": {
 							"type": "entries",
 							"entries": [
-								"If a Beast such as a dog or a bear dies from {@hazard russet mold|VGM}, the result is a bestial moldy called a thorny, instead of a bipedal vegepygmy. Thornies are less intelligent than other vegepygmies, but they are larger and more ferocious and have thorn-covered bodies."
+								"If a Beast such as a dog or a bear dies from {@hazard russet mold|MPMM}, the result is a bestial moldy called a thorny, instead of a bipedal vegepygmy. Thornies are less intelligent than other vegepygmies, but they are larger and more ferocious and have thorn-covered bodies."
 							]
 						}
 					}
@@ -6670,7 +6670,7 @@
 						"items": {
 							"type": "entries",
 							"entries": [
-								"Typical vegepygmies originate from the remains left behind when a Humanoid or a Giant is killed by {@hazard russet mold|VGM}. One or more vegepygmies emerge from the corpse a day later."
+								"Typical vegepygmies originate from the remains left behind when a Humanoid or a Giant is killed by {@hazard russet mold|MPMM}. One or more vegepygmies emerge from the corpse a day later."
 							]
 						}
 					}
@@ -6689,7 +6689,7 @@
 						"items": {
 							"type": "entries",
 							"entries": [
-								"As a {@creature vegepygmy|MPMM} ages, it grows tougher and develops spore clusters on its body. Other vegepygmies defer to these so-called chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way {@hazard russet mold|VGM} does."
+								"As a {@creature vegepygmy|MPMM} ages, it grows tougher and develops spore clusters on its body. Other vegepygmies defer to these so-called chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way {@hazard russet mold|MPMM} does."
 							]
 						}
 					}
@@ -7230,7 +7230,7 @@
 			"source": "MPMM",
 			"entries": [
 				"Granted by mighty Fey to individuals who please them, yeth hounds serve their masters like hunting dogs. They race in pursuit of their prey, running it down until it's too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.",
-				"A pack of yeth hounds can be created by powerful Fey such as the Queen of Air and Darkness. Each pack's master can telepathically communicate with their yeth hounds to give the pack commands from afar. If a pack's master is killed, the hounds seek out a new master, typically an evil {@creature vampire}, {@creature necromancer|vgm}, or {@creature green hag|mm|hag}."
+				"A pack of yeth hounds can be created by powerful Fey such as the Queen of Air and Darkness. Each pack's master can telepathically communicate with their yeth hounds to give the pack commands from afar. If a pack's master is killed, the hounds seek out a new master, typically an evil {@creature vampire}, {@creature necromancer wizard|MPMM}, or {@creature green hag|mm|hag}."
 			],
 			"images": [
 				{

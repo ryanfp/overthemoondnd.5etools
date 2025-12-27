@@ -36,7 +36,7 @@
 								"Text that appears in a box like this is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text."
 							]
 						},
-						"The {@book Monster Manual|MM} and {@book Volo's Guide to Monsters|VGM} contain stat blocks for most of the creatures found in this adventure. You don't need the latter reference to run {@i Tomb of Annihilation}, as all the necessary stat blocks from {@i Volo's Guide to Monsters} are included with the new monsters in {@adventure appendix D|ToA|9}.",
+						"The {@book Monster Manual|MM} and {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} contain stat blocks for most of the creatures found in this adventure. You don't need the latter reference to run {@i Tomb of Annihilation}, as all the necessary stat blocks are included with the new monsters in {@adventure appendix D|ToA|9}.",
 						"When a creature's name appears in {@b bold} type, that's a visual cue pointing you to its stat block in the {@book Monster Manual|MM}. If a stat block appears in {@adventure appendix D|ToA|9}, the adventure's text tells you so.",
 						"Spells and equipment mentioned in the adventure are described in the {@book Player's Handbook|PHB}. Magic items are described in the {@book Dungeon Master's Guide|DMG}, unless the adventure's text directs you to an item's description in {@adventure appendix C|ToA|8}.",
 						{
@@ -650,7 +650,7 @@
 									"id": "029",
 									"entries": [
 										"Tabaxi are feline humanoids, originally native to the western continent of Maztica. Some Chultans refer to them as \"cat folk\" or \"leopard people.\" Groups of tabaxi wound up in Chult after escaping from slavers. They are a cultured people and seldom evil. A few work as guides out of Port Nyanzaru. Others enter the jungle in small groups to hunt grungs and goblins for their own purposes.",
-										"Tabaxi hunters can be encountered anywhere in Chult. Tabaxi minstrels are seldom met outside Port Nyanzaru. {@adventure Appendix D|ToA|9|Tabaxi} includes statistics for both. Tabaxi can also be player characters (see {@book Volo's Guide to Monsters|VGM} for tabaxi racial traits)."
+										"Tabaxi hunters can be encountered anywhere in Chult. Tabaxi minstrels are seldom met outside Port Nyanzaru. {@adventure Appendix D|ToA|9|Tabaxi} includes statistics for both. Tabaxi can also be player characters (see {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} for tabaxi racial traits)."
 									]
 								},
 								{
@@ -680,7 +680,7 @@
 									"entries": [
 										"After being driven out of their ancient city (see \"{@area Hisari|115|x},\"), the yuan-ti claimed the ruins of Omu as their demesne. Their spies in Port Nyanzaru keep a wary eye on the merchant princes, would-be treasure hunters, and adventurers. Characters might also encounter yuan-ti purebloods, yuan-ti malisons, and yuan-ti abominations searching the jungle for hidden settlements and lost treasures.",
 										"The yuan-ti of Omu believe that a sealed portal lies somewhere under the Peaks of Flame and that opening it will enable Dendar the Night Serpent to enter the world. The god Ubtao was supposed to stand against Dendar, but with Ubtao gone from the world, the yuan-ti believe nothing can stop the Night Serpent. They have dedicated an underground temple to this serpentine destroyer of worlds, but they are a long way from fulfilling their ultimate goal.",
-										"Additional information about yuan-ti can be found in {@book Volo's Guide to Monsters|VGM}, as well as {@adventure appendix D|ToA|9}.",
+										"Additional information about yuan-ti can be found in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, as well as {@adventure appendix D|ToA|9}.",
 										{
 											"type": "inset",
 											"name": "Gods of Chult",
@@ -826,7 +826,7 @@
 									"type": "item",
 									"name": "Save an Innocent Man",
 									"entries": [
-										"Belym (LG male Chultan human {@creature commoner}) is distraught because his husband, Draza (LG male Chultan {@creature commoner}), has been sentenced to Executioner's Run for stealing. Belym asserts that his husband was a victim of mistaken identity and sentenced without a proper hearing or trial. He's been unable to persuade anyone in authority that Draza is innocent. He'll give the characters 25 sp (all his savings) if they can help Draza from the sidelines so he survives the run. Draza is about to be thrown into the pit with a pair of {@creature Velociraptor|VGM|velociraptors}, so the characters must act quickly. Both the authorities and the gamblers take a dim view of interference."
+										"Belym (LG male Chultan human {@creature commoner}) is distraught because his husband, Draza (LG male Chultan {@creature commoner}), has been sentenced to Executioner's Run for stealing. Belym asserts that his husband was a victim of mistaken identity and sentenced without a proper hearing or trial. He's been unable to persuade anyone in authority that Draza is innocent. He'll give the characters 25 sp (all his savings) if they can help Draza from the sidelines so he survives the run. Draza is about to be thrown into the pit with a pair of {@creature Velociraptor|MPMM|velociraptors}, so the characters must act quickly. Both the authorities and the gamblers take a dim view of interference."
 									]
 								},
 								{
@@ -4050,7 +4050,7 @@
 									"page": 18,
 									"id": "036",
 									"entries": [
-										"The road through the Old City splits around a rectangular, stone-lined pit 15 feet deep, 50 feet wide, and 200 feet long. The original Amnian residents built it as an arena for a highly competitive ball game, and it still provides cheap entertainment for the locals. {@creature Velociraptor|VGM|Velociraptors} (see {@adventure appendix D|ToA|9}), {@creature Panther||panthers}, or other hungry beasts (a juvenile {@creature allosaurus} is a guaranteed crowd pleaser) are set loose in the pit, then convicted criminals are dropped in at one end. Any criminals who make it alive through the gauntlet of carnivores to the far end of the pit can scramble up knotted ropes and win their freedom, along with the adulation of the crowd. Spectators line the walls for these spectacles\u2014including representatives from every level of Port Nyanzaru society, not just residents of the Old City. Bets are placed on which criminals will survive, which will die, how far runners will get before a beast brings them down, and how many kills each animal will rack up.",
+										"The road through the Old City splits around a rectangular, stone-lined pit 15 feet deep, 50 feet wide, and 200 feet long. The original Amnian residents built it as an arena for a highly competitive ball game, and it still provides cheap entertainment for the locals. {@creature Velociraptor|MPMM|Velociraptors} (see {@adventure appendix D|ToA|9}), {@creature Panther||panthers}, or other hungry beasts (a juvenile {@creature allosaurus} is a guaranteed crowd pleaser) are set loose in the pit, then convicted criminals are dropped in at one end. Any criminals who make it alive through the gauntlet of carnivores to the far end of the pit can scramble up knotted ropes and win their freedom, along with the adulation of the crowd. Spectators line the walls for these spectacles\u2014including representatives from every level of Port Nyanzaru society, not just residents of the Old City. Bets are placed on which criminals will survive, which will die, how far runners will get before a beast brings them down, and how many kills each animal will rack up.",
 										"A handful of Chultans have become celebrities by surviving multiple dashes through Executioner's Run. It's been suggested that some people continue committing crimes solely because a conviction is the only way to get tossed into the pit, and betting is always heaviest on a repeat offender.",
 										"Occasionally an animal manages to leap or scramble out of the pit and runs amok through the terrified crowd. Moments of such high peril provide a perfect opportunity for bystanders to become heroes in the city and earn favors from the merchant princes."
 									]
@@ -4268,7 +4268,7 @@
 									"id": "04c",
 									"entries": [
 										"This stone arena is the site of gladiatorial games (usually nonlethal, but accidents happen), bloody animal combats, and spectacular circuses. The best gladiators become celebrities and earn fortunes. Statues of the arena's greatest champions line the tops of the Grand Coliseum's walls, including one of the city's current merchant princes. ({@creature Ekene-Afa|ToA} gained fame and fortune as a gladiator before retiring from the arena to become a trader and politician.)",
-										"Events are held on most afternoons; only special shows are held after sundown, as the coliseum depends on natural light. During the week, the bill features qualifying matches, consolation bouts, and other small events. Major events, championships, and special extravaganzas are staged on holidays. A holiday show might include a battle between \"heroes of legend\" and \"pirates\" (all portrayed by gladiators), a bloody match pitting {@creature Velociraptor|VGM|velociraptors} against {@creature Tiger||tigers}, or even a contest of mages battling captured {@creature Ghoul||ghouls}, {@creature Skeleton||skeletons}, or {@creature Zombie||zombies}."
+										"Events are held on most afternoons; only special shows are held after sundown, as the coliseum depends on natural light. During the week, the bill features qualifying matches, consolation bouts, and other small events. Major events, championships, and special extravaganzas are staged on holidays. A holiday show might include a battle between \"heroes of legend\" and \"pirates\" (all portrayed by gladiators), a bloody match pitting {@creature Velociraptor|MPMM|velociraptors} against {@creature Tiger||tigers}, or even a contest of mages battling captured {@creature Ghoul||ghouls}, {@creature Skeleton||skeletons}, or {@creature Zombie||zombies}."
 									]
 								},
 								{
@@ -4471,11 +4471,11 @@
 											],
 											"rows": [
 												[
-													"{@creature Flying monkey|ToA}, {@creature giant lizard}, or {@creature hadrosaurus|VGM}",
+													"{@creature Flying monkey|ToA}, {@creature giant lizard}, or {@creature hadrosaurus|MPMM}",
 													"100 gp"
 												],
 												[
-													"{@creature Ankylosaurus}, {@creature deinonychus|VGM}, or {@creature flying snake}",
+													"{@creature Ankylosaurus}, {@creature deinonychus|MPMM}, or {@creature flying snake}",
 													"250 gp"
 												],
 												[
@@ -6079,7 +6079,7 @@
 									"entries": [
 										"{@i Chultan druid and vegepygmy (Fort Beluarian)}",
 										"When the characters meet {@creature Qawasha|ToA} and Kupalué, give the players a copy of handout 7 in {@adventure appendix E|ToA|10}.",
-										"{@creature Qawasha|ToA} (NG male Chultan {@creature druid}) is a member of the Emerald Enclave based in Fort Beluarian. The druid travels with a {@creature vegepygmy|VGM} companion named Kupalué, a Chultan word that means \"walking weed.\" {@creature Qawasha|ToA} often refers to his companion simply as Weed. They communicate with each other using their own unique sign language. See {@adventure appendix D|ToA|9} for vegepygmy statistics.",
+										"{@creature Qawasha|ToA} (NG male Chultan {@creature druid}) is a member of the Emerald Enclave based in Fort Beluarian. The druid travels with a {@creature vegepygmy|MPMM} companion named Kupalué, a Chultan word that means \"walking weed.\" {@creature Qawasha|ToA} often refers to his companion simply as Weed. They communicate with each other using their own unique sign language. See {@adventure appendix D|ToA|9} for vegepygmy statistics.",
 										"{@creature Qawasha|ToA} would like to rid the jungle of its undead menace, so he deliberately leads adventurers through undead-infested regions. As he travels through the jungle, {@creature Qawasha|ToA} calls out the names of unusual flora and fauna around him. The druid also has a knack for camping in places where chwingas (see {@adventure appendix D|ToA|9}) dwell, and he has experience dealing with the elemental spirits.",
 										"If the characters hire {@creature Qawasha|ToA}, he recommends that they also purchase a charter of exploration before leaving Fort Beluarian. {@creature Qawasha|ToA} has witnessed firsthand the Flaming Fist's mistreatment of adventurers who explore Chult without the requisite paperwork.",
 										"{@creature Qawasha|ToA} stands 6 feet 2 inches tall and weighs 180 pounds. Weed stands 3 feet tall and weighs about 30 pounds dry (50 pounds wet)."
@@ -7756,7 +7756,7 @@
 							"id": "0b4",
 							"entries": [
 								"Blades of black basalt thrust up from the floor of this deep, volcanic canyon to create a forest of sorts: one that can easily draw blood from unwary trekkers who brush against the ebon piles that are as sharp as the razor-edged weapons they're named after.",
-								"Ataaz Yklwazi (\"Gorge of Blades\") forms a gateway of sorts to the Valley of Lost Honor from the north. The valley is the domain of firenewts. They protect it by patrolling the gorge and ambushing any intruders they believe they're strong enough to defeat. A typical patrol consists of four {@creature Firenewt Warrior|VGM|firenewt warriors} mounted on {@creature Giant Strider|VGM|giant striders} (see {@adventure appendix D|ToA|9} for both creatures' statistics).",
+								"Ataaz Yklwazi (\"Gorge of Blades\") forms a gateway of sorts to the Valley of Lost Honor from the north. The valley is the domain of firenewts. They protect it by patrolling the gorge and ambushing any intruders they believe they're strong enough to defeat. A typical patrol consists of four {@creature Firenewt Warrior|MPMM|firenewt warriors} mounted on {@creature Giant Strider|MPMM|giant striders} (see {@adventure appendix D|ToA|9} for both creatures' statistics).",
 								"The gorge is also the favored hunting ground of a female {@creature young red dragon} named Tzindelor, dubbed Tinder by those who've seen her and survived. The treacherous terrain is littered with the charred skeletons of Tinder's victims. If the characters take a long rest in the gorge, they encounter the dragon at the end of their rest. For more information on Tinder, see \"{@area Wyrmheart Mine|1af|x}.\""
 							]
 						},
@@ -9508,8 +9508,8 @@
 								{
 									"type": "list",
 									"items": [
-										"If the party appears weak (few in number or needing assistance), {@dice 1d6 + 6} {@creature Grung|VGM|grungs} with green skin (warriors) surround them as soon as they enter the thorn maze, and press them to attend an audience with the king. The grungs attack and subdue characters who resist. If the adventurers accept, they are taken through the maze to the shrine, where they are received by King Groak. He offers sanctuary and talks of the great ritual to summon Nangnang. Once the characters are rested, Groak commands them to help Krr'ook make final preparations.",
-										"If the party looks capable of putting up a good fight, they are greeted by {@dice 1d6 + 6} {@creature Grung|VGM|grungs} with green skin (warriors) once they reach the settlement. The grungs welcome them to Dungrunglung and beg the characters to hear what King Groak has to say. Groak entreats the adventurers to be part of his divine destiny, and to aid Krr'ook in completing the preparations to summon Nangnang. He offers Dungrunglung's hospitality as well as information about Chult in exchange for their help."
+										"If the party appears weak (few in number or needing assistance), {@dice 1d6 + 6} {@creature Grung|MPMM|grungs} with green skin (warriors) surround them as soon as they enter the thorn maze, and press them to attend an audience with the king. The grungs attack and subdue characters who resist. If the adventurers accept, they are taken through the maze to the shrine, where they are received by King Groak. He offers sanctuary and talks of the great ritual to summon Nangnang. Once the characters are rested, Groak commands them to help Krr'ook make final preparations.",
+										"If the party looks capable of putting up a good fight, they are greeted by {@dice 1d6 + 6} {@creature Grung|MPMM|grungs} with green skin (warriors) once they reach the settlement. The grungs welcome them to Dungrunglung and beg the characters to hear what King Groak has to say. Groak entreats the adventurers to be part of his divine destiny, and to aid Krr'ook in completing the preparations to summon Nangnang. He offers Dungrunglung's hospitality as well as information about Chult in exchange for their help."
 									]
 								},
 								"Characters who offend King Groak are thrown in the prison pit ({@area area 7|0e3|x}). There, they are approached in secret by Krr'ook, who tries to explain her dilemma. If the party agrees to help her, Krr'ook will find a way to free the party members to aid in her task. Prisoners who are deemed \"not useful\" will either be roasted over a fire or sacrificed to Nangnang during the Great Ritual.",
@@ -9520,9 +9520,9 @@
 									"id": "0d9",
 									"entries": [
 										"The following grungs have key roles to play in Dungrunglung. For grung statistics, see {@adventure appendix D|ToA|9}.",
-										"Groak (gold {@creature grung elite warrior|VGM} wearing a {@item circlet of blasting|DMG}) is the love-struck king who seeks to woo the goddess Nangnang. Charismatic but unstable, Groak can swing from friendly to homicidal in the span of a few seconds. Because of this, his people dare not even whisper a harsh word about him. Groak wants to be seen as a visionary and a romantic, and he loves to hear stories of the outside world. However, he threatens anyone who dares to question his inflated self-image. Groak tolerates adventurers as long as they entertain him, generally agree with everything he says, and are willing to aid him in his quest to realize his divine destiny to become Nangnang's consort.",
-										"Krr'ook (red {@creature grung wildling|VGM}) is a grung priest who fears the king's madness. She whispers favorable signs and omens in the king's ear to keep in his good graces. Secretly, Krr'ook suspects that the Great Ritual to summon Nangnang will fail. Consequently, she fears for her life. She approaches the adventurers to see if they can help her fool the king on the night of the ritual. If Krr'ook senses anything out of kilter, or if the ritual goes awry, she scapegoats the adventurers and delivers them straight into the king's infantile wrath.",
-										"Roark (orange {@creature grung elite warrior|VGM}) is a dutiful and dangerous grung warrior, dedicated to his mad king. Roark thinks all this goddess-summoning nonsense is distracting from the real issue at hand: defending Dungrunglung from the undead. Secretly, Roark's loyalty is to the tribe first and Groak second, but Roark is dutifully abiding the king's obsession for now. He is suspicious of adventurers yet open to help in defending his village from the undead."
+										"Groak (gold {@creature grung elite warrior|MPMM} wearing a {@item circlet of blasting|DMG}) is the love-struck king who seeks to woo the goddess Nangnang. Charismatic but unstable, Groak can swing from friendly to homicidal in the span of a few seconds. Because of this, his people dare not even whisper a harsh word about him. Groak wants to be seen as a visionary and a romantic, and he loves to hear stories of the outside world. However, he threatens anyone who dares to question his inflated self-image. Groak tolerates adventurers as long as they entertain him, generally agree with everything he says, and are willing to aid him in his quest to realize his divine destiny to become Nangnang's consort.",
+										"Krr'ook (red {@creature grung wildling|MPMM}) is a grung priest who fears the king's madness. She whispers favorable signs and omens in the king's ear to keep in his good graces. Secretly, Krr'ook suspects that the Great Ritual to summon Nangnang will fail. Consequently, she fears for her life. She approaches the adventurers to see if they can help her fool the king on the night of the ritual. If Krr'ook senses anything out of kilter, or if the ritual goes awry, she scapegoats the adventurers and delivers them straight into the king's infantile wrath.",
+										"Roark (orange {@creature grung elite warrior|MPMM}) is a dutiful and dangerous grung warrior, dedicated to his mad king. Roark thinks all this goddess-summoning nonsense is distracting from the real issue at hand: defending Dungrunglung from the undead. Secretly, Roark's loyalty is to the tribe first and Groak second, but Roark is dutifully abiding the king's obsession for now. He is suspicious of adventurers yet open to help in defending his village from the undead."
 									]
 								},
 								{
@@ -11636,7 +11636,7 @@
 												],
 												[
 													"10\u201312",
-													"{@dice 1d6 + 6} {@creature Grung|VGM|grungs} (green-skinned warriors) on patrol."
+													"{@dice 1d6 + 6} {@creature Grung|MPMM|grungs} (green-skinned warriors) on patrol."
 												],
 												[
 													"13",
@@ -11684,7 +11684,7 @@
 												"Through an opening in the maze wall, you see a small lake surrounded by reed huts, ferns, and lily pads. Rising up from a flat island in the middle of the lake is a 60-foot-tall shrine made of painted mud bricks, shaped in the likeness of a giant frog. Stairs climb from the lake shore to an open doorway carved into the frog's fat belly. Patrolling the shrine's perimeter are several small, frog-like humanoids with bright orange skin and shortbows."
 											]
 										},
-										"Four green-skinned {@creature Grung|VGM|grungs} (warriors) emerge from nearby hovels to confront strangers who approach the shrine unescorted. They attack if no one speaks the correct passphrase in Grung (\"Roook, roooook, erp\"). If a fight breaks out, reinforcements in the form of twelve {@creature Grung|VGM|grungs} arrive in 2 rounds. The grungs in {@area area 3|0dd|x} begin shooting arrows at the same time."
+										"Four green-skinned {@creature Grung|MPMM|grungs} (warriors) emerge from nearby hovels to confront strangers who approach the shrine unescorted. They attack if no one speaks the correct passphrase in Grung (\"Roook, roooook, erp\"). If a fight breaks out, reinforcements in the form of twelve {@creature Grung|MPMM|grungs} arrive in 2 rounds. The grungs in {@area area 3|0dd|x} begin shooting arrows at the same time."
 									]
 								},
 								{
@@ -11693,7 +11693,7 @@
 									"page": 50,
 									"id": "0dd",
 									"entries": [
-										"Marshy shores surround the shrine, which is 60 feet tall and made of carved mud blocks painted with natural dyes. Patrolling its base are eight {@creature Grung Elite Warrior|VGM|grung elite warriors} with orange skin. They wield daggers and shortbows, and are loyal to Roark first, King Groak second. Strangers who reach the island without a grung escort are attacked."
+										"Marshy shores surround the shrine, which is 60 feet tall and made of carved mud blocks painted with natural dyes. Patrolling its base are eight {@creature Grung Elite Warrior|MPMM|grung elite warriors} with orange skin. They wield daggers and shortbows, and are loyal to Roark first, King Groak second. Strangers who reach the island without a grung escort are attacked."
 									]
 								},
 								{
@@ -11710,8 +11710,8 @@
 												"At the back of the shrine is an elevated semicircular basin of water 10 feet high. Wallowing in the basin is a grung with gold skin. On its brow rests a golden circlet. An orange-skinned grung perches nearby, shortbow at the ready."
 											]
 										},
-										"The shallow pool at the front of the shrine is where Krr'ook (a red-skinned {@creature grung wildling|VGM}; see the \"Grungs of Dungrunglung\" sidebar) and her assistants (six blue-skinned {@creature Grung|VGM|grungs}) prepare for the Great Ritual by tending the phosphorescent fungi and scenting the water with delicate perfumes. Removing the fungi from the pool is forbidden, by order of King Groak.",
-										"The elevated pool at the back of the shrine is fed by an underground spring. King Groak (a gold-skinned {@creature grung elite warrior|VGM} with a {@item circlet of blasting}; see the \"Grungs of Dungrunglung\" sidebar) issues commands from the pool during the day and sleeps here at night. He rarely has cause to leave the shrine these days. By his side is Roark (orange-skinned {@creature grung elite warrior|VGM}; see the \"Grungs of Dungrunglung\" sidebar).",
+										"The shallow pool at the front of the shrine is where Krr'ook (a red-skinned {@creature grung wildling|MPMM}; see the \"Grungs of Dungrunglung\" sidebar) and her assistants (six blue-skinned {@creature Grung|MPMM|grungs}) prepare for the Great Ritual by tending the phosphorescent fungi and scenting the water with delicate perfumes. Removing the fungi from the pool is forbidden, by order of King Groak.",
+										"The elevated pool at the back of the shrine is fed by an underground spring. King Groak (a gold-skinned {@creature grung elite warrior|MPMM} with a {@item circlet of blasting}; see the \"Grungs of Dungrunglung\" sidebar) issues commands from the pool during the day and sleeps here at night. He rarely has cause to leave the shrine these days. By his side is Roark (orange-skinned {@creature grung elite warrior|MPMM}; see the \"Grungs of Dungrunglung\" sidebar).",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -11730,7 +11730,7 @@
 									"id": "0e1",
 									"entries": [
 										"Dotted about the shores of the lake are several squat huts made from swamp moss and reeds plastered together with mud. The huts range from about 15 to 25 feet in diameter, and each has a single, low entrance. Some have small, round window-like openings, and a few have stout mudchimneys.",
-										"Each hut is large enough to accommodate six adult {@creature Grung|VGM|grungs} plus {@dice 2d6} baby grungs (noncombatants). All the occupants of a given hut belong to the same caste, and thus have the same color skin (except the young, which are all dull green-gray)."
+										"Each hut is large enough to accommodate six adult {@creature Grung|MPMM|grungs} plus {@dice 2d6} baby grungs (noncombatants). All the occupants of a given hut belong to the same caste, and thus have the same color skin (except the young, which are all dull green-gray)."
 									]
 								},
 								{
@@ -11748,7 +11748,7 @@
 									"page": 51,
 									"id": "0e3",
 									"entries": [
-										"This dug-out pit is 5 feet deep and covered by stout, wooden bars. Prisoners confined here are guarded around the clock by two green-skinned {@creature Grung|VGM|grungs} (warriors) until they can be cooked and eaten. Any items taken from the prisoners are entrusted to purple-skinned grungs in the nearby hovels (see {@area area 5|0e1|x}).",
+										"This dug-out pit is 5 feet deep and covered by stout, wooden bars. Prisoners confined here are guarded around the clock by two green-skinned {@creature Grung|MPMM|grungs} (warriors) until they can be cooked and eaten. Any items taken from the prisoners are entrusted to purple-skinned grungs in the nearby hovels (see {@area area 5|0e1|x}).",
 										"A character in the pit can throw aside the prison bars with a successful {@dc 20} Strength ({@skill Athletics}) check. Before the check is made, each guard makes one opportunity attack against the character attempting the check.",
 										{
 											"type": "inset",
@@ -13336,7 +13336,7 @@
 									"page": 57,
 									"id": "100",
 									"entries": [
-										"Six {@creature Hadrosaurus|VGM|hadrosauruses} and four {@creature Deinonychus|VGM|deinonychuses} (see {@adventure appendix D|ToA|9} for both creatures' statistics) are housed in protected stables. The hadrosauruses serve as mounts for small, fast-moving patrols or as pack animals for larger, longer patrols. The deinonychuses are used for hunting\u2014like dogs, only far more vicious. These animals are well respected by the soldiers of the garrison.",
+										"Six {@creature Hadrosaurus|MPMM|hadrosauruses} and four {@creature Deinonychus|MPMM|deinonychuses} (see {@adventure appendix D|ToA|9} for both creatures' statistics) are housed in protected stables. The hadrosauruses serve as mounts for small, fast-moving patrols or as pack animals for larger, longer patrols. The deinonychuses are used for hunting\u2014like dogs, only far more vicious. These animals are well respected by the soldiers of the garrison.",
 										"The head trainer for the fort's reptiles is Rahl Zuberi (CG male human Chultan {@creature tribal warrior} with {@skill Animal Handling} +4). His face and arms are covered in tattoos and scars, and he's missing half of his right hand; tooth marks are still clearly visible in the scar tissue. Despite Rahl's ferocious appearance, he's a jovial prankster who spends most of his off-duty time telling wild stories at the provisioner or one of the ale tents in the bazaar, in exchange for free drinks."
 									]
 								},
@@ -17227,7 +17227,7 @@
 											]
 										},
 										"The hammering sound comes from the east.",
-										"Eight {@creature Firenewt Warrior|VGM|firenewt warriors} (see {@adventure appendix D|ToA|9}) work here. They're involved in their tasks and not expecting intruders, and the chamber is noisy, so the firenewts are {@status surprised} unless characters move around openly or otherwise draw attention to themselves.",
+										"Eight {@creature Firenewt Warrior|MPMM|firenewt warriors} (see {@adventure appendix D|ToA|9}) work here. They're involved in their tasks and not expecting intruders, and the chamber is noisy, so the firenewts are {@status surprised} unless characters move around openly or otherwise draw attention to themselves.",
 										"The central pit contains molten iron. The smaller pool contains molten adamantine, not silver. A creature that falls into either pit or starts its turn there takes 55 ({@dice 10d10}) fire damage.",
 										"The crane to the south (overhanging {@area area 1|118|x}) is used to lower a crucible of ore into the magma river until the ore is liquid. Liquified ore is rolled along the tracks into area 2, where it's dumped into the appropriate cauldron."
 									]
@@ -17249,7 +17249,7 @@
 									"id": "11d",
 									"entries": [
 										"Molten iron and adamantine from {@area area 2|11a|x} is hoisted into the northernmost of these two chambers, where it's cast into ingots. Some of the metal was worked into tools and replacement parts on the anvils in the room, but most of the iron was moved to the treasury (area 6). Adamantine ingots were sent to the southern portion of the forge, where the massive stamping hammer in the center of the room pounded out impurities. The pounding sound heard throughout the forge comes from this machine-driven hammer.",
-										"When characters arrive, four {@creature Firenewt Warrior|VGM|firenewt warriors} are in the northern chamber, and six {@creature Firenewt Warrior|VGM|firenewt warriors} are working in the southern chamber under the supervision of a {@creature firenewt warlock of Imix|VGM}. See {@adventure appendix D|ToA|9} for the firenewts' statistics.",
+										"When characters arrive, four {@creature Firenewt Warrior|MPMM|firenewt warriors} are in the northern chamber, and six {@creature Firenewt Warrior|MPMM|firenewt warriors} are working in the southern chamber under the supervision of a {@creature firenewt warlock of Imix|MPMM}. See {@adventure appendix D|ToA|9} for the firenewts' statistics.",
 										{
 											"type": "entries",
 											"name": "Iron Lever",
@@ -17268,7 +17268,7 @@
 									"id": "11f",
 									"entries": [
 										"In these chambers, the dwarves stored supplies of every kind, from food to leather aprons to protective goggles to parchment and ink. The firenewts looted all of it. Now the chief features of these rooms are \"nests\" of ancient dwarven clothing, insulated gloves, and other padded material that the firenewts sleep on in shifts. The smell in this area is horrid, like burning hair mixed with burning rubber. A disturbance in any of the chambers awakens and draws in all the firenewts in the storage area.",
-										"The northwest room is unoccupied. In the northeast room, three {@creature Firenewt Warrior|VGM|firenewt warriors} play knucklebones with dwarven knuckles. Four {@creature Firenewt Warrior|VGM|firenewt warriors} sleep in a heap in the middle of the southwest room. The southeast room contains two {@creature Firenewt Warlock of Imix|VGM|firenewt warlocks of Imix} arguing quietly over whether to denounce the warlock in {@area area 4|11d|x} for heresy against Imix. See {@adventure appendix D|ToA|9} for the firenewts' statistics."
+										"The northwest room is unoccupied. In the northeast room, three {@creature Firenewt Warrior|MPMM|firenewt warriors} play knucklebones with dwarven knuckles. Four {@creature Firenewt Warrior|MPMM|firenewt warriors} sleep in a heap in the middle of the southwest room. The southeast room contains two {@creature Firenewt Warlock of Imix|MPMM|firenewt warlocks of Imix} arguing quietly over whether to denounce the warlock in {@area area 4|11d|x} for heresy against Imix. See {@adventure appendix D|ToA|9} for the firenewts' statistics."
 									]
 								},
 								{
@@ -17332,7 +17332,7 @@
 												"The reek of sulfur and burning flesh assaults your nostrils as the tunnel opens into a small chamber. At the northern end of the room is a five-foot-tall statue made of iron, copper, gold, and silver, crudely hammered together into a form suggesting something vaguely humanoid but also fiery. Four firenewts worship before it."
 											]
 										},
-										"The worshipers are two {@creature Firenewt Warlock of Imix|VGM|firenewt warlocks of Imix} and two {@creature Firenewt Warrior|VGM|firenewt warriors} (see {@adventure appendix D|ToA|9} for the firenewts' statistics). They fight to the death.",
+										"The worshipers are two {@creature Firenewt Warlock of Imix|MPMM|firenewt warlocks of Imix} and two {@creature Firenewt Warrior|MPMM|firenewt warriors} (see {@adventure appendix D|ToA|9} for the firenewts' statistics). They fight to the death.",
 										"The statue weighs 150 pounds and represents Imix, the evil, fiery primordial at the center of the firenewts' militarized, theological society. The statue has little artistic merit (firenewts are passable smiths but poor artists). If the gold and silver are separated from the other metals, they're worth 20 gp and 400 sp, respectively. An albino dwarf or a character skilled at smithing could smelt out the valuable metals with the equipment in Hrakhamar in a few hours.",
 										"A character who makes a successful {@dc 13} Wisdom ({@skill Perception}) check while examining (or smelting down) the statue of Imix recognizes an object hammered into its flames as having once been part of a key. It's the only bit of adamantine on the statue, and only the toughness of adamantine prevented it from being hammered out of all recognition. Once the adamantine fragment is picked out, a more careful search turns up a second fragment of gold, so thoroughly hammered that it's barely recognizable. These keys once unlocked the door to the treasury ({@area area 6|120|x}) and are beyond repair; so little of them remains that not even a {@spell mending} spell can fix them."
 									]
@@ -17373,7 +17373,7 @@
 									"id": "12a",
 									"entries": [
 										"The dwarves parked their ore carts and flatbed rail carts here when they weren't in use. Two of each are still here, and both are in minimal working condition.",
-										"The firenewts use the area as stables for twelve {@creature Giant Strider|VGM|giant striders} (see {@adventure appendix D|ToA|9}). The giant striders are tethered, but the tethers are meant only to keep them from crossing the westernmost line of cart tracks and wandering through the tunnels. An angry or alarmed strider can easily break loose, and these vicious creatures become both angry and alarmed when they see humanoids who aren't their firenewt masters.",
+										"The firenewts use the area as stables for twelve {@creature Giant Strider|MPMM|giant striders} (see {@adventure appendix D|ToA|9}). The giant striders are tethered, but the tethers are meant only to keep them from crossing the westernmost line of cart tracks and wandering through the tunnels. An angry or alarmed strider can easily break loose, and these vicious creatures become both angry and alarmed when they see humanoids who aren't their firenewt masters.",
 										"As soon as a non-firenewt enters area 10, the giant striders begin stamping, growling, and straining at their tethers. Beginning on the following round, {@dice 1d3} giant striders break loose each round and attack or join in an ongoing battle. They don't attack firenewts, and a firenewt can hop onto a giant strider and ride it as a mount using the standard rules for {@book mounted combat|PHB|9|Mounted Combat}."
 									]
 								}
@@ -18584,7 +18584,7 @@
 									"id": "13a",
 									"entries": [
 										"This structure is built from the hull of a captured ship that was too slow to be used as a pirate ship, but it had one fine quality: it didn't leak. The pirates hauled it out of the bay, hacked it apart, and flipped it upside down to form a building of sorts. It's now Bosco's Bilge, an ersatz tavern catering to the off-duty pirate crews relaxing at Jahaka Anchorage. The room contains benches, stools, and a few tables on a sand floor. It reeks of spilled beer, old food, and stale tobacco smoke.",
-										"The proprietor is {@creature Bosco Daggerhand|ToA} (NE male human {@creature thug} who wears a {@item ring of animal influence}), so called because he never shakes anyone's hand without his other hand resting threateningly on the dagger in his sash. He keeps a semi-tame {@creature deinonychus|VGM} (see {@adventure appendix D|ToA|9}) as a guard animal, which he controls with his magic ring. The pirates refer to the raptor as Knuckles\u2014because someone who's foolish enough to let it nip their hand won't have anything else left.",
+										"The proprietor is {@creature Bosco Daggerhand|ToA} (NE male human {@creature thug} who wears a {@item ring of animal influence}), so called because he never shakes anyone's hand without his other hand resting threateningly on the dagger in his sash. He keeps a semi-tame {@creature deinonychus|MPMM} (see {@adventure appendix D|ToA|9}) as a guard animal, which he controls with his magic ring. The pirates refer to the raptor as Knuckles\u2014because someone who's foolish enough to let it nip their hand won't have anything else left.",
 										"Any time of the day or night, {@dice 2d6} pirates ({@creature Bandit||bandits}) are carousing in Bosco's Bilge. Another {@dice 1d6} pirates are passed out on the tables or floor."
 									]
 								},
@@ -21640,7 +21640,7 @@
 							"id": "1a8",
 							"entries": [
 								"Through some magical mishap, a seafaring galleon called the {@i Narwhal} ended up in the heart of the jungle. It lies upside down, its hull encrusted with barnacles and overgrown with ivy. The crew is gone without a trace, but the old ship still has occupants: a reclusive weretiger and a small tribe of vegepygmies share it. Since the weretiger kills more than he eats and leaves the surplus for the vegepygmies, the tiny community gets along fine. The vegepygmies thrive in the damp, dark area under the ship and in its hold, while the weretiger lives more elegantly in the airy, well-furnished (albeit upside down) captain's cabin.",
-								"The vegepygmy tribe consists of a {@creature vegepygmy chief|VGM}, twelve {@creature Vegepygmy|VGM|vegepygmies}, and three {@creature Thorny|VGM|thornies} (see {@adventure appendix D|ToA|9} for the vegepygmies' and thornies' statistics). The {@creature weretiger} (N male Chultan human) uses no name anymore, but he was called Bwayes O'tamu years ago. He is a cousin of {@creature Wakanga O'tamu|ToA} (see \"{@area Merchant Princes|056|x}\" ), and the two were quite close as children. The family resemblance is strong; characters who've met Wakanga see the similarity when the weretiger assumes human form. The weretiger speaks Common and Vegepygmy, though he's forgotten much of the former through disuse.",
+								"The vegepygmy tribe consists of a {@creature vegepygmy chief|MPMM}, twelve {@creature Vegepygmy|MPMM|vegepygmies}, and three {@creature Thorny|MPMM|thornies} (see {@adventure appendix D|ToA|9} for the vegepygmies' and thornies' statistics). The {@creature weretiger} (N male Chultan human) uses no name anymore, but he was called Bwayes O'tamu years ago. He is a cousin of {@creature Wakanga O'tamu|ToA} (see \"{@area Merchant Princes|056|x}\" ), and the two were quite close as children. The family resemblance is strong; characters who've met Wakanga see the similarity when the weretiger assumes human form. The weretiger speaks Common and Vegepygmy, though he's forgotten much of the former through disuse.",
 								"When characters enter the same hex as the {@i Narwhal}, roll any die. On an odd result, Bwayes is out hunting and automatically detects the characters' presence before they're aware of him; on an even result, Bwayes is resting at the hulk, meaning characters are likely to encounter the vegepygmies before the weretiger. If Bwayes detects the characters, he tracks them covertly, out of curiosity rather than bloodlust. He'd like to meet them and find out what they're after. He'll even bring them back to the ship and trade gems for wine, if they have any. Unless the characters are accompanied by Bwayes, the vegepygmies are hostile toward them.",
 								"If the characters befriend the weretiger and inquire about other places in Chult, he shares the following information:",
 								{
@@ -24548,7 +24548,7 @@
 									"page": 87,
 									"id": "1b9",
 									"entries": [
-										"This platform is lit by a torch in a wall sconce and guarded by two {@creature Kobold Inventor|VGM|kobold inventors} (see {@adventure appendix D|ToA|9}). Rough-hewn steps descend to area 6B."
+										"This platform is lit by a torch in a wall sconce and guarded by two {@creature Kobold Inventor|MPMM|kobold inventors} (see {@adventure appendix D|ToA|9}). Rough-hewn steps descend to area 6B."
 									]
 								},
 								{
@@ -24626,7 +24626,7 @@
 									"page": 88,
 									"id": "1c2",
 									"entries": [
-										"Old crates and barrels have been converted into sleeping hovels for the tribe's {@creature Kobold Inventor|VGM|kobold inventors}, two of which are present (see {@adventure appendix D|ToA|9}). The other two are in {@area area 6A|1b9|x}."
+										"Old crates and barrels have been converted into sleeping hovels for the tribe's {@creature Kobold Inventor|MPMM|kobold inventors}, two of which are present (see {@adventure appendix D|ToA|9}). The other two are in {@area area 6A|1b9|x}."
 									]
 								},
 								{
@@ -26017,7 +26017,7 @@
 									"page": 95,
 									"id": "1f8",
 									"entries": [
-										"Hiding in the ruin are {@dice 1d4} {@creature Vegepygmy|VGM|vegepygmies} (see {@adventure appendix D|ToA|9}). They are not in a fighting mood and cower from interlopers. If attacked, they flee through cracks in the walls and attempt to hide in the surrounding marsh."
+										"Hiding in the ruin are {@dice 1d4} {@creature Vegepygmy|MPMM|vegepygmies} (see {@adventure appendix D|ToA|9}). They are not in a fighting mood and cower from interlopers. If attacked, they flee through cracks in the walls and attempt to hide in the surrounding marsh."
 									]
 								}
 							]
@@ -27761,14 +27761,14 @@
 										"A rectangular pool of murky water stretches before this vine-draped shrine. Rope bridges that once spanned the water float on the surface, tangled with other debris. The shards of a toppled monolith form stepping stones to the middle of the pool, where a statue of a stone frog rises above the water."
 									]
 								},
-								"The shrine to the trickster god Kubazan (represented as a {@creature froghemoth|VGM}) contains one of nine puzzle cubes needed to enter the Tomb of the Nine Gods.",
+								"The shrine to the trickster god Kubazan (represented as a {@creature froghemoth|MPMM}) contains one of nine puzzle cubes needed to enter the Tomb of the Nine Gods.",
 								{
 									"type": "entries",
 									"name": "3A. Froghemoth Pool",
 									"page": 97,
 									"id": "208",
 									"entries": [
-										"This pool is 6 feet deep and clouded with mud and algae. A character who succeeds on a {@dc 14} Wisdom ({@skill Perception}) check spots the eyestalk of a {@creature froghemoth|VGM} (see {@adventure appendix D|ToA|9}) sticking out of the pool. The froghemoth attacks anyone who disturbs the water or tries to reach the shrine, heaving itself from the pool to pursue prey.",
+										"This pool is 6 feet deep and clouded with mud and algae. A character who succeeds on a {@dc 14} Wisdom ({@skill Perception}) check spots the eyestalk of a {@creature froghemoth|MPMM} (see {@adventure appendix D|ToA|9}) sticking out of the pool. The froghemoth attacks anyone who disturbs the water or tries to reach the shrine, heaving itself from the pool to pursue prey.",
 										"The shattered monolith is slippery with moss, and the rotted rope bridges sink as soon as anyone steps on them. Any character who jumps across the stepping stones must succeed on a {@dc 10} Dexterity ({@skill Acrobatics}) check to keep from falling in the pool.",
 										{
 											"type": "entries",
@@ -27804,7 +27804,7 @@
 												"Steps descend to a ledge overlooking a pit of sharpened stakes. An alcove on the far wall holds a pedestal with a stone cube resting on it. A relief carved into the back of the alcove shows a monstrous frog with tentacles fighting a crane. Wooden beams radiate from the walls at floor height, with four-foot gaps between them. Carved frog heads extrude from the walls above the beams."
 											]
 										},
-										"The wall relief shows Kubazan (a {@creature froghemoth|VGM}) fighting Papazotl (an {@creature eblis|ToA}). An inscription written in Old Omuan tells how Kubazan earned his tentacles from the god Ubtao (see \"{@area Legend of the Nine Gods|1e1|x}\").",
+										"The wall relief shows Kubazan (a {@creature froghemoth|MPMM}) fighting Papazotl (an {@creature eblis|ToA}). An inscription written in Old Omuan tells how Kubazan earned his tentacles from the god Ubtao (see \"{@area Legend of the Nine Gods|1e1|x}\").",
 										{
 											"type": "entries",
 											"name": "Spiked Pit",
@@ -29802,8 +29802,8 @@
 									"page": 101,
 									"id": "21c",
 									"entries": [
-										"The first time the characters arrive, they encounter a small vegepygmy tribe preparing to sacrifice a {@creature grung|VGM} (see {@adventure appendix D|ToA|9}) to the rift. The grung, Imbok, is bound with vines and {@condition restrained}. As the grung struggles, the vegepygmies encircle him and perform a strange, ritualistic dance. Unless the characters intervene, the vegepygmies roll their captive off the edge of the cliff. A couple of vegepygmies leap off after him, caught in the throes of devotion.",
-										"The tribe consists of one {@creature vegepygmy chief|VGM}, eight {@creature Vegepygmy|VGM|vegepygmies}, and the chief's {@creature thorny|VGM} pet. Statistics for all these creatures appear in {@adventure appendix D|ToA|9}. Their grung captive is the beloved one hundred and eightieth son of the grung chieftain {@creature Yorb|ToA}. If the characters free Imbok, he grovels at their feet. He doesn't speak Common but promises to bury his benefactors in gold if they escort him back to his father's shrine ({@area area 18|277|x}). Imbok's promise is empty, but he has nothing else to offer his saviors."
+										"The first time the characters arrive, they encounter a small vegepygmy tribe preparing to sacrifice a {@creature grung|MPMM} (see {@adventure appendix D|ToA|9}) to the rift. The grung, Imbok, is bound with vines and {@condition restrained}. As the grung struggles, the vegepygmies encircle him and perform a strange, ritualistic dance. Unless the characters intervene, the vegepygmies roll their captive off the edge of the cliff. A couple of vegepygmies leap off after him, caught in the throes of devotion.",
+										"The tribe consists of one {@creature vegepygmy chief|MPMM}, eight {@creature Vegepygmy|MPMM|vegepygmies}, and the chief's {@creature thorny|MPMM} pet. Statistics for all these creatures appear in {@adventure appendix D|ToA|9}. Their grung captive is the beloved one hundred and eightieth son of the grung chieftain {@creature Yorb|ToA}. If the characters free Imbok, he grovels at their feet. He doesn't speak Common but promises to bury his benefactors in gold if they escort him back to his father's shrine ({@area area 18|277|x}). Imbok's promise is empty, but he has nothing else to offer his saviors."
 									]
 								}
 							]
@@ -30364,7 +30364,7 @@
 									]
 								},
 								"The amphitheater is the lair of the {@creature King of Feathers|ToA}, a powerful tyrannosaurus rex with magical abilities. As they approach the amphitheater, characters can't fail to notice giant clawed footprints in the mud. From toe to heel, each footprint spans over 5 feet. Closer to the ruin, they find long, slender feathers in scarlet, orange, and green hues, and heaps of dung large enough to bury a dwarf.",
-								"The amphitheater is an open-air, semicircular structure with tiered seats overlooking a ruined stage. The Omuans used it for public debates and plays both comic and tragic. Narrow passages and rubble-strewn chambers spread beneath the grandstands. This darkened maze is home to five {@creature Deinonychus|VGM|deinonychuses} (see {@adventure appendix D|ToA|9}). While the tyrannosaurus is out hunting, the deinonychuses leave their lair and prowl throughout the amphitheater, attacking other creatures on sight. Strewn about their lair are Omuan relics (see \"Treasure\" below).",
+								"The amphitheater is an open-air, semicircular structure with tiered seats overlooking a ruined stage. The Omuans used it for public debates and plays both comic and tragic. Narrow passages and rubble-strewn chambers spread beneath the grandstands. This darkened maze is home to five {@creature Deinonychus|MPMM|deinonychuses} (see {@adventure appendix D|ToA|9}). While the tyrannosaurus is out hunting, the deinonychuses leave their lair and prowl throughout the amphitheater, attacking other creatures on sight. Strewn about their lair are Omuan relics (see \"Treasure\" below).",
 								{
 									"type": "entries",
 									"name": "Hail to the King",
@@ -30450,7 +30450,7 @@
 										"A derelict market hall stands on the street corner ahead. Frayed cloth awnings hang in tatters above a broad alley lined with stalls."
 									]
 								},
-								"Kobolds live in hidden cellars underneath the ruined market hall and have set six traps throughout the bazaar. A character has a cumulative {@chance 20} chance of finding a trap for each minute spent searching the bazaar. When a trap is found, have the character make a {@dc 15} Wisdom ({@skill Perception}) check. If the check succeeds, the character spots the trap (a hidden, spring-loaded catapult) and its triggering mechanism (a tripwire or pressure plate) without triggering it. Once spotted, the trap is easily disarmed or avoided (no check required). A failed check indicates that the character accidentally set off the trap, which duplicates the Weapon Invention attack of a {@creature kobold inventor|VGM} (see {@adventure appendix D|ToA|9}).",
+								"Kobolds live in hidden cellars underneath the ruined market hall and have set six traps throughout the bazaar. A character has a cumulative {@chance 20} chance of finding a trap for each minute spent searching the bazaar. When a trap is found, have the character make a {@dc 15} Wisdom ({@skill Perception}) check. If the check succeeds, the character spots the trap (a hidden, spring-loaded catapult) and its triggering mechanism (a tripwire or pressure plate) without triggering it. Once spotted, the trap is easily disarmed or avoided (no check required). A failed check indicates that the character accidentally set off the trap, which duplicates the Weapon Invention attack of a {@creature kobold inventor|MPMM} (see {@adventure appendix D|ToA|9}).",
 								"After the characters find three traps, they spot a {@creature kobold} disappearing down a well-hidden staircase on the outskirts of the bazaar. If they follow the creature, it leads them to the cellars under the marketplace.",
 								{
 									"type": "entries",
@@ -30466,7 +30466,7 @@
 												"Guttering torches cast {@quickref Vision and Light||2||dim light} under the arches of a wine cellar roughly 20 feet square. The cracked ceiling is 8 feet high. In an alcove on the far side of the room, a pile of treasure twinkles in the torchlight. Kobolds gather around it."
 											]
 										},
-										"Kakarol, a {@creature kobold scale sorcerer|VGM}, rests on the pile of treasure. Two {@creature Kobold Inventor|VGM|kobold inventors} and ten {@creature Kobold||kobolds} are also present. Statistics for the kobold scale sorcerer and kobold inventor appear in {@adventure appendix D|ToA|9}.",
+										"Kakarol, a {@creature kobold scale sorcerer|MPMM}, rests on the pile of treasure. Two {@creature Kobold Inventor|MPMM|kobold inventors} and ten {@creature Kobold||kobolds} are also present. Statistics for the kobold scale sorcerer and kobold inventor appear in {@adventure appendix D|ToA|9}.",
 										"The kobolds rally to defend Kakarol. While they fight off intruders, Kakarol and his inventors make ranged attacks from the rear. If things look dire, Kakarol throws himself at the characters' mercy."
 									]
 								},
@@ -30650,8 +30650,8 @@
 									"page": 108,
 									"id": "279",
 									"entries": [
-										"The shrine is home to a gold-skinned {@creature grung elite warrior|VGM} named Chief {@creature Yorb|ToA}. Four orange-skinned {@creature Grung Elite Warrior|VGM|grung elite warriors} wallow in the flooded courtyard with {@creature Yorb|ToA} and his trained {@creature hadrosaurus|VGM} mount. One red-skinned {@creature grung wildling|VGM} and seven green-skinned {@creature Grung|VGM|grungs} lurk on the shrine's 20-foot-high rooftop. See {@adventure appendix D|ToA|9} for these creatures' statistics.",
-										"The grungs on the roof unleash arrows to ward off intruders. If the intruders fight back, more green-skinned {@creature Grung|VGM|grungs} close in from nearby buildings, with {@dice 1d4} appearing at the end of each round until twenty have arrived.",
+										"The shrine is home to a gold-skinned {@creature grung elite warrior|MPMM} named Chief {@creature Yorb|ToA}. Four orange-skinned {@creature Grung Elite Warrior|MPMM|grung elite warriors} wallow in the flooded courtyard with {@creature Yorb|ToA} and his trained {@creature hadrosaurus|MPMM} mount. One red-skinned {@creature grung wildling|MPMM} and seven green-skinned {@creature Grung|MPMM|grungs} lurk on the shrine's 20-foot-high rooftop. See {@adventure appendix D|ToA|9} for these creatures' statistics.",
+										"The grungs on the roof unleash arrows to ward off intruders. If the intruders fight back, more green-skinned {@creature Grung|MPMM|grungs} close in from nearby buildings, with {@dice 1d4} appearing at the end of each round until twenty have arrived.",
 										"The grungs are jumpy and distrustful of strangers. At first, {@creature Yorb|ToA} is more interested in scaring away intruders than he is talking with them. If the characters rescue his favored son in {@area area 5|21a|x} and have the means to communicate with the chief, {@creature Yorb|ToA} opens up to them. He currently has no idea his son is missing.",
 										"The grungs worship the dead trickster god Nangnang. If the characters enter into negotiations with {@creature Yorb|ToA}, he can recount the full legend of Omu's nine trickster gods (see \"{@area Legend of the Nine Gods|1e1|x}\").",
 										{
@@ -30941,7 +30941,7 @@
 					"page": 111,
 					"id": "299",
 					"entries": [
-						"Before running this chapter, review the information on yuan-ti in the Monster Manual. Additional information appears in {@book Volo's Guide to Monsters|VGM}.",
+						"Before running this chapter, review the information on yuan-ti in the Monster Manual. Additional information appears in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}.",
 						{
 							"type": "entries",
 							"name": "Ras Nsi",
@@ -31096,12 +31096,12 @@
 											"rows": [
 												[
 													"1",
-													"Nahth ({@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malison}), 4 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}, 3 {@creature Swarm of Poisonous Snakes||swarms of poisonous snakes}",
+													"Nahth ({@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malison}), 4 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}, 3 {@creature Swarm of Poisonous Snakes||swarms of poisonous snakes}",
 													"The yuan-ti remain here, pulling reinforcements from {@area area 2|2b1|x}. The swarms are confined to the pits."
 												],
 												[
 													"2",
-													"Soakosh ({@creature yuan-ti pureblood}), 4 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}, 2 {@creature Basilisk||basilisks}, 1 {@creature triceratops}",
+													"Soakosh ({@creature yuan-ti pureblood}), 4 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}, 2 {@creature Basilisk||basilisks}, 1 {@creature triceratops}",
 													"If combat erupts, one broodguard tries to strike the gong in {@area area 9|2ca|x}, placing the entire temple on alert. If the gong is struck by someone else, all the yuan-ti and basilisks leave to investigate. The triceratops stampedes toward {@area area 1|2ad|x} if attacked or threatened with fire."
 												],
 												[
@@ -31111,12 +31111,12 @@
 												],
 												[
 													"5",
-													"{@creature Fenthaza|ToA} ({@creature yuan-ti nightmare speaker|VGM}), 2 {@creature Yuan-ti Malison (Type 2)||yuan-ti malisons (type 2)}, 1 {@creature air elemental}",
+													"{@creature Fenthaza|ToA} ({@creature yuan-ti nightmare speaker|MPMM}), 2 {@creature Yuan-ti Malison (Type 2)||yuan-ti malisons (type 2)}, 1 {@creature air elemental}",
 													"If threatened, the yuan-ti pull reinforcements from {@area area 6|2be|x}. The elemental remains in its urn until {@creature Fenthaza|ToA} releases it."
 												],
 												[
 													"6",
-													"4 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}",
+													"4 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}",
 													"The yuan-ti broodguards remain here unless drawn to {@area area 5|2ba|x} by sounds of combat."
 												],
 												[
@@ -31126,12 +31126,12 @@
 												],
 												[
 													"10",
-													"1 {@creature doppelganger}, 11 {@creature Yuan-ti Pureblood||yuan-ti purebloods}, 2 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}",
+													"1 {@creature doppelganger}, 11 {@creature Yuan-ti Pureblood||yuan-ti purebloods}, 2 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}",
 													"The doppelganger helps characters working with the Red Wizards of Thay. The broodguards protect the purebloods."
 												],
 												[
 													"11",
-													"{@creature Ras Nsi|ToA} (daytime only), {@creature Sekelok|ToA} ({@creature champion|VGM} variant), 2 {@creature Yuan-ti Malison (Type 1)||yuan-ti malisons (type 1)}, 3 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}, 4 {@creature Ghoul||ghouls}",
+													"{@creature Ras Nsi|ToA} (daytime only), {@creature Sekelok|ToA} ({@creature champion|MPMM} variant), 2 {@creature Yuan-ti Malison (Type 1)||yuan-ti malisons (type 1)}, 3 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}, 4 {@creature Ghoul||ghouls}",
 													"{@creature Ras Nsi|ToA} retreats to {@area area 12|2e1|x} if threatened. If the gong in {@area area 9|2ca|x} is struck, {@creature Sekelok|ToA}, the malisons, and the broodguards investigate while the ghouls remain here."
 												],
 												[
@@ -31171,12 +31171,12 @@
 												],
 												[
 													"19",
-													"Issar ({@creature Yuan-ti Malison (Type 3)||type 3yuan-ti malison}), 3 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}",
+													"Issar ({@creature Yuan-ti Malison (Type 3)||type 3yuan-ti malison}), 3 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}",
 													"The yuan-ti remain here."
 												],
 												[
 													"20",
-													"4 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards}",
+													"4 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards}",
 													"The yuan-ti guard the secret entrance. If combat erupts, one of them flees to {@area area 19|2f7|x} to alert the yuan-ti there. Intruders caught trying to sneak past the guards are taken to {@area area 19|2f7|x} for questioning."
 												],
 												[
@@ -31219,7 +31219,7 @@
 												],
 												[
 													"46\u201360",
-													"4 {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) carrying a {@creature Yuan-ti Malison (Type 2)||type 2 yuan-ti malison} on a litter."
+													"4 {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) carrying a {@creature Yuan-ti Malison (Type 2)||type 2 yuan-ti malison} on a litter."
 												],
 												[
 													"61\u201370",
@@ -34029,7 +34029,7 @@
 									]
 								},
 								"When opened, the bronze doors slide into wall niches to either side of the tunnel. To pull the doors apart, the yuan-ti broodguards under Nahth's command tug on heavy chains on the south side of the gate. To bypass the doors without opening them, yuan-ti malisons transform into snakes and slither through the holes at the bottom of the doors.",
-								"A {@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malison} named Nahth (pronounced NAWTH) and four {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) defend the main gate. Strangers are denied entry unless they are accompanied by one or more yuan-ti.",
+								"A {@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malison} named Nahth (pronounced NAWTH) and four {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) defend the main gate. Strangers are denied entry unless they are accompanied by one or more yuan-ti.",
 								"Nahth is greedy. After allowing characters to pass through the gate, he demands a bribe in the form of food (preferably meat) or treasure (minimum 10 gp). If the characters refuse to pay up, Nahth picks a fight with them. Combat here draws reinforcements from {@area area 2|2b1|x}.",
 								{
 									"type": "entries",
@@ -34064,7 +34064,7 @@
 										"Four pillars carved with serpent reliefs support the 20-foot-high ceiling of this large room, in the middle of which is an 18-foot-high statue of a coiled cobra, facing north. Torches with green flames flicker on the walls, and the air reeks of dung. Two wagons are parked in one corner, and a triceratops is confined to a metal pen in another. To the west are a pair of dark alcoves, and to the south is a wide, pillared hall."
 									]
 								},
-								"Yuan-ti troops muster in this hall before heading into the city. Unless they have been drawn elsewhere, a {@creature yuan-ti pureblood} named Soakosh (pronounced SOH-kawsh) and four {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) are stationed here. Two {@creature Basilisk||basilisks} chained to hooks in the western alcoves are trained not to look their yuan-ti masters in the eye. Chewed bits of stone (the remains of {@condition petrified} victims) litter the floor in the alcoves. The {@creature triceratops} confined to the metal pen in the northwest corner is docile until threatened. The yuan-ti use it to pull supply wagons.",
+								"Yuan-ti troops muster in this hall before heading into the city. Unless they have been drawn elsewhere, a {@creature yuan-ti pureblood} named Soakosh (pronounced SOH-kawsh) and four {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) are stationed here. Two {@creature Basilisk||basilisks} chained to hooks in the western alcoves are trained not to look their yuan-ti masters in the eye. Chewed bits of stone (the remains of {@condition petrified} victims) litter the floor in the alcoves. The {@creature triceratops} confined to the metal pen in the northwest corner is docile until threatened. The yuan-ti use it to pull supply wagons.",
 								"Soakosh is fat and has a forked tongue. He's rarely seen without a bag of his favorite food at hand: candied grung eggs.",
 								"If the alarm is raised, Soakosh commands the broodguards to unchain the basilisks from their hooks and lead them into battle like war hounds. If the alarm has not been raised but combat ensues here, one broodguard runs to sound the gong in {@area area 9|2ca|x}.",
 								"If the triceratops is threatened with fire or injured by an attack, it smashes through the walls of its pen and heads toward {@area area 1|2ad|x}.",
@@ -34168,7 +34168,7 @@
 									"width": 599,
 									"height": 1000
 								},
-								"{@creature Fenthaza|ToA}, a {@creature yuan-ti nightmare speaker|VGM} (see {@adventure appendix D|ToA|9}), lairs here. If an alarm is raised, {@creature Fenthaza|ToA} relies on her guards to protect her while she releases the creature trapped in the stone urn (see below). {@creature Fenthaza|ToA} tries to incapacitate interlopers and confine them to {@area area 8|2c6|x}. A particularly irksome foe might be shackled to the altar in {@area area 6|2be|x}, where she can torture it at her leisure.",
+								"{@creature Fenthaza|ToA}, a {@creature yuan-ti nightmare speaker|MPMM} (see {@adventure appendix D|ToA|9}), lairs here. If an alarm is raised, {@creature Fenthaza|ToA} relies on her guards to protect her while she releases the creature trapped in the stone urn (see below). {@creature Fenthaza|ToA} tries to incapacitate interlopers and confine them to {@area area 8|2c6|x}. A particularly irksome foe might be shackled to the altar in {@area area 6|2be|x}, where she can torture it at her leisure.",
 								"One of the more powerful figures in the temple, {@creature Fenthaza|ToA} ruled the yuan-ti after their abomination leader died, and she performed the ritual that transformed {@creature Ras Nsi|ToA} into a malison. Recently, her visions have led her to doubt {@creature Ras Nsi|ToA}'s capabilities. In turn, {@creature Ras Nsi|ToA} has started to cede power to his champion, {@creature Sekelok|ToA} ({@area area 12|2e1|x}).",
 								{
 									"type": "entries",
@@ -34198,7 +34198,7 @@
 							"page": 117,
 							"id": "2be",
 							"entries": [
-								"Unless they are lured to {@area area 5|2ba|x} by sounds of battle, four {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) stand guard in this chamber, one in each corner.",
+								"Unless they are lured to {@area area 5|2ba|x} by sounds of battle, four {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) stand guard in this chamber, one in each corner.",
 								{
 									"type": "insetReadaloud",
 									"id": "2bf",
@@ -34277,7 +34277,7 @@
 														"Sev, a {@creature yuan-ti pureblood} who looks human except for his forked tongue, is suffering the effects of blue mist fever (see \"{@area Diseases|0a4|x}\") and throws stones at illusory blue monkeys only he can see.",
 														"Oloma Authdamar (CG female Turami human {@creature scout}) is a former crew member of the Star Goddess (see {@area chapter 2|1aa|x}). She leapt from a porthole as the ship crashed, and the yuan-ti captured her in the jungle. Oloma carries a concealed dagger.",
 														"Pottery Shard, a {@creature tabaxi minstrel|ToA} (see {@adventure appendix D|ToA|9}), was kidnapped while traveling from Port Nyanzaru to Fort Beluarian.",
-														"Gorvax, a {@creature firenewt warrior|VGM} (see {@adventure appendix D|ToA|9}) is eager to escape and return to the Valley of Lost Honor.",
+														"Gorvax, a {@creature firenewt warrior|MPMM} (see {@adventure appendix D|ToA|9}) is eager to escape and return to the Valley of Lost Honor.",
 														"A Harper named Lomar Dral (LG male Turami human {@creature mage} with no spell slots remaining). While searching for {@creature Artus Cimber|ToA} in Port Nyanzaru, he was drugged by the yuan-ti guide {@creature Salida|ToA} and woke up a prisoner in Omu.",
 														"Mung, a Batiri goblin, was caught by the yuan-ti while foraging in the jungle. He is malnourished and suffers from 3 levels of {@condition exhaustion} (see {@condition exhaustion||appendix A} of the Player's Handbook).",
 														"Kanush Natombe (N male Chultan human {@creature tribal warrior}) foolishly traveled to Omu to prove his worth to another man. Kanush is malnourished and suffers from 4 levels of {@condition exhaustion}.",
@@ -34442,7 +34442,7 @@
 										"A fountain of cool water bubbles on the floor ahead. The scent of lilies fills the air, and silken drapes drift lazily in the heat. Archways open into shaded booths heaped with cushions and trays of sugared sweets. Lounging about are a dozen scantily clad humanoids with eyes like those of snakes and scaly patches on their arms, legs, necks, and backs. Watching over them are a pair of inhuman bipedal reptiles."
 									]
 								},
-								"{@creature Ras Nsi|ToA}'s concubines live in luxury within these chambers. Eleven {@creature Yuan-ti Pureblood||yuan-ti purebloods} and a {@creature doppelganger} disguised as a pureblood comprise the harem. Two {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) watch over the harem at all hours.",
+								"{@creature Ras Nsi|ToA}'s concubines live in luxury within these chambers. Eleven {@creature Yuan-ti Pureblood||yuan-ti purebloods} and a {@creature doppelganger} disguised as a pureblood comprise the harem. Two {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) watch over the harem at all hours.",
 								"{@creature Ras Nsi|ToA} used to spend much of his time here, sampling the harem's delights. Since the death curse took hold of him, he has cloistered himself elsewhere. The purebloods neither help nor hinder the characters, and they fear {@creature Ras Nsi|ToA} enough not to betray him willingly. Despite {@creature Ras Nsi|ToA}'s efforts to hide the effects of the death curse, the concubines know that he is sick and dying.",
 								"{@creature Ras Nsi|ToA}'s yuan-ti champion, {@creature Sekelok|ToA} ({@area area 11|2da|x}), is fascinated by the concubine Neema and courts disaster by visiting her in the dead of night. Neema browbeats the other concubines to cover up her affair.",
 								{
@@ -34493,7 +34493,7 @@
 								{
 									"type": "list",
 									"items": [
-										"During the day, {@b Ras Nsi} (see {@adventure appendix D|ToA|9}) \"sits\" in the throne while addressing two {@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malisons} who routinely advise him. Standing guard in the middle of the room is {@creature Ras Nsi|ToA}'s champion, {@creature Sekelok|ToA} (see below), and three {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}). Hidden behind the throne are four {@creature Ghoul||ghouls} that obey {@creature Ras Nsi|ToA}'s commands. Each ghoul has a blue triangle tattooed on its forehead.",
+										"During the day, {@b Ras Nsi} (see {@adventure appendix D|ToA|9}) \"sits\" in the throne while addressing two {@creature Yuan-ti Malison (Type 1)||type 1 yuan-ti malisons} who routinely advise him. Standing guard in the middle of the room is {@creature Ras Nsi|ToA}'s champion, {@creature Sekelok|ToA} (see below), and three {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}). Hidden behind the throne are four {@creature Ghoul||ghouls} that obey {@creature Ras Nsi|ToA}'s commands. Each ghoul has a blue triangle tattooed on its forehead.",
 										"At night, {@creature Ras Nsi|ToA} retires to {@area area 12|2e1|x}, leaving the other yuan-ti (including {@creature Sekelok|ToA}) and the ghouls here. {@creature Sekelok|ToA} sometimes sneaks off to the harem ({@area area 10|2d5|x}).",
 										"If the gong in {@area area 9|2ca|x} is struck, {@creature Sekelok|ToA} and the other yuan-ti leave to investigate while the ghouls hide behind the throne and {@creature Ras Nsi|ToA} withdraws to {@area area 12|2e1|x}."
 									]
@@ -34504,7 +34504,7 @@
 									"page": 120,
 									"id": "2dc",
 									"entries": [
-										"{@creature Sekelok|ToA} is a tall, muscular yuan-ti pureblood. He has the statistics of a {@creature champion|VGM} (see {@adventure appendix D|ToA|9}), with these changes:",
+										"{@creature Sekelok|ToA} is a tall, muscular yuan-ti pureblood. He has the statistics of a {@creature champion|MPMM} (see {@adventure appendix D|ToA|9}), with these changes:",
 										{
 											"type": "list",
 											"items": [
@@ -34797,7 +34797,7 @@
 										"A campfire casts warm light over this cavern. Heaps of dead grass and palm fronds are scattered about, and the muddy floor is pitted with footprints."
 									]
 								},
-								"When they're not working, {@dice 2d10} slaves ({@creature Commoner||commoners} of various races, alignments, and genders) dwell here. For slave names, see the \"{@area Chultan Names|020|x}\" sidebar in the book's introduction. Three {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) guard the slaves for Slavemaster Issar, a {@creature Yuan-ti Malison (Type 3)||type 3 yuan-ti malison} wearing a red cloth headdress. Issar is more interested in gazing at his own reflection in a hand mirror than putting the slaves to work.",
+								"When they're not working, {@dice 2d10} slaves ({@creature Commoner||commoners} of various races, alignments, and genders) dwell here. For slave names, see the \"{@area Chultan Names|020|x}\" sidebar in the book's introduction. Three {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}) guard the slaves for Slavemaster Issar, a {@creature Yuan-ti Malison (Type 3)||type 3 yuan-ti malison} wearing a red cloth headdress. Issar is more interested in gazing at his own reflection in a hand mirror than putting the slaves to work.",
 								"Issar is too stately to speak to the \"meat\" under his command. Instead, he's chosen a Chultan slave boy named Khoti to translate his subtle, unspoken gestures. A twitch of the tail could be interpreted as an order to fetch water, or the flick of the tongue an approval. In truth, Khoti makes up most of what he sees. Issar couldn't care less either way, as long as the correct amount of deference is shown. If strangers appear before Issar, Khoti questions them on his master's behalf.",
 								{
 									"type": "entries",
@@ -34850,7 +34850,7 @@
 									"page": 124,
 									"id": "2fe",
 									"entries": [
-										"Guarding the rowboats and watching the secret entrance ({@area area 23|303|x}) are four {@creature Yuan-ti Broodguard|VGM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}). If they detect intruders not disguised as yuan-ti, one broodguard runs to warn the yuan-ti stationed in {@area area 19|2f7|x} while the others attempt to repel the interlopers.",
+										"Guarding the rowboats and watching the secret entrance ({@area area 23|303|x}) are four {@creature Yuan-ti Broodguard|MPMM|yuan-ti broodguards} (see {@adventure appendix D|ToA|9}). If they detect intruders not disguised as yuan-ti, one broodguard runs to warn the yuan-ti stationed in {@area area 19|2f7|x} while the others attempt to repel the interlopers.",
 										"The broodguards stop and question characters disguised as yuan-ti purebloods. To bluff their way past the guards, the characters must succeed on a group {@dc 10} Charisma ({@skill Deception}) check. If the group check succeeds, the broodguards wave them inside without checking their story. If the group check fails, the broodguards march them to meet Slavemaster Issar in {@area area 19|2f7|x}."
 									]
 								}
@@ -42137,7 +42137,7 @@
 											"type": "list",
 											"items": [
 												"The stone slabs in area 49A rise up to seal off both exits from the maze.",
-												"Two {@creature Bodak|VGM|bodaks} (see {@adventure appendix D|ToA|9}) magically emerge from the {@item sphere of annihilation} in area 49B, seemingly unaffected by it, and begin scouring the maze for prey. Any creature killed by the bodaks is dragged back to the sphere and tossed into it. The bodaks crawl back into the sphere only if they're satisfied that there's nothing left in the maze to kill."
+												"Two {@creature Bodak|MPMM|bodaks} (see {@adventure appendix D|ToA|9}) magically emerge from the {@item sphere of annihilation} in area 49B, seemingly unaffected by it, and begin scouring the maze for prey. Any creature killed by the bodaks is dragged back to the sphere and tossed into it. The bodaks crawl back into the sphere only if they're satisfied that there's nothing left in the maze to kill."
 											]
 										},
 										{
@@ -42281,7 +42281,7 @@
 												],
 												[
 													"11",
-													"Lukanu (N female Chultan {@creature champion|VGM}; see {@adventure appendix D|ToA|9})",
+													"Lukanu (N female Chultan {@creature champion|MPMM}; see {@adventure appendix D|ToA|9})",
 													"Bodyguard to Queen Napaka of Omu, trapped during the city's fall; wears {@item scorpion armor|ToA} (see {@adventure appendix C|ToA|8})",
 													"Helps her liberators, but won't leave Omu until she learns what happened to Queen Napaka (see {@area area 53|459|x})"
 												],
@@ -48501,7 +48501,7 @@
 											"page": 197,
 											"id": "5b0",
 											"entries": [
-												"A lone {@creature brontosaurus|VGM} lumbers toward the characters, oblivious to their presence. Though it might step on characters who don't get out of its way, it fights only in self-defense."
+												"A lone {@creature brontosaurus|MPMM} lumbers toward the characters, oblivious to their presence. Though it might step on characters who don't get out of its way, it fights only in self-defense."
 											]
 										},
 										{
@@ -48510,7 +48510,7 @@
 											"page": 197,
 											"id": "5b1",
 											"entries": [
-												"A wild {@creature boar} races across the party's path, followed closely by a hunting pack of {@dice 1d4 + 2} {@creature Deinonychus|VGM|deinonychuses}. The predators decide the characters are more interesting prey."
+												"A wild {@creature boar} races across the party's path, followed closely by a hunting pack of {@dice 1d4 + 2} {@creature Deinonychus|MPMM|deinonychuses}. The predators decide the characters are more interesting prey."
 											]
 										},
 										{
@@ -48519,7 +48519,7 @@
 											"page": 197,
 											"id": "5b2",
 											"entries": [
-												"A pack of {@dice 2d6} {@creature dimetrodon|VGM|dimetrodons} are spotted along a sunny riverbank or on rocks above the water. Roll any die. On an odd result, the dimetrodons take no notice of the characters; on an even result, they're hungry and attack at the slightest provocation, or if the characters approach within 100 feet of them."
+												"A pack of {@dice 2d6} {@creature dimetrodon|MPMM|dimetrodons} are spotted along a sunny riverbank or on rocks above the water. Roll any die. On an odd result, the dimetrodons take no notice of the characters; on an even result, they're hungry and attack at the slightest provocation, or if the characters approach within 100 feet of them."
 											]
 										},
 										{
@@ -48528,7 +48528,7 @@
 											"page": 197,
 											"id": "5b3",
 											"entries": [
-												"A herd of {@dice 3d6} {@creature Hadrosaurus|VGM|hadrosauruses} are grazing nearby, with {@dice 1d6} noncombatant young among them. The adults don't attack unless they're attacked or antagonized. The young are Small beasts that can be sold to {@creature Ifan Talro'a|ToA} in Port Nyanzaru for 50 gp each, or for 100 gp if a character succeeds on a {@dc 15} Charisma ({@skill Persuasion|PHB}) check to negotiate the price. The young dinosaurs are easy to handle if separated from their parents, but the adults fight if their young are captured."
+												"A herd of {@dice 3d6} {@creature Hadrosaurus|MPMM|hadrosauruses} are grazing nearby, with {@dice 1d6} noncombatant young among them. The adults don't attack unless they're attacked or antagonized. The young are Small beasts that can be sold to {@creature Ifan Talro'a|ToA} in Port Nyanzaru for 50 gp each, or for 100 gp if a character succeeds on a {@dc 15} Charisma ({@skill Persuasion|PHB}) check to negotiate the price. The young dinosaurs are easy to handle if separated from their parents, but the adults fight if their young are captured."
 											]
 										},
 										{
@@ -48555,7 +48555,7 @@
 											"page": 198,
 											"id": "5b6",
 											"entries": [
-												"A flight of {@dice 1d4 + 1} {@creature Quetzalcoatlus|VGM|quetzalcoatluses} is spotted overhead. They keep their distance and attack only if threatened."
+												"A flight of {@dice 1d4 + 1} {@creature Quetzalcoatlus|MPMM|quetzalcoatluses} is spotted overhead. They keep their distance and attack only if threatened."
 											]
 										},
 										{
@@ -48564,7 +48564,7 @@
 											"page": 198,
 											"id": "5b7",
 											"entries": [
-												"This lone {@creature stegosaurus|VGM} is in a genial mood. It approaches the characters out of curiosity, but anyone who touches it triggers a swipe from its tail."
+												"This lone {@creature stegosaurus|MPMM} is in a genial mood. It approaches the characters out of curiosity, but anyone who touches it triggers a swipe from its tail."
 											]
 										},
 										{
@@ -48582,7 +48582,7 @@
 											"page": 198,
 											"id": "5b9",
 											"entries": [
-												"The characters spot a {@creature tyrannosaurus rex} 300 yards away. There's a {@chance 50} chance that the hungry behemoth is fighting either a {@creature stegosaurus|VGM}, a {@creature triceratops}, a pair of {@creature Giant Constrictor Snake|MM|giant constrictor snakes}, a {@creature giant ape}, or a mob of {@creature ghoul|MM|ghouls} and {@creature zombie|MM|zombies}. None of these creatures will voluntarily team up with the party, but their presence might weaken the tyrannosaurus to the point where the characters have a chance of slaying it.",
+												"The characters spot a {@creature tyrannosaurus rex} 300 yards away. There's a {@chance 50} chance that the hungry behemoth is fighting either a {@creature stegosaurus|MPMM}, a {@creature triceratops}, a pair of {@creature Giant Constrictor Snake|MM|giant constrictor snakes}, a {@creature giant ape}, or a mob of {@creature ghoul|MM|ghouls} and {@creature zombie|MM|zombies}. None of these creatures will voluntarily team up with the party, but their presence might weaken the tyrannosaurus to the point where the characters have a chance of slaying it.",
 												"Characters can avoid an encounter with the tyrannosaurus if they keep their distance and succeed on a {@dc 15} group Dexterity ({@skill Stealth|PHB}) check. If any character is trained in the {@skill Survival|PHB} skill, all the characters' checks are made with advantage."
 											]
 										},
@@ -48592,7 +48592,7 @@
 											"page": 198,
 											"id": "5ba",
 											"entries": [
-												"A pack of {@dice 3d6} {@creature velociraptor|VGM|velociraptors} burst out from behind cover and attack. Make a single Dexterity ({@skill Stealth|PHB}) check for the dinosaurs, with advantage. Any character whose passive Wisdom ({@skill Perception|PHB}) score equals or exceeds the velociraptors' check result is not {@status surprised}."
+												"A pack of {@dice 3d6} {@creature velociraptor|MPMM|velociraptors} burst out from behind cover and attack. Make a single Dexterity ({@skill Stealth|PHB}) check for the dinosaurs, with advantage. Any character whose passive Wisdom ({@skill Perception|PHB}) score equals or exceeds the velociraptors' check result is not {@status surprised}."
 											]
 										}
 									]
@@ -48812,7 +48812,7 @@
 									"page": 199,
 									"id": "5c3",
 									"entries": [
-										"A light firenewt patrol consists of {@dice 1d4} {@creature firenewt warrior|VGM|firenewt warriors} mounted on {@creature giant strider|VGM|giant striders}. A heavy patrol consists of {@dice 2d4} {@creature firenewt warrior|VGM|firenewt warriors} and a {@creature firenewt warlock of Imix|VGM}, all mounted on {@creature giant strider|VGM|giant striders}. Statistics for all these creatures appear in appendix D. The firenewts always strike their final blows with the intention of knocking out enemies, who are then taken back to the creatures' cave lair to be tortured and eaten."
+										"A light firenewt patrol consists of {@dice 1d4} {@creature firenewt warrior|MPMM|firenewt warriors} mounted on {@creature giant strider|MPMM|giant striders}. A heavy patrol consists of {@dice 2d4} {@creature firenewt warrior|MPMM|firenewt warriors} and a {@creature firenewt warlock of Imix|MPMM}, all mounted on {@creature giant strider|MPMM|giant striders}. Statistics for all these creatures appear in appendix D. The firenewts always strike their final blows with the intention of knocking out enemies, who are then taken back to the creatures' cave lair to be tortured and eaten."
 									]
 								},
 								{
@@ -48821,7 +48821,7 @@
 									"page": 199,
 									"id": "5c4",
 									"entries": [
-										"Characters spot the slimy trail of a {@creature flail snail|VGM}. If they wish to follow it, a successful {@dc 10} Wisdom ({@skill Survival|PHB}) check correctly deduces which direction the snail was traveling."
+										"Characters spot the slimy trail of a {@creature flail snail|MPMM}. If they wish to follow it, a successful {@dc 10} Wisdom ({@skill Survival|PHB}) check correctly deduces which direction the snail was traveling."
 									]
 								},
 								{
@@ -48830,7 +48830,7 @@
 									"page": 199,
 									"id": "5c5",
 									"entries": [
-										"The soldiers of the Flaming Fist know the dangers of Chult better than most, and they don't take the wilderness lightly. A typical patrol is made up of a {@creature knight} or {@creature veteran} leading an {@creature acolyte}, a {@creature scout}, and {@dice 2d6} {@creature guard||guards}\u2014and is sometimes accompanied by {@dice 1d4} {@creature Deinonychus|VGM|deinonychuses} trained to fight and hunt alongside their handlers. The Flaming Fist is friendly and helpful toward adventurers possessing a charter of exploration issued by Commander {@creature Liara Portyr|ToA} of Fort Beluarian. If the party has no such document, the patrol tries to confiscate the adventurers' critical gear and advises them to replace it at Fort Beluarian\u2014and to obtain a proper charter while they're at it."
+										"The soldiers of the Flaming Fist know the dangers of Chult better than most, and they don't take the wilderness lightly. A typical patrol is made up of a {@creature knight} or {@creature veteran} leading an {@creature acolyte}, a {@creature scout}, and {@dice 2d6} {@creature guard||guards}\u2014and is sometimes accompanied by {@dice 1d4} {@creature Deinonychus|MPMM|deinonychuses} trained to fight and hunt alongside their handlers. The Flaming Fist is friendly and helpful toward adventurers possessing a charter of exploration issued by Commander {@creature Liara Portyr|ToA} of Fort Beluarian. If the party has no such document, the patrol tries to confiscate the adventurers' critical gear and advises them to replace it at Fort Beluarian\u2014and to obtain a proper charter while they're at it."
 									]
 								},
 								{
@@ -48932,7 +48932,7 @@
 									"page": 200,
 									"id": "5d0",
 									"entries": [
-										"Two {@creature girallon|VGM|girallons} hang in the trees, perch atop rocks, or lumber between crumbling, vine-covered ruins. The characters spot them automatically and can avoid a hostile encounter if they withdraw and succeed on a {@dc 13} group Dexterity ({@skill Stealth|PHB}) check.",
+										"Two {@creature girallon|MPMM|girallons} hang in the trees, perch atop rocks, or lumber between crumbling, vine-covered ruins. The characters spot them automatically and can avoid a hostile encounter if they withdraw and succeed on a {@dc 13} group Dexterity ({@skill Stealth|PHB}) check.",
 										"If the characters defeat the girallons or frighten them away, a search of the area reveals a hidden cache, determined by rolling on the {@table Caches|ToA} table. The girallons might also have some treasure hidden near the cache; roll once on the {@table Cyclops; Treasure Drops|ToA|Treasure Drops} table to determine what, if anything, is found after a search of the area."
 									]
 								},
@@ -48954,7 +48954,7 @@
 									"page": 201,
 									"id": "5d2",
 									"entries": [
-										"A grung hunting party consists of {@dice 2d6} {@creature grung|VGM|grungs} led by a {@creature grung elite warrior|VGM} (see appendix D for both). If this encounter occurs while the characters are traveling, the grungs have set up an ambush in the trees. Any character with a passive Wisdom ({@skill Perception|PHB}) score of 14 or higher spots them just in time. All other characters are {@status surprised}.",
+										"A grung hunting party consists of {@dice 2d6} {@creature grung|MPMM|grungs} led by a {@creature grung elite warrior|MPMM} (see appendix D for both). If this encounter occurs while the characters are traveling, the grungs have set up an ambush in the trees. Any character with a passive Wisdom ({@skill Perception|PHB}) score of 14 or higher spots them just in time. All other characters are {@status surprised}.",
 										"If this encounter occurs while the party is camped, the grungs spotted the characters earlier in the day and have shadowed them unseen. Each character standing watch must succeed on a {@dc 14} Wisdom ({@skill Perception|PHB}) check, made with disadvantage because of the noise of the jungle at night. On a success, a character detects the encroaching grungs and can rouse the rest of the party. If no one on watch succeeds on the check, all the characters are {@status surprised}.",
 										"If the characters capture one or more grungs, the frogfolk offer to lead the characters to treasure in exchange for a promise of freedom. The \"treasure\" is a half-mile away from the party's present location and consists of a cache, which you can randomly determine by rolling on the {@table Caches|ToA} table."
 									]
@@ -49340,7 +49340,7 @@
 									"page": 203,
 									"id": "5f5",
 									"entries": [
-										"The characters cross paths with {@dice 1d4} {@creature vegepygmy|VGM|vegepygmies}, each one mounted on a {@creature thorny|VGM} (see appendix D for both). These vegepygmy hunters have wandered far from their tribe. They flee if outnumbered; otherwise, they attack."
+										"The characters cross paths with {@dice 1d4} {@creature vegepygmy|MPMM|vegepygmies}, each one mounted on a {@creature thorny|MPMM} (see appendix D for both). These vegepygmy hunters have wandered far from their tribe. They flee if outnumbered; otherwise, they attack."
 									]
 								},
 								{
@@ -49459,7 +49459,7 @@
 									"page": 204,
 									"id": "605",
 									"entries": [
-										"Moving through the city or palace ruins are {@dice 1d4 + 1} {@creature kobold||kobolds} led by a {@creature kobold inventor|VGM}. Characters with a passive Wisdom ({@skill Perception|PHB}) score of 12 or higher spot the kobolds, which flee if approached or attacked. The kobolds serve the kobold scale sorcerer Kakarol (see chapter 3). They might be on their way to one of the city's shrines to reset its traps, or they might be returning to their lair with a recently discovered treasure. Roll once on the {@table Cyclops; Treasure Drops|ToA|Treasure Drops} table to determine what, if anything, the kobolds found."
+										"Moving through the city or palace ruins are {@dice 1d4 + 1} {@creature kobold||kobolds} led by a {@creature kobold inventor|MPMM}. Characters with a passive Wisdom ({@skill Perception|PHB}) score of 12 or higher spot the kobolds, which flee if approached or attacked. The kobolds serve the kobold scale sorcerer Kakarol (see chapter 3). They might be on their way to one of the city's shrines to reset its traps, or they might be returning to their lair with a recently discovered treasure. Roll once on the {@table Cyclops; Treasure Drops|ToA|Treasure Drops} table to determine what, if anything, the kobolds found."
 									]
 								},
 								{
@@ -49806,53 +49806,53 @@
 						"{@creature Almiraj|ToA}",
 						"{@creature Assassin Vine|ToA}",
 						"{@creature Atropal|ToA}",
-						"{@creature Bodak|VGM}",
-						"{@creature Brontosaurus|VGM}",
-						"{@creature Champion|VGM}",
+						"{@creature Bodak|MPMM}",
+						"{@creature Brontosaurus|MPMM}",
+						"{@creature Champion|MPMM}",
 						"{@creature Chwinga|ToA}",
-						"{@creature Deinonychus|VGM}",
-						"{@creature Dimetrodon|VGM}",
+						"{@creature Deinonychus|MPMM}",
+						"{@creature Dimetrodon|MPMM}",
 						"{@creature Dragonbait|ToA}",
 						"{@creature Eblis|ToA}",
-						"{@creature Firenewt Warrior|VGM}",
-						"{@creature Firenewt Warlock of Imix|VGM}",
-						"{@creature Flail Snail|VGM}",
+						"{@creature Firenewt Warrior|MPMM}",
+						"{@creature Firenewt Warlock of Imix|MPMM}",
+						"{@creature Flail Snail|MPMM}",
 						"{@creature Flying Monkey|ToA}",
-						"{@creature Froghemoth|VGM}",
+						"{@creature Froghemoth|MPMM}",
 						"{@creature Giant Four-Armed Gargoyle|ToA}",
 						"{@creature Giant Snapping Turtle|ToA}",
-						"{@creature Giant Strider|VGM}",
-						"{@creature Girallon|VGM}",
-						"{@creature Grung|VGM}",
-						"{@creature Grung Wildling|VGM}",
-						"{@creature Grung Elite Warrior|VGM}",
-						"{@creature Hadrosaurus|VGM}",
+						"{@creature Giant Strider|MPMM}",
+						"{@creature Girallon|MPMM}",
+						"{@creature Grung|MPMM}",
+						"{@creature Grung Wildling|MPMM}",
+						"{@creature Grung Elite Warrior|MPMM}",
+						"{@creature Hadrosaurus|MPMM}",
 						"{@creature Jaculi|ToA}",
 						"{@creature Kamadan|ToA}",
-						"{@creature Kobold Inventor|VGM}",
-						"{@creature Kobold Scale Sorcerer|VGM}",
+						"{@creature Kobold Inventor|MPMM}",
+						"{@creature Kobold Scale Sorcerer|MPMM}",
 						"{@creature Liara Portyr|ToA}",
 						"{@creature Mantrap|ToA}",
 						"{@creature Mwaxanaré|ToA}",
 						"{@creature Pterafolk|ToA}",
-						"{@creature Quetzalcoatlus|VGM}",
+						"{@creature Quetzalcoatlus|MPMM}",
 						"{@creature Ras Nsi|ToA}",
-						"{@creature Stegosaurus|VGM}",
+						"{@creature Stegosaurus|MPMM}",
 						"{@creature Stone Juggernaut|ToA}",
 						"{@creature Su-monster|ToA}",
 						"{@creature Tabaxi Hunter|ToA}",
 						"{@creature Tabaxi Minstrel|ToA}",
-						"{@creature Thorny|VGM}",
+						"{@creature Thorny|MPMM}",
 						"{@creature Tri-flower Frond|ToA}",
-						"{@creature Vegepygmy|VGM}",
-						"{@creature Vegepygmy Chief|VGM}",
-						"{@creature Velociraptor|VGM}",
+						"{@creature Vegepygmy|MPMM}",
+						"{@creature Vegepygmy Chief|MPMM}",
+						"{@creature Velociraptor|MPMM}",
 						"{@creature Volothamp \"Volo\" Geddarm|ToA}",
 						"{@creature Xandala|ToA}",
 						"{@creature Yellow Musk Creeper|ToA}",
 						"{@creature Yellow Musk Zombie|ToA}",
-						"{@creature Yuan-ti Broodguard|VGM}",
-						"{@creature Yuan-ti Nightmare Speaker|VGM}",
+						"{@creature Yuan-ti Broodguard|MPMM}",
+						"{@creature Yuan-ti Nightmare Speaker|MPMM}",
 						"{@creature Zindar|ToA}",
 						"{@creature Ankylosaurus Zombie|ToA}",
 						"{@creature Girallon Zombie|ToA}",

@@ -825,7 +825,7 @@
 							"id": "046",
 							"entries": [
 								"After the drama (or comedy) of the town meeting has played out, and the party has decided on a course of action, the first threat comes to them in the form of a wagon full of anchorites of the Cult of Talos.",
-								"The forces of the cult include one {@creature archer|VGM} and one {@creature dark tide knight|PotA} (see {@adventure appendix A|SLW|10}) for every two characters, including sidekicks, rounded down. If there is an odd number of characters, add one dark tide knight.",
+								"The forces of the cult include one {@creature archer|MPMM} and one {@creature dark tide knight|PotA} (see {@adventure appendix A|SLW|10}) for every two characters, including sidekicks, rounded down. If there is an odd number of characters, add one dark tide knight.",
 								"As enemy approaches, use the following read-aloud text to describe the situation:",
 								{
 									"type": "insetReadaloud",
@@ -896,7 +896,7 @@
 														"If you want to add drama and motivation for the party, you can place the children out in the open, needing to be brought to safety before they are seen by the Talos cultists. Just remember that giving the characters something else to do in the encounter increases the difficulty of the encounter for the party."
 													]
 												},
-												"The tiefling standing in front of the fishery is a {@creature kraken priest|VGM} (see {@adventure appendix A|SLW|10}) named Nixoxious, and before her in the water there is 1 {@creature berserker} per character, including sidekicks. They are trying to perform a ritual to summon water creatures to destroy the town. (These water creatures are faced in the next wave of the battle, as described below.)",
+												"The tiefling standing in front of the fishery is a {@creature kraken priest|MPMM} (see {@adventure appendix A|SLW|10}) named Nixoxious, and before her in the water there is 1 {@creature berserker} per character, including sidekicks. They are trying to perform a ritual to summon water creatures to destroy the town. (These water creatures are faced in the next wave of the battle, as described below.)",
 												"The characters start 500 feet from the priest. She has already completed enough of her ritual to summon the water elemental, and every four rounds she is alive, she summons another water weird, up to the maximum described below. Once she has summoned the maximum number of creatures, she stops chanting and joins the combat, assuming the party has engaged in combat with her and the berserkers.",
 												"Note that even though she performs the ritual to summon these water creatures, they do not attack or even appear until this part of the battle has ended.",
 												"{@b {@i Ritual}}. If the characters watch what is happening for at least a round, they can attempt a {@dc 10} Intelligence ({@skill Religion}) check. On a success, they realize what she is doing and know that, unless they stop her, she could summon any number of terrible creatures."
@@ -1212,7 +1212,7 @@
 						},
 						"When the characters are packing up to take the supplies back to Leilon at the end of their visit, the spies from both the Cult of Talos and the followers of Myrkul independently decide they are too big a threat to let live. (If the characters have already dealt with both spies, this encounter doesn't happen.)",
 						"Use the Backlot Map to run this encounter. As the characters load the wagons, storm clouds descend and block the sun. Argus Skeel (male {@creature vampire spawn}) and two {@creature Ghoul||ghouls}, plus one ghoul per character, including sidekicks, approach. If it is daylight, Argus wears heavy clothes to protect himself.",
-						"At the same time, Velleen Firecrow and two {@creature Kobold Dragonshield|VGM|kobold dragonshields} (see {@adventure appendix A|SLW|10}), plus one dragonshield per character, including sidekicks, approach from the other direction. Velleen is a female Damaran {@creature master thief|VGM}  (see {@adventure appendix A|SLW|10}).",
+						"At the same time, Velleen Firecrow and two {@creature Kobold Dragonshield|MPMM|kobold dragonshields} (see {@adventure appendix A|SLW|10}), plus one dragonshield per character, including sidekicks, approach from the other direction. Velleen is a female Damaran {@creature master thief|MPMM}  (see {@adventure appendix A|SLW|10}).",
 						"As the combat begins, the two evil groups recognize each other, and also attack one another when appropriate. (See \"Running a Three-sided Battle\" sidebar for advice.)",
 						{
 							"type": "inset",
@@ -1335,7 +1335,7 @@
 														"A wall of storms surges and howls in the distance. The sunny, mild weather gives way immediately to rain and hail, violent winds, and electrical discharges. Passing in and out of the wall are three figures in plate armor, each swinging a flail at a lone figure in splint armor wielding a longsword. The lone fighter, taking on the three in plate, wears the emblem of the Leilon garrison."
 													]
 												},
-												"The soldier, a {@creature veteran} named Emmalou, is fighting off three {@creature Air Elemental Myrmidon|MTF|air elemental myrmidons} (see {@adventure appendix A|SLW|10}). These suits of armor were the same ones crafted by the Wayside Inn's blacksmith, Teega. If the characters don't remember seeing the armor on their previous encounter at the inn, feel free to remind them. Also, if any character stole a suit of the armor and is wearing it now, it falls off the character and animates as another hostile air elemental myrmidon!"
+												"The soldier, a {@creature veteran} named Emmalou, is fighting off three {@creature Air Elemental Myrmidon|MPMM|air elemental myrmidons} (see {@adventure appendix A|SLW|10}). These suits of armor were the same ones crafted by the Wayside Inn's blacksmith, Teega. If the characters don't remember seeing the armor on their previous encounter at the inn, feel free to remind them. Also, if any character stole a suit of the armor and is wearing it now, it falls off the character and animates as another hostile air elemental myrmidon!"
 											]
 										},
 										{
@@ -1492,7 +1492,7 @@
 											"id": "087",
 											"entries": [
 												"The cultists believe they cleared the rooms of all guests, using them as sacrifices to power their ritual. However, one sneaky individual avoided capture.",
-												"In the posh room at the end of the hallway (Room C on the map), a gnome {@creature apprentice wizard|VGM} named Cray Onderquill hides beneath the bed. She was traveling from Neverwinter to Waterdeep on an errand for her master, and she decided to stay the night. When the cultists began grabbing people, she used {@spell disguise self} to imitate a cultist, and then snuck away here to hide. She thought about climbing out the window but is afraid the fall might kill her. She is willing to help the characters in an assault on the cultists, if only by lending her expertise in {@skill Arcana} to figure out what's happening with the ritual.",
+												"In the posh room at the end of the hallway (Room C on the map), a gnome {@creature apprentice wizard|MPMM} named Cray Onderquill hides beneath the bed. She was traveling from Neverwinter to Waterdeep on an errand for her master, and she decided to stay the night. When the cultists began grabbing people, she used {@spell disguise self} to imitate a cultist, and then snuck away here to hide. She thought about climbing out the window but is afraid the fall might kill her. She is willing to help the characters in an assault on the cultists, if only by lending her expertise in {@skill Arcana} to figure out what's happening with the ritual.",
 												"Cray also reveals that not all the captives taken by cultists were impaled on the doors: the inn's owner, Martisha Vinetalker, was dragged into the basement, and a local bard, Tarbin Tul, was taken away on horseback. Cray thinks the cultists had strict orders to capture the bard alive, as he heard them talking about being careful with Tul."
 											]
 										},
@@ -2516,7 +2516,7 @@
 									"id": "09d",
 									"entries": [
 										"Characters may try to summon Thalivar's {@creature ghost} using magic, a séance, or any other ploy they can devise. Remember that his spirit is insane and believes it is living in a nightmare. It does not want to parley and retreats into the Ethereal Plane at the first sign of trouble.",
-										"Once per day, when Thalivar's ghost returns to the Ethereal Plane, it chants a magical phrase that summons a {@creature star spawn mangler|MTF} (see {@adventure appendix A|SLW|10}) into the tower for every two members in the party, including sidekicks. Defeating Thalivar's ghost in combat is difficult, so the players are better off finding a way to lay it to rest using the clues in the tower.",
+										"Once per day, when Thalivar's ghost returns to the Ethereal Plane, it chants a magical phrase that summons a {@creature star spawn mangler|MPMM} (see {@adventure appendix A|SLW|10}) into the tower for every two members in the party, including sidekicks. Defeating Thalivar's ghost in combat is difficult, so the players are better off finding a way to lay it to rest using the clues in the tower.",
 										{
 											"type": "inset",
 											"name": "Tower Features",
@@ -2925,7 +2925,7 @@
 									"name": "Lizardfolk Forces",
 									"id": "0c2",
 									"entries": [
-										"The leader is a {@creature lizardfolk subchief|GoS} (see {@adventure appendix A|SLW|10}) called Hissain. The large lizardfolk with him is a {@creature lizardfolk render|GoS} (see {@adventure appendix A|SLW|10}) whom the others call Slosh. The warriors who follow Hissain's orders are normal {@creature lizardfolk}, and there is one per character, including sidekicks. The sleds and cages are pulled by {@creature Flail Snail|VGM|flail snails} (see {@adventure appendix A|SLW|10}), but only one of those creatures' attacks (the one next to Hissain), unless they are attacked first. The rest of the lizardfolk in the tribe are young, elderly, and other noncombatants."
+										"The leader is a {@creature lizardfolk subchief|GoS} (see {@adventure appendix A|SLW|10}) called Hissain. The large lizardfolk with him is a {@creature lizardfolk render|GoS} (see {@adventure appendix A|SLW|10}) whom the others call Slosh. The warriors who follow Hissain's orders are normal {@creature lizardfolk}, and there is one per character, including sidekicks. The sleds and cages are pulled by {@creature Flail Snail|MPMM|flail snails} (see {@adventure appendix A|SLW|10}), but only one of those creatures' attacks (the one next to Hissain), unless they are attacked first. The rest of the lizardfolk in the tribe are young, elderly, and other noncombatants."
 									]
 								},
 								{
@@ -2945,7 +2945,7 @@
 							"name": "A Rotten Way to Die",
 							"id": "0c4",
 							"entries": [
-								"When you, as the DM, feel it is most appropriate, the interactions between the party and the lizardfolk tribe are interrupted when one of the {@creature Rot Troll|MTF|rot trolls} (see {@adventure appendix A|SLW|10}) infesting the area shows up, looking for dinner.",
+								"When you, as the DM, feel it is most appropriate, the interactions between the party and the lizardfolk tribe are interrupted when one of the {@creature Rot Troll|MPMM|rot trolls} (see {@adventure appendix A|SLW|10}) infesting the area shows up, looking for dinner.",
 								"If the adventurers slaughtered the lizardfolk combatants without trying to parley, they have no assistance in fighting the rot troll. If the battle is still going on, all the remaining lizardfolk combatants immediately turn their attention to the troll. This new situation might be the impetus for a peaceful resolution to hostilities between the lizardfolk and the party.",
 								"Defeating one rot troll is a good start, but in order to peacefully release the prisoners, the lizardfolk insist that the characters defeat a total of three rot trolls. They can accomplish this by hunting the remaining two trolls in the swamp, or they can wait until the trolls come to them, which doesn't take more than 24 hours after killing the first."
 							]
@@ -3067,7 +3067,7 @@
 							"name": "The Moment of Truth",
 							"id": "0d0",
 							"entries": [
-								"A day into the journey, after the party has heard some grumbling among the sailors, the crew confronts the captain. Regardless of the vessel, the mutiny is led by Castisha (female Calishite {@creature swashbuckler|VGM}; see {@adventure appendix A|SLW|10}), the first mate. She is backed by four sailors ({@creature Bandit||bandits}) per character, excluding sidekicks.",
+								"A day into the journey, after the party has heard some grumbling among the sailors, the crew confronts the captain. Regardless of the vessel, the mutiny is led by Castisha (female Calishite {@creature swashbuckler|MPMM}; see {@adventure appendix A|SLW|10}), the first mate. She is backed by four sailors ({@creature Bandit||bandits}) per character, excluding sidekicks.",
 								"The captain (of either ship) refuses to turn over control of the ship peacefully. Castisha offers to let the captain get into a dingy and go ashore safely, but if they don't go peacefully, the mutineers are willing to do it the hard way. The mutineers make it clear they will not hurt the party and will honor the contract that was agreed upon.",
 								{
 									"type": "entries",
@@ -3119,7 +3119,7 @@
 										"The skies darken and a thick mist rises from the water, obscuring sight around the ship. The crew swears and make superstitious signs. Then, from the crow's nest, a voice screams, \"Ghost ship ahead.\" Before the words can even register, spectral figures emerge from the mist, swooping up onto the decks."
 									]
 								},
-								"One {@creature allip|MTF} per three adventurers (rounded down) and two {@creature Specter||specters} per character, excluding sidekicks, use the cover of the mist to approach the ship. The allip's howling babble instantly stuns everyone on the ship except the adventurers, as the crew collapses in a heap. Even if they get up during the battle, the sailors are terrified and do nothing but flee and cower under the undead assault.",
+								"One {@creature allip|MPMM} per three adventurers (rounded down) and two {@creature Specter||specters} per character, excluding sidekicks, use the cover of the mist to approach the ship. The allip's howling babble instantly stuns everyone on the ship except the adventurers, as the crew collapses in a heap. Even if they get up during the battle, the sailors are terrified and do nothing but flee and cower under the undead assault.",
 								"While the allips attack, the characters can understand a few snippets of recognizable words in their babbling, including \"we know of the ruinstone... that never happens\" and \"the Ebondeath rises but cannot fly\" and \"the bronze points the way to the green.\"",
 								{
 									"type": "inset",
@@ -5944,7 +5944,7 @@
 							"name": "7. Gadrille the Reef-Reaver",
 							"id": "0ee",
 							"entries": [
-								"Gadrille the Reef-Reaver is a female half-elf {@creature evoker|VGM}. She spends most of her time out with her followers, preying on those too weak to withstand the ravaging power of Talos. When in the caves, however, she is in her chambers praying.",
+								"Gadrille the Reef-Reaver is a female half-elf {@creature evoker wizard|MPMM}. She spends most of her time out with her followers, preying on those too weak to withstand the ravaging power of Talos. When in the caves, however, she is in her chambers praying.",
 								"Talos has rewarded Gadrille for her devotion with a pet, whom she calls \"{@creature Tooth-N-Claw|SLW}.\" This beast uses {@creature hell hound} statistics but replace fire with cold in attacks and immunities. {@creature Tooth-N-Claw|SLW} is ferociously protective of Gadrille. If there are more than four characters, excluding sidekicks, add a second pet called \"Frost-N-Fang.\"",
 								{
 									"type": "entries",
@@ -6035,22 +6035,22 @@
 				{
 					"type": "list",
 					"items": [
-						"{@creature Air Elemental Myrmidon|MTF}",
-						"{@creature Allip|MTF}",
-						"{@creature Archer|VGM}",
+						"{@creature Air Elemental Myrmidon|MPMM}",
+						"{@creature Allip|MPMM}",
+						"{@creature Archer|MPMM}",
 						"{@creature Dark Tide Knight|PotA}",
-						"{@creature Flail Snail|VGM}",
+						"{@creature Flail Snail|MPMM}",
 						"{@creature Huge Giant Crab|TftYP}",
-						"{@creature Kobold Dragonshield|VGM}",
-						"{@creature Kraken Priest|VGM}",
+						"{@creature Kobold Dragonshield|MPMM}",
+						"{@creature Kraken Priest|MPMM}",
 						"{@creature Lizardfolk Subchief|GoS}",
 						"{@creature Lizardfolk Render|GoS}",
-						"{@creature Master Thief|VGM}",
-						"{@creature Rot Troll|MTF}",
+						"{@creature Master Thief|MPMM}",
+						"{@creature Rot Troll|MPMM}",
 						"{@creature Skull Flier|SLW}",
-						"{@creature Star Spawn Mangler|MTF}",
+						"{@creature Star Spawn Mangler|MPMM}",
 						"{@creature Statue of Talos|SLW}",
-						"{@creature Swashbuckler|VGM}",
+						"{@creature Swashbuckler|MPMM}",
 						"{@creature Tooth-N-Claw|SLW}"
 					],
 					"columns": 4

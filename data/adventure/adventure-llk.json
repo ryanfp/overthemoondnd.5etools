@@ -65,7 +65,7 @@
 								"Text that appears in a box like this is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text."
 							]
 						},
-						"Most of the monsters that appear in this adventure are from the {@book Monster Manual|MM}, along with new creatures and NPCs, and monsters from {@book Volo's Guide to Monsters|VGM} and {@book Mordenkainen's Tome of Foes|MTF}. For easy reference, all the stat blocks for the creatures in the adventure can be found in appendix C. When a creature's name appears in bold type, that's a visual cue pointing you to its stat block in that appendix. Full information on creatures from the {@book Monster Manual|MM}, {@book Volo's Guide to Monsters|VGM}, and {@book Mordenkainen's Tome of Foes|MTF} can be found in those books.",
+						"Most of the monsters that appear in this adventure are from the {@book Monster Manual|MM}, along with new creatures and NPCs, and monsters from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. For easy reference, all the stat blocks for the creatures in the adventure can be found in appendix C. When a creature's name appears in bold type, that's a visual cue pointing you to its stat block in that appendix. Full information on creatures from the {@book Monster Manual|MM}, and {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} can be found in those books.",
 						"Spells and equipment mentioned in the adventure are described in the {@book Player's Handbook|PHB}. Magic items are described in the {@book Dungeon Master's Guide|DMG}, unless the adventure's text directs you to an item's description in appendix D.",
 						{
 							"type": "inset",
@@ -167,7 +167,7 @@
 							"page": 3,
 							"id": "011",
 							"entries": [
-								"A powerful marut (detailed in {@book Mordenkainen's Tome of Foes|MTF}) hunts one or more of the characters for breaking some cosmic contract. Their only hope of survival is to find Kwalish's laboratory, whose planar magic holds the means of restoring the balance the marut seeks to enforce."
+								"A powerful marut (detailed in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) hunts one or more of the characters for breaking some cosmic contract. Their only hope of survival is to find Kwalish's laboratory, whose planar magic holds the means of restoring the balance the marut seeks to enforce."
 							]
 						},
 						{
@@ -281,7 +281,7 @@
 									"id": "01b",
 									"entries": [
 										"{@i CN male tiefling bard/rogue}",
-										"The Cartophile's first choice to join the characters' expedition, Garret is an untrustworthy bon vivant and magpie. His mapmaking skills are first rate, though, and the Cartophile trusts him to accurately detail the route to Daoine Gloine and sketch images of things discovered along the way. Garret claims that his infernal lineage goes back to Levistus (see {@book Mordenkainen's Tome of Foes|MTF}), and he keeps his horns adorned with rings, coins and other charms, some of which he claims are powerful magic items ready to be called on. See {@adventure appendix C|LLK|6} for Garret's stat block.",
+										"The Cartophile's first choice to join the characters' expedition, Garret is an untrustworthy bon vivant and magpie. His mapmaking skills are first rate, though, and the Cartophile trusts him to accurately detail the route to Daoine Gloine and sketch images of things discovered along the way. Garret claims that his infernal lineage goes back to Levistus (see {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}), and he keeps his horns adorned with rings, coins and other charms, some of which he claims are powerful magic items ready to be called on. See {@adventure appendix C|LLK|6} for Garret's stat block.",
 										{
 											"type": "image",
 											"href": {
@@ -1385,7 +1385,7 @@
 										"A pulse of fire marks something igniting at the edge of the floating island, alongside its distant dock. Something detaches and floats smoothly towards you\u2014a flying skiff piloted by a hooded figure."
 									]
 								},
-								"The ferry is operated by a {@creature Merrenoloth|MTF} (originally from {@book Mordenkainen's Tome of Foes|MTF}). It is crafted from laboratory debris attached to a small engine similar to the large engines holding the monastery aloft. The skiff can ferry up to ten Medium creatures at one time, and can be controlled automatically by the merrenoloth, {@creature Gearbox|LLK} the modron, or a rescued brain in a jar (see area M8). A character can decipher the controls of a skiff with a successful {@dc 15} Intelligence check, allowing that character to control it. A skiff also requires at least one fully charged energy cell from the treasury (area M10) for fuel.",
+								"The ferry is operated by a {@creature Merrenoloth|MPMM} (originally from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}). It is crafted from laboratory debris attached to a small engine similar to the large engines holding the monastery aloft. The skiff can ferry up to ten Medium creatures at one time, and can be controlled automatically by the merrenoloth, {@creature Gearbox|LLK} the modron, or a rescued brain in a jar (see area M8). A character can decipher the controls of a skiff with a successful {@dc 15} Intelligence check, allowing that character to control it. A skiff also requires at least one fully charged energy cell from the treasury (area M10) for fuel.",
 								"The merrenoloth stays silent, but any character who succeeds on a {@dc 14} Wisdom ({@skill Perception}) check to glimpse beneath its hood sees a skeletal face. (The character can later note the resemblance between this visage and the monastery's flayed monks.)"
 							]
 						},
@@ -1598,7 +1598,7 @@
 														"Local teleportation-field bracelets encircle the devil's arms and tail. These devices allow the Grand Master to make its claw and sting attacks remotely, though still on the devil's turn and using its actions."
 													]
 												},
-												"Two half-orc monks named {@creature East Wind|LLK} and {@creature West Wind|LLK} protect the Grand Master at all times. Each is a {@creature Martial Arts Adept|VGM} with these changes:",
+												"Two half-orc monks named {@creature East Wind|LLK} and {@creature West Wind|LLK} protect the Grand Master at all times. Each is a {@creature Martial Arts Adept|MPMM} with these changes:",
 												{
 													"type": "list",
 													"items": [
@@ -3155,7 +3155,7 @@
 											"page": 25,
 											"id": "0a3",
 											"entries": [
-												"These control panels are covered with buttons, dials, and gauges, as well as delicate machinery containing tiny clockwork devices reminiscent of ants performing intricate functions. A character who succeeds on a {@dc 14} Intelligence ({@skill Arcana}) check determines that the workings of the panels derive from strange sources\u2014some taken from the planar craft that became the monastery, but also from the bodies of modrons and inevitables (see {@book Mordenkainen's Tome of Foes|MTF}). Also set among the panels is a skull that has gems for its eyes and teeth (a magically modified demilich skull; see the \"{@area Meeting Kwalish|0aa|x}\" section below)."
+												"These control panels are covered with buttons, dials, and gauges, as well as delicate machinery containing tiny clockwork devices reminiscent of ants performing intricate functions. A character who succeeds on a {@dc 14} Intelligence ({@skill Arcana}) check determines that the workings of the panels derive from strange sources\u2014some taken from the planar craft that became the monastery, but also from the bodies of modrons and inevitables (see {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}). Also set among the panels is a skull that has gems for its eyes and teeth (a magically modified demilich skull; see the \"{@area Meeting Kwalish|0aa|x}\" section below)."
 											]
 										},
 										{
@@ -3329,7 +3329,7 @@
 									"page": 27,
 									"id": "0ac",
 									"entries": [
-										"The easiest approach is to have Kwalish in {@area area O7|0a0|x} when the characters arrive\u2014an elderly gnome arcane inventor (use the {@creature Evoker|VGM} stat block from {@book Volo's Guide to Monsters|VGM}) working on his latest experiments. Though surprised by visitors, Kwalish listens to the characters and might even be willing to bargain for whatever help they need to complete their quest. In exchange, he requires only a bit of special material to fuel his experiments and continue his work\u2014a piece of the characters' souls, extracted by his machinery.",
+										"The easiest approach is to have Kwalish in {@area area O7|0a0|x} when the characters arrive\u2014an elderly gnome arcane inventor (use the {@creature Evoker Wizard|MPMM} stat block from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) working on his latest experiments. Though surprised by visitors, Kwalish listens to the characters and might even be willing to bargain for whatever help they need to complete their quest. In exchange, he requires only a bit of special material to fuel his experiments and continue his work\u2014a piece of the characters' souls, extracted by his machinery.",
 										"With a successful {@dc 15} Charisma ({@skill Persuasion}) check made to negotiate with Kwalish, the gnome asks only for a single bit of soul energy from any one character. If unsuccessful, he demands one bit of soul from each character in exchange for his aid or information. The magically enhanced demilich skull built into the lab's instrumentation panels is used to channel a character's soul energy once the bargain is struck. A character who has a portion of their soul removed in this way falls under a curse. While so cursed, whenever the character drops to 0 hit points, they are treated as if they had already failed one death saving throw. This curse can be removed only by a {@spell remove curse} spell cast by an 18th-level spellcaster, by defeating Kwalish and reversing the process using his machines, or by completing a separate task for the inventor."
 									]
 								},
@@ -3504,7 +3504,7 @@
 								],
 								[
 									"4",
-									"A leprechaun (use {@creature Quickling|VGM} statistics from {@book Volo's Guide to Monsters|VGM}) crosses the characters' path. If successfully caught without being killed, the creature negotiates its release with the location of its hidden treasure: 1,000 gp in brightly polished coins."
+									"A leprechaun (use {@creature Quickling|MPMM} statistics from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) crosses the characters' path. If successfully caught without being killed, the creature negotiates its release with the location of its hidden treasure: 1,000 gp in brightly polished coins."
 								],
 								[
 									"5",
@@ -3512,7 +3512,7 @@
 								],
 								[
 									"6\u20137",
-									"Some strange creature has wandered down from the Monastery of the Distressed Body. Such creatures might include an ancient security construct gone mad (use {@creature Oaken Bolter|MTF} statistics from {@book Mordenkainen's Tome of Foes|MTF}) or a {@creature Gibbering Mouther} with a mechanical skull housing its central brain."
+									"Some strange creature has wandered down from the Monastery of the Distressed Body. Such creatures might include an ancient security construct gone mad (use {@creature Clockwork Oaken Bolter|MPMM} statistics from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}) or a {@creature Gibbering Mouther} with a mechanical skull housing its central brain."
 								],
 								[
 									"8\u201310",
@@ -3552,11 +3552,11 @@
 								],
 								[
 									"2",
-									"A small war machine built at the monastery has been claimed by three kobolds, which use it to attack any potential threats. Use the statistics for the {@creature Oaken Bolter|MTF} (from {@book Mordenkainen's Tome of Foes|MTF}) and the {@creature Kobold Inventor|VGM} (from {@book Volo's Guide to Monsters|VGM})."
+									"A small war machine built at the monastery has been claimed by three kobolds, which use it to attack any potential threats. Use the statistics for the {@creature Clockwork Oaken Bolter|MPMM} and the {@creature Kobold Inventor|MPMM} from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}."
 								],
 								[
 									"3",
-									"The characters' tunnel route leads through the lair of a {@creature Froghemoth|VGM} or some other exotic monstrosity escaped from another planar craft that crashed into the Barrier Peaks long ago."
+									"The characters' tunnel route leads through the lair of a {@creature Froghemoth|MPMM} or some other exotic monstrosity escaped from another planar craft that crashed into the Barrier Peaks long ago."
 								],
 								[
 									"4",
@@ -3858,7 +3858,7 @@
 			"page": 37,
 			"id": "0d3",
 			"entries": [
-				"This section includes new monsters and nonplayer characters introduced in {@i Lost Laboratory of Kwalish}, as well as stat blocks from the {@book Monster Manual|MM}, {@book Volo's Guide to Monsters|VGM}, and {@book Mordenkainen's Tome of Foes|MTF} that are referenced in the adventure.",
+				"This section includes new monsters and nonplayer characters introduced in {@i Lost Laboratory of Kwalish}, as well as stat blocks from the {@book Monster Manual|MM}, and {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} that are referenced in the adventure.",
 				{
 					"type": "list",
 					"style": "list-no-bullets",
@@ -3871,8 +3871,8 @@
 						"{@creature Commoner}",
 						"{@creature Cultist}",
 						"{@creature Cult Fanatic}",
-						"{@creature Evoker|VGM}",
-						"{@creature Froghemoth|VGM}",
+						"{@creature Evoker Wizard|MPMM}",
+						"{@creature Froghemoth|MPMM}",
 						{
 							"type": "image",
 							"href": {
@@ -3888,10 +3888,10 @@
 						"{@creature Gibbering Mouther}",
 						"{@creature Gynosphinx}",
 						"{@creature Kenku}",
-						"{@creature Martial Arts Adept|VGM}",
+						"{@creature Martial Arts Adept|MPMM}",
 						"{@creature Mary Greymalkin|LLK}",
 						"{@creature Medusa}",
-						"{@creature Merrenoloth|MTF}",
+						"{@creature Merrenoloth|MPMM}",
 						"{@creature Monodrone}",
 						{
 							"type": "image",
@@ -3906,7 +3906,7 @@
 						"{@creature Mind Flayer Arcanist}",
 						"{@creature Ooze-Folk|LLK}",
 						"{@creature Quasit}",
-						"{@creature Quickling|VGM}",
+						"{@creature Quickling|MPMM}",
 						"{@creature Skeleton}",
 						{
 							"type": "image",
@@ -3937,7 +3937,7 @@
 						"{@creature Vampire}",
 						"{@creature Vampire Spawn}",
 						"{@creature Wraith}",
-						"{@creature The Wretched|MTF}",
+						"{@creature Wretched Sorrowsworn|MPMM}",
 						{
 							"type": "image",
 							"href": {

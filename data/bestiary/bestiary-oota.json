@@ -3,7 +3,7 @@
 		"dependencies": {
 			"monster": [
 				"MM",
-				"MTF"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -11,7 +11,7 @@
 		],
 		"otherSources": {
 			"monster": {
-				"MTF": "OotA",
+				"MPMM": "OotA",
 				"MM": "OotA"
 			}
 		}
@@ -382,7 +382,7 @@
 			"page": 6,
 			"_copy": {
 				"name": "Derro",
-				"source": "MTF",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -789,7 +789,7 @@
 			"source": "OotA",
 			"page": 224,
 			"reprintedAs": [
-				"Derro|MTF"
+				"Derro|MPMM"
 			],
 			"size": [
 				"S"
@@ -909,7 +909,7 @@
 			"source": "OotA",
 			"page": 224,
 			"reprintedAs": [
-				"Derro Savant|MTF"
+				"Derro Savant|MPMM"
 			],
 			"_copy": {
 				"name": "Derro",
@@ -5382,7 +5382,7 @@
 			"page": 29,
 			"_copy": {
 				"name": "Derro Savant",
-				"source": "MTF",
+				"source": "MPMM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",

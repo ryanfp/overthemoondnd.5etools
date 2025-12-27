@@ -385,9 +385,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "MTF",
-			"page": 81,
-			"ref": "{@race Dwarf (Duergar)|mtf|Duergar}",
+			"source": "MPMM",
+			"page": 12,
+			"ref": "{@race Dwarf (Duergar)|MPMM|Duergar}",
 			"apply": {
 				"_root": {
 					"size": [

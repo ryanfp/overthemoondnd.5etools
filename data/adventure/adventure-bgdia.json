@@ -6551,7 +6551,7 @@
 									"page": 55,
 									"id": "11c",
 									"entries": [
-										"The characters hear a voice shouting for help. If they follow the voice, they find a male human under attack by two {@creature Bulezau|MTF|bulezaus} that slipped past the devils and climbed the infernal binding posts to Elturel.",
+										"The characters hear a voice shouting for help. If they follow the voice, they find a male human under attack by two {@creature Bulezau|MPMM|bulezaus} that slipped past the devils and climbed the infernal binding posts to Elturel.",
 										"If the characters save the man, he introduces himself as Orin Ragron, a blacksmith who had a shop in Elturel. Orin is actually an {@creature incubus} in disguise named Faltrax. The incubus is trying to gain information on the defenses of Elturel, which it then plans to sell to the highest fiendish bidder. If the characters discover Faltrax's true nature, the incubus flees."
 									]
 								},
@@ -6589,7 +6589,7 @@
 									"page": 55,
 									"id": "120",
 									"entries": [
-										"A {@creature merregon|MTF} leads three {@creature Spined Devil||spined devils} through the streets, looking for mortal survivors or demons that have slipped past the devilish forces below the city. The spined devils grumble in Infernal, unhappy about being up here when they could be fighting demons in the battle below. The merregon takes their insolence in silence."
+										"A {@creature merregon|MPMM} leads three {@creature Spined Devil||spined devils} through the streets, looking for mortal survivors or demons that have slipped past the devilish forces below the city. The spined devils grumble in Infernal, unhappy about being up here when they could be fighting demons in the battle below. The merregon takes their insolence in silence."
 									]
 								},
 								{
@@ -6692,7 +6692,7 @@
 									"page": 56,
 									"id": "127",
 									"entries": [
-										"A {@creature narzugon|MTF} patrols the streets of Elturel on the back of a {@creature nightmare} equipped with {@item infernal tack|MTF}. The devil has orders to hunt down and destroy any demons that might have slipped past the battle on the ground below and gained access to the city.",
+										"A {@creature narzugon|MPMM} patrols the streets of Elturel on the back of a {@creature nightmare} equipped with {@item infernal tack|MPMM}. The devil has orders to hunt down and destroy any demons that might have slipped past the battle on the ground below and gained access to the city.",
 										"When {@creature Lulu|BGDIA} sees the creature, she tells the characters that it is very powerful and should not be confronted."
 									]
 								},
@@ -6841,7 +6841,7 @@
 									"page": 59,
 									"id": "134",
 									"entries": [
-										"This group is led by the mastermind behind the raid on the cathedral: Victuusa, a {@creature white abishai|MTF}. Victuusa serves both Tiamat and Zariel in an attempt to gain the most favor, and is presently searching for the leaders of the Elturel resistance. It wants nothing more than to deliver the heads of those leaders to Zariel personally. Victuusa leads six lawful evil human {@creature Cultist||cultists} devoted to Zariel."
+										"This group is led by the mastermind behind the raid on the cathedral: Victuusa, a {@creature white abishai|MPMM}. Victuusa serves both Tiamat and Zariel in an attempt to gain the most favor, and is presently searching for the leaders of the Elturel resistance. It wants nothing more than to deliver the heads of those leaders to Zariel personally. Victuusa leads six lawful evil human {@creature Cultist||cultists} devoted to Zariel."
 									]
 								},
 								{
@@ -6868,7 +6868,7 @@
 									"page": 60,
 									"id": "137",
 									"entries": [
-										"A {@creature merregon|MTF} oversees a mangy pair of {@creature Hell Hound||hell hounds}. The devil uses the hounds to sniff out survivors who might be hiding."
+										"A {@creature merregon|MPMM} oversees a mangy pair of {@creature Hell Hound||hell hounds}. The devil uses the hounds to sniff out survivors who might be hiding."
 									]
 								}
 							]
@@ -10598,7 +10598,7 @@
 														"1 lance = 10 devils, commanded by an optio"
 													]
 												},
-												"Ranks of miserable {@creature Lemure||lemures} and {@creature Nupperibo|MTF|nupperibos} compose the base of dreg legions, while {@creature Bearded Devil||bearded devils} and {@creature Merregon|MTF|merregons} make up the bulk of regular legions. Each legion sports a unique name, usually denoting its purpose and numerical designation. Examples include the following:",
+												"Ranks of miserable {@creature Lemure||lemures} and {@creature Nupperibo|MPMM|nupperibos} compose the base of dreg legions, while {@creature Bearded Devil||bearded devils} and {@creature Merregon|MPMM|merregons} make up the bulk of regular legions. Each legion sports a unique name, usually denoting its purpose and numerical designation. Examples include the following:",
 												{
 													"type": "list",
 													"items": [
@@ -10901,7 +10901,7 @@
 							"page": 81,
 							"id": "1b8",
 							"entries": [
-								"The gatehouse serves as the entrance to Fort Knucklebone. Six {@creature Redcap|VGM|redcaps} stand guard atop it. One redcap yells down at the characters as they approach, asking for the password. After a few moments, a different redcap says, \"We don't have a password!\" All the redcaps fall over in peals of mirth.",
+								"The gatehouse serves as the entrance to Fort Knucklebone. Six {@creature Redcap|MPMM|redcaps} stand guard atop it. One redcap yells down at the characters as they approach, asking for the password. After a few moments, a different redcap says, \"We don't have a password!\" All the redcaps fall over in peals of mirth.",
 								"The redcaps on guard duty give the characters a difficult time, asking them to do ridiculous things to gain entrance. After a few minutes, when the characters get fed up with the nonsense, the redcaps tell them to quit standing around like idiots and come inside.",
 								{
 									"type": "entries",
@@ -11123,7 +11123,7 @@
 									"page": 84,
 									"id": "1cb",
 									"entries": [
-										"Redcaps are murderous fey creatures that soak their caps in fresh blood. Madcaps are redcaps that drench their caps in demon ichor instead. {@creature Mad Maggie|BGDIA} currently commands sixty redcaps and thirty madcaps, although a third of them operate outside the fort, patrolling the areas of the wasteland controlled by {@creature Mad Maggie|BGDIA}. As battles deplete this force, {@creature Mad Maggie|BGDIA} has new redcaps delivered to her from the Feywild, courtesy of powerful fey with whom she has struck bargains. For this reason, the night hag has no concern for the well-being of her redcap and madcap minions. See {@adventure appendix D|BGDIA|13} for more information about {@creature Redcap|VGM|redcaps} and {@creature Redcap|VGM|madcaps}.",
+										"Redcaps are murderous fey creatures that soak their caps in fresh blood. Madcaps are redcaps that drench their caps in demon ichor instead. {@creature Mad Maggie|BGDIA} currently commands sixty redcaps and thirty madcaps, although a third of them operate outside the fort, patrolling the areas of the wasteland controlled by {@creature Mad Maggie|BGDIA}. As battles deplete this force, {@creature Mad Maggie|BGDIA} has new redcaps delivered to her from the Feywild, courtesy of powerful fey with whom she has struck bargains. For this reason, the night hag has no concern for the well-being of her redcap and madcap minions. See {@adventure appendix D|BGDIA|13} for more information about {@creature Redcap|MPMM|redcaps} and {@creature Redcap|MPMM|madcaps}.",
 										{
 											"type": "entries",
 											"name": "Redcap and Madcap Goals",
@@ -11521,7 +11521,7 @@
 							"page": 93,
 							"id": "1ec",
 							"entries": [
-								"If the characters free Jander or any of his companions, their bodies crumble to dust in grateful release. In response, twenty {@creature Stirge||stirges} attack the group. When the second round of combat begins, any crucified souls remaining on the trees wail in terror as Haruman, a {@creature narzugon|MTF}, swoops down from the sky on his {@creature nightmare} steed to punish the interlopers. He begins the encounter 300 feet away and orders the nightmare to close the distance between him and the adventurers as quickly as possible. As Haruman attacks, a {@creature hellwasp|BGDIA} appears from a nearby nest and tries to grab {@creature Lulu|BGDIA} and fly off with her (see \"Development\" below).",
+								"If the characters free Jander or any of his companions, their bodies crumble to dust in grateful release. In response, twenty {@creature Stirge||stirges} attack the group. When the second round of combat begins, any crucified souls remaining on the trees wail in terror as Haruman, a {@creature narzugon|MPMM}, swoops down from the sky on his {@creature nightmare} steed to punish the interlopers. He begins the encounter 300 feet away and orders the nightmare to close the distance between him and the adventurers as quickly as possible. As Haruman attacks, a {@creature hellwasp|BGDIA} appears from a nearby nest and tries to grab {@creature Lulu|BGDIA} and fly off with her (see \"Development\" below).",
 								{
 									"type": "image",
 									"href": {
@@ -11539,7 +11539,7 @@
 									"page": 93,
 									"id": "1ed",
 									"entries": [
-										"Haruman uses {@item infernal tack|MTF} to ride his nightmare."
+										"Haruman uses {@item infernal tack|MPMM} to ride his nightmare."
 									]
 								},
 								{
@@ -14029,7 +14029,7 @@
 						},
 						"A tunnel at the back of the skull leads to Tiamat's lair. The devils nesting within the skull, the abishai, are believed to carry out her bidding\u2014or perhaps guard over her prison on orders of Asmodeus.",
 						"From the depths of her lair, Tiamat can hear the prayers and pronouncements of faithful servants who call out to her from the maw of the colossal dragon skull. If the dragon queen chooses to reply, her five hissing voices issue from the darkness, amplified by the skull as they give commands and finish each other's sentences.",
-						"It would be madness to assault this location without an army. Abishai of all colors nest in the sulfurous caves behind the skull, and scores of {@creature white abishai|MTF} pour forth to counter any assault or invasion.",
+						"It would be madness to assault this location without an army. Abishai of all colors nest in the sulfurous caves behind the skull, and scores of {@creature white abishai|MPMM} pour forth to counter any assault or invasion.",
 						"The infernal war machine parked next to the tent is a {@vehicle Devil's Ride|BGDIA} belonging to {@creature Arkhan the Cruel|BGDIA}'s minotaur bodyguard, {@creature Torogar Steelfist|BGDIA}.",
 						{
 							"type": "image",
@@ -14048,7 +14048,7 @@
 							"id": "24f",
 							"entries": [
 								"The dragonborn {@creature Arkhan the Cruel|BGDIA} is in the tent along with his {@creature manticore} companion, Chango, and {@creature Torogar Steelfist|BGDIA}, his savage minotaur bodyguard. Arkhan visits the monument to commune with his queen and report on his ongoing battle of wills to master the {@item Hand of Vecna}, which came into his possession during a brief excursion to the world of Exandria.",
-								"If the characters approach Arkhan's encampment, the twelve {@creature white abishai|MTF} at the camp rush forward to intercept them. Characters accompanied by {@creature Krull|BGDIA} the tortle (see \"{@area Arkhan's Tower|247|x}\") or who have something Arkhan might consider valuable are permitted to approach his camp.",
+								"If the characters approach Arkhan's encampment, the twelve {@creature white abishai|MPMM} at the camp rush forward to intercept them. Characters accompanied by {@creature Krull|BGDIA} the tortle (see \"{@area Arkhan's Tower|247|x}\") or who have something Arkhan might consider valuable are permitted to approach his camp.",
 								"Arkhan believes he can use the {@item Hand of Vecna} to unlock the means of freeing Tiamat from her prison in the Nine Hells, but only if the hand doesn't kill him first. The hand is slowly corrupting Arkhan's flesh and decomposing his body on one side. To stave off this decline, Arkhan needs to use the {@item Hand of Vecna} to snuff the life out of good-aligned creatures. If the characters try to cut a deal with Arkhan\u2014for a vial of Tiamat's blood or help contacting the dragon queen herself\u2014Arkhan demands the sacrifice of a good-aligned creature in exchange. {@creature Lulu|BGDIA} is an ideal candidate, as is the unicorn Mooncolor (see \"{@area Demon Zapper|230|x}\"). Sacrificing such a creature to Arkhan is an evil act.",
 								"In battle, Arkhan uses {@spell branding smite} to channel the radiant power of Tiamat into his weapon attacks. If a fight turns against him, he uses the {@spell teleport} power of the {@item Hand of Vecna} to return to his tower with as many allies as possible. Should one or more of his comrades fall in battle, Arkhan uses {@spell revivify} and {@spell raise dead} spells to bring them back to life as soon as possible.",
 								"If Arkhan finds himself overwhelmed with opposition, he orders the abishai to attack. Arkhan can also use a bonus action to call forth Asojano, a {@creature chimera} lairing in the depths of the colossal dragon skull. This evil monster in the service of Tiamat considers Arkhan a friend and ally.",
@@ -14408,7 +14408,7 @@
 									"id": "25d",
 									"entries": [
 										"Balakros offers to lead the characters to an iron barge moored on the shore of the River Styx. An iron road leads from {@creature Bel|BGDIA}'s volcano to the barge, and it's patrolled by {@creature Bearded Devil||bearded devils} that won't attack the characters as long as Balakros is leading them. Lashed to the sides of the barge are demon skulls and bones. Characters who travel by barge must pass underneath the {@area Stygian Dock|285|x} on their way to the sibriex.",
-										"The barge is 30 feet long, 15 feet wide, and sturdy enough to transport up to two Huge infernal war machines. Twelve {@creature Merregon|MTF|merregons} under the command of a {@creature bone devil} named Krinjak operate the barge's oars. Krinjak's instructions are to take the characters where they need to go. Although it professes loyalty to {@creature Bel|BGDIA}, Krinjak is secretly a spy for Zariel. After taking the characters as close to the sibriex as the River Styx allows, it flies off to warn Zariel that the characters are working for {@creature Bel|BGDIA}."
+										"The barge is 30 feet long, 15 feet wide, and sturdy enough to transport up to two Huge infernal war machines. Twelve {@creature Merregon|MPMM|merregons} under the command of a {@creature bone devil} named Krinjak operate the barge's oars. Krinjak's instructions are to take the characters where they need to go. Although it professes loyalty to {@creature Bel|BGDIA}, Krinjak is secretly a spy for Zariel. After taking the characters as close to the sibriex as the River Styx allows, it flies off to warn Zariel that the characters are working for {@creature Bel|BGDIA}."
 									]
 								},
 								{
@@ -14441,7 +14441,7 @@
 								"A third, jackal-headed fiend uses a bronze horn to yell loudly at the bloated prisoner in multiple languages. It sits cross-legged about half-way up the scaffolding."
 							]
 						},
-						"{@creature Bel|BGDIA}'s fiends captured a {@creature sibriex|MTF} and have been torturing and interrogating it for quite a long time now. The sibriex is {@condition restrained} by infernal chains from {@creature Bel|BGDIA}'s forge that also prevent it from using its spells or actions to escape.",
+						"{@creature Bel|BGDIA}'s fiends captured a {@creature sibriex|MPMM} and have been torturing and interrogating it for quite a long time now. The sibriex is {@condition restrained} by infernal chains from {@creature Bel|BGDIA}'s forge that also prevent it from using its spells or actions to escape.",
 						{
 							"type": "image",
 							"href": {
@@ -14496,7 +14496,7 @@
 							"page": 118,
 							"id": "265",
 							"entries": [
-								"When a creature fails a saving throw against the sibriex's Warp Creature effect, you can roll percentile dice and consult the {@adventure Flesh Warping table|BGDIA|3|Flesh Warping} to determine an additional effect, which vanishes when Warp Creature ends on the creature. If the creature transforms into an {@creature abyssal wretch|MTF}, the effect becomes a permanent feature of that body.",
+								"When a creature fails a saving throw against the sibriex's Warp Creature effect, you can roll percentile dice and consult the {@adventure Flesh Warping table|BGDIA|3|Flesh Warping} to determine an additional effect, which vanishes when Warp Creature ends on the creature. If the creature transforms into an {@creature abyssal wretch|MPMM}, the effect becomes a permanent feature of that body.",
 								"A creature can willingly submit to flesh warping, an agonizing process that takes at least 1 hour while the creature stays within 30 feet of the sibriex. At the end of the process, roll once on the {@adventure Flesh Warping table|BGDIA|3|Flesh Warping} (or choose one effect) to determine how the creature is transformed permanently.",
 								{
 									"type": "entries",
@@ -15031,7 +15031,7 @@
 													"type": "list",
 													"items": [
 														"Two {@vehicle Devil's Ride|BGDIA|Devil's Rides}, one driven by {@creature Chukka|BGDIA} and the other by {@creature Clonk|BGDIA} (see \"{@area Chukka and Clonk|1c0|x}\"). Each kenku carries a small bag containing three {@item Soul Coin|BGDIA|soul coins}.",
-														"A {@vehicle Tormentor|BGDIA} crewed by Barnabas the {@creature flameskull} (using its {@spell mage hand} spell to drive) and three {@creature Redcap|VGM|redcaps}. Clinging to the vehicle's outer hull are six {@creature Redcap|VGM|madcaps}."
+														"A {@vehicle Tormentor|BGDIA} crewed by Barnabas the {@creature flameskull} (using its {@spell mage hand} spell to drive) and three {@creature Redcap|MPMM|redcaps}. Clinging to the vehicle's outer hull are six {@creature Redcap|MPMM|madcaps}."
 													]
 												},
 												"{@creature Mad Maggie|BGDIA} has sent this force to search the wreck for machine parts and other valuables. The {@vehicle Tormentor|BGDIA} and the {@vehicle Devil's Ride|BGDIA|Devil's Rides} have 12 hours of fuel remaining before they need more {@item Soul Coin|BGDIA|soul coins}.",
@@ -15347,7 +15347,7 @@
 							"id": "28d",
 							"entries": [
 								"A typical watchtower is a squat, 30-foot-tall, open-topped structure made of black basalt. Its other features are summarized below.",
-								"{@b Garrison}. Unless it has been abandoned, the tower is staffed by an {@creature amnizu|MTF} commander, a {@creature chain devil} subcommander, ten {@creature Bearded Devil||bearded devils} (each one with a {@creature hell hound} on the end of a short chain), and two {@creature Spined Devil||spined devils} (see \"{@area Watchtower Locations|28e|x}\" for how these devils are deployed).",
+								"{@b Garrison}. Unless it has been abandoned, the tower is staffed by an {@creature amnizu|MPMM} commander, a {@creature chain devil} subcommander, ten {@creature Bearded Devil||bearded devils} (each one with a {@creature hell hound} on the end of a short chain), and two {@creature Spined Devil||spined devils} (see \"{@area Watchtower Locations|28e|x}\" for how these devils are deployed).",
 								"{@b Bugles}. Each devil on watch duty is issued an iron bugle. Blowing the bugle is a bonus action that blasts a hideous drone audible within 300 feet.",
 								"{@b Exterior Grounds}. The ground is free of cover in a 60-foot radius around the tower.",
 								"{@b Wall Chains}. Barbed iron chains hang at 10-foot intervals down the exterior walls. These chains are part of the tower's defense, as the chain devil subcommander can animate them using its Animate Chains ability. Climbing a chain requires a successful {@dc 16} Strength ({@skill Athletics}) check.",
@@ -15556,7 +15556,7 @@
 									"page": 125,
 									"id": "291",
 									"entries": [
-										"The tower's {@creature amnizu|MTF} commander and a {@creature chain devil} subcommander reside here. These commanders enjoy having one or more sentient beings on hand to torture, to help alleviate boredom.",
+										"The tower's {@creature amnizu|MPMM} commander and a {@creature chain devil} subcommander reside here. These commanders enjoy having one or more sentient beings on hand to torture, to help alleviate boredom.",
 										{
 											"type": "insetReadaloud",
 											"id": "292",
@@ -15830,7 +15830,7 @@
 									"page": 130,
 									"id": "2a9",
 									"entries": [
-										"Fhet'Ahla, an {@creature amnizu|MTF}, provides {@creature Imp||imps} as couriers as well as a variety of spellcasting services for transmitting information over long distances. The more secure the means, however, the more expensive the service. Additionally, Fhet'Ahla acts as an exchange for {@item Soul Coin|BGDIA|soul coins}, offering 100 gp in coins or gemstones for each {@item soul coin|BGDIA} delivered, and can serve as an official notary for the signing of infernal contracts.",
+										"Fhet'Ahla, an {@creature amnizu|MPMM}, provides {@creature Imp||imps} as couriers as well as a variety of spellcasting services for transmitting information over long distances. The more secure the means, however, the more expensive the service. Additionally, Fhet'Ahla acts as an exchange for {@item Soul Coin|BGDIA|soul coins}, offering 100 gp in coins or gemstones for each {@item soul coin|BGDIA} delivered, and can serve as an official notary for the signing of infernal contracts.",
 										"Fhet'Ahla failed a critical mission at some point in the past and gained the disfavor of Asmodeus. As a punishment, Asmodeus posted him with Mahadi. While Fhet'Ahla doesn't owe Mahadi any kind of debt, he is on the wrong side of Asmodeus and has no idea how many centuries this service will last. The amnizu is also forbidden from challenging Mahadi's authority in all matters pertaining to the operation of the Wandering Emporium or any other special assignments the rakshasa receives from Asmodeus.",
 										{
 											"type": "entries",
@@ -16018,7 +16018,7 @@
 									"width": 381,
 									"height": 1000
 								},
-								"The pitiable figure in the cell is {@creature Thavius Kreeg|BGDIA}, now an {@creature amnizu|MTF}. If the characters met Thavius when he was human, they recognize him in his devil form with a successful {@dc 10} Wisdom ({@skill Perception}) check. The locked cell door can be forced open with a successful {@dc 25} Strength ({@skill Athletics}) check, or a character can use {@item thieves' tools|phb} to try to pick its lock, doing so with a successful {@dc 20} Dexterity check.",
+								"The pitiable figure in the cell is {@creature Thavius Kreeg|BGDIA}, now an {@creature amnizu|MPMM}. If the characters met Thavius when he was human, they recognize him in his devil form with a successful {@dc 10} Wisdom ({@skill Perception}) check. The locked cell door can be forced open with a successful {@dc 25} Strength ({@skill Athletics}) check, or a character can use {@item thieves' tools|phb} to try to pick its lock, doing so with a successful {@dc 20} Dexterity check.",
 								"Thavius poses no threat to the characters in his current predicament, and his shackles aren't long enough to let him get close to the cell door. Characters can kill him at range without even entering the cell, if they wish, by launching attacks through the bars. However, Thavius screams in agony whenever he takes damage, which might attract nearby patrols of bearded devils, at your discretion.",
 								"Once Elturel is pulled down into the River Styx, Thavius believes Zariel will set him free, but until then he's content to wallow in self-pity. He didn't expect to end up in the Nine Hells so soon. See {@adventure chapter 5|BGDIA|8} for more information on how to roleplay the devil Thavius.",
 								{
@@ -16214,7 +16214,7 @@
 												"A pool of blood fills the center of this chamber. Five goat-headed demons reeking of rot crouch along the edges of the pool, staring at a corpse floating in it."
 											]
 										},
-										"Five {@creature Bulezau|MTF|bulezaus} drowned a night hag in the pool. The hag, Yiggleblight, was working with Trantolox to find {@creature Crokek'toeck|BGDIA} until the nalfeshnee suspected the hag was secretly plotting against it. Trantolox ordered the bulezaus to kill the hag. They plan to eat her once the corpse bloats, but the characters make excellent appetizers.",
+										"Five {@creature Bulezau|MPMM|bulezaus} drowned a night hag in the pool. The hag, Yiggleblight, was working with Trantolox to find {@creature Crokek'toeck|BGDIA} until the nalfeshnee suspected the hag was secretly plotting against it. Trantolox ordered the bulezaus to kill the hag. They plan to eat her once the corpse bloats, but the characters make excellent appetizers.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -18099,7 +18099,7 @@
 												"Brass double doors stand exposed in the wall of the scab. A relief image on the doors depicts a blindfolded angel wielding a sword, and carved into the door frame are beautiful, gold-inlaid runes. Three goat-headed demons with barbed tails throw themselves against the door as a corpulent, ape-like fiend with tusks and tiny wings kicks at them, roaring commands in Abyssal."
 											]
 										},
-										"Trantolox, a {@creature nalfeshnee}, is commanding three {@creature Bulezau|MTF|bulezaus} to force open the double door that leads into the Bleeding Citadel. The nalfeshnee is desperate to get inside to claim the {@item Sword of Zariel|BGDIA} for Yeenoghu. Despite the bulezaus' best efforts, the doors refuse to budge (see \"Doors\" below).",
+										"Trantolox, a {@creature nalfeshnee}, is commanding three {@creature Bulezau|MPMM|bulezaus} to force open the double door that leads into the Bleeding Citadel. The nalfeshnee is desperate to get inside to claim the {@item Sword of Zariel|BGDIA} for Yeenoghu. Despite the bulezaus' best efforts, the doors refuse to budge (see \"Doors\" below).",
 										"The nalfeshnee doesn't attack the characters right away if it thinks it can trick them into opening the doors for it. The nalfeshnee suggests an alliance and an \"equal split\" of whatever treasure is hidden inside the citadel. If {@creature Lulu|BGDIA} is with the characters, she strongly advises them not to trust the demon. Trantolox has no intention of honoring the deal and claims to know nothing about the {@item Sword of Zariel|BGDIA}. In battle, the nalfeshnee fights until reduced to 60 hit points, then tries to flee the scab and report back to Yeenoghu. The insane bulezaus fight to the death.",
 										{
 											"type": "entries",
@@ -18634,7 +18634,7 @@
 												"A wild, hideous laugh pierces the air and cuts through the din of battle. A giant gnoll covered in matted, bloodstained fur and swinging a three-headed flail charges out of the haze from the west. Gore drips from his red maw, open in a violent laugh."
 											]
 										},
-										"{@creature Yeenoghu|MTF} attacks any creature not allied with him that he notices. If Yeenoghu doesn't notice any enemies, he attacks the statue of Zariel ({@area area I2|2f7|x}) before moving on to the temple ({@area area I3|2f8|x}).",
+										"{@creature Yeenoghu|MPMM} attacks any creature not allied with him that he notices. If Yeenoghu doesn't notice any enemies, he attacks the statue of Zariel ({@area area I2|2f7|x}) before moving on to the temple ({@area area I3|2f8|x}).",
 										{
 											"type": "entries",
 											"name": "Next Event",
@@ -18847,7 +18847,7 @@
 									"page": 148,
 									"id": "31e",
 									"entries": [
-										"{@creature Baphomet|MTF} and {@creature Yeenoghu|MTF} are fighting to claim Avernus for themselves, and {@creature Kostchtchie|BGDIA} (assuming the characters released him in {@area chapter 3|22a|x}) wants his hammer back. None of them can be trusted. Demon lords are savagery incarnate, and they take orders from no one.",
+										"{@creature Baphomet|MPMM} and {@creature Yeenoghu|MPMM} are fighting to claim Avernus for themselves, and {@creature Kostchtchie|BGDIA} (assuming the characters released him in {@area chapter 3|22a|x}) wants his hammer back. None of them can be trusted. Demon lords are savagery incarnate, and they take orders from no one.",
 										"The extent to which Baphomet, {@creature Kostchtchie|BGDIA}, and Yeenoghu are present in Avernus makes it easy for characters to commune with any of these demon lords using {@spell contact other plane} spells or similar magic."
 									]
 								},
@@ -18892,7 +18892,7 @@
 											"height": 900
 										},
 										"While the head of Zariel would be a grand trophy, a trophy isn't enough to sway Arkhan. The characters must convince him that he can rule Avernus in Zariel's stead, with Tiamat by his side and armies of abishai and infernal dragons at his back. After contemplating this notion, Arkhan raises the {@item Hand of Vecna} and boasts, \"With this hand, I shall tear Zariel's head from her shoulders and rule Avernus with my queen at my side.\"",
-										"Arkhan declares that he will muster an army and depose Zariel in ten days. Exactly ten days later, two hundred {@creature white abishai|MTF} fly from Arkhan's tower toward Zariel's current location, with Arkhan leading the charge on the back of Asojano the {@creature chimera}, and {@creature Torogar Steelfist|BGDIA} by his side, carried on the back of Chango the {@creature manticore}. Arkhan's army is bolstered by five chromatic dragons\u2014one adult dragon of each color\u2014sent by Tiamat to help ensure victory. If they so choose, the characters can join Arkhan. The abishai and the dragons engage Zariel's legions while Arkhan, Torogar, and the characters challenge the archdevil herself. This battle can play out as part of the \"{@area Endgame in Elturel|340|x}\" section described at the end of this chapter."
+										"Arkhan declares that he will muster an army and depose Zariel in ten days. Exactly ten days later, two hundred {@creature white abishai|MPMM} fly from Arkhan's tower toward Zariel's current location, with Arkhan leading the charge on the back of Asojano the {@creature chimera}, and {@creature Torogar Steelfist|BGDIA} by his side, carried on the back of Chango the {@creature manticore}. Arkhan's army is bolstered by five chromatic dragons\u2014one adult dragon of each color\u2014sent by Tiamat to help ensure victory. If they so choose, the characters can join Arkhan. The abishai and the dragons engage Zariel's legions while Arkhan, Torogar, and the characters challenge the archdevil herself. This battle can play out as part of the \"{@area Endgame in Elturel|340|x}\" section described at the end of this chapter."
 									]
 								}
 							]
@@ -19027,7 +19027,7 @@
 									"page": 152,
 									"id": "333",
 									"entries": [
-										"If the characters killed {@creature Thavius Kreeg|BGDIA} in Baldur's Gate, he crawled out of the River Styx as a {@creature lemure}. In accordance with the terms of their contract, Zariel promoted him to an {@creature amnizu|MTF}, then confined him in her fortress (see \"{@area Poor Devil: Thavius Kreeg|2b8|x}\"). If Thavius dies in the Nine Hells as a devil, he is permanently dead\u2014but this does not break the full terms of Zariel's contract. Even with the primary signatory dead, the people of Elturel remain bound to Zariel by the Creed Resolute.",
+										"If the characters killed {@creature Thavius Kreeg|BGDIA} in Baldur's Gate, he crawled out of the River Styx as a {@creature lemure}. In accordance with the terms of their contract, Zariel promoted him to an {@creature amnizu|MPMM}, then confined him in her fortress (see \"{@area Poor Devil: Thavius Kreeg|2b8|x}\"). If Thavius dies in the Nine Hells as a devil, he is permanently dead\u2014but this does not break the full terms of Zariel's contract. Even with the primary signatory dead, the people of Elturel remain bound to Zariel by the Creed Resolute.",
 										{
 											"type": "entries",
 											"name": "Killing Thavius",
@@ -19103,7 +19103,7 @@
 									"page": 153,
 									"id": "33a",
 									"entries": [
-										"{@creature Baphomet|MTF} and {@creature Yeenoghu|MTF} are both clear and present dangers to Avernus. Although Zariel would relish slaying either of them personally, she gladly draws up a contract agreeing to trade Elturel and the souls within the city for either demon lord's destruction. Delivering the glaive of Baphomet or the flail of Yeenoghu to her is sufficient to prove the characters' success.",
+										"{@creature Baphomet|MPMM} and {@creature Yeenoghu|MPMM} are both clear and present dangers to Avernus. Although Zariel would relish slaying either of them personally, she gladly draws up a contract agreeing to trade Elturel and the souls within the city for either demon lord's destruction. Delivering the glaive of Baphomet or the flail of Yeenoghu to her is sufficient to prove the characters' success.",
 										"If the characters agree to Zariel's terms, they learn that both demon lords have recently converged around Elturel. You can add either demon lord to the battle in \"{@area Endgame in Elturel|340|x}\" later in this chapter. If the characters freed the demon lord {@creature Kostchtchie|BGDIA} in {@area chapter 3|22a|x}, he can also make an appearance."
 									]
 								},
@@ -19178,7 +19178,7 @@
 					"id": "340",
 					"entries": [
 						"The material presented earlier in this chapter describes some of the ways the characters might accomplish the goals of redeeming Zariel and saving Elturel. Within the range of available options, you are free to determine the conditions under which those goals are met.",
-						"This section describes an epic event that can serve as the adventure's climax: Elturel being pulled down into the River Styx while Zariel and her forces battle an army of demons beneath the city. A demon lord\u2014either {@creature Baphomet|MTF} or {@creature Yeenoghu|MTF}\u2014has launched an all-out attack on Elturel before it's dragged into the River Styx. This section includes encounters that you can run to challenge the characters as they maneuver to confront Zariel. These encounters are suitable for a party of four 13th-level characters. If the party is weaker or stronger, adjust the encounters accordingly.",
+						"This section describes an epic event that can serve as the adventure's climax: Elturel being pulled down into the River Styx while Zariel and her forces battle an army of demons beneath the city. A demon lord\u2014either {@creature Baphomet|MPMM} or {@creature Yeenoghu|MPMM}\u2014has launched an all-out attack on Elturel before it's dragged into the River Styx. This section includes encounters that you can run to challenge the characters as they maneuver to confront Zariel. These encounters are suitable for a party of four 13th-level characters. If the party is weaker or stronger, adjust the encounters accordingly.",
 						{
 							"type": "entries",
 							"name": "Event 1: River's Edge",
@@ -22539,7 +22539,7 @@
 										],
 										[
 											"2.",
-											"{@creature Nupperibo|MTF}"
+											"{@creature Nupperibo|MPMM}"
 										]
 									]
 								},
@@ -22567,7 +22567,7 @@
 										],
 										[
 											"6.",
-											"{@creature Merregon|MTF}"
+											"{@creature Merregon|MPMM}"
 										],
 										[
 											"7.",
@@ -22595,7 +22595,7 @@
 									"rows": [
 										[
 											"10.",
-											"{@creature Orthon|MTF}"
+											"{@creature Orthon|MPMM}"
 										],
 										[
 											"11.",
@@ -22607,7 +22607,7 @@
 										],
 										[
 											"13.",
-											"{@creature Narzugon|MTF}"
+											"{@creature Narzugon|MPMM}"
 										],
 										[
 											"14.",
@@ -22615,7 +22615,7 @@
 										],
 										[
 											"15.",
-											"{@creature Amnizu|MTF}"
+											"{@creature Amnizu|MPMM}"
 										],
 										[
 											"16.",
@@ -22734,7 +22734,7 @@
 					"page": 213,
 					"id": "406",
 					"entries": [
-						"The limits of what a devil can offer are determined by its status in the infernal hierarchy. The {@area Infernal Hierarchy table|3ff|x} lists devils in ascending order of power, from lowly lemures to the mighty archdukes and archduchesses. (The orthon is included in this table for the sake of completeness, though orthons don't appear in this adventure or in the {@book Monster Manual|MM}. You can find out more about them in {@book Mordenkainen's Tome of Foes|MTF}.)",
+						"The limits of what a devil can offer are determined by its status in the infernal hierarchy. The {@area Infernal Hierarchy table|3ff|x} lists devils in ascending order of power, from lowly lemures to the mighty archdukes and archduchesses. (The orthon is included in this table for the sake of completeness, though orthons don't appear in this adventure or in the {@book Monster Manual|MM}. You can find out more about them in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}.)",
 						"Devils like to tempt mortals with treasure and magic items. Magic items bestowed by devils usually have a devilish cast to them. They're made of infernal iron, bear Infernal script, give off faint wails of torment, smell of brimstone, or have some other telltale sign (see the {@table Special Features; What Quirk Does It Have||What Quirk Does It Have? table} in chapter 7 of the {@book Dungeon Master's Guide|DMG} for examples).",
 						"Devils might also agree to serve mortals for a time, acting as advisors and bodyguards.",
 						{
@@ -23490,7 +23490,7 @@
 						"{@item Hellfire Weapon|BGDIA}",
 						"{@item Helm of Devil Command|BGDIA}",
 						"{@item Infernal Puzzle Box|BGDIA}",
-						"{@item Infernal Tack|MTF}",
+						"{@item Infernal Tack|MPMM}",
 						"{@item Matalotok|BGDIA}",
 						"{@item Obsidian Flint Dragon Plate|BGDIA}",
 						"{@item Shield of the Hidden Lord|BGDIA}",
@@ -23511,9 +23511,9 @@
 				{
 					"type": "list",
 					"items": [
-						"{@creature Amnizu|MTF}",
-						"{@creature Baphomet|MTF}",
-						"{@creature Bulezau|MTF}",
+						"{@creature Amnizu|MPMM}",
+						"{@creature Baphomet|MPMM}",
+						"{@creature Bulezau|MPMM}",
 						"{@creature Crokek'toeck|BGDIA}",
 						"{@creature Fist of Bane|BGDIA}",
 						"{@creature Iron Consul|BGDIA}",
@@ -23527,13 +23527,13 @@
 						"{@creature Fiendish Flesh Golem|BGDIA}",
 						"{@creature Hellwasp|BGDIA}",
 						"{@creature Hollyphant|BGDIA}",
-						"{@creature Merregon|MTF}",
-						"{@creature Narzugon|MTF}",
-						"{@creature Nupperibo|MTF}",
-						"{@creature Redcap|VGM}",
+						"{@creature Merregon|MPMM}",
+						"{@creature Narzugon|MPMM}",
+						"{@creature Nupperibo|MPMM}",
+						"{@creature Redcap|MPMM}",
 						"{@creature Tressym|BGDIA}",
-						"{@creature White Abishai|MTF}",
-						"{@creature Yeenoghu|MTF}",
+						"{@creature White Abishai|MPMM}",
+						"{@creature Yeenoghu|MPMM}",
 						"{@creature Archduke Zariel of Avernus|BGDIA|Zariel}"
 					],
 					"columns": 4
@@ -24102,7 +24102,7 @@
 							"type": "item",
 							"name": "The following D&D books provided material and inspiration",
 							"entries": [
-								"Greenwood, Ed, Matt Sernett, Alexander Winter, and Steve Winter. Murder in Baldur's Gate. 2013. Greenwood, Ed, and others. Lords of Darkness. 1988. Kenson, Steve, and others. Sword Coast Adventurer's Guide. 2015. Mearls, Mike, Jeremy Crawford, and others. Mordenkainen's Tome of Foes. 2018. Volo's Guide to Monsters. 2016. Perkins, Christopher, Will Doyle, and Steve Winter. Tomb of Annihilation. 2017."
+								"Greenwood, Ed, Matt Sernett, Alexander Winter, and Steve Winter. Murder in Baldur's Gate. 2013. Greenwood, Ed, and others. Lords of Darkness. 1988. Kenson, Steve, and others. Sword Coast Adventurer's Guide. 2015. Mearls, Mike, Jeremy Crawford, and others. Mordenkainen Presents: Monsters of the Multiverse. 2022. Perkins, Christopher, Will Doyle, and Steve Winter. Tomb of Annihilation. 2017."
 							]
 						},
 						"Vanthampur Villa was inspired by a building design by Dean Turner",

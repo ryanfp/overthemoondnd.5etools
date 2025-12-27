@@ -728,7 +728,7 @@
 							"page": 5,
 							"id": "00c",
 							"entries": [
-								"The Yawning Portal serves as the default starting point for this story. One of the first people the adventurers meet there is Volothamp Geddarm. He has just returned from a tour promoting his latest book, {@book Volo's Guide to Monsters|vgm}, and he has a quest for the characters.",
+								"The Yawning Portal serves as the default starting point for this story. One of the first people the adventurers meet there is Volothamp Geddarm. He has just returned from a tour promoting his latest book, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, and he has a quest for the characters.",
 								"One of Volo's friends, a handsome simpleton named {@creature Floon Blagmaar|WDH}, has disappeared, seemingly kidnapped. The search for Floon leads to the revelation that he was caught up in a case of mistaken identity, and the characters are actually looking for two victims. The intended target was Lord Neverember's estranged son, {@creature Renaer Neverember|wdh}. Agents of the Zhentarim waylaid him because they want to know everything that Renaer knows about the cache of dragons. (Unfortunately for them, Renaer is ignorant of the cache and its whereabouts). If the characters rescue him, Renaer proves to be a worthy ally to adventurers hoping to make a name for themselves in Waterdeep.",
 								"As a reward for rescuing Floon, Volo gives adventurers the deed to a building in the North Ward that looks out onto a wide cul-de-sac hemmed in by old residences and shops. The property used to be a tavern with a residence on the upper floors. The tavern has been closed for years, and the residence is haunted by a poltergeist that the characters can lay to rest."
 							]
@@ -1616,7 +1616,7 @@
 									"items": [
 										"The Harpers make common and uncommon potions and scrolls available to the adventurers at a reduced or deferred cost depending on the circumstances.",
 										"{@creature Remallia Haventree|wdh} (see {@adventure appendix B|WDH|12}) feeds useful bits of information to the adventurers and might also offer them temporary shelter.",
-										"If the adventurers are accosted and overwhelmed, one or more Harpers come to their rescue. A Harper rescue team usually consists of a {@creature bard|vgm} (see {@adventure appendix B|WDH|12}) or a {@creature mage}, plus {@dice 1d4 + 3} {@creature spy||spies} or {@creature veteran||veterans}."
+										"If the adventurers are accosted and overwhelmed, one or more Harpers come to their rescue. A Harper rescue team usually consists of a {@creature bard|MPMM} (see {@adventure appendix B|WDH|12}) or a {@creature mage}, plus {@dice 1d4 + 3} {@creature spy||spies} or {@creature veteran||veterans}."
 									]
 								}
 							]
@@ -1677,7 +1677,7 @@
 									"items": [
 										"Any member given an assignment might receive a monstrous bodyguard or assistant (such as a {@creature bugbear}, a {@creature kenku}, or a {@creature wererat}), who has secret instructions to kill the guild member if they fail to complete the assignment as ordered.",
 										"The guild grants access to secret tunnels and safe houses (hidden cellars) underneath Waterdeep.",
-										"{@creature Xanathar|WDH} might send a {@creature gazer|vgm} (see {@adventure appendix B|WDH|12}) to help (and spy on) an up-and-coming guild member."
+										"{@creature Xanathar|WDH} might send a {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}) to help (and spy on) an up-and-coming guild member."
 									]
 								}
 							]
@@ -1922,7 +1922,7 @@
 										"\"My friend's name is {@creature Floon Blagmaar|WDH}. He's got more beauty than brains, and I worry he took a bad way home a couple nights ago and was kidnapped-or worse. If you agree to track him down with all due haste, I can offer you ten dragons apiece now, and I can give you each ten times that when you find Floon. May I prevail upon you in my hour of need?\""
 									]
 								},
-								"Volo gives each character a small pouch containing 10 gp simply for accepting his quest. Characters who want to discover his intentions must make a {@dc 10} Wisdom (Insight) check. On a success, a character discerns that Volo is honest but might be stretching the truth about how much he can pay. (Currently low on cash, Volo is awaiting royalty payments from {@book Volo's Guide to Monsters|vgm}. To make more coin, he began work on a new book, {@i Volo's Guide to Spirits and Specters}. As it happens, his knowledge of spirits mostly concerns the alcoholic variety, and the writing has not been going well.) If pressed, Volo urges the characters to trust him, and promises he'll have the rest of the reward, 100 gp per character, ready to deliver once Floon is returned to him alive.",
+								"Volo gives each character a small pouch containing 10 gp simply for accepting his quest. Characters who want to discover his intentions must make a {@dc 10} Wisdom (Insight) check. On a success, a character discerns that Volo is honest but might be stretching the truth about how much he can pay. (Currently low on cash, Volo is awaiting royalty payments from {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. To make more coin, he began work on a new book, {@i Volo's Guide to Spirits and Specters}. As it happens, his knowledge of spirits mostly concerns the alcoholic variety, and the writing has not been going well.) If pressed, Volo urges the characters to trust him, and promises he'll have the rest of the reward, 100 gp per character, ready to deliver once Floon is returned to him alive.",
 								"Volo describes Floon as a handsome human male in his early thirties with wavy red-blond hair. He was dressed in princely garb when Volo last saw him. Two nights ago, before Floon disappeared, he and Volo were drinking and merrymaking at the Skewered Dragon, a dark, bawdy tavern in the Dock Ward. Volo recommends that the characters start their search there.",
 								{
 									"type": "entries",
@@ -2506,7 +2506,7 @@
 												"After an hour of following signs through the tunnels, you come to a three-way intersection where a ladder leads up into a stone shaft capped by a circular metal cover. One of the familiar chalk symbols is marked on a wall nearby, and floating near the symbol is a spherical, grapefruit-sized creature with a bulging central eye and four stumpy eyestalks. It bares its teeth at you."
 											]
 										},
-										"A hostile {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}) that is in league with {@creature Grum'shar|wdh}, the local Xanathar Guild boss, guards this intersection. Once the characters defeat it, they can press on, following the corridor where the chalk symbol is located; they reach the hideout after following the correct tunnel for 5 minutes.",
+										"A hostile {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}) that is in league with {@creature Grum'shar|wdh}, the local Xanathar Guild boss, guards this intersection. Once the characters defeat it, they can press on, following the corridor where the chalk symbol is located; they reach the hideout after following the correct tunnel for 5 minutes.",
 										{
 											"type": "entries",
 											"name": "Ladder",
@@ -3078,7 +3078,7 @@
 						},
 						"The tentacled creature is {@creature Nihiloor|WDH} (see {@adventure appendix B|WDH|12}), a {@creature mind flayer} that is caressing an {@creature intellect devourer}. Upon seeing the adventurers, {@creature Nihiloor|WDH} rises from the stone chair, sets its pet down, and glides across the room, intending to leave through the double door in the west wall. The mind flayer expects {@creature Grum'shar|wdh} and the intellect devourer to cover its escape.",
 						"{@creature Nihiloor|WDH} carries a 3-inch-diameter stone orb carved to resemble an eyeball, similar to what one might see at the end of a beholder's eyestalk. This stone eye is the key to activating the magic portal in {@area Q11|089}. The mind flayer uses it to return to {@creature Xanathar|WDH}'s lair (described in chapter 5). It uses {@spell dominate monster} to control someone who gets in its way and turns any such individuals against their allies.",
-						"The half-orc is {@creature Grum'shar|WDH}, a low-end Xanathar Guild boss. As soon as his minions retrieved who they thought was {@creature Renaer Neverember|wdh}, the half-orc begged {@creature Nihiloor|WDH} let him witness the interrogation of the captive, not realizing until after he did so that he had mistaken the prisoner's identity. {@creature Grum'shar|WDH} attacks the characters in the hope of salvaging his reputation. He is an {@creature apprentice wizard|VGM} (see {@adventure appendix B|WDH|12}), with these changes:",
+						"The half-orc is {@creature Grum'shar|WDH}, a low-end Xanathar Guild boss. As soon as his minions retrieved who they thought was {@creature Renaer Neverember|wdh}, the half-orc begged {@creature Nihiloor|WDH} let him witness the interrogation of the captive, not realizing until after he did so that he had mistaken the prisoner's identity. {@creature Grum'shar|WDH} attacks the characters in the hope of salvaging his reputation. He is an {@creature apprentice wizard|MPMM} (see {@adventure appendix B|WDH|12}), with these changes:",
 						{
 							"type": "list",
 							"items": [
@@ -4126,7 +4126,7 @@
 												[
 													"3rd",
 													"\"Uza Solizeph is an old woman who sells books out of a narrow three-story building on Sorn Street in the Trades Ward. She claims to have trapped a monster in her shop and fears for the welfare of her books and her cat. The City Watch isn't likely to lend a hand, given Uza's propensity for tall tales, but the Harpers owe her a favor. You'll find her sobbing at Felzoun's Folly, a tavern on the corner of Sorn Street and Salabar Street. Make haste!\"",
-													"Uza (LG female human Mulan {@creature commoner}) describes the threat as a \"monstrous orb of many eyes\" that chased her cat, Fillipa, into the shop. The monster is, in fact, a {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}). If the characters met a gazer in chapter 1, they know what they're up against. Uza lends them the keys to the front and back doors of her shop. Characters find the interior in shambles and hear a cat meowing on the third floor. The sounds are coming from the gazer, which is hunting Fillipa. The cat has so far eluded the nasty little predator. {@i Reward}: Each Harper character gains 1 renown if the gazer is defeated. Uza also gives the party a used spellbook containing four {@filter 1st-level|spells|class=wizard|level=1} and three {@filter 2nd-level|spells|class=wizard|level=2} wizard spells."
+													"Uza (LG female human Mulan {@creature commoner}) describes the threat as a \"monstrous orb of many eyes\" that chased her cat, Fillipa, into the shop. The monster is, in fact, a {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}). If the characters met a gazer in chapter 1, they know what they're up against. Uza lends them the keys to the front and back doors of her shop. Characters find the interior in shambles and hear a cat meowing on the third floor. The sounds are coming from the gazer, which is hunting Fillipa. The cat has so far eluded the nasty little predator. {@i Reward}: Each Harper character gains 1 renown if the gazer is defeated. Uza also gives the party a used spellbook containing four {@filter 1st-level|spells|class=wizard|level=1} and three {@filter 2nd-level|spells|class=wizard|level=2} wizard spells."
 												],
 												[
 													"4th",
@@ -7434,7 +7434,7 @@
 									"id": "155",
 									"entries": [
 										"This windowless house is occupied by two Zhents loyal to {@creature Manshoon|WDH}-the same individuals that Sora describes. Their names are Avareen Windrivver (LE female Illuskan human {@creature spy}) and Zorbog Jyarkoth (NE male Turami human {@creature thug}).",
-										"When the characters first enter the alley, Avareen is in the front doorway of the house, handing the {@item Stone of Golorr|WDH} to a high-ranking Zhent named Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}). Zorbog is stoking a fire in the fireplace while quietly observing the transaction. With stone in hand, Vevette scrambles up to the rooftops, leaving Avareen and Zorbog to deal with the survivors of the conflict between the characters and the bugbears.",
+										"When the characters first enter the alley, Avareen is in the front doorway of the house, handing the {@item Stone of Golorr|WDH} to a high-ranking Zhent named Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}). Zorbog is stoking a fire in the fireplace while quietly observing the transaction. With stone in hand, Vevette scrambles up to the rooftops, leaving Avareen and Zorbog to deal with the survivors of the conflict between the characters and the bugbears.",
 										"Gagged and tied to a chair in the back room of the house is a known member of the Xanathar Guild-a shield dwarf who wears a leather skullcap stitched with fake beholder eyestalks. The dwarf, {@creature Ott Steeltoes|wdh} (see {@adventure appendix B|WDH|12}), was captured while buying fish food in a Dock Ward market. After the Zhents interrogated Ott, it became clear to them that {@creature Xanathar|WDH} would want him back. He is being held until a ransom is paid, but {@creature Xanathar|WDH} has learned where he is being kept. Any bugbears that survived the initial attack try to rescue Ott, while Avareen and Zorbog do their best to fight them off. If Ott is set free, he runs back to the waiting eyestalks of his insane beholder master. Characters who follow him are led straight to {@creature Xanathar|WDH}'s lair (see chapter 5)."
 									]
 								},
@@ -7779,7 +7779,7 @@
 									"page": 67,
 									"id": "160",
 									"entries": [
-										"As the characters leave Mistshore, a {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}) begins to follow them, staying at least 60 feet away. {@creature Xanathar|WDH} uses it to spy on the characters. Characters who have a passive Perception score of 15 or higher can spot the gazer shortly after the party enters the City of the Dead. The gazer defends itself if attacked."
+										"As the characters leave Mistshore, a {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}) begins to follow them, staying at least 60 feet away. {@creature Xanathar|WDH} uses it to spy on the characters. Characters who have a passive Perception score of 15 or higher can spot the gazer shortly after the party enters the City of the Dead. The gazer defends itself if attacked."
 									]
 								},
 								{
@@ -7865,7 +7865,7 @@
 									"page": 68,
 									"id": "169",
 									"entries": [
-										"Pick one of the unmarked buildings on map 4.2 to serve as the Fuoco residence. Agorn Fuoco (NE male Turami {@creature bard|VGM}; see {@adventure appendix B|WDH|12}) is inside, trying to smother his bedridden mother, Marta (N female Turami human {@creature commoner} with 1 hit point), with a sack she uses as a pillowcase. With tears born of joy and sadness streaming down his face, Agorn is cutting loose his old family ties and embracing his new family: the Zhentarim. The characters can stop him from committing matricide by pulling him away from his mother before she suffocates.",
+										"Pick one of the unmarked buildings on map 4.2 to serve as the Fuoco residence. Agorn Fuoco (NE male Turami {@creature bard|MPMM}; see {@adventure appendix B|WDH|12}) is inside, trying to smother his bedridden mother, Marta (N female Turami human {@creature commoner} with 1 hit point), with a sack she uses as a pillowcase. With tears born of joy and sadness streaming down his face, Agorn is cutting loose his old family ties and embracing his new family: the Zhentarim. The characters can stop him from committing matricide by pulling him away from his mother before she suffocates.",
 										"Agorn was moved to perpetrate this act by the play he saw at the theater and by his lady friend, Amath Sercent, to whom he entrusted the Stone of Golorr. He won't give up her location willingly, though magic can be used to pry the information from his lips. Characters can also speak to the hire-coach driver, Rowan Evenwood, who dropped off Agorn's lady friend before transporting Agorn to Mistshore. Amath lives in an old tower in the Castle Ward called Yellowspire."
 									]
 								},
@@ -7965,7 +7965,7 @@
 							"page": 69,
 							"id": "173",
 							"entries": [
-								"After leaving the theater, the characters resume their pursuit of the elusive Zhent spy, Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}). She leads them on a merry chase through snowy streets until she is finally caught or until the characters give up the chase. She starts 30 feet away from the characters. If forced to make an ability check or saving throw because of a chase complication, she has advantage on the roll. Also, she can use the Dash action during the chase without having to make Constitution checks to avoid {@condition exhaustion}.",
+								"After leaving the theater, the characters resume their pursuit of the elusive Zhent spy, Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}). She leads them on a merry chase through snowy streets until she is finally caught or until the characters give up the chase. She starts 30 feet away from the characters. If forced to make an ability check or saving throw because of a chase complication, she has advantage on the roll. Also, she can use the Dash action during the chase without having to make Constitution checks to avoid {@condition exhaustion}.",
 								{
 									"type": "entries",
 									"name": "Where's the Stone?",
@@ -8779,7 +8779,7 @@
 							"page": 72,
 							"id": "18d",
 							"entries": [
-								"A Zhent named Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}) has snatched the {@item Stone of Golorr|WDH} and is fleeing as fast as she can across icy rooftops during a blizzard. Characters who intend to pursue her are 60 feet away from their quarry at the start of the chase and must also take to the rooftops or lose sight of her.",
+								"A Zhent named Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}) has snatched the {@item Stone of Golorr|WDH} and is fleeing as fast as she can across icy rooftops during a blizzard. Characters who intend to pursue her are 60 feet away from their quarry at the start of the chase and must also take to the rooftops or lose sight of her.",
 								"Vevette was a vicious pirate before she joined the Zhentarim and rose to become one of {@creature Manshoon|WDH}'s favored lieutenants. She cackles madly in the face of danger and loves a good chase. She knows the streets, alleys, and rooftops of Waterdeep well. If forced to make an ability check or a saving throw because of a chase complication, she has advantage on the roll. Also, she can take the Dash action during the chase without having to make Constitution checks to avoid {@condition exhaustion}.",
 								{
 									"type": "entries",
@@ -9276,7 +9276,7 @@
 							"id": "19a",
 							"entries": [
 								"The name of the Pink Flumph theater is displayed on a sign mounted to the building's facade. Posters on the outside walls advertise the latest shows, {@i Meet the Goodberrys} and {@i Kiss of the Lamia}. The former is a comical glimpse into the travails of a large halfling family engaged in illicit criminal activity. The latter is a tragic play about an evil Mulhorandi prince who is banished to a desert, {@condition charmed} by a lamia, and sent back with powerful magic items to conquer his homeland in her name.",
-								"In the early hours of the morning, the backstage area is abuzz with halfling actors donning costumes, wigs, and makeup in preparation for the afternoon's show. As that show wraps, the cast and musicians for the evening's tragic fare arrive. The actor who plays the evil prince is a woman named Yaliek Iltizmar (N female Rashemi {@creature bard|VGM}; see {@adventure appendix B|WDH|12}), who is also a member of the Harpers. She pays close attention to characters who nose around backstage, then shares any interesting revelations with {@creature Remallia Haventree|WDH} (see {@adventure appendix B|WDH|12}) at the earliest opportunity. If Remallia learns the location of the Vault of Dragons, she sees that the information reaches the Lords of Waterdeep by conveying it to {@creature Mirt|WDH}.",
+								"In the early hours of the morning, the backstage area is abuzz with halfling actors donning costumes, wigs, and makeup in preparation for the afternoon's show. As that show wraps, the cast and musicians for the evening's tragic fare arrive. The actor who plays the evil prince is a woman named Yaliek Iltizmar (N female Rashemi {@creature bard|MPMM}; see {@adventure appendix B|WDH|12}), who is also a member of the Harpers. She pays close attention to characters who nose around backstage, then shares any interesting revelations with {@creature Remallia Haventree|WDH} (see {@adventure appendix B|WDH|12}) at the earliest opportunity. If Remallia learns the location of the Vault of Dragons, she sees that the information reaches the Lords of Waterdeep by conveying it to {@creature Mirt|WDH}.",
 								{
 									"type": "entries",
 									"name": "Theater Owner",
@@ -9380,8 +9380,8 @@
 									"page": 76,
 									"id": "1a5",
 									"entries": [
-										"After a harrowing rooftop chase, Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}) has bought a ticket and slipped into the theater during a performance of {@i Blood Wedding} -a play about love, jealousy, and death. In the story, a young woman is brought to a castle by a count, only to fall in love with his younger brother, a man of faith. Her betrayal eats away at the jealous count. He murders his brother on his wedding day and pursues the bride, who hurls herself off the castle battlements in despair. The count is cursed by the gods and transformed into a creature of darkness, damned to live in his castle and feed on blood. A female cellist and two male violinists provide musical accompaniment.",
-										"The shivering audience includes thirty {@creature commoner||commoners}. Also present is a Zhentarim spy named Agorn Fuoco (NE male Turami {@creature bard|VGM}; see {@adventure appendix B|WDH|12}) and his companion, Amath Sercent (LE female Mulan {@creature priest} of Bane). Agorn is swept up in the drama and fighting back tears while Amath pats his arm gently. Vevette takes a seat behind them and surreptitiously passes the {@item Stone of Golorr|WDH} to Agorn. Looking on from the back row is {@creature Remallia Haventree|WDH} (see {@adventure appendix B|WDH|12}), a member of the Harpers who suspects Agorn of being a high-ranking Zhent. She has been watching him for a while now, hoping to identify other Zhentarim leaders in Waterdeep. Although Remallia appears to be alone, the two violinists (LG male Illuskan human {@creature spy||spies} with Performance +5) are Harpers under her command. Agorn and Amath are unaware that they're under surveillance."
+										"After a harrowing rooftop chase, Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}) has bought a ticket and slipped into the theater during a performance of {@i Blood Wedding} -a play about love, jealousy, and death. In the story, a young woman is brought to a castle by a count, only to fall in love with his younger brother, a man of faith. Her betrayal eats away at the jealous count. He murders his brother on his wedding day and pursues the bride, who hurls herself off the castle battlements in despair. The count is cursed by the gods and transformed into a creature of darkness, damned to live in his castle and feed on blood. A female cellist and two male violinists provide musical accompaniment.",
+										"The shivering audience includes thirty {@creature commoner||commoners}. Also present is a Zhentarim spy named Agorn Fuoco (NE male Turami {@creature bard|MPMM}; see {@adventure appendix B|WDH|12}) and his companion, Amath Sercent (LE female Mulan {@creature priest} of Bane). Agorn is swept up in the drama and fighting back tears while Amath pats his arm gently. Vevette takes a seat behind them and surreptitiously passes the {@item Stone of Golorr|WDH} to Agorn. Looking on from the back row is {@creature Remallia Haventree|WDH} (see {@adventure appendix B|WDH|12}), a member of the Harpers who suspects Agorn of being a high-ranking Zhent. She has been watching him for a while now, hoping to identify other Zhentarim leaders in Waterdeep. Although Remallia appears to be alone, the two violinists (LG male Illuskan human {@creature spy||spies} with Performance +5) are Harpers under her command. Agorn and Amath are unaware that they're under surveillance."
 									]
 								},
 								{
@@ -9676,7 +9676,7 @@
 									"page": 78,
 									"id": "1b6",
 									"entries": [
-										"When the characters finally obtain the {@item Stone of Golorr|WDH}, three {@creature gazer|VGM|gazers} (see {@adventure appendix B|WDH|12}) enter {@area O3|1ac} through the arrow slits and attack. They try to incapacitate whichever character has the stone and use their telekinetic rays to steal it. If successful, the gazers take the stone to a nearby alley."
+										"When the characters finally obtain the {@item Stone of Golorr|WDH}, three {@creature gazer|MPMM|gazers} (see {@adventure appendix B|WDH|12}) enter {@area O3|1ac} through the arrow slits and attack. They try to incapacitate whichever character has the stone and use their telekinetic rays to steal it. If successful, the gazers take the stone to a nearby alley."
 									]
 								},
 								{
@@ -11903,7 +11903,7 @@
 							"id": "1f5",
 							"entries": [
 								"The characters have learned that a halfling necromancer named {@creature Losser Mirklav|wdh} took the {@item Stone of Golorr|WDH}. He lives in a cellar complex under a powdered wig shop in the Trades Ward. The shop, Dandymops, is closed and locked with an iron gate. The lock can be picked by a character who makes a successful {@dc 15} Dexterity check using thieves' tools, or the gate can be forced open with a successful {@dc 25} Strength (Athletics) check. Since the shop is in a highly visible location, an attempt to break into it is 75 percent likely to be noticed by someone who alerts the City Watch. Two {@creature veteran||veterans} of the City Watch arrive in {@dice 1d10} minutes to investigate the shop and talk to witnesses.",
-								"{@creature Xanathar|WDH}'s {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}) doesn't follow characters into the shop. It remains outside and waits for Xanathar Guild forces to arrive. If the characters destroyed the gazer in an earlier encounter, another one arrives with the Xanathar Guild forces.",
+								"{@creature Xanathar|WDH}'s {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}) doesn't follow characters into the shop. It remains outside and waits for Xanathar Guild forces to arrive. If the characters destroyed the gazer in an earlier encounter, another one arrives with the Xanathar Guild forces.",
 								{
 									"type": "entries",
 									"name": "Dungeon Entrance",
@@ -11956,7 +11956,7 @@
 									"id": "1f9",
 									"entries": [
 										"Before the characters reach Losser, kenku members of the Xanathar Guild break down the door leading into the cellar complex via {@area B8|1ea} and confront the necromancer. The characters find Losser cowering in one corner of {@area B7|1e8}. Two {@creature skeleton||skeletons} stand between him and three {@creature kenku}. The kenku aim to kill the halfling. Lying on the floor around them are four dead kenku and the remains of two destroyed (and previously animated) skeletons.",
-										"If the characters demand the {@item Stone of Golorr|WDH}, Losser tells them the truth: he surrendered it to the kenku, two of which fled south with it. In {@area B8|1ea}, the characters see one {@creature kenku} standing over the bodies of Losser's murdered human apprentices, Retchyn and Kreela. This kenku is joined by {@creature Xanathar|WDH}'s {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}). The kenku and the gazer try to hold off the characters for as long as possible, buying time for a second kenku to flee with the Stone of Golorr.",
+										"If the characters demand the {@item Stone of Golorr|WDH}, Losser tells them the truth: he surrendered it to the kenku, two of which fled south with it. In {@area B8|1ea}, the characters see one {@creature kenku} standing over the bodies of Losser's murdered human apprentices, Retchyn and Kreela. This kenku is joined by {@creature Xanathar|WDH}'s {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}). The kenku and the gazer try to hold off the characters for as long as possible, buying time for a second kenku to flee with the Stone of Golorr.",
 										"If the characters pursue the stone and leave Losser alive, he eventually slips away and retreats to {@area B11|1f2}."
 									]
 								},
@@ -12048,7 +12048,7 @@
 										],
 										[
 											"B7",
-											"3 {@creature duergar} and 1 {@creature gazer|vgm} (see {@adventure appendix B|WDH|12}) standing guard while {@creature Thorvin Twinbeard|wdh} (see {@adventure appendix B|WDH|12}) works on a mechanical beholder (see \"Mechanical Beholder\" below)"
+											"3 {@creature duergar} and 1 {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}) standing guard while {@creature Thorvin Twinbeard|wdh} (see {@adventure appendix B|WDH|12}) works on a mechanical beholder (see \"Mechanical Beholder\" below)"
 										],
 										[
 											"B8",
@@ -13420,7 +13420,7 @@
 									"id": "218",
 									"entries": [
 										"{@creature Kalain|wdh} spends most of her time in {@area W5|20b}, which serves as her studio. It contains moldy scraps of food, empty pots stained with colored paint, discarded brushes, and her easel, which is situated in front of a large, lead-paned window in the north wall. Upon the easel rests a fresh painting of a {@creature displacer beast}. If the characters confront her, {@creature Kalain|WDH} accuses them of being assassins, brings the displacer beast to life, and commands it to attack them.",
-										"{@creature Kalain|WDH} is a half-elf {@creature bard|VGM} (see {@adventure appendix B|WDH|12}), with these changes:",
+										"{@creature Kalain|WDH} is a half-elf {@creature bard|MPMM} (see {@adventure appendix B|WDH|12}), with these changes:",
 										{
 											"type": "list",
 											"items": [
@@ -13559,7 +13559,7 @@
 								"{@creature Xanathar|WDH} sends either five {@creature goblin||goblins} dressed up as children wearing Trolltide masks and a {@creature bugbear} ({@chance 70|70 percent chance}), or four {@creature wererat||wererats} in human form ({@chance 30|30 percent chance}).",
 								"The Cassalanters send two {@creature imp||imps} in raven form, three human {@creature cultist||cultists}, and either a human {@creature cult fanatic} ({@chance 70|70 percent chance}), or four {@creature spined devil||spined devils} ({@chance 30|30 percent chance}).",
 								"{@creature Jarlaxle Baenre|WDH} sends {@creature Fel'rekt Lafeen|WDH} and {@creature Krebbyg Masq'il'yr|WDH}, or two other Bregan D'aerthe {@creature drow gunslinger|WDH|drow gunslingers} (see {@adventure appendix B|WDH|12}), and six {@creature drow}.",
-								"{@creature Manshoon|WDH} sends four Zhent {@creature martial arts adept|VGM|martial arts adepts} (see {@adventure appendix B|WDH|12}). There's a {@chance 50|50 percent chance} that these Zhents are led by one of {@creature Manshoon|WDH}'s lieutenants, either Vevette Blackwater or Agorn Fuoco, if they're still alive (see chapter 8, {@area E8|425})."
+								"{@creature Manshoon|WDH} sends four Zhent {@creature martial arts adept|MPMM|martial arts adepts} (see {@adventure appendix B|WDH|12}). There's a {@chance 50|50 percent chance} that these Zhents are led by one of {@creature Manshoon|WDH}'s lieutenants, either Vevette Blackwater or Agorn Fuoco, if they're still alive (see chapter 8, {@area E8|425})."
 							]
 						},
 						{
@@ -14890,10 +14890,10 @@
 								{
 									"type": "list",
 									"items": [
-										"If {@creature Xanathar|WDH} is the main villain, {@creature Noska Ur'gray|wdh} (see {@adventure appendix B|WDH|12}) arrives with six {@creature bugbear||bugbears} and a {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}). If Noska is dead or otherwise indisposed, the beholder replaces him with {@creature Nar'l Xibrindas|wdh} (see {@adventure appendix B|WDH|12}) and his {@creature grell} bodyguard.",
+										"If {@creature Xanathar|WDH} is the main villain, {@creature Noska Ur'gray|wdh} (see {@adventure appendix B|WDH|12}) arrives with six {@creature bugbear||bugbears} and a {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}). If Noska is dead or otherwise indisposed, the beholder replaces him with {@creature Nar'l Xibrindas|wdh} (see {@adventure appendix B|WDH|12}) and his {@creature grell} bodyguard.",
 										"If the Cassalanters are the villains, they send three {@creature cult fanatic||cult fanatics} and three {@creature cultist||cultists}. Victoro's {@creature doppelganger} manservant, {@creature Willifort Crowelle|WDH}, leads the group in his tiefling guise unless the characters killed him or otherwise disposed of him earlier in this chapter or in chapter 6.",
 										"If {@creature Jarlaxle Baenre|WDH} (see {@adventure appendix B|WDH|12}) is the villain, he arrives with three {@creature drow gunslinger|WDH|drow gunslingers} (see {@adventure appendix B|WDH|12}). Replace no-name drow gunslingers with {@creature Fel'rekt Lafeen|WDH}, {@creature Krebbyg Masq'il'yr|WDH}, and {@creature Soluun Xibrindas|wdh} if they are alive and free.",
-										"If {@creature Manshoon|WDH} is the main villain, he sends his simulacrum (see {@adventure appendix B|WDH|12}) along with Agorn Fuoco (NE male Turami human {@creature bard|VGM}; see {@adventure appendix B|WDH|12}), Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}), and three Zhent {@creature thug||thugs}. If Agorn and Vevette were killed or otherwise disposed of earlier in this chapter or in chapter 8, replace each of them with one additional {@creature thug}."
+										"If {@creature Manshoon|WDH} is the main villain, he sends his simulacrum (see {@adventure appendix B|WDH|12}) along with Agorn Fuoco (NE male Turami human {@creature bard|MPMM}; see {@adventure appendix B|WDH|12}), Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}), and three Zhent {@creature thug||thugs}. If Agorn and Vevette were killed or otherwise disposed of earlier in this chapter or in chapter 8, replace each of them with one additional {@creature thug}."
 									]
 								},
 								"The forces sent by {@creature Xanathar|WDH}, the Cassalanters, and {@creature Manshoon|WDH} attack the characters on sight. Jarlaxle, on the other hand, congratulates characters for unlocking the Vault of Dragons and allows them to leave on the condition that they go empty-handed. He intends to see the gold safely returned to the city of Waterdeep but also demands the {@item dragonstaff of Ahghairon|WDH} for his trouble.",
@@ -14920,7 +14920,7 @@
 											"page": 97,
 											"id": "251",
 											"entries": [
-												"{@creature Mirt|WDH} (see {@adventure appendix B|WDH|12}) arrives with two female human {@creature swashbuckler|VGM|swashbucklers} (see {@adventure appendix B|WDH|12}). If he's still alive and not already with the characters, {@creature Renaer Neverember|wdh} (see {@adventure appendix B|WDH|12}) replaces one of the swashbucklers."
+												"{@creature Mirt|WDH} (see {@adventure appendix B|WDH|12}) arrives with two female human {@creature swashbuckler|MPMM|swashbucklers} (see {@adventure appendix B|WDH|12}). If he's still alive and not already with the characters, {@creature Renaer Neverember|wdh} (see {@adventure appendix B|WDH|12}) replaces one of the swashbucklers."
 											]
 										},
 										{
@@ -17548,7 +17548,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@creature Thorvin Twinbeard|wdh} (see {@adventure appendix B|WDH|12}), {@creature Xanathar|WDH}'s engineer, is building a large contraption in the middle of the room. Floating nearby is an albino {@creature gazer|VGM} (see {@adventure appendix B|WDH|12}).",
+												"{@creature Thorvin Twinbeard|wdh} (see {@adventure appendix B|WDH|12}), {@creature Xanathar|WDH}'s engineer, is building a large contraption in the middle of the room. Floating nearby is an albino {@creature gazer|MPMM} (see {@adventure appendix B|WDH|12}).",
 												"Tools cover stone tables throughout the room. (There are enough tools here to assemble two sets of mason's tools, one set of smith's tools, and two sets of tinker's tools.)",
 												"Other furnishings include a cot and a stack of wooden casks filled with Wyrmwizz Ale (a Skullport brew)."
 											]
@@ -17624,7 +17624,7 @@
 											"page": 106,
 											"id": "293",
 											"entries": [
-												"The five {@creature Panopticus Wizard|wdh|tattooed dwarves} operate {@creature Xanathar|WDH}'s \"panopticus\" magical surveillance system. They fight only in self-defense. They are {@creature apprentice wizard|VGM|apprentice wizards} (see {@adventure appendix B|WDH|12}), with these changes:",
+												"The five {@creature Panopticus Wizard|wdh|tattooed dwarves} operate {@creature Xanathar|WDH}'s \"panopticus\" magical surveillance system. They fight only in self-defense. They are {@creature apprentice wizard|MPMM|apprentice wizards} (see {@adventure appendix B|WDH|12}), with these changes:",
 												{
 													"type": "list",
 													"items": [
@@ -18076,7 +18076,7 @@
 											"type": "list",
 											"items": [
 												"Seven {@creature kobold||kobolds} wearing white toque hats dash between stout tables, frantically preparing meals for {@creature Xanathar|WDH} and arranging the food on silver platters.",
-												"Two {@creature gazer|VGM|gazers} (see {@adventure appendix B|WDH|12}) dreamed into reality by {@creature Xanathar|WDH} oversee the kobolds and use their telekinesis rays to hoist and deliver food platters.",
+												"Two {@creature gazer|MPMM|gazers} (see {@adventure appendix B|WDH|12}) dreamed into reality by {@creature Xanathar|WDH} oversee the kobolds and use their telekinesis rays to hoist and deliver food platters.",
 												"Two iron stoves stand against the east wall, with a slender spice rack nestled between them."
 											]
 										},
@@ -25795,8 +25795,8 @@
 											"type": "list",
 											"items": [
 												"{@creature Jarlaxle Baenre|WDH} (see {@adventure appendix B|WDH|12}), in the guise of Zardoz Zord (absent if he's marshalling the Day of Wonders parade; see \"Special Events\").",
-												"Margo Verida, a female Amnian human {@creature bard|VGM} (see {@adventure appendix B|WDH|12})",
-												"Khafeyta Murzan, a female Mulhorandi human {@creature swashbuckler|VGM} (see {@adventure appendix B|WDH|12})"
+												"Margo Verida, a female Amnian human {@creature bard|MPMM} (see {@adventure appendix B|WDH|12})",
+												"Khafeyta Murzan, a female Mulhorandi human {@creature swashbuckler|MPMM} (see {@adventure appendix B|WDH|12})"
 											]
 										},
 										"Margo and Khafeyta both joined the Sea Maidens Faire within the past year-Margo as a lyrist, Khafeyta as an acrobat. Jarlaxle has taken a romantic interest in both women, who are also in love with each other.",
@@ -25980,7 +25980,7 @@
 							"page": 141,
 							"id": "3a5",
 							"entries": [
-								"Rock gnome {@creature engineer|wdh|engineers} maintain and operate the {@i Scarlet Marpenoth}. These gnomes are {@creature apprentice wizard|VGM|apprentice wizards} (see {@adventure appendix B|WDH|12}), with these changes:",
+								"Rock gnome {@creature engineer|wdh|engineers} maintain and operate the {@i Scarlet Marpenoth}. These gnomes are {@creature apprentice wizard|MPMM|apprentice wizards} (see {@adventure appendix B|WDH|12}), with these changes:",
 								{
 									"type": "list",
 									"items": [
@@ -28725,7 +28725,7 @@
 											"page": 150,
 											"id": "3eb",
 											"entries": [
-												"{@creature Yorn|wdh} the Terror is reading a copy of {@book Volo's Guide to Monsters|vgm}, autographed on the title page by the author with an added note that reads, in Common: \"For {@creature Yorn|WDH}. I hope you find the orc chapter illuminating!\"",
+												"{@creature Yorn|wdh} the Terror is reading a copy of {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}, autographed on the title page by the author with an added note that reads, in Common: \"For {@creature Yorn|WDH}. I hope you find the orc chapter illuminating!\"",
 												"{@creature Yorn|wdh} is a half-orc {@creature thug}, with these changes:",
 												{
 													"type": "list",
@@ -28967,7 +28967,7 @@
 											"type": "list",
 											"items": [
 												"A 10-foot-diameter circle of runes has been drawn on the floor in blood that is now dried. Smoke billows from four iron braziers placed around the circle.",
-												"Three {@creature apprentice wizard|VGM|apprentice wizards} (see {@adventure appendix B|WDH|12}) stand outside the circle, chanting an incantation. A {@creature barlgura} is slumped motionless within the circle."
+												"Three {@creature apprentice wizard|MPMM|apprentice wizards} (see {@adventure appendix B|WDH|12}) stand outside the circle, chanting an incantation. A {@creature barlgura} is slumped motionless within the circle."
 											]
 										},
 										"The three wizards here are {@creature Manshoon|WDH}'s apprentices\u2014Ered Payno (LE male Damaran human), Havi Termock (CE female Chondathan human), and Savara Firethorn (NE female Tethyrian human). Each wears a teleporter ring (see \"Teleporter Rings\"). The magical incantation that the three are reciting has quelled the barlgura and rendered it {@condition unconscious}. If any of them stop chanting, the demon awakes and becomes enraged, though it remains bound within the circle. Whenever it takes damage, the barlgura can attempt a {@dc 10} Charisma check. On a successful check, it breaks out of the circle and attacks any creature it can reach.",
@@ -30583,7 +30583,7 @@
 											"type": "list",
 											"items": [
 												"Delightful warmth radiates from a brazier of green flame encircled by eight cushioned chairs.",
-												"Unless they've been drawn elsewhere, two of {@creature Manshoon|WDH}'s lieutenants are here: Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|VGM}; see {@adventure appendix B|WDH|12}) and Agorn Fuoco (NE male Turami human {@creature bard|VGM}; see {@adventure appendix B|WDH|12}). Vevette is relaxing in a chair, while Agorn strums a lyre.",
+												"Unless they've been drawn elsewhere, two of {@creature Manshoon|WDH}'s lieutenants are here: Vevette Blackwater (CE female Tethyrian human {@creature swashbuckler|MPMM}; see {@adventure appendix B|WDH|12}) and Agorn Fuoco (NE male Turami human {@creature bard|MPMM}; see {@adventure appendix B|WDH|12}). Vevette is relaxing in a chair, while Agorn strums a lyre.",
 												"An alabaster staircase ascends 10 feet to {@area E9|428}."
 											]
 										},
@@ -30646,7 +30646,7 @@
 											"page": 160,
 											"id": "42b",
 											"entries": [
-												"Two female lightfoot halflings\u2014{@creature Zhent Martial Arts Adept|wdh|Havia Quickknife} and {@creature Zhent Martial Arts Adept|wdh|Mookie Plush}\u2014believe that {@creature Manshoon|WDH} is the rightful leader of the Zhentarim. They serve him fearlessly, and will sacrifice themselves to ensure that his plans come to fruition. They are {@creature martial arts adept|VGM|martial arts adepts} (see {@adventure appendix B|WDH|12}), with these changes:",
+												"Two female lightfoot halflings\u2014{@creature Zhent Martial Arts Adept|wdh|Havia Quickknife} and {@creature Zhent Martial Arts Adept|wdh|Mookie Plush}\u2014believe that {@creature Manshoon|WDH} is the rightful leader of the Zhentarim. They serve him fearlessly, and will sacrifice themselves to ensure that his plans come to fruition. They are {@creature martial arts adept|MPMM|martial arts adepts} (see {@adventure appendix B|WDH|12}), with these changes:",
 												{
 													"type": "list",
 													"items": [
@@ -32199,7 +32199,7 @@
 					"page": 194,
 					"id": "497",
 					"entries": [
-						"{@creature apprentice wizard|vgm|Apprentice wizards} are novice arcane spellcasters who  serve more experienced wizards or attend school. They  perform menial work, such as cooking and cleaning, in  exchange for education in the ways of magic."
+						"{@creature apprentice wizard|MPMM|Apprentice wizards} are novice arcane spellcasters who  serve more experienced wizards or attend school. They  perform menial work, such as cooking and cleaning, in  exchange for education in the ways of magic."
 					]
 				},
 				{
@@ -32238,7 +32238,7 @@
 					"page": 195,
 					"id": "49a",
 					"entries": [
-						"{@creature bard|vgm|Bards} are gifted poets, storytellers, and entertainers  who travel far and wide, commonly found performing in  taverns or in the company of jolly bands of adventurers,  rough-and-tumble mercenaries, or wealthy patrons."
+						"{@creature bard|MPMM|Bards} are gifted poets, storytellers, and entertainers  who travel far and wide, commonly found performing in  taverns or in the company of jolly bands of adventurers,  rough-and-tumble mercenaries, or wealthy patrons."
 					]
 				},
 				{
@@ -32572,7 +32572,7 @@
 					"page": 203,
 					"id": "4b4",
 					"entries": [
-						"A {@creature gazer|vgm} is a tiny manifestation of a beholder's dreams. It resembles the beholder who dreamed it into existence, but its body is only 8 inches wide, and it has only four eyestalks. The beholder can see through the gazer's eyes and uses it to spy on enemies as well as its other minions.",
+						"A {@creature gazer|MPMM} is a tiny manifestation of a beholder's dreams. It resembles the beholder who dreamed it into existence, but its body is only 8 inches wide, and it has only four eyestalks. The beholder can see through the gazer's eyes and uses it to spy on enemies as well as its other minions.",
 						"A gazer can't speak any languages but can approximate mimicking words and sentences in a high-pitched, mocking manner. A lone gazer avoids picking fights with creatures that are Medium or larger, but a pack of them might take on larger prey.",
 						{
 							"type": "image",
@@ -32719,7 +32719,7 @@
 					"page": 209,
 					"id": "4bd",
 					"entries": [
-						"{@creature Martial arts adept|VGM|Martial arts adepts} are disciplined monks who have extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging."
+						"{@creature Martial arts adept|MPMM|Martial arts adepts} are disciplined monks who have extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging."
 					]
 				},
 				{
@@ -33028,7 +33028,7 @@
 							"page": 215,
 							"id": "4d3",
 							"entries": [
-								"{@creature Renaer Neverember|wdh} is an Illuskan human who has the statistics of a {@creature swashbuckler|VGM}, with these changes:",
+								"{@creature Renaer Neverember|wdh} is an Illuskan human who has the statistics of a {@creature swashbuckler|MPMM}, with these changes:",
 								{
 									"type": "list",
 									"items": [
@@ -33072,7 +33072,7 @@
 					"page": 216,
 					"id": "4d6",
 					"entries": [
-						"{@creature Swashbuckler|VGM|Swashbucklers} are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long."
+						"{@creature Swashbuckler|MPMM|Swashbucklers} are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long."
 					]
 				},
 				{
@@ -33176,7 +33176,7 @@
 					"page": 218,
 					"id": "4dd",
 					"entries": [
-						"The bombastic world traveler {@creature Volothamp \"Volo\" Geddarm|ToA|Volothamp Geddarm} is enjoying some downtime in Waterdeep following a successful book tour promoting his latest work, {@book Volo's Guide to Monsters|vgm}. He spends most of his free time in the taproom of the Yawning Portal, reuniting with old friends and mulling over his next book project.",
+						"The bombastic world traveler {@creature Volothamp \"Volo\" Geddarm|ToA|Volothamp Geddarm} is enjoying some downtime in Waterdeep following a successful book tour promoting his latest work, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. He spends most of his free time in the taproom of the Yawning Portal, reuniting with old friends and mulling over his next book project.",
 						"Volo has an inflated opinion of himself and his importance in the world, but he's not without his charm. There is nothing he won't do to help a friend in need."
 					]
 				},

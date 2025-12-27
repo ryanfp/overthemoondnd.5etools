@@ -8,12 +8,10 @@
 		"otherSources": {
 			"monster": {
 				"MM": "MOT",
-				"VGM": "MOT",
 				"EGW": "MOT",
 				"GGR": "MOT",
 				"GoS": "MOT",
-				"TftYP": "MOT",
-				"MTF": "MOT"
+				"TftYP": "MOT"
 			}
 		}
 	},

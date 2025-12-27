@@ -2696,7 +2696,7 @@
 				},
 				"As exemplified by the labors of Anthousa, the exploits of Haktos the Unscarred, the wondrous inventions of Dalakos, and Elspeth's escape from the Underworld, the heroes of Theros chart their own fates\u2014and so will the player characters in your campaign.",
 				"What adventures might Heliod's champions undertake? What villains and monsters are associated with Phenax? How might adventurers get entangled in divine schemes? This chapter explores these questions, providing abundant advice, tools, and maps for players to create their own exciting stories. The options presented here expand on the material in {@book chapter 3|DMG|2} of the {@book Dungeon Master's Guide|DMG} to help you craft adventures for your own Theros campaign. Each god of Theros's pantheon has a section here, describing how the deity interacts with the mortal world. Beyond the gods, tools for running nautical odysseys and descents into the Underworld appear in this chapter, along with an adventure that explores the machinations of immortals and the dead.",
-				"Monsters and nonplayer characters mentioned in this chapter can be found in this book ({@i MOoT}), the {@book Monster Manual|MM} (MM), {@book Mordenkainen's Tome of Foes|MTF} (MToF), or {@book Volo's Guide to Monsters|VGM} (VGtM). When a creature's name appears in bold type, that's a visual cue pointing you to the creature's stat block. If the stat block appears in {@book chapter 6|MOT|6}, the text tells you so.",
+				"Monsters and nonplayer characters mentioned in this chapter can be found in this book ({@i MOoT}), the {@book Monster Manual|MM} (MM), or {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. When a creature's name appears in bold type, that's a visual cue pointing you to the creature's stat block. If the stat block appears in {@book chapter 6|MOT|6}, the text tells you so.",
 				{
 					"type": "section",
 					"name": "God-Based Adventures",
@@ -4507,7 +4507,7 @@
 												],
 												[
 													"9",
-													"{@creature War priest|VGM}"
+													"{@creature War priest|MPMM}"
 												],
 												[
 													"11",
@@ -6255,7 +6255,7 @@
 												],
 												[
 													"12",
-													"{@creature Archdruid|VGM}"
+													"{@creature Archdruid|MPMM}"
 												]
 											],
 											"footnotes": [
@@ -7116,7 +7116,7 @@
 												],
 												[
 													"6",
-													"{@creature Annis hag|VGM}"
+													"{@creature Annis hag|MPMM}"
 												],
 												[
 													"6",
@@ -8057,7 +8057,7 @@
 												],
 												[
 													"5",
-													"{@creature Catoblepas|VGM}*"
+													"{@creature Catoblepas|MPMM}*"
 												],
 												[
 													"6",
@@ -8069,7 +8069,7 @@
 												],
 												[
 													"8",
-													"{@creature Blackguard|VGM}"
+													"{@creature Blackguard|MPMM}"
 												]
 											],
 											"footnotes": [
@@ -8153,7 +8153,7 @@
 									"page": 154,
 									"id": "2bb",
 									"entries": [
-										"A journey into a canyon where Mogis is worshiped can be an adventure full of unspeakable horrors. A group of characters could come to a canyon shrine as armed escorts, or would-be rescuers of captives, or to cleanse the place of its evil. The characters might also brave such a gorge to hunt one of the many dangerous creatures that haunt the area, such as a {@creature catoblepas|VGM} or a {@creature Theran Chimera|MOT|chimera}. The Canyon Shrine Adventures table offers ideas for adventures in such a place.",
+										"A journey into a canyon where Mogis is worshiped can be an adventure full of unspeakable horrors. A group of characters could come to a canyon shrine as armed escorts, or would-be rescuers of captives, or to cleanse the place of its evil. The characters might also brave such a gorge to hunt one of the many dangerous creatures that haunt the area, such as a {@creature catoblepas|MPMM} or a {@creature Theran Chimera|MOT|chimera}. The Canyon Shrine Adventures table offers ideas for adventures in such a place.",
 										{
 											"type": "image",
 											"href": {
@@ -8515,7 +8515,7 @@
 												],
 												[
 													"3",
-													"{@creature Archer|VGM}"
+													"{@creature Archer|MPMM}"
 												],
 												[
 													"5",
@@ -9367,11 +9367,11 @@
 												],
 												[
 													"3",
-													"{@creature Leucrotta|VGM}"
+													"{@creature Leucrotta|MPMM}"
 												],
 												[
 													"3",
-													"{@creature Slithering tracker|VGM}"
+													"{@creature Slithering tracker|MPMM}"
 												],
 												[
 													"4",
@@ -9383,7 +9383,7 @@
 												],
 												[
 													"5",
-													"{@creature Master thief|VGM}"
+													"{@creature Master thief|MPMM}"
 												],
 												[
 													"8",
@@ -9391,7 +9391,7 @@
 												],
 												[
 													"16",
-													"{@creature Phoenix|MTF}"
+													"{@creature Phoenix|MPMM}"
 												]
 											]
 										},
@@ -11609,7 +11609,7 @@
 							"id": "384",
 							"entries": [
 								"Legends tell of a human herder who bragged that his cattle were the finest in all of Theros. When the gods heard this, Heliod, Nylea, and Mogis became involved in laying a curse that afflicted the mortal and his cattle, giving rise to the first catoblepas. How the gods were involved, though, and for what honorable or petty reasons, the gods' faithful\u2014particularly those of Heliod and Nylea\u2014greatly debate (see {@book chapter 2|MOT|2|Myths of Nylea}). Regardless, catoblepases are widely viewed as cursed creatures, which only Mogis's faithful hold in wicked esteem.",
-								"The {@creature catoblepas|VGM} appears in {@book Volo's Guide to Monsters|VGM}."
+								"The {@creature catoblepas|MPMM} appears in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}."
 							]
 						},
 						{

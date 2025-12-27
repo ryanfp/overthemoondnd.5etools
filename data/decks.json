@@ -14649,7 +14649,7 @@
 			},
 			"entries": [
 				"{@i (pronounced KOO-bah-zahn)}",
-				"Kubazan the {@creature Froghemoth|VGM}, is wild and spirited.",
+				"Kubazan the {@creature Froghemoth|MPMM}, is wild and spirited.",
 				{
 					"type": "section",
 					"entries": [
@@ -14729,7 +14729,7 @@
 			},
 			"entries": [
 				"{@i (pronounced NANG-nang)}",
-				"Nangnang the {@creature Grung|VGM}, is selfish and cruel.",
+				"Nangnang the {@creature Grung|MPMM}, is selfish and cruel.",
 				{
 					"type": "section",
 					"entries": [
@@ -14889,7 +14889,7 @@
 			},
 			"entries": [
 				"{@i (pronounced UNK)}",
-				"Unkh the {@creature Flail Snail|VGM}, is self-absorbed and indecisive.",
+				"Unkh the {@creature Flail Snail|MPMM}, is self-absorbed and indecisive.",
 				{
 					"type": "section",
 					"entries": [

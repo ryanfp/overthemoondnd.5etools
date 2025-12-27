@@ -9964,11 +9964,6 @@
 			},
 			"altArt": [
 				{
-					"name": "Diabolical Bandit",
-					"source": "MTF",
-					"page": 18
-				},
-				{
 					"name": "Uttolot Elf Bandit",
 					"source": "EGW"
 				}
@@ -10167,13 +10162,6 @@
 				"type": "internal",
 				"path": "bestiary/bandit-captain.mp3"
 			},
-			"altArt": [
-				{
-					"name": "Diabolical Bandit Captain",
-					"source": "MTF",
-					"page": 18
-				}
-			],
 			"attachedItems": [
 				"dagger|phb",
 				"scimitar|phb"
@@ -11970,7 +11958,7 @@
 			"altArt": [
 				{
 					"name": "Diabolical Berserker",
-					"source": "MTF",
+					"source": "MPMM",
 					"page": 18
 				}
 			],
@@ -15018,48 +15006,6 @@
 					]
 				}
 			],
-			"variant": [
-				{
-					"type": "variant",
-					"name": "Demonic Cambions",
-					"entries": [
-						"Few demons consort with mortals, and those with the charm or desire to usually grant their cambion children the Fiendish Charm ability. Cultists of Baphomet and Orcus can also use foul rituals to infuse their master's strength into a young or unborn child, yielding a cult champion who can wield special abilities; a cambion linked to Orcus replaces Fiendish Charm with Spawn of the Grave, and one linked to Baphomet replaces it with Horned One's Call.",
-						{
-							"type": "entries",
-							"name": "Horned One's Call",
-							"entries": [
-								"When the cambion targets only one creature with the attacks of its Multiattack, it can choose one ally it can see within 30 feet. That ally can use its reaction to make one melee attack against a target of its choice."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Spawn of the Grave",
-							"entries": [
-								"At the end of each of the cambion's turns, each undead of its choice that it can see within 30 feet gains 10 temporary hit points, provided the cambion isn't {@condition incapacitated}.",
-								"In addition, this cambion can use its Innate Spellcasting ability to cast {@spell animate dead} three times per day."
-							]
-						}
-					],
-					"source": "MTF",
-					"page": 32
-				},
-				{
-					"type": "variant",
-					"name": "Infernal Cambions",
-					"entries": [
-						"Some devils grant a unique ability to their spawn that replaces the cambion's Fiendish Charm trait; Zariel and Geryon have a penchant for spawning cambions to serve as war leaders among their followers. The two of them grant the Fury of the Nine ability in place of Fiendish Charm.",
-						{
-							"type": "entries",
-							"name": "Fury of the Nine",
-							"entries": [
-								"As a bonus action, the cambion chooses another creature that can see or hear it within 120 feet. That creature gains advantage on all attack rolls and saving throws for the next minute or until the cambion uses this ability again."
-							]
-						}
-					],
-					"source": "MTF",
-					"page": 21
-				}
-			],
 			"environment": [
 				"urban"
 			],
@@ -15070,12 +15016,12 @@
 			"altArt": [
 				{
 					"name": "Male Demonic Cambion",
-					"source": "MTF",
+					"source": "MPMM",
 					"page": 32
 				},
 				{
 					"name": "Female Demonic Cambion",
-					"source": "MTF",
+					"source": "MPMM",
 					"page": 32
 				}
 			],
@@ -15130,7 +15076,7 @@
 			"_versions": [
 				{
 					"name": "Demonic Cambion (Baphomet)",
-					"source": "MTF",
+					"source": "MPMM",
 					"_mod": {
 						"action": {
 							"mode": "replaceArr",
@@ -15139,48 +15085,6 @@
 								"name": "Horned One's Call",
 								"entries": [
 									"When the cambion targets only one creature with the attacks of its Multiattack, it can choose one ally it can see within 30 feet. That ally can use its reaction to make one melee attack against a target of its choice."
-								]
-							}
-						}
-					},
-					"variant": null
-				},
-				{
-					"name": "Demonic Cambion (Orcus)",
-					"source": "MTF",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"daily": {
-								"3e": [
-									"{@spell animate dead}"
-								]
-							}
-						},
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Fiendish Charm",
-							"items": {
-								"name": "Spawn of the Grave",
-								"entries": [
-									"At the end of each of the cambion's turns, each undead of its choice that it can see within 30 feet gains 10 temporary hit points, provided the cambion isn't {@condition incapacitated}."
-								]
-							}
-						}
-					},
-					"variant": null
-				},
-				{
-					"name": "Infernal Cambion",
-					"source": "MTF",
-					"_mod": {
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Fiendish Charm",
-							"items": {
-								"name": "Fury of the Nine",
-								"entries": [
-									"As a bonus action, the cambion chooses another creature that can see or hear it within 120 feet. That creature gains advantage on all attack rolls and saving throws for the next minute or until the cambion uses this ability again."
 								]
 							}
 						}
@@ -18346,13 +18250,6 @@
 				"type": "internal",
 				"path": "bestiary/cult-fanatic.mp3"
 			},
-			"altArt": [
-				{
-					"name": "Diabolical Cult Fanatic",
-					"source": "MTF",
-					"page": 18
-				}
-			],
 			"attachedItems": [
 				"dagger|phb"
 			],
@@ -18554,11 +18451,6 @@
 				"path": "bestiary/cultist.mp3"
 			},
 			"altArt": [
-				{
-					"name": "Diabolical Cultist",
-					"source": "MTF",
-					"page": 18
-				},
 				{
 					"name": "Cultist",
 					"source": "RMBRE"
@@ -23277,13 +23169,6 @@
 				"type": "internal",
 				"path": "bestiary/druid.mp3"
 			},
-			"altArt": [
-				{
-					"name": "Demonic Druid",
-					"source": "MTF",
-					"page": 29
-				}
-			],
 			"attachedItems": [
 				"quarterstaff|phb"
 			],
@@ -49325,7 +49210,7 @@
 					"type": "variant",
 					"name": "Zuggtomoy's Empowerment",
 					"entries": [
-						"Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects.",
+						"Myconids that embrace {@creature Zuggtmoy|MPMM} can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects.",
 						{
 							"type": "entries",
 							"name": "Caustic Spores (1/Day)",
@@ -49337,7 +49222,7 @@
 							"type": "entries",
 							"name": "Infestation Spores (1/Day)",
 							"entries": [
-								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 11} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MTF} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
+								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 11} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MPMM} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
 							]
 						},
 						{
@@ -49510,7 +49395,7 @@
 					"type": "variant",
 					"name": "Zuggtomoy's Empowerment",
 					"entries": [
-						"Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid sovereigns have all these spore effects.",
+						"Myconids that embrace {@creature Zuggtmoy|MPMM} can develop new, more destructive kinds of spores. Myconid sovereigns have all these spore effects.",
 						{
 							"type": "entries",
 							"name": "Caustic Spores (1/Day)",
@@ -49522,7 +49407,7 @@
 							"type": "entries",
 							"name": "Infestation Spores (1/Day)",
 							"entries": [
-								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 12} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MTF} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
+								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 12} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MPMM} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
 							]
 						},
 						{
