@@ -1446,7 +1446,7 @@
 		{
 			"name": "Regenerative Combustion Disorder",
 			"entries": [
-				"{@b Source:} A hereditary disease seen mostly in fiends, {@race genasi (fire)|eepc|fire genasi} and other creatures that have lived for a prolonged period of time in the elemental plane of fire. When an infected creature is healed more hitpoints than their maximum health by a spell, they must roll a Wisdom saving throw ({@dc 15}). On a failed save they experience the following:",
+				"{@b Source:} A hereditary disease seen mostly in fiends, {@race genasi (fire)|MPMM|fire genasi} and other creatures that have lived for a prolonged period of time in the elemental plane of fire. When an infected creature is healed more hitpoints than their maximum health by a spell, they must roll a Wisdom saving throw ({@dc 15}). On a failed save they experience the following:",
 				"{@b Symptoms:} Smoke trickles out of the pores of the skin. Their eyes turn a bright orange as the healing spell takes effect. A blast wave then erupts from the creature, damaging everything around them.",
 				"{@b Effects:} A wave of sparks blows outward from the creature in a 15-foot radius. All creatures in this radius (except for the afflicted creature) must make a Dexterity saving throw ({@dc 15}) or take {@dice 1d8} + an amount equal to overhealed hit points fire damage.",
 				"{@b Cure:} Most cases of {@i regenerative combustion disorder} that have been cured {@spell wish||wished} it away. An Arcana check ({@dc 18}) also reveals that casting {@spell greater restoration} while drinking a {@item potion of fire resistance} can treat this disease.",

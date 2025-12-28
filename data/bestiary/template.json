@@ -2953,9 +2953,9 @@
 		},
 		{
 			"name": "Water Genasi",
-			"source": "EEPC",
+			"source": "MPMM",
 			"page": 10,
-			"ref": "{@race Genasi (Water)|eepc|Water Genasi}",
+			"ref": "{@race Genasi (Water)|MPMM|Water Genasi}",
 			"apply": {
 				"_root": {
 					"size": [

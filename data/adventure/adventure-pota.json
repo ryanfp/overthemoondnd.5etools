@@ -52066,10 +52066,10 @@
 						{
 							"type": "list",
 							"items": [
-								"{@race Genasi (Air)|EEPC}",
-								"{@race Genasi (Earth)|EEPC}",
-								"{@race Genasi (Fire)|EEPC}",
-								"{@race Genasi (Water)|EEPC}"
+								"{@race Genasi (Air)|MPMM}",
+								"{@race Genasi (Earth)|MPMM}",
+								"{@race Genasi (Fire)|MPMM}",
+								"{@race Genasi (Water)|MPMM}"
 							]
 						},
 						{

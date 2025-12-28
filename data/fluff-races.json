@@ -127,6 +127,64 @@
 		},
 		{
 			"name": "Aasimar",
+			"source": "MPMM",
+			"entries": [
+				"Whether descended from a celestial being or infused with heavenly power, aasimar are mortals who carry a spark of the Upper Planes within their souls. They can fan that spark to bring light, ease wounds, and unleash the fury of the heavens.",
+				"Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and often have features that hint at their celestial heritage. These often begin subtle and become more obvious when the aasimar gains the ability to reveal their full celestial nature. The Aasimar Celestial Features table has examples you can choose or use as inspiration to create your own.",
+				{
+					"type": "table",
+					"caption": "Aasimar Celestial Features",
+					"colLabels": [
+						"d6",
+						"Celestial Feature"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"A dusting of metallic, white, or charcoal freckles"
+						],
+						[
+							"2",
+							"Metallic, luminous, or dark eyes"
+						],
+						[
+							"3",
+							"Starkly colored hair"
+						],
+						[
+							"4",
+							"An unusual hue tinting your shadow"
+						],
+						[
+							"5",
+							"A ghostly halo crowning your head"
+						],
+						[
+							"6",
+							"Rainbows gleaming on your skin"
+						]
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Aasimar.webp"
+					},
+					"credit": "Mike Bierek",
+					"width": 689,
+					"height": 850
+				}
+			]
+		},
+		{
+			"name": "Aasimar",
 			"source": "XPHB",
 			"entries": [
 				{
@@ -2004,79 +2062,57 @@
 		},
 		{
 			"name": "Genasi",
-			"source": "EEPC",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals.",
-								"The Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, do not face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.",
-								"During these visits, a mortal might catch a genies eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal-genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.",
-								"Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.",
-								{
-									"type": "entries",
-									"name": "Heirs to Elemental Power",
-									"entries": [
-										"Genasi inherit something from both sides of their dual nature. They resemble humans but have unusual skin color (red, green, blue, or gray), and there is something odd about them. The elemental blood flowing through their veins manifests differently in each genasi, often as magical power.",
-										"Seen in silhouette, a genasi can usually pass for human. Those of earth or water descent tend to be heavier, while those of air or fire tend to be lighter. A given genasi might have some features reminiscent of the mortal parent (pointed ears from an elf, a stockier frame and thick hair from a dwarf, small hands and feet from a halfling, exceedingly large eyes from a gnome, and so on).",
-										"Genasi almost never have contact with their elemental parents. Genies seldom have interest in their mortal offspring, seeing them as accidents. Many feel nothing for their genasi children at all.",
-										"Some genasi live as outcasts, driven into exile for their unsettling appearance and strange magic, or assuming leadership of savage humanoids and weird cults in untamed lands. Others gain positions of great influence, especially where elemental beings are revered. A few genasi leave the Material Plane to find refuge in the households of their genie parents."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Wild and Confident",
-									"entries": [
-										"Genasi rarely lack confidence, seeing themselves as equal to almost any challenge in their path. This certainty might manifest as graceful self-assurance in one genasi and as arrogance in another. Such self-confidence can sometimes blind genasi to risk, and their great plans often get them and others into trouble.",
-										"Too much failure can chip away at even a genasis sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Genasi Lands",
-									"entries": [
-										"As rare beings, genasi might go their entire lives without encountering another one of their kind. There are no great genasi cities or empires. Genasi seldom have communities of their own and typically adopt the cultures and societies into which they are born. The more strange their appearance, the harder time they have. Many genasi lose themselves in teeming cities, where their distinctiveness hardly raises an eyebrow in places accustomed to a variety of different people.",
-										"Those living on the frontier, though, have a much harder time. People there tend to be less accepting of differences. Sometimes a cold shoulder and a suspicious glare are the best genasi can hope for; in more backward places, they face ostracism and even violence from people who mistake them for fiends. Facing a hard life, these genasi seek isolation in the wilds, making their homes in mountains or forests, near lakes, or underground.",
-										"Most air and fire genasi in the Realms are descendants of the djinn and efreet who once ruled Calimshan. When those rulers were overthrown, their planetouched children were scattered. Over thousands of years, the bloodlines of those genasi have spread into other lands. Though far from common, air and fire genasi are more likely to be found in the western regions of Faerûn, along the coast from Calimshan north up to the Sword Coast, and into the Western Heartlands to the east. Some remain in their ancient homeland.",
-										"In contrast, water and earth genasi have no common history. Individuals have difficulty tracing their own lineage, and bloodlines occasionally skip a generation or two. Many earth genasi originated in the North and spread out from there. Water genasi come from coastal areas, the largest concentration of them hailing from the regions surrounding the Sea of Fallen Stars.",
-										"The distant land of Zakhara is known only in legends to most inhabitants of Faerûn. There, genies and spellcasters enter into bargains, and genasi can result from such pacts. Those genasi have been sources of great weal and woe in the history of that land."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Genasi Names",
-									"entries": [
-										"Genasi use the naming conventions of the people among whom they were raised. They might later assume distinctive names to capture their heritage, such as Flame, Ember, Wave, or Onyx."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "races/EEPC/Genasi.webp"
-					},
-					"credit": "Claudio Pozas",
-					"width": 1000,
-					"height": 665
-				}
-			]
-		},
-		{
-			"name": "Genasi",
 			"source": "MPMM",
-			"entries": [
-				"Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and water\u2014these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie's magic.",
-				"A typical genasi has a life span of 120 years."
-			],
+			"entries": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals.",
+							"The Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, do not face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.",
+							"During these visits, a mortal might catch a genies eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal-genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.",
+							"Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.",
+							{
+								"type": "entries",
+								"name": "Heirs to Elemental Power",
+								"entries": [
+									"Genasi inherit something from both sides of their dual nature. They resemble humans but have unusual skin color (red, green, blue, or gray), and there is something odd about them. The elemental blood flowing through their veins manifests differently in each genasi, often as magical power.",
+									"Seen in silhouette, a genasi can usually pass for human. Those of earth or water descent tend to be heavier, while those of air or fire tend to be lighter. A given genasi might have some features reminiscent of the mortal parent (pointed ears from an elf, a stockier frame and thick hair from a dwarf, small hands and feet from a halfling, exceedingly large eyes from a gnome, and so on).",
+									"Genasi almost never have contact with their elemental parents. Genies seldom have interest in their mortal offspring, seeing them as accidents. Many feel nothing for their genasi children at all.",
+									"Some genasi live as outcasts, driven into exile for their unsettling appearance and strange magic, or assuming leadership of savage humanoids and weird cults in untamed lands. Others gain positions of great influence, especially where elemental beings are revered. A few genasi leave the Material Plane to find refuge in the households of their genie parents."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Wild and Confident",
+								"entries": [
+									"Genasi rarely lack confidence, seeing themselves as equal to almost any challenge in their path. This certainty might manifest as graceful self-assurance in one genasi and as arrogance in another. Such self-confidence can sometimes blind genasi to risk, and their great plans often get them and others into trouble.",
+									"Too much failure can chip away at even a genasis sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Genasi Lands",
+								"entries": [
+									"As rare beings, genasi might go their entire lives without encountering another one of their kind. There are no great genasi cities or empires. Genasi seldom have communities of their own and typically adopt the cultures and societies into which they are born. The more strange their appearance, the harder time they have. Many genasi lose themselves in teeming cities, where their distinctiveness hardly raises an eyebrow in places accustomed to a variety of different people.",
+									"Those living on the frontier, though, have a much harder time. People there tend to be less accepting of differences. Sometimes a cold shoulder and a suspicious glare are the best genasi can hope for; in more backward places, they face ostracism and even violence from people who mistake them for fiends. Facing a hard life, these genasi seek isolation in the wilds, making their homes in mountains or forests, near lakes, or underground.",
+									"Most air and fire genasi in the Realms are descendants of the djinn and efreet who once ruled Calimshan. When those rulers were overthrown, their planetouched children were scattered. Over thousands of years, the bloodlines of those genasi have spread into other lands. Though far from common, air and fire genasi are more likely to be found in the western regions of Faerûn, along the coast from Calimshan north up to the Sword Coast, and into the Western Heartlands to the east. Some remain in their ancient homeland.",
+									"In contrast, water and earth genasi have no common history. Individuals have difficulty tracing their own lineage, and bloodlines occasionally skip a generation or two. Many earth genasi originated in the North and spread out from there. Water genasi come from coastal areas, the largest concentration of them hailing from the regions surrounding the Sea of Fallen Stars.",
+									"The distant land of Zakhara is known only in legends to most inhabitants of Faerûn. There, genies and spellcasters enter into bargains, and genasi can result from such pacts. Those genasi have been sources of great weal and woe in the history of that land."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Genasi Names",
+								"entries": [
+									"Genasi use the naming conventions of the people among whom they were raised. They might later assume distinctive names to capture their heritage, such as Flame, Ember, Wave, or Onyx."
+								]
+							}
+						]
+					}
+				]
+			},
 			"images": [
 				{
 					"type": "image",
@@ -2092,15 +2128,16 @@
 		},
 		{
 			"name": "Genasi (Air)",
-			"source": "EEPC",
+			"source": "MPMM",
 			"_copy": {
 				"name": "Genasi",
-				"source": "EEPC",
+				"source": "MPMM",
 				"_mod": {
 					"entries": {
 						"mode": "prependArr",
 						"items": {
-							"type": "section",
+							"type": "inset",
+							"name": "Air Genasi",
 							"entries": [
 								{
 									"type": "entries",
@@ -2116,24 +2153,17 @@
 			}
 		},
 		{
-			"name": "Genasi (Air)",
+			"name": "Genasi (Earth)",
 			"source": "MPMM",
 			"_copy": {
 				"name": "Genasi",
-				"source": "MPMM"
-			}
-		},
-		{
-			"name": "Genasi (Earth)",
-			"source": "EEPC",
-			"_copy": {
-				"name": "Genasi",
-				"source": "EEPC",
+				"source": "MPMM",
 				"_mod": {
 					"entries": {
 						"mode": "prependArr",
 						"items": {
-							"type": "section",
+							"type": "inset",
+							"name": "Earth Genasi",
 							"entries": [
 								{
 									"type": "entries",
@@ -2149,24 +2179,17 @@
 			}
 		},
 		{
-			"name": "Genasi (Earth)",
+			"name": "Genasi (Fire)",
 			"source": "MPMM",
 			"_copy": {
 				"name": "Genasi",
-				"source": "MPMM"
-			}
-		},
-		{
-			"name": "Genasi (Fire)",
-			"source": "EEPC",
-			"_copy": {
-				"name": "Genasi",
-				"source": "EEPC",
+				"source": "MPMM",
 				"_mod": {
 					"entries": {
 						"mode": "prependArr",
 						"items": {
-							"type": "section",
+							"type": "inset",
+							"name": "Fire Genasi",
 							"entries": [
 								{
 									"type": "entries",
@@ -2182,24 +2205,17 @@
 			}
 		},
 		{
-			"name": "Genasi (Fire)",
+			"name": "Genasi (Water)",
 			"source": "MPMM",
 			"_copy": {
 				"name": "Genasi",
-				"source": "MPMM"
-			}
-		},
-		{
-			"name": "Genasi (Water)",
-			"source": "EEPC",
-			"_copy": {
-				"name": "Genasi",
-				"source": "EEPC",
+				"source": "MPMM",
 				"_mod": {
 					"entries": {
 						"mode": "prependArr",
 						"items": {
-							"type": "section",
+							"type": "inset",
+							"name": "Water Genasi",
 							"entries": [
 								{
 									"type": "entries",
@@ -2212,14 +2228,6 @@
 						}
 					}
 				}
-			}
-		},
-		{
-			"name": "Genasi (Water)",
-			"source": "MPMM",
-			"_copy": {
-				"name": "Genasi",
-				"source": "MPMM"
 			}
 		},
 		{

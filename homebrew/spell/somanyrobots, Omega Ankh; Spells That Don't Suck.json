@@ -3839,12 +3839,6 @@
 			"races": [
 				{
 					"name": "Genasi (Fire)",
-					"source": "EEPC",
-					"baseName": "Genasi",
-					"baseSource": "EEPC"
-				},
-				{
-					"name": "Genasi (Fire)",
 					"source": "MPMM",
 					"baseName": "Genasi",
 					"baseSource": "MPMM"
@@ -12627,16 +12621,10 @@
 					"baseSource": "PHB"
 				},
 				{
-					"name": "Elf (Kaladesh; Vahadar)",
-					"source": "PSK",
-					"baseName": "Elf (Kaladesh)",
-					"baseSource": "PSK"
-				},
-				{
 					"name": "Genasi (Water)",
-					"source": "EEPC",
+					"source": "MPMM",
 					"baseName": "Genasi",
-					"baseSource": "EEPC"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
@@ -12647,30 +12635,6 @@
 				{
 					"name": "Kobold",
 					"source": "MPMM"
-				},
-				{
-					"name": "Merfolk (Ixalan; Blue)",
-					"source": "PSX",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
-				},
-				{
-					"name": "Merfolk (Ixalan; Green)",
-					"source": "PSX",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
-				},
-				{
-					"name": "Merfolk (Zendikar; Emeria Creed)",
-					"source": "PSZ",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
-				},
-				{
-					"name": "Merfolk (Zendikar; Ula Creed)",
-					"source": "PSZ",
-					"baseName": "Merfolk",
-					"baseSource": "PSZ"
 				}
 			],
 			"optionalfeatures": [

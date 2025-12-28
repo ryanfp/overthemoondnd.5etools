@@ -4471,7 +4471,7 @@
 												"What's the difference between a Fernian aasimar, tiefling, and genasi? They're all exotic humanoids touched by fire.",
 												"{@race Aasimar|MPMM} are touched by the positive aspect of a plane, and have a direct connection to a celestial from that plane. A Fernian aasimar embodies the benevolent role of fire, the force that preserves life and holds darkness at bay. People who recognize such aasimar see them as blessed, and typically assume they will be benevolent beings.",
 												"{@race tiefling||Tieflings} are touched by the malevolent aspects of a plane. The Fernian tiefling reflects the destructive and chaotic aspects of fire, and it's widely believed that fires can spontaneously start in their presence. When recognized, tieflings are seen as being cursed and dangerous.",
-												"{@race Genasi|EEPC} aren't innately fiendish or celestial; they're purely elemental. While quite rare, when recognized, a genasi is generally understood to be neutral in nature--a remarkable mutation, but not something to be feared or celebrated."
+												"{@race Genasi|MPMM} aren't innately fiendish or celestial; they're purely elemental. While quite rare, when recognized, a genasi is generally understood to be neutral in nature--a remarkable mutation, but not something to be feared or celebrated."
 											]
 										},
 										{

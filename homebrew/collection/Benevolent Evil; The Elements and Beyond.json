@@ -349,7 +349,7 @@
 									"page": 29,
 									"entries": [
 										"You have traveled across the planes to come to your current location, encountering wonders and perils along the way. You might have grown up in another plane, or perhaps you spent a long time away from home in another plane. You could have fallen into a strange portal and searched constantly for a way home, or you might have gone exploring intentionally. Regardless of the reasons for your planar travels, they have shaped you into the adventurer that you are today.",
-										"The {@background planar traveler|TEB} backround is common among {@race crystalkin|TEB}, {@race elf (bright)|TEB|bright elves}, {@race dwarf (ember)|TEB|ember dwarves}, and {@race dwarf (stone)|TEB|stone dwarves}, along with other races such as {@race genasi|EEPC}, {@race aarakocra|EEPC}, and {@race tiefling|phb|tieflings}."
+										"The {@background planar traveler|TEB} backround is common among {@race crystalkin|TEB}, {@race elf (bright)|TEB|bright elves}, {@race dwarf (ember)|TEB|ember dwarves}, and {@race dwarf (stone)|TEB|stone dwarves}, along with other races such as {@race genasi|MPMM}, {@race aarakocra|MPMM}, and {@race tiefling|phb|tieflings}."
 									]
 								}
 							]
@@ -9312,7 +9312,7 @@
 				}
 			},
 			"raceName": "Genasi",
-			"raceSource": "EEPC"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Ice",
@@ -9375,7 +9375,7 @@
 				}
 			},
 			"raceName": "Genasi",
-			"raceSource": "EEPC"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Slime",
@@ -9443,7 +9443,7 @@
 				}
 			},
 			"raceName": "Genasi",
-			"raceSource": "EEPC"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Storm",
@@ -9502,7 +9502,7 @@
 				}
 			},
 			"raceName": "Genasi",
-			"raceSource": "EEPC"
+			"raceSource": "MPMM"
 		},
 		{
 			"name": "Shardmind",
@@ -11944,7 +11944,7 @@
 			"level": 3,
 			"entries": [
 				"To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.",
-				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|mpmm}, or {@race firbolg|MPMM|firbolgs}. {@race Genasi (Earth)|EEPC|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
+				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|mpmm}, or {@race firbolg|MPMM|firbolgs}. {@race Genasi (Earth)|MPMM|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Stone Rage|Barbarian|PHB|Quake Bringer|TEB|3|TEB"
@@ -36162,9 +36162,9 @@
 			"races": [
 				{
 					"name": "Genasi (Fire)",
-					"source": "EEPC",
+					"source": "MPMM",
 					"baseName": "Genasi",
-					"baseSource": "EEPC"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Tiefling (Variant)",
@@ -36634,9 +36634,9 @@
 			"races": [
 				{
 					"name": "Genasi (Air)",
-					"source": "EEPC",
+					"source": "MPMM",
 					"baseName": "Genasi",
-					"baseSource": "EEPC"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Half-Elf (Mark of Storm)",
@@ -52640,9 +52640,9 @@
 			"races": [
 				{
 					"name": "Genasi (Fire)",
-					"source": "EEPC",
+					"source": "MPMM",
 					"baseName": "Genasi",
-					"baseSource": "EEPC"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Tiefling (Variant)",
@@ -52832,9 +52832,9 @@
 			"races": [
 				{
 					"name": "Genasi (Fire)",
-					"source": "EEPC",
+					"source": "MPMM",
 					"baseName": "Genasi",
-					"baseSource": "EEPC"
+					"baseSource": "MPMM"
 				},
 				{
 					"name": "Tiefling (Variant)",

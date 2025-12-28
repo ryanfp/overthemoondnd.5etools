@@ -12835,7 +12835,7 @@
 					"page": 165,
 					"id": "570",
 					"entries": [
-						"Many people across Wildemount consider the winged {@race aarakocra|EEPC} to be a myth, so infrequently do they descend from their lofty aeries to deal with wingless folk. Where they are known, the aarakocra rarely engage with the land-bound societies of Wildemount, though some take great pleasure in traveling on the open ocean with Concord sailors and Revelry pirates. Some legends say that Melora the Wild Mother created the aarakocra as storm herders who drive the clouds across the sky, and some aarakocra tribes play a sport called {@i h'aara-shie}, or \"cloud chasing,\" that reflects this ancient tale.",
+						"Many people across Wildemount consider the winged {@race aarakocra|MPMM} to be a myth, so infrequently do they descend from their lofty aeries to deal with wingless folk. Where they are known, the aarakocra rarely engage with the land-bound societies of Wildemount, though some take great pleasure in traveling on the open ocean with Concord sailors and Revelry pirates. Some legends say that Melora the Wild Mother created the aarakocra as storm herders who drive the clouds across the sky, and some aarakocra tribes play a sport called {@i h'aara-shie}, or \"cloud chasing,\" that reflects this ancient tale.",
 						{
 							"type": "entries",
 							"name": "Aarakocra in the Dwendalian Empire",
@@ -13069,10 +13069,10 @@
 								{
 									"type": "list",
 									"items": [
-										"{@race Genasi (Air)|EEPC}",
-										"{@race Genasi (Earth)|EEPC}",
-										"{@race Genasi (Fire)|EEPC}",
-										"{@race Genasi (Water)|EEPC}"
+										"{@race Genasi (Air)|MPMM}",
+										"{@race Genasi (Earth)|MPMM}",
+										"{@race Genasi (Fire)|MPMM}",
+										"{@race Genasi (Water)|MPMM}"
 									]
 								}
 							]
