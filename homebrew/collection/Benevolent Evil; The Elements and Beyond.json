@@ -11944,7 +11944,7 @@
 			"level": 3,
 			"entries": [
 				"To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.",
-				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|mpmm}, or {@race firbolg|MPMM|firbolgs}. {@race Genasi (Earth)|MPMM|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
+				"Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of {@race Dwarf|PHB|dwarves}, {@race goliath|MPMM}, or {@race firbolg|MPMM|firbolgs}. {@race Genasi (Earth)|MPMM|Earth genasi} can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Stone Rage|Barbarian|PHB|Quake Bringer|TEB|3|TEB"
