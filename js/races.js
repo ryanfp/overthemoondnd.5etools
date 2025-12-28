@@ -92,7 +92,7 @@ class RacesPage extends ListPage {
 					_slAbility: {name: "Ability Score", transform: (race) => race._slAbility},
 					_size: {
 						name: "Size",
-						transform: (race) => (race. size || [Parser.SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/"),
+						transform: (race) => (race.size || [Parser.SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/"),
 					},
 					_speed:  {
 						name: "Speed",
@@ -111,7 +111,7 @@ class RacesPage extends ListPage {
 					},
 					_traitTags: {
 						name: "Traits",
-						transform: (race) => (race. traitTags || [])
+						transform: (race) => (race.traitTags || [])
 							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
 							.join(", ") || "\u2014",
 					},
