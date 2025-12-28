@@ -94,7 +94,7 @@ class RacesPage extends ListPage {
 						name: "Size",
 						transform: (race) => (race.size || [Parser.SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/"),
 					},
-					_speed:  {
+					_speed: {
 						name: "Speed",
 						transform: (race) => Parser.getSpeedString(race),
 					},

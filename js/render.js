@@ -8587,7 +8587,10 @@ Renderer.race = class {
 			// If the base race doesn't have any ability scores, make a set of empty records
 			if ((cpySr.overwrite && cpySr.overwrite.ability) || !cpy.ability) cpy.ability = cpySr.ability.map(() => ({}));
 
-			if (cpy.ability.length !== cpySr.ability.length) throw new Error(`"race" and "subrace" ability array lengths did not match!`);
+			if (cpy.ability.length !== cpySr.ability.length) {
+   				 console.error("Base race:", cpy.name, "has", cpy.ability.length, "ability entries:", cpy.ability);
+   				 console.error("Subrace:", cpySr.name, "has", cpySr.ability. length, "ability entries:", cpySr.ability);
+				 throw new Error(`"race" and "subrace" ability array lengths did not match!`);
 			cpySr.ability.forEach((obj, i) => Object.assign(cpy.ability[i], obj));
 			delete cpySr.ability;
 		}
