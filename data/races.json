@@ -291,6 +291,7 @@
 			"creatureTypes": [
 				"humanoid"
 			],
+			"lineage": "VRGR",
 			"size": [
 				"S",
 				"M"
