@@ -8591,6 +8591,7 @@ Renderer.race = class {
    				 console.error("Base race:", cpy.name, "has", cpy.ability.length, "ability entries:", cpy.ability);
    				 console.error("Subrace:", cpySr.name, "has", cpySr.ability. length, "ability entries:", cpySr.ability);
 				 throw new Error(`"race" and "subrace" ability array lengths did not match!`);
+			}
 			cpySr.ability.forEach((obj, i) => Object.assign(cpy.ability[i], obj));
 			delete cpySr.ability;
 		}

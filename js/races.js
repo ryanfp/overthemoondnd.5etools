@@ -1,4 +1,5 @@
 import {RenderRaces} from "./render-races.js";
+const Renderer = globalThis.Renderer;
 
 class RacesSublistManager extends SublistManager {
 	static _getRowTemplate () {
