@@ -145,7 +145,8 @@ class RacesPage extends ListPage {
       								if (typeof e === "string" && e.includes("Creature Type")) return false;
       								if (e.name && e.name.includes("Creature Type")) return false;
       								return true;
-   							 	});
+   							 	})
+								: [];
    							 if (!filteredEntries.length) return "\u2014";
    							 return Renderer.get().render({ type: "entries", entries: filteredEntries }, 1);
 							/* const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
