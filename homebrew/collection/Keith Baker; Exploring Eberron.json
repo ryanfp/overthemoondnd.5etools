@@ -2323,7 +2323,7 @@
 											],
 											"type": "entries"
 										},
-										"The {@background far traveler|scag} and {@background inheritor|scag} backgrounds from the {@book Sword Coast Adventurer's Guide|scag} are sound choices for an Aereni elf. The {@background haunted one|vrgr} background from {@adventure Curse of Strahd|cos} could reflect something you saw in the Mabaran manifest zones of your homeland--or you could be literally haunted by an ancestor."
+										"The {@background far traveler|SCAG} and {@background inheritor|SCAG} backgrounds from the {@book Sword Coast Adventurer's Guide|SCAG} are sound choices for an Aereni elf. The {@background haunted one|VRGR} background from {@adventure Curse of Strahd|CoS} could reflect something you saw in the Mabaran manifest zones of your homeland--or you could be literally haunted by an ancestor."
 									]
 								},
 								{
@@ -4437,7 +4437,7 @@
 													"type": "entries",
 													"name": "Mabar",
 													"entries": [
-														"You're connected to an angel that's trapped in Mabar and slowly being transformed by the plane's dark powers. Choose any other plane from this section; the angel is originally from that plane, and you have a generally similar appearance to other aasimar touched by that plane--but your colors are dull, as if the light is being leached away from you, and your eyes are pure darkness. Use the variant {@race aasimar (fallen variant; mabaran)|ExploringEberron|Mabaran aasimar} provided in chapter 6. Your guide still inspires you to follow the principles of its plane of origin, but it's fighting against Mabar's overwhelming despair and a hunger to drain the light and life from mortal creatures; when you use your Consuming Touch, you're channeling this energy to your guide. Your guide might hope you can someday release it from Mabar, though no immortal has ever escaped its corruption before. Or it could simply encourage you to follow the general principles of its plane of origin--balanced against its growing hunger and despair. You might be an {@background urchin} or a {@background hermit}, haunted by visions of Mabar; or you could be a {@background sage}, seeking to unlock the secrets of the planes."
+														"You're connected to an angel that's trapped in Mabar and slowly being transformed by the plane's dark powers. Choose any other plane from this section; the angel is originally from that plane, and you have a generally similar appearance to other aasimar touched by that plane--but your colors are dull, as if the light is being leached away from you, and your eyes are pure darkness. Use the fallen variant aasimar subrace provided in chapter 6. Your guide still inspires you to follow the principles of its plane of origin, but it's fighting against Mabar's overwhelming despair and a hunger to drain the light and life from mortal creatures; when you use your Consuming Touch, you're channeling this energy to your guide. Your guide might hope you can someday release it from Mabar, though no immortal has ever escaped its corruption before. Or it could simply encourage you to follow the general principles of its plane of origin--balanced against its growing hunger and despair. You might be an {@background urchin} or a {@background hermit}, haunted by visions of Mabar; or you could be a {@background sage}, seeking to unlock the secrets of the planes."
 													]
 												},
 												{
@@ -12176,10 +12176,10 @@
 								{
 									"type": "list",
 									"items": [
-										"{@race Aasimar (Court)|ExploringEberron}",
-										"{@race Aasimar (Seeker)|ExploringEberron}",
-										"{@race Aasimar (Scourge Variant; Fernian)|ExploringEberron}",
-										"{@race Aasimar (Fallen Variant; Mabaran)|ExploringEberron}",
+										"{@race Aasimar|MPMM|Aasimar (Court)}",
+										"{@race Aasimar|MPMM|Aasimar (Seeker)}",
+										"{@race Aasimar|MPMM|Aasimar (Scoure Variant; Fernian)}",
+										"{@race Aasimar|MPMM|Aasimar (Fallen Variant; Mabaran)}",
 										"{@race Elf (Aereni)|ExploringEberron}",
 										"{@race Dwarf (Ruinbound)|ExploringEberron}",
 										"{@race Hobgoblin (Dhakaani Ghaal'dar)|ExploringEberron}",
@@ -17152,11 +17152,6 @@
 		{
 			"name": "Fallen Variant; Mabaran",
 			"source": "ExploringEberron",
-			"ability": [
-				{
-					"str": 1
-				}
-			],
 			"additionalSpells": [
 				{
 					"innate": {
@@ -17208,17 +17203,6 @@
 		{
 			"name": "Aereni",
 			"source": "ExploringEberron",
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis"
-						],
-						"amount": 1
-					}
-				}
-			],
 			"entries": [
 				{
 					"name": "Aereni Expertise",
