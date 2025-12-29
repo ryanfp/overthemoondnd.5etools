@@ -116,7 +116,7 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
+						"type": "external",
 						"path": "races/MPMM/Aarakocra.webp"
 					},
 					"credit": "Claudio Pozas",
