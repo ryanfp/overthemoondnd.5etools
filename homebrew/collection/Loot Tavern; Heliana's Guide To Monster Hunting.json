@@ -5981,21 +5981,21 @@
 					{
 						"name": "Arcanists Analogue",
 						"entries": [
-							"Cyclopians are often mistaken for shadowy aberrations of the Shadow Plane known as skulks While both cyclopian and skulk share a hulking monocular physiology and a hunger for knowledge, a brief observation yields one significant difference: the skulking simulacra leave a trail of rot and necrosis wherever they travel, while no true cyclopian would ever risk damaging a book in this way."
+							"Cyclopians are often mistaken for shadowy aberrations of the Shadow Plane known as skulks. While both cyclopian and skulk share a hulking monocular physiology and a hunger for knowledge, a brief observation yields one significant difference: the skulking simulacra leave a trail of rot and necrosis wherever they travel, while no true cyclopian would ever risk damaging a book in this way."
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Pilgrimage of Huge Discovery",
 						"entries": [
-							"Cyclopians of a certain age often embark on a Pilgrimage of Huge Discovery, or PHD During this time, they venture out into the world, seeking to bring new and significant knowledge back to their library For some individuals, the natural compulsion to explore is all the impetus they need to leave the comfort of their homes On the other hand, more reticent cyclopians might have to be forced out by their family, fulfilling this rite of passage based on a sense of duty. Cyclopians who fixate on the acquisition of artifacts, rather than the joy of studying them, are regarded as rare and valuable assets to any family; cyclopian adventurers are always warmly welcomed back to their library."
+							"Cyclopians of a certain age often embark on a Pilgrimage of Huge Discovery, or PHD. During this time, they venture out into the world, seeking to bring new and significant knowledge back to their library. For some individuals, the natural compulsion to explore is all the impetus they need to leave the comfort of their homes. On the other hand, more reticent cyclopians might have to be forced out by their family, fulfilling this rite of passage based on a sense of duty. Cyclopians who fixate on the acquisition of artifacts, rather than the joy of studying them, are regarded as rare and valuable assets to any family; cyclopian adventurers are always warmly welcomed back to their library."
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Sharing is Caring",
 						"entries": [
-							"Cyclopians have an unusual lifecycle Though they can reproduce sexually, cyclopians are also capable of a form of asexual budding When a cyclopian is beyond inundated by the volume of knowledge awaiting its analysis (such as after it gains entry into an abandoned, book-filled wizard's tower), it can spontaneously and unexpectedly undergo entire body mitosis This produces a smaller, similar, genetically distinct, individual\u2014an assistant with whom the research can be more manageably catalogued."
+							"Cyclopians have an unusual lifecycle. Though they can reproduce sexually, cyclopians are also capable of a form of asexual budding. When a cyclopian is beyond inundated by the volume of knowledge awaiting its analysis (such as after it gains entry into an abandoned, book-filled wizard's tower), it can spontaneously and unexpectedly undergo entire body mitosis. This produces a smaller, similar, genetically distinct, individual\u2014an assistant with whom the research can be more manageably catalogued."
 						],
 						"type": "entries"
 					}
@@ -6043,7 +6043,7 @@
 				{
 					"name": "Age",
 					"entries": [
-						"Gobbocs grow quickly and die young They walk hours after hatching, reach adulthood by age 7, and live around 30 years."
+						"Gobbocs grow quickly and die young. They walk hours after hatching, reach adulthood by age 7, and live around 30 years."
 					],
 					"type": "entries"
 				},
@@ -6057,7 +6057,7 @@
 				{
 					"name": "Size",
 					"entries": [
-						"Gobbocs are a diminutive race and stand on average 2 to 3 feet tall Your size is Small."
+						"Gobbocs are a diminutive race and stand on average 2 to 3 feet tall. Your size is Small."
 					],
 					"type": "entries"
 				},
@@ -6071,7 +6071,7 @@
 				{
 					"name": "Commune with Fowl Folk",
 					"entries": [
-						"You have the ability to communicate in a limited manner with feathered beasts and monstrosities They can understand the meaning of your words, though you have no special ability to understand them in return You have advantage on all checks you make to influence them."
+						"You have the ability to communicate in a limited manner with feathered beasts and monstrosities. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all checks you make to influence them."
 					],
 					"type": "entries"
 				},
@@ -6092,7 +6092,7 @@
 				{
 					"name": "Gallus Domesticus",
 					"entries": [
-						"You can cast the polymorph spell on yourself with this trait, using Charisma as your spellcasting ability When you use this version of polymorph, you always assume the form of a Tiny {@creature Chicken|HelianasGuidetoMonsterHunting} (see statblock below). Once you cast the spell, you can't cast it again with this trait until you finish a long rest."
+						"You can cast the polymorph spell on yourself with this trait, using Charisma as your spellcasting ability. When you use this version of polymorph, you always assume the form of a Tiny {@creature Chicken|HelianasGuidetoMonsterHunting} (see statblock below). Once you cast the spell, you can't cast it again with this trait until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -6106,7 +6106,7 @@
 				{
 					"name": "Headless Chicken",
 					"entries": [
-						"When you are reduced to 0 hit points, but not killed outright, you don't immediately fall {@condition unconscious} Instead, you can immediately move up to your speed without provoking opportunity attacks You then fall {@condition unconscious} as if you had been reduced to 0 hit points in the space where you finish this movement."
+						"When you are reduced to 0 hit points, but not killed outright, you don't immediately fall {@condition unconscious}. Instead, you can immediately move up to your speed without provoking opportunity attacks. You then fall {@condition unconscious} as if you had been reduced to 0 hit points in the space where you finish this movement."
 					],
 					"type": "entries"
 				}
@@ -6140,26 +6140,26 @@
 						],
 						"by": "Ur-Gahl, orc adventurer"
 					},
-					"Nestled in secluded clearings in the woods, on hilltops with extraordinary vantages, or in easily collapsible canyons, gobbocs seek safety above all else Survival is a gobboc's watchword; their own survival is their number one goal on expedition\u2014 treasure, glory, and saving the world be damned.",
+					"Nestled in secluded clearings in the woods, on hilltops with extraordinary vantages, or in easily collapsible canyons, gobbocs seek safety above all else. Survival is a gobboc's watchword; their own survival is their number one goal on expedition\u2014 treasure, glory, and saving the world be damned.",
 					{
 						"name": "Brave Cowards",
 						"entries": [
-							"You'll likely recognise the back of a gobboc's head more than the front, given their propensity to run away at the first sign of danger. While this is the epitome of cowardice, it is a specifically brave kind of cowardice; life is scary and living another day is the bravest thing you can do At least, this is what is taught to gobboc from the moment they can walk, a few hours after they're born.",
-							"A typical gobboc is never the first to enter a room nor the last in a line of dungeon delvers They aim to keep bodies firmly before and behind them, a tactical meat shield to ward off harm. Indeed, gobbocs are the ultimate hit-and-run fighters, retreating from a foe before it can retaliate against their precise and lightning-quick attacks. This method of fighting, taught to all gobbocs, is known as the Klucking Fighting Creed."
+							"You'll likely recognise the back of a gobboc's head more than the front, given their propensity to run away at the first sign of danger. While this is the epitome of cowardice, it is a specifically brave kind of cowardice; life is scary and living another day is the bravest thing you can do. At least, this is what is taught to gobboc from the moment they can walk, a few hours after they're born.",
+							"A typical gobboc is never the first to enter a room nor the last in a line of dungeon delvers. They aim to keep bodies firmly before and behind them, a tactical meat shield to ward off harm. Indeed, gobbocs are the ultimate hit-and-run fighters, retreating from a foe before it can retaliate against their precise and lightning-quick attacks. This method of fighting, taught to all gobbocs, is known as the Klucking Fighting Creed."
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Fit and Sit",
 						"entries": [
-							"Gobbocs have a peculiar tendency to sit on things The pinnacle of this innate desire is the Festival of Brooding, sometimes known as the Eggstravaganza. This annual event finds all the gobbocs in a town creating the most comfortable thrones, bean bag chairs, and bundles of straw possible before sitting on them around a huge bonfire. There are no fireworks; sudden, loud noises are frowned upon in gobboc society."
+							"Gobbocs have a peculiar tendency to sit on things. The pinnacle of this innate desire is the Festival of Brooding, sometimes known as the Eggstravaganza. This annual event finds all the gobbocs in a town creating the most comfortable thrones, bean bag chairs, and bundles of straw possible before sitting on them around a huge bonfire. There are no fireworks; sudden, loud noises are frowned upon in gobboc society."
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Avian Ascendency",
 						"entries": [
-							"Gobbocs worship other birds The bigger the bird, the more holy it is In fact, similarly to kobolds, gobboc belief is innately magical It is so potent that gobboc belief causes birds to become more intelligent. In times of war, gobboc hosts are often accompanied by flocks of birds, including mounted divisions of razor-clawed and quick-witted cassowaries and flying contingents of super-intelligent hippogriffs. It is widely posited that the famous gobboc playwright Owlfred Hatchcluck based his play, {@i The Birds}, on this uniquely gobboc occurrence."
+							"Gobbocs worship other birds. The bigger the bird, the more holy it is. In fact, similarly to kobolds, gobboc belief is innately magical. It is so potent that gobboc belief causes birds to become more intelligent. In times of war, gobboc hosts are often accompanied by flocks of birds, including mounted divisions of razor-clawed and quick-witted cassowaries and flying contingents of super-intelligent hippogriffs. It is widely posited that the famous gobboc playwright Owlfred Hatchcluck based his play, {@i The Birds}, on this uniquely gobboc occurrence."
 						],
 						"type": "entries"
 					}
@@ -6195,7 +6195,7 @@
 				{
 					"name": "Age",
 					"entries": [
-						"Golynn grow rapidly and reach maturity at 10 years of age On average they live about 150 years"
+						"Golynn grow rapidly and reach maturity at 10 years of age. On average they live about 150 years"
 					],
 					"type": "entries"
 				},
@@ -6209,7 +6209,7 @@
 				{
 					"name": "Size",
 					"entries": [
-						"Golynn stand between 7 and 8 feet tall and average between 300 and 400 pounds Your size is Medium"
+						"Golynn stand between 7 and 8 feet tall and average between 300 and 400 pounds. Your size is Medium"
 					],
 					"type": "entries"
 				},
@@ -6223,7 +6223,7 @@
 				{
 					"name": "Natural Armour",
 					"entries": [
-						"Your body is covered in thick, keratinous scales When you aren't wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armour."
+						"Your body is covered in thick, keratinous scales. When you aren't wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armour."
 					],
 					"type": "entries"
 				},
@@ -6237,21 +6237,21 @@
 				{
 					"name": "Shovel Talons",
 					"entries": [
-						"Your wide, powerful claws are perfect for creating tunnels and burrows You have a burrowing speed of 15 feet, but can only use it to tunnel through soft earth, or loose stone."
+						"Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of 15 feet, but can only use it to tunnel through soft earth, or loose stone."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Drill Dervish",
 					"entries": [
-						"While burrowing underground, you can shift the ground under a creature's feet, potentially causing it to fall over If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked {@condition prone} The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus."
+						"While burrowing underground, you can shift the ground under a creature's feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked {@condition prone}. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Tremorsense",
 					"entries": [
-						"Knowing where the next meal\u2014 like a juicy, giant earthworm\u2014can be found while underground requires a specific adaptation. You have tremorsense out to a range of 5 feet As an action, you can hone your senses, increasing the range of this sense out to 20 feet until the end of your next turn."
+						"Knowing where the next meal\u2014 like a juicy, giant earthworm\u2014can be found while underground requires a specific adaptation. You have tremorsense out to a range of 5 feet. As an action, you can hone your senses, increasing the range of this sense out to 20 feet until the end of your next turn."
 					],
 					"type": "entries"
 				}
@@ -6275,27 +6275,27 @@
 						],
 						"by": "Pottleberry Tom, garden gnome extraordinaire"
 					},
-					"The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society Their shovel-like hands, scaly exterior, and insect-devouring constitution ensure their survival wherever the earth is soft and the soil is fertile.",
+					"The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area. Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society. Their shovel-like hands, scaly exterior, and insect-devouring constitution ensure their survival wherever the earth is soft and the soil is fertile.",
 					{
 						"name": "Hearth and Heartbeat",
 						"entries": [
-							"Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat's hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid Indeed, the lead percussionist for the legendary opteran band, Wings of a Butterfly, was Hopo Aman, a golynn maestro of the dwarven tablah.",
-							"Golynn legend tells of a single, pulsing rhythm that drives all life in the world, the golo'apa, or 'Heartbeat of the World' Many golynn's nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm In their never-ending pilgrimage, golynn leave a plethora of hidden burrows\u2014warm, safe spaces whose locations are passed on by word of mouth."
+							"Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat's hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid. Indeed, the lead percussionist for the legendary opteran band, {@i Wings of a Butterfly}, was Hopo Aman, a golynn maestro of the dwarven tablah.",
+							"Golynn legend tells of a single, pulsing rhythm that drives all life in the world, the golo'apa, or 'Heartbeat of the World'. Many golynn's nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm. In their never-ending pilgrimage, golynn leave a plethora of hidden burrows\u2014warm, safe spaces whose locations are passed on by word of mouth."
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Dig a Hole Lotta' Trouble",
 						"entries": [
-							"This constant burrowing can sometimes bring golynn into conflict with the uto monké, or 'those that live under the sky' Golynn have ruined many a quality murderbowl pitch and have even inadvertently undermined castles while searching for the rhythmic clanking of a prisoner's chains Conversely, some farmers, recognising their natural aptitude for digging, engage passing golynn as farmhands whenever possible, promising them all the grubs they can eat in exchange for a day's work"
+							"This constant burrowing can sometimes bring golynn into conflict with the uto monké, or 'those that live under the sky'. Golynn have ruined many a quality murderbowl pitch and have even inadvertently undermined castles while searching for the rhythmic clanking of a prisoner's chains. Conversely, some farmers, recognising their natural aptitude for digging, engage passing golynn as farmhands whenever possible, promising them all the grubs they can eat in exchange for a day's work"
 						],
 						"type": "entries"
 					},
 					{
 						"name": "Happenstance",
 						"entries": [
-							"Not all golynn are raised by their own kin Rumours of the magical healing properties of golynn scales are still abound, leading unsavoury and desperate individuals to hunt them for these entirely-mundane components Fortunately, orphaned golynn have been taken in by all manner of parents, from halflings, dwarves, and gnomes to lotol and kobolds who regard them as huge, scaled, dragon-kin",
-							"ith their fondness for exploration, golynn make natural adventurers A burrowing golynn might accidentally fall into an underground sepulchre, find a long-buried artifact, or stumble upon the machinations of an evil necromancer bent on raising an army of the undead."
+							"Not all golynn are raised by their own kin. Rumours of the magical healing properties of golynn scales are still abound, leading unsavoury and desperate individuals to hunt them for these entirely-mundane components. Fortunately, orphaned golynn have been taken in by all manner of parents, from halflings, dwarves, and gnomes to lotol and kobolds who regard them as huge, scaled, dragon-kin",
+							"With their fondness for exploration, golynn make natural adventurers. A burrowing golynn might accidentally fall into an underground sepulchre, find a long-buried artifact, or stumble upon the machinations of an evil necromancer bent on raising an army of the undead."
 						],
 						"type": "entries"
 					}
@@ -6336,7 +6336,7 @@
 				{
 					"name": "Age",
 					"entries": [
-						"Newborn lotol metamorphose into their adult form in 1 year and reach full maturity after 10 years They typically live between 40 and 50 years."
+						"Newborn lotol metamorphose into their adult form in 1 year and reach full maturity after 10 years. They typically live between 40 and 50 years."
 					],
 					"type": "entries"
 				},
@@ -6350,7 +6350,7 @@
 				{
 					"name": "Size",
 					"entries": [
-						"Lotol never stop growing; the larger the lotol, the older it probably is! Lotol typically range from 4 feet to 5 feet tall Your size is Medium."
+						"Lotol never stop growing; the larger the lotol, the older it probably is! Lotol typically range from 4 feet to 5 feet tall. Your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -6364,7 +6364,7 @@
 				{
 					"name": "Oblivious",
 					"entries": [
-						"Your mind is a simple place, the influence of outside forces washing over it like crashing waves over smooth sea glass You have advantage on Wisdom saving throws."
+						"Your mind is a simple place, the influence of outside forces washing over it like crashing waves over smooth sea glass. You have advantage on Wisdom saving throws."
 					],
 					"type": "entries"
 				},

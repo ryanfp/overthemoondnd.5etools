@@ -95,9 +95,15 @@ class FeatsPage extends ListPage {
 					entries: {
 						name: "Text",
 						transform: (feat) => {
-							Renderer.feat.initFullEntries(feat);
-							return Renderer.get().render({type: "entries", entries: feat._fullEntries || feat.entries}, 1);
-						},
+							const filtered = (feat.entries || []).filter(e => {
+								// Feats rarely have generic entries, but add extra check if desired
+								return true;
+							});
+							if (!filtered.length) return "\u2014";
+							return Renderer.get().render({ type: "entries", entries: filtered }, 1);
+  						},
+							/*Renderer.feat.initFullEntries(feat);
+							return Renderer.get().render({type: "entries", entries: feat._fullEntries || feat.entries}, 1);*/
 						flex: 3,
 					},
 				},

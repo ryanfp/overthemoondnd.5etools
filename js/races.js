@@ -101,7 +101,15 @@ class RacesPage extends ListPage {
 					},
 					_fLangs: {
 						name: "Languages",
-						transform: (race) => (race._fLangs || []).join(", ") || "\u2014",
+						transform: (race) => (race._fLangs || [])
+   							.map(lang => {
+      							// Shows only the language part before '|'
+      							const abbr = lang.split("|")[0];
+      							// Optionally capitalize the first letter
+      							return abbr.charAt(0).toUpperCase() + abbr.slice(1);
+    						})
+    						.join(", ") || "\u2014",
+						// transform: (race) => (race._fLangs || []).join(", ") || "\u2014",
 					},
 					_age: {
 						name: "Age",
@@ -131,12 +139,19 @@ class RacesPage extends ListPage {
 					entries: {
 						name: "Text",
 						transform: (race) => {
-							const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
+							const filteredEntries = (race.entries || []).filter(e => {
+      							if (typeof e === "string" && e.includes("Creature Type")) return false;
+      							if (e.name && e.name.includes("Creature Type")) return false;
+      							return true;
+   							 });
+   							 if (!filteredEntries.length) return "\u2014";
+   							 return Renderer.get().render({ type: "entries", entries: filteredEntries }, 1);
+							/* const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
 							const renderer = Renderer.get();
 							const stack = [];
 							if (entriesMeta.entryAttributes) renderer.recursiveRender(entriesMeta.entryAttributes, stack, {depth: 1});
 							renderer.recursiveRender(entriesMeta.entryMain, stack, {depth: 1});
-							return stack.join("");
+							return stack.join("");*/
 						},
 						flex: 3,
 					},

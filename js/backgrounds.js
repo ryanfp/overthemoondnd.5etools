@@ -73,6 +73,16 @@ class BackgroundPage extends ListPage {
 				pageTitle: "Backgrounds Book View",
 			},
 
+			// function to try and catch rogue objects not putting correctly
+			function toolProficiencyDisplay(code) {
+  				switch(code) {
+				case "anyGamingSet": return "any gaming set";
+				case "anyArtisansTool": return "any artisan's tools";
+				case "anyMusicalInstrument": return "any musical instrument";
+				default: return code;
+ 				}
+			},
+
 			tableViewOptions: {
 				title: "Backgrounds",
 				colTransforms: {
@@ -91,19 +101,44 @@ class BackgroundPage extends ListPage {
 					},
 					_fOtherBenefits: {
 						name: "Other Benefit",
-						transform: (bg) => (bg._fOtherBenefits || []).join(", ") || "\u2014",
+						transform: (bg) => {
+							const featEntry = (bg.entries || []).find(e => e.name && e.name.toLowerCase().includes("feature"));
+							if (!featEntry) return "\u2014";
+							return Renderer.get().render({ type: "entries", entries: featEntry.entries }, 1);
+						},
+						//transform: (bg) => (bg._fOtherBenefits || []).join(", ") || "\u2014",
 					},
 					_startingEquipment: {
 						name:  "Equipment",
 						transform: (bg) => {
-							if (! bg.startingEquipment) return "\u2014";
-							return Renderer.get().render({type: "entries", entries: bg.startingEquipment}, 1);
+							if (bg._startingEquipment && bg._startingEquipment.length) {
+      							return Array.isArray(bg._startingEquipment)
+        							? bg._startingEquipment.join(", ")
+        							: String(bg._startingEquipment);
+    						}
+							const equipEntry = (bg.entries || []).find(e => e.name && e.name.toLowerCase().includes("equipment"));
+							if (!equipEntry) return "\u2014";
+							return Renderer.get().render({ type: "entries", entries: equipEntry.entries }, 1);
+							/* if (! bg.startingEquipment) return "\u2014";
+							return Renderer.get().render({type: "entries", entries: bg.startingEquipment}, 1); */
 						},
 					},
 					entries: {
-						name: "Text",
+					  transform: (bg) => {
+						// Show only non-generic entries
+						const filtered = (bg.entries || []).filter(e => {
+							// Remove non-feature/equipment/benefit
+							if (typeof e === "string") return true; // Usually main trait text
+							// Add additional filters if fields to skip are known/repetitive
+							return true;
+						});
+						if (!filtered.length) return "\u2014";
+						return Renderer.get().render({ type: "entries", entries: filtered }, 1);
+ 					 },
+ 					 flex: 3,
+						/*name: "Text",
 						transform: (bg) => Renderer.get().render({type: "entries", entries: bg.entries}, 1),
-						flex: 3,
+						flex: 3,*/
 					},
 				},
 			},
