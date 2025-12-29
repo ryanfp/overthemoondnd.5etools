@@ -9264,11 +9264,6 @@
 			"name": "Ash",
 			"source": "TEB",
 			"page": 26,
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
 			"resist": [
 				"fire",
 				"necrotic"
@@ -9297,7 +9292,7 @@
 					"name": "Awaken the Ashes",
 					"page": 26,
 					"entries": [
-						"You know the {@spell control flames|xge} cantrip from Xanathar's Guide to Everything, but you can only use it to extinguish flames and create simple shapes. You can also cast the {@spell fog cloud} spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+						"You know the {@spell control flames|XGE} cantrip from Xanathar's Guide to Everything, but you can only use it to extinguish flames and create simple shapes. You can also cast the {@spell fog cloud} spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			],
@@ -9318,10 +9313,9 @@
 			"name": "Ice",
 			"source": "TEB",
 			"page": 26,
-			"ability": [
-				{
-					"str": 1
-				}
+			"resist": [
+				"cold",
+				"acid"
 			],
 			"additionalSpells": [
 				{
@@ -9352,7 +9346,7 @@
 					"name": "Icy Resilience",
 					"page": 26,
 					"entries": [
-						"You have resistance to cold damage, and your speed can't be reduced by effects that deal cold damage except through conditions that reduce your speed to 0, such as being {@condition restrained} or {@condition grappled}."
+						"You have resistance to cold and acid damage, and your speed can't be reduced by effects that deal cold damage except through conditions that reduce your speed to 0, such as being {@condition restrained} or {@condition grappled}."
 					]
 				},
 				{
@@ -9360,7 +9354,7 @@
 					"name": "Invocation of Ice",
 					"page": 26,
 					"entries": [
-						"You can cast {@spell armor of Agathys} with this trait. Starting at 3rd level, you can cast the new {@spell ice sculpture|TEB} spell with it, and starting at 5th level, you can also cast {@spell sleet storm} with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells."
+						"You can cast {@spell armor of agathys} with this trait. Starting at 3rd level, you can cast the new {@spell ice sculpture|TEB} spell with it, and starting at 5th level, you can also cast {@spell sleet storm} with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			],
@@ -9378,82 +9372,9 @@
 			"raceSource": "MPMM"
 		},
 		{
-			"name": "Slime",
-			"source": "TEB",
-			"page": 26,
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
-			"resist": [
-				"acid",
-				"poison"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"1": [
-							"primal savagery|XGE#c"
-						]
-					}
-				},
-				{
-					"innate": {
-						"1": [
-							"acid splash#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Alchemical Resistance",
-					"page": 27,
-					"entries": [
-						"You have resistance to acid damage and poison damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Caustic Touch",
-					"page": 27,
-					"entries": [
-						"You know the {@spell primal savagery|xge} cantrip, from Xanathar's Guide to Everything. Alternatively, you can choose to know the {@spell acid splash} cantrip instead. Constitution is your spellcasting ability for this spell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Slimy",
-					"page": 27,
-					"entries": [
-						"You have advantage on ability checks made to escape from being {@condition grappled} or {@condition restrained} or to squeeze through a tight space. In addition, you don't have to spend extra speed to move while squeezing."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"As a slime genasi, you have manifested both earth and water, connecting you with the mysterious dual-element of slime, the fusion of water's fluidity and earth's alchemical variety. You live by concealing your true feelings behind a graceful mask, appearing to feel whatever emotion is most convenient for a situation, but those who know you well have seen your true emotions slip out, which are often acrid, bitter, and caustic.",
-					"Slime genasi have bright green or greenish-yellow skin, often seeming sickly or jaundiced to those who don't know of their existence as a subrace. Except for a short period after washing, their skin is always covered in a thin layer of transparent slime. Slime genasi often have green, dark green, or black hair, but sometimes have white, blond, or even purple hair, with similar variations in eye color."
-				],
-				"_appendRaceFluff": {
-					"name": "Genasi Subraces",
-					"source": "TEB"
-				}
-			},
-			"raceName": "Genasi",
-			"raceSource": "MPMM"
-		},
-		{
 			"name": "Storm",
 			"source": "TEB",
 			"page": 27,
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"resist": [
 				"lightning",
 				"thunder"
