@@ -72,6 +72,7 @@ _Support content creators. Only use or include sources that you own._
 | EGW_US | Unwelcome Spirits | reference |
 | ERLW | Eberron: Rising from the Last War | book |
 | ESK | Essentials Kit | reference |
+| ExE | Exploring Eberron | collection |
 | FRAiF | Forgotten Realms: Adventures in Faerûn | book |
 | FRAiF-TLLoL | Forgotten Realms: The Lost Library of Lethchauntos | adventure |
 | FRHoF | Forgotten Realms: Heroes of Faerûn | book |

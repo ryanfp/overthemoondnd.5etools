@@ -97,7 +97,7 @@
 				{
 					"type": "image",
 					"href": {
-						"type": "internal",
+						"type": "external",
 						"path": "races/EEPC/Aarakocra.webp"
 					},
 					"width": 420,
