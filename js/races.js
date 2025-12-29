@@ -139,11 +139,13 @@ class RacesPage extends ListPage {
 					entries: {
 						name: "Text",
 						transform: (race) => {
-							const filteredEntries = (race.entries || []).filter(e => {
-      							if (typeof e === "string" && e.includes("Creature Type")) return false;
-      							if (e.name && e.name.includes("Creature Type")) return false;
-      							return true;
-   							 });
+							const entriesRaw = race.entries;
+    						const filteredEntries = Array.isArray(entriesRaw)
+      							? entriesRaw.filter(e => {
+      								if (typeof e === "string" && e.includes("Creature Type")) return false;
+      								if (e.name && e.name.includes("Creature Type")) return false;
+      								return true;
+   							 	});
    							 if (!filteredEntries.length) return "\u2014";
    							 return Renderer.get().render({ type: "entries", entries: filteredEntries }, 1);
 							/* const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
