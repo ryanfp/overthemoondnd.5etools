@@ -4393,7 +4393,7 @@
 													"type": "entries",
 													"name": "Subrace",
 													"entries": [
-														" As an aasimar of the Blood of Vol, use the {@race aasimar (seeker)|ExploringEberron|Seeker aasimar} subrace presented in chapter 6."
+														"As an Aasimar of the Blood of Vol, use the seeker aasimar subrace presented in chapter 6."
 													]
 												}
 											]
@@ -4541,7 +4541,7 @@
 													"type": "entries",
 													"name": "Subrace",
 													"entries": [
-														"A Host aasimar typically choose the 'Radiant Soul' racial feature, but the 'Radiant Consumption' feature is valid as well. An elf aasimar devoted to the Host could use the {@race aasimar (court)|ExploringEberron|Court aasimar} subrace provided in chapter 6, while an aasimar tied to Onatar could even use the {@race aasimar (scourge variant; fernian)|ExploringEberron|Fernian} variant."
+														"A Host aasimar typically choose the 'Radiant Soul' racial feature, but the 'Radiant Consumption' feature is valid as well. An elf aasimar devoted to the Host could use the court aasimar subrace provided in chapter 6, while an aasimar tied to Onatar could even use the scourge aasimar variant."
 													]
 												}
 											]
@@ -4577,7 +4577,7 @@
 													"type": "entries",
 													"name": "Subrace",
 													"entries": [
-														"As an Aereni aasimar, use the {@race aasimar (court)|ExploringEberron|Court aasimar} subrace presented in chapter 6 to reflect your elf nature."
+														"As an Aereni aasimar, use the court aasimar subrace presented in chapter 6 to reflect your elf nature."
 													]
 												}
 											]
@@ -7331,7 +7331,7 @@
 										"The first Mror dwarves to explore Sol Udar were amazed at the treasures they found. While there was no sign of the original inhabitants, their possessions remained. Early explorers found remarkable jewelry, intriguing artwork, and caskets of coins--but magic items were often the most valuable. Many of these are like those found in the Five Nations, with a focus on practicality--items such as the {@item alchemy jug}, {@item bag of holding}, or {@item decanter of endless water}. While similar items are produced in the Five Nations, the arcane techniques used are intriguing, and some items displayed superior qualities; one team of scouts found an alchemy keg that's bulkier than the standard jug, but can produce twice the amount of liquid each day--and the alcohol it produces is far more potent than that of a standard {@item alchemy jug}. The {@table Sol Udar Trinkets|ExploringEberron} table presents some interesting items, both magical and mundane, that might be found adventuring in the Realm Below.",
 										"Beyond the minor curiosities scattered throughout Sol Udar, there were far greater treasures--legendary magic items and artifacts, things that can't be created in the present day. Only a few of these wonders have been found, and these have become a source of immense pride for the clans that possess them. It's common for a clan to declare such items to be the work of their ancestors, though this is typically a talespinner's fancy. Little concrete scholarship has been done on most of these treasures, and despite the commonly accepted myth of the dwarven exile, there's no reason to think that the ancestors of the modern Mror were all distributed evenly around the mountains, their descendants just happening to have remained exactly above their ancestral homes. Nonetheless, these relics are seen as proof of the power and potential of a clan, and most clan leaders don't look kindly on outsiders questioning their stories. Surely even more powerful and precious artifacts remain to be found in the deeper layers of the Realm Below, but the Dol Udar has kept the Mror from claiming these wonders.",
 										"While battling aberrations and making expeditions into infested layers, the dwarves recovered another unusual treasure--symbionts, living tools crafted by the daelkyr. Chapter 7 presents eight new symbionts that might be found in the Realm Below. Many clans want nothing to do with these foul things; Doldarun dwarves always burn symbionts with the corpses of the creatures that carry them. But not all dwarves share this distaste. Some clans see symbionts as just another form of treasure from the depths. The Toldorath and Droranath dwarves have no fear of symbionts, and a warrior may carry a {@i hungry axe} (as described in chapter 7) without protest from their clan; but these clans haven't embraced symbionts beyond keeping the trophies taken from fallen enemies. Both Soldorak and Narathun have gone further; in addition to using salvaged symbionts, these clans have spent decades studying the science behind these items and creating their own symbionts. In some cases, they are replicating existing items, but Soldorak fleshcrafters have also created unique symbionts, integrating the principles of daelkyr magic with their own arcane traditions. Those clans that favor such tools call fleshcrafted items {@i dolaur}--spoils of war. On the other hand, those that despise them often call symbionts and those who use them {@i dularash}--foul blood--a term often used to refer to spoiled meat or corrupted bloodlines.",
-										"Many existing magic items can be reflavored as symbionts. A Soldorak artificer might create a {@item cloak of elvenkind}, but formed of leathery, living flesh that shifts in hue like a chameleon. A Narathun {@item rope of climbing} isn't rope at all, but a coiled tentacle that follows the commands of the creature holding it. The Soldorak have created {@i lighting bugs}--identical in function to {@item everbright lantern|erlw|everbright lanterns}, but able to cling or detach to a surface on command. These bugs need to be fed a few drops of blood each day, and in communities that use these, the former lamplighters now walk the streets to feed the bugs from their own body.",
+										"Many existing magic items can be reflavored as symbionts. A Soldorak artificer might create a {@item cloak of elvenkind}, but formed of leathery, living flesh that shifts in hue like a chameleon. A Narathun {@item rope of climbing} isn't rope at all, but a coiled tentacle that follows the commands of the creature holding it. The Soldorak have created {@i lighting bugs}--identical in function to {@item everbright lantern|ERLW|everbright lanterns}, but able to cling or detach to a surface on command. These bugs need to be fed a few drops of blood each day, and in communities that use these, the former lamplighters now walk the streets to feed the bugs from their own body.",
 										"Outsiders may be horrified by these living tools, but the motives of dwarves that use them are rational to many of their people. To many Mror, these items are trophies, concrete proof of Mror victories over the daelkyr: \"If you took a magic axe from a fallen foe, you'd be a fool to throw it away. So what if it moans when it kills? It's a powerful weapon, and it's mine by right of conquest!\" Many Mror also see carrying these tools as a sign of their courage, proudly demonstrating they aren't afraid to put on living armor. They may bask in the fear that their treasures instill in their enemies. In addition, both Soldorak and Narathun are ambitious clans, and leaders hope that by unlocking the secrets of fleshcrafting, they can increase the power of their clans.",
 										"Those clans that revile symbionts say that fleshcrafting is an abomination and an affront to Aureon and Onatar. The Narathun counter that Onatar is the master artisan and can work with any material; it is the doubters who insult Onatar by thinking his servants can't master this new medium. This argument has found supporters in Clan Soranath; while the Soranath dwarves don't fully embrace symbionts as the Soldorak and Narathun do, they are interested in the science of fleshcrafting and have been studying these techniques.",
 										"The clans that embrace these techniques say that there is no danger, that this is just another form of science, while Doldarun dwarves insist that there can be no traffic with the daelkyr without corruption. The DM will have to decide the truth--can Soldorak benefit from their exploration of fleshcrafting, or are their warlocks and artificers being corrupted by Dyrrn? Whatever the truth of it, tensions between those clans who embrace these tools and those who revile them continue to rise.",
@@ -13077,7 +13077,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item shiftweave|erlw} garment (capable of shifting between five different outfits), one trinkit of special significance, and a belt {@item pouch|phb} containing 5 gp"
+							"entry": "A {@item shiftweave|ERLW} garment (capable of shifting between five different outfits), one trinkit of special significance, and a belt {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -13489,7 +13489,7 @@
 				{
 					"_": [
 						{
-							"item": "shiftweave|erlw",
+							"item": "shiftweave|ERLW",
 							"displayName": "shiftweave garment (capable of shifting between five different outfits)"
 						},
 						{
@@ -16758,7 +16758,7 @@
 			"name": "Byeshk Weapon",
 			"type": "GV|DMG",
 			"entries": [
-				"Byeshk is a rare and heavy metal of lustrous purple, mined from the Byeshk and Graywall Mountains along Droaam's borders. It can also be found in the Ironlands, a Khyberian demiplane that's been delved into by the Ghaash'kala and Kech Sharaat. Aberrations tied to the daelkyr--including {@creature dolgaunt|erlw|dolgaunts}, {@creature dolgrim|erlw|dolgrims}, and {@creature mind flayer||mind flayers}--are susceptible to weapons made of byeshk alloys, making the metal highly valued to the Dhakaani, Gatekeepers druids, and others that fight aberrations. Dhakaani weapons forged during the Xoriat Incursion were often forged from byeshk.",
+				"Byeshk is a rare and heavy metal of lustrous purple, mined from the Byeshk and Graywall Mountains along Droaam's borders. It can also be found in the Ironlands, a Khyberian demiplane that's been delved into by the Ghaash'kala and Kech Sharaat. Aberrations tied to the daelkyr--including {@creature dolgaunt|ERLW|dolgaunts}, {@creature dolgrim|ERLW|dolgrims}, and {@creature mind flayer||mind flayers}--are susceptible to weapons made of byeshk alloys, making the metal highly valued to the Dhakaani, Gatekeepers druids, and others that fight aberrations. Dhakaani weapons forged during the Xoriat Incursion were often forged from byeshk.",
 				"Melee weapons made of or coated with byeshk are not inherently magical weapons, but are unusually effective when used to fight aberrations. Whenever you hit an aberration with a byeshk weapon, the aberration takes an extra {@damage 1d6} damage of the weapon's type, and it can't regain hit points until the start of your next turn.",
 				"The byeshk version of a melee weapon costs 400 gp more than the normal version, whether the weapon is made of the metal or coated with it."
 			],
@@ -16786,7 +16786,7 @@
 			"name": "Byeshk Ammunition",
 			"type": "GV|DMG",
 			"entries": [
-				"Byeshk is a rare and heavy metal of lustrous purple, mined from the Byeshk and Graywall Mountains along Droaam's borders. It can also be found in the Ironlands, a Khyberian demiplane that's been delved into by the Ghaash'kala and Kech Sharaat. Aberrations tied to the daelkyr--including {@creature dolgaunt|erlw|dolgaunts}, {@creature dolgrim|erlw|dolgrims}, and {@creature mind flayer||mind flayers}--are susceptible to weapons made of byeshk alloys, making the metal highly valued to the Dhakaani, Gatekeepers druids, and others that fight aberrations. Dhakaani weapons forged during the Xoriat Incursion were often forged from byeshk.",
+				"Byeshk is a rare and heavy metal of lustrous purple, mined from the Byeshk and Graywall Mountains along Droaam's borders. It can also be found in the Ironlands, a Khyberian demiplane that's been delved into by the Ghaash'kala and Kech Sharaat. Aberrations tied to the daelkyr--including {@creature dolgaunt|ERLW|dolgaunts}, {@creature dolgrim|ERLW|dolgrims}, and {@creature mind flayer||mind flayers}--are susceptible to weapons made of byeshk alloys, making the metal highly valued to the Dhakaani, Gatekeepers druids, and others that fight aberrations. Dhakaani weapons forged during the Xoriat Incursion were often forged from byeshk.",
 				"Ammunition made of or coated with byeshk are not inherently magical weapons, but are unusually effective when used to fight aberrations. Whenever you hit an aberration with a piece of byeshk ammunition, the aberration takes an extra {@damage 1d6} damage of the weapon's type, and it can't regain hit points until the start of your next turn.",
 				"The byeshk version of ten pieces of ammunition costs 400 gp more than the normal version, whether the ammunition is made of the metal or coated with it."
 			],
@@ -16994,11 +16994,6 @@
 		{
 			"name": "Court",
 			"source": "ExploringEberron",
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
 			"traitTags": [
 				"Improved Resting"
 			],
@@ -17069,11 +17064,6 @@
 		{
 			"name": "Seeker",
 			"source": "ExploringEberron",
-			"ability": [
-				{
-					"con": 1
-				}
-			],
 			"entries": [
 				{
 					"name": "Shroud of Life and Death",
@@ -17101,11 +17091,6 @@
 		{
 			"name": "Scourge Variant; Fernian",
 			"source": "ExploringEberron",
-			"ability": [
-				{
-					"con": 1
-				}
-			],
 			"additionalSpells": [
 				{
 					"innate": {
@@ -17159,7 +17144,7 @@
 			},
 			"resist": [
 				"fire",
-				"necrotic"
+				"radiant"
 			],
 			"raceName": "Aasimar",
 			"raceSource": "MPMM"
@@ -17906,12 +17891,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Half-Elf (Variant; Mark of Detection)|erlw|Mark of Detection}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Half-Elf (Variant; Mark of Detection)|ERLW|Mark of Detection}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Half-Elf (Variant; Mark of Detection)|erlw|Mark of Detection} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Half-Elf (Variant; Mark of Detection)|ERLW|Mark of Detection} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -17982,12 +17967,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Handling)|erlw|Mark of Handling}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Handling)|ERLW|Mark of Handling}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Handling)|erlw|Mark of Handling} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Handling)|ERLW|Mark of Handling} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18020,12 +18005,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Halfling (Mark of Healing)|erlw|Mark of Healing}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Halfling (Mark of Healing)|ERLW|Mark of Healing}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Halfling (Mark of Healing)|erlw|Mark of Healing} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Halfling (Mark of Healing)|ERLW|Mark of Healing} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18058,12 +18043,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Halfling (Mark of Hospitality)|erlw|Mark of Hospitality}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Halfling (Mark of Hospitality)|ERLW|Mark of Hospitality}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Halfling (Mark of Hospitality)|erlw|Mark of Hospitality} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Halfling (Mark of Hospitality)|ERLW|Mark of Hospitality} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18096,12 +18081,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Making)|erlw|Mark of Making}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Making)|ERLW|Mark of Making}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Making)|erlw|Mark of Making} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Making)|ERLW|Mark of Making} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18134,12 +18119,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Passage)|erlw|Mark of Passage}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Passage)|ERLW|Mark of Passage}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Passage)|erlw|Mark of Passage} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Passage)|ERLW|Mark of Passage} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18172,12 +18157,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Gnome (Mark of Scribing)|erlw|Mark of Scribing}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Gnome (Mark of Scribing)|ERLW|Mark of Scribing}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Gnome (Mark of Scribing)|erlw|Mark of Scribing} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Gnome (Mark of Scribing)|ERLW|Mark of Scribing} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18210,12 +18195,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Sentinel)|erlw|Mark of Sentinel}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Human (Mark of Sentinel)|ERLW|Mark of Sentinel}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Sentinel)|erlw|Mark of Sentinel} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Human (Mark of Sentinel)|ERLW|Mark of Sentinel} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18248,12 +18233,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Elf (Mark of Shadow)|erlw|Mark of Shadow}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Elf (Mark of Shadow)|ERLW|Mark of Shadow}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Elf (Mark of Shadow)|erlw|Mark of Shadow} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Elf (Mark of Shadow)|ERLW|Mark of Shadow} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18286,12 +18271,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Half-Elf (Variant; Mark of Storm)|erlw|Mark of Storm}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Half-Elf (Variant; Mark of Storm)|ERLW|Mark of Storm}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Half-Elf (Variant; Mark of Storm)|erlw|Mark of Storm} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Half-Elf (Variant; Mark of Storm)|ERLW|Mark of Storm} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -18324,12 +18309,12 @@
 								{
 									"type": "item",
 									"name": "Dragonmark Focus Items.",
-									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Dwarf (Mark of Warding)|erlw|Mark of Warding}."
+									"entry": "The character can attune to and use any magic items that require a creature bear the {@race Dwarf (Mark of Warding)|ERLW|Mark of Warding}."
 								},
 								{
 									"type": "item",
 									"name": "Spells of the Mark.",
-									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Dwarf (Mark of Warding)|erlw|Mark of Warding} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
+									"entry": "If the character has the Spellcasting or Pact Magic class feature, the spells on the Spells of the Mark table for the {@race Dwarf (Mark of Warding)|ERLW|Mark of Warding} are added to the spell list of their spellcasting class. However, the character doesn't gain any of the other racial features usually associated with their dragonmark's subrace or variant race."
 								}
 							]
 						}
@@ -19993,7 +19978,7 @@
 							"exact": 8
 						}
 					},
-					"{@b A Limb}. With your DM's permission, you can have a {@item prosthetic limb|erlw} (from {@book Eberron: Rising from the Last War|erlw}). What did you lose, and how did it happen? What does your prosthetic look like?"
+					"{@b A Limb}. With your DM's permission, you can have a {@item prosthetic limb|ERLW} (from {@book Eberron: Rising from the Last War|ERLW}). What did you lose, and how did it happen? What does your prosthetic look like?"
 				]
 			]
 		},
@@ -20052,7 +20037,7 @@
 							"exact": 5
 						}
 					},
-					"A lamplighter uses a long hook to raise the shutter on a nearby streetlight. This reveals the globe of cold fire within the {@item everbright lantern|erlw}, casting golden light across the street."
+					"A lamplighter uses a long hook to raise the shutter on a nearby streetlight. This reveals the globe of cold fire within the {@item everbright lantern|ERLW}, casting golden light across the street."
 				],
 				[
 					{
@@ -20942,7 +20927,7 @@
 							"exact": 6
 						}
 					},
-					"{@b Freshly Formed.} An aberration is spontaneously created by the transmutation of local creatures. {@creature dolgrim|erlw|Dolgrims} could be formed by fusing two dwarves together; a {@creature gibbering mouther} could be the result of victims being liquefied and blended together. These creatures need not look like the traditional aberrations, but can use the standard stat blocks."
+					"{@b Freshly Formed.} An aberration is spontaneously created by the transmutation of local creatures. {@creature dolgrim|ERLW|Dolgrims} could be formed by fusing two dwarves together; a {@creature gibbering mouther} could be the result of victims being liquefied and blended together. These creatures need not look like the traditional aberrations, but can use the standard stat blocks."
 				],
 				[
 					{
@@ -20951,7 +20936,7 @@
 							"exact": 7
 						}
 					},
-					"{@b Lone Hunter.} A single intelligent aberration--an intellect {@creature devourer}, a {@creature dolgaunt|erlw}, or even a {@creature mind flayer}--moves through a community. It may kill seemingly at random, or it could have a mission it seeks to fulfill."
+					"{@b Lone Hunter.} A single intelligent aberration--an intellect {@creature devourer}, a {@creature dolgaunt|ERLW}, or even a {@creature mind flayer}--moves through a community. It may kill seemingly at random, or it could have a mission it seeks to fulfill."
 				],
 				[
 					{
@@ -20960,7 +20945,7 @@
 							"exact": 8
 						}
 					},
-					"{@b Mindstorm.} A wave of psychic force drifts through a community in the same way a hurricane might. Those caught in the area of effect must make a successful Intelligence saving throw or suffer the effects of the {@spell phantasmal force} spell. The area of effect, duration, and saving throw DC depend on the intensity. A minor storm could be {@dc 10}, affect a 20-foot radius, and only last three rounds; a powerful storm might be {@dc 14}, cover hundreds of feet and last for up to an hour. Likewise, the visions vary. Sometimes a mindstorm is bizarre, but not harmful; inanimate objects might melt or move, and time could run backward or slow down. Another mindstorm could take the form of an attacking horde of {@creature dolgrim|erlw|dolgrims}--and due to the effects of {@spell phantasmal force}, these attacks can be deadly"
+					"{@b Mindstorm.} A wave of psychic force drifts through a community in the same way a hurricane might. Those caught in the area of effect must make a successful Intelligence saving throw or suffer the effects of the {@spell phantasmal force} spell. The area of effect, duration, and saving throw DC depend on the intensity. A minor storm could be {@dc 10}, affect a 20-foot radius, and only last three rounds; a powerful storm might be {@dc 14}, cover hundreds of feet and last for up to an hour. Likewise, the visions vary. Sometimes a mindstorm is bizarre, but not harmful; inanimate objects might melt or move, and time could run backward or slow down. Another mindstorm could take the form of an attacking horde of {@creature dolgrim|ERLW|dolgrims}--and due to the effects of {@spell phantasmal force}, these attacks can be deadly"
 				]
 			]
 		},
@@ -23183,7 +23168,7 @@
 			],
 			"reqAttuneTags": [
 				{
-					"race": "warforged|erlw"
+					"race": "warforged|ERLW"
 				}
 			]
 		},
@@ -23531,7 +23516,7 @@
 			],
 			"reqAttuneTags": [
 				{
-					"race": "halfling (mark of hospitality)|erlw"
+					"race": "halfling (mark of hospitality)|ERLW"
 				}
 			]
 		},
@@ -23568,7 +23553,7 @@
 			],
 			"reqAttuneTags": [
 				{
-					"race": "human (mark of sentinel)|erlw"
+					"race": "human (mark of sentinel)|ERLW"
 				}
 			]
 		},
@@ -23634,10 +23619,10 @@
 			],
 			"reqAttuneTags": [
 				{
-					"race": "half-orc (mark of finding)|erlw"
+					"race": "half-orc (mark of finding)|ERLW"
 				},
 				{
-					"race": "human (mark of finding)|erlw"
+					"race": "human (mark of finding)|ERLW"
 				}
 			]
 		},
@@ -23674,7 +23659,7 @@
 			],
 			"reqAttuneTags": [
 				{
-					"race": "human (mark of handling)|erlw"
+					"race": "human (mark of handling)|ERLW"
 				}
 			]
 		},
