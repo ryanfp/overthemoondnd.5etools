@@ -138,7 +138,8 @@ class RacesPage extends ListPage {
 					},
 					entries: {
 						name: "Features", 
-						transform: (it) => Renderer.get().render({type: "entries", entries: it}, 1), flex: 3},
+						transform: (it) => Renderer.get().render({type: "entries", entries: it}, 1), flex: 3
+					},
 				},
 					/*entries: {
 						name: "Text",
@@ -158,11 +159,9 @@ class RacesPage extends ListPage {
 							const stack = [];
 							if (entriesMeta.entryAttributes) renderer.recursiveRender(entriesMeta.entryAttributes, stack, {depth: 1});
 							renderer.recursiveRender(entriesMeta.entryMain, stack, {depth: 1});
-							return stack.join("");*/
+							return stack.join("");
 						},
-						flex: 3,
-					},
-				},
+						flex: 3,*/
 			},
 			
 			hasAudio: true,
