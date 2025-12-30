@@ -83,11 +83,11 @@ class RacesPage extends ListPage {
 					source: UtilsTableview.COL_TRANSFORM_SOURCE,
 					page: UtilsTableview.COL_TRANSFORM_PAGE,
 					_hasSubrace: {
-						name: "Subrace",
+						name: "Base/Subrace",
 						transform: (race) => {
-							if (race._isBaseRace) return "Yes";
-							if (race._baseName) return `Info: ${race._baseName}`;
-							return "No";
+							if (race._isBaseRace) return "Base";
+							if (race._baseName) return `Subrace of: ${race._baseName}`;
+							return "N/A";
 						},
 					},
 					_slAbility: {name: "Ability Score", transform: (race) => race._slAbility},
@@ -124,6 +124,27 @@ class RacesPage extends ListPage {
 							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
 							.join(", ") || "\u2014",
 					},
+					_senses: {
+						name: "Senses",
+						transform: (race) => {
+							const senseKeywords = ["darkvision", "blindsight", "truesight", "tremorsense", "see invisibility", "devilsight"];
+							const mainEntries = Array.isArray(race.entries) ? race.entries : [];
+							const matched = mainEntries.filter(e => {
+							if (typeof e === "object" && e.name) {
+								const lower = e.name.trim().toLowerCase();
+								if (senseKeywords.some(sense => lower.includes(sense))) return true;
+							}
+							if (typeof e === "object" && e.entries && Array.isArray(e.entries)) {
+								// Optionally, also scan the text for the keyword:
+								const content = e.entries.join(" ").toLowerCase();
+								if (senseKeywords.some(sense => content.includes(sense))) return true;
+							}
+							return false;
+							});
+							if (!matched.length) return "\u2014";
+							return Renderer.get().render({type: "entries", entries: matched}, 1);
+						},
+					},
 					_fVuln: {
 						name: "Damage Vulnerability",
 						transform: (race) => (race._fVuln || []).join(", ") || "\u2014",
@@ -137,6 +158,133 @@ class RacesPage extends ListPage {
 						transform: (race) => (race._fImm || []).join(", ") || "\u2014",
 					},
 					entries: {
+						name: "Features",
+						transform: (race) => {
+							const mainEntries = Array.isArray(race.entries) ? race.entries : [];
+
+							// Prepare column values for comparison
+							const sizeValue = race.size
+							? (Array.isArray(race.size)
+								? race.size.map(sz => sz.toLowerCase()).join("/")
+								: String(race.size).toLowerCase())
+							: "";
+
+							const speedValue = race.speed
+							? (typeof race.speed === "object"
+								? Object.entries(race.speed)
+									.map(([type, val]) => {
+										if (type === "walk") return `${val} ft.`;
+										return `${type} ${val} ft.`;
+									})
+								: [`${race.speed} ft.`])
+							: [];
+
+							// Tabulated column values for resistances, immunities, vulnerabilities, and senses
+							const fRes = (race._fRes || []).map(s => s.toLowerCase());
+							const fImm = (race._fImm || []).map(s => s.toLowerCase());
+							const fVuln = (race._fVuln || []).map(s => s.toLowerCase());
+							// Ensure unique and flattened sense values—e.g., "darkvision 60 ft., blindsight 10 ft."
+							const sensesValue = (race.senses || []).map(s => s.toLowerCase()).join(", ");
+
+							const skillProfRegex = /^you (?:also )?have proficiency in (?:the )?\w+ skill/;
+							const visionOrSenseKeywords = ["vision", "sense", "sight"]; // Can expand as needed
+
+							const filtered = mainEntries.filter(e => {
+							if (typeof e === "object" && e.name) {
+								const lower = e.name.trim().toLowerCase();
+
+								// HEADINGS filter (all exact matches, case-insensitive)
+								if ([
+									"age",
+									"languages",
+									"skill proficiency",
+									"skill proficiencies",
+									"appearance",
+									"alignment",
+									"creature type",
+									"ability score increase"
+									].includes(lower)
+								) return false;
+
+								// --- Size: Heading 'size' and entry matches canonical value
+								if (lower === "size" && sizeValue) {
+								if (
+									Array.isArray(e.entries) && e.entries.length === 1 &&
+									typeof e.entries[0] === "string" &&
+									e.entries[0].toLowerCase().includes(sizeValue)
+								) return false;
+								}
+
+								// --- Speed: Only filter if known speed block and known value in description
+								if (
+								["speed", "fly", "flight", "walk", "burrow", "swim", "nautical", "climb", "climbing", "swimming", "flying", "burrowing", "walking"].includes(lower) &&
+								Array.isArray(e.entries) && e.entries.length === 1 &&
+								typeof e.entries[0] === "string"
+								) {
+								const entryText = e.entries[0].toLowerCase();
+								if (speedValue.some(v => entryText.includes(v))) return false;
+								}
+
+								// --- Resistances/Immunities/Vulnerabilities: Heading matches "resistance", etc. and content all matches column
+								if (
+								(lower.includes("resistance") && fRes.length) ||
+								(lower.includes("immunity") && fImm.length) ||
+								(lower.includes("vulnerability") && fVuln.length)
+								) {
+								if (
+									Array.isArray(e.entries) && e.entries.length === 1 &&
+									typeof e.entries[0] === "string"
+								) {
+									const entryText = e.entries[0].toLowerCase();
+									// For each damage type: only filter if every value in the column is mentioned in the text
+									if (
+									(lower.includes("resistance") && fRes.every(val => entryText.includes(val))) ||
+									(lower.includes("immunity") && fImm.every(val => entryText.includes(val))) ||
+									(lower.includes("vulnerability") && fVuln.every(val => entryText.includes(val)))
+									) return false;
+								}
+								}
+
+								// --- Senses: Heading matches and text matches column sense(s)
+								if (
+								visionOrSenseKeywords.some(kw => lower.includes(kw)) &&
+								sensesValue &&
+								Array.isArray(e.entries) && e.entries.length === 1 &&
+								typeof e.entries[0] === "string"
+								) {
+								const entryText = e.entries[0].toLowerCase();
+								// Only filter if the entry text mentions each sense in the senses column
+								const allPresent = sensesValue.split(",").every(sense =>
+									entryText.includes(sense.trim())
+								);
+								if (allPresent) return false;
+								}
+
+								// Skill proficiency variants (header): already handled above but is safe here
+								if (
+								lower === "skill proficiency" ||
+								lower === "skill proficiencies"
+								) return false;
+							}
+
+							// Skill proficiency (formulaic description)
+							if (
+								typeof e === "object" && Array.isArray(e.entries) && e.entries.length === 1 &&
+								typeof e.entries[0] === "string"
+							) {
+								const text = e.entries[0].toLowerCase();
+								if (skillProfRegex.test(text)) return false;
+							}
+
+							return true;
+							});
+
+							return Renderer.get().render({ type: "entries", entries: filtered }, 1);
+						},
+						flex: 3,
+						},
+					/*entries: {
+						name: "Features",
 						transform: (it) => Renderer.get().render({
    							type: "entries",
 							entries: Array.isArray(it)
@@ -147,29 +295,8 @@ class RacesPage extends ListPage {
 							: it
 						}, 1),
 						flex: 3
-					},
+					},*/
 				},
-					/*entries: {
-						name: "Text",
-						transform: (race) => {
-							const entriesRaw = race.entries;
-    						const filteredEntries = Array.isArray(entriesRaw)
-      							? entriesRaw.filter(e => {
-      								if (typeof e === "string" && e.includes("Creature Type")) return false;
-      								if (e.name && e.name.includes("Creature Type")) return false;
-      								return true;
-   							 	})
-								: [];
-   							 if (!filteredEntries.length) return "\u2014";
-   							 return Renderer.get().render({ type: "entries", entries: filteredEntries }, 1);
-							/* const entriesMeta = Renderer.race.getRaceRenderableEntriesMeta(race);
-							const renderer = Renderer.get();
-							const stack = [];
-							if (entriesMeta.entryAttributes) renderer.recursiveRender(entriesMeta.entryAttributes, stack, {depth: 1});
-							renderer.recursiveRender(entriesMeta.entryMain, stack, {depth: 1});
-							return stack.join("");
-						},
-						flex: 3,*/
 			},
 			
 			hasAudio: true,
