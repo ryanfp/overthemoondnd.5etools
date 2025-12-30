@@ -137,8 +137,16 @@ class RacesPage extends ListPage {
 						transform: (race) => (race._fImm || []).join(", ") || "\u2014",
 					},
 					entries: {
-						name: "Features", 
-						transform: (it) => Renderer.get().render({type: "entries", entries: it}, 1), flex: 3
+						transform: (it) => Renderer.get().render({
+   							type: "entries",
+							entries: Array.isArray(it)
+							? it.filter(e =>
+								!(typeof e === "object" && e.name &&
+									["age", "size", "languages"].includes(e.name.trim().toLowerCase())
+								))
+							: it
+						}, 1),
+						flex: 3
 					},
 				},
 					/*entries: {
