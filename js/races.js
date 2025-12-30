@@ -204,7 +204,7 @@ class RacesPage extends ListPage {
 							entries: Array.isArray(it)
 							? it.filter(e =>
 								!(typeof e === "object" && e.name &&
-									["age", "size", "languages"].includes(e.name.trim().toLowerCase())
+									["age", "size", "languages", "languages", "bonus language", "speed", "darkvision"].includes(e.name.trim().toLowerCase())
 								))
 							: it
 						}, 1),
