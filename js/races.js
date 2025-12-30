@@ -114,20 +114,24 @@ class RacesPage extends ListPage {
 					_age: {
 						name: "Age",
 						transform: (race) => {
-							// Prefer explicit age field if present.
-							if (race.age) {
-							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
+							// If age is an object with max (and/or min), display as years.
+							if (race.age && typeof race.age === "object") {
+								let parts = [];
+								if (race.age.min) parts.push(`Min: ${race.age.min} years`);
+								if (race.age.max) parts.push(`Max: ${race.age.max} years`);
+								if (parts.length) return parts.join(", ");
 							}
-							// Else, extract from entries by name.
+							// If age is a non-object (could be a description string)
+							if (race.age && typeof race.age === "string") {
+								return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
+							}
+							// Look for an entry block named "Age" in entries (as fallback)
 							if (Array.isArray(race.entries)) {
 								const ageEntry = race.entries.find(
 									e => typeof e === "object" && e.name && e.name.trim().toLowerCase() === "age"
 								);
-								if (ageEntry) {
-									// Some entries may use a single string or an array
-									return Renderer.get().render(
-									{type: "entries", entries: ageEntry.entries ? ageEntry.entries : [ageEntry]}, 1
-									);
+								if (ageEntry && ageEntry.entries) {
+									return Renderer.get().render({type: "entries", entries: ageEntry.entries}, 1);
 								}
 							}
 							return "\u2014";
@@ -146,10 +150,24 @@ class RacesPage extends ListPage {
 							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
 							.join(", ") || "\u2014",
 					},
+					_darkvision: {
+						name: "Darkvision",
+						transform: (race) => {
+							if (typeof race.darkvision === "number") {
+								return `Darkvision ${race.darkvision} ft.`;
+							}
+							// Fallback: check senses array for e.g. "darkvision 60 ft."
+							if (race.senses && Array.isArray(race.senses)) {
+								const found = race.senses.find(s => /^darkvision\b/i.test(s));
+								if (found) return found;
+							}
+							return "\u2014";
+						},
+					},
 					_senses: {
 						name: "Senses",
 						transform: (race) => {
-							const senseKeywords = ["darkvision", "blindsight", "truesight", "tremorsense", "see invisibility", "devilsight"];
+							const senseKeywords = ["blindsight", "truesight", "tremorsense", "see invisibility", "devilsight"];
 							const mainEntries = Array.isArray(race.entries) ? race.entries : [];
 							const matched = mainEntries.filter(e => {
 							if (typeof e === "object" && e.name) {
@@ -186,7 +204,7 @@ class RacesPage extends ListPage {
 							entries: Array.isArray(it)
 							? it.filter(e =>
 								!(typeof e === "object" && e.name &&
-									["age", "size", "languages", "darkvision", "skill proficiencies", "speed", "flight", "nautical"].includes(e.name.trim().toLowerCase())
+									["age", "size", "languages"].includes(e.name.trim().toLowerCase())
 								))
 							: it
 						}, 1),
