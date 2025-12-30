@@ -114,10 +114,32 @@ class RacesPage extends ListPage {
 					_age: {
 						name: "Age",
 						transform: (race) => {
+							// Prefer explicit age field if present.
+							if (race.age) {
+							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
+							}
+							// Else, extract from entries by name.
+							if (Array.isArray(race.entries)) {
+								const ageEntry = race.entries.find(
+									e => typeof e === "object" && e.name && e.name.trim().toLowerCase() === "age"
+								);
+								if (ageEntry) {
+									// Some entries may use a single string or an array
+									return Renderer.get().render(
+									{type: "entries", entries: ageEntry.entries ? ageEntry.entries : [ageEntry]}, 1
+									);
+								}
+							}
+							return "\u2014";
+						},
+					},
+					/*_age: {
+						name: "Age",
+						transform: (race) => {
 							if (! race.age) return "\u2014";
 							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
 						},
-					},
+					},*/
 					_traitTags: {
 						name: "Traits",
 						transform: (race) => (race.traitTags || [])
@@ -159,70 +181,17 @@ class RacesPage extends ListPage {
 					},
 					entries: {
 						name: "Features",
-						transform: (race) => {
-							const entries = Array.isArray(race.entries) ? race.entries : [];
-							const sizeValue = race.size
-							? (Array.isArray(race.size) ? race.size.map(sz => sz.toLowerCase()).join("/") : String(race.size).toLowerCase())
-							: "";
-							const speedValue = race.speed
-							? (typeof race.speed === "object"
-								? Object.values(race.speed).map(val => String(val).toLowerCase())
-								: [String(race.speed).toLowerCase()])
-							: [];
-							const fRes = (race._fRes || []).map(s => s.toLowerCase());
-							const fImm = (race._fImm || []).map(s => s.toLowerCase());
-							const fVuln = (race._fVuln || []).map(s => s.toLowerCase());
-							const sensesCol = (race.senses || []).map(s => s.toLowerCase()); // List of, e.g., "darkvision 60 ft."
-
-							// Skill proficiency regex (formulaic)
-							const skillProfRegex = /^you (?:also )?have proficiency in (?:the )?\w+ skill/;
-
-							const filtered = entries.filter(e => {
-							if (typeof e === "object" && e.name) {
-								const lowerName = e.name.trim().toLowerCase();
-
-								// --- Filter by trait name/header
-								if ([
-								"age", "size", "languages", "speed",
-								"skill proficiency", "skill proficiencies",
-								"appearance", "alignment", "creature type", "ability score increase"
-								].includes(lowerName)) return false;
-
-								if (lowerName.includes("resistance") && fRes.length) return false;
-								if (lowerName.includes("immunity") && fImm.length) return false;
-								if (lowerName.includes("vulnerability") && fVuln.length) return false;
-								if (
-								["darkvision", "blindsight", "truesight", "tremorsense"].some(sense =>
-									lowerName.includes(sense)
-								) && sensesCol.length
-								) return false;
-
-								// --- Content-based checks (like "You have proficiency..."—not strictly needed but kept for edge cases)
-								if (Array.isArray(e.entries) && e.entries.length === 1 && typeof e.entries[0] === "string") {
-								const entryText = e.entries[0].toLowerCase();
-								if (skillProfRegex.test(entryText)) return false;
-								}
-							}
-							return true;
-							});
-
-							return Renderer.get().render({type: "entries", entries: filtered}, 1);
-						},
-						flex: 3,
-						},
-					/*entries: {
-						name: "Features",
 						transform: (it) => Renderer.get().render({
    							type: "entries",
 							entries: Array.isArray(it)
 							? it.filter(e =>
 								!(typeof e === "object" && e.name &&
-									["age", "size", "languages"].includes(e.name.trim().toLowerCase())
+									["age", "size", "languages", "darkvision", "skill proficiencies", "speed", "flight", "nautical"].includes(e.name.trim().toLowerCase())
 								))
 							: it
 						}, 1),
 						flex: 3
-					},*/
+					},
 				},
 			},
 			
