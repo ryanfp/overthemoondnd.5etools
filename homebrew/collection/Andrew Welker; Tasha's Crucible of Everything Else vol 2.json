@@ -19196,6 +19196,9 @@
 				"walk": 25,
 				"swim": 30
 			},
+			"resist": [
+				"cold"
+			],
 			"languageProficiencies": [
 				{
 					"aquan": true,

@@ -42,4 +42,13 @@
 @use "includes/ui-night";
 @use "includes/util-print";
 
+// Sticky header for tableview tables in 5etools (sitewide)
+.table-view__wrp-table .table-view__row--header,
+.table-view__wrp-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #161616; // Use your actual header bg color
+}
+
 @layer vetools;
