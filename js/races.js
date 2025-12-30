@@ -160,109 +160,53 @@ class RacesPage extends ListPage {
 					entries: {
 						name: "Features",
 						transform: (race) => {
-							const mainEntries = Array.isArray(race.entries) ? race.entries : [];
-
-							// Prepare column values for comparison
+							const entries = Array.isArray(race.entries) ? race.entries : [];
 							const sizeValue = race.size
-							? (Array.isArray(race.size)
-								? race.size.map(sz => sz.toLowerCase()).join("/")
-								: String(race.size).toLowerCase())
+							? (Array.isArray(race.size) ? race.size.map(sz => sz.toLowerCase()).join("/") : String(race.size).toLowerCase())
 							: "";
-
 							const speedValue = race.speed
 							? (typeof race.speed === "object"
-								? Object.entries(race.speed)
-									.map(([type, val]) => {
-										if (type === "walk") return `${val} ft.`;
-										return `${type} ${val} ft.`;
-									})
-								: [`${race.speed} ft.`])
+								? Object.values(race.speed).map(val => String(val).toLowerCase())
+								: [String(race.speed).toLowerCase()])
 							: [];
-
 							const fRes = (race._fRes || []).map(s => s.toLowerCase());
 							const fImm = (race._fImm || []).map(s => s.toLowerCase());
 							const fVuln = (race._fVuln || []).map(s => s.toLowerCase());
-							const sensesValue = (race.senses || []).map(s => s.toLowerCase());
+							const sensesCol = (race.senses || []).map(s => s.toLowerCase()); // List of, e.g., "darkvision 60 ft."
+
+							// Skill proficiency regex (formulaic)
 							const skillProfRegex = /^you (?:also )?have proficiency in (?:the )?\w+ skill/;
-							const visionOrSenseKeywords = ["vision", "sense"]; // Can expand as needed
 
-							const filtered = mainEntries.filter(e => {
+							const filtered = entries.filter(e => {
 							if (typeof e === "object" && e.name) {
-								const lower = e.name.trim().toLowerCase();
+								const lowerName = e.name.trim().toLowerCase();
 
-								// HEADINGS filter
+								// --- Filter by trait name/header
 								if ([
-									"age",
-									"languages",
-									"skill proficiency",
-									"skill proficiencies",
-									"appearance",
-									"alignment",
-									"creature type",
-									"ability score increase"
-									].includes(lower)
+								"age", "size", "languages", "speed",
+								"skill proficiency", "skill proficiencies",
+								"appearance", "alignment", "creature type", "ability score increase"
+								].includes(lowerName)) return false;
+
+								if (lowerName.includes("resistance") && fRes.length) return false;
+								if (lowerName.includes("immunity") && fImm.length) return false;
+								if (lowerName.includes("vulnerability") && fVuln.length) return false;
+								if (
+								["darkvision", "blindsight", "truesight", "tremorsense"].some(sense =>
+									lowerName.includes(sense)
+								) && sensesCol.length
 								) return false;
 
-								// SIZE: filter if *every* subentry matches size value
-								if (lower === "size" && sizeValue && Array.isArray(e.entries)
-								&& e.entries.every(ent =>
-									typeof ent === "string" && ent.toLowerCase().includes(sizeValue)
-								)) return false;
-
-								// SPEED: filter if *every* subentry matches any speed value
-								if (
-								["speed", "fly", "flight", "walk", "burrow", "swim", "nautical", "climb", "climbing", "swimming", "flying", "burrowing", "walking"].includes(lower) &&
-								speedValue.length && Array.isArray(e.entries)
-								) {
-								if (e.entries.every(ent =>
-										typeof ent === "string" &&
-										speedValue.some(val => ent.toLowerCase().includes(val))
-									)) return false;
+								// --- Content-based checks (like "You have proficiency..."—not strictly needed but kept for edge cases)
+								if (Array.isArray(e.entries) && e.entries.length === 1 && typeof e.entries[0] === "string") {
+								const entryText = e.entries[0].toLowerCase();
+								if (skillProfRegex.test(entryText)) return false;
 								}
-
-								// RES/IMM/VULN: filter only if *every* subentry contains all the types in the column
-								if (
-								(lower.includes("resistance") && fRes.length && Array.isArray(e.entries) &&
-									e.entries.every(ent =>
-									typeof ent === "string" && fRes.every(val => ent.toLowerCase().includes(val))
-									)
-								) ||
-								(lower.includes("immunity") && fImm.length && Array.isArray(e.entries) &&
-									e.entries.every(ent =>
-									typeof ent === "string" && fImm.every(val => ent.toLowerCase().includes(val))
-									)
-								) ||
-								(lower.includes("vulnerability") && fVuln.length && Array.isArray(e.entries) &&
-									e.entries.every(ent =>
-									typeof ent === "string" && fVuln.every(val => ent.toLowerCase().includes(val))
-									)
-								)
-								) return false;
-
-								// SENSES: filter block if heading hints sense and *every* subentry contains all sense column values
-								if (
-								visionOrSenseKeywords.some(kw => lower.includes(kw)) &&
-								sensesValue.length && Array.isArray(e.entries) &&
-								e.entries.every(ent =>
-									typeof ent === "string" &&
-									sensesValue.every(val => ent.includes(val))
-								)
-								) return false;
-
-								// Skill prof header
-								if (lower === "skill proficiency" || lower === "skill proficiencies") return false;
 							}
-
-							// CONTENT-BASED SKILL PROF (formulaic, as before)
-							if (
-								typeof e === "object" && Array.isArray(e.entries) &&
-								e.entries.every(ent => typeof ent === "string" && skillProfRegex.test(ent.toLowerCase()))
-							) return false;
-
 							return true;
 							});
 
-							return Renderer.get().render({ type: "entries", entries: filtered }, 1);
+							return Renderer.get().render({type: "entries", entries: filtered}, 1);
 						},
 						flex: 3,
 						},
