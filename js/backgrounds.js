@@ -192,6 +192,10 @@ class BackgroundPage extends ListPage {
 						transform: (bg) => getEquipmentDisplay(bg._startingEquipment || bg.startingEquipment),
 						flex: 2,
 					},
+					transform: bg => {
+						console.log(bg); // See all properties, including _startingEquipment etc.
+						return bg._startingEquipment || "\u2014";
+					},
 					_otherBenefit: {
 						name: "Other Benefit",
 						transform: (bg) => {
