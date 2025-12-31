@@ -42,7 +42,7 @@
 @use "includes/ui-night";
 @use "includes/util-print";
 
-// Sticky header for tableview tables in 5etools (sitewide)
+// Sticky header for tableview tables
 .ve-overflow-y-auto {
   position: relative;
 }
@@ -51,8 +51,8 @@
 .ve-overflow-y-auto thead th {
   position: sticky;
   top: 0;
-  z-index: 2; /* Ensure it appears above body cells */
-  background: #232323; /* Match your theme */
+  z-index: 2; 
+  background: #232323;
 }
 
 @layer vetools;

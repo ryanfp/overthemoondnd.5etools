@@ -93,19 +93,20 @@ class FeatsPage extends ListPage {
 					_slAbility: {name: "Ability Score", transform: (feat) => feat._slAbility},
 					_slPrereq: {name: "Prerequisite", transform: (feat) => feat._slPrereq},
 					entries: {
-						name: "Text",
-						transform: (feat) => {
-							const filtered = (feat.entries || []).filter(e => {
-								// Feats rarely have generic entries, but add extra check if desired
-								return true;
-							});
-							if (!filtered.length) return "\u2014";
-							return Renderer.get().render({ type: "entries", entries: filtered }, 1);
-  						},
+						name: "Features",
+						transform: (it) => Renderer.get().render({
+   							type: "entries",
+							entries: Array.isArray(it)
+							? it.filter(e =>
+								!(typeof e === "object" && e.name &&
+									["ability score increase", "increase your ability score"].includes(e.name.trim().toLowerCase())
+								))
+							: it
+						}, 1),
+						flex: 3
+					},
 							/*Renderer.feat.initFullEntries(feat);
 							return Renderer.get().render({type: "entries", entries: feat._fullEntries || feat.entries}, 1);*/
-						flex: 3,
-					},
 				},
 			},		
 			

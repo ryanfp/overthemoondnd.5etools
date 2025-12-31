@@ -137,13 +137,6 @@ class RacesPage extends ListPage {
 							return "\u2014";
 						},
 					},
-					/*_age: {
-						name: "Age",
-						transform: (race) => {
-							if (! race.age) return "\u2014";
-							return Renderer.get().render({type: "entries", entries: [race.age]}, 1);
-						},
-					},*/
 					_traitTags: {
 						name: "Traits",
 						transform: (race) => (race.traitTags || [])
