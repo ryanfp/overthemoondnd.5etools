@@ -189,7 +189,7 @@ class BackgroundPage extends ListPage {
 					},
 					_startingEquipment: {
 						name: "Equipment",
-						transform: (bg) => getEquipmentDisplay(bg._startingEquipment),
+						transform: (bg) => getEquipmentDisplay(bg._startingEquipment || bg.startingEquipment),
 						flex: 2,
 					},
 					_otherBenefit: {
@@ -216,9 +216,11 @@ class BackgroundPage extends ListPage {
 							if (!Array.isArray(bg.entries)) return "\u2014";
 							const allEntries = flattenEntries(bg.entries);
 							const toDisplay = allEntries.filter(e =>
-								!(typeof e === "object"
-								&& e.name
-								&& featureFilter.includes(e.name.trim().toLowerCase()))
+								typeof e === "object" &&
+								e.name &&
+								!featureFilter.some(flt =>
+									e.name.trim().toLowerCase().startsWith(flt)
+								)
 							);
 							if (!toDisplay.length) return "\u2014";
 							return Renderer.get().render({
