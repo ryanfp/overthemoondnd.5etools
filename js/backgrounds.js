@@ -73,7 +73,7 @@ class BackgroundPage extends ListPage {
 				pageTitle: "Backgrounds Book View",
 			},
 
-			// function to try and catch rogue objects not outputting correctly
+			/* function to try and catch rogue objects not outputting correctly
 			const toolProficiencyDisplay = (code) => {
   				switch (code) {
 				case "anyGamingSet": return "any gaming set";
@@ -81,7 +81,7 @@ class BackgroundPage extends ListPage {
 				case "anyMusicalInstrument": return "any musical instrument";
 				default: return code;
  				}
-			},
+			},*/
 
 			tableViewOptions: {
 				title: "Backgrounds",
