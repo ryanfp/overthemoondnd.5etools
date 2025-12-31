@@ -103,8 +103,21 @@ class BackgroundPage extends ListPage {
 					},
 					_fTools: {
 						name: "Tool Proficiencies",
-						transform:  (bg) => (bg._fTools || []).join(", ") || "\u2014",
+						transform: (bg) =>
+							(bg._fTools || []).map(this.toolProficiencyDisplay).join(", ") || "\u2014",
 					},
+					toolProficiencyDisplay(code) {
+						switch (code) {
+							case "anyGamingSet": return "any gaming set";
+							case "anyArtisansTool": return "any artisan's tools";
+							case "anyMusicalInstrument": return "any musical instrument";
+							default: return code;
+						}
+					},
+					/*_fTools: {
+						name: "Tool Proficiencies",
+						transform:  (bg) => (bg._fTools || []).join(", ") || "\u2014",
+					},*/
 					_otherBenefit: {
 					name: "Other Benefit",
 					transform: (bg) =>
