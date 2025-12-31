@@ -1,5 +1,27 @@
 import {RenderBackgrounds} from "./render-backgrounds.js";
 
+// filters for objects in table view, idk man
+const featureFilter = [
+  "ability score increase", "increase your ability score", "ability scores",
+  "feat", "feats",
+  "skill proficiencies", "skill proficiency",
+  "tool proficiencies", "tool proficiency",
+  "equipment", "starting equipment",
+  "languages", "language",
+  "fighting style", "fighting styles",
+  "weapon proficiency", "weapon proficiencies",
+  "armor proficiency", "armor proficiencies",
+  "additional spells",
+];
+
+const otherBenefitAllow = [
+  "languages", "language",
+  "fighting style", "fighting styles",
+  "weapon proficiency", "weapon proficiencies",
+  "armor proficiency", "armor proficiencies",
+  "additional spells",
+];
+
 // function to try and catch rogue objects not outputting correctly
 function toolProficiencyDisplay(code) {
 	switch (code) {
@@ -8,6 +30,41 @@ function toolProficiencyDisplay(code) {
 		case "anyMusicalInstrument": return "any musical instrument";
 		default: return code;
 	}
+}
+
+function getEquipmentDisplay(startingEquipment) {
+  if (!startingEquipment) return "\u2014";
+  // If there's only one "choose" type object in an array
+  if (Array.isArray(startingEquipment)) {
+    return startingEquipment.map(eqSet => {
+      const keys = Object.keys(eqSet);
+      if (keys.length === 0) return '';
+      if (keys.some(k => /^[A-Z]$/.test(k))) {
+        // Typical "A","B" etc. groups
+        return (
+          `Choose ${keys.join(" or ")}: ` +
+          keys.map(k => `(${k}) ${Array.isArray(eqSet[k]) ? eqSet[k].map(formatEquipItem).join(', ') : formatEquipItem(eqSet[k])}`).join("; or ")
+        );
+      }
+      // join
+      return keys.map(k => Array.isArray(eqSet[k]) ? eqSet[k].map(formatEquipItem).join(', ') : formatEquipItem(eqSet[k])).join(', ');
+    }).join("<br>");
+  }
+  // plain list or string
+  if (typeof startingEquipment === "string") return startingEquipment;
+  if (typeof startingEquipment === "object") {
+    return Object.entries(startingEquipment)
+      .map(([k, v]) => `(${k}) ${Array.isArray(v) ? v.map(formatEquipItem).join(", ") : formatEquipItem(v)}`)
+      .join("; ");
+  }
+  return "\u2014";
+}
+
+// Helper to format items; TODO adjust as needed
+function formatEquipItem(item) {
+  if (typeof item === "string") return item;
+  if (typeof item === "object" && "value" in item) return `${item.value} GP`; // or appropriate currency logic
+  return String(item);
 }
 
 class BackgroundSublistManager extends SublistManager {
@@ -106,44 +163,44 @@ class BackgroundPage extends ListPage {
 						transform: (bg) =>
 							(bg._fTools || []).map(toolProficiencyDisplay).join(", ") || "\u2014",
 					},
-					/*_fTools: {
-						name: "Tool Proficiencies",
-						transform:  (bg) => (bg._fTools || []).join(", ") || "\u2014",
-					},*/
-					_otherBenefit: {
-					name: "Other Benefit",
-					transform: (bg) =>
-						bg._otherBenefit
-						? Renderer.get().render({ type: "entries", entries: bg._otherBenefit }, 1)
-						: "\u2014",
-					flex: 2,
-					},
 					_startingEquipment: {
-					name: "Equipment",
-					transform: (bg) =>
-						bg._startingEquipment
-						? (Array.isArray(bg._startingEquipment)
-							? bg._startingEquipment.join(", ")
-							: String(bg._startingEquipment))
-						: "\u2014",
-					flex: 2,
+						name: "Equipment",
+						transform: (bg) => getEquipmentDisplay(bg._startingEquipment),
+						flex: 2,
+					},
+					_otherBenefit: {
+						name: "Other Benefit(s)",
+						transform: (bg) => {
+							if (!bg.entries) return "\u2014";
+							const toDisplay = bg.entries.filter(e =>
+								typeof e === "object" &&
+								e.name &&
+								otherBenefitAllow.includes(e.name.trim().toLowerCase())
+							);
+							if (!toDisplay.length) return "\u2014";
+							return Renderer.get().render({
+								type: "entries",
+								entries: toDisplay,
+							}, 1);
+						},
+						flex: 2,
 					},
 					entries: {
-						name: "Features",
-						transform: (it) => Renderer.get().render({
-   							type: "entries",
-							entries: Array.isArray(it)
-							? it.filter(e =>
-								!(typeof e === "object" && e.name &&
-									["ability score increase", "increase your ability score", "starting equipment"].includes(e.name.trim().toLowerCase())
-								))
-							: it
-						}, 1),
-						flex: 3
-					},
-						/*name: "Text",
-						transform: (bg) => Renderer.get().render({type: "entries", entries: bg.entries}, 1),
-						flex: 3,*/
+						name: "Feature(s)",
+						transform: (bg) => {
+							if (!bg.entries) return "\u2014";
+							// using those filter lists baybee
+							const toDisplay = bg.entries.filter(e =>
+								!(typeof e === "object" && e.name && featureFilter.includes(e.name.trim().toLowerCase()))
+							);
+							if (!toDisplay.length) return "\u2014";
+							return Renderer.get().render({
+								type: "entries",
+								entries: toDisplay,
+							}, 1);
+						},
+						flex: 3,
+					}
 				},
 			},
 
