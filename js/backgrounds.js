@@ -1,5 +1,15 @@
 import {RenderBackgrounds} from "./render-backgrounds.js";
 
+// function to try and catch rogue objects not outputting correctly
+function toolProficiencyDisplay(code) {
+	switch (code) {
+		case "anyGamingSet": return "any gaming set";
+		case "anyArtisansTool": return "any artisan's tools";
+		case "anyMusicalInstrument": return "any musical instrument";
+		default: return code;
+	}
+}
+
 class BackgroundSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
@@ -72,16 +82,6 @@ class BackgroundPage extends ListPage {
 				namePlural: "backgrounds",
 				pageTitle: "Backgrounds Book View",
 			},
-
-			// function to try and catch rogue objects not outputting correctly
-			const toolProficiencyDisplay = function(code) {
-			switch (code) {
-				case "anyGamingSet": return "any gaming set";
-				case "anyArtisansTool": return "any artisan's tools";
-				case "anyMusicalInstrument": return "any musical instrument";
-				default: return code;
-				}
-			};
 
 			tableViewOptions: {
 				title: "Backgrounds",
