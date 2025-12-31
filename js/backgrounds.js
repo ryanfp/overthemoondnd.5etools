@@ -74,8 +74,8 @@ class BackgroundPage extends ListPage {
 			},
 
 			// function to try and catch rogue objects not outputting correctly
-			function toolProficiencyDisplay(code) {
-  				switch(code) {
+			const toolProficiencyDisplay = (code) => {
+  				switch (code) {
 				case "anyGamingSet": return "any gaming set";
 				case "anyArtisansTool": return "any artisan's tools";
 				case "anyMusicalInstrument": return "any musical instrument";
