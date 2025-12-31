@@ -73,15 +73,15 @@ class BackgroundPage extends ListPage {
 				pageTitle: "Backgrounds Book View",
 			},
 
-			/* function to try and catch rogue objects not outputting correctly
-			const toolProficiencyDisplay = (code) => {
-  				switch (code) {
+			// function to try and catch rogue objects not outputting correctly
+			const toolProficiencyDisplay = function(code) {
+			switch (code) {
 				case "anyGamingSet": return "any gaming set";
 				case "anyArtisansTool": return "any artisan's tools";
 				case "anyMusicalInstrument": return "any musical instrument";
 				default: return code;
- 				}
-			},*/
+				}
+			};
 
 			tableViewOptions: {
 				title: "Backgrounds",
@@ -104,15 +104,7 @@ class BackgroundPage extends ListPage {
 					_fTools: {
 						name: "Tool Proficiencies",
 						transform: (bg) =>
-							(bg._fTools || []).map(this.toolProficiencyDisplay).join(", ") || "\u2014",
-					},
-					toolProficiencyDisplay(code) {
-						switch (code) {
-							case "anyGamingSet": return "any gaming set";
-							case "anyArtisansTool": return "any artisan's tools";
-							case "anyMusicalInstrument": return "any musical instrument";
-							default: return code;
-						}
+							(bg._fTools || []).map(toolProficiencyDisplay).join(", ") || "\u2014",
 					},
 					/*_fTools: {
 						name: "Tool Proficiencies",
