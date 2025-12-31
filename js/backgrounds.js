@@ -1,5 +1,22 @@
 import {RenderBackgrounds} from "./render-backgrounds.js";
 
+/*
+===============================================
+				HELPER FUNCTIONS
+===============================================
+*/
+
+// flattens entry lists to make it easier to parse
+function flattenEntries(entries) {
+  // Recursively flatten any items inside objects with .items
+  let out = [];
+  for (const e of entries || []) {
+    if (Array.isArray(e.items)) out.push(...flattenEntries(e.items));
+    else out.push(e);
+  }
+  return out;
+}
+
 // filters for objects in table view, idk man
 const featureFilter = [
   "ability score increase", "increase your ability score", "ability scores",
@@ -31,6 +48,12 @@ function toolProficiencyDisplay(code) {
 		default: return code;
 	}
 }
+
+/*
+=========================================
+				REST OF CODE
+=========================================
+*/
 
 function getEquipmentDisplay(startingEquipment) {
   if (!startingEquipment) return "\u2014";
@@ -140,6 +163,7 @@ class BackgroundPage extends ListPage {
 				pageTitle: "Backgrounds Book View",
 			},
 
+			// controls what structure the table view has and what it's contents are
 			tableViewOptions: {
 				title: "Backgrounds",
 				colTransforms: {
@@ -169,13 +193,14 @@ class BackgroundPage extends ListPage {
 						flex: 2,
 					},
 					_otherBenefit: {
-						name: "Other Benefit(s)",
+						name: "Other Benefit",
 						transform: (bg) => {
-							if (!bg.entries) return "\u2014";
-							const toDisplay = bg.entries.filter(e =>
-								typeof e === "object" &&
-								e.name &&
-								otherBenefitAllow.includes(e.name.trim().toLowerCase())
+							if (!Array.isArray(bg.entries)) return "\u2014";
+							const allEntries = flattenEntries(bg.entries);
+							const toDisplay = allEntries.filter(e =>
+								typeof e === "object"
+								&& e.name
+								&& otherBenefitAllow.includes(e.name.trim().toLowerCase())
 							);
 							if (!toDisplay.length) return "\u2014";
 							return Renderer.get().render({
@@ -188,10 +213,12 @@ class BackgroundPage extends ListPage {
 					entries: {
 						name: "Feature(s)",
 						transform: (bg) => {
-							if (!bg.entries) return "\u2014";
-							// using those filter lists baybee
-							const toDisplay = bg.entries.filter(e =>
-								!(typeof e === "object" && e.name && featureFilter.includes(e.name.trim().toLowerCase()))
+							if (!Array.isArray(bg.entries)) return "\u2014";
+							const allEntries = flattenEntries(bg.entries);
+							const toDisplay = allEntries.filter(e =>
+								!(typeof e === "object"
+								&& e.name
+								&& featureFilter.includes(e.name.trim().toLowerCase()))
 							);
 							if (!toDisplay.length) return "\u2014";
 							return Renderer.get().render({
@@ -200,7 +227,7 @@ class BackgroundPage extends ListPage {
 							}, 1);
 						},
 						flex: 3,
-					}
+					},
 				},
 			},
 
