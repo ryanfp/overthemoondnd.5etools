@@ -17,20 +17,6 @@ function flattenEntries(entries) {
   return out;
 }
 
-// filters for objects in table view, idk man
-const featureFilter = [
-  "ability score increase", "increase your ability score", "ability scores",
-  "feat", "feats",
-  "skill proficiencies", "skill proficiency",
-  "tool proficiencies", "tool proficiency",
-  "equipment", "starting equipment",
-  "languages", "language",
-  "fighting style", "fighting styles",
-  "weapon proficiency", "weapon proficiencies",
-  "armor proficiency", "armor proficiencies",
-  "additional spells",
-];
-
 const otherBenefitAllow = [
   "languages", "language",
   "fighting style", "fighting styles",
@@ -54,41 +40,6 @@ function toolProficiencyDisplay(code) {
 				REST OF CODE
 =========================================
 */
-
-function getEquipmentDisplay(startingEquipment) {
-  if (!startingEquipment) return "\u2014";
-  // If there's only one "choose" type object in an array
-  if (Array.isArray(startingEquipment)) {
-    return startingEquipment.map(eqSet => {
-      const keys = Object.keys(eqSet);
-      if (keys.length === 0) return '';
-      if (keys.some(k => /^[A-Z]$/.test(k))) {
-        // Typical "A","B" etc. groups
-        return (
-          `Choose ${keys.join(" or ")}: ` +
-          keys.map(k => `(${k}) ${Array.isArray(eqSet[k]) ? eqSet[k].map(formatEquipItem).join(', ') : formatEquipItem(eqSet[k])}`).join("; or ")
-        );
-      }
-      // join
-      return keys.map(k => Array.isArray(eqSet[k]) ? eqSet[k].map(formatEquipItem).join(', ') : formatEquipItem(eqSet[k])).join(', ');
-    }).join("<br>");
-  }
-  // plain list or string
-  if (typeof startingEquipment === "string") return startingEquipment;
-  if (typeof startingEquipment === "object") {
-    return Object.entries(startingEquipment)
-      .map(([k, v]) => `(${k}) ${Array.isArray(v) ? v.map(formatEquipItem).join(", ") : formatEquipItem(v)}`)
-      .join("; ");
-  }
-  return "\u2014";
-}
-
-// Helper to format items; TODO adjust as needed
-function formatEquipItem(item) {
-  if (typeof item === "string") return item;
-  if (typeof item === "object" && "value" in item) return `${item.value} GP`; // or appropriate currency logic
-  return String(item);
-}
 
 class BackgroundSublistManager extends SublistManager {
 	static _getRowTemplate () {
@@ -187,14 +138,14 @@ class BackgroundPage extends ListPage {
 						transform: (bg) =>
 							(bg._fTools || []).map(toolProficiencyDisplay).join(", ") || "\u2014",
 					},
+					transform: bg => {
+						console.log(bg); // See all properties, including _startingEquipment etc.
+						return bg._startingEquipment || "\u2014";
+					},
 					_startingEquipment: {
 						name: "Equipment",
 						transform: (bg) => getEquipmentDisplay(bg._startingEquipment || bg.startingEquipment),
 						flex: 2,
-					},
-					transform: bg => {
-						console.log(bg); // See all properties, including _startingEquipment etc.
-						return bg._startingEquipment || "\u2014";
 					},
 					_otherBenefit: {
 						name: "Other Benefit",
@@ -213,27 +164,7 @@ class BackgroundPage extends ListPage {
 							}, 1);
 						},
 						flex: 2,
-					},
-					entries: {
-						name: "Feature(s)",
-						transform: (bg) => {
-							if (!Array.isArray(bg.entries)) return "\u2014";
-							const allEntries = flattenEntries(bg.entries);
-							const toDisplay = allEntries.filter(e =>
-								typeof e === "object" &&
-								e.name &&
-								!featureFilter.some(flt =>
-									e.name.trim().toLowerCase().startsWith(flt)
-								)
-							);
-							if (!toDisplay.length) return "\u2014";
-							return Renderer.get().render({
-								type: "entries",
-								entries: toDisplay,
-							}, 1);
-						},
-						flex: 3,
-					},
+					}
 				},
 			},
 
