@@ -4,6 +4,11 @@ class CultsBoonsSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
 			new SublistCellTemplate({
+				name: "Name",
+				css: "bold ve-col-8 pl-1 pr-0",
+				colStyle: "",
+			}),
+			new SublistCellTemplate({
 				name: "Type",
 				css: "ve-col-2 ve-text-center pl-0 pr-1",
 				colStyle: "text-center",
@@ -12,11 +17,6 @@ class CultsBoonsSublistManager extends SublistManager {
 				name: "Subtype",
 				css: "ve-col-2 px-1 ve-text-center",
 				colStyle: "text-center",
-			}),
-			new SublistCellTemplate({
-				name: "Name",
-				css: "bold ve-col-8 pl-1 pr-0",
-				colStyle: "",
 			}),
 		];
 	}

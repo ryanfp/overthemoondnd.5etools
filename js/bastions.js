@@ -4,13 +4,13 @@ class BastionsSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
 			new SublistCellTemplate({
+				name: "Name",
+				css: "bold ve-col-3 px-1",
+			}),
+			new SublistCellTemplate({
 				name: "Type",
 				css: "ve-col-2 pl-0 pr-1 ve-text-center",
 				colStyle: "text-center",
-			}),
-			new SublistCellTemplate({
-				name: "Name",
-				css: "bold ve-col-3 px-1",
 			}),
 			new SublistCellTemplate({
 				name: "Level",

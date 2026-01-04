@@ -14,13 +14,13 @@ class SpellsSublistManager extends SublistManager {
 				colStyle: "text-center",
 			}),
 			new SublistCellTemplate({
-				name: "Time",
-				css: "ve-col-1-8 px-1 ve-text-center",
+				name: "School",
+				css: "capitalize ve-col-1-6 px-1 ve-text-center",
 				colStyle: "text-center",
 			}),
 			new SublistCellTemplate({
-				name: "School",
-				css: "capitalize ve-col-1-6 px-1 ve-text-center",
+				name: "Time",
+				css: "ve-col-1-8 px-1 ve-text-center",
 				colStyle: "text-center",
 			}),
 			new SublistCellTemplate({

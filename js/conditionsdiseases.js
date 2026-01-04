@@ -4,14 +4,14 @@ class ConditionsDiseasesSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
 			new SublistCellTemplate({
-				name: "Type",
-				css: "ve-col-2 pl-0 pr-1 ve-text-center",
-				colStyle: "text-center",
-			}),
-			new SublistCellTemplate({
 				name: "Name",
 				css: "bold ve-col-10 pl-1 pr-0",
 				colStyle: "",
+			}),
+			new SublistCellTemplate({
+				name: "Type",
+				css: "ve-col-2 pl-0 pr-1 ve-text-center",
+				colStyle: "text-center",
 			}),
 		];
 	}

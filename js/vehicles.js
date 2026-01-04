@@ -4,14 +4,14 @@ class VehiclesSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
 			new SublistCellTemplate({
-				name: "Type",
-				css: "ve-col-8 pl-0 pr-1 ve-text-center",
-				colStyle: "text-center",
-			}),
-			new SublistCellTemplate({
 				name: "Name",
 				css: "bold ve-col-4 pl-1 pr-0",
 				colStyle: "",
+			}),
+			new SublistCellTemplate({
+				name: "Type",
+				css: "ve-col-8 pl-0 pr-1 ve-text-center",
+				colStyle: "text-center",
 			}),
 		];
 	}
