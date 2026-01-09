@@ -6,6 +6,7 @@ class BastionsSublistManager extends SublistManager {
 			new SublistCellTemplate({
 				name: "Name",
 				css: "bold ve-col-3 px-1",
+				colStyle: "text-center",
 			}),
 			new SublistCellTemplate({
 				name: "Type",
@@ -20,6 +21,7 @@ class BastionsSublistManager extends SublistManager {
 			new SublistCellTemplate({
 				name: "Prerequisite",
 				css: "ve-col-5 pl-1 pr-0",
+				colStyle: "text-center",
 			}),
 		];
 	}
@@ -120,8 +122,8 @@ class BastionsPage extends ListPage {
 		const facilityType = (ent.facilityType || "Unknown").toTitleCase();
 
 		eleLi.innerHTML = `<a href="#${hash}" class="lst__row-border lst__row-inner">
-			<span class="ve-col-2 ve-text-center pl-0 pr-1">${facilityType}</span>
 			<span class="bold ve-col-3 px-1">${ent.name}</span>
+			<span class="ve-col-2 ve-text-center pl-0 pr-1">${facilityType}</span>
 			<span class="ve-col-1 ve-text-center px-1 ${ent.level == null ? "italic" : ""}">${ent.level || "\u2014"}</span>
 			<span class="ve-col-4 px-1 ${ent._slPrereq === VeCt.STR_NONE ? "italic " : ""}">${ent._slPrereq}</span>
 			<span class="ve-col-2 ve-text-center ${Parser.sourceJsonToSourceClassname(ent.source)}  pl-1 pr-0" title="${Parser.sourceJsonToFull(ent.source)}">${source}</span>
