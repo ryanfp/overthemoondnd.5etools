@@ -1,0 +1,291 @@
+/**
+ * Dungeon Church Custom Overrides
+ * This file contains custom CSS overrides for the 5etools site
+ * Loaded last to ensure maximum specificity
+ */
+
+/* ============================================
+   CUSTOM FONTS
+   ============================================ */
+
+/* Waning Star Font */
+@font-face {
+    font-family: 'Waning Star';
+    src: url('../fonts/ws.woff2') format('woff2');
+    font-weight: normal !important;
+    font-style: normal;
+    font-display: swap;
+}
+b, strong, em {
+    color: hsla(0,0%,100%,.9) !important;
+}
+main.container div.w-100 h3 {
+    font-family: 'Waning Star', serif !important;
+    color: hsla(0,0%,100%,.9) !important;
+}
+/* TOP TITLE */
+.page__title {
+    font-family: 'Waning Star', serif !important;
+    color: #fff !important;
+    font-weight: normal !important;
+}
+
+/* PLAYER / RULES / DUNGEON MASTERS + BUTTONS */
+.ve-text-left {
+    font-family: 'Waning Star', serif !important;
+    color: hsla(0,0%,100%,.9) !important;
+}
+/* ============================================
+   COLOR OVERRIDES
+   ============================================ */
+
+/* DUNGEON CHURCH BRAND COLORS */
+:root {
+    --color-primary: #ff2600 !important;
+    --color-white: hsla(0,0%,100%,.9) !important;
+    --color-gray: hsla(0,0%,100%,.75) !important;
+    --rgb-name: var(--color-primary) !important;
+    /*--color-secondary: #your-color;*/
+}
+
+/* Dice Roller  */
+.rollbox .head-roll {
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    font-weight: bold !important;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.rollbox .head-roll::before {
+    content: "ðŸŽ² " !important;
+    font-size: 14px !important;
+    margin-right: 4px !important;
+    position: relative !important;
+    top: 3px !important;
+    left: 3px !important
+}
+.roll {
+    color: #fff !important;
+}
+.rollbox .out-roll-id {
+    font-family: 'Waning Star', serif !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+}
+ .ve-night-mode .rollbox-min {
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    font-weight: bold !important;
+}
+/* Replace chevron with dice emoji in rollbox */
+.ve-night-mode .rollbox-min {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+
+.rollbox-min .glyphicon-chevron-up::before,
+.rollbox-min .glyphicon-chevron-down::before {
+    content: "" ! important;
+    display: inline-block !important;
+    width:  18px !important;
+    height: 18px !important;
+    background-image: url('dice-roll-icon.svg') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/*
+.rollbox-min .glyphicon-chevron-up::before,
+.rollbox-min .glyphicon-chevron-down::before {
+    content: "ðŸŽ²" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", sans-serif !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
+*/
+
+/* STAT BLOCKS */
+.stats__h-name {
+    color: var(--color-primary) !important;
+}
+/* ie "ACTIONS" with line underneath */
+.stats__sect-header-inner {
+    color: var(--color-primary) !important;
+    border-bottom-color: var(--color-gray) !important;
+}
+/* TABLE HEADERS */
+.rd__th {
+    color: var(--color-white) !important;
+}
+/* Action Titles */
+td.stats__sect-row-inner div.rd__b.rd__b--3 p span.rd__h.rd__h--3 span.entry-title-inner {
+    color: var(--color-white) !important;
+}
+.rd__list-item-name {
+    color: var(--color-white) !important;
+}
+/* INFO Titles */
+.ve-night-mode .rd__h--3 span.entry-title-inner {
+    color: var(--color-white) !important;
+}
+.ve-tbl-divider, .ve-tbl-border--small {
+    background: linear-gradient(to right, rgba(255, 38, 0, 0.3), var(--color-primary), rgba(255, 38, 0, 0.3)) !important;
+    border-radius: 2px !important;
+}
+.list-multi-selected {
+    box-shadow: inset 0 0 0 5000px rgba(255,38,0,1.0) !important;
+    color: #fff !important;
+}
+/* "Tool" in main header */
+.page__header span {
+    color: #1f1f1f !important;
+    text-transform: capitalize !important;
+    display: inline-block !important;
+}
+.page__header {
+    background-color: var(--color-primary) !important;
+}
+.page__title::after {
+    content: '' !important;
+}
+/* INDEX SUBHEADINSGS, ICONS, LABELS */
+.home__h-player {
+    text-decoration-color: var(--color-primary) !important;
+}
+.home__btn-player {
+    border-color: var(--color-primary) !important;
+    color: var(--color-primary) !important;
+}
+.home__lbl-page {
+    color: hsla(0,0%,100%,.9) !important;
+}
+.page__title::before {
+    content: "" !important;
+    display: inline-block !important;
+    width: 36px; /* adjust to your logo size */
+    height: 36px; /* adjust to your logo size */
+    background-image: url('/dc-logo.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    margin-right: 0px !important; /* space between logo and text */
+    vertical-align: text-bottom !important;
+}
+/* Active Tab */
+.ve-night-mode .page__nav-inner > li.active > a,
+.ve-night-mode .page__nav-inner > li.active > .ve-night-mode.page__nav-inner > li:hover > a {
+    background-color: var(--color-primary) !important;
+    color: #ffffff !important; /* optional: white text for better contrast */
+    font-weight: bold !important;
+}
+/* Active in Currently Open Dropdown */
+.ve-night-mode .ve-dropdown-menu li.active > a {
+    background-color: var(--rgb-border--statblock) !important;
+    font-weight: bold !important;
+}
+
+/* Homepage button effects */
+.home__btn-page {
+    transition: transform 0.3s ease-in-out !important;
+    border-radius: 4px !important
+}
+
+.home__btn-page:hover {
+    transform: scale(1.05) !important;
+    background: linear-gradient(to bottom, #383838, #15171A);
+    border-width: 3px !important;
+    filter: brightness(1.05) !important;
+}
+
+/* Custom Quote Styling */
+.rd__quote {
+    margin: 0.75em 2em !important;
+    padding: 0.5em 1.5em !important;
+    position: relative !important;
+    font-style: italic !important;
+}
+
+.rd__quote-line {
+    font-family: 'Waning Star', serif !important;
+    color: var(--color-white) !important;
+    font-size: 1.5em !important;
+    font-style: normal !important;
+}
+/* ============================================
+   LAYOUT CUSTOMIZATIONS
+   ============================================ */
+
+/* Example: Adjust button styles */
+/*
+.home__btn-page {
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+*/
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+/* Example: Adjust base font size */
+/*
+body {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+*/
+
+/* ============================================
+   COMPONENT OVERRIDES
+   ============================================ */
+
+/* Example: Custom footer styling */
+/*
+footer {
+    background-color: #f8f9fa !important;
+    padding: 2rem 0 !important;
+}
+*/
+
+/* ============================================
+   ADD YOUR CUSTOM STYLES BELOW
+   ============================================ */
+
+/* Example: Uncomment to test - makes player buttons have rounded corners */
+/*
+.home__btn-player {
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+}
+
+.home__btn-player:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(30, 144, 255, 0.3) !important;
+}
+*/
+
+/* Example: Uncomment to customize the site title */
+/*
+.page__title {
+    font-family: 'Your Custom Font', serif !important;
+    font-size: 2.5rem !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1) !important;
+}
+*/
+
+/* Example: Uncomment to add a custom background texture */
+/*
+body {
+    background-image: url('../img/custom-texture.png') !important;
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+}
+*/
