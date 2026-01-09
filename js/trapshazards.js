@@ -18,7 +18,7 @@ class TrapsHazardsSublistManager extends SublistManager {
 
 	pGetSublistItem (it, hash) {
 		const trapType = Parser.trapHazTypeToFull(it.trapHazType);
-		const cellsText = [trapType, it.name];
+		const cellsText = [it.name, trapType];
 
 		const $ele = $(`<div class="lst__row lst__row--sublist ve-flex-col">
 			<a href="#${hash}" class="lst__row-border lst__row-inner">

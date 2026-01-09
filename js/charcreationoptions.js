@@ -4,14 +4,14 @@ class CharCreationOptionsSublistManager extends SublistManager {
 	static _getRowTemplate () {
 		return [
 			new SublistCellTemplate({
-				name: "Type",
-				css: "ve-col-5 ve-text-center pl-0 pr-1",
-				colStyle: "text-center",
-			}),
-			new SublistCellTemplate({
 				name: "Name",
 				css: "bold ve-col-7 pl-1 pr-0",
 				colStyle: "",
+			}),
+			new SublistCellTemplate({
+				name: "Type",
+				css: "ve-col-5 ve-text-center pl-0 pr-1",
+				colStyle: "text-center",
 			}),
 		];
 	}

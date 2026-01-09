@@ -18,7 +18,7 @@ class VehiclesSublistManager extends SublistManager {
 
 	pGetSublistItem (it, hash) {
 		const displayType = it.vehicleType ? Parser.vehicleTypeToFull(it.vehicleType) : it.upgradeType.map(t => Parser.vehicleTypeToFull(t));
-		const cellsText = [displayType, it.name];
+		const cellsText = [it.name, displayType];
 
 		const $ele = $(`<div class="lst__row lst__row--sublist ve-flex-col">
 			<a href="#${hash}" class="lst__row-border lst__row-inner">

@@ -1,0 +1,74 @@
+/**
+ * 3D Dice Roller Overlay Styles
+ * Dungeon Church 5etools Custom Build
+ *
+ * Transparent overlay - dice roll across the viewport
+ * The rollbox handles result display
+ */
+
+/* Full-screen transparent overlay */
+.dice3d-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 99999 !important;
+    background: transparent !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    pointer-events: none;
+}
+
+.dice3d-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* Canvas container - full viewport */
+.dice3d-canvas-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.dice3d-canvas-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent !important;
+}
+
+/* Skip button - subtle in corner */
+.dice3d-skip {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 0.8em;
+    z-index: 100001;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dice3d-skip:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .dice3d-skip {
+        bottom: 10px;
+        right: 10px;
+        padding: 4px 8px;
+        font-size: 0.7em;
+    }
+}
