@@ -12,7 +12,7 @@ class IndexPage {
 	static _pOnLoad_initElements () {
 		es(`#current_year`).txt((new Date()).getFullYear());
 
-		es(`#version_number`).txt(VERSION_NUMBER).attr("href", `https://github.com/ryanfp/overthemoondnd.5etools/releases/latest`);
+		es(`#version_number`).txt(VERSION_NUMBER).attr("href", `https://github.com/5etools-mirror-3/5etools-src/releases/latest`);
 
 		es(`#wrp-patreon`)
 			.html(`<a href="https://www.patreon.com/bePatron?u=22018559" rel="noopener noreferrer"><img src="${Renderer.get().getMediaUrl("img", "patreon.webp")}" alt="Become a Patron" style="width: 217px; height: 51px"></a>`);

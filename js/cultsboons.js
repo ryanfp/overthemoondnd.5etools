@@ -22,7 +22,7 @@ class CultsBoonsSublistManager extends SublistManager {
 	}
 
 	pGetSublistItem (it, hash) {
-		const cellsText = [it.name, it._lType, it._lSubType];
+		const cellsText = [it._lType, it._lSubType, it.name];
 
 		const $ele = $(`<div class="lst__row lst__row--sublist ve-flex-col">
 			<a href="#${hash}" class="lst__row-border lst__row-inner">

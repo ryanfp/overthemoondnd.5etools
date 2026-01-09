@@ -28,8 +28,8 @@ class BastionsSublistManager extends SublistManager {
 		const facilityType = (ent.facilityType || "Unknown").toTitleCase();
 
 		const cellsText = [
-			ent.name,
 			facilityType,
+			ent.name,
 			ent.level || "\u2014",
 			ent._slPrereq,
 		];

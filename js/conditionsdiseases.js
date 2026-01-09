@@ -17,7 +17,7 @@ class ConditionsDiseasesSublistManager extends SublistManager {
 	}
 
 	pGetSublistItem (it, hash) {
-		const cellsText = [it.name, it.type || PageFilterConditionsDiseases.getDisplayProp(it.__prop)];
+		const cellsText = [it.type || PageFilterConditionsDiseases.getDisplayProp(it.__prop), it.name];
 
 		const $ele = $(`<div class="lst__row lst__row--sublist ve-flex-col">
 			<a href="#${hash}" class="lst__row-border lst__row-inner">
