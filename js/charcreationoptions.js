@@ -70,8 +70,8 @@ class CharCreationOptionsPage extends ListPage {
 		const source = Parser.sourceJsonToAbv(it.source);
 
 		eleLi.innerHTML = `<a href="#${hash}" class="lst__row-border lst__row-inner">
-			<span class="ve-col-5 ve-text-center pl-0 pr-1">${it._fOptionType}</span>
 			<span class="bold ve-col-5 px-1">${it.name}</span>
+			<span class="ve-col-5 ve-text-center pl-0 pr-1">${it._fOptionType}</span>
 			<span class="ve-col-2 ve-text-center ${Parser.sourceJsonToSourceClassname(it.source)}" title="${Parser.sourceJsonToFull(it.source)} pl-1 pr-0">${source}</span>
 		</a>`;
 

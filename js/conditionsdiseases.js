@@ -73,8 +73,8 @@ class ConditionsDiseasesPage extends ListPage {
 
 		eleLi.innerHTML = `<a href="#${hash}" class="lst__row-border lst__row-inner">
 			<span class="ve-col-0-3 px-0 ve-flex-vh-center lst__btn-toggle-expand ve-self-flex-stretch no-select">[+]</span>
-			<span class="ve-col-3 px-1 ve-text-center">${it.type || PageFilterConditionsDiseases.getDisplayProp(it.__prop)}</span>
 			<span class="bold ve-col-6-7 px-1">${it.name}</span>
+			<span class="ve-col-3 px-1 ve-text-center">${it.type || PageFilterConditionsDiseases.getDisplayProp(it.__prop)}</span>
 			<span class="ve-col-2 ve-text-center ${Parser.sourceJsonToSourceClassname(it.source)} pr-0" title="${Parser.sourceJsonToFull(it.source)}">${source}</span>
 		</a>
 		<div class="ve-flex ve-hidden relative accordion__wrp-preview">

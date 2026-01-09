@@ -76,9 +76,9 @@ class CultsBoonsPage extends ListPage {
 		const hash = UrlUtil.autoEncodeHash(it);
 
 		eleLi.innerHTML = `<a href="#${hash}" class="lst__row-border lst__row-inner">
+			<span class="bold ve-col-6 px-1">${it.name}</span>
 			<span class="ve-col-2 ve-text-center pl-0">${it._lType}</span>
 			<span class="ve-col-2 px-1 ve-text-center">${it._lSubType}</span>
-			<span class="bold ve-col-6 px-1">${it.name}</span>
 			<span class="ve-col-2 ve-text-center ${Parser.sourceJsonToSourceClassname(it.source)} pl-1 pr-0" title="${Parser.sourceJsonToFull(it.source)}">${source}</span>
 		</a>`;
 
