@@ -133,14 +133,14 @@ class _PageGeneratorListCharCreationOptions extends PageGeneratorListBase {
 	_scriptIdentList = "charcreationoptions";
 
 	_btnsList = [
-		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "7", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "type", text: "Type"}),
 	];
 }
 
@@ -154,14 +154,14 @@ class _PageGeneratorListConditionsDiseases extends PageGeneratorListBase {
 
 	_btnsList = [
 		HtmlGeneratorListButtons.getBtnPreviewToggle(),
-		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "6-7", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "10", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 	];
 }
 
@@ -171,16 +171,16 @@ class _PageGeneratorListCultsBoons extends PageGeneratorListBase {
 	_scriptIdentList = "cultsboons";
 
 	_btnsList = [
+		HtmlGeneratorListButtons.getBtn({width: "6", sortIdent: "name", text: "Name"}),
 		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "subType", text: "Subtype"}),
-		HtmlGeneratorListButtons.getBtn({width: "6", sortIdent: "name", text: "Name"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
+		HtmlGeneratorListButtons.getBtn({width: "8", sortIdent: "name", text: "Name"}),
 		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "subType", text: "Subtype"}),
-		HtmlGeneratorListButtons.getBtn({width: "8", sortIdent: "name", text: "Name"}),
 	];
 }
 
@@ -344,14 +344,14 @@ class _PageGeneratorListTrapsHazards extends PageGeneratorListBase {
 	_scriptIdentList = "trapshazards";
 
 	_btnsList = [
-		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "trapType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "7", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "trapType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "trapType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "8", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "trapType", text: "Type"}),
 	];
 }
 
@@ -362,14 +362,14 @@ class _PageGeneratorListRewards extends PageGeneratorListBase {
 
 	_btnsList = [
 		HtmlGeneratorListButtons.getBtnPreviewToggle(),
-		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "7-7", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "10", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "type", text: "Type"}),
 	];
 }
 
@@ -664,14 +664,14 @@ class _PageGeneratorListVehicles extends PageGeneratorListBase {
 	_scriptIdentList = "vehicles";
 
 	_btnsList = [
-		HtmlGeneratorListButtons.getBtn({width: "6", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "6", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "8", sortIdent: "type", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "8", sortIdent: "type", text: "Type"}),
 	];
 
 	_isWrpToken = true;
@@ -690,16 +690,16 @@ class _PageGeneratorListBastions extends PageGeneratorListBase {
 	];
 
 	_btnsList = [
-		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "facilityType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "facilityType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "1", sortIdent: "level", text: "Level"}),
 		HtmlGeneratorListButtons.getBtn({width: "4", sortIdent: "prerequisite", text: "Prerequisite"}),
 		HtmlGeneratorListButtons.getBtnSource(),
 	];
 
 	_btnsSublist = [
-		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "facilityType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "3", sortIdent: "name", text: "Name"}),
+		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "facilityType", text: "Type"}),
 		HtmlGeneratorListButtons.getBtn({width: "2", sortIdent: "level", text: "Level"}),
 		HtmlGeneratorListButtons.getBtn({width: "5", sortIdent: "prerequisite", text: "Prerequisite"}),
 	];
@@ -747,6 +747,5 @@ export const PAGE_GENERATORS_LISTPAGE = [
 	new _PageGeneratorListVariantRules(),
 	new _PageGeneratorListVehicles(),
 	new _PageGeneratorListBastions(),
-
 	new _PageGeneratorListClasses(),
 ];

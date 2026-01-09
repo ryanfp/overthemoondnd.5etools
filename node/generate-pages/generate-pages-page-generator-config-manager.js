@@ -15,8 +15,8 @@ class _PageGeneratorManagebrew extends PageGeneratorManagerBase {
 class _PageGeneratorManageprerelease extends PageGeneratorManagerBase {
 	_page = "manageprerelease.html";
 
-	_pageTitle = "Manage Prerelease Content";
-	_navbarDescription = "View, Add, and Delete Prerelease Content.";
+	_pageTitle = "Manage Prerelease (UA) Content";
+	_navbarDescription = "View, Add, and Delete Prerelease (UA) Content.";
 
 	_scriptsModules = [
 		"manageexternal/manageexternal-utils.js",
