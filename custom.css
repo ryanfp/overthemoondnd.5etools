@@ -95,7 +95,7 @@ main.container div.w-100 h3 {
     display: inline-block !important;
     width:  18px !important;
     height: 18px !important;
-    background-image: url(dice-roll-icon.svg) !important;
+    background-image: url('dice-roll-icon.svg') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
