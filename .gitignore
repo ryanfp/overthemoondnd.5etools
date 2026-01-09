@@ -2,6 +2,7 @@ desktop.ini
 node_modules
 img
 draft
+draft/
 # IntelliJ project files
 .idea/
 *.iml
