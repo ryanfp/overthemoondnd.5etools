@@ -17,7 +17,7 @@ class RewardsSublistManager extends SublistManager {
 	}
 
 	pGetSublistItem (reward, hash) {
-		const cellsText = [reward.type, reward.name];
+		const cellsText = [reward.name, reward.type];
 
 		const $ele = $(`<div class="lst__row lst__row--sublist ve-flex-col">
 			<a href="#${hash}" class="lst__row-border lst__row-inner">

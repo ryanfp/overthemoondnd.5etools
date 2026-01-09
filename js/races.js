@@ -143,20 +143,6 @@ class RacesPage extends ListPage {
 							.map(t => PageFilterRaces._TRAIT_DISPLAY_VALUES[t] || t)
 							.join(", ") || "\u2014",
 					},
-					_darkvision: {
-						name: "Darkvision",
-						transform: (race) => {
-							if (typeof race.darkvision === "number") {
-								return `Darkvision ${race.darkvision} ft.`;
-							}
-							// Fallback: check senses array for e.g. "darkvision 60 ft."
-							if (race.senses && Array.isArray(race.senses)) {
-								const found = race.senses.find(s => /^darkvision\b/i.test(s));
-								if (found) return found;
-							}
-							return "\u2014";
-						},
-					},
 					_senses: {
 						name: "Senses",
 						transform: (race) => {
