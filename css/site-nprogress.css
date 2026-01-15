@@ -1,5 +1,5 @@
 :root {
-  --site-progress-height: 4px; /* thick but noticeable */
+  --site-progress-height: 4px;
 }
 
 #nprogress {
