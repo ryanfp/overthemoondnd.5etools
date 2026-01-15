@@ -4,143 +4,94 @@
   if (window.__SITE_PROGRESS_INIT__) return;
   window.__SITE_PROGRESS_INIT__ = true;
 
-  const HOLD_AT = 0.9;
-  const FAST_JUMP_TO = 0.18;
-  const MID_JUMP_TO = 0.6;
+  if (!window.NProgress) return;
 
-  const QUIET_MS = 350;
+  // ---- Tuning ----
+  const MIN = 0.02;
+
+  // Simulated progress cap before "done"
+  const LOADING_CAP = 0.70;
+
+  // How long it takes to smoothly reach ~70% if the page is still loading
+  // (longer = slower, less "shooting to 70%")
+  const LOADING_RAMP_MS = 3500;
+
+  // Finishing animation duration (slow finish, no jump)
+  const FINISH_MS = 900;
+
+  // Avoid blink if the page is super fast
   const MIN_VISIBLE_MS = 250;
+
+  // If something never resolves, force-complete
   const FAILSAFE_MS = 20000;
 
+  // ---- State ----
   let pending = 0;
   let windowLoaded = false;
-  let quietTimer = null;
 
-  let startedAtMs = 0;
-  let hasStarted = false;
+  let startedAt = 0;
+  let finishStartedAt = 0;
+  let finishFrom = 0;
 
-  const isTransparent = (cssColor) => {
-    if (!cssColor) return true;
+  let rafId = null;
+  let isFinishing = false;
+  let isDone = false;
 
-    const c = String(cssColor).trim().toLowerCase();
-    if (c === "transparent") return true;
+  // ---- Easing ----
+  function clamp(n, a, b) {
+    return Math.max(a, Math.min(b, n));
+  }
 
-    const rgba = c.match(
-      /^rgba\(\s*\d+(\.\d+)?\s*,\s*\d+(\.\d+)?\s*,\s*\d+(\.\d+)?\s*,\s*([0-9.]+)\s*\)$/
-    );
-    return rgba ? Number(rgba[4]) === 0 : false;
-  };
+  function easeOutCubic(t) {
+    const x = clamp(t, 0, 1);
+    return 1 - Math.pow(1 - x, 3);
+  }
 
-  const safeSet = (n) => {
+  function easeInOutCubic(t) {
+    const x = clamp(t, 0, 1);
+    return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+  }
+
+  // ---- NProgress helpers ----
+  function getStatus() {
+    return typeof NProgress.status === "number" ? NProgress.status : MIN;
+  }
+
+  function safeSet(n) {
     try {
-      NProgress.set(Math.max(0, Math.min(1, n)));
+      NProgress.set(clamp(n, 0, 1));
     } catch {
       // ignore
     }
-  };
+  }
 
-  const capAtHold = () => {
-    const s = NProgress.status;
-    if (typeof s === "number" && s > HOLD_AT) safeSet(HOLD_AT);
-  };
+  function ensureStarted() {
+    if (startedAt) return;
+    startedAt = Date.now();
 
-  const ensureStarted = () => {
-    if (hasStarted) return;
-    hasStarted = true;
-    startedAtMs = Date.now();
+    NProgress.configure({
+      minimum: MIN,
+      showSpinner: false,
+      trickle: false, // IMPORTANT: no random/jittery increments
+      easing: "ease",
+      speed: 300,
+    });
+
     NProgress.start();
-  };
+    safeSet(MIN);
+  }
 
-  const applyThemeProgressColorFromProbe = () => {
-    try {
-      if (!document.body) return false;
-
-      const root = document.documentElement;
-
-      const probe = document.createElement("button");
-      probe.className = "ve-btn ve-btn-xs ve-btn-default cls__btn-cf--active";
-      probe.type = "button";
-      probe.tabIndex = -1;
-
-      probe.style.position = "absolute";
-      probe.style.left = "-99999px";
-      probe.style.top = "-99999px";
-      probe.style.visibility = "hidden";
-      probe.style.pointerEvents = "none";
-
-      document.body.appendChild(probe);
-
-      const cs = getComputedStyle(probe);
-
-      // Prefer background (most accurate for "active" button),
-      // fallback to border, then text if needed.
-      let chosen = cs.backgroundColor;
-      if (isTransparent(chosen)) chosen = cs.borderTopColor;
-      if (isTransparent(chosen)) chosen = cs.borderLeftColor;
-      if (isTransparent(chosen)) chosen = cs.color;
-
-      probe.remove();
-
-      if (chosen && !isTransparent(chosen)) {
-        root.style.setProperty("--site-progress-color", chosen);
-        return true;
-      }
-    } catch {
-      // ignore
-    }
-    return false;
-  };
-
-  const applyThemeProgressColor = () => {
-    if (applyThemeProgressColorFromProbe()) return;
-
-    document.addEventListener(
-      "DOMContentLoaded",
-      () => {
-        applyThemeProgressColorFromProbe();
-      },
-      { once: true }
-    );
-  };
-
-  const maybeFinish = () => {
-    capAtHold();
-
-    if (!windowLoaded) return;
-    if (pending !== 0) return;
-
-    const elapsed = Date.now() - startedAtMs;
-    if (elapsed < MIN_VISIBLE_MS) {
-      setTimeout(maybeFinish, MIN_VISIBLE_MS - elapsed);
-      return;
-    }
-
-    clearTimeout(quietTimer);
-    quietTimer = setTimeout(() => {
-      if (!windowLoaded) return;
-      if (pending !== 0) return;
-
-      try {
-        safeSet(HOLD_AT);
-        NProgress.done(true);
-      } catch {
-        // ignore
-      }
-    }, QUIET_MS);
-  };
-
-  const patchNetworkTracking = () => {
+  // ---- Network tracking (fetch + XHR) ----
+  function patchNetworkTracking() {
     if (typeof window.fetch === "function" && !window.fetch.__SITE_PROGRESS_PATCHED__) {
       const origFetch = window.fetch.bind(window);
 
       const wrappedFetch = (...args) => {
         pending += 1;
         ensureStarted();
-        capAtHold();
 
         return Promise.resolve(origFetch(...args)).finally(() => {
           pending = Math.max(0, pending - 1);
-          maybeFinish();
         });
       };
 
@@ -156,13 +107,11 @@
       window.XMLHttpRequest.prototype.send = function (...args) {
         pending += 1;
         ensureStarted();
-        capAtHold();
 
         this.addEventListener(
           "loadend",
           () => {
             pending = Math.max(0, pending - 1);
-            maybeFinish();
           },
           { once: true }
         );
@@ -170,85 +119,94 @@
         return origSend.apply(this, args);
       };
     }
-  };
+  }
 
-  const init = () => {
-    if (!window.NProgress) return;
+  // ---- Completion conditions ----
+  function canFinishNow() {
+    return windowLoaded && pending === 0;
+  }
 
-    applyThemeProgressColor();
+  function beginFinishIfReady() {
+    if (isFinishing || isDone) return;
+    if (!canFinishNow()) return;
 
-    NProgress.configure({
-      minimum: 0.08,
-      showSpinner: false,
-      trickle: true,
-      trickleSpeed: 240,
-      easing: "ease",
-      speed: 200,
-    });
+    const elapsed = Date.now() - startedAt;
+    if (elapsed < MIN_VISIBLE_MS) return; // wait for visibility window
 
+    isFinishing = true;
+    finishStartedAt = Date.now();
+    finishFrom = getStatus();
+    if (finishFrom < MIN) finishFrom = MIN;
+  }
+
+  // ---- Animation loop ----
+  function tick() {
+    if (isDone) return;
+
+    const now = Date.now();
+    ensureStarted();
+
+    if (!isFinishing) {
+      // Simulate smooth progress up to 70% (no more)
+      const t = now - startedAt;
+      const p = easeOutCubic(t / LOADING_RAMP_MS);
+      const target = MIN + (LOADING_CAP - MIN) * p;
+
+      // Never go backward
+      const cur = getStatus();
+      safeSet(Math.max(cur, Math.min(target, LOADING_CAP)));
+
+      // If we're actually ready, begin finish (but do not jump)
+      beginFinishIfReady();
+    } else {
+      // Finish smoothly from current -> 100%
+      const ft = (now - finishStartedAt) / FINISH_MS;
+      const p = easeInOutCubic(ft);
+      const target = finishFrom + (1 - finishFrom) * p;
+
+      safeSet(Math.max(getStatus(), target));
+
+      if (ft >= 1) {
+        try {
+          safeSet(1);
+          NProgress.done(true);
+        } catch {
+          // ignore
+        }
+        isDone = true;
+        return;
+      }
+    }
+
+    rafId = requestAnimationFrame(tick);
+  }
+
+  // ---- Init (body-safe) ----
+  function init() {
     ensureStarted();
     patchNetworkTracking();
 
-    setTimeout(() => {
-      const s = NProgress.status;
-      if (typeof s === "number" && s < FAST_JUMP_TO) safeSet(FAST_JUMP_TO);
-      capAtHold();
-    }, 80);
-
-    document.addEventListener("DOMContentLoaded", () => {
-      const s = NProgress.status;
-      if (typeof s === "number" && s < MID_JUMP_TO) safeSet(MID_JUMP_TO);
-      capAtHold();
-    });
-
-    document.addEventListener(
-      "click",
-      (e) => {
-        const a = e.target && e.target.closest ? e.target.closest("a") : null;
-        if (!a) return;
-
-        const href = a.getAttribute("href") || "";
-        if (!href || href.startsWith("#")) return;
-
-        ensureStarted();
-        capAtHold();
-      },
-      { capture: true }
-    );
-
     window.addEventListener("load", () => {
       windowLoaded = true;
-      safeSet(HOLD_AT);
-      maybeFinish();
+      beginFinishIfReady();
     });
 
+    // Failsafe
     setTimeout(() => {
+      if (isDone) return;
       try {
         NProgress.done(true);
       } catch {
         // ignore
       }
+      isDone = true;
+      if (rafId != null) cancelAnimationFrame(rafId);
     }, FAILSAFE_MS);
-  };
-
-  // Body-safe boot:
-  // - With `defer`, this runs after parsing and body exists.
-  // - If someone removes `defer`, we still wait until body exists.
-  if (document.body) {
-    init();
-  } else {
-    const startWait = Date.now();
-    const MAX_WAIT_MS = 5000;
-
-    const tick = () => {
-      if (document.body) {
-        init();
-        return;
-      }
-      if (Date.now() - startWait > MAX_WAIT_MS) return;
-      requestAnimationFrame(tick);
-    };
 
     tick();
   }
+
+  // If someone removes `defer`, still avoid body-null issues
+  if (document.body) init();
+  else document.addEventListener("DOMContentLoaded", init, { once: true });
 })();
