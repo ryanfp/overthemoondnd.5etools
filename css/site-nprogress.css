@@ -1,0 +1,27 @@
+:root {
+  --site-progress-height: 4px; /* thick but noticeable */
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: var(--site-progress-color, currentColor) !important;
+  position: fixed !important;
+  z-index: 999999 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: var(--site-progress-height) !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--site-progress-color, currentColor),
+    0 0 5px var(--site-progress-color, currentColor);
+  opacity: 0.55;
+}
+
+#nprogress .spinner {
+  display: none !important;
+}

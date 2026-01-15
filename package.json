@@ -79,5 +79,8 @@
 	"directories": {
 		"lib": "lib",
 		"test": "test"
+	},
+	"dependencies": {
+		"nprogress": "^0.2.0"
 	}
 }

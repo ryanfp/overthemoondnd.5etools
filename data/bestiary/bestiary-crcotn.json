@@ -6886,12 +6886,6 @@
 			"_copy": {
 				"name": "Scholarly Excavator",
 				"source": "CRCotN",
-				"_templates": [
-					{
-						"name": "Goliath",
-						"source": "MPMM"
-					}
-				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
