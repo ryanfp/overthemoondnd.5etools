@@ -1,7 +1,7 @@
 /* File: css/site-nprogress.css */
 :root {
   --site-progress-color: #d29a38;
-  --site-progress-height: 4px; 
+  --site-progress-height: 2px; 
 }
 
 #nprogress {
@@ -19,7 +19,7 @@
 }
 
 #nprogress .peg {
-  box-shadow: 0 0 10px var(--site-progress-color), 0 0 5px var(--site-progress-color);
+  box-shadow: 0 0 6px var(--site-progress-color), 0 0 3px var(--site-progress-color);
   opacity: 0.55;
 }
 
