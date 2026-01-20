@@ -11,7 +11,7 @@
 		.overlay-noise {
 			position: absolute;
 			inset: 0;
-			background-image: url("../../img/Assets/CSS/background-dark-mode-1.png");
+			background-image: url("../../img/assets/css/background-dark-mode-1.png");
 			background-size: 128px;
 			pointer-events: none;
 			opacity: 0.009;
@@ -22,7 +22,7 @@
 	.ve-night-mode--classic {
 		body {
 			background: vars-night.$rgb-bg--body-night
-				url("../../img/Assets/CSS/background-dark-mode-1.png")
+				url("../../img/assets/css/background-dark-mode-1.png")
 				repeat scroll left top;
 		}
 	}
