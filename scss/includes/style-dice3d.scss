@@ -1,0 +1,119 @@
+@use "../vars/vars";
+@use "../vars/vars-night";
+
+@layer vetools {
+	/* =================================================================
+	   3D DICE ROLLER OVERLAY SYSTEM
+	   Transparent full-screen overlay for 3D dice animations
+	   ================================================================= */
+	
+	.dice3d {
+		/* Full-screen transparent overlay */
+		&-overlay {
+			position: fixed !important;
+			inset: 0 !important;
+			z-index: 99999;        
+			background: transparent !important;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity vars.$time-2-frames ease, visibility vars.$time-2-frames ease;
+			pointer-events: none;
+
+			&.active {
+				opacity: 1;
+				visibility:  visible;
+				pointer-events:  auto;
+			}
+		}
+
+		/* Canvas container - full viewport */
+		&-canvas-container {
+			position: absolute !important;
+			inset: 0 !important;
+
+			canvas {
+				width: 100% !important;
+				height: 100% !important;
+				background: transparent !important;
+			}
+		}
+
+		/* Skip/close button - themed to match your UI */
+		&-skip {
+			@include vars.mix-shadow-1;
+
+			position: absolute;
+			bottom: vars.$spacer * 1.25;            /* Use your spacing system */
+			right: vars.$spacer * 1.25;
+			padding: 6px 12px;
+			background: rgba(vars.$rgb-off-black, 0.8);  /* Use your color variables */
+			border: 1px solid rgba(vars.$rgb-border-grey, 0.3);
+			border-radius: 4px;
+			color: rgba(vars.$rgb-bg, 0.9);
+			cursor: pointer;
+			font-size: 0.8em;
+			z-index: vars.$z-dice3d-overlay + 1;     /* Above the overlay */
+			transition: all vars.$time-2-frames ease;
+			font-family: inherit;                    /* Use site font */
+
+			&:hover {
+				background: rgba(vars.$rgb-off-black, 0.9);
+				color: vars.$rgb-bg;
+				border-color: rgba(vars.$rgb-border-grey, 0.5);
+			}
+
+			&:active {
+				@include vars.mix-shadow-active;
+			}
+		}
+
+		/* Dark mode theming */
+		.ve-night-mode & {
+			&-skip {
+				background: rgba(vars-night.$rgb-bg--night, 0.8);
+				border-color: rgba(vars-night.$rgb-border-grey--night, 0.3);
+				color: vars-night.$rgb-font--night;
+
+				&:hover {
+					background: rgba(vars-night.$rgb-bg--night, 0.9);
+					color: vars-night.$rgb-font--night;
+					border-color: rgba(vars-night.$rgb-border-grey--night, 0.5);
+				}
+			}
+		}
+
+		/* Mobile responsive adjustments */
+		@media screen and (width <= #{vars.$width-screen-sm}) {
+			&-skip {
+				bottom: vars.$spacer * 0.625;        /* Smaller spacing on mobile */
+				right: vars.$spacer * 0.625;
+				padding: 4px 8px;
+				font-size: 0.7em;
+			}
+		}
+	}
+
+	/* Integration with existing rollbox system */
+	.rollbox {
+		/* Ensure rollbox stays above 3D dice overlay */
+		z-index: vars.$z-dice3d-overlay + 2;
+
+		/* Add indicator when 3D dice are active */
+		&--dice3d-active {
+			.head-roll {
+				background: linear-gradient(45deg, vars.$rgb-active-blue, vars.$rgb-active-blue--light);
+				color: vars.$rgb-bg;
+
+				&::after {
+					content: " (3D)";
+					font-size: 0.8em;
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+
+	.ve-night-mode .rollbox--dice3d-active .head-roll {
+		background:  linear-gradient(45deg, vars-night.$rgb-btn-primary-blue--night, vars.$rgb-active-blue);
+	}
+}

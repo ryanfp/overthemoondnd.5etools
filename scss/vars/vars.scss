@@ -4,7 +4,7 @@ $pct-darken-active: 10%;
 $pct-darken-border: 15%;
 $pct-darken-border--active: 20%;
 $pct-darken-hover: 5%;
-
+$z-dice3d-overlay: 10;
 $sz-y-header: 73px;
 
 $spacer: 1rem;
@@ -81,7 +81,6 @@ $rgb-roll-max--muted: color.adjust($rgb-roll-max, $saturation: - 35%);
 $z-token-image: 10;
 
 $z-side-menu: 60;
-
 $z-omnisearch: 100;
 $z-book-find: 100;
 $z-bookmode: 100;

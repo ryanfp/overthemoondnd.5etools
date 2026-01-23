@@ -1,6 +1,5 @@
 /**
  * 3D Dice Integration for 5etools
- * Dungeon Church Custom Build
  *
  * Hooks into 5etools dice roller to show 3D animated dice rolling
  * across the viewport. Uses actual rolled values from 5etools.
