@@ -131,7 +131,7 @@ Renderer.dice = {
 
 	/** Initialise the roll box UI. */
 	async _pInit () {
-		const minRoll = ee`<button class="rollbox-min"><span class="glyphicon glyphicon-chevron-up"></span></button>`
+		const minRoll = ee`<button class="rollbox-min"></button>`
 			.onn("click", () => {
 				Renderer.dice._showBox();
 				Renderer.dice._iptRoll.focuse();
