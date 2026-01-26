@@ -67,6 +67,8 @@ const swCacheRoutes = (routeRegex) => {
 	wb.messageSW({
 		type: "CACHE_ROUTES",
 		payload: { routeRegex },
+	}).catch(err => {
+		console.warn("Failed to send CACHE_ROUTES message to service worker:", err);
 	});
 	JqueryUtil.doToast({content: "Starting preload...", autoHideTime: 500});
 };
@@ -75,7 +77,9 @@ const swCacheRoutes = (routeRegex) => {
  * ask the service worker to cancel route caching
  */
 const swCancelCacheRoutes = () => {
-	wb.messageSW({type: "CANCEL_CACHE_ROUTES"});
+	wb.messageSW({type: "CANCEL_CACHE_ROUTES"}).catch(err => {
+		console.warn("Failed to send CANCEL_CACHE_ROUTES message to service worker:", err);
+	});
 	setTimeout(() => {
 		removeDownloadBar();
 		JqueryUtil.doToast("Preload was canceled. Some data may have been preloaded.");
@@ -86,7 +90,9 @@ const swCancelCacheRoutes = () => {
  * Ask the service worker to remove itself.
  */
 const swResetAll = () => {
-	wb.messageSW({type: "RESET"});
+	wb.messageSW({type: "RESET"}).catch(err => {
+		console.warn("Failed to send RESET message to service worker:", err);
+	});
 	JqueryUtil.doToast({content: "Resetting..."});
 };
 
