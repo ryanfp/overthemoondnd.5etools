@@ -15,7 +15,7 @@
 		height: calc(24px + calc(env(safe-area-inset-bottom, 0) / 2));
 		cursor: pointer;
 		user-select: none;
-		border: 0;
+		border: 1px solid #555;
 
 		&::before {
 			content: "";
