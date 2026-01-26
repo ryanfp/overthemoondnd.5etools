@@ -17,18 +17,17 @@ The resource from "https://5etools.overthemoondnd.com/css/dice3d.css" was blocke
 - The browser detected the MIME type mismatch and blocked it
 
 **Solution:**
-Created a new SCSS entry point file `scss/dice3d.scss` that imports the necessary dependencies:
-```scss
-@use "vars/vars";
-@use "vars/vars-night";
-@use "includes/style-dice3d";
-```
+Removed the dice3d.css reference from `node/generate-pages/template/head/template-head.hbs` (line 17) and regenerated all HTML pages. The dice3d styles are already included in `main.css` via the `@use "includes/style-dice3d"` import in `scss/main.scss`.
 
-When the build process runs (`npm run build:css`), this file is now compiled to `css/dice3d.css`, resolving the 404 error.
+This approach is better than creating a separate dice3d.css file because:
+- Reduces HTTP requests (one less CSS file to load per page)
+- The styles are already being compiled into main.css
+- Follows the existing pattern of including all styles in main.css
+- Simpler maintenance
 
 **Files Changed:**
-- Created: `scss/dice3d.scss`
-- Generated: `css/dice3d.css` (via build process)
+- Modified: `node/generate-pages/template/head/template-head.hbs` (removed line 17)
+- Regenerated: All 50+ HTML files from template
 
 ---
 
@@ -75,14 +74,19 @@ To apply these fixes to a fresh clone:
    npm install
    ```
 
-2. Build CSS files (generates dice3d.css):
+2. Build CSS files:
    ```bash
    npm run build:css
    ```
 
-3. Build service worker (generates sw-injector.js and sw.js):
+3. Build service worker:
    ```bash
    npm run build:sw
+   ```
+
+4. Regenerate HTML pages:
+   ```bash
+   npm run gen:pages
    ```
 
 ## Testing
@@ -105,4 +109,5 @@ The fixes have been applied to the `testing` branch. To verify:
 - The `homebrew` branch was NOT modified as requested
 - All changes were committed to the `testing` branch
 - The changes are minimal and surgical - only fixing the specific issues identified
-- No changes were made to the HTML files since the solution was to create the missing CSS file
+- Better approach suggested by @ryanfp: remove the dice3d.css reference instead of creating a separate file
+
