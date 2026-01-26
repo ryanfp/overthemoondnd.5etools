@@ -30,6 +30,10 @@
 			height: 14px;
 			display: block;
 		}
+
+		&.ve-hidden::before {
+			display: none;
+		}
 	}
 
 	.rollbox {
