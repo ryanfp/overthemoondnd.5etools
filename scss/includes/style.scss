@@ -479,6 +479,7 @@
 
 	/* Day Mode */
 
+// book page sidebar background color
 	@media screen and (width > #{vars.$width-screen-hg}) {
 		#listcontainer.book-contents {
 			@include vars.mix-shadow-1;
@@ -818,12 +819,17 @@
 		}
 
 		h1,
-		h2,
+		//h2,
 		h3,
 		h4,
-		h5,
+		//h5,
 		h6 {
 			color: vars-night.$rgb-font--night;
+		}
+
+		h2,
+		h5 {
+			color: vars-night.$rgb-name-alt--night
 		}
 
 		pre {

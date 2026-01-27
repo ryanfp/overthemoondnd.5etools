@@ -17,18 +17,23 @@
 		user-select: none;
 		border: 1px solid #555;
 
-		  .d20-icon-20 {
-			position: absolute;
-			top: 6px;
-			left: 6px;
-			width: 14px;
-			height: 14px;
-			background-image: url("../img/assets/css/d20-icon-20.svg");
-			background-size: contain;
-			background-repeat: no-repeat;
-		}
+			.d20-icon-20 {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 14px;
+				height: 14px;
+				background-image: url("../img/assets/css/d20-icon-20.svg");
+				background-size: contain;
+				background-repeat: no-repeat;
+				color: #000000;
+			}
 	}
 
+	.ve-night-mode .rollbox-min .d20-icon-20 {
+		color: rgb(255, 255, 255, 0.7); 
+	}
+	
 	.rollbox {
 		@include vars.mix-shadow-1;
 
