@@ -14,9 +14,12 @@
 			}
 
 			&h--0,
-			&h--1,
-			&h--2 {
+			&h--1 {
 				color: vars-night.$rgb-name-red--night;
+			}
+
+			&h--2 {
+				color: vars-night.$rgb-name-alt--night
 			}
 
 			&h--1 {

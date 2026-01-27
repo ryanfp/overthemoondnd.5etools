@@ -3,6 +3,7 @@ Renderer
  */
 
 @use "../vars/vars";
+@use "../vars/vars-night";
 
 @layer vetools {
 	$rgb-inset-border: #656565;
@@ -824,7 +825,7 @@ Renderer
 				.rd__h--2 {
 					font-size: 1em;
 					font-family: Roboto, Helvetica, sans-serif;
-					color: inherit;
+					color: vars-night.$rgb-name-alt--night;
 					font-weight: bold;
 				}
 

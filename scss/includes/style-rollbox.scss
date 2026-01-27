@@ -4,7 +4,6 @@
 @layer vetools {
 	.rollbox-min {
 		@include vars.mix-shadow-1;
-
 		position: fixed;
 		z-index: vars.$z-rollerbox-hidden;
 		bottom: 0;
@@ -27,13 +26,14 @@
 				background-size: contain;
 				background-repeat: no-repeat;
 				color: #000000;
+				z-index: vars.$z-rollerbox-hidden +1;
 			}
 	}
 
 	.ve-night-mode .rollbox-min .d20-icon-20 {
 		color: rgb(255, 255, 255, 0.7); 
 	}
-	
+
 	.rollbox {
 		@include vars.mix-shadow-1;
 
