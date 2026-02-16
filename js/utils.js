@@ -4785,6 +4785,23 @@ globalThis.DataUtil = class {
 	static async _loadJson (url, {isDoDataMerge = false, isBustCache = false} = {}) {
 		const procUrl = UrlUtil.link(url, {isBustCache});
 
+		// Try IndexedDB cache first (if not busting cache)
+		if (!isBustCache && IndexedDbUtil.isSupported()) {
+			try {
+				const cachedData = await IndexedDbUtil.pGetJson(url);
+				if (cachedData) {
+					// If we need to do meta merge, verify it's already merged
+					if (isDoDataMerge) {
+						await DataUtil.pDoMetaMerge(url, cachedData);
+					}
+					return cachedData;
+				}
+			} catch (e) {
+				// IndexedDB errors are non-fatal, continue to network fetch
+				console.warn(`IndexedDB cache miss for ${url}:`, e);
+			}
+		}
+
 		let data;
 		try {
 			data = await DataUtil._pLoad({url: procUrl, id: url, isBustCache});
@@ -4796,6 +4813,13 @@ globalThis.DataUtil = class {
 		if (!data) data = await DataUtil._pLoad({url: url, id: url, isBustCache});
 
 		if (isDoDataMerge) await DataUtil.pDoMetaMerge(url, data);
+
+		// Cache the loaded data in IndexedDB
+		if (data && !isBustCache && IndexedDbUtil.isSupported()) {
+			IndexedDbUtil.pSetJson(url, data).catch(e => {
+				console.warn(`Failed to cache JSON in IndexedDB for ${url}:`, e);
+			});
+		}
 
 		return data;
 	}
