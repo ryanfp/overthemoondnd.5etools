@@ -89,6 +89,16 @@ const resetAll = async () => {
 		console.log(`deleted cache "${cacheName}"`);
 	}
 
+	// Also clear IndexedDB cache
+	try {
+		const clients = await self.clients.matchAll();
+		for (const client of clients) {
+			client.postMessage({type: "CLEAR_INDEXEDDB"});
+		}
+	} catch (e) {
+		console.warn("Failed to send IndexedDB clear message:", e);
+	}
+
 	await self.registration.unregister();
 
 	const clients = await self.clients.matchAll();
@@ -100,6 +110,17 @@ addEventListener("message", (event) => {
 		case "RESET": {
 			console.log("Resetting...");
 			event.waitUntil(resetAll());
+			break;
+		}
+		case "CLEAR_INDEXEDDB": {
+			console.log("Clearing IndexedDB cache...");
+			// Forward message to clients to clear IndexedDB
+			event.waitUntil((async () => {
+				const clients = await self.clients.matchAll();
+				for (const client of clients) {
+					client.postMessage({type: "CLEAR_INDEXEDDB"});
+				}
+			})());
 			break;
 		}
 	}

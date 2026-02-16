@@ -2082,6 +2082,22 @@ class DataLoader {
 
 		const {page: pageClean, source: sourceClean, hash: hashClean} = _DataLoaderInternalUtil.getCleanPageSourceHash({page, source, hash});
 
+		// Try IndexedDB cache for entity
+		if (typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
+			try {
+				const cachedEntity = await IndexedDbUtil.pGetEntity(pageClean, sourceClean, hashClean);
+				if (cachedEntity) {
+					// Store in memory cache
+					this._CACHE.set(pageClean, sourceClean, hashClean, cachedEntity);
+					return isCopy ? MiscUtil.copyFast(cachedEntity) : cachedEntity;
+				}
+			} catch (e) {
+				// IndexedDB errors are non-fatal
+				// eslint-disable-next-line no-console
+				console.warn(`IndexedDB entity cache miss for ${pageClean}:${sourceClean}:${hashClean}:`, e);
+			}
+		}
+
 		if (this._PAGES_NO_CONTENT.has(pageClean)) return this._getVerifiedRequiredEntity({pageClean, sourceClean, hashClean, ent: null, isRequired});
 
 		const dataLoader = this._pCache_getDataTypeLoader({pageClean, isSilent});
@@ -2096,7 +2112,17 @@ class DataLoader {
 		const {siteData = null, prereleaseData = null, brewData = null} = await this._pCacheAndGet_getCacheMeta({pageClean, sourceClean, dataLoader});
 		await this._pCacheAndGet_processCacheMeta({dataLoader, siteData, prereleaseData, brewData, lockToken2});
 
-		return this.getFromCache(page, source, hash, {isCopy, isRequired, _isInsertSentinelOnMiss: true});
+		const entity = this.getFromCache(page, source, hash, {isCopy: false, isRequired, _isInsertSentinelOnMiss: true});
+
+		// Cache the entity in IndexedDB (don't await - fire and forget)
+		if (entity && entity !== _DataLoaderConst.ENTITY_NULL && typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
+			IndexedDbUtil.pSetEntity(pageClean, sourceClean, hashClean, entity).catch(e => {
+				// eslint-disable-next-line no-console
+				console.warn(`Failed to cache entity in IndexedDB for ${pageClean}:${sourceClean}:${hashClean}:`, e);
+			});
+		}
+
+		return isCopy && entity ? MiscUtil.copyFast(entity) : entity;
 	}
 
 	static async pCacheAndGetHash (page, hash, opts) {
