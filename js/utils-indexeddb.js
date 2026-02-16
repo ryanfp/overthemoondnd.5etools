@@ -85,6 +85,7 @@ globalThis.IndexedDbUtil = class {
 			});
 		} catch (e) {
 			// Silently fail - IndexedDB is an optimization, not critical
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to cache JSON for ${url}:`, e);
 		}
 	}
@@ -118,6 +119,7 @@ globalThis.IndexedDbUtil = class {
 
 			return entry.data;
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to retrieve cached JSON for ${url}:`, e);
 			return null;
 		}
@@ -140,6 +142,7 @@ globalThis.IndexedDbUtil = class {
 				request.onerror = () => reject(request.error);
 			});
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to delete cached JSON for ${url}:`, e);
 		}
 	}
@@ -174,6 +177,7 @@ globalThis.IndexedDbUtil = class {
 				request.onerror = () => reject(request.error);
 			});
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to cache entity ${page}:${source}:${hash}:`, e);
 		}
 	}
@@ -200,6 +204,7 @@ globalThis.IndexedDbUtil = class {
 
 			return entry ? entry.entity : null;
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to retrieve cached entity ${page}:${source}:${hash}:`, e);
 			return null;
 		}
@@ -230,6 +235,7 @@ globalThis.IndexedDbUtil = class {
 				request.onerror = () => reject(request.error);
 			})));
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to clear page cache for ${page}:`, e);
 		}
 	}
@@ -261,8 +267,10 @@ globalThis.IndexedDbUtil = class {
 				}),
 			]);
 
+			// eslint-disable-next-line no-console
 			console.log("IndexedDB cache cleared");
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn("Failed to clear IndexedDB cache:", e);
 		}
 	}
@@ -291,6 +299,7 @@ globalThis.IndexedDbUtil = class {
 
 			return {jsonCount, entityCount};
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn("Failed to get cache stats:", e);
 			return {jsonCount: 0, entityCount: 0};
 		}
@@ -314,6 +323,7 @@ globalThis.IndexedDbUtil = class {
 				request.onerror = () => reject(request.error);
 			});
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to set metadata ${key}:`, e);
 		}
 	}
@@ -337,6 +347,7 @@ globalThis.IndexedDbUtil = class {
 
 			return entry ? entry.value : null;
 		} catch (e) {
+			// eslint-disable-next-line no-console
 			console.warn(`Failed to get metadata ${key}:`, e);
 			return null;
 		}

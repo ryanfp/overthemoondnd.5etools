@@ -2093,6 +2093,7 @@ class DataLoader {
 				}
 			} catch (e) {
 				// IndexedDB errors are non-fatal
+				// eslint-disable-next-line no-console
 				console.warn(`IndexedDB entity cache miss for ${pageClean}:${sourceClean}:${hashClean}:`, e);
 			}
 		}
@@ -2116,6 +2117,7 @@ class DataLoader {
 		// Cache the entity in IndexedDB (don't await - fire and forget)
 		if (entity && entity !== _DataLoaderConst.ENTITY_NULL && IndexedDbUtil.isSupported()) {
 			IndexedDbUtil.pSetEntity(pageClean, sourceClean, hashClean, entity).catch(e => {
+				// eslint-disable-next-line no-console
 				console.warn(`Failed to cache entity in IndexedDB for ${pageClean}:${sourceClean}:${hashClean}:`, e);
 			});
 		}

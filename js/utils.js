@@ -4798,6 +4798,7 @@ globalThis.DataUtil = class {
 				}
 			} catch (e) {
 				// IndexedDB errors are non-fatal, continue to network fetch
+				// eslint-disable-next-line no-console
 				console.warn(`IndexedDB cache miss for ${url}:`, e);
 			}
 		}
@@ -4817,6 +4818,7 @@ globalThis.DataUtil = class {
 		// Cache the loaded data in IndexedDB
 		if (data && !isBustCache && IndexedDbUtil.isSupported()) {
 			IndexedDbUtil.pSetJson(url, data).catch(e => {
+				// eslint-disable-next-line no-console
 				console.warn(`Failed to cache JSON in IndexedDB for ${url}:`, e);
 			});
 		}
