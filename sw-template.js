@@ -101,8 +101,8 @@ const resetAll = async () => {
 
 	await self.registration.unregister();
 
-	const clientsToNavigate = await self.clients.matchAll();
-	clientsToNavigate.forEach(client => client.navigate(client.url));
+	const clients = await self.clients.matchAll();
+	clients.forEach(client => client.navigate(client.url));
 };
 
 addEventListener("message", (event) => {

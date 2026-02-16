@@ -3120,16 +3120,16 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`;
       console.log(`deleted cache "${cacheName}"`);
     }
     try {
-      const clients = await self.clients.matchAll();
-      for (const client of clients) {
+      const clients2 = await self.clients.matchAll();
+      for (const client of clients2) {
         client.postMessage({ type: "CLEAR_INDEXEDDB" });
       }
     } catch (e) {
       console.warn("Failed to send IndexedDB clear message:", e);
     }
     await self.registration.unregister();
-    const clientsToNavigate = await self.clients.matchAll();
-    clientsToNavigate.forEach((client) => client.navigate(client.url));
+    const clients = await self.clients.matchAll();
+    clients.forEach((client) => client.navigate(client.url));
   };
   addEventListener("message", (event) => {
     switch (event.data.type) {
