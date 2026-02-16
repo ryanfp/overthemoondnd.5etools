@@ -102,7 +102,6 @@
 	// Print helpful message on bestiary page load
 	if (typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
 		// eslint-disable-next-line no-console
-		// eslint-disable-next-line no-console
 		console.log(
 			"%cIndexedDB Caching: ENABLED (Proof of Concept)",
 			"color: green; font-weight: bold;",
