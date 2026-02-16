@@ -2083,7 +2083,7 @@ class DataLoader {
 		const {page: pageClean, source: sourceClean, hash: hashClean} = _DataLoaderInternalUtil.getCleanPageSourceHash({page, source, hash});
 
 		// Try IndexedDB cache for entity
-		if (IndexedDbUtil.isSupported()) {
+		if (typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
 			try {
 				const cachedEntity = await IndexedDbUtil.pGetEntity(pageClean, sourceClean, hashClean);
 				if (cachedEntity) {
@@ -2115,7 +2115,7 @@ class DataLoader {
 		const entity = this.getFromCache(page, source, hash, {isCopy: false, isRequired, _isInsertSentinelOnMiss: true});
 
 		// Cache the entity in IndexedDB (don't await - fire and forget)
-		if (entity && entity !== _DataLoaderConst.ENTITY_NULL && IndexedDbUtil.isSupported()) {
+		if (entity && entity !== _DataLoaderConst.ENTITY_NULL && typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
 			IndexedDbUtil.pSetEntity(pageClean, sourceClean, hashClean, entity).catch(e => {
 				// eslint-disable-next-line no-console
 				console.warn(`Failed to cache entity in IndexedDB for ${pageClean}:${sourceClean}:${hashClean}:`, e);

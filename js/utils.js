@@ -4785,8 +4785,8 @@ globalThis.DataUtil = class {
 	static async _loadJson (url, {isDoDataMerge = false, isBustCache = false} = {}) {
 		const procUrl = UrlUtil.link(url, {isBustCache});
 
-		// Try IndexedDB cache first (if not busting cache)
-		if (!isBustCache && IndexedDbUtil.isSupported()) {
+		// Try IndexedDB cache first (if not busting cache and IndexedDB is active)
+		if (!isBustCache && typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
 			try {
 				const cachedData = await IndexedDbUtil.pGetJson(url);
 				if (cachedData) {
@@ -4816,7 +4816,7 @@ globalThis.DataUtil = class {
 		if (isDoDataMerge) await DataUtil.pDoMetaMerge(url, data);
 
 		// Cache the loaded data in IndexedDB
-		if (data && !isBustCache && IndexedDbUtil.isSupported()) {
+		if (data && !isBustCache && typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
 			IndexedDbUtil.pSetJson(url, data).catch(e => {
 				// eslint-disable-next-line no-console
 				console.warn(`Failed to cache JSON in IndexedDB for ${url}:`, e);

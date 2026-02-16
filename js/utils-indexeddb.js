@@ -3,16 +3,64 @@
 /**
  * IndexedDB wrapper for caching parsed JSON data and processed entities.
  * Provides a persistent cache layer to reduce parsing overhead across page loads.
+ *
+ * PROOF OF CONCEPT: Currently enabled for bestiary page only.
  */
 globalThis.IndexedDbUtil = class {
 	static DB_NAME = "5etools-cache";
-	static DB_VERSION = 1;
+	static DB_VERSION = 2; // Incremented for versioning support
 	static STORE_JSON = "json-cache";
 	static STORE_ENTITIES = "entity-cache";
 	static STORE_META = "meta-cache";
+	static CACHE_VERSION_KEY = "cache-version";
 
 	static _db = null;
 	static _initPromise = null;
+	static _isEnabled = true; // Config flag - can be toggled for testing
+	static _performanceMetrics = {
+		cacheHits: 0,
+		cacheMisses: 0,
+		totalLoadTime: 0,
+		cachedLoadTime: 0,
+	};
+
+	/**
+	 * Enable or disable IndexedDB caching
+	 * @param {boolean} enabled - Whether to enable IndexedDB
+	 */
+	static setEnabled (enabled) {
+		this._isEnabled = enabled;
+		// eslint-disable-next-line no-console
+		console.log(`IndexedDB caching ${enabled ? "enabled" : "disabled"}`);
+	}
+
+	/**
+	 * Check if IndexedDB is enabled and supported
+	 * @returns {boolean}
+	 */
+	static isActive () {
+		return this._isEnabled && this.isSupported();
+	}
+
+	/**
+	 * Get performance metrics
+	 * @returns {object}
+	 */
+	static getPerformanceMetrics () {
+		return {...this._performanceMetrics};
+	}
+
+	/**
+	 * Reset performance metrics
+	 */
+	static resetPerformanceMetrics () {
+		this._performanceMetrics = {
+			cacheHits: 0,
+			cacheMisses: 0,
+			totalLoadTime: 0,
+			cachedLoadTime: 0,
+		};
+	}
 
 	/**
 	 * Initialize the IndexedDB database
@@ -55,7 +103,54 @@ globalThis.IndexedDbUtil = class {
 			};
 		});
 
-		return this._initPromise;
+		await this._initPromise;
+
+		// Validate cache version on init
+		await this._pValidateCacheVersion();
+
+		return this._db;
+	}
+
+	/**
+	 * Validate cache version and clear if mismatch
+	 * @private
+	 */
+	static async _pValidateCacheVersion () {
+		try {
+			// Try to get current cache version from service worker manifest
+			const expectedVersion = await this._pGetServiceWorkerVersion();
+			const storedVersion = await this.pGetMeta(this.CACHE_VERSION_KEY);
+
+			if (expectedVersion && storedVersion !== expectedVersion) {
+				// eslint-disable-next-line no-console
+				console.log(`Cache version mismatch (stored: ${storedVersion}, expected: ${expectedVersion}). Clearing IndexedDB cache.`);
+				await this.pClearAll();
+				await this.pSetMeta(this.CACHE_VERSION_KEY, expectedVersion);
+			} else if (expectedVersion && !storedVersion) {
+				// First time - store version
+				await this.pSetMeta(this.CACHE_VERSION_KEY, expectedVersion);
+			}
+		} catch (e) {
+			// eslint-disable-next-line no-console
+			console.warn("Failed to validate cache version:", e);
+		}
+	}
+
+	/**
+	 * Get version from service worker if available
+	 * @private
+	 */
+	static async _pGetServiceWorkerVersion () {
+		// Use a combination of manifest timestamp or hash if available
+		// For now, use a simple timestamp-based version
+		try {
+			if (typeof VERSION_NUMBER !== "undefined") {
+				return VERSION_NUMBER;
+			}
+			return null;
+		} catch (e) {
+			return null;
+		}
 	}
 
 	/**
@@ -66,6 +161,8 @@ globalThis.IndexedDbUtil = class {
 	 * @returns {Promise<void>}
 	 */
 	static async pSetJson (url, data, revision = null) {
+		if (!this.isActive()) return;
+
 		try {
 			const db = await this.pInit();
 			const tx = db.transaction([this.STORE_JSON], "readwrite");
@@ -97,6 +194,9 @@ globalThis.IndexedDbUtil = class {
 	 * @returns {Promise<*|null>} - Cached data or null if not found/invalid
 	 */
 	static async pGetJson (url, expectedRevision = null) {
+		if (!this.isActive()) return null;
+
+		const startTime = performance.now();
 		try {
 			const db = await this.pInit();
 			const tx = db.transaction([this.STORE_JSON], "readonly");
@@ -108,20 +208,29 @@ globalThis.IndexedDbUtil = class {
 				request.onerror = () => reject(request.error);
 			});
 
-			if (!entry) return null;
+			if (!entry) {
+				this._performanceMetrics.cacheMisses++;
+				return null;
+			}
 
 			// Validate revision if provided
 			if (expectedRevision != null && entry.revision !== expectedRevision) {
 				// Revision mismatch - delete stale entry
 				await this.pDeleteJson(url);
+				this._performanceMetrics.cacheMisses++;
 				return null;
 			}
 
+			this._performanceMetrics.cacheHits++;
+			this._performanceMetrics.cachedLoadTime += (performance.now() - startTime);
 			return entry.data;
 		} catch (e) {
+			this._performanceMetrics.cacheMisses++;
 			// eslint-disable-next-line no-console
 			console.warn(`Failed to retrieve cached JSON for ${url}:`, e);
 			return null;
+		} finally {
+			this._performanceMetrics.totalLoadTime += (performance.now() - startTime);
 		}
 	}
 

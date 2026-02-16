@@ -2,6 +2,7 @@
 
 /**
  * Service worker integration for IndexedDB cache management
+ * PROOF OF CONCEPT: Currently enabled for bestiary page only.
  */
 (function () {
 	if (!("serviceWorker" in navigator)) return;
@@ -24,7 +25,7 @@
 		}
 	});
 
-	// Also expose a global function for manual cache clearing
+	// Expose a global function for manual cache clearing
 	globalThis.clearIndexedDbCache = async function () {
 		if (typeof IndexedDbUtil === "undefined" || !IndexedDbUtil.isSupported()) {
 			// eslint-disable-next-line no-console
@@ -34,6 +35,7 @@
 
 		try {
 			await IndexedDbUtil.pClearAll();
+			await IndexedDbUtil.resetPerformanceMetrics();
 			const stats = await IndexedDbUtil.pGetStats();
 			// eslint-disable-next-line no-console
 			console.log("IndexedDB cache cleared. New stats:", stats);
@@ -61,4 +63,57 @@
 			return null;
 		}
 	};
+
+	// Expose a function to get performance metrics
+	globalThis.getIndexedDbPerformanceMetrics = function () {
+		if (typeof IndexedDbUtil === "undefined" || !IndexedDbUtil.isSupported()) {
+			// eslint-disable-next-line no-console
+			console.warn("IndexedDB not supported or not loaded");
+			return null;
+		}
+
+		const metrics = IndexedDbUtil.getPerformanceMetrics();
+		const hitRate = metrics.cacheHits + metrics.cacheMisses > 0
+			? ((metrics.cacheHits / (metrics.cacheHits + metrics.cacheMisses)) * 100).toFixed(2)
+			: 0;
+		const avgCachedTime = metrics.cacheHits > 0
+			? (metrics.cachedLoadTime / metrics.cacheHits).toFixed(2)
+			: 0;
+
+		return {
+			...metrics,
+			hitRate: `${hitRate}%`,
+			avgCachedLoadTime: `${avgCachedTime}ms`,
+			totalLoadTime: `${metrics.totalLoadTime.toFixed(2)}ms`,
+		};
+	};
+
+	// Expose a function to enable/disable IndexedDB
+	globalThis.setIndexedDbEnabled = function (enabled) {
+		if (typeof IndexedDbUtil === "undefined") {
+			// eslint-disable-next-line no-console
+			console.warn("IndexedDB not loaded");
+			return;
+		}
+
+		IndexedDbUtil.setEnabled(enabled);
+	};
+
+	// Print helpful message on bestiary page load
+	if (typeof IndexedDbUtil !== "undefined" && IndexedDbUtil.isActive()) {
+		// eslint-disable-next-line no-console
+		// eslint-disable-next-line no-console
+		console.log(
+			"%cIndexedDB Caching: ENABLED (Proof of Concept)",
+			"color: green; font-weight: bold;",
+		);
+		// eslint-disable-next-line no-console
+		console.log(
+			"Performance testing commands:\n"
+			+ "  getIndexedDbPerformanceMetrics() - View cache performance\n"
+			+ "  getIndexedDbCacheStats() - View cache size stats\n"
+			+ "  clearIndexedDbCache() - Clear all cached data\n"
+			+ "  setIndexedDbEnabled(false) - Disable caching",
+		);
+	}
 })();
