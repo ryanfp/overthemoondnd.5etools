@@ -14740,7 +14740,7 @@
 												"A ten-foot-square entrance expands to the east to form a room of considerable size."
 											]
 										},
-										"The short corridor that leads into area 26 is the site of a pit trap. The trap is well concealed by a false floor and requires a successful {@dc 16} Wisdom ({@skill Perception}) check to be noticed. Creatures that step on the false floor fall through into a bog pit (see the \"{@area Hazards in the Marsh|19d|x} sidebar), taking normal falling damage",
+										"The short corridor that leads into area 26 is the site of a pit trap. The trap is well concealed by a false floor and requires a successful {@dc 16} Wisdom ({@skill Perception}) check to be noticed. Creatures that step on the false floor fall through into a bog pit (see the \"{@area Hazards in the Marsh|19d|x} sidebar), taking normal falling damage.",
 										"Inside the pit are five {@creature Giant Poisonous Snake||giant poisonous snakes}, which attack anything that falls in.",
 										"As soon as a character occupies the space to the east of the bog pit and can see farther into the room, read:",
 										{
@@ -32886,7 +32886,7 @@
 											"name": "Extra Reward",
 											"page": 222,
 											"entries": [
-												"If the characters kill the merrow and fulfill the ghost's request to lay the missionaries to rest (see \"Ghosts\" in {@area area M9|586|x}), the ghosts reward the characters with a {@i charm of heroism} as they depart (see \"{@book Charms|DMG|7|Charms}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG})."
+												"If the characters kill the merrow and fulfill the ghost's request to lay the missionaries to rest (see \"Ghosts\" in {@area area M9|586|x}), the ghosts reward the characters with a {@reward charm of heroism} as they depart (see \"{@book Charms|DMG|7|Charms}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG})."
 											],
 											"id": "591"
 										}

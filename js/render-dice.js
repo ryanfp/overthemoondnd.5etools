@@ -52,7 +52,7 @@ Renderer.dice = {
 	unbindDmScreenPanel () {
 		if (Renderer.dice._panel) {
 			document.body.appendChild(Renderer.dice._wrpRoll);
-			Renderer.dice._panel.close$TabContent();
+			Renderer.dice._panel.closeTabContent();
 			Renderer.dice._panel = null;
 			Renderer.dice._hideBox();
 			Renderer.dice._wrpRoll.removeClass("rollbox-panel");
@@ -208,7 +208,7 @@ Renderer.dice = {
 		Renderer.dice._cleanHistoryIndex();
 		const nxtVal = Renderer.dice._hist[Renderer.dice._histIndex];
 		Renderer.dice._iptRoll.val(nxtVal);
-		if (nxtVal) Renderer.dice._iptRoll[0].selectionStart = Renderer.dice._iptRoll[0].selectionEnd = nxtVal.length;
+		if (nxtVal) Renderer.dice._iptRoll.selectionStart = Renderer.dice._iptRoll.selectionEnd = nxtVal.length;
 	},
 
 	_cleanHistoryIndex: () => {
@@ -387,7 +387,7 @@ Renderer.dice = {
 		const tgt = ele.next(`[data-rd-is-autodice-result="true"]`);
 		const curTxt = tgt.txt();
 		tgt.txt(rollResult);
-		JqueryUtil.showCopiedEffect(tgt, curTxt, true);
+		JqueryUtil.showCopiedEffect(tgt, {text: curTxt, isBubble: true});
 	},
 
 	async _pRollerClick_pGetResult ({parent = null, ele, entry, modRollMeta, rolledBy, additionalData}) {

@@ -55,7 +55,7 @@ class _RenderBestiaryImplBase {
 		return !opts.isSkipTokenRender && Renderer.monster.hasToken(mon);
 	}
 
-	_getBtnPronounce ({mon}) {
+	_getBtnPronounceHtml ({mon}) {
 		return `<button class="ve-btn ve-btn-xs ve-btn-default stats__btn-name-pronounce lst-is-exporting-image__hidden no-print ml-2 mb-2 ve-self-flex-end">
 			<span class="glyphicon glyphicon-volume-up stats__icn-pronounce-name"></span>
 			<audio class="ve-hidden" preload="none" data-name="aud-pronounce">
@@ -177,7 +177,7 @@ class _RenderBestiaryImplBase {
 		return Renderer.utils.getNameTr(
 			mon,
 			{
-				controlRhs: mon.soundClip ? this._getBtnPronounce({mon}) : "",
+				htmlControlRhs: mon.soundClip ? this._getBtnPronounceHtml({mon}) : "",
 				isInlinedToken,
 				page: UrlUtil.PG_BESTIARY,
 				extensionData: {
@@ -320,6 +320,7 @@ class _RenderBestiaryImplBase {
 			srd52: mon.srd52,
 			sourceSub: mon.sourceSub,
 			otherSources: mon.otherSources,
+			referenceSources: mon.referenceSources,
 			additionalSources: mon.additionalSources,
 			externalSources: mon.externalSources,
 			reprintedAs: mon.reprintedAs,
@@ -792,22 +793,8 @@ export class RenderBestiary {
 		}
 	}
 
-	/**
-	 * @param {object} mon Creature data.
-	 * @param [opts]
-	 * @param [opts.btnScaleCr] CR scaler button.
-	 * @param [opts.btnResetScaleCr] CR scaler reset button.
-	 * @param [opts.selSummonSpellLevel] Summon spell level selector.
-	 * @param [opts.selSummonClassLevel] Summon spell level selector.
-	 * @param [opts.isSkipExcludesRender] If the "this entity is blocklisted" display should be skipped.
-	 * @param [opts.isSkipTokenRender]
-	 */
-	static $getRenderedCreature (mon, opts) {
-		return $(this.getRenderedCreature(mon, opts));
-	}
-
-	static $getRenderedLegendaryGroup (legGroup) {
-		return $$`
+	static getRenderedLegendaryGroup (legGroup) {
+		return ee`
 		${Renderer.utils.getBorderTr()}
 		${Renderer.utils.getNameTr(legGroup)}
 		<tr><td colspan="6">

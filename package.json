@@ -51,7 +51,7 @@
 		"url": "git+https://github.com/ryanfp/overthemoondnd.5etools"
 	},
 	"devDependencies": {
-		"5etools-utils": "^0.14.19",
+		"5etools-utils": "^0.15.0",
 		"ajv": "^8.12.0",
 		"ajv-formats": "^2.1.1",
 		"commander": "^12.0.0",
@@ -70,6 +70,7 @@
 		"simple-git": "^3.22.0",
 		"stylelint": "^16.2.1",
 		"stylelint-config-standard-scss": "^13.0.0",
+		"tinybench": "^6.0.0",
 		"workbox-cli": "^7.1.0"
 	},
 	"bugs": {

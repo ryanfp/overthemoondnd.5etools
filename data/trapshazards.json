@@ -1599,6 +1599,7 @@
 		{
 			"name": "Bile Lichen",
 			"source": "FRAiF",
+			"page": 96,
 			"rating": [
 				{
 					"tier": 1,
@@ -1607,7 +1608,7 @@
 			],
 			"entries": [
 				"Bile lichen is a toxic, green-yellow substance resembling vomit. It flourishes where extreme heat and cold mingle, such as at the steam-vent openings to Icewind Dale's Underdark. One patch of bile lichen covers a 5-foot square.",
-				"If a patch of bile lichen is touched, it releases a cloud of spores that fills a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} and dissipates after {@dice 1d4} hours. When a creature enters the cloud for the first time on a turn or starts its turn there, the creature makes a {@dc 14} Constitution saving throw, taking 11 ({@dice 2d10}) Poison damage and contracting {@area Lichen Plague|1dd|x} on a failed save (see \"{@area Magical Contagions|1dc|x}\" later in this chapter). On a successful save, the creature takes half as much damage only."
+				"If a patch of bile lichen is touched, it releases a cloud of spores that fills a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} and dissipates after {@dice 1d4} hours. When a creature enters the cloud for the first time on a turn or starts its turn there, the creature makes a {@dc 14} Constitution saving throw, taking 11 ({@dice 2d10}) Poison damage and contracting {@disease Lichen Plague|FRAiF} on a failed save (see \"{@book Magical Contagions|FRAiF|3|Magical Contagions}\" later in this chapter). On a successful save, the creature takes half as much damage only."
 			]
 		},
 		{
@@ -1669,6 +1670,16 @@
 			"page": 362,
 			"entries": [
 				"A burning creature or object takes {@damage 1d4} Fire damage at the start of each of its turns. As an action, you can extinguish fire on yourself by giving yourself the {@condition Prone|XPHB} condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated."
+			]
+		},
+		{
+			"name": "Calim Sandstorm",
+			"source": "FRAiF",
+			"page": 134,
+			"trapHazType": "ENV",
+			"entries": [
+				"Sandstorms arise quickly in the Calim desert, scouring the flesh of those caught inside. A Calim sandstorm is typically at least 300 feet in diameter and lasts {@b {@dice 1d6}} hours.",
+				"The area of a Calim sandstorm is {@variantrule Heavily Obscured|XPHB}, and open flames in the area are extinguished. A creature makes a {@dc 10} Constitution saving throw after each hour spent in a sandstorm's area. On a failed save, the creature gains 1 {@condition Exhaustion|XPHB} level."
 			]
 		},
 		{
@@ -2004,7 +2015,7 @@
 				}
 			],
 			"entries": [
-				"Intense fields of unstable magic can produce a sparkling, multicolored moss called glittermoss. A patch of glittermoss covers a 5-foot square. Glittermoss is often found near {@area communal telepathy zones|05f|x} (see earlier in this chapter), though it doesn't grow in direct sunlight.",
+				"Intense fields of unstable magic can produce a sparkling, multicolored moss called glittermoss. A patch of glittermoss covers a 5-foot square. Glittermoss is often found near {@book communal telepathy zones|NF|2|Communal Telepathy Zone} (see earlier in this chapter), though it doesn't grow in direct sunlight.",
 				"A creature that comes into contact with glittermoss makes a {@dc 12} Constitution saving throw. On a failed save, the creature takes 11 ({@dice 2d10}) Radiant damage and has the {@condition Blinded|XPHB} condition. While Blinded in this way, the creature is illuminated by glittering spores and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius and {@variantrule Dim Light|XPHB} for an additional 10 feet. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.",
 				"Glittermoss spores can leap to nearby creatures. While an affected creature is Blinded due to glittermoss, any creature that starts its turn within the Bright Light the affected creature sheds makes a {@dc 12} Constitution saving throw, taking 11 ({@dice 2d10}) Radiant damage on a failed save or half as much damage on a successful one.",
 				"Any amount of Fire or Necrotic damage destroys a patch of glittermoss instantly."
@@ -2041,6 +2052,15 @@
 				"Direct sunlight or any amount of Cold, Fire, or Radiant damage destroys a patch of green slime."
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Hailstorm",
+			"source": "FRAiF",
+			"page": 96,
+			"trapHazType": "ENV",
+			"entries": [
+				"Hailstorms bombard travelers with falling ice. Creatures exposed to such conditions must succeed on a Constitution saving throw at the end of each hour or gain 1 Exhaustion level. The DC is 5 for the first hour and increases by 1 for each additional hour. Creatures wearing Medium or Heavy armor have Advantage on the save."
+			]
 		},
 		{
 			"name": "Heavy Precipitation",
@@ -2084,6 +2104,15 @@
 			"entries": [
 				"Traveling at altitudes of 10,000 feet or higher above sea level is taxing for most creatures because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel (see \"{@book Travel Pace|XDMG|1|Travel Pace}\" in {@book chapter 2|XDMG|1}).",
 				"Creatures can become acclimated to a high altitude by spending 30 days or more at this elevation. Creatures can't become acclimated to elevations above 20,000 feet unless they are native to such environments."
+			]
+		},
+		{
+			"name": "Howling Wind",
+			"source": "FRAiF",
+			"page": 96,
+			"trapHazType": "ENV",
+			"entries": [
+				"Icewind Dale's winds can reach incredible pitch and volume, making it impossible to hear. Creatures outdoors in howling winds have the {@condition Deafened|XPHB} condition."
 			]
 		},
 		{
@@ -2291,6 +2320,7 @@
 		{
 			"name": "Lightning Strikes",
 			"source": "FRAiF",
+			"page": 135,
 			"rating": [
 				{
 					"tier": 2,
@@ -2305,6 +2335,24 @@
 					"name": "Detecting Lightning Storms",
 					"entries": [
 						"A creature that succeeds on a {@dc 10} Intelligence ({@skill Nature|XPHB}) or Wisdom ({@skill Survival|XPHB}) check predicts a lightning storm {@b {@dice 1d4}} hours before it forms in the vicinity."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magical Mirage",
+			"source": "FRAiF",
+			"page": 134,
+			"trapHazType": "ENV",
+			"entries": [
+				"Magical mirages are created by ambient magic. Such a mirage seems real, including sounds and smells appropriate to the thing depicted, but it can't deal damage or cause conditions. Physical inspection of the mirage reveals it to be an illusion, for things can pass through it.",
+				"For example, a magical mirage might depict an oasis complete with local flora and fauna, but a creature wading into the oasis's pond would find only a sandy pit.",
+				"Examples of magical mirages include lively oases, and pristine ancient temples.",
+				{
+					"type": "entries",
+					"name": "Seeing through a Mirage",
+					"entries": [
+						"As a {@action Study|XPHB} action, a creature can inspect the image and make a {@dc 15} Intelligence ({@skill Investigation|XPHB}). If a creature discerns the mirage's nature, the mirage becomes faint to the creature."
 					]
 				}
 			]
@@ -2365,6 +2413,16 @@
 				"Storms infused with the essence of death roil with dark clouds that manifest leering skulls and bone-white lightning. Any creature exposed to the storm that isn't a construct or an undead must succeed on a {@dc 13} Constitution saving throw at the end of each minute or take {@damage 3d6} necrotic damage.",
 				"A creature that dies in a necrotic tempest rises as a {@creature skeleton} or {@creature zombie} (your choice) {@dice 1d10} minutes later.",
 				"A necrotic tempest lasts for {@dice 1d4} hours and leaves crops withered and wells undrinkable for {@dice 1d4} days after its passing."
+			]
+		},
+		{
+			"name": "Nonmagical Mirage",
+			"source": "FRAiF",
+			"page": 134,
+			"trapHazType": "ENV",
+			"entries": [
+				"Nonmagical mirages range from simple illusions\u2014such creating the appearance of shimmering water a few miles away\u2014to complex illusions that mimic towering monsters lumbering across the horizon. Nonmagical mirages make no sound and move out of reach if approached.",
+				"Examples of nonmagical mirages include distant shimmering water, far-off dragons, or floating lights."
 			]
 		},
 		{
@@ -2461,6 +2519,16 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Psionic Field",
+			"source": "FRAiF",
+			"page": 96,
+			"trapHazType": "ENV",
+			"entries": [
+				"Resonances from the Underdark touch those who venture too deep underground. Each creature in a psionic field must succeed on an Intelligence saving throw at the end of each hour or gain 1 Exhaustion level. The DC is 5 for the first hour and increases by 1 for each additional hour.",
+				"A creature that starts and finishes a Long Rest in a psionic field experiences disturbing dreams and vivid hallucinations. The creature has the {@condition Frightened|XPHB} condition for {@dice 1d10} minutes after the Long Rest, with the source of its fear being the first creature it saw on finishing the Long Rest."
 			]
 		},
 		{
@@ -2692,6 +2760,7 @@
 		{
 			"name": "Sinkhole",
 			"source": "FRAiF",
+			"page": 135,
 			"rating": [
 				{
 					"tier": 1,
@@ -3022,6 +3091,7 @@
 		{
 			"name": "Zlanic Chardalyn",
 			"source": "FRAiF",
+			"page": 96,
 			"rating": [
 				{
 					"tier": 3,

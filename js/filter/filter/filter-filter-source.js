@@ -7,10 +7,12 @@ export class SourceFilterItem extends FilterItem {
 	/**
 	 * @param options
 	 * @param [options.isOtherSource] If this is not the primary source of the entity.
+	 * @param [options.isReferenceSource] If this is a source in which the entity is referenced.
 	 */
 	constructor (options) {
 		super(options);
 		this.isOtherSource = options.isOtherSource;
+		this.isReferenceSource = options.isReferenceSource;
 		this._sortName = null;
 		this.itemFull = Parser.sourceJsonToFull(this.item);
 	}
@@ -163,6 +165,17 @@ export class SourceFilter extends Filter {
 			),
 			null,
 			new ContextUtil.Action(
+				`Select 2014 Sources`,
+				() => this._doSetPinsClassic(),
+				{title: `Select sources published from 2014 to 2024.`},
+			),
+			new ContextUtil.Action(
+				`Select 2024 Sources`,
+				() => this._doSetPinsOne(),
+				{title: `Select sources published from 2024 onwards.`},
+			),
+			null,
+			new ContextUtil.Action(
 				`Select "Vanilla" Sources`,
 				() => this._doSetPinsVanilla(),
 				{title: `Select a baseline set of sources suitable for any campaign.`},
@@ -201,18 +214,18 @@ export class SourceFilter extends Filter {
 			tag: "button",
 			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			html: `Include References`,
-			title: `Consider entities as belonging to every source they appear in (i.e. reprints) as well as their primary source`,
-			click: () => this._meta.isIncludeOtherSources = !this._meta.isIncludeOtherSources,
+			title: `Consider entities as belonging to every source they are referenced in (i.e. in bolded/italic text), in addition to their primary source`,
+			click: () => this._meta.isIncludeReferenceSources = !this._meta.isIncludeReferenceSources,
 		});
 		const hkIsIncludeOtherSources = () => {
-			btnOnlyPrimary.toggleClass("active", !!this._meta.isIncludeOtherSources);
+			btnOnlyPrimary.toggleClass("active", !!this._meta.isIncludeReferenceSources);
 		};
 		hkIsIncludeOtherSources();
-		this._addHook("meta", "isIncludeOtherSources", hkIsIncludeOtherSources);
+		this._addHook("meta", "isIncludeReferenceSources", hkIsIncludeOtherSources);
 
 		e_({
 			tag: "div",
-			clazz: `ve-btn-group mr-2 w-100 ve-flex-v-center mobile__m-1 mobile__mb-2`,
+			clazz: `ve-btn-group mr-2 w-100 ve-flex-v-center mobile-sm__m-1 mobile-sm__mb-2`,
 			children: [
 				btnSupplements,
 				btnAdventures,
@@ -268,6 +281,14 @@ export class SourceFilter extends Filter {
 		);
 	}
 
+	_doSetPinsClassic () {
+		Object.keys(this._state).forEach(k => this._state[k] = SourceUtil.isClassicSource(k) ? PILL_STATE__YES : PILL_STATE__IGNORE);
+	}
+
+	_doSetPinsOne () {
+		Object.keys(this._state).forEach(k => this._state[k] = SourceUtil.isClassicSource(k) ? PILL_STATE__IGNORE : PILL_STATE__YES);
+	}
+
 	_doSetPinsVanilla () {
 		Object.keys(this._state).forEach(k => this._state[k] = Parser.SOURCES_VANILLA.has(k) ? PILL_STATE__YES : PILL_STATE__IGNORE);
 	}
@@ -320,15 +341,32 @@ export class SourceFilter extends Filter {
 		if (reprintedFilter) reprintedFilter.setValue("Reprinted", PILL_STATE__IGNORE);
 	}
 
-	static getCompleteFilterSources (ent) {
-		if (!ent.otherSources) return ent.source;
+	static getCompleteFilterSources (ent, {isIncludeBaseSource = false} = {}) {
+		const isSkipBaseSource = !isIncludeBaseSource || !ent._baseSource;
 
-		const otherSourcesFilt = ent.otherSources
-			// Avoid `otherSources` from e.g. homebrews which are not loaded, and so lack their metadata
-			.filter(src => !ExcludeUtil.isExcluded("*", "*", src.source, {isNoCount: true}) && SourceUtil.isKnownSource(src.source));
-		if (!otherSourcesFilt.length) return ent.source;
+		if (!ent.otherSources && !ent.referenceSources && isSkipBaseSource) return ent.source;
 
-		return [ent.source].concat(otherSourcesFilt.map(src => new SourceFilterItem({item: src.source, isIgnoreRed: true, isOtherSource: true})));
+		// Avoid `otherSources`/`referenceSources` from e.g. homebrews which are not loaded, and so lack their metadata
+		const otherSourcesFilt = (ent.otherSources || [])
+			.filter(src => this._getCompleteFilterSources_isIncludedSource(src.source));
+		const referenceSourcesFilt = (ent.referenceSources || [])
+			.filter(src => this._getCompleteFilterSources_isIncludedSource(src));
+
+		if (!otherSourcesFilt.length && !referenceSourcesFilt.length && isSkipBaseSource) return ent.source;
+
+		const out = [ent.source]
+			.concat(otherSourcesFilt.map(src => new SourceFilterItem({item: src.source, isIgnoreRed: true, isOtherSource: true})))
+			.concat(referenceSourcesFilt.map(src => new SourceFilterItem({item: src, isIgnoreRed: true, isReferenceSource: true})))
+		;
+
+		// Base sources should already be filtered
+		if (!isSkipBaseSource && this._getCompleteFilterSources_isIncludedSource(ent._baseSource)) out.push(ent._baseSource);
+
+		return out;
+	}
+
+	static _getCompleteFilterSources_isIncludedSource (source) {
+		return !ExcludeUtil.isExcluded("*", "*", source, {isNoCount: true}) && SourceUtil.isKnownSource(source);
 	}
 
 	_doRenderPills_doRenderWrpGroup_getDividerHeaders (group) {
@@ -529,7 +567,7 @@ export class SourceFilter extends Filter {
 
 	_toDisplay_getMappedEntryVal (entryVal) {
 		entryVal = super._toDisplay_getMappedEntryVal(entryVal);
-		if (!this._meta.isIncludeOtherSources) entryVal = entryVal.filter(it => !it.isOtherSource);
+		if (!this._meta.isIncludeReferenceSources) entryVal = entryVal.filter(it => !it.isReferenceSource);
 		return entryVal;
 	}
 
@@ -609,7 +647,7 @@ SourceFilter._PILL_DISPLAY_MODE__AS_NAMES = 0;
 SourceFilter._PILL_DISPLAY_MODE__AS_ABVS = 1;
 SourceFilter._PILL_DISPLAY_MODE__AS_BOTH = 2;
 SourceFilter._DEFAULT_META = {
-	isIncludeOtherSources: false,
+	isIncludeReferenceSources: false,
 };
 SourceFilter._DEFAULT_UI_META = {
 	pillDisplayMode: SourceFilter._PILL_DISPLAY_MODE__AS_NAMES,

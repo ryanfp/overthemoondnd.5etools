@@ -1052,7 +1052,7 @@
 			"type": {
 				"type": "elemental",
 				"tags": [
-					"Genie"
+					"genie"
 				]
 			},
 			"alignment": [
@@ -1323,7 +1323,7 @@
 				{
 					"name": "Determined Survivor",
 					"entries": [
-						"The cultist regains 10 {@variantrule Hit Points|XPHB} at the start of each of its turns if it is Bloodied and has at least 1 {@variantrule Hit Points|XPHB|Hit Point}."
+						"The cultist regains 10 {@variantrule Hit Points|XPHB} at the start of each of its turns if it is {@status Bloodied|XPHB} and has at least 1 {@variantrule Hit Points|XPHB|Hit Point}."
 					]
 				}
 			],
@@ -1764,7 +1764,7 @@
 				{
 					"name": "Culling Aura",
 					"entries": [
-						"{@actSave con} {@dc 20}, each Bloodied creature in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the scion at the end of the scion's turn. {@actSaveFail} The target can't regain {@variantrule Hit Points|XPHB} until the start of the scion's next turn."
+						"{@actSave con} {@dc 20}, each {@status Bloodied|XPHB} creature in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the scion at the end of the scion's turn. {@actSaveFail} The target can't regain {@variantrule Hit Points|XPHB} until the start of the scion's next turn."
 					]
 				},
 				{
@@ -2034,7 +2034,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -2196,7 +2200,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -2362,7 +2370,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -2505,7 +2517,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -2736,7 +2752,7 @@
 				{
 					"name": "Sprint",
 					"entries": [
-						"The wonder takes the Dash action."
+						"The wonder takes the {@action Dash|XPHB} action."
 					]
 				}
 			],
@@ -2764,7 +2780,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Human"
+					"human"
 				]
 			},
 			"alignment": [
@@ -2886,7 +2902,7 @@
 				{
 					"name": "Withdraw",
 					"entries": [
-						"Karas moves up to half her {@variantrule Speed|XPHB} without provoking Opportunity Attack action and takes the Hide action."
+						"Karas moves up to half her {@variantrule Speed|XPHB} without provoking Opportunity Attack action and takes the {@action Hide|XPHB} action."
 					]
 				}
 			],
@@ -2944,8 +2960,7 @@
 				"THW"
 			],
 			"conditionInflict": [
-				"frightened",
-				"incapacitated"
+				"frightened"
 			],
 			"conditionInflictSpell": [
 				"charmed",
@@ -2976,8 +2991,8 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Human",
-					"Wizard"
+					"human",
+					"wizard"
 				]
 			},
 			"alignment": [
@@ -3475,7 +3490,7 @@
 				{
 					"name": "Nimble Movement",
 					"entries": [
-						"The nimblewright takes the Disengage action."
+						"The nimblewright takes the {@action Disengage|XPHB} action."
 					]
 				}
 			],
@@ -3506,10 +3521,9 @@
 		{
 			"name": "Phaerimm Agent",
 			"source": "FRAiF",
-			"otherSources": [
-				{
-					"source": "NF"
-				}
+			"page": 269,
+			"referenceSources": [
+				"NF"
 			],
 			"size": [
 				"L"
@@ -3693,10 +3707,9 @@
 		{
 			"name": "Phaerimm Hatchling",
 			"source": "FRAiF",
-			"otherSources": [
-				{
-					"source": "NF"
-				}
+			"page": 268,
+			"referenceSources": [
+				"NF"
 			],
 			"size": [
 				"S"
@@ -4045,7 +4058,6 @@
 				"THW"
 			],
 			"conditionInflict": [
-				"incapacitated",
 				"petrified",
 				"poisoned",
 				"restrained"
@@ -4167,6 +4179,7 @@
 		{
 			"name": "Rusted Berserker",
 			"source": "FRAiF",
+			"page": 273,
 			"size": [
 				"M"
 			],
@@ -4617,7 +4630,7 @@
 			"type": {
 				"type": "undead",
 				"tags": [
-					"Wizard"
+					"wizard"
 				]
 			},
 			"alignment": [
@@ -5259,7 +5272,7 @@
 			"type": {
 				"type": "undead",
 				"tags": [
-					"Wizard"
+					"wizard"
 				]
 			},
 			"alignment": [
@@ -5513,7 +5526,7 @@
 			"type": {
 				"type": "dragon",
 				"tags": [
-					"Lycanthrope"
+					"lycanthrope"
 				]
 			},
 			"alignment": [
@@ -6137,7 +6150,7 @@
 			"type": {
 				"type": "undead",
 				"tags": [
-					"Wizard"
+					"wizard"
 				]
 			},
 			"alignment": [

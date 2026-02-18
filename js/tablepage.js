@@ -224,9 +224,9 @@ class TableListPage extends ListPage {
 			});
 		const rendered = Renderer.get().render(entry);
 
-		const eleOut = ee`<span> | Attitude ${rendered}</span>`;
+		const out = ee`<span> | Attitude ${rendered}</span>`;
 
-		eleOut
+		out
 			.findAll(`[data-tablepage-roller]`)
 			.forEach((ele, i) => {
 				const {rollText, displayText} = diceTagMetas[i];
@@ -244,7 +244,7 @@ class TableListPage extends ListPage {
 				ele.replaceWith(eleRoller);
 			});
 
-		return eleOut;
+		return out;
 	}
 
 	static _roll_getAttitude (total) {

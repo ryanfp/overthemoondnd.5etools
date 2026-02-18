@@ -17,10 +17,8 @@
 			"name": "Brain in a Jar",
 			"source": "LLK",
 			"page": 38,
-			"otherSources": [
-				{
-					"source": "IMR"
-				}
+			"referenceSources": [
+				"IMR"
 			],
 			"size": [
 				"M"
@@ -468,7 +466,7 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action."
+						"On each of his turns, Garret can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
 					]
 				},
 				{
@@ -590,6 +588,9 @@
 			"isNamedCreature": true,
 			"source": "LLK",
 			"page": 23,
+			"referenceSources": [
+				"IMR"
+			],
 			"_copy": {
 				"name": "Medusa",
 				"source": "MM",
@@ -773,6 +774,7 @@
 				"CL"
 			],
 			"miscTags": [
+				"AOE",
 				"MLW",
 				"MW"
 			],

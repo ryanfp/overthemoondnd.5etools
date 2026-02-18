@@ -2,6 +2,7 @@ import {BrewUtilShared} from "./utils-brew-helpers.js";
 import {BrewDoc} from "./utils-brew-models.js";
 import {SITE_STYLE__CLASSIC, SITE_STYLE__ONE} from "../consts.js";
 import {FontManager} from "../utils-font.js";
+import {BrewDocContentMigrator} from "./utils-brew-content-migrator.js";
 
 export class BrewUtil2Base {
 	_STORAGE_KEY_LEGACY;
@@ -231,6 +232,7 @@ export class BrewUtil2Base {
 			await this._pGetBrewProcessed_({lockToken});
 		} catch (e) {
 			setTimeout(() => { throw e; });
+			this._cache_brewsProc ||= {};
 		} finally {
 			this._LOCK.unlock();
 		}
@@ -326,6 +328,8 @@ export class BrewUtil2Base {
 		if (this._cache_brewsLocal) return this._cache_brewsLocal;
 		if (globalThis.IS_VTT || IS_DEPLOYED || typeof window === "undefined") return this._cache_brewsLocal = [];
 
+		await BrewDocContentMigrator.pInit();
+
 		try {
 			await this._LOCK.pLock({token: lockToken});
 			if (this._cache_brewsLocal) return this._cache_brewsLocal;
@@ -362,6 +366,8 @@ export class BrewUtil2Base {
 	/* -------------------------------------------- */
 
 	async _pGetBrewRaw ({lockToken} = {}) {
+		await BrewDocContentMigrator.pInit();
+
 		try {
 			await this._LOCK.pLock({token: lockToken});
 			return (await this._pGetBrewRaw_());
@@ -826,10 +832,21 @@ export class BrewUtil2Base {
 	}
 
 	async _pAddBrewsLazyFinalize_ ({lockToken}) {
+		const brewsTempDeduped = this._addLazy_brewsTemp
+			.reduce(
+				(accum, brew) => {
+					if (accum.checksums[brew.head.checksum]) return accum;
+					accum.deduped.push(brew);
+					accum.checksums[brew.head.checksum] = true;
+					return accum;
+				},
+				{deduped: [], checksums: {}},
+			)
+			.deduped;
 		const brewsRaw = await this._pGetBrewRaw({lockToken});
-		const {brewDocsDependencies, unavailableSources} = await this._pGetBrewDependencies({brewDocs: this._addLazy_brewsTemp, brewsRaw, lockToken});
+		const {brewDocsDependencies, unavailableSources} = await this._pGetBrewDependencies({brewDocs: brewsTempDeduped, brewsRaw, lockToken});
 		const brewDocs = MiscUtil.copyFast(brewDocsDependencies);
-		const brewsNxt = this._getNextBrews(MiscUtil.copyFast(brewsRaw), [...this._addLazy_brewsTemp, ...brewDocsDependencies]);
+		const brewsNxt = this._getNextBrews(MiscUtil.copyFast(brewsRaw), [...brewsTempDeduped, ...brewDocsDependencies]);
 		await this.pSetBrew(brewsNxt, {lockToken});
 		this._addLazy_brewsTemp = [];
 		return {brewDocs, unavailableSources};
@@ -1060,7 +1077,7 @@ export class BrewUtil2Base {
 
 	// region Rendering/etc.
 	_PAGE_TO_PROPS__SPELLS = [...UrlUtil.PAGE_TO_PROPS[UrlUtil.PG_SPELLS], "spellFluff"];
-	_PAGE_TO_PROPS__BESTIARY = ["monster", "legendaryGroup", "monsterFluff"];
+	_PAGE_TO_PROPS__BESTIARY = ["monster", "legendaryGroup", "monsterFluff", "encounterShape"];
 
 	_PAGE_TO_PROPS = {
 		[UrlUtil.PG_SPELLS]: this._PAGE_TO_PROPS__SPELLS,
@@ -1127,6 +1144,7 @@ export class BrewUtil2Base {
 		switch (dir) {
 			case "creature": return "monster";
 			case "makebrew": return "makebrewCreatureTrait";
+			case "encounterbuilder": return "encounterShape";
 		}
 		return dir;
 	}
@@ -1172,7 +1190,7 @@ export class BrewUtil2Base {
 		this._cache_metas["_sources"] = (this._getBrewMetas() || [])
 			.mergeMap(({_meta}) => {
 				return (_meta?.sources || [])
-					.mergeMap(src => ({[(src.json || "").toLowerCase()]: MiscUtil.copyFast(src)}));
+					.mergeMap(src => ({[(src.json || "").toLowerCase()]: {...MiscUtil.copyFast(src), edition: _meta.edition || SITE_STYLE__CLASSIC}}));
 			});
 	}
 
@@ -1264,6 +1282,12 @@ export class BrewUtil2Base {
 		return this.getMetaLookup("_sources")[source];
 	}
 
+	isClassicSource (source) {
+		if (!source) return "";
+		source = source.toLowerCase();
+		return this.getMetaLookup("_sources")[source]?.edition === SITE_STYLE__CLASSIC;
+	}
+
 	getSources () {
 		this._initSync();
 		return Object.values(this._cache_metas["_sources"]);
@@ -1304,7 +1328,7 @@ export class BrewUtil2Base {
 	/**
 	 * Get data in a format similar to the main search index
 	 */
-	async pGetSearchIndex ({id = 0, isDecompress = true, isIncludeExtendedSourceInfo = false} = {}) {
+	async pGetSearchIndex ({id = 0, isDecompress = true, isIncludeExtendedSourceInfo = false, isSkipNonPartnered = false} = {}) {
 		const indexer = new Omnidexer(id);
 
 		const brew = await this.pGetBrewProcessed();
@@ -1317,11 +1341,11 @@ export class BrewUtil2Base {
 
 				if (arbiter.pFnPreProcBrew) {
 					const toProc = await arbiter.pFnPreProcBrew.bind(arbiter)(brew);
-					await indexer.pAddToIndex(arbiter, toProc, {isIncludeExtendedSourceInfo});
+					await indexer.pAddToIndex(arbiter, toProc, {isIncludeExtendedSourceInfo, isSkipNonPartnered});
 					return;
 				}
 
-				await indexer.pAddToIndex(arbiter, brew, {isIncludeExtendedSourceInfo});
+				await indexer.pAddToIndex(arbiter, brew, {isIncludeExtendedSourceInfo, isSkipNonPartnered});
 			});
 
 		const index = indexer.getIndex();

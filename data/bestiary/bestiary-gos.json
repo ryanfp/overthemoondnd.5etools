@@ -19,10 +19,9 @@
 			"name": "Amphisbaena",
 			"source": "GoS",
 			"page": 230,
-			"otherSources": [
-				{
-					"source": "MOT"
-				}
+			"referenceSources": [
+				"MOT",
+				"TftYP-THSoT"
 			],
 			"size": [
 				"M"
@@ -269,10 +268,8 @@
 			"name": "Bullywug Royal",
 			"source": "GoS",
 			"page": 232,
-			"otherSources": [
-				{
-					"source": "WBtW"
-				}
+			"referenceSources": [
+				"WBtW"
 			],
 			"size": [
 				"M"
@@ -461,8 +458,7 @@
 				"R"
 			],
 			"spellcastingTags": [
-				"CC",
-				"I"
+				"CC"
 			],
 			"hasToken": true,
 			"hasFluffImages": true
@@ -1613,13 +1609,9 @@
 			"name": "Lizardfolk Render",
 			"source": "GoS",
 			"page": 241,
-			"otherSources": [
-				{
-					"source": "SLW"
-				},
-				{
-					"source": "IMR"
-				}
+			"referenceSources": [
+				"SLW",
+				"IMR"
 			],
 			"size": [
 				"L"
@@ -1849,10 +1841,8 @@
 			"name": "Lizardfolk Subchief",
 			"source": "GoS",
 			"page": 242,
-			"otherSources": [
-				{
-					"source": "SLW"
-				}
+			"referenceSources": [
+				"SLW"
 			],
 			"size": [
 				"M"
@@ -2008,10 +1998,8 @@
 			"name": "Locathah",
 			"source": "GoS",
 			"page": 243,
-			"otherSources": [
-				{
-					"source": "IMR"
-				}
+			"referenceSources": [
+				"IMR"
 			],
 			"size": [
 				"M"
@@ -3929,10 +3917,8 @@
 			"name": "Sahuagin High Priestess",
 			"source": "GoS",
 			"page": 251,
-			"otherSources": [
-				{
-					"source": "SDW"
-				}
+			"referenceSources": [
+				"SDW"
 			],
 			"size": [
 				"M"
@@ -4636,10 +4622,8 @@
 			"name": "Skeletal Juggernaut",
 			"source": "GoS",
 			"page": 253,
-			"otherSources": [
-				{
-					"source": "IMR"
-				}
+			"referenceSources": [
+				"IMR"
 			],
 			"size": [
 				"L"
@@ -4730,6 +4714,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
@@ -4743,13 +4728,9 @@
 			"name": "Skeletal Swarm",
 			"source": "GoS",
 			"page": 254,
-			"otherSources": [
-				{
-					"source": "DC"
-				},
-				{
-					"source": "IMR"
-				}
+			"referenceSources": [
+				"DC",
+				"IMR"
 			],
 			"size": [
 				"L"

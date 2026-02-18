@@ -304,6 +304,7 @@
 				"CW"
 			],
 			"miscTags": [
+				"AOE",
 				"CUR",
 				"MLW",
 				"MW"
@@ -636,6 +637,9 @@
 			"name": "Almiraj",
 			"source": "ToA",
 			"page": 211,
+			"referenceSources": [
+				"TTP"
+			],
 			"size": [
 				"S"
 			],
@@ -1098,13 +1102,9 @@
 			"name": "Assassin Vine",
 			"source": "ToA",
 			"page": 213,
-			"otherSources": [
-				{
-					"source": "GoS"
-				},
-				{
-					"source": "SDW"
-				}
+			"referenceSources": [
+				"GoS",
+				"SDW"
 			],
 			"size": [
 				"L"
@@ -1615,6 +1615,10 @@
 			"name": "Chwinga",
 			"source": "ToA",
 			"page": 216,
+			"referenceSources": [
+				"TTP",
+				"IDRotF"
+			],
 			"size": [
 				"T"
 			],
@@ -1978,6 +1982,9 @@
 			"name": "Eblis",
 			"source": "ToA",
 			"page": 219,
+			"referenceSources": [
+				"TTP"
+			],
 			"size": [
 				"L"
 			],
@@ -2403,6 +2410,9 @@
 			"name": "Giant Snapping Turtle",
 			"source": "ToA",
 			"page": 222,
+			"referenceSources": [
+				"TTP"
+			],
 			"size": [
 				"L"
 			],
@@ -2807,6 +2817,9 @@
 			"name": "Jaculi",
 			"source": "ToA",
 			"page": 225,
+			"referenceSources": [
+				"TTP"
+			],
 			"size": [
 				"L"
 			],
@@ -2959,6 +2972,9 @@
 			"name": "Kamadan",
 			"source": "ToA",
 			"page": 225,
+			"referenceSources": [
+				"TLK"
+			],
 			"size": [
 				"L"
 			],
@@ -3282,10 +3298,9 @@
 			"isNamedCreature": true,
 			"source": "ToA",
 			"page": 227,
-			"otherSources": [
-				{
-					"source": "BGDIA"
-				}
+			"referenceSources": [
+				"BGDIA",
+				"TTP"
 			],
 			"size": [
 				"M"
@@ -3977,6 +3992,9 @@
 			"isNamedCreature": true,
 			"source": "ToA",
 			"page": 230,
+			"referenceSources": [
+				"TTP"
+			],
 			"size": [
 				"M"
 			],
@@ -4793,7 +4811,8 @@
 				]
 			},
 			"alignment": [
-				"L"
+				"L",
+				"N"
 			],
 			"languages": [
 				"Common",
@@ -5843,10 +5862,9 @@
 			"isNamedCreature": true,
 			"source": "ToA",
 			"page": 235,
-			"otherSources": [
-				{
-					"source": "WDH"
-				}
+			"referenceSources": [
+				"WDH",
+				"TTP"
 			],
 			"size": [
 				"M"

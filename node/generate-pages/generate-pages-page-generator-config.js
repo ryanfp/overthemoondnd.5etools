@@ -38,7 +38,6 @@ class _PageGeneratorDmscreen extends PageGeneratorGeneric {
 
 	_scriptsLibAdditional = [
 		"peerjs.js",
-		"jquery.panzoom.js",
 		"lzma.js",
 	];
 
@@ -250,10 +249,6 @@ class _PageGeneratorMakebrew extends PageGeneratorGeneric {
 		"makebrew",
 	];
 
-	_scriptsLibAdditional = [
-		"bootstrap-typeahead.js",
-	];
-
 	_scriptsRenderAdditional = [
 		"render-markdown.js",
 	];
@@ -276,10 +271,6 @@ class _PageGeneratorMakecards extends PageGeneratorGeneric {
 
 	_stylesheets = [
 		"makecards",
-	];
-
-	_scriptsLibAdditional = [
-		"bootstrap-typeahead.js",
 	];
 
 	_scriptsLibAdditionalRemote = [

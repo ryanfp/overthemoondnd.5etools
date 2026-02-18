@@ -24,6 +24,10 @@
 				"source": "DMG",
 				"page": 150,
 				"srd": true,
+				"referenceSources": [
+					"ToA",
+					"CoA"
+				],
 				"reprintedAs": [
 					"+1 Ammunition|XDMG"
 				],
@@ -86,6 +90,9 @@
 				"page": 152,
 				"srd": true,
 				"basicRules": true,
+				"referenceSources": [
+					"LMoP"
+				],
 				"reprintedAs": [
 					"+1 Armor|XDMG"
 				],
@@ -121,6 +128,9 @@
 				"bonusAc": "+1",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG",
@@ -183,6 +193,9 @@
 				"entries": [
 					"While holding this Shield, you have a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, in addition to the Shield's normal bonus to AC."
 				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
+				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
 				]
@@ -206,6 +219,18 @@
 				"page": 213,
 				"srd": true,
 				"basicRules": true,
+				"referenceSources": [
+					"LMoP",
+					"TftYP-DiT",
+					"GoS",
+					"DIP",
+					"NRH-ASS",
+					"DoSI",
+					"SjA",
+					"PaBTSO",
+					"ToFW",
+					"QftIS"
+				],
 				"reprintedAs": [
 					"+1 Weapon|XDMG"
 				],
@@ -238,6 +263,9 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
@@ -350,6 +378,10 @@
 				"page": 152,
 				"srd": true,
 				"basicRules": true,
+				"referenceSources": [
+					"CoS",
+					"TftYP-AtG"
+				],
 				"reprintedAs": [
 					"+2 Armor|XDMG"
 				],
@@ -385,6 +417,9 @@
 				"bonusAc": "+2",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG",
@@ -447,6 +482,9 @@
 				"entries": [
 					"While holding this Shield, you have a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, in addition to the Shield's normal bonus to AC."
 				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
+				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
 				]
@@ -470,6 +508,10 @@
 				"page": 213,
 				"srd": true,
 				"basicRules": true,
+				"referenceSources": [
+					"BGDIA",
+					"GotSF"
+				],
 				"reprintedAs": [
 					"+2 Weapon|XDMG"
 				],
@@ -502,6 +544,9 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -2186,6 +2231,14 @@
 				"source": "DMG",
 				"page": 155,
 				"srd": true,
+				"referenceSources": [
+					"TftYP-THSoT",
+					"GoS",
+					"IDRotF",
+					"HoL",
+					"DSotDQ",
+					"QftIS"
+				],
 				"reprintedAs": [
 					"Berserker Axe|XDMG"
 				],
@@ -2234,6 +2287,9 @@
 				"page": 236,
 				"srd52": true,
 				"basicRules2024": true,
+				"referenceSources": [
+					"DrDe-SD"
+				],
 				"rarity": "rare",
 				"reqAttune": true,
 				"curse": true,
@@ -2586,6 +2642,42 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dazzling Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dazzling ",
+				"source": "EFA",
+				"page": 112,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4}",
+				"charges": 4,
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it. While holding it, you can take a {@variantrule Bonus Action|XPHB} to cause it to shed {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. You can extinguish the light as a {@variantrule Bonus Action|XPHB}.",
+					"The weapon has 4 charges. You can take a {@variantrule Reaction|XPHB} immediately after being hit by an attack roll to expend 1 of the weapon's charges and force the attacker to make a DC 15 Constitution saving throw. On a failed save, the attacker has the {@condition Blinded|XPHB} condition until the end of its next turn. The weapon regains {@dice 1d4} expended charges daily at dawn."
+				],
+				"light": [
+					{
+						"bright": 30,
+						"dim": 60
+					}
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
+				]
+			}
+		},
+		{
 			"name": "Defender",
 			"edition": "classic",
 			"type": "GV|DMG",
@@ -2599,6 +2691,9 @@
 				"source": "DMG",
 				"page": 164,
 				"srd": true,
+				"referenceSources": [
+					"TftYP-ToH"
+				],
 				"reprintedAs": [
 					"Defender|XDMG"
 				],
@@ -2668,6 +2763,7 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"curse": true,
+				"grantsLanguage": true,
 				"bonusWeapon": "+1",
 				"bonusAc": "+1",
 				"entries": [
@@ -2765,6 +2861,11 @@
 				"source": "DMG",
 				"page": 166,
 				"srd": true,
+				"referenceSources": [
+					"PotA",
+					"TftYP-AtG",
+					"DIP"
+				],
 				"reprintedAs": [
 					"Dragon Slayer|XDMG"
 				],
@@ -2850,6 +2951,9 @@
 						"source": "DSotDQ",
 						"page": 23
 					}
+				],
+				"referenceSources": [
+					"DSotDQ"
 				],
 				"rarity": "legendary",
 				"reqAttune": true,
@@ -3069,6 +3173,7 @@
 				],
 				"rarity": "legendary",
 				"reqAttune": true,
+				"grantsLanguage": true,
 				"bonusAc": "+3",
 				"entries": [
 					"While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, you have {@variantrule Immunity|XPHB} to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground."
@@ -3103,6 +3208,9 @@
 				"bonusAc": "+1",
 				"entries": [
 					"You gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -3782,6 +3890,13 @@
 				"source": "DMG",
 				"page": 170,
 				"srd": true,
+				"referenceSources": [
+					"OotA",
+					"TftYP-ToH",
+					"ToA",
+					"WBtW",
+					"QftIS"
+				],
 				"reprintedAs": [
 					"Flame Tongue|XDMG"
 				],
@@ -3827,6 +3942,9 @@
 						"bright": 40,
 						"dim": 80
 					}
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -3909,6 +4027,9 @@
 				"source": "DMG",
 				"page": 171,
 				"srd": true,
+				"referenceSources": [
+					"WBtW"
+				],
 				"reprintedAs": [
 					"Frost Brand|XDMG"
 				],
@@ -3970,6 +4091,9 @@
 				"page": 263,
 				"srd52": true,
 				"basicRules2024": true,
+				"referenceSources": [
+					"DrDe-SD"
+				],
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -4033,6 +4157,9 @@
 				"source": "DMG",
 				"page": 172,
 				"srd": true,
+				"referenceSources": [
+					"SKT"
+				],
 				"reprintedAs": [
 					"Giant Slayer|XDMG"
 				],
@@ -4256,6 +4383,9 @@
 				"source": "DMG",
 				"page": 174,
 				"srd": true,
+				"referenceSources": [
+					"CoA"
+				],
 				"reprintedAs": [
 					"Holy Avenger|XDMG"
 				],
@@ -4663,6 +4793,10 @@
 				"source": "DMG",
 				"page": 179,
 				"srd": true,
+				"referenceSources": [
+					"CoS",
+					"WDMM"
+				],
 				"reprintedAs": [
 					"Luck Blade|XDMG"
 				],
@@ -4789,6 +4923,10 @@
 				"namePrefix": "Mariner's ",
 				"source": "DMG",
 				"page": 181,
+				"referenceSources": [
+					"PotA",
+					"WDMM"
+				],
 				"reprintedAs": [
 					"Mariner's Armor|XDMG"
 				],
@@ -4919,6 +5057,12 @@
 				"source": "DMG",
 				"page": 182,
 				"srd": true,
+				"referenceSources": [
+					"WDMM",
+					"IDRotF",
+					"KftGV",
+					"CoA"
+				],
 				"reprintedAs": [
 					"Mithral Armor|XDMG"
 				],
@@ -4954,6 +5098,9 @@
 				"page": 279,
 				"srd52": true,
 				"basicRules2024": true,
+				"referenceSources": [
+					"DrDe-FWtVC"
+				],
 				"rarity": "uncommon",
 				"entries": [
 					"Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.",
@@ -5127,7 +5274,7 @@
 						"type": "entries",
 						"name": "Minor Property",
 						"entries": [
-							"In addition to its aforementioned properties, each Moonblade has a minor property determined by rolling on the {@action Magic|XPHB} Item's Minor Property table."
+							"In addition to its aforementioned properties, each Moonblade has a minor property determined by rolling on the Magic Item's Minor Property table."
 						]
 					},
 					{
@@ -5208,6 +5355,10 @@
 				"source": "DMG",
 				"page": 183,
 				"srd": true,
+				"referenceSources": [
+					"WDMM",
+					"CoA"
+				],
 				"reprintedAs": [
 					"Nine Lives Stealer|XDMG"
 				],
@@ -5294,52 +5445,6 @@
 				]
 			},
 			"hasFluffImages": true
-		},
-		{
-			"name": "Oceanic Weapon",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"type": "R"
-				},
-				{
-					"property": "T"
-				},
-				{
-					"type": "R|XPHB"
-				},
-				{
-					"property": "T|XPHB"
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"inherits": {
-				"namePrefix": "Oceanic ",
-				"source": "TDCSR",
-				"page": 199,
-				"rarity": "rare",
-				"reqAttune": true,
-				"bonusWeapon": "+1",
-				"modifySpeed": {
-					"static": {
-						"swim": 30
-					}
-				},
-				"recharge": "dawn",
-				"entries": [
-					"This elegant weapon is adorned with engravings depicting leaping dolphins and drifting jellyfish. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon, and you ignore {@quickref Underwater Combat|PHB|3|0|the normal penalties on ranged weapon attacks while using this weapon underwater}. While holding the weapon in front of you with both hands, you have a swimming speed of 30 feet.",
-					"Additionally, while you hold the weapon, you can use an action to cast the {@spell water breathing} spell. Once this property is used, it can't be used again until the next dawn."
-				],
-				"attachedSpells": {
-					"daily": {
-						"1e": [
-							"water breathing"
-						]
-					}
-				}
-			}
 		},
 		{
 			"name": "Orb of Shielding (Fernian Basalt)",
@@ -5768,6 +5873,62 @@
 			}
 		},
 		{
+			"name": "Repeating Shot",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple",
+					"property": "A|XPHB"
+				},
+				{
+					"weaponCategory": "martial",
+					"property": "A|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Repeating ",
+				"source": "EFA",
+				"page": 112,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the {@itemProperty LD|XPHB|Loading} property if it has that property.",
+					"If the weapon lacks ammunition, it produces its own, automatically creating one piece of magic ammunition when the wielder makes a ranged attack roll with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
+				]
+			}
+		},
+		{
+			"name": "Returning Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple",
+					"property": "T|XPHB"
+				},
+				{
+					"weaponCategory": "martial",
+					"property": "T|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Returning ",
+				"source": "EFA",
+				"page": 112,
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it, and it returns to your hand immediately after you use it to make a ranged attack roll."
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
+				]
+			}
+		},
+		{
 			"name": "Ruidium Armor",
 			"type": "GV|DMG",
 			"requires": [
@@ -5959,6 +6120,9 @@
 				"namePrefix": "Silvered ",
 				"source": "XDMG",
 				"page": 304,
+				"referenceSources": [
+					"DrDe-TDoN"
+				],
 				"rarity": "common",
 				"entries": [
 					"An alchemical process has bonded silver to this magic weapon. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage."
@@ -6168,6 +6332,10 @@
 				"source": "DMG",
 				"page": 206,
 				"srd": true,
+				"referenceSources": [
+					"CoA",
+					"VEoR"
+				],
 				"reprintedAs": [
 					"Sword of Life Stealing|XDMG"
 				],
@@ -6281,6 +6449,9 @@
 				"source": "DMG",
 				"page": 206,
 				"srd": true,
+				"referenceSources": [
+					"WDMM"
+				],
 				"reprintedAs": [
 					"Sword of Sharpness|XDMG"
 				],
@@ -6642,6 +6813,9 @@
 				"source": "DMG",
 				"page": 209,
 				"srd": true,
+				"referenceSources": [
+					"CoA"
+				],
 				"reprintedAs": [
 					"Vicious Weapon|XDMG"
 				],
@@ -6699,6 +6873,9 @@
 				"source": "DMG",
 				"page": 209,
 				"srd": true,
+				"referenceSources": [
+					"LLK"
+				],
 				"reprintedAs": [
 					"Vorpal Sword|XDMG"
 				],
@@ -6944,6 +7121,9 @@
 				"nameSuffix": " of Warning",
 				"source": "DMG",
 				"page": 213,
+				"referenceSources": [
+					"JttRC"
+				],
 				"reprintedAs": [
 					"Weapon of Warning|XDMG"
 				],
@@ -6992,6 +7172,9 @@
 							"Each subject has {@variantrule Advantage|XPHB} on its {@variantrule Initiative|XPHB} rolls."
 						]
 					}
+				],
+				"classFeatures": [
+					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"

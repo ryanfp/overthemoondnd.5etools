@@ -582,6 +582,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"M"
 			],
@@ -1127,6 +1130,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"M"
 			],
@@ -1607,6 +1613,9 @@
 				{
 					"source": "SjA"
 				}
+			],
+			"referenceSources": [
+				"SjA"
 			],
 			"size": [
 				"M"
@@ -2114,6 +2123,9 @@
 				{
 					"source": "VEoR"
 				}
+			],
+			"referenceSources": [
+				"VEoR"
 			],
 			"size": [
 				"G"
@@ -3251,6 +3263,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"H"
 			],
@@ -3472,6 +3487,9 @@
 				{
 					"source": "AATM"
 				}
+			],
+			"referenceSources": [
+				"AATM"
 			],
 			"size": [
 				"M"
@@ -4143,6 +4161,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"M"
 			],
@@ -4692,6 +4713,9 @@
 					"source": "SatO"
 				}
 			],
+			"referenceSources": [
+				"SatO"
+			],
 			"size": [
 				"M"
 			],
@@ -5194,7 +5218,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning damage"
+						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning damage."
 					]
 				}
 			],
@@ -8027,6 +8051,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"M"
 			],
@@ -8973,6 +9000,9 @@
 				{
 					"source": "QftIS"
 				}
+			],
+			"referenceSources": [
+				"QftIS"
 			],
 			"size": [
 				"S"
@@ -10243,7 +10273,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -10453,7 +10487,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf",
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					},
 					"wizard"
 				]
 			},
@@ -10628,7 +10666,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -10818,7 +10860,11 @@
 				"type": "humanoid",
 				"tags": [
 					"cleric",
-					"elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -11014,7 +11060,11 @@
 				"type": "humanoid",
 				"tags": [
 					"cleric",
-					"elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -11268,7 +11318,11 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf"
+					{
+						"tag": "elf",
+						"prefix": "Drow",
+						"prefixHidden": true
+					}
 				]
 			},
 			"alignment": [
@@ -12696,6 +12750,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"M"
 			],
@@ -14121,6 +14178,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"M"
 			],
@@ -15455,8 +15515,7 @@
 				{
 					"name": "Burning Fury",
 					"entries": [
-						"When the salamander takes fire damage, its",
-						"Freezing Breath automatically recharges."
+						"When the salamander takes fire damage, its Freezing Breath automatically recharges."
 					]
 				}
 			],
@@ -15712,6 +15771,9 @@
 				{
 					"source": "SjA"
 				}
+			],
+			"referenceSources": [
+				"SjA"
 			],
 			"size": [
 				"T"
@@ -16248,6 +16310,9 @@
 					"source": "SjA"
 				}
 			],
+			"referenceSources": [
+				"SjA"
+			],
 			"size": [
 				"M"
 			],
@@ -16466,10 +16531,10 @@
 				{
 					"source": "WDMM",
 					"page": 312
-				},
-				{
-					"source": "BMT"
 				}
+			],
+			"referenceSources": [
+				"BMT"
 			],
 			"size": [
 				"M"
@@ -17634,6 +17699,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"L"
 			],
@@ -17742,6 +17810,9 @@
 			"isNamedCreature": true,
 			"source": "MPMM",
 			"page": 148,
+			"referenceSources": [
+				"KftGV"
+			],
 			"size": [
 				"L"
 			],
@@ -22336,6 +22407,9 @@
 					"source": "VEoR"
 				}
 			],
+			"referenceSources": [
+				"VEoR"
+			],
 			"size": [
 				"M"
 			],
@@ -22825,6 +22899,9 @@
 					"source": "SatO"
 				}
 			],
+			"referenceSources": [
+				"SatO"
+			],
 			"size": [
 				"L"
 			],
@@ -23299,6 +23376,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"M"
 			],
@@ -23452,7 +23532,7 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 3 ({@damage 1d6}) necrotic damage"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 3 ({@damage 1d6}) necrotic damage."
 					]
 				},
 				{
@@ -23635,6 +23715,9 @@
 				{
 					"source": "CoA"
 				}
+			],
+			"referenceSources": [
+				"CoA"
 			],
 			"size": [
 				"M"
@@ -25298,6 +25381,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"M"
 			],
@@ -25467,6 +25553,9 @@
 					"source": "VEoR"
 				}
 			],
+			"referenceSources": [
+				"VEoR"
+			],
 			"size": [
 				"M"
 			],
@@ -25616,6 +25705,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"S"
 			],
@@ -25754,6 +25846,9 @@
 					"source": "SjA"
 				}
 			],
+			"referenceSources": [
+				"SjA"
+			],
 			"size": [
 				"T"
 			],
@@ -25846,6 +25941,9 @@
 				{
 					"source": "CoA"
 				}
+			],
+			"referenceSources": [
+				"CoA"
 			],
 			"size": [
 				"M"
@@ -26171,6 +26269,7 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
@@ -26500,6 +26599,9 @@
 				{
 					"source": "CoA"
 				}
+			],
+			"referenceSources": [
+				"CoA"
 			],
 			"size": [
 				"M"
@@ -27551,6 +27653,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"L"
 			],
@@ -27832,6 +27937,9 @@
 				{
 					"source": "CoA"
 				}
+			],
+			"referenceSources": [
+				"CoA"
 			],
 			"size": [
 				"G"
@@ -29915,6 +30023,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"L"
 			],
@@ -30514,6 +30625,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"M"
 			],
@@ -30885,6 +30999,9 @@
 				{
 					"source": "AATM"
 				}
+			],
+			"referenceSources": [
+				"AATM"
 			],
 			"size": [
 				"M"
@@ -31336,6 +31453,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"S"
 			],
@@ -31423,6 +31543,9 @@
 				{
 					"source": "BMT"
 				}
+			],
+			"referenceSources": [
+				"BMT"
 			],
 			"size": [
 				"L"
@@ -31554,6 +31677,9 @@
 				{
 					"source": "BMT"
 				}
+			],
+			"referenceSources": [
+				"BMT"
 			],
 			"size": [
 				"M"
@@ -31763,6 +31889,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"M"
 			],
@@ -31890,6 +32019,9 @@
 				{
 					"source": "BMT"
 				}
+			],
+			"referenceSources": [
+				"BMT"
 			],
 			"size": [
 				"M"
@@ -32235,6 +32367,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"H"
 			],
@@ -32305,6 +32440,9 @@
 				{
 					"source": "AATM"
 				}
+			],
+			"referenceSources": [
+				"AATM"
 			],
 			"size": [
 				"L"
@@ -33118,6 +33256,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"M"
 			],
@@ -33326,6 +33467,9 @@
 			"name": "Sword Wraith Commander",
 			"source": "MPMM",
 			"page": 239,
+			"referenceSources": [
+				"CRCotN"
+			],
 			"size": [
 				"M"
 			],
@@ -33480,6 +33624,9 @@
 			"name": "Sword Wraith Warrior",
 			"source": "MPMM",
 			"page": 239,
+			"referenceSources": [
+				"CRCotN"
+			],
 			"size": [
 				"M"
 			],
@@ -35075,6 +35222,9 @@
 					"source": "AATM"
 				}
 			],
+			"referenceSources": [
+				"AATM"
+			],
 			"size": [
 				"T"
 			],
@@ -36146,6 +36296,9 @@
 					"source": "BMT"
 				}
 			],
+			"referenceSources": [
+				"BMT"
+			],
 			"size": [
 				"M"
 			],
@@ -36744,6 +36897,9 @@
 					"source": "CoA"
 				}
 			],
+			"referenceSources": [
+				"CoA"
+			],
 			"size": [
 				"M"
 			],
@@ -36915,6 +37071,9 @@
 				{
 					"source": "FRAiF"
 				}
+			],
+			"referenceSources": [
+				"FRAiF"
 			],
 			"size": [
 				"M"
@@ -38042,6 +38201,9 @@
 				{
 					"source": "BMT"
 				}
+			],
+			"referenceSources": [
+				"BMT"
 			],
 			"size": [
 				"L"

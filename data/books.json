@@ -820,7 +820,7 @@
 			]
 		},
 		{
-			"name": "Sage Advice Compendium",
+			"name": "Sage Advice Compendium (2014)",
 			"id": "SAC",
 			"source": "SAC",
 			"group": "other",
@@ -829,6 +829,7 @@
 				"path": "covers/SAC.webp"
 			},
 			"published": "2019-01-31",
+			"revised": "2024-08-05",
 			"author": "Wizards RPG Team",
 			"contents": [
 				{
@@ -849,7 +850,8 @@
 						"Combat",
 						"Spellcasting",
 						"Monsters",
-						"Magic Items"
+						"Magic Items",
+						"Rules Questions"
 					]
 				}
 			]
@@ -1064,7 +1066,7 @@
 					]
 				},
 				{
-					"name": "Building Eberron Adventures",
+					"name": "Building Eberron Adventures - The Last War",
 					"ordinal": {
 						"type": "chapter",
 						"identifier": 4
@@ -2913,360 +2915,6 @@
 					"name": "Campus Map",
 					"ordinal": {
 						"type": "appendix"
-					}
-				},
-				{
-					"name": "Credits"
-				}
-			]
-		},
-		{
-			"name": "Tal'Dorei Campaign Setting Reborn",
-			"id": "TDCSR",
-			"source": "TDCSR",
-			"group": "setting",
-			"cover": {
-				"type": "internal",
-				"path": "covers/TDCSR.webp"
-			},
-			"published": "2022-01-18",
-			"author": "Darrington Press",
-			"contents": [
-				{
-					"name": "Preface"
-				},
-				{
-					"name": "Welcome to Tal'Dorei",
-					"ordinal": {
-						"identifier": 1,
-						"type": "chapter"
-					},
-					"headers": [
-						"Lands of Tal'Dorei",
-						"What's in This Book?",
-						"Calendar, Time, and the Cosmos",
-						"A History of Tal'Dorei",
-						{
-							"header": "Myth of Exandria",
-							"depth": 1
-						},
-						{
-							"header": "The Calamity",
-							"depth": 1
-						},
-						{
-							"header": "The Divergence",
-							"depth": 1
-						},
-						{
-							"header": "Origins of Tal'Dorei",
-							"depth": 1
-						},
-						{
-							"header": "Tal'Dorei Ascendant",
-							"depth": 1
-						},
-						{
-							"header": "A Fledgling Republic",
-							"depth": 1
-						},
-						"Running a Tal'Dorei Campaign"
-					]
-				},
-				{
-					"name": "Allegiances of Tal'Dorei",
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 2
-					},
-					"headers": [
-						"Pantheon of Exandria",
-						{
-							"header": "Prime Deities",
-							"depth": 1
-						},
-						{
-							"header": "Betrayer Gods",
-							"depth": 1
-						},
-						{
-							"header": "Lesser Idols",
-							"depth": 1
-						},
-						"Factions and Societies",
-						{
-							"header": "Tal'Dorei Council",
-							"depth": 1
-						},
-						{
-							"header": "Arcana Pansophical",
-							"depth": 1
-						},
-						{
-							"header": "The Ashari",
-							"depth": 1
-						},
-						{
-							"header": "Brawler's League",
-							"depth": 1
-						},
-						{
-							"header": "Chamber of Whitestone",
-							"depth": 1
-						},
-						{
-							"header": "Claret Orders",
-							"depth": 1
-						},
-						{
-							"header": "The Clasp",
-							"depth": 1
-						},
-						{
-							"header": "Golden Grin",
-							"depth": 1
-						},
-						{
-							"header": "Houses of Kraghammer",
-							"depth": 1
-						},
-						{
-							"header": "League of Miracles",
-							"depth": 1
-						},
-						{
-							"header": "Library of the Cobalt Soul",
-							"depth": 1
-						},
-						{
-							"header": "The Myriad",
-							"depth": 1
-						},
-						{
-							"header": "The Remnants",
-							"depth": 1
-						},
-						{
-							"header": "Wardens of Syngorn",
-							"depth": 1
-						}
-					]
-				},
-				{
-					"name": "Tal'Dorei Gazetteer",
-					"ordinal": {
-						"identifier": 3,
-						"type": "chapter"
-					},
-					"headers": [
-						"Lucidian Coast",
-						"Alabaster Sierras",
-						"Dividing Plains",
-						"Cliffkeep Mountains",
-						"Stormcrest Mountains",
-						"Rifenmist Peninsula",
-						"Verdant Expanse",
-						"Bladeshimmer Shoreline",
-						"Other Lands of Exandria"
-					]
-				},
-				{
-					"name": "Character Options",
-					"ordinal": {
-						"identifier": 4,
-						"type": "chapter"
-					},
-					"headers": [
-						"Playing in a Tal'Dorei Campaign",
-						"Races and Cultures",
-						{
-							"header": "Dragonblood",
-							"depth": 1
-						},
-						{
-							"header": "Dwarves",
-							"depth": 1
-						},
-						{
-							"header": "Elemental Ancestry",
-							"depth": 1
-						},
-						{
-							"header": "Elves",
-							"depth": 1
-						},
-						{
-							"header": "Firbolgs",
-							"depth": 1
-						},
-						{
-							"header": "Gnomes",
-							"depth": 1
-						},
-						{
-							"header": "Goblinkin",
-							"depth": 1
-						},
-						{
-							"header": "Half-Giants",
-							"depth": 1
-						},
-						{
-							"header": "Halflings",
-							"depth": 1
-						},
-						{
-							"header": "Humans",
-							"depth": 1
-						},
-						{
-							"header": "Orcs",
-							"depth": 1
-						},
-						{
-							"header": "Tieflings",
-							"depth": 1
-						},
-						{
-							"header": "Mixed Ancestry",
-							"depth": 1
-						},
-						{
-							"header": "Other Races",
-							"depth": 1
-						},
-						"Subclasses",
-						{
-							"header": "Hemocraft",
-							"depth": 1
-						},
-						{
-							"header": "Barbarian",
-							"depth": 1
-						},
-						{
-							"header": "Bard",
-							"depth": 1
-						},
-						{
-							"header": "Cleric",
-							"depth": 1
-						},
-						{
-							"header": "Druid",
-							"depth": 1
-						},
-						{
-							"header": "Monk",
-							"depth": 1
-						},
-						{
-							"header": "Paladin",
-							"depth": 1
-						},
-						{
-							"header": "Sorcerer",
-							"depth": 1
-						},
-						{
-							"header": "Wizard",
-							"depth": 1
-						},
-						{
-							"header": "Backgrounds",
-							"index": 1
-						},
-						"Supernatural Blessing: Fate-Touched",
-						"New Feats"
-					]
-				},
-				{
-					"name": "Game Master's Toolkit",
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 5
-					},
-					"headers": [
-						"Creating Adventures",
-						"Tal'Dorei Treasures",
-						{
-							"header": "Magic items",
-							"depth": 1
-						},
-						{
-							"header": "Tools of the Ashari",
-							"depth": 1
-						},
-						{
-							"header": "Vestiges of Divergence",
-							"depth": 1
-						},
-						"Optional Campaign Rules"
-					]
-				},
-				{
-					"name": "Allies and Adversaries of Tal'Dorei",
-					"ordinal": {
-						"identifier": 6,
-						"type": "chapter"
-					},
-					"headers": [
-						"Nonplayer Creatures",
-						{
-							"header": "Aboleths",
-							"depth": 1
-						},
-						{
-							"header": "Catfolk",
-							"depth": 1
-						},
-						{
-							"header": "Centaurs",
-							"depth": 1
-						},
-						{
-							"header": "Dragons",
-							"depth": 1
-						},
-						{
-							"header": "Driders",
-							"depth": 1
-						},
-						{
-							"header": "Fey",
-							"depth": 1
-						},
-						{
-							"header": "Giantkin",
-							"depth": 1
-						},
-						{
-							"header": "Gnolls",
-							"depth": 1
-						},
-						{
-							"header": "Lizardfolk",
-							"depth": 1
-						},
-						{
-							"header": "Sahuagin",
-							"depth": 1
-						},
-						"New Creatures"
-					]
-				},
-				{
-					"name": "Index of Artists",
-					"ordinal": {
-						"type": "appendix",
-						"identifier": "A"
-					}
-				},
-				{
-					"name": "Continent Map",
-					"ordinal": {
-						"type": "appendix",
-						"identifier": "B"
 					}
 				},
 				{
@@ -6433,6 +6081,40 @@
 			]
 		},
 		{
+			"name": "Sage Advice Compendium (2025)",
+			"id": "XSAC",
+			"source": "XSAC",
+			"group": "other",
+			"cover": {
+				"type": "internal",
+				"path": "covers/XSAC.webp"
+			},
+			"published": "2025-04-30",
+			"revised": "2025-04-30",
+			"author": "Wizards RPG Team",
+			"contents": [
+				{
+					"name": "Sage Advice Compendium",
+					"headers": [
+						"Rules References",
+						"Official Rulings",
+						"Ability Checks",
+						"Adventuring",
+						"Combat",
+						"Multiclassing",
+						"Class Features",
+						"Backgrounds",
+						"Species Traits",
+						"Feats",
+						"Equipment",
+						"Spellcasting",
+						"Monsters",
+						"Magic Items"
+					]
+				}
+			]
+		},
+		{
 			"name": "Astarion's Book of Hungers",
 			"id": "ABH",
 			"source": "ABH",
@@ -7100,7 +6782,7 @@
 			"name": "Netheril's Fall",
 			"id": "NF",
 			"source": "NF",
-			"group": "supplement",
+			"group": "setting-alt",
 			"cover": {
 				"type": "internal",
 				"path": "covers/NF.webp"
@@ -7188,6 +6870,208 @@
 						"type": "appendix",
 						"identifier": "B"
 					}
+				},
+				{
+					"name": "Credits"
+				}
+			]
+		},
+		{
+			"name": "Lorwyn: First Light",
+			"id": "LFL",
+			"source": "LFL",
+			"group": "setting-alt",
+			"cover": {
+				"type": "internal",
+				"path": "covers/LFL.webp"
+			},
+			"published": "2025-11-18",
+			"author": "Wizards RPG Team",
+			"contents": [
+				{
+					"name": "Welcome to Lorwyn-Shadowmoor",
+					"headers": [
+						"Using This Supplement",
+						"The Idyllic Fields of Lorwyn",
+						"The Sinister Wilds of Shadowmoor",
+						"Eclipsed Realms",
+						"Traversing Lorwyn-Shadowmoor",
+						"Lorwyn-Shadowmoor's History"
+					]
+				},
+				{
+					"name": "Lorwyn-Shadowmoor Origins",
+					"headers": [
+						"Backgrounds",
+						"Feats",
+						"Adapting Species",
+						"Species Descriptions"
+					]
+				},
+				{
+					"name": "Lorwyn-Shadowmoor Gazetteer",
+					"headers": [
+						"Lorwyn",
+						"Shadowmoor"
+					]
+				},
+				{
+					"name": "Bestiary",
+					"headers": [
+						"Adapting Other Creatures",
+						"Creature Descriptions"
+					]
+				},
+				{
+					"name": "Lorwyn Adventures",
+					"headers": [
+						"The Aeghith",
+						{
+							"depth": 1,
+							"header": "A1: Greeting Hall"
+						},
+						{
+							"depth": 1,
+							"header": "A2: Meeting Halls"
+						},
+						{
+							"depth": 1,
+							"header": "A3: Auxiliary Entrance"
+						},
+						{
+							"depth": 1,
+							"header": "A4: Storage Closets"
+						},
+						{
+							"depth": 1,
+							"header": "A5: Director's Office"
+						},
+						{
+							"depth": 1,
+							"header": "A6: Community Hall"
+						},
+						{
+							"depth": 1,
+							"header": "A7: Relaxation Room"
+						},
+						"Sample Adventures"
+					]
+				},
+				{
+					"name": "Credits"
+				}
+			]
+		},
+		{
+			"name": "Eberron: Forge of the Artificer",
+			"id": "EFA",
+			"source": "EFA",
+			"group": "setting",
+			"cover": {
+				"type": "internal",
+				"path": "covers/EFA.webp"
+			},
+			"published": "2025-12-09",
+			"author": "Wizards RPG Team",
+			"contents": [
+				{
+					"name": "Introduction: Forge of the Artificer",
+					"headers": [
+						"A Box of New Tools",
+						"The Draconic Prophecy"
+					]
+				},
+				{
+					"name": "The Artificer",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					},
+					"headers": [
+						"Artificer Subclasses",
+						"Spell"
+					]
+				},
+				{
+					"name": "Character Options",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					},
+					"headers": [
+						"Dragonmarks",
+						"Backgrounds",
+						"Species Descriptions",
+						"Feats"
+					]
+				},
+				{
+					"name": "Bastions in Khorvaire",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					},
+					"headers": [
+						"Mobile Bastions",
+						"Special Facilities"
+					]
+				},
+				{
+					"name": "Sharn Inquisitives",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					},
+					"headers": [
+						"Inquisitive Characters",
+						"Sharn Inquisitives Conflicts",
+						"Sharn Neighborhoods",
+						"The Enemy of My Enemy"
+					]
+				},
+				{
+					"name": "Dragonmarked Intrigue",
+					"headers": [
+						"Dragonmarked Characters",
+						"Dragonmarked Conflicts",
+						"Dragonmarked Houses",
+						"Dragonmarked Intrigue Adventures"
+					]
+				},
+				{
+					"name": "Morgrave Expeditions",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					},
+					"headers": [
+						"Morgrave Characters",
+						"Morgrave Conflicts",
+						"Morgrave University",
+						"Dangerous Destinations",
+						"Race For The Crab Temple",
+						"Morgrave Expedition Adventure"
+					]
+				},
+				{
+					"name": "Elemental Airships",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					},
+					"headers": [
+						"Operating an Airship",
+						"Airships in Combat",
+						"Elemental Airships",
+						"Upgrading an Airship",
+						"Journeys in the Skies"
+					]
+				},
+				{
+					"name": "Appendix: Magic Items"
+				},
+				{
+					"name": "Appendix: Art of Eberron"
 				},
 				{
 					"name": "Credits"

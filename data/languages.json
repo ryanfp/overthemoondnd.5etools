@@ -56,12 +56,14 @@
 		{
 			"name": "Aglarondan",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Aglarond"
 		},
 		{
 			"name": "Alzhedo",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Calimshan"
 		},
@@ -69,6 +71,9 @@
 			"name": "Alzhedo",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Alzhedo|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Calishite ethnic group"
 			],
@@ -104,6 +109,7 @@
 		{
 			"name": "Bothii",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Uthgardt nomads"
 		},
@@ -111,6 +117,9 @@
 			"name": "Bothii",
 			"source": "SKT",
 			"page": 86,
+			"reprintedAs": [
+				"Bothii|FRHoF"
+			],
 			"typicalSpeakers": [
 				"{@creature Uthgardt Barbarian Leader|SKT|Uthgardt barbarians}",
 				"{@creature Uthgardt Shaman|SKT|Uthgardt shamans}"
@@ -180,6 +189,7 @@
 		{
 			"name": "Chessentan",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Chessenta"
 		},
@@ -187,6 +197,9 @@
 			"name": "Chessentan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Chessentan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -206,6 +219,7 @@
 		{
 			"name": "Chondathan",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Chondath"
 		},
@@ -213,6 +227,9 @@
 			"name": "Chondathan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Chondathan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Chondathan ethnic group",
 				"Tethyrian ethnic group"
@@ -365,6 +382,7 @@
 		{
 			"name": "Damaran",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Damara"
 		},
@@ -372,6 +390,9 @@
 			"name": "Damaran",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Damaran|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Damaran ethnic group",
 				"Nar ethnic group"
@@ -1074,6 +1095,7 @@
 		{
 			"name": "Illuskan",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "The North"
 		},
@@ -1081,6 +1103,9 @@
 			"name": "Illuskan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Illuskan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Illuskan ethnic group"
 			],
@@ -1235,6 +1260,7 @@
 		{
 			"name": "Lantanese",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Lantan"
 		},
@@ -1296,6 +1322,7 @@
 		{
 			"name": "Midani",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Bedine nomads"
 		},
@@ -1303,6 +1330,9 @@
 			"name": "Midani",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Midani|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Bedine ethnic group"
 			],
@@ -1353,6 +1383,7 @@
 		{
 			"name": "Mulhorandi",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Mulhorand"
 		},
@@ -1360,6 +1391,9 @@
 			"name": "Mulhorandi",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Mulhorandi|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -1405,6 +1439,7 @@
 		{
 			"name": "Netherese",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Netheril"
 		},
@@ -1416,6 +1451,9 @@
 				{
 					"source": "ToD"
 				}
+			],
+			"reprintedAs": [
+				"Netherese|FRHoF"
 			],
 			"script": "Draconic"
 		},
@@ -1602,6 +1640,7 @@
 		{
 			"name": "Rashemi",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Rashemen"
 		},
@@ -1609,6 +1648,9 @@
 			"name": "Rashemi",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Rashemi|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Rashemi ethnic group"
 			],
@@ -1628,6 +1670,7 @@
 		{
 			"name": "Reghedjic",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Reghed nomads"
 		},
@@ -1674,6 +1717,7 @@
 		{
 			"name": "Sespech",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Sespech"
 		},
@@ -1852,6 +1896,7 @@
 		{
 			"name": "Thayan",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Thay"
 		},
@@ -1859,6 +1904,9 @@
 			"name": "Thayan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Thayan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -1960,6 +2008,7 @@
 		{
 			"name": "Turmic",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Turmish"
 		},
@@ -1967,6 +2016,9 @@
 			"name": "Turmic",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Turmic|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Turami ethnic group"
 			],
@@ -2039,6 +2091,7 @@
 		{
 			"name": "Untheric",
 			"source": "FRHoF",
+			"page": 49,
 			"type": "standard",
 			"origin": "Unther"
 		},
@@ -2046,6 +2099,9 @@
 			"name": "Untheric",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Untheric|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],

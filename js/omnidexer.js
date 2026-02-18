@@ -50,6 +50,7 @@ class Omnidexer {
 		 *   r: 1 // if SRD 5.1
 		 *   r2: 1 // if SRD 5.2
 		 *   [dP: 1] // if partnered
+		 *   [dR: 1] // if reprinted
 		 *   c: 10, // category ID
 		 *   id: 123, // index ID
 		 *   [t: "spell"], // tag
@@ -106,6 +107,7 @@ class Omnidexer {
 	 * @param [options.isIncludeUid]
 	 * @param [options.isIncludeImg]
 	 * @param [options.isIncludeExtendedSourceInfo]
+	 * @param [options.isSkipNonPartnered]
 	 */
 	async pAddToIndex (arbiter, json, options) {
 		options = options || {};
@@ -152,6 +154,7 @@ class Omnidexer {
 		if (name) name = name.toAscii();
 
 		const toAdd = await this._pAddToIndex_pGetToAdd(state, ent, {n: name}, ix);
+		if (!toAdd) return;
 
 		if ((options.isNoFilter || (!arbiter.include && !(arbiter.filter && arbiter.filter(ent))) || (!arbiter.filter && (!arbiter.include || arbiter.include(ent)))) && !arbiter.isOnlyDeep) index.push(toAdd);
 
@@ -159,6 +162,7 @@ class Omnidexer {
 		const deepItems = await arbiter.pGetDeepIndex(this, primary, ent, {name});
 		for (const item of deepItems) {
 			const toAdd = await this._pAddToIndex_pGetToAdd(state, ent, item);
+			if (!toAdd) continue;
 			if (!arbiter.filter || !arbiter.filter(ent)) index.push(toAdd);
 		}
 	}
@@ -167,6 +171,7 @@ class Omnidexer {
 		const {arbiter, options} = state;
 
 		const src = Omnidexer.getProperty(ent, arbiter.source || "source");
+		if (options.isSkipNonPartnered && src && !SourceUtil.isPartneredSourceWotc(src)) return null;
 
 		const hash = arbiter.hashBuilder
 			? arbiter.hashBuilder(ent, i)
@@ -185,6 +190,7 @@ class Omnidexer {
 		if (arbiter.isFauxPage) indexDoc.hx = 1;
 		if (ent.srd) indexDoc.r = 1;
 		if (ent.srd52) indexDoc.r2 = 1;
+		if (ent.reprintedAs || ent.isReprinted) indexDoc.dR = 1;
 
 		if (src) {
 			if (SourceUtil.isPartneredSourceWotc(src)) indexDoc.dP = 1;
