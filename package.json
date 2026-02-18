@@ -1,9 +1,9 @@
 {
-	"name": "overthemoondnd-5etools",
-	"author": "ryanfp",
-	"version": "0.7.0",
+	"name": "5etools",
+	"author": "TheGiddyLimit",
+	"version": "2.24.3",
 	"license": "MIT",
-	"description": "A personal version of 5e.tools to create a fully integrated D&D compendium. This is 'A site dedicated to making playing games with your friends as easy as possible.'",
+	"description": "A site dedicated to making playing games with your friends as easy as possible.",
 	"type": "module",
 	"private": true,
 	"scripts": {
@@ -29,13 +29,13 @@
 		"test:unit": "node --localstorage-file test/localstorage.tmp --experimental-vm-modules node_modules/jest/bin/jest.js",
 		"test": "npm run test:js && npm run test:unit && npm run test:css && npm run test:data",
 		"lint": "npm run lint:js && npm run lint:css && npm run lint:data",
-		"build:css": "node node_modules/sass/sass.js --style=compressed scss/:css/ && node node/rm.js css/includes/ css/vars/",
+		"build:css": "node node_modules/sass/sass.js scss/:css/ --style=compressed && node node/rm.js css/includes/ css/vars/",
 		"build:seo": "node node/generate-seo.js",
 		"build:sw": "node node/build-sw.mjs",
 		"build:sw:prod": "node node/build-sw.mjs prod",
 		"build": "npm run clean-jsons && npm run gen && npm run build:css && npm run build:sw:prod",
 		"fullbuild": "cd homebrew && npm run build && cd .. && npm run build && git add .",
-		"preversion": "echo skipping tests for personal fork",
+		"preversion": "npm test",
 		"version": "node node/version-bump.js",
 		"serve:dev": "http-server -c-1 --cors --port 5050",
 		"serve:dev:tls": "http-server -c-1 --cors --port 5051 --tls --cert certs-dev-only/throwaway-cert.pem --key certs-dev-only/throwaway-key.pem",
@@ -48,7 +48,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ryanfp/overthemoondnd.5etools"
+		"url": "git+https://github.com/5etools-mirror-3/5etools-src"
 	},
 	"devDependencies": {
 		"5etools-utils": "^0.15.0",
@@ -65,7 +65,7 @@
 		"prettier": "^3.2.5",
 		"probe-image-size": "^7.2.3",
 		"readline-sync": "^1.4.10",
-		"sass": "^1.94.2",
+		"sass": "^1.71.1",
 		"sharp": "^0.33.2",
 		"simple-git": "^3.22.0",
 		"stylelint": "^16.2.1",
@@ -74,9 +74,9 @@
 		"workbox-cli": "^7.1.0"
 	},
 	"bugs": {
-		"url": "https://github.com/ryanfp/overthemoondnd.5etools/issues"
+		"url": "https://github.com/5etools-mirror-3/5etools-src/issues"
 	},
-	"homepage": "https://5etools.overthemoondnd.com",
+	"homepage": "https://github.com/5etools-mirror-3/5etools-src#readme",
 	"directories": {
 		"lib": "lib",
 		"test": "test"
